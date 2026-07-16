@@ -1,4 +1,5 @@
 import { Provider as JotaiProvider } from "jotai";
+import { useEffect } from "react";
 import {
   Links,
   Meta,
@@ -37,6 +38,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
+  // Register the SW (offline shell) client-side in production only.
+  useEffect(() => {
+    if (import.meta.env.PROD && "serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register(`${import.meta.env.BASE_URL}sw.js`)
+        .catch(() => {});
+    }
+  }, []);
+
   return (
     <JotaiProvider>
       <Outlet />

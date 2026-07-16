@@ -4,12 +4,14 @@
   "description": "",
   "scripts": {
     "dev": "react-router dev",
-    "build": "react-router build && cp build/client/index.html build/client/404.html",
+    "build": "react-router build && cp build/client/index.html build/client/404.html && node scripts/build-sw.mjs",
     "preview": "vite preview",
     "typecheck": "react-router typegen && tsc",
     "test": "vitest run",
     "test:watch": "vitest",
     "depcruise": "depcruise app",
+    "verify:e2e": "node scripts/verify-e2e.mjs",
+    "verify:offline": "pnpm build && node scripts/verify-offline.mjs",
     "deploy:gh": "pnpm build && gh-pages -d build/client"
   },
   "keywords": [],
@@ -45,10 +47,11 @@
     "fake-indexeddb": "6.2.5",
     "gh-pages": "6.3.0",
     "jsdom": "29.1.1",
+    "playwright": "1.61.1",
     "tailwindcss": "4.3.2",
     "typescript": "6.0.3",
     "vite": "8.1.4",
-    "vite-plugin-pwa": "1.3.0",
-    "vitest": "4.1.10"
+    "vitest": "4.1.10",
+    "workbox-build": "7.4.1"
   }
 }

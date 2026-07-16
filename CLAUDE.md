@@ -15,5 +15,10 @@
 - **TypeScript is pinned to 6.x, NOT latest (7.x).** TS 7 is the native compiler but dependency-cruiser (and much boundary/lint tooling) only supports `<7` as of this writing, and it silently cruises 0 modules under TS 7. Revisit the upgrade once [dependency-cruiser](https://github.com/sverweij/dependency-cruiser/issues/1069) supports TS 7.
 - **Long-running tasks run in tmux** (dev server, verification). **Never assume the Vite port** — another Vite project already runs on 5173, so RR dev picks 5174+. Read the actual port from the tmux pane output.
 
+## Verification
+- Pure logic (parse/encoding/search/scroll geometry) + component integration are unit-tested (`pnpm test`, jsdom + fake-indexeddb).
+- Real-browser end-to-end: start dev in tmux, then `pnpm verify:e2e` (drives all features via Playwright; reads `PORT`, default 5174). Offline/SW: `pnpm verify:offline` (builds, serves, cuts network). Playwright's Chromium is required (`pnpm exec playwright install chromium`).
+
 ## Deploy
 - Static SPA → GitHub Pages via `pnpm deploy:gh` (manual; no CI). Base path is `VITE_BASE` (default `/faqminder/`) in `vite.config.ts` + `react-router.config.ts`. `build/client/404.html` is the SPA deep-link fallback (copied from `index.html` at build).
+- Service worker (offline shell) is generated post-build by `scripts/build-sw.mjs` (Workbox), NOT vite-plugin-pwa — the plugin fights RR framework mode's per-environment `build/client` outDir. Registered client-only in `root.tsx` (prod).

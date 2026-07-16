@@ -58,7 +58,7 @@ Conservative: when unsure, fall back to `other`. Reflowable blocks render a smal
 - [x] **P4 Formatting** — global persisted font-size atom (`domains/reader`, localStorage via jotai, getOnInit no-flash), `FormattingControls` A−/A+ stepper in reader header, applied to scroll region. 23 green. (Global not per-doc; line-height left fixed — utilitarian.)
 - [x] **P5 Selection search** — `lib/search` (case-insensitive, per-block hits w/ context, unit-tested), `SelectionSearch` (co-located): selectionchange→count pill→bottom-sheet list→tap jumps + flashes block. 29 green.
 - [x] **P6 Prose reflow** — `lib/parse` conservative classifier (relative hard-wrap test + list-marker/art-run guards; verified across all 8 fixtures), `reflowText`, `domains/document` override persistence (db v3 docState), `BlockView` renders art verbatim / prose reflowed-with-¶-toggle (indent preserved), default-on. 36 green. NB: indented-list/floated-box kinds reserved — v1 reflows confident prose only (lists/boxes stay verbatim, conservative).
-- [ ] **P7 PWA + polish** — manifest/icons, offline verify, empty/error states, end-to-end verify against fixtures.
+- [x] **P7 PWA + polish** — SW via post-build Workbox (`scripts/build-sw.mjs`, precache 18 files, navigateFallback), client-only registration in root, manifest + SVG icon. Real-browser E2E (`scripts/verify-e2e.mjs`, 13 checks: import→reader→font→reflow→selection-jump→scroll-restore-across-reload→list) + offline verify (`scripts/verify-offline.mjs`, SW serves shell with network cut) both pass. Empty/error/busy states in place.
 
 Each phase = its own commit(s). Update this table + note surprises before ending a session.
 
