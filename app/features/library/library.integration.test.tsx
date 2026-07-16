@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { MemoryRouter } from "react-router";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
@@ -32,8 +32,8 @@ describe("import → persist → list (integration)", () => {
       faqFile("EarthBound_ Mother 2 - FAQ - SNES - By Y.txt", "EarthBound content"),
     ]);
 
-    await waitFor(() => expect(screen.getByText("Chrono Trigger")).toBeInTheDocument());
-    expect(screen.getByText("EarthBound: Mother 2")).toBeInTheDocument();
+    expect(await screen.findByText("Chrono Trigger")).toBeInTheDocument();
+    expect(await screen.findByText("EarthBound: Mother 2")).toBeInTheDocument();
 
     const rows = await db.faqs.toArray();
     expect(rows).toHaveLength(2);

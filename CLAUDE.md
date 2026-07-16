@@ -12,7 +12,7 @@
 
 ## Tooling
 - **pnpm only.** Add deps with `pnpm add <pkg>@latest` — never hand-pick versions. `pnpm-workspace.yaml` sets `savePrefix:''` (exact pins) and pre-approves `esbuild` builds. Build-script approval (`pnpm approve-builds`) is interactive — do not attempt it non-interactively; surface to the user if a new dep needs it.
-- **TypeScript is pinned to 6.x, NOT latest (7.x).** TS 7 is the native compiler but dependency-cruiser (and much boundary/lint tooling) only supports `<7` as of this writing, and it silently cruises 0 modules under TS 7. Revisit the upgrade once the toolchain supports TS 7.
+- **TypeScript is pinned to 6.x, NOT latest (7.x).** TS 7 is the native compiler but dependency-cruiser (and much boundary/lint tooling) only supports `<7` as of this writing, and it silently cruises 0 modules under TS 7. Revisit the upgrade once [dependency-cruiser](https://github.com/sverweij/dependency-cruiser/issues/1069) supports TS 7.
 - **Long-running tasks run in tmux** (dev server, verification). **Never assume the Vite port** — another Vite project already runs on 5173, so RR dev picks 5174+. Read the actual port from the tmux pane output.
 
 ## Deploy
