@@ -54,7 +54,7 @@ Conservative: when unsure, fall back to `other`. Reflowable blocks render a smal
 - [x] **P0 Scaffold** — Vite+RR8(fw mode,`ssr:false`)+TS6+Tailwind4, pnpm, Vitest, depcruise boundaries (13 mod, 0 violations), layer dirs, `404.html`, `deploy:gh`. Verified: typecheck/build/depcruise/test green; dev server 200 on `:5174/faqminder/`. PWA SW → P7.
 - [x] **P1 Storage + import** — Dexie (`domains/library`, split faqs/contents tables), `lib/encoding` (BOM + CP1252 + mojibake repair), `lib/filename`, `features/import` + `features/library`. Tests: encoding/filename units + import→persist→list integration (fake-indexeddb). 10 green.
 - [x] **P2 Reader + switch** — `lib/parse` block splitter (all `art` until P6), `features/reader` renders verbatim mono blocks w/ `data-block-id` (anchor/search hooks), `faq.$id` route via `clientLoader` reading IndexedDB + ErrorBoundary. Switch = navigation. Tests: parse units + reader render (exact ASCII preserved). 17 green. NB: `domains/document` deferred to P6 (parse is pure/ephemeral for now).
-- [ ] **P3 Scroll bookmark** — anchor persistence + restore.
+- [x] **P3 Scroll bookmark** — `domains/db` (centralized Dexie, v2 adds readerState), `domains/reader` persistence, `lib/scroll` anchor geometry (unit-tested), `useScrollBookmark` restores pre-paint + saves throttled on scroll & on pagehide/visibility-hidden (mobile purge). Reader keyed by faqId. 22 green.
 - [ ] **P4 Formatting** — font size / line-height controls, persisted, applied via CSS vars.
 - [ ] **P5 Selection search** — `lib/search`, overlay, jump-to-instance + highlight.
 - [ ] **P6 Prose reflow** — classifier at import, per-block toggle icon, override persistence.

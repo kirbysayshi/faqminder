@@ -1,8 +1,16 @@
 import { useLiveQuery } from "dexie-react-hooks";
-import { db } from "./db";
-import type { FaqMeta, NewFaqInput } from "./types";
+import { db, type FaqMeta } from "~/domains/db";
 
-export type { FaqMeta, FaqContent, NewFaqInput } from "./types";
+export type { FaqMeta, FaqContent } from "~/domains/db";
+
+export interface NewFaqInput {
+  title: string;
+  source: string;
+  text: string;
+  byteSize: number;
+  encoding: string;
+  repaired: boolean;
+}
 
 export async function addFaq(input: NewFaqInput): Promise<string> {
   const id = crypto.randomUUID();
@@ -13,8 +21,8 @@ export async function addFaq(input: NewFaqInput): Promise<string> {
       title: input.title,
       source: input.source,
       addedAt: Date.now(),
-      byteSize: input.byteSize,
       lineCount,
+      byteSize: input.byteSize,
       encoding: input.encoding,
       repaired: input.repaired,
     });
@@ -24,9 +32,10 @@ export async function addFaq(input: NewFaqInput): Promise<string> {
 }
 
 export async function deleteFaq(id: string): Promise<void> {
-  await db.transaction("rw", db.faqs, db.contents, async () => {
+  await db.transaction("rw", db.faqs, db.contents, db.readerState, async () => {
     await db.faqs.delete(id);
     await db.contents.delete(id);
+    await db.readerState.delete(id);
   });
 }
 

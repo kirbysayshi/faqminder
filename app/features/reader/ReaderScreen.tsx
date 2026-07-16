@@ -1,7 +1,9 @@
-import { useMemo } from "react";
+import { useMemo, useRef } from "react";
 import { Link } from "react-router";
 import { parseDocument } from "~/lib/parse";
 import type { FaqMeta } from "~/domains/library";
+import type { ReaderState } from "~/domains/reader";
+import { useScrollBookmark } from "./useScrollBookmark";
 
 const LINE_HEIGHT = 1.4;
 
@@ -9,8 +11,18 @@ const LINE_HEIGHT = 1.4;
 // renders each block verbatim (monospace). Wide ASCII art scrolls horizontally;
 // font size (P4) is driven by the --reader-font CSS var. Blocks carry
 // data-block-id for scroll-anchoring (P3) and selection jumps (P5).
-export function ReaderScreen({ meta, text }: { meta: FaqMeta; text: string }) {
+export function ReaderScreen({
+  meta,
+  text,
+  initialAnchor = null,
+}: {
+  meta: FaqMeta;
+  text: string;
+  initialAnchor?: ReaderState | null;
+}) {
   const doc = useMemo(() => parseDocument(text), [text]);
+  const scrollRef = useRef<HTMLDivElement>(null);
+  useScrollBookmark(meta.id, scrollRef, initialAnchor);
 
   return (
     <div className="flex h-dvh flex-col bg-neutral-950">
@@ -26,6 +38,7 @@ export function ReaderScreen({ meta, text }: { meta: FaqMeta; text: string }) {
       </header>
 
       <div
+        ref={scrollRef}
         data-reader-scroll
         className="flex-1 overflow-auto overscroll-contain px-3 py-2"
         style={{ fontSize: "var(--reader-font, 14px)" }}

@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { MemoryRouter } from "react-router";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
-import { db } from "~/domains/library/db";
+import { db } from "~/domains/db";
 import { ImportButton } from "~/features/import";
 import { LibraryScreen } from "./LibraryScreen";
 
