@@ -1,8 +1,10 @@
+import { useAtomValue } from "jotai";
 import { useMemo, useRef } from "react";
 import { Link } from "react-router";
 import { parseDocument } from "~/lib/parse";
 import type { FaqMeta } from "~/domains/library";
-import type { ReaderState } from "~/domains/reader";
+import { readerFontAtom, type ReaderState } from "~/domains/reader";
+import { FormattingControls } from "./FormattingControls";
 import { useScrollBookmark } from "./useScrollBookmark";
 
 const LINE_HEIGHT = 1.4;
@@ -22,6 +24,7 @@ export function ReaderScreen({
 }) {
   const doc = useMemo(() => parseDocument(text), [text]);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const font = useAtomValue(readerFontAtom);
   useScrollBookmark(meta.id, scrollRef, initialAnchor);
 
   return (
@@ -35,13 +38,14 @@ export function ReaderScreen({
           ‹
         </Link>
         <h1 className="min-w-0 flex-1 truncate text-sm font-medium">{meta.title}</h1>
+        <FormattingControls />
       </header>
 
       <div
         ref={scrollRef}
         data-reader-scroll
         className="flex-1 overflow-auto overscroll-contain px-3 py-2"
-        style={{ fontSize: "var(--reader-font, 14px)" }}
+        style={{ fontSize: `${font}px` }}
       >
         <div className="w-max min-w-full">
           {doc.blocks.map((block) => (

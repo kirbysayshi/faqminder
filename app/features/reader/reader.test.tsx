@@ -1,8 +1,9 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import { MemoryRouter } from "react-router";
-import { describe, expect, it } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 import type { FaqMeta } from "~/domains/library";
 import { ReaderScreen } from "./ReaderScreen";
 
@@ -26,6 +27,18 @@ function renderReader(text: string) {
 }
 
 describe("ReaderScreen", () => {
+  beforeEach(() => localStorage.clear());
+
+  it("applies and steps the persisted font size", async () => {
+    const user = userEvent.setup();
+    const { container } = renderReader("hello");
+    const scroll = container.querySelector<HTMLElement>("[data-reader-scroll]")!;
+    expect(scroll.style.fontSize).toBe("14px");
+    await user.click(screen.getByLabelText("Increase text size"));
+    expect(scroll.style.fontSize).toBe("15px");
+    expect(localStorage.getItem("faqminder:reader-font")).toBe("15");
+  });
+
   it("renders each block as a verbatim, id-tagged <pre>", () => {
     const { container } = renderReader("banner\nline2\n\ntext");
     const blocks = container.querySelectorAll("pre[data-block-id]");
