@@ -1,0 +1,633 @@
+ï»¿===============================================================================
+===============================================================================
+                       Fatal Frame 2 - Crimson Butterfly
+                                FAQ/Walkthrough
+                               For PlayStation 2
+                            By: Mario Satria Andika
+                    FAQ version 1.0 (Last update:01/02/2004)
+                   Copyright Â© 2003-2004 Mario Satria Andika
+===============================================================================
+===============================================================================
+       ________
+      / ______/                                       ~~~~
+     / /__  _     _______  _       _                ~~~~~~~~
+    / ___/ /_\   /__  __/ /_\     //              ~~~~~~~~~~~~
+   / /    //_\\    / /   //_\\   //_             ~~~~~    ~~~~~
+  /_/    /_/ \_\  /_/   /_/ \_\ /__/             ~~~~      ~~~~
+          ________                                         ~~~~
+         / ______/                                        ~~~~
+        / /__                                           ~~~~
+       / ___/ ###       #     #     #  #####         ~~~~~
+      / /     #  #     # #    ### ###  #           ~~~~~
+     /_/      ###     #####   # ### #  ###        ~~~~~
+              # #    #     #  #  #  #  #         ~~~~~~~~~~~~~~
+              #  #  #       # #     #  #####     ~~~~~~~~~~~~~~
+                C R I M S O N     B U T T E R F L Y
+===============================================================================
+===============================================================================
+
+/-----------------\
+|Table of Contents|
+\-----------------/
+
+I.   Introduction
+II.  Copyright Info
+III. Menu Explanations
+IV.  General Tips
+V.   Walkthrough
+   1. Prologue
+   2. Chapter One   - The Lost Village
+   3. Chapter Two   - Twin Shrine Maiden
+   4. Chapter Three - The Repentance
+   5. Chapter Four  - Forbidden Ritual
+   6. Chapter Five  - The Sacrifice
+   7. Chapter Six   - The Remaining
+   8. Chapter Seven - Sae
+   9. Chapter Eight - Half Moon
+   10.Final Chapter - Crimson Butterfly
+VI.  Secrets
+VII. Camera Obscura
+VIII.Game Review
+IX.  Credits
+===============================================================================
+          I.  Introduction
+===============================================================================
+
+This is my first FAQ ever. Please notice me if there are any typos and
+other mistakes. You can contact me at:
+ --> speed_12@metacrawler.com
+/-----------------------------------\
+|NOTE:This FAQ is 90%+ spoiler free.|
+\-----------------------------------/
+Fatal Frame 2 - Crimson Butterfly is a prequel to the one of the most popular
+survival horror titles "Fatal Frame". The story takes place in a lost village
+in Japan called All God's Village. The main characters are twin sisters Mio and
+Mayu. Mio is the younger sister who is the stronger girl and the one you play
+as, while Mayu is the elder sister and psychically more sensitive girl. The
+story is about a sacred ritual in the village involving twins.
+
+I'm not a survival horror fan but this game really worths to be played even for
+non survival horror fans. I have only beaten the game in Easy mode and I'm
+writing this FAQ as I'm playing the Normal mode.
+
+===============================================================================
+          II. Copyright Info
+===============================================================================
+
+This may be not be reproduced under any circumstances except for personal,
+private use. It may not be placed on any web site or otherwise distributed
+publicly without advance written permission. Use of this guide on any other
+web site or as a part of any public display is strictly prohibited, and a
+violation of copyright. Only GameFAQs (http://www.gamefaqs.com) may post this
+FAQ. All trademarks and copyrights contained in this document are owned by
+their respective trademark and copyright holders.
+
+===============================================================================
+          III.Menu Explanations
+===============================================================================
+
+Main Menu
+=========
+1.New Game
+----------
+  Starts a new game.
+
+2.Load Game
+-----------
+  Loads a previously saved game.
+
+3.Album
+-------
+  Views photo album data.
+
+4.Gallery
+---------
+  View images and videos.
+
+5.Options
+---------
+  -Control Settings  =>Lets you change and view the control settings.
+    *Movement               ->Toggles the movement type 2D/3D.
+    *Look                   ->Toggles the looking way Normal/Inverted.
+    *Switch L/R analog stick
+    *Button Config.
+  -Vibration         =>Toggles the vibration ON/OFF.
+  -Brightness        =>Lets you adjust the graphic brightness.
+  -Subtitles         =>Toggles the subtitles ON/OFF.
+  -Sound Output      =>Sets the sound output Mono/Stereo.
+  -Volume            =>Adjusts the sound volume.
+  -Restore to default=>Restores all settings to default settings.
+
+Pause Menu
+==========
+1.Map
+-----
+  Views the map at your current location.
+
+2.Items
+-------
+  Lets you view and/or use items.
+
+3.Camera
+--------
+  Lets you change the equipped functions/power-up lenses of the camera and
+  upgrade the camera.
+
+4.Photo
+-------
+  Lets you see and manage previously taken photos (up to 16 photos).
+
+5.File
+------
+  Lets you view files (Old books, scraps, notebooks, photos, and maps).
+
+6.Memo
+------
+  Lets you view Mio's written memos.
+
+7.Radio
+-------
+  Lets you hear voices inside stones with the radio.
+
+8.Spirit List (Must beat the game first to get it.)
+-------------
+  Lets you view captured spirits.
+
+===============================================================================
+          IV. General Tips
+===============================================================================
+
+- Always check drawers, pots, etc for items.
+- Always try to get Zero Shots when fighting hostile spirits, they give you
+  much higher damage and score (it saves your films).
+- Always try to get Multiple Shots when fighting several spirits at once, they
+  save your films and give you higher score.
+- Always try to use the worst film possible, the good films are rare and
+  precious.
+
+===============================================================================
+          V.  Walkthrough
+===============================================================================
+
+1. Prologue
+-----------
+After the opening FMV, you will get to control Mio. Just walk down the path,
+following Mayu until you see another FMV sequence.
+
+2. Chapter One - The Lost Village
+---------------------------------
+Turn right, pick the black bag and continue down the path. Upon entering the
+village, you will see a ghost walking to the inside of the village. Follow her
+and you will see a cutscene of Mio and Mayu entering the house (this is called
+Osaka house). Now walk towards the door and you will see a spirit in the room
+to your left. Approach the door and you will see another FMV. Now take the
+glowing blue sphere for a "Woman's Notebook 1" (These blue spheres represent
+items in Fatal Frame 2 - Crimson Butterfly). Now go to the room on the top left
+from your current position and take "Woman's Notebook 2". You'll see a red
+lantern that has a dim glow, this is a save point. Check all the drawers here
+and go back to the Sunken Fireplace Room (You'll know the place names from the
+map). Now go to the corridor in the opposite direction of the Entrance and at
+the intersection you'll see another spirit. Go to the direction where the
+spirit is going and enter the door. Search around the room for Woman's Notebook
+3 and leave the room. Go to the previous intersection and you'll see that ghost
+again. Follow her into the Family Altar room. In here, before you take the item
+on the table, search around the room for Woman's Notebook 5, a Herbal Medicine,
+and finally that item on the table. After that you'll see an FMV sequence and
+instructions about using the Camera Obscura. Try to get out of the room and
+you'll see another FMV scene. Get rid of the ghost at the door and get out of
+the room. Go back to the Sunken Fireplace room and enter the door below the
+stairs. Search the bedlump for Woman's Notebook 4 and the drawer for a Herbal
+Medicine. Now try to exit the house and see the cutscene and you'll see a ghost
+in front of the Big Tatami Room. Take a shot of her (Note: Everytime you see
+a suddenly appearing ghost like this, immediately take a shot of him/her
+because it'll add up your points).Another spirit will appear in front of the
+door, keeping the door shut. Shot this spirit and a picture of a coal brazier
+in the Back Room will appear. Now go to the Back Room and take a shot of the
+coal brazier there. As the spirit should be gone by now, enter the Big Tatami
+Room. Check the closet door and try to leave the room. The closet door will
+fall down, revealing an item inside. Go grab the item and a spirit will appear
+behind you. After taking care of the spirit, exit the room, shoot another
+spirit, and go upstairs. Unlock and enter the door in the corridor. Now take
+the Woman's Notebook 6 on the table, find the Woman's Notebook 7 at the corner
+of the next room, and take the item at the bottom of the screen. FMV cutscene.
+Now beat the hostile spirit using the camera obscura and see another FMV.
+
+3. Chapter Two - Twin Shrine Maiden
+-----------------------------------
+After getting some items on the floor, get the item on the table and get out
+of the room. You'll see an FMV cutscene and gain control of Mayu. Just follow
+the crimson butterflies to the intersection. After you gain control of Mio
+again, take a herbal medicine in the kimono room and get out of there. You'll
+encounter some more hostile spirits. Get rid of them and go to the entrance.
+Take Mayu's Charm here and get out of the house. Go further in from Mayu's
+last location and see the FMV. Now take picture of the spirit on the door, move
+away from the door and fight all the hostile spirits. After that go to the main
+road and follow the crimson butterflies. You can take picture of a Frozen Man
+in a broken house along the way. Enter the door where the crimson butterflies
+leads to. You'll see a cutscene. Now exit from there and go to the place where
+you just started chapter one (a hill with big rocks outside the village).
+Search the guardian deity statue with crimson butterflies over it and take the
+Twin Statue Key L. Try to go back to the village and some hostile ghosts will
+appear. Beat them and go back to the village and see another FMV. Now go left
+at the intersection and go all the way to the end of the road until you can see
+another guardian deity statue with crimson butterflies over it. Now go to the
+mansion which Mayu entered, unlock the door and go inside. Head right and take
+a Herbal Medicine on the ground, and cross the bridge. At about 75 percent of
+the bridge length, you'll see a spirit to your left. Take a shot of it and
+watch the cutscene. Now fight the hostile spirit. This one often disappears and
+reappears on your back so be careful. After beating her, take the item on the
+bridge and shot another spirit here. Now fully cross the bridge and enter the
+door. A ghost will appear, shoot it and take the Spirit Orb around the corner
+of this area and enter the mansion through the main door. Watch the FMV scene.
+
+4. Chapter Three - The Repentance
+---------------------------------
+You'll notice that the flashlight won't work in this house. Walk in and a ghost
+of a priest will appear behind you. After shooting him, enter the door on the
+left. Take picture of the Terrified Man and take the item on the ground (it's
+a camera function). Search the drawers near the terrified man for a herbal
+medicine and some Type-14 Film. Try to enter the other door and you'll gain
+control of Mayu again. Just go straight and turn right at the end of the path
+and enter the door to the right. Approach the girl in kimono and you'll be
+controlling Mio again. Enter the door and go down the path like Mayu did.
+You'll encounter a ghost at the intersection and another one at the corner.
+After beating the ghosts, take the Spirit Orb at the end of the path and enter
+the door which Mayu entered.
+
+As a little precaution before entering this room, a BIG GHOST is about to
+appear!! It's called the Kusabi, one hit from him will instantly kill you and
+you can't kill this guy, so you need to move quickly across the room.
+
+After entering the door, take the item on the ground and there is a Sacred
+Water at the inside bottom-left corner of this room. Go to the door to the
+bottom-right corner and you'll see a creepy FMV cutscene and the Kusabi will
+appear. Now turn back (do NOT try to fight him because he is undefeatable now),
+and turn left at the corner. Before entering the door, search the screen near
+the door to get some Type-90 Film (Be careful, if he is too close to you you'd
+better escape first, re-enter the room, take the Film, and escape again).
+
+Now turn right and go down the path to get the Stone Mirror. Turn back and go
+to the opposite direction up the stairs and save at the lantern near the door
+before entering. Enter the door, go down the corridor, turn right at the corner
+, and enter the door. Take Type-61 Films in the drawer near you and search the
+bookcase for some books (namely Folklorist 3) and enter the other door. Now
+search the thing that looks like a wooden bag to your left for a Herbal
+Medicine. Head outwards the screen and shot the ghost at the door. Now go back
+pass the Great Hall (the room where the Kusabi is in) to the Dirt-floor
+Passageway (be careful of the Kusabi).
+
+In the Dirt-floor Passageway, turn right at the intersection and enter the room
+(you'll encounter 2 spirits along the way). Get the useful "Blast" power-up
+lens from the floor and take a herbal medicine from the drawer. Now shot the
+spirit at the suspicious looking door and fight all the hostile spirits here.
+After that get out of the room and take the items on the floor and go to the
+Guest Room. You'll see a spirit here. Take a shot of him and take the item.
+Watch a scene. Now go to the Flickering Room, unlock and enter the door there,
+and watch another FMV scene.
+
+5. Chapter Four - Forbidden Ritual
+----------------------------------
+Get the items from where Mayu was lying and take a picture of the dolls on the
+racks. Get out of there and fight the lying spirit in the Flickering Room.
+After that re-enter the Doll Stand room and activate the device there. Now
+you'll need to move the golden clothed dolls to the top. After that you'll get
+the Butterfly Key. Go to the Guest Room and take the Kurosawa House map and a
+file there. Go to the Courtyard Staircase 1F, and search the closet at the end
+of the pathway for the "Evade" camera function. Enter the Great Hall and watch
+an FMV scene (thank God the Kusabi's gone!). Make your way back to the
+"Entrance" room and unlock the Butterfly door there (you'll encounter some
+spirits on the way). Check the drawer for a "Herbal Medicine". Approach the
+door inside the storage room and the door will open automatically, and a ghost
+child will peek at you. Take a picture of him. Enter the door and you will see
+another ghost child running away. Pick up a "Type-14 Film" on the floor. Go
+back to the storage room and up the stairs and check the crack on the floor.
+There's a spirit here. Now go downstairs and a Crimson Ball will fall down from
+the ceiling. Pick it up and use it a the crack upstairs. Now go downstairs and
+pick up the diamond-link key. Enter the door that "previously opened
+automatically" and enter the door at the end of the hallway. Now enter the door
+at Mio's right. Take the Folklorist 8 on the floor and check the Cell door. Now
+go to the hallway at the opposite side of the cell. Check the space at Mio's
+right and take the Type-61 Film. Now just go straight until the end of the
+hallway, turn left and go down the stairs to the Underground Cellar. Go further
+in and fight the priest spirit here and take the Spirit Orb from him. Now save
+your game here and check the door upstairs (you'll notice that this is the exit
+that is shown in the Kurosawa House Map).
+
+Now go back to the Warehouse corridor (the corridor which connects the
+Storeroom and the Warehouse) and you'll see a spirit entering the double-doors.
+Enter the door and fight the hostile spirit there. After that search around for
+some items and books. Now go to the left wing of the Family Altar room and up
+the stairs. Take the items here and make Mayu stand on the switch. After that
+enter the small door and approach the fencing. You'll see a "hard-to-see"
+spirit. After that go to the 2F of the Storeroom and enter the door there. Now
+take all the books in the hexagonal bookcase and put them in the front-side of
+the bookcase, in this order:
+1.Crimson Wing Tome
+2.Taboo Tome
+3.Twin Tome
+4.Disaster Tome
+5.Ritual Tome
+Now you should have one of the keys. Go back to the Family Altar room and go
+downstairs through the
+left wing staircase. Take the item here, go through the door and continue down
+the path until you reach an intersection with a forkroad. Take any fork, make
+Mayu stand on the switch before the door. Now you should step on the switch on
+the other fork, this should open the door. Take the key and go through the door
+to take a book here. Go back to the Warehouse. Unlock the cell and go inside.
+Check the bookcases for some items and books, also take some Type-90 Films near
+the cell door inside. After that get out of the cell room and you'll see an FMV
+of Mayu trapped there.
+
+6. Chapter Five - The Sacrifice
+-------------------------------
+Go to the Underground Cellar, fight the hostile spirit there, save and exit
+through the door locked with Hammer key. The flashlight should be back on. Now
+go to the back of the Storehouse where the white-haired boy (Itsuki) is in and
+talk to him. Now go to the Family Altar of the Osaka house and activate the
+mechanism there. You must make the adjacent side of the pinwheels have the same
+color (It should be easy). Now open the newly unlocked door beside the
+mechanism and go down the stairs.
+
+Just go down the path until you reach an opening (there'll be a spirit). Now
+search the drawers to Mio's left to get some items. After that go to the bottom
+left side of the screen and check the crate there. You'll see an FMV and you'll
+fight aa hostile spirit called the Mourner. Beware that after you hit him with
+the camera he'll counterattack with multiple swings, so step back after hitting
+him. After beating him, take the rusty key and go back upstairs. Open the door
+to the corridor and a hostile spirit (Sudo Miyako) will attack you. Try to
+fight her in open areas because she can be seen easier that way (she'll
+teleport inside walls ambushing you if you're fighting in a confined space).
+After beating her, get out of the house.
+
+Go to the Cell in the Kurosawa House through the Underground Cellar (you'll
+fight two mourners here). Take Mayu's Note on the Cell table and you'll gain
+control of Mayu. Just follow the path and you'll gain control of Mio again.
+Just go to Mayu's last location and you'll see another FMV scene. Enter the
+house on the right (Kiryu house). Take the item below the stairs and go up the
+stairs. On the second floor, turn right, and then left, and enter the room to
+the left. Check the drawers and bookcases for a camera function and some books
+here. Now go back to the stairs and enter the door in front of you, this will
+lead you to a Connecting Bridge. Check the door and take the crystal on the
+bridge. Head back and a ghost will attack you, beat her. Now get out of the
+Kiryu house. Check the map and you'll see a red door marked with a cross. Go
+there and take picture of the spirit there. Now go to the well near the
+Storehouse and take picture of the ghost there. The door should be unlocked
+now. Enter the door and you'll finish chapter five.
+
+7. Chapter Six - The Remaining
+------------------------------
+Go through the other door and take the items here, then go through the other
+door. Now enter the open room on the right and search around for Type-61 Films.
+After that enter the second door to the left and search the drawers and stuffs
+here for a book and a herbal medicine. Back to the corridor, enter the other
+open room and search around for items there, after that go to the door at the
+far left. That should lead to a staircase, ascend it. Now go down the hallway
+and enter an open room here. Take picture of some ghosts and take some items
+here, after that enter the door at the end of the hallway. Now go down the
+hallway until you reach an intersection. Head north (according to the map) and
+unlock the door at the end ofthe corridor. Now go downstairs through the
+staircase nearby and you'll see an FMV and fight a ghost. Get rid of her (this
+is one of the most annoying ghost, it's hard to get a Zero shot of her). After
+that take the crystal from the grandfather's clock and the item on the floor.
+Now unlock and enter the other door. Enter the door across of you. There's not
+much here, just try to open the door and two ghosts will appear behind you.
+After taking picture of them, go through the door. Now before you walk further
+I will warn you that you're gonna face the most annoying enemy in the game, the
+twin sisters Akane and Azami. One of them is a fake doll and I haven't figured
+a way to differentiate them. Walk a bit and you'll face them. After beating
+them, go to the northwest room and look at the window with your camera, and a
+child ghost will suddenly pop up. Take a picture. Then go to the southwest end
+of the corridor and unlock the door there (don't enter it). After that go to
+the opposite side of the corridor and unlock the door at the end of the
+corridor but don't enter it. Enter the red door near the end of that corridor,
+take an item there and take picture of a spirit here. Now go back to the
+Twins' Room and take a book and Type-90 Films there. Go to the Family Altar
+room and take picture of the Hidden Man. Now go to the unentered room next to
+this one and take the item on the table. After that go to the room in the
+Hallway of Contrasts which you haven't entered yet (Storeroom with window).
+Take picture of the ghost there. Now go to the Sliding Screen Room 1F and enter
+the Storeroom there to take picture of that ghost again. Now Storeroom 2F
+(again). Now go to the Doll Room and put the doll parts to the incomplete doll.
+After that go to the Sealed Room and take picture of a spirit in the corner.
+Now go to the Entrance and fight the dollmaker's spirit. After beating him, go
+back to the Doll room. Put the Glass Eyes on the doll and the device should be
+working now. You must make the dolls face each other (easy). After that you'll
+fight those twins. After beating them you'll see an scene. Go down the ladder
+and go to the other side of the cave and you'll see another FMV cutscene.
+
+8. Chapter Seven - Sae
+----------------------
+First of all, save here, because after you get out of this room you'll
+encounter Sae again. She can kill you with one hit so beware (just like the
+Kusabi, you need to be very, very quick). Get out and quickly dash to the other
+side of the corridor and enter the farthest door. Now go to the Entrance room
+and try to leave (the layout of this house is the same with Kiryu house). Now
+go back to the Staircase and go upstairs (save first). Walk a bit and you'll
+see an FMV involving Sae. Quickly enter the nearest door and to the other side
+of the room, enter the door on the right. Enter the door just beside you. Now
+enter the room on the bottom right side of the screen and take the item there.
+Get out of there and enter the room on the top left side (do it quickly). After
+an FMV scene, get out of the room and check the door with mechanism on the top
+left corner. Now go back to the Storeroom, take the doll and check that door
+with mechanism again. Make the dolls face each other (easy) and enter the door.
+Cross the bridge and enter the Kiryu house. Go to the Doll Room and enter the
+passage. Cross the passage back to the Large Storeroom of the Tachibana house.
+Unlock the door to the Twins' Room and enter it to get some stuffs. After that
+unlock the other door in the room and enter it. Unlock the door across you and
+enter it and ascend the stairs. Walk the path and turn left at the intersection
+. Check the door here and you'll find Mayu is inside! Take picture of the
+crimson kimono girl and follow her to the door. Turn left and check the open
+room for some items. Now check the closets beneath the room. You'll fight that
+crimson kimono girl (her name is Chitose). After beating her go to the
+Storeroom 2F (you've been here before when running away from Sae), take a
+Spirit Orb here (don't forget to take Type-90 Films at the Row of Tatami
+Rooms-E). And go to the Row of Tatami Rooms-W to fight the crimson kimono girl
+again (open the closet door to fight her). Now go to the Entrance and fight
+some hostile spirits. Now check the closet to fight her again. Then go to the
+Deluxe Tatami Room and check the closet to get her once more. Before going to
+the room where Mayu was, you can check the Sliding Screen Room for the Zero
+Power-up lens. After that go to the room where Mayu was and check the entire
+room before taking the item on the table. Now take that item and you'll see an
+FMV cutscene.
+
+9. Chapter Eight - Half Moon
+--------------------------------
+After exiting the Kiryu House, turn right and go down the path until you reach
+a forkroad. Take the left path and take picture of the spirit there. After that
+go to the right path and take picture of two spirits in front of the shrine.
+Enter the shrine, take picture of the spirit in front of the altar. Now take
+all the items and go under the fence, you'll fight a tough priest spirit. After
+beating him go back to the old tree and you'll fight a priest again on your way
+there. After beating that priest enter the old tree and watch the scene. Take
+picture of the spirit on the altar and also take picture of Mayu from behind.
+Check the altar and try to leave. A spirit will appear over Mayu, take picture
+of it and go to the Storehouse where Itsuki is locked in. You'll see an FMV
+cutscene. Take the Type-Zero Films to the left and enter the inner part of the
+Storehouse. Take all items and take picture of the village map. Now leave there
+and enter the Osaka house. Go to the Kimono Room and check the crate at the
+back of the room, you'll fight a ghost. Defeat her and take the Osaka Crest
+near the crate. Now go to the Sliding Screen Room 2F of the Kiryu house (do not
+use the main entrance, use the side door). You'll find a spirit facing a door,
+take a picture of her and enter the open room. Check the top-right wall beside
+the kimono and you'll find that the wall is rotatable. Enter the Hidden room
+and take the Kiryu Crest. Try to leave and you'll fight those annoying twins.
+After defeating them go to the Cemetery (it is near the hill outside the
+village for those who don't know). Locate the shrine (not Kureha Shrine) and
+take picture of the spirit. Now wander around the cemetery until you sense a
+spirit (it should be near the tombstones). Take picture of the tombstone with
+spirit and fight the hostile spirit. After that go back to the shrine and take
+the Tsuchihara crest there. Now go back to the Old Tree and activate the
+mechanism on the altar. It goes like this: topleft, bottom right, bottom right,
+bottom right, bottom left, topright. Now approach Mayu and you'll see a scene.
+
+10. Final Chapter - Crimson Butterfly
+-------------------------------------
+Try to get to Kureha Shrine and you'll see an FMV. Fight all the hostile
+spirits. After defeating them, you have two choices, to run away alone and
+leave Mayu behind or to go after her (running away alone will give you the
+worst ending a.k.a Game Over screen, but it's worth trying it after you save
+your game). Go down the stairs and you'll gain control of Mayu. Just cross the
+bridge and enter the door. Back to Mio-chan, go to the Family Altar Room of the
+Kurosawa house, and you'll gain control of Mayu again. Follow the path until
+the intersection, and follow the crimson butterflies to the door. Mio-chan
+again, go to the Rope Temple (save before entering) and you'll fight Kurosawa
+and priests. Killing Kurosawa will kill all the other priests. After that save
+again and go through the door. In here just follow the very long path which
+will be guarded by mourners (they're damn annoying!) until you reach an opening
+with twins on the altar. Take picture of them and I recommend you to go back up
+and save there, because the Kusabi can kill you in one hit and you wouldn't
+want to fight all those mourners again. Prepare your Type-90 Films, and enter
+the cave to fight the Kusabi.
+
+Final Boss(Easy/Normal mode): Kusabi
+------------------------------------
+I can't say of any strategy, I even think that he's easier than the Mourners or
+the Twins, just some useful tips:
+-Don't run away too far or he'll heal himself.
+-You can only do Zero shots to him (no normal shot).
+-Try to do combo shots (preferably combined with the "Zero" power-up lens).
+-Type-90 Film is your best friend, if you miss the shutter chance with slow
+ films like Type-07, Type-14 or Type-Zero films, just say goodbye.
+-He'll usually teleport behind you after getting hit so be aware of his
+ location (don't use the camera view all the time, you can move quicker in the
+ normal movement mode).
+
+Well I think that's all, after beating him just go approach Mayu to see Ending
+A:Crimson Butterfly (Easy/Normal mode).
+===============================================================================
+          VI.  Secrets
+===============================================================================
+
+Beating the game in any difficulty mode will allow you to replay the game with
+all of your items and weapons.
+
+Beating the game in Easy mode:
+------------------------------
+-Unlock mission mode.
+-Unlock Promotional Images and Art Gallery.
+-Get the additional function to see new ghosts (Sense).
+
+Beating the game in Normal mode:
+--------------------------------
+-Unlock Type-A and Type-B costumes (Pink and cyan kimonos and Blue and black
+ kimonos).
+-Unlock Accessory for Mio (glasses).
+-Unlock Hard mode.
+-Get the Track Power-up Lens.
+-Get the Zoom function.
+
+++++++++++++++
++MORE TO COME+
+++++++++++++++
+
+===============================================================================
+          VII. Camera Obscura
+===============================================================================
+
+Here are some guides about the Camera Obscura.
+
+Basic Function Upgrade:
+-----------------------
+The basic functions are more important than the power-up lenses, so upgrade
+these first. I recommend going with sensitivity until max, accumulation Lv1,
+range until max, then max the accumulation. The accumulation is not so useful
+until you get the "Special Shot" Power-up lenses, even almost useless.
+
+Power-up Lenses:
+----------------
+I haven't found much use for the non-"Special Shot" Power-up Lenses. The
+Special Shot ones are Blast and Zero. I recommend not upgrading the other
+lenses until you upgraded those two lenses to max.
+
+Films:
+------
+Always try to waste your Type-14 first before going with the Type-61, Type-90
+or Type-Zero ones. Use the Type-07 to shot non-hostile spirits. The Type-Zero
+films are for experts only, and only effective for one-on-one battles. It is
+recommended that you save the Type-90 Films for the final boss/very annoying
+enemies.
+
+Functions:
+----------
+Almost all of the optional functions are good. I'm still missing one function
+though. There's no point in unequipping the optional functions unless you're
+trying to get some challenge. Don't miss the Evade function as it can save your
+life when you're in grave danger.
+
+===============================================================================
+          VIII.Game Review
+===============================================================================
+
+This is my personal opinion about the game.
+
+Graphics (10/10)
+----------------
+Tecmo really blasted the graphical effects for this game. The ghosts' visual
+effects are scary, and they really did some very fine work for the environment
+graphics and character designs.
+
+Storyline (10/10)
+-----------------
+The environment really adds up to the story. The creeps that are given gives
+a really deep feeling into the story. The story resembles a real myth which
+makes it more interesting than a "really look like a made-up" story.
+
+Sound (10/10)
+-------------
+The sound effects are marvelous. It adds up much to the creepiness of this
+game. The voice actors/actresses also did an excellent job.
+
+Gameplay (10/10)
+----------------
+The gameplay is flawless and due to the extremely supporting environment, the
+game really hooks up people who just love games.
+
+Controls (10/10)
+--------
+I can't actually say much for the controls since it's very easy to get used
+with.
+
+Replay value (10/10)
+--------------------
+Nice to be replayed. There are two hidden difficulty modes, and you'll get new
+costumes each time you completed a difficulty mode, and you need to finish the
+game in those hidden difficulty modes to get the true(best) ending so you'll
+want to replay this game.
+
+ -----------------
+ |OVERALL (10/10)|
+ -----------------
+
+===============================================================================
+          IX.  Credits
+===============================================================================
+
+Special thanks to:
+-My parents (for buying me this game, this PC, and my PS2 console)
+-Mio Amakura (for providing me motivation to play this game)
+-GameFAQs (for hosting this FAQ)
+-Tecmo (for creating this excellent game)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End of This FAQ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,4873 @@
+                                                ___     ___
+            | ()  |____ ----  --        ----  --\  \   /  /--
+         ---+--- /   |  _|__      /    /  /  |  |\  \ /  /|  |
+          / | \     /    |       /    /  /   |  | | //  / |  |
+         /  |  \  /      \__  __/    /  /    |  |/ / --- /  /
+                                     |  | -- |    /     /  /
+            _|___          |   \\    |  ||  ||     \   /  /
+             |   |  _____  |---      \  \ | ||  |\  \ /  /
+             |   |         |          \  \| ||  |/  //   ----|
+            /    |         |           \____||_____/ |_______|
+
+
+          _____    ______    _________   _/___\      |        ||
+         /     \   |     \   |    |  |  ___|____     |        ||
+        |          |    /    | ---+- |    / / \      +----    ||
+        |     ___  |---+     |  \ |  |  /  / / /\    |        ||
+        |      |   |    \    |   _|  |   /  / /      |
+         \_____|   |     \   |_______|    /  /    ---+-----   ()
+
+
+
+                      Alamedyang's Ultimate Guide to
+           Pokemon Card GB2: Here Comes The Great Team Rocket!
+
+                      WALKTHROUGH AND TRANSLATIONS
+
+
+
+                        by Alamedyang 2001-2014
+                      alamedyang at gmail dot com
+
+
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+=========================================================================
+==============|   T A B L E     O F     C O N T E N T S   |==============
+=========================================================================
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+
+ --------------------------------------------
+//  1. Beginning Notes                     //
+--------------------------------------------
+   [1a] - About the Game
+   [1b] - An Introduction to Scumming
+   [1c] - Some Terminology
+
+ --------------------------------------------
+//  2. Walkthrough Part 1                  //
+--------------------------------------------
+   [2a] - Beginning the Game
+   [2b] - Confronting Rando
+   [2c] - Stone Club
+   [2d] - Battle Club
+   [2e] - Green Club
+   [2f] - Science Club
+   [2g] - Aqua Club
+   [2h] - Fire Club
+   [2i] - Elec Club
+   [2j] - Esper Club
+   [2k] - Airport
+
+ --------------------------------------------
+//  3. Walkthrough Part 2                  //
+--------------------------------------------
+   [3a] - GR Grass Fort
+   [3b] - GR Lightning Fort
+   [3c] - GR Fire Fort
+   [3d] - GR Water Fort
+   [3e] - GR Fighting Fort
+   [3f] - GR Psychic Stronghold
+   [3g] - Colorless Altar
+   [3h] - Final Cup (back at GB1 Island)
+   [3i] - Rocket Castle
+   [3j] - End
+
+ --------------------------------------------
+//  4. Story Extras                        //
+--------------------------------------------
+Extras on the first island (GB1):
+   [4a] - Mr. Ishihara's House
+   [4b] - Challenge Hall
+   [4c] - Dr. Ooyama's Lab
+   [4d] - Pokemon Dome
+
+Extras on the second island (GB2):
+   [4e] - Game Center
+   [4f] - Challenge Hall
+   [4g] - Mr. Ishihara's House
+   [4h] - Sealed Fort
+   [4i] - Imakuni?
+
+ --------------------------------------------
+//  5. Menus and Navigation                //
+--------------------------------------------
+   [5a] - Yes versus No
+   [5b] - Main Menu
+   [5c] - Deck Menu
+   [5d] - Deck Editing Menu
+   [5e] - MiniCom
+   [5f] - Deck Save Machine
+   [5g] - Options
+   [5h] - PC Menu
+
+ --------------------------------------------
+//  6. Dueling                             //
+--------------------------------------------
+   [6a] - Challenging Someone to a Duel
+   [6b] - The Process of a Duel
+   [6c] - Main Dueling Screen
+   [6d] - Using Cards in Your Hand
+   [6e] - The Check Command
+   [6f] - Retreating
+   [6g] - Using an Attack
+   [6h] - Pokemon Powers
+   [6i] - Status Ailments (aka Special Conditions)
+   [6j] - Stopping in the Middle of a Duel / Scumming
+
+ --------------------------------------------
+//  A. Appendix - Card Locations           //
+--------------------------------------------
+   [A1] - Bulbasaur (1) Pack List
+   [A2] - Moltres (2) Pack List
+   [A3] - Omanyte (3) Pack List
+   [A4] - Mr. Mime (4) Pack List
+   [A5] - Pidgeot (5) Pack List
+   [A6] - Rocket R (6) Pack List
+   [A7] - Rocket Grunt (7) Pack List
+   [A8] - Meowth (8) Pack Explanation
+   [A9] - Promotional Card List and Locations
+
+ --------------------------------------------
+//  B. Appendix - Miscellaneous Resources  //
+--------------------------------------------
+   [B1] - Black Box recipes
+   [B2] - Colorless Altar Guys
+
+ --------------------------------------------
+//  The End                                //
+--------------------------------------------
+    [i] - Also Available
+   [ii] - Contacting Me
+
+
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+=========================================================================
+==============|   1.  B E G I N N I N G     N O T E S    |===============
+=========================================================================
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+
+
+=========================================================================
+  [1a]  ABOUT THE GAME
+=========================================================================
+
+The story is pretty generic -- you are a card player who quests to:
+   1) defeat the evil Great Team Rocket through the game of Pokemon TCG
+   2) collect all the cards
+   3) master the game by building the best deck(s) possible
+
+Playing a match is exactly the same as the real-life Pokemon Trading
+Card Game rules (original rules from 1999), except for the Mulligan Rule
+(the drawing of 2 cards when your opponent's opening hand contains no
+Basic Pokemon).
+
+ --------------------------------------------
+// What's New in the Sequel                //
+--------------------------------------------
+- You aren't forced to begin the game with a guided practice duel. (Yay!)
+- Your starter deck is not horrible.
+- There are twice as many cards, clubs, and opponents.
+- Your mailbox and the Deck Save Machine is on person, not on a PC.
+- Opponents play much better and have 3 distinct graphic emotions.
+- Some graphics are different and some cards are better-colored.
+- Some Base Set cards have different rarities that are more appropriate
+  for the card.
+- Some opponents have specific requirements for your own deck, and some
+  play with extra rules.
+- You collect coins instead of medals, which you can then use to flip
+  your own coins in battle.
+
+ --------------------------------------------
+//  How to Get the Game                    //
+--------------------------------------------
+This game will never be released in English commercially, but there's a
+ROM patch for an English fan translation. I won't post the link here
+because of its legal status, but it's really good. It's possible to
+find online -- just look around.
+
+The best way to get a physical copy of the game is to go to someplace
+like http://auctions.yahoo.co.jp/ and, unless you live in Japan, use a
+deputy service like http://www.shoppingmalljapan.com/ to ship it to you.
+Sometimes the game pops up on eBay, but is normally fairly expensive.
+Be aware that the game is from a generation of games that used a small
+battery to retain save data and is now old enough for the batteries to
+begin to fail, so you may have to solder in a new battery if you want to
+keep saved data on your game. (Or, if the battery works, understand that
+it could fail at any time.)
+
+ --------------------------------------------
+//  Compatibility                          //
+--------------------------------------------
+Gameboy Color required; it is not compatible with the original Gameboy or
+a Gameboy Pocket. (It will work on a Gameboy Advance/SP, but not a Micro
+or DS.) You cannot trade or Card Pop! between the sequel and the
+original, though. Gameboys are not region protected, so this Japanese
+game will work perfectly on a non-Japanese Gameboy. I use an American
+Gameboy SP for mine.
+
+
+=========================================================================
+  [1b]  AN INTRODUCTION TO SCUMMING
+=========================================================================
+
+Scumming is the technique of controlled saving and reseting the game
+(turning the Gameboy off and on) in order to get a better result for
+certain random events.
+
+In this guide, when such an opportunity arises, I will make a note
+surrounded by pound signs. (##)
+
+It's possible to scum during a duel for game-changing results (depending
+on exact circumstances, of course). Two game mechanics make this
+technique possible: the auto-save feature and the tendancy of this game
+to have predetermined coin flips.
+
+ --------------------------------------------
+//  Auto-Save Feature Explained            //
+--------------------------------------------
+Every move you make during a duel is saved so that you can you can leave
+a game in progress (by turning the gameboy off) to resume later.
+
+The game does not save until you leave the screen depicting your current
+action, so if you make a mistake (i.e. attach an Energy card to the wrong
+Pokemon) you can fix it, but only if you reset before the screen changes.
+
+ --------------------------------------------
+//  Predetermined Coin Flips               //
+--------------------------------------------
+Simply put, this game doesn't do well in the random number generation
+department. In every match, you and your opponents' coin flips are (for
+all intents and purposes) predetermined -- so if you use Gameboy
+Ninetales Lv35's coin-flippy attack and don't like the results, you will
+not get different coin flips by resetting the game and trying again.
+
+On the same note, if you use Gambler and get tails then reset because
+you'd rather not waste the card on a tails, then any coin flip you make
+after that point in the match will be tails, guaranteed. Note that your
+and your opponent's coin flips are kept separately, so resetting after
+your Gambler card gets a tails will NOT make your opponent's next flip
+become tails, only your own next flip.
+
+One example of how to take advantage of this is to prevent Confusion
+damage. After you attack when Confused, you flip a coin to determine
+whether the attack succeeded or whether you take Confusion damage. If you
+get tails and would rather not hurt yourself, you could reset the game
+and then use a throwaway Trainer card like Poke Ball, which we now know
+will be tails, then attack again with a new 50/50 chance of success.
+
+Another way to exploit this system is to "save the heads" for when it
+matters. Say you are using S-Deck Magmar Lv18 to attack the Defending
+Pokemon, which happens to have 20 HP left. If you use Smog (20 damage,
+flip coin for Poison) and get heads then the Defending Pokemon becomes
+Poisoned. Though since it was KO'd from the damage alone this is
+something of a waste. If you reset to use Fire Punch instead (which also
+does 20 damage), then you'll know that your next coin flip will be heads
+and you can then be sure to Poison the next Pokemon Magmar attacks.
+
+ --------------------------------------------
+//  Morals of Scumming                     //
+--------------------------------------------
+In a very real way scumming is cheating. Some gamers look down on players
+who do this, just as some gamers look down on players who use a GameShark
+or an Action Replay. It's your sense of honor and honesty versus a small
+advantage in a children's card game, so just do what you're comfortable
+with. (I tend to choose a small advantage in a children's card game!)
+
+ --------------------------------------------
+//  Boosters                               //
+--------------------------------------------
+This isn't exploiting an auto-save feature, but it is still considered
+scumming.
+
+-- MAIL
+Occasionally you will receive mail that includes a booster pack. If you
+save right before you open the booster, then you can reset the game and
+try again if you don't get the cards you wanted. Not every mail includes
+a booster, but it's good to save right before reading any of them because
+it's hard to tell which pieces of mail have a booster.
+
+-- GIFTS
+During the story various characters will give you the gift of a booster.
+Same technique here: just save before talking to them and reset if you
+don't get good cards.
+
+Early in the game, if you are experienced with the whole spectrum of
+cards, it may be beneficial to scum for specific rares or uncommons as
+they will increase the speed and competency of your early decks.
+
+ --------------------------------------------
+//  In-Game CardPop!                       //
+--------------------------------------------
+This happens very rarely, and despite the game auto-saving it IS possible
+to scum. You just have to reset the game at the exact right time: AFTER
+the picture of the card appears, but BEFORE the game returns you to the
+overworld view. As I don't have a second copy of this game, I can't
+determine whether this also works with the infrared game-to-game CardPop!
+feature, but I kind of doubt it.
+
+
+=========================================================================
+  [1c]  SOME TERMINOLOGY
+=========================================================================
+
+ --------------------------------------------
+//  A Note About Element Types             //
+--------------------------------------------
+
+When Pokemon was adapted to a card game, each of the fifteen (at the
+time) Element types were adapted to a seven-Element system:
+
+------------------------------------------------------
+|  Subtype      Type         Weak.        Res.       |
+------------------------------------------------------
+|  Grass        Grass        Fire         --         |
+|  Bug          Grass        Fire         --         |
+|  Poison       Grass        Poison       --         |
+------------------------------------------------------
+|  Fire         Fire         Water        --         |
+------------------------------------------------------
+|  Water        Water        Lightning    --         |
+|  Water        Water        Grass        --         |
+|  Ice          n/a          n/a          --         |
+------------------------------------------------------
+|  Lightning    Lightning    Fighting     --         |
+------------------------------------------------------
+|  Fighting     Fighting     Psychic      --         |
+|  Rock         Fighting     Grass        --         |
+|  Ground       Fighting     Grass        Lightning  |
+------------------------------------------------------
+|  Psychic      Psychic      Psychic      --         |
+|  Ghost        Psychic      --           Fighting   |
+------------------------------------------------------
+|  Normal       Colorless    Fighting     Psychic    |
+|  Dragon       Colorless    --           Psychic    |
+|  Flying *     Colorless    Lightning    Fighting   |
+------------------------------------------------------
+
+* Flying can be a secondary subtype -- just add Fighting Resistance to
+whatever color the Flying card is. (e.g. Butterfree, Bug/Flying --
+Weakness is Fire, Resistance is Fighting)
+
+NOTE: The Legendary birds -- Articuno, Zapdos, Moltres -- don't have a
+Weakness. (They're all Resistant to Fighting, though.)
+
+Except for Jynx, Ice type Pokemon were always Water types also (in the
+original RPG) so this type is generally ignored.
+
+ --------------------------------------------
+//  Identifying Pokemon                    //
+--------------------------------------------
+
+There are two (good) conventions for identifying two different cards that
+feature the same Pokemon:
+
+1) by expansion set (what people tend to do in the IRL Pokemon TCG)
+2) by unique experience level (what this game does)
+
+Rather than pick one system or the other this guide uses both: a card
+will be identified first by its expansion set and then by its level,
+e.g. Jungle Wigglytuff Lv36. This way, players of the IRL TCG will know
+which cards I'm referring to without having to memorize the (otherwise
+useless) experience levels, and at the same time be able to find them in-
+game by their experience level if needed.
+
+Exceptions: If there is only one card for a Pokemon, like Exeggutor, I
+simply say "Exeggutor" and don't bother with the expansion or level. Same
+goes for most "named" Pokemon cards (like Flying Pikachu or Dark Pokemon)
+that only have one variation.
+
+
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+=========================================================================
+==========|   2.   W A L K T H R O U G H :     P A R T     1   |=========
+=========================================================================
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+
+                                /=\
+            GB-1 ISLAND      -|3|==\
+    ^^_                     /       |         1 - Mr. Ishihara's House
+   ||1|\__       ___     __/        |         2 - Challenge Hall
+    \___  \_    ||2||   |         ___         3 - Fire Club
+        |   \____===___/    _    [ 6 ]        4 - Stone Club
+     __/__                 |5|    ===\        5 - Esper Club
+    |  |4]|                |=|   ___  |       6 - Science Club
+    |   --        _____          |8|  |       7 - Pokemon Dome
+     \_           -----               |       8 - Green Club
+       \  ___     ||7||              /        9 - Elec Club
+         ||9||                 ___  |         A - Dr. Ooyama's Lab
+          ---               __/   | |         B - Battle Club
+       _/     i_i     __   ==(C)  | |         C - Airport
+    [A]       |B| __| D |  \_____/ /          D - Aqua Club
+     \___________/  |___|_________/
+
+
+There are many ways to go through the story; I'm presenting it here in
+the most convienient order. But if you want to explore things on your
+own, more like a true RPG, you can jump to the section having to do with
+each club on an individual basis rather than in the order presented in
+this guide. However, certain things must happen before some story can
+proceed and if you're doing things out of order those prerequisite events
+will be indicated with asterisks on either side (**).
+
+NOTE: This guide will use the Japanese names of the Clubs and people. In
+the English version of the first game, those people/clubs that existed
+at that point have totally different English names; if you want to know
+what those are, look in the Club Information subsections, but know this
+guide will never refer to those characters by those English names in the
+body of the guide. This is to help those who can read Katakana and who
+will thus be able to tell who is who while playing. 
+
+                    +-------------------+
+   Each Club has    |                   |     Throughout this guide, I'll
+   the layout (or   |     TOP ROOM      |     refer to places within the
+   a variant) of    |                   |     Club by these names.
+   this design:     |  For the most     |
+                    |  part, this is    |
+                    |  where the Club   |
+                    |  Members/Masters  |
+                    |  all are.         |
+                    |                   |
++-------------------+------#     #------+
+|                   |                   |
+|     SIDE ROOM     |       FOYER       |
+|                   |                   |
+| Here will be alt  #   This is where   |
+| locations of Club     Rando will ap-  |
+| Members, Imakuni?     pear to talk    |
+| informants, and   #   with you.       |
+| people who will   |                   |
+| trade in-game.    |                   |
+|                   |                   |
++-------------------+------#     #------+
+                           |     |              <--- You enter from here.
+
+
+=========================================================================
+  [2a]  BEGINNING THE GAME
+=========================================================================
+
+When you start the game             After you've saved and
+for the first time, the             CardPopped, it'll look
+screen will look like this:         like this instead:
+
+================                    ================ @@@@@@
+| >New Game    |                    |  CardPop!    | @char@
+================                    | >Continue    | @pic @
+                                    |  New Game    | @@@@@@
+                                    ================   Name
+=======================             = Location ============
+| Begin a new game    |             |  Coins Earned   XX  |
+|                     |             |  Card Album  XX/441 |
+|                     |             |  Play Time   XX:XX  |
+=======================             =======================
+
+ --------------------------------------------
+//  Game Controls                          //
+--------------------------------------------
+This is like most other games, including other Pokemon games.
+
+A = talk to someone
+    confirm choice
+    go deeper in menu
+B = cancel
+    skip animation (if held)
+    go to previous screen
+START = go to game menu
+arrows = move around
+
+ --------------------------------------------
+//  Upon Starting a New Game               //
+--------------------------------------------
+Are you a boy or a girl? It makes no difference which you choose; it's
+just for looks. Make your selection and press A. It'll then ask if
+you're sure ("no" is default).
+
+Now you get to pick a name. You can choose between Japanese kana
+(hiragana and katakana), and the English alphabet (upper and lower
+cases). Shortcut: press SELECT to cycle through these options. The
+three-character command in the lower-right hand corner is "DONE" and will
+let you proceed.
+
+Then you will be requested to confirm your choice of name and gender
+(Yes/No). "No" is default.
+
+ --------------------------------------------
+//  Game Politics                          //
+--------------------------------------------
+This whole island is devoted to Pokemon Cards. There are eight clubs,
+each with a special focus (water, fire, rock, etc.), three general Club
+Members and one Club Master, each of whom has their own unique deck and a
+prize to give you if you defeat them in a duel. In addition, there are
+four Grand Masters, who are the guardians of the four "Legendary Pokemon
+cards". (Your character is on this island in the first place to acquire
+these Legendary Pokemon cards.) This is unchanged from the last game.
+
+ --------------------------------------------
+//  The Introductory Scenes                //
+--------------------------------------------
+One day, an evil group called Great Rocket-Dan (the Great Team Rocket)
+arrived suddenly, kidnapped the Grand Masters and stole cards from all
+the clubs. In this state of emergency, you go to Dr. Ooyama's lab to see
+what you can do....
+
+Rando, your longtime rival, exchanges words with you, then you go up to
+speak with Dr. Ooyama, who asks for your help in setting everything
+right. ("No" is default, but it won't get you anywhere.) When you say
+"Yes" he'll give you a deck for you to use and a "MiniCom" (Miniature
+Computer). After this, you'll be free to move around on your own.
+
+## IF SCUMMING, SAVE BEFORE LEAVING THE LABORATORY. See section 1c. ##
+
+(At this point I recommend turning the text speed all the way up to five.
+You can do this by going into the second to last option on the main menu.
+text speed is the topmost option in the Options Menu. Also turn the two
+middle options all the way to the right: this will let you skip coin toss
+animation and card drawing animation during a duel.)
+
+The first time you try to leave the Lab, Dr. Ooyama will call you back
+and say it would be best if you did some training first. You don't have
+to do any sort of training if you don't want to, so you can just leave if
+you want.
+
+If you want to get a jump on the game and not do any "training" please
+skip to section 2b. Otherwise, continue directly below.
+
+ --------------------------------------------
+//  Dueling in the Lab                     //
+--------------------------------------------
+There's two people in the lab you can see to practice the game: Mikasa
+and Arai-Mon.
+ ____________
+/  ARAI-MON  \     English: AARON
+Arai-Mon is in the top-right corner of the leftmost room, monitoring a
+machine. When you talk to him, a menu appears with 2 to 5 options.
+(Some won't appear until you've completed previous steps.)
+   ===============
+   | STEP 1      |  Step 1: Weakness and Resistance practice
+   | STEP 2      |  Step 2: Status Ailment (Special Condition) practice
+   | STEP 3      |  Step 3: Pokemon Power practice
+   | NORMAL DUEL |
+   | STOP        |
+   ===============
+Normal Duel is a regular, non-stacked duel between your personal deck and
+Arai-Mon's personal deck. For the other three, Arai-mon provides two
+stacked decks for you and himself. Winning any of the 4 matches results
+in a booster reward.
+
+I would recommend playing Arai-Mon at each step several times to get used
+to playing the game, especially if you haven't played the first one, and
+to build up a card library.
+ __________
+/  MIKASA  \     English: SAM
+When you talk to Mikasa (guy at the table), the following options appear:
+  ==================
+  | PRACTICE DUEL  |
+  | NORMAL DUEL    |
+  | EXPLAIN RULES  |
+  | NOTHING        |
+  ==================
+PRACTICE DUEL: You'll be asked to confirm: yes/no (no is default). Two
+  prizes, stacked decks. You'll have very precise instructions from Dr.
+  Ooyama as far as what moves you need to make. (There's a listing of
+  these moves below; if you get one instruction wrong, you'll have to
+  do the turn over.)
+NORMAL DUEL: This match is the same as the one above, only you can make
+  whatever moves you want. If you win, you'll get a booster: an Energy-
+  filled Present Pack.
+EXPLAIN RULES: Contains information on the rules, sorted by topic.
+NOTHING: will let you leave.
+
+ --------------------------------------------
+//  Practice Duel Steps                    //
+--------------------------------------------
+PREGAME -- 1) Place Diglett as your Active.
+           2) Pidgey goes on your Bench.
+TURN 1 --- 1) Select a Fighting Energy card in the Hand menu.
+           2) Place it on Diglett.
+           3) Attack with Diglett's "Dig".
+TURN 2 --- 1) Put another Fighting Energy card on Diglett.
+           2) Attack with Diglett's "Mud Slap".
+TURN 3 --- 1) Evolve Dugtrio on top of Diglett.
+           2) Put one last Fighting Energy card on Dugtrio.
+           3) Use Dugtrio's "Slash" attack.
+TURN 4 --- 1) Add Nidoran M on your Bench.
+           2) Attach a Grass Energy to Nidoran M.
+           3) Attack with Dugtrio's "Slash".
+IN BETWEEN 1) Choose Nidoran M as your new Active Pokemon.
+TURN 5 --- 1) Put Machop on your Bench.
+           2) Attach a Grass Energy to Nidoran M.
+           3) Use Nidoran's "Horn Hazzard" attack.
+TURN 6 --- 1) Evolve Nidoran M into Nidorino.
+           2) Put a Grass Energy on Nidorino.
+           3) Use Nidorino's "Double Kick" attack.
+
+You won! However, you don't get a booster reward for winning when you
+play with Dr. Ooyama's help! :P Too bad.
+
+
+=========================================================================
+  [2b]  CONFRONTING RANDO
+=========================================================================
+
+Rando will appear in the first club you enter and CardPop! you. (To
+CardPop!, press the A button when it indicates, and a random card will
+be added to your inventory.)
+
+## If scumming, reset the game AFTER the picture of the card appears but
+BEFORE the screen returns to overworld view. ##
+
+After you CardPop! him, a new option will appear on the opening menu
+when you start up the game, allowing you to CardPop! other people using a
+Gameboy Color's infrared port.
+
+Rando will appear again to confront you at several key points in this
+part of the story; for those of you who are following my order, I'll
+cover exactly what happens each of those times when it happens.
+
+
+=========================================================================
+  [2c]  STONE CLUB
+=========================================================================
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+Walk into the Top Room to discover the Club Master defeating GR#1, a
+phantom masked figure, who now has to leave the club. (Yes, mastering
+a children's card game can help you defeat thugs.) Now the Club Master
+will ask for your help in making right the terrible situation on the
+island -- win a match against him to get the Kabuto Coin and the
+"Defeat GR#1" Deck, which he probably wants you to use against the GR
+when you fight him. (The deck itself is pretty weak, but it has an
+elemental advantage over the GR's deck.)
+
+Now you should go to the Battle Club to take on your first GR opponent!
+
+ --------------------------------------------
+//    Club Information                     //
+--------------------------------------------
+Side Room Trade = Jungle Snorlax Lv20 --> Jigglypuff Lv12
+ ____________
+/  YASUTOMO  \
+   English: Matt
+  Location: Top Room, top-left
+Booster(s): Bulbasaur (1) Pack
+ _________
+/  JOOTA  \
+   English: Andrew
+  Location: Top Room, bottom-left
+Booster(s): Bulbasaur (1) Pack
+ _________
+/  NORIO  \
+   English: Ryan
+  Location: Top Room, center-right
+Booster(s): Moltres (2) Pack
+ __________________________
+//  CLUB MASTER - GENZOU  \\
+   English: Gene
+  Location: Top Room, top
+Booster(s): Omanyte (3) Pack + Bulbasaur (1) Pack
+     Notes: (He looks like Professor Oak. o_O) His deck is mono-rock, so
+the obvious choices are any Grass types or Fighting-resistant types,
+preferably both, e.g. Butterfree, Zubat/Golbat, Scyther. (Not that you'll
+have many of those Pokemon this early in the game...)
+
+
+=========================================================================
+  [2d]  BATTLE CLUB
+=========================================================================
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+** The upper room of the Battle Club will be empty until you visit the
+Stone Club (see section [2c] for details). Also, the GR won't fight you
+until you defeat the Stone Club Master and get the Kabuto Coin. **
+
+In the side room, Masahiro is just outside the entrance, and begs you to
+defeat GR#1. (Answer "yes" to his first question, or he won't let you
+go.) Afterwards, you can battle him if you like.
+
+The GR will come straight here after he leaves the Stone Club. Go ahead
+and fight him.
+ __________
+//  GR#1  \\
+Gives: Rocket R (6) Pack +
+       Bulbasaur (1) Pack +
+       GR Coin Fragment
+Notes: His deck contains medium-power Water and Lightning attackers, all
+of which are evolutions (Jungle Electrode Lv42, Vending Poliwrath Lv40,
+and Vending Dewgong Lv24), and since his evolutionary pyramids are so
+weak and his numbers are spread out over too many bloodlines he's not
+likely to make much use of those evolutions, especially if you're fast.
+The only problem you're likely to have in early gameplay is Magnemite;
+Vending Magnemite Lv15's Pokemon Power calls for other Magnemites to get
+out into play, and Rocket Magnemite Lv12's attack is then much stronger.
+
+This guy is a sinch to deal with. His Voltorb, Magnemite, and Pikachu
+can all get OHKO'ed by a Machop or Hitmonchan with 1 Energy attached, and
+good use of Grass and Lightning cards should take care of the rest. Just
+don't use Water of Fire types and you should do fine.
+
+ --------------------------------------------
+//  Story Progression -- continued         //
+--------------------------------------------
+He leaves the island after you defeat him, but not before giving you
+1/4 of the GR Coin -- your ticket for leaving this island and going to
+the second one. (You have to get all four pieces before it'll do you any
+good, though.)
+
+Once you leave the Battle Club comepletely, the three Battle Club
+Members will be assembled in the top room on your next visit. (The Club
+Master has been kidnapped -- you will need to rescue him from the next
+island later.)
+
+ --------------------------------------------
+//    Club Information                     //
+--------------------------------------------
+Side Room Trade = Vending Hitmonlee Lv23 --> Mewtwo Lv60 (CoroCoro)
+ ____________
+/  MASAHIRO  \
+   English: Michael
+  Location: From the start = Side Room, just outside the entrance
+            After you defeat GR#1 = Top Room, bottom
+Booster(s): From the start = Bulbasaur (1) Pack
+            After you assemble the GR Coin = Omanyte (3) Pack x2
+ ____________
+/  TATSUROO  \
+   English: Chris
+  Location: After you defeat GR#1 = Top Room, left
+Booster(s): From the start = *won't duel*
+            Defeat GR#3 in the Aqua Club = Bulbasaur (1) Pack +
+ ___________                               Moltres (2) Pack
+/  NATSUKI  \
+   English: Jessica
+  Location: After you defeat GR#1 = Top Room, right
+Booster(s): From the start = *won't duel*
+            Rescue Steve from the Lightning Fort = Mr. Mime (4) Pack
+ _____________________________
+//  CLUB MASTER - YAMAGUCHI  \\
+   English: Mitch
+  Location: Top Room, top (eventually)
+Booster(s): After you clear the Fighting Fort = Pidgeot (5) Pack x2
+     Notes: He has a generic Fighting deck with Vending Mr. Mime Lv20,
+Vending Lickitung Lv20 and Promo Kangaskhan Lv38. If you're going to
+utilize Weakness and Resistance (with Gengar and co. and/or Psychic and
+Fighting cards) be sure to take out his Mr. Mime right away, as it will
+null your advantage as long as it's in play.
+
+
+=========================================================================
+  [2e]  GREEN CLUB
+=========================================================================
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+## Scumming opportunity: save before talking to the girls, and you can
+control the yield of the boosters. ##
+
+The Club Members are hiding in the side room. Talk to Haruna, the girl in
+red in the upper left. She'll give you a Moltres (2) Pack, and then asks
+you to find Club Master Kunimi and talk to her for information about the
+GR that plagued the Green Club. However, where is Kunimi?
+
+Talk to Misao next, the girl with the long purple hair. She'll give you
+an Omanyte (3) Pack, and tells you that Ayako knows where Club Master
+Kunimi is.
+
+Ayako, the girl at the table, won't tell you anything until you defeat
+her in a duel -- I recommend dueling her several times, as her deck is
+pretty easy to defeat and she gives you two boosters instead of one.
+After you defeat her she'll tell you that Club Master Kunimi is at Mr.
+Ishihara's house. (Kunimi won't appear at Mr. Ishihara's house until you
+defeat Ayako, so you can't go straight there. Sorry!)
+
+-- AT MR. ISHIHARA'S HOUSE
+Once Kunimi hears you defeated Ayako, she gives you the "Make GR#2 Lose"
+Deck and the Oddish Coin.
+
+Now you need to find GR#2 -- he's either in the Science Club top room
+or the Green Club top room. (Either case, see the Science Club section
+below for information on GR#2.)
+
+ --------------------------------------------
+//    Club Information                     //
+--------------------------------------------
+Side Room Trade = none
+ ____________
+/   HARUNA   \
+   English: Kristin
+  Location: Top Room, left (eventually)
+Booster(s): From the start = *won't duel*
+            After you assemble the GR Coin = Omanyte (3) Pack
+ ___________
+/   MISAO   \
+   English: Heather
+  Location: Top Room, bottom (eventually)
+Booster(s): From the start = *won't duel*
+            After you fight GR#3 in the Aqua Club = Moltres (2) Pack
+ ___________
+/   AYAKO   \
+   English: Brittany
+  Location: Top Room, right (eventually)
+Booster(s): From the start = Bulbasaur (1) Pack x2
+            Rescue Steve from the Lightning Fort = Bulbasaur (1) Pack +
+ ____________________________                      Mr. Mime (4) Pack
+//   CLUB MASTER - KUNIMI   \\
+   English: Nikki
+  Location: Top Room, top (eventually)
+Booster(s): From the start = *won't duel*
+            After you assemble the GR Coin = Omanyte (3) Pack x2
+     Notes: She's got a mono-Grass deck with Venusaur Lv67, Butterfree,
+and Exeggutor. Any sort of a Fire deck at all will crush her, but you may
+not have enough cards for that this early in the game, so supplement Fire
+with any secondary color you like except for Fighting cards (which
+Butterfree Resists) or anything weak to Grass. Most of all it's important
+you prevent Venusaur from coming into play and Exeggutor from becoming
+powered up.
+
+
+=========================================================================
+  [2f]  SCIENCE CLUB
+=========================================================================
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+** You must complete the Green Club section before anything will happen
+in here. **
+
+GR#2 is toward the top of the Top Room. (I'm pretty sure he was in the
+Green Club for me once, but I've played dozens of times afterward and
+he's never shown up there again. Anyway, if he's not in the Top Room of
+the Science Club, check the Green Club just in case.)
+ __________
+//  GR#2  \\
+Gives: Rocket Grunt (6) Pack +
+       Moltres (2) Pack +
+       GR Coin Fragment
+Notes: His deck is Poison/Grass and Ground/Rock. You should have solid
+Fire and Grass cards at this point; I would recommend altering the "Make
+GR#1 Lose" Deck so that instead of Water cards and Weedle/Kakuna, you
+have Charmander/Charmeleon, Magmar if you've got it, and another strong
+Fire or Grass Bloodline. (Psychic would be better than Fire, except your
+Psychic arsonal probably isn't that great yet.)
+
+ --------------------------------------------
+//  Story Progression -- continued         //
+--------------------------------------------
+You're now half way done with the GR Coin! But don't get too cocky;
+save right away, before you leave the Top Room, because Rando will pay
+you a visit in the foyer!
+ ___________
+//  RANDO  \\
+ English: Ronald
+Location: any club foyer, after getting 50% of the GR Coin
+   Gives: Super Energy Retrieval
+   Notes: This is probably the weakest incarnation of Rando's deck --
+half Water and half Fighting. The Water part shouldn't cause too much
+trouble, but he has some beefy Fighting cards: Base Hitmonchan Lv33, Base
+Machop Lv20 and Base Machamp Lv23. His Trainer base is weak as well.
+Decent Psychic and/or Flying cards should work.
+
+After you leave the Club completely, all the people in the Green Club and
+the Science Club will return to the Top Room of their respective Clubs.
+
+ --------------------------------------------
+//    Club Information                     //
+--------------------------------------------
+Side Room Trade = none
+ _____________
+/   MASASHI   \
+   English: Erik
+  Location: From the start = Side Room, left
+            After Science Club is liberated = Top Room, left
+Booster(s): From the start = *won't duel*
+            After you assemble the GR Coin = Omanyte (3) Pack
+ ______________
+/   YASUYUKI   \
+   English: David
+  Location: From the start = Side Room, center
+            After Science Club is liberated = Top Room, top right
+Booster(s): Bulbasaur (1) Pack x2
+ ___________
+/   SOUTA   \
+   English: Joseph
+  Location: From the start = Foyer
+            After Science Club is liberated = Top Room, center
+Booster(s): From the start = *won't duel*
+            After you fight GR#3 in the Aqua Club = Moltres (2) Pack
+ _____________________________
+//  CLUB MASTER - KURUSHIMA  \\
+   English: Rick
+  Location: top room, top left (after being rescued)
+Booster(s): Omanyte (1) Pack + Pidgeot (5) Pack
+     Notes: Except for Base Chansey Lv55, all of his cards are Weak to
+Psychic. Because Chansey's HP is so high, it's important that you have
+a way of dealing with it or you'll be forever chipping away at its HP
+while stronger cards are being built up on the Bench. His main hitters,
+Vending Arbok Lv30 and Vending Weezing Lv26, deal in Poison so in this
+case I recommend Full Heal or Full Heal Energy, unless your cards can
+Retreat on the cheap or you have a lot of Switches.
+
+
+=========================================================================
+  [2g]  AQUA CLUB
+=========================================================================
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+From here, you should enter the top room of the Aqua Club and speak to
+GR#3. He'll show off the entire Aqua Club, all trapped within a
+waterfall. He'll release them only if you defeat him.
+ __________
+//  GR#3  \\
+Gives: Rocket Grunt (6) Pack +
+       Omanyte (3) Pack
+Notes: This time, you're not given your anti-GR deck beforehand. His
+deck consists of Charmeleon (Dark & Base), Exeggutor, Dark Vileplume, and
+Vending Moltres Lv37. His evolutionary pyramids are more stable than the
+other GRs you've faced so far, but just use powerful Fire and Water cards
+(like Charmeleon and Wartortle).
+
+ --------------------------------------------
+//  Story Progression -- continued         //
+--------------------------------------------
+After he is defeated, he leaves for the Fire Club. The Club Master,
+Utchii, rewards you with the Starmie Coin and the "Revenge on GR#3" Deck.
+
+## If scumming, save before leaving the Top Room. ##
+
+When you go into the foyer, Rando will give you a Moltres (2) Pack. Nice
+of him to do that.
+
+ --------------------------------------------
+//    Club Information                     //
+--------------------------------------------
+Side Room Trade = none
+ __________
+/   MARI   \
+   English: Sara
+  Location: Top Room, left
+Booster(s): Moltres (2) Pack x2
+ ____________
+/   MEGUMI   \
+   English: Amanda
+  Location: Top Room, bottom-right
+Booster(s): From the start = *won't duel*
+            After you rescue Steve from the Lightning Fort =
+ _______________                  Omanyte (3) Pack +
+/   SHINTAROO   \                 Mr. Mime (4) Pack
+   English: Joshua
+  Location: Top Room, center-right
+Booster(s): From the start = Bulbasaur (1) Pack x2
+            After you rescue Yamaguchi from the Fighting Fort =
+ ____________________________     Pidgeot (5) Pack x2
+//   CLUB MASTER - UTCHII   \\
+   English: Amy)
+  Location: Top Room, top
+Booster(s): From the start = *won't duel*
+            After you rescue Steve from the Lightning Fort =
+                                  Mr. Mime (2) Pack x2
+     Notes: She has a classic, medium-speed Raindance deck. Fortunately
+for you, all her cards are weak to Lightning and she runs low on Basics.
+Keep the pressure as high as you can as fast as you can and above all,
+prevent her from getting Blastoise into play.
+
+
+=========================================================================
+  [2h]  FIRE CLUB
+=========================================================================
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+** GR#3 will not appear until you defeat him in the Aqua Club. **
+
+GR#3 has all the Fire Club trapped in some sort of cage.
+ __________
+//  GR#3  \\
+Gives: Rocket Grunt (6) Pack +
+       Omanyte (3) Pack +
+       GR Coin Fragment
+Notes: Same as before.
+
+ --------------------------------------------
+//  Story Progression -- continued         //
+--------------------------------------------
+This time, after you defeat him, you'll get another piece of the GR Coin.
+Then the Club Master will give you the Charmander Coin.
+
+ --------------------------------------------
+//    Club Information                     //
+--------------------------------------------
+Side Room Trade = Jungle Flareon Lv28 --> Meowth Lv14
+ _____________
+/   TAKASHI   \
+   English: John
+  Location: Top Room, bottom
+Booster(s): From the start = *won't duel*
+            After you rescue Steve from the Lightning Fort =
+ _____________                     Mr. Mime (2) Pack x2
+/   WATARUN   \
+   English: Adam
+  Location: Top Room, center-left
+Booster(s): From the start = *won't duel*
+            After beat GR#3 in the Fire Club = Bulbasaur (1) Pack
+ _______________
+/   MASATOSHI   \
+   English: Jonathan
+  Location: Top Room, right
+Booster(s): From the start = *won't duel*
+            After defeat GR#3 in the Fire Club = Moltres (2) Pack x2
+ _____________________________
+//   CLUB MASTER - AKABANE   \\
+   English: Ken
+  Location: Top Room, top
+  Prize(s): From the start = *won't duel*
+            After you rescue Steve from the Lightning Fort =
+                                   Omanyte (3) Pack +
+                                   Mr. Mime (4) Pack
+            After you rescue Yamaguchi from the Fighting Fort =
+                                   Mr. Mime (4) Pack +
+                                   Pidgeot (5) Pack
+     Notes: The Fire portion of his deck is less than half of his
+Pokemon -- the rest consists of Water, Fighting and Colorless. Jungle
+Dodrio Lv28 will reduce the Retreat Cost of his own Pokemon by 1, so his
+heavy cards become normal and his normal cards become lightweight, and
+it's a problem when he has two support colors (plus his main color) and
+can move them around freely. Fortunately (and oddly), his support colors
+don't actually counter Fire's Weakness -- feel free to use strong Water
+cards unhindered against Base Arcanine Lv45 and Fossil Magmar Lv31.
+
+
+=========================================================================
+  [2i]  ELEC CLUB
+=========================================================================
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+GR#4 has the Elec Club completely conquered; the Club Master is on the
+GR's side (by "persuasion"), but Sousuke is resentful. In any case, you
+will have to defeat Sousuke before anything else. He won't give you a
+prize, and he won't let you fight him a second time, but after you win,
+you are now able to fight the Club Master, Takahashi.
+
+Defeat him, and GR#4 will flee to the Esper Club, where you'll have to
+do the same thing again... but not before getting the Pikachu Coin from
+Takahashi.
+
+ --------------------------------------------
+//    Club Information                     //
+--------------------------------------------
+Side Room Trade = Base Voltorb Lv10 --> Pikachu Lv16
+ __________
+/   YUKA   \
+   English: Jennifer
+  Location: From the start = Side Room, right of Lightning floor mat
+            After Elec Club is liberated = Top Room, center
+Booster(s): From the start = *won't duel*
+            After you assemble the GR Coin = Omanyte (3) Pack
+ _______________
+/   TOSHIHIKO   \
+   English: Brandon
+  Location: From the start = Side Room, right of Lightning floor mat
+            After Elec Club is liberated = Top Room, right
+Booster(s): From the start = *won't duel*
+            After you assemble the GR Coin = Moltres (2) Pack +
+ _____________                               Omanyte (3) Pack
+/   SOUSUKE   \
+   English: Nicholas
+  Location: Top Room, left
+Booster(s): From the start = Bulbsaur (1) Pack
+            After you rescue Yamaguchi from the Fighting Fort =
+ ___________________________________         Pidgeot (5) Pack x2
+//   CLUB MASTER - TAKAHASHI v.1   \\
+   English: Isaac
+  Location: Top Room, top
+Booster(s): From the start = Bulbsaur (1) Pack x2
+            After you assemble the GR Coin = Mr. Mime (4) Pack
+     Notes: Miscallaneous Lightning deck, but nearly half of his cards
+are Resistant to Fighting (including Fossil Zapdos Lv40), so you'll
+want to use a neutral color, or exclusively Ground cards with support
+and many Switches -- but keep in mind he's got Jungle Pikachu Lv14,
+Fossil Raichu Lv45 and Gameboy Dark Raichu Lv31 for Bench damage (for
+which Resistance isn't effective).
+ _________________________________
+//  CLUB MASTER - TAKAHASHI v.2  \\
+Location: Top Room, top
+Prize(s): rescue Steve from the Lightning Fort = Mr. Mime (4) Pack x2
+   NOTES: Same premise, different team, but notably not as many Fighting-
+Resistant cards, and much less Bench damage. However, many of his
+Lightning cards are heavy hitters, so don't let him get up to speed.
+Especially watch out for Base Electabuzz Lv35, which is powered up
+quickly and can really hurt.
+
+
+=========================================================================
+  [2j]  ESPER CLUB
+=========================================================================
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+** You won't even be able to enter the upper room until you complete the
+Elec Club section (above). **
+
+One big difference between Miura and everyone else in the whole entire
+game is that if you say "No" to dueling him, he won't let you go right
+away -- you'll just be brought to the same choice again. If you don't
+want to fight him now, it's still okay; if you insist on "No" enough,
+you can get free.
+
+Anyway, after you defeat him, he loses his temper big time, and slams you
+up against a wall. In a moment, though, he'll change his behavior and ask
+for your forgiveness -- he was under hypnosis and couldn't help himself.
+He'll give you the Alakazam Coin and the Shaddup GR#4 Deck if you agree
+to take out GR#4.
+ __________
+//  GR#4  \\
+Prize(s): Rocket Grunt (6) Pack + Omanyte (3) Pack + GR Coin Fragment
+   NOTES: His deck is Water/Psychic; the deck you were given to fight
+him should do well, but you might want to tweak the Lightning cards a
+little more depending on what you have available. Boost the trainer
+count too, if you're having trouble.
+
+ --------------------------------------------
+//  Story Progression -- continued         //
+--------------------------------------------
+## If scumming, save before leaving the Top Room ##
+
+Once you defeat him, you'll have completed the GR Coin at last! Now you
+can access the airport, and make your way to the second island. But
+first, collect an Omanyte (3) Pack from Rando on your way out.
+
+** NOTICE: After the GR Coin is complete, the GB1 Challenge Hall (1st
+challenge) becomes available, until you rescue Steve on GB2 Island.
+(See section 4b for more information. **
+
+ --------------------------------------------
+//    Club Information                     //
+--------------------------------------------
+Side Room Trade = Base Alakazam Lv42 --> Kangaskhan Lv38
+ __________
+/   HIRO   \
+   English: Robert
+  Location: Top Room, bottom left
+Booster(s): From the start = *won't duel*
+            After you rescue Steve from the Lightning Fort =
+ ___________                                 Mr. Mime (4) Pack
+/   KEITA   \
+   English: Daniel
+  Location: Top Room, center left
+Booster(s): From the start = *won't duel*
+            After you rescue Yamaguchi from the Fighting Fort = _________                                   Pidgeot (5) Pack
+/   RIE   \
+   English: Stephanie
+  Location: Top Room, right
+Booster(s): From the start = nothing! How rude.
+            After you defeat GR#4 in the Esper Club = Bulbasaur (1) Pack
+            After you assemble the GR Coin = Bulbasaur (1) Pack +
+ _______________________________             Pidgeot (5) Pack
+//   CLUB MASTER - MIURA v.1   \\
+   English: Murray
+  Location: Top Room, top
+Booster(s): From the start = Bulbasaur (1) Pack (see below)
+     Notes: He has a mild and unfocused deck, but it has a few powerful
+cards. Vending Mr. Mime Lv20 will interfere with Weakness and Resistance
+should you want to pursue that avenue, as most of his cards are Weak to
+Psychic (though the rest are Resistant to it). Jungle Wigglytuff Lv36 is
+a strange addition but has the most potential, since this deck has 19
+Basics and a couple of Moon Stones. His Trainer base is weak. Overall
+an easy match for a Club Master.
+ _____________________________
+//  CLUB MASTER - MIURA v.2  \\
+  Location: top room, top
+Booster(s): After you rescue Yamaguchi from the Fighting Fort =
+                                Rocket R (6) Pack + Rocket Grunt (7) Pack
+     Notes: This is a dangerous deck. Vending Gastly Lv13 can prevent
+Trainer use and Vending Haunter Lv26 makes it dangerous to keep Trainers
+in your hand -- a nasty combo. He's got Base Alakazam Lv42 for damage
+control, three Base Chansey Lv55 for damage absorbsion, and Scoop Up to
+erase the damage. His Mr. Mimes are deadly -- Jungle Mr. Mime Lv28 will
+prevent damage done to it greater than 20, and Vending Mr. Mime Lv20 will
+null any Resistance you're trying to utilize, which is a big deal in this
+case. His Trainer base is huge (especially draw Trainers) but his Energy
+is on the low side, so Energy Removal will hurt him a great deal...
+unless he's got Promo Mewtwo Lv60 out, which uses Energy from the Discard
+Pile to power itself up! Your best bet is to go with Psychic Resistance
+and Energy Removal; play defensively, and he'll deck himself out.
+
+
+=========================================================================
+  [2k]  AIRPORT
+=========================================================================
+
+Once you have the completed GR coin, you can talk to the purple-hooded
+GR in the second room and he'll take you to the next island.
+
+Your first trip on the blimp will be a long one, but the animation of
+each trip afterwards can be cut short with the B button. This is the only
+way to get from one island to the other.
+
+
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+=========================================================================
+========|    (3)   W A L K T H R O U G H :     P A R T     2    |========
+=========================================================================
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+
+                                     GB-2 ISLAND      P
+                                                     /\
+                                       (__)__      <>||<>
+                                    ___|13|) \    /||==||
+                                   /   I__II  |__/ ||__|||
+                                   |        _//      12  /
+                                    \______/_/         _/
+                                       |=| /          /
+                                      _|=|/ _-_       |
+                                     /     ( 11)     /
+                    _                |     |---|  __/ ___
+                   [_]               |           /   /   \
+                  /   \______         \____     /    | ii |
+             ____/   |=|     |         |=| \__======= /10\|
+             |  /    |9|   |=| ________|=|       /        |
+             |     _______/|=|/        ----_     \_______/
+              \___/        |=|        [_]   \
+                       ___/|=|       [---]  |
+                     _/              ||7|| /
+              ____  |            __       /
+             |    \ \          ((GR))     |
+            /      \ \         ||==||   _/ ____     1 Airport
+  _____     |      |  |           6    /  /    |    2 Game Center
+ / |I| \    |      |  |   _[_]_        |  \     \   3 Sealed Fort
+| [=3=] |   |   ___\===== ||5||        |  |      |  4 GR Grass Fort
+ \_____/     \ [=4=]|  |              /  / _     |  5 GR Lightning Fort
+   |=|        |[===] \  \        __/===== [ ]    |  6 Challenge Hall
+ __|=|_---_    \      \  \      /      /  [8]__  |  7 GR Fighting Fort
+/          \   |       \  \     |     /  ___/  | |  8 GR Water Fort
+|           ===|        |  \____/     | |_     \/   9 GR Fire Fort
+| =||==     |   \__     |             |___\        10 Colorless Altar
+| | 1 |    /  ____ \    /                          11 GR Psychic Fortress
+ \|___|   ===/    \ \__/                           12 Rocket Castle
+   -----/  / |\2/| \                               13 Mr.Ishihara's House
+          /  (^ ^)  |
+          \________/
+
+
+Welcome to GB2 Island! You'll notice right away that this place is more
+impressive than GB1 Island.
+
+This island is a lot more linear than the first island, as well -- you
+will have less control over the order in which you must play through
+things. As such, I will assume you are following the order in which I
+present events in this guide.
+
+First of all, I would recommend paying a visit to the Game Center, as
+it's a good place to get Meowth (8) Packs -- a booster filled with
+random cards from every other booster -- since you're unlikely to have
+seen many GR boosters (packs 4-7). See section 4e for information
+about the Rocket Game Center.
+
+If you choose to go to the Game Center, Rando will give you a
+Bill's Computer in the foyer. (He will not do so if you clear the
+GR Fighting Fort *before* coming here for the first time, though.)
+
+
+=========================================================================
+  [3a]  GR GRASS FORT
+=========================================================================
+
+When you enter the foyer of the GR Grass Fort, you will be approached by
+GR#X, who will duel you:
+ __________
+//  GR#X  \\
+Prize(s): Rocket Grunt (7) Pack + Rocket R (6) Pack
+   NOTES: He's got a Dark Pokemon deck with Dark Golbat, Dark Muk, Dark
+Raticate, Dark Persian, with Rocket versions of all the previous stages.
+Your strongest neutral colors should do the best job of whipping him.
+
+After the duel, he'll reveal his true identity -- Rando! He's one step
+ahead of you again, and is really enjoying all these Dark cards. You'll
+see him again later.
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+The Science Club Master, Kurushima, is being held hostage by Midori.
+To release the Club Master, you'll have to defeat her. (See the Fort
+Information section below for her deck information.)
+
+Once defeated, Midori will turn Kurushima loose, who will give you
+a Kuishimbo (Hungry) Snorlax promotional card in gratitude.
+
+Keep going up and fight everyone.
+
+Yuuta, the second Fort Minion, was the face behind the mask of GR#1 way
+back at the beginning. (He has a different deck, though.)
+
+In the third room is Miyuki, the first opponent who will require your
+deck to contain certain cards. (If your deck does not meet her
+requirements, she won't fight you.) Specifically, she wants your deck
+to have no other types of Energy cards except Grass Energy (not even
+Colorless types). Most GR fighters will require something or will have
+an extra in-game rule; as you proceed, I will describe those extras.
+(Note that extra rules apply to both players.)
+
+ --------------------------------------------
+//    Fort Information                     //
+--------------------------------------------
+Side Room Trade = Dark Venusaur Lv37 --> Promo Venusaur Lv67
+ ____________
+/   MIDORI   \
+  Location: First Room
+Booster(s): Rocket R (6) Pack
+ ___________
+/   YUUTA   \
+  Location: Second Room
+Booster(s): Rocket R (6) Pack
+ ____________
+/   MIYUKI   \
+   Location: Third Room
+ Booster(s): Rocket R (6) Pack
+Requirement: Grass Energy only
+ ____________________________
+//   FORT MASTER - MORINO   \\
+  Location: Last Room
+Booster(s): Rocket (R) Pack x2
+Extra Rule: Grass cards cannot become Asleep, Confused, Paralyzed, or
+            Poisoned.
+     Notes: To a certain extent Morino has cards that can deal status
+ailments, but for the most part it's a basic Grass deck with Rocket
+Squirtle Lv16 and Base Wartortle Lv22 as support (and powered by Rainbow
+Energy). If you want to fight fire with fire, which is to say Grass with
+Grass, you will be immune to any of his status attacks. Otherwise you
+can use Fire to wipe out his Grass cards and simply take special care
+of Wartortle (e.g. with Energy Removal).
+
+
+=========================================================================
+  [3b]  GR LIGHTNING FORT
+=========================================================================
+
+Once you have defeated Morino you will receive the Golbat Coin, which
+can be used to unlock the GR Lightning Fort. Press A when facing the
+door and it will open.
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+Go up each room, fighting each person. In the Side Room at the table is
+a guy named Tap, someone who will duel you if you wish. His defeat isn't
+necessary to progress in the storyline, though.
+
+** NOTICE: The 1st challenge at the GB1 Challenge Hall ends (if you
+haven't done the challenge yet) after Steve is rescued. This is your
+last chance! (See section 4b for more information.) **
+
+In the second room you will meet Ichikawa, aka GR#3, who's captured
+Grand Master Steve. Defeat Ichikawa and he'll let Steve free -- who will
+then give you Promo Electabuzz Lv20.
+
+** NOTICE: After you defeat Catherine, the GR Island's Challenge Hall
+will hold its 1st challenge. (See section 4f.) **
+
+ --------------------------------------------
+//    Fort Information                     //
+--------------------------------------------
+Side Room Trade = Dark Raichu Lv31 --> Pikachu Lv16 (CoroCoro)
+ _________
+/   TAP   \
+  Location: Side Room, at table
+Booster(s): Moltres (2) Pack +
+            Bulbasaur (1) Pack
+ ___________
+/   RENNA   \
+   Location: First Room
+ Booster(s): Rocket R (6) Pack
+Requirement: 4x Pikachu (any kind) in your deck
+ ______________
+/   ICHIKAWA   \
+   Location: Second Room
+ Booster(s): Rocket R (6) Pack
+Requirement: Lightning Energy only
+ _____________________________
+//  FORT MASTER - CATHERINE  \\
+  Location: Last Room
+Booster(s): Rocket (R) Pack x2
+Extra Rule: Lightning cards do an additional 10 damage to the Defending
+            Pokemon, before applying Weakness and Resistance.
+     Notes: Dueling her with a Lightning deck might seem like a good
+idea, but I've found it can be hard to pull off -- as you both have the
+same advantage it becomes more about who gets the better opening hand and
+who's more lucky. A better tactic is to use Ground cards. Just remember
+to pack something that can beat Base Doduo Lv10, which Resists Fighting.
+
+
+=========================================================================
+  [3c]  GR FIRE FORT
+=========================================================================
+
+You can enter the GR Fire Fort once you have the Magnemite Coin from the
+GR Lightning Fort. Press A against the gate, and then select "yes" to
+insert the coin into the doors so they'll open.
+
+At this point in the game, your path opens up -- you can do the GR Fire
+Fort or the GR Water Fort now, and then go back and do the other
+afterwards. In this guide, I will take you to the GR Fire Fort first.
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+Go up through each room and defeat each minion.
+
+The third Fort Minion, Shouko, has Grand Master Hiroko stranded on an
+island in the middle of a lava field! Once you defeat Hiroko's captor
+and release her, she'll give you Promo Arcanine Lv34.
+
+** NOTICE: After you defeat Hiderou (the Fort Master), the 2nd challenge
+at the GB1 Challenge Hall becomes available, and will end when you
+rescue Ryuudo from the Psychic Stronghold. (See section 4b.) **
+
+** ANOTHER NOTICE: If you've already defeated the GR Water Fort Master,
+your defeat of Hiderou will signal the end of the challenge at the
+GR Island's Challenge Hall. (See section 4f.) **
+
+When you go to leave the Fort, Rando will fight you, so be sure and
+save after defeating Hiderou. (If you did the GR Water Fort first
+you've already fought him, so never mind.)
+ _____________
+//   RANDO   \\
+Location: After either the GR Fire Fort or GR Water Fort completion,
+          whichever happens first.
+   Gives: Computer Error!
+   Notes: He's got two of each Gameboy Eevee evolution (Flareon Lv22,
+Vaporeon Lv29 and Jolteon Lv24), each of which is powered solely by
+Colorless Energy, and Vending Hitmonlee Lv23 and Base Hitmonchan Lv33
+for Basic muscle. Fighting cards will slaughter his Rocket Eevee Lv9,
+which is required for the multi-color evolutions, and can keep Jungle
+Kangaskhan Lv40 from stalling/drawing as well as killing Jolteon and
+his other Colorless cards. He has multiples of Colorless Energy cards:
+Double Colorless, Potion, Full Heal, and Recycle Energies. Beware
+Imposter Oak's Revenge, which makes you shuffle your hand into your
+deck and draw four new cards.
+
+ --------------------------------------------
+//    Fort Information                     //
+--------------------------------------------
+Side Room Trade = Dark Charizard Lv38 --> Promo Charizard Lv76
+ ___________
+/   JAYCE   \
+  Location: First Room
+Booster(s): Omanyte (3) Pack
+ ___________
+/   YUUKI   \
+   Location: Second Room
+ Booster(s): Rocket R (6) Pack
+Requirement: Fire Energy only
+ ____________
+/   SHOUKO   \
+   Location: Third Room
+ Booster(s): Rocket R (6) Pack +
+             Rocket Grunt (7) Pack
+Requirement: 4x Eevee (any kind) in your deck
+ _____________________________
+//   FORT MASTER - HIDEROU   \\
+  Location: Last Room
+Booster(s): Rocket R (6) Pack +
+            Rocket Grunt (7) Pack
+Extra Rule: Fire Pokemon have no Weakness.
+     Notes: Not having Weakness to exploit is difficult if that has been
+a major part of your tactics until now. Just use your strongest neutral
+color.
+
+
+=========================================================================
+  [3d]  GR WATER FORT
+=========================================================================
+
+Like the GR Fire Fort, you can enter the GR Water Fort once you have the
+Magnemite Coin from the GR Lightning Fort.
+
+(A reminder: you can do this Fort or the GR Fire Fort in any order.)
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+Same as always; go up each room and fight each Fort Minion.
+
+In the second room, Senta has Grand Master Kanekouji trapped behind a
+waterfall. When you set him free, he'll give you Promo Magikarp Lv10.
+
+** NOTICE: If you've been following my guide to the letter (that is, if
+you've already defeated the GR Fire Fort Master), defeating Kanoko will
+end the challenge at GR Island's Challenge Hall. Go back and take the
+challenge now, if you haven't yet, before it's too late! (See section
+4f.) **
+
+ --------------------------------------------
+//    Fort Information                     //
+--------------------------------------------
+Side Room Trade = Dark Blastoise Lv28 --> Promo Blastoise Lv52
+ ______________
+/   MIYAJIMA   \
+   Location: First Room
+ Booster(s): Omanyte (3) Pack
+Requirement: Water Energy only
+ ___________
+/   SENTA   \
+   Location: Second Room
+ Booster(s): Mr. Mime (4) Pack
+Requirement: 4x Magikarp (any kind) in your deck
+ __________
+/   AIRA   \
+  Location: Third Room
+Booster(s): Rocket Grunt (7) Pack
+Extra Rule: Bench size is three instead of five
+ ____________________________
+//   FORT MASTER - KANOKO   \\
+  Location: Last Room
+Booster(s): Rocket R (6) Pack x2
+Extra Rule: Water Pokemon need one less Energy to Retreat.
+
+
+=========================================================================
+  [3e]  GR Fighting Fort
+=========================================================================
+
+To open the door you'll need two coins: the Magmar Coin from the GR Fire
+Fort and the Psyduck Coin from the GR Water Fort. You'll have to unlock
+both doors with the coins before you can enter.
+
+This place is a maze. The Xs mark the pitfall traps, which are invisible
+until you step on them (and which don't remain visible, either). If you
+fall in one, it's no biggie -- you end up in the pitfall room, which is a
+stairway away from the front room.
+
+Around the maze are chests that contain boosters and other cards. I'd
+recommend getting all of them.
+
+## Save before opening the chests with boosters, and then reset the
+game if you don't get cards you want. ##
+
++========+                                           ==============
+|        |::::::::|::::::::|::::::::                 |  MAP KEY:  |
+|    B   |::::::::|::::::::|::::::::                 ==============
+|        |:::                    :::
+|        |:::  :::|:::  :::|:::  :::              1 = Rocket R (6) Pack
+|        |:::  :::|:::  :::|:::  :::              2 = Rckt Grunt (7) Pack
++===  ===+===  ===+===  ===+===  ===              3 = Present (8) Pack
+ :::  :::|:::  :::|:::  :::|:::  :::|::::::::     4 = Bulbasaur (1) Pack
+ :::  :::|:::  :::|:5     :|:::  :::|::::::::     5 = Promo Diglett Lv16
+ :::           :::|:      X              4:::     6 = Promo Dugtrio Lv40*
+ :::  :::|:::xx:::|:      :|:::  :::|:::  :::
+ :::  :::|:::  :::|:::xx:::|:::xx:::|:::  :::     * defeat Grace first
+ ===  ===+===  ===+===  ===+===  ===+===  ===
+ :::  :::|:::  :::|:::  :::|:::  :::|:::  :::     X = pitfall trap
+ :::  :::|:::  :::|:::  :::|:::  :::|:::  :::
+ :::                                  X   :::     A = Grace
+ ::::::::|:::  :::|:::  :::|:::  :::|:::  :::     B = Gouda
+ ::::::::|:::  :::|:::xx:::|:::  :::|:::  :::
+          ===  ===+===  ===+===  ===+===  ===+========+
+          :::  :::|:::  :::|:::  :::|:::  :::|   A 6  |
+          :::  :::|:::  :::|:::  :::|:::  :::|        |
+          :::                3X           :::|        |
+          :::  :::|:::  :::|:::  :::|:::  :::|        |
+          :::  :::|:::  :::|:::  :::|:::  :::|        |
+          ===  ===+===  ===+===  ===+===  ===+===  ===+
+          :::  :::|:::  :::|:::  :::|:::  :::|:::  :::
+          :::  :::|::: 1:::|:::  :::|:::  :::|:::  :::
+          :::        X  :::|:::       X2           :::
+          :::  :::|::::::::|:::  :::|::::::::|::::::::
+          :::  :::|::::::::|:::  :::|::::::::|::::::::
+
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+The Fort Master will not fight you until you defeat both his disciples,
+who will hide in the maze. Go around carefully, and you'll find them in
+no time.
+
+Yamaguchi, Fighting Club Master, is being held captive in Gouda's room.
+Release him (defeat Gouda) and you'll receive Cool Porygon Lv15.
+
+** NOTICE: Defeat Kamiya here, and the 2nd challenge at GR Island's
+Challenge Hall becomes available until you clobber the GR Psychic
+Stronghold Master. (See section 4f for more information.) **
+
+When you defeat Kamiya, you'll get the Machamp coin, with which you can
+open the door in the back of the GR Fighting Fort.
+
+When you leave this Fort, Rando will come and taunt you for a minute
+before leaving again.
+
+ --------------------------------------------
+//    Fort Information                     //
+--------------------------------------------
+ ___________
+/   GRACE   \
+   Location: Rightmost Room (in maze)
+ Booster(s): Pidgeot (5) Pack +
+             Rocket Grunt (7) Pack
+Requirement: Fighting Energy only
+ ___________
+/   GOUDA   \
+  Location: Leftmost Room (in maze)
+Booster(s): Mr. Mime (4) Pack +
+            Rocket Grunt (7) Pack
+Extra Rule: no Energy Removal or Super Energy Removal in your deck
+ ____________________________
+//   FORT MASTER - KAMIYA   \\
+  Location: Front Room
+Booster(s): Rocket R (6) Pack +
+            Rocket Grunt (7) Pack
+Extra Rule: Fighting Resistance is ignored.
+     Notes: The lack of Fighting Resistance is a huge loss when it comes
+to dueling a Fighting opponent, but there's no helping that. Dark
+Primeape and Dark Marowak are your biggest threats -- note that he's
+got four Imakuni? (the bizarre promotional card that Confuses your own
+Active Pokemon) to make Dark Primeape more powerful. He's got strong
+Trainers, and Jungle Scyther Lv25 for splashing fun. Try using Grass or
+Psychic cards, but be aware that Jungle Kangaskhan Lv40 is Resistant to
+Psychic.
+
+
+=========================================================================
+  [3f]  GR PSYCHIC STRONGHOLD
+=========================================================================
+
+You won't be able to even come over here before you open the back door
+in the GR Fighting Fort.
+
+This Fort and the Colorless Altar are interchangable -- you can do them
+in any order.
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+When you enter the top room it will be empty, but try to leave and
+someone will call out to stop you. Then the Minions of the Fort will be
+introduced by their very creepy Master, Mami. To win the privilege of
+fighting Mami, you must defeat three of the four Minions.
+
+** NOTICE: The 2nd challenge at the GB1 Challenge Hall will end (if you
+haven't done it yet) with Ryuudo's rescue. (See section 4b.) **
+
+** ANOTHER NOTICE: The 2nd challenge at GR Island's Challenge Hall will
+also stop being available after you've defeated the Stronghold Master.
+(See section 4f for more information.) **
+
+Grand Master Ryuudoo is being held by Mami. Defeat Mami to set him free,
+and he'll reward you with Promo Dragonite Lv43.
+
+-- IMPORTANT!
+Like all other Extra Rule-players, Mami will describe the rule for you
+before the duel even begins. Unlike the others, he'll ask you if you
+want the rule explained again before asking you to duel -- you must
+answer "no" to his first question, or you won't even be able to leave the
+conversation! After answering "no" the normal dueling prompt will appear.
+
+ --------------------------------------------
+//    Fort Information                     //
+--------------------------------------------
+Side Room Trade = Dark Hypno Lv26 --> Mewtwo Lv60 (FanBook)
+ ___________
+/   KEVIN   \
+  Location: Left
+Booster(s): Rocket Grunt (7) Pack +
+            Moltres (2) Pack
+Extra Rule: Resistance is -10 instead of -30
+ __________
+/   MIWA   \
+   Location: Second from Left
+ Booster(s): Rocket Grunt (7) Pack +
+             Bulbasaur (1) Pack
+Requirement: Psychic Energy only
+ _____________
+/   YOUSUKE   \
+   Location: Second from Right
+ Booster(s): Rocket R (6) Pack +
+             Moltres (2) Pack
+Requirement: 6x Gastly and Haunter (any kind) in your deck *
+* This means you can have 4x Gastly and 2x Haunter, or 3x Gastly and
+3x Haunter, or 2x Gastly and 4x Haunter (though don't do that last one).
+ ____________
+/   RYOUKO   \
+   Location: Right
+ Booster(s): Rocket R (6) Pack +
+             Omanyte (3) Pack
+Requirement: your deck must not contain Trainer cards
+      Notes: Trainer cards are very important to a deck, and being
+denied them can be pretty tough. Remember that she has the same
+disadvantage, though. You'll need to use cards that can act like
+Trainers. Some examples: Jungle Dodrio Lv28, for making Retreat Costs
+cheaper, and in most cases free; Jungle Vileplume Lv35 for healing cards
+in-play (not that I'm recommending Vileplume, even here); Dark Dragonair
+for finding Evolution cards to put into your hand; Base Alakazam Lv42 for
+manipulating damage counters, especially onto cards that use Rage (where
+damage makes the attack stronger); Rocket Psyduck Lv16, various Meowths,
+and Jungle Kangaskhan Lv40 to draw cards; etc. Full Heal Energy and
+Potion Energy will find good use here, as well.
+ __________________________
+//   FORT MASTER - MAMI   \\
+  Location: Upstairs
+Booster(s): Rocket Grunt (7) Pack x2
+Extra Rule: Energy cards normally send to your Discard Pile get sent
+            to your hand instead.
+     Notes: He'll open with Jungle Mr. Mime Lv28 or Jungle Kangakshan
+Lv40 if he can, then power up Dark Haunter and Dark Gengar, which are his
+deck's backbone. He's got a competent Trainer card base including many
+Energy Removals, with Item Finder and Computer Search, and Bill and Oak.
+Dark Gengar's attack can yank your Benched Pokemon and all attached cards
+back into your deck meaning he'll probably defeat you by having you run
+out of Actives. Psychic Resistance will help you a lot but don't try
+to run too many Evolution cards since any Evolution investment can get
+wiped out far too easily and his Energy Removals will strip down heavy
+hitters making them powerless.
+
+
+=========================================================================
+  [3g]  COLORLESS ALTAR
+=========================================================================
+
+You won't be able to even come over here before you open the back door
+in the GR Fighting Fort.
+
+This Altar and the GR Psychic Stronghold are interchangable in terms of
+timeline.
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+The topmost person, Ishii (who was GR#2), is blocked only until you talk
+to either of the other two. Ishii will not award you the coin until both
+others are defeated.
+
+NOTE: If for some reason you fight Ishii without defeating the other two
+first, you can go and defeat the other two, then come back to Ishii
+again for the coin without having to fight him again.
+
+As a note, all three people have deck requirements that change randomly.
+section B2 contains ASCII art depicting which requirement they are
+asking for. Look carefully at their dialog and try to find the characters
+inside the quotation brackets -- match the characters there to determine
+what they want. You could also guess and check, or build a deck that
+incorporates all of their requirements.
+
+ --------------------------------------------
+//    Fort Information                     //
+--------------------------------------------
+ _______________
+/   NISHIJIMA   \
+   Location: Bottom
+ Booster(s): Moltres (2) Packs x2
+Requirement: 4x Pidgey (any kind) in your deck
+        alt: 4x Spearow (any kind) in your deck
+        alt: 4x Double Colorless Energy in your deck
+      Notes: Every card he's got is Weak to Fighting, but they are kind
+of beefy: Jungle Lickitung Lv26, Base Chansey Lv55, Jungle Kangakshan
+Lv40 and Vending Snorlax Lv35. The biggest problem is probably his
+Energy Removals -- four regular, three Super, and a couple of
+Itemfinders to renew them.
+ ____________
+/  SAMEJIMA  \
+   Location: Left
+ Booster(s): Mr. Mime (4) Packs x2
+Requirement: 4x Dratini (any kind) in your deck
+        alt: 4x Jigglypuff (any kind) in your deck
+        alt: 4x Mysterious Fossil in your deck
+      Notes: Vending Onix Lv25 and Vending Hitmonchan Lv23 fill out this
+deck, but mainly you'll worry about Dark Clefable and Dark Dragonite --
+the later only a problem because of Dark Clefable's Power. Gameboy
+Jigglypuff Lv13 is also included to stuff the Bench. The Weaknesses of
+this deck are spread out, but you could go for the Fighting angle. A fun
+thing to do when he asks for Mysterious Fossil is to make a Haymaker-type
+deck with Fossil Aerodactyl Lv28, which takes the wind out of his
+Evolution sails (although Moon Stone will still let him play Colorless
+Evolution cards).
+ _____________________________
+//  FORT MASTER - ISHII      \\
+   Location: Top
+ Booster(s): Omanyte (3) Packs x2
+Requirement: 4x Rattata (any kind) in your deck
+        alt: 4x Meowth (any kind) in your deck
+        alt: 4x Dark Pokemon (any Pokemon) in your deck
+      Notes: Except for Vending Tauros Lv35 and Flying Pikachu Lv12 all
+his cards are Weak to Lightning. His heavy hitters are Vending Pidgeotto
+Lv38, Jungle Pidgeot Lv40 and Jungle Fearow Lv27. His Energy is on the
+low side, but includes four Recycle Energy and four Double Colorless
+Energy, and his Trainer base is good. Energy Removal or flat out use of
+fast Lightning Pokemon will rip him apart. Not too hard.
+
+
+=========================================================================
+  [3h]  FINAL CUP -- back at GB1 Island
+=========================================================================
+
+At some point, you're going to have to fight the Grand Masters. They're
+all available to fight at any time after they've all been rescued -- this
+point in gameplay happens to be the most convinient, at least for
+inclusion in this guide.
+
+Anyway, for this part, you'll have to go back to the first island, and
+visit the Pokemon Dome.
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+Rescue the people first, of course.
+
+To begin the Final Cup, you must talk to Ryuudo -- the second guy from
+the left -- and say "Yes" to his question. Save first, because you dive
+right in after speaking to him.
+
+These guys are tough, and you must fight them one after each other. (You
+can save and change your deck between matches -- just answer "yes" to
+the first prompt they give you.)
+ ______________
+//   HIROKO   \\
+Position: first
+   Notes: Everything except her Vending Moltres Lv37 and Promo Moltres
+Lv40 are weak to Water. Promo Moltres' PokePower is to pull a random
+number of Fire Energy from the deck and put it in her hand, so be sure
+she'll power up quickly between her Scoop Ups and Nightly Garbage Runs.
+Your biggest threats are Fossil Magmar Lv31 Jungle Rapidash Lv33 for
+stalling and Gameboy Ninetales Lv35 for an annoyingly large number of
+coin flips... (Remember to hold down B during her flips to skip the
+animation!) Attack swiftly with Water.
+ _____________
+//   STEVE   \\
+Position: second
+   Notes: Promo Zapdos Lv68's monstrous abilities aren't fully utilized
+in this deck, but they can destroy you if allowed to come to full power.
+Base Electabuzz Lv35 is probably most dangerous as it's more plentiful
+than Promo Zapdos and is powered up quickly. If possible he'll try to
+prevent Evolutions with Fossil Aerodactyl Lv28's PokePower. Zapdos is
+Resistant to Fighting instead of Weak to it, so it's probably better not
+to run Fighting cards against this deck. If you keep your in-play Pokemon
+to a minimum, the Zapdos will damage its allies more than your own
+Pokemon, but then you run the risk of it KO-ing your last in-play
+Pokemon.
+ _________________
+//   KANEKOUJI   \\
+Position: third
+   Notes: Except for Dark Gyarados and his Articunos, every card is Weak
+to Lightning. Most of his cards need a lot of energy to work so Energy
+Removal tactics will work well. Nothing too hard.
+ _______________
+//   RYUUDOO   \\
+Position: fourth
+   Notes: Jungle Kangaskhan Lv40, and Dark Dragonite Lv28 and Base/Promo
+Charizard Lv76 star in this Promo Dragonite Lv41 deck, with Jungle
+Scyther Lv25 for backup. His Trainer base is small but focused, including
+a few Pokemon Breeder for quickly jumping to Dragonite and Charizard.
+
+ --------------------------------------------
+//  Story Progression -- continued         //
+--------------------------------------------
+Once defeated, they'll give you one copy of each of the Legendary Cards:
+Moltres Lv40, Zapdos Lv68, Articuno Lv37, and Dragonite Lv41. (You can
+get these cards over and over indefinitely -- you only need battle them
+additional times.)
+
+Now, head back to the Second Island.
+
+
+=========================================================================
+  [3i]  ROCKET CASTLE
+=========================================================================
+
+Time to take on the King!
+
+Once you have the Mew Coin (from the GR Psychic Stronghold) and the
+Snorlax Coin (from the Colorless Altar), you can enter the Castle -- talk
+to the ladies on either side of the gate, and they'll open the doors.
+
+ --------------------------------------------
+//  Story Progression                      //
+--------------------------------------------
+As soon as the door opens, Rando comes through to fight you for
+(another) a Super Energy Retrieval.
+ _____________
+//   RANDO   \\
+Location: entrance to Rocket Castle
+   Gives: Super Energy Retrieval
+   Notes: This deck contains the dangerous combo of Vending Gastly Lv13
+(which prevents Trainer usage) and Vending Haunter Lv26 (which exploits
+it). Only Fossil Mew Lv23 and Vending Mewtwo Lv67 are Weak to Psychic,
+and Jungle Kangakshan Lv40, Dratini, and Dark Dragonair Resist it, so
+you'll have to go with your strongest neutral colors.
+
+Once inside, the first Rocket Executive will ask to fight you. (You can
+say "no.") His deck requirements are one copy of each Legendary card --
+good thing you just got them!
+
+When you win, the other Rocket Executive will ask to fight. (You can
+also say "no" to her.) She will fight with one of three random decks
+and a corresponding extra rule -- see below.
+
+After her defeat, they bring you to the King himself -- the Great King
+Biruricchi. (He'll ask you whether you want to fight -- you can say "no"
+if you want.) You'll fight best two-out-of-three with an opportunity to
+save and change your deck between matches. He'll fight with one of four
+random decks, but without any extra rules. When you win, you'll get the
+Togepi Coin (for page three of the Event Coin screens), and GR's Mewtwo
+(which he awards a maximum of two times).
+
+ --------------------------------------------
+//    Castle Information                   //
+--------------------------------------------
+ _____________
+/   KANZAKI   \
+   Location: right of the table
+ Booster(s): Rocket R (6) Pack + Mr. Mime (4) Pack
+Requirement: 1x each Legendary Card in your deck
+      Notes: I don't bother making a deck to accomodate the Legendary
+cards; I find it's better to have them as deck filler / discard fodder
+and work around them, although a Fire Deck is best because then you can
+put Moltres' Power to good use. Anyway, his deck runs three colors of
+Energy (Grass, Fire, Psychic) and four colors of cards (Dark Gloom,
+Dark Charmeleon, Dark Golduck, Dark Slowbro), but he has lots of Energy
+Retrieval and Nightly Garbage Run, so Energy Removal must be done very
+thoroughly in order to work. Going for neutral colors might be your
+best bet, or employ Vending Mr. Mime Lv20 to null his multi-colored
+advantage.
+ _________
+/   RUI   \
+  Location: left of the table
+Booster(s): Rocket Grunt (7) Pack + Pidgeot (5) Pack
+     Notes: Rui has three decks, randomly determined. You won't be able
+to tell which deck she's going to bring out until the match starts, so
+preparing for one specifically will take some save juggling or scumming.
+If you're feeling really ambitious, you can try to build a deck that can
+take on all three....
+
+      Deck: Poison Mist Deck
+Extra Rule: +1 to Retreat Cost
+     NOTES: Switches (and maybe Full Heal and/or Full Heal Energy) are a
+must, since even really lightweight Pokemon will need to discard Energy
+to flee. Recycle Energy works well for moving cards around, as well. All
+her cards except Jungle Scyther Lv25 are Weak to Psychic -- including her
+Vending Mr. Mime Lv20 (not powered by Psychic Energy, just included for
+its Power).
+
+      Deck: Ultra Remove Deck
+Extra Rule: you can't retrieve cards out of the discard pile
+     NOTES: This deck is a Raindance/Hyper Beam deck, with ONLY Base
+Blastoise Lv52 and Fossil Golduck Lv27. This means only eight Basics
+and all cards in this deck are Weak to Lightning! Take adantage with a
+swift Lightning deck with low Energy card requirements (as she's got four
+Energy Removal and three Super Energy Removal) -- Rocket Voltorb Lv13
+and Base Electabuzz Lv35 in particular do nicely. Be prepared to take
+significant Energy losses. Also note that she's got 25 Trainer cards in
+this deck, inluding four each of Professor Oak, Bill, and Bill's
+Teleporter.
+
+      Deck: Psychic Battle Deck
+Extra Rule: Resistance is -10 instead of -30
+     NOTES: You don't lose Resistance completely, but it's no longer a
+huge factor so don't rely too heavily on Resisistant cards if they can't
+hold their own under regular circumstances. Beware her (four!) Gust of
+Winds! Base Hitmonchan Lv33, Base Mewtwo Lv53 and Jungle Mr. Mime Lv28
+just love to KO a weakened Pokemon after a Gust. Unless you have a way to
+deal with Mr. Mime it'll cream you, so pack something that can deal 20
+damage, or Base Rattata Lv9 or Jungle Jigglypuff Lv14 if nothing else.
+ __________________________________
+//   CASTLE MASTER - BIRURICCHI   \\
+Location: cosmos room
+Prize(s): Rocket Grunt (7) Pack x2 (eventually)
+   NOTES: He has four decks, each with slightly different players but
+practically the same format: Dark Clefable to reduce damage done to Dark
+Pokemon; a single Vending Mr. Mime Lv20 to stop whatever Weakness
+exploitation you're doing; plenty of draw cards (Bill, Bill's Teleporter),
+Pokemon searchign cards (Poke Trader, Boss' Way) and manipulative cards
+(Switch, Gust of Wind, PlusPower). Each deck focuses on a single Energy
+color with one Dark bloodline and one or two support Pokemon, listed
+below. Compared to what you've accomplished so far, this guy shouldn't be
+that much trouble. Since it's best two out of three, you can still defeat
+him even if you lose the first one, so just keep at it.
+
+ Deck: Stop Life! Deck
+Color: Grass
+ with: Dark Venusaur, Jungle Scyther Lv25, Jungle Kangaskhan Lv40
+       Dark Dragonair
+
+ Deck: Scorcher! Deck
+Color: Fire
+ with: Dark Charizard, Fossil Magmar Lv31, Jungle Kangaskhan Lv40
+
+ Deck: Tsunami Starter! Deck
+Color: Water
+ with: Dark Blastoise, Jungle Scyther Lv25, Fossil Lapras Lv31
+
+ Deck: Smash to Mincemeat! Deck
+Color: Fighting
+ with: Dark Machamp, Base Chansey Lv55, Jungle Kangaskhan Lv40
+
+
+=========================================================================
+  [3j]  End
+=========================================================================
+
+You've done it! It was tough but worth it, wasn't it? Now sit back and
+relax while the credits roll. (You cannot speed up the credits. Don't
+turn the GameBoy off until the credits are done or it won't save. If you
+want, watch the pictures to see the phantom cards and the portraits of
+opponents who you will encounter in the Sealed Fort....)
+
+Of course, the game isn't *really* over. There's tons more to do, if only
+to collect whatever cards you may be missing. Check out the next part of
+this guide for all the other cool stuff you can do on this game.
+
+
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+=========================================================================
+================|    (4)   S T O R Y     E X T R A S    |================
+=========================================================================
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+
+These are things you could very well want to do during the course of your
+game but are not critical to winning.
+
+=========================================================================
+  [4a]  MR. ISHIHARA'S HOUSE (GB1 Island)
+=========================================================================
+
+Mr. Ishihara is named after one of the producers of the original Pokemon
+RPGs and a major force behind the trading card game. In both Pokemon Card
+games for the Gameboy, he is a card collector and will make some in-game
+trades for promotional cards.
+
+ --------------------------------------------
+//  Trading with Mr. Ishihara              //
+--------------------------------------------
+Unlike other "random" social events in this game, and unlike how Mr.
+Ishihara was in the first game, you won't be able to reset the game to
+make the next trade immediately available. What this amounts to is
+dueling other people and resetting multiple times -- sometimes it'll be
+after one of either, sometimes it'll be a half dozen of both. It's a
+little frustrating, but if you push through to the end you'll be able to
+duel him!
+
+ --------------------------------------------
+//  Cards to Trade                         //
+--------------------------------------------
+Vending Clefairy Lv15 --> Flying Pikachu Lv12 (ANA)
+Jungle Clefable Lv34 --> Togepi Lv8
+Fossil Dragonite Lv45 --> Marill Lv17
+
+After he trades you those three cards, he'll move to the second island,
+where you can meet him again and do more trades. (See section 4g.)
+
+
+=========================================================================
+  [4b]  CHALLENGE HALL (GB1 Island)
+=========================================================================
+
+Side Room Trade = Fossil Graveler Lv29 --> Jungle Wigglytuff Lv36
+                  then Fossil Omanyte Lv19 --> Fossil Lapras Lv31
+                  then Fossil Haunter Lv17 --> Bill's Computer
+
+The Challenge Cup will pit you against three random opponents, between
+which you can save and change your deck. If you win you will receive
+a promotional card.
+
+Various challenges are available during the course of gameplay. If you
+miss one, you'll have another opportunity to win the promo card again
+at randomly-held Challenges after the story is over.
+
+The below information was taken from the Official Guidebook.
+
+ --------------------------------------------
+//    First Challenge                      //
+--------------------------------------------
+-- WHEN
+any point between the assembly of the GR Coin and Steve's rescue from
+the Lightning Fort (GB2 Island)
+
+-- POSSIBLE OPPONENTS (four prizes)
+Stone Club: Yasutomo
+Stone Club: Norio
+Stone Club: Joota
+Battle Club: Masahiro
+Battle Club: Tatsuroo
+Green Club: Ayako
+Green Club: Haruna
+Green Club: Misao
+Science Club: Yasuyuki
+Science Club: Souta
+Science Club: Masashi
+Aqua Club: Shintaroo
+Aqua Club: Mari
+Fire Club: Watarun
+Fire Club: Masatoshi
+Elec Club: Yuka
+Elec Club: Sousuke
+Elec Club: Toshihiko
+Esper Club: Rie
+
+-- REWARD
+Mewtwo Lv30
+
+ --------------------------------------------
+//    Second Challenge                     //
+--------------------------------------------
+-- WHEN
+Any point between the defeat of Hiderou of the Fire Fort and Ryuudo's
+rescue from the Psychic Fort
+
+-- POSSIBLE OPPONENTS, FIRST TWO ROUNDS
+any Club Member from any Club, with four prizes
+
+-- POSSIBLE OPPONENTS, LAST ROUND
+any Club Master, except Yamaguchi of the Battle Club, with six prizes
+
+-- REWARD
+Pikachu Lv13
+
+ --------------------------------------------
+//    Further Challenges                   //
+--------------------------------------------
+After you clear the game, the Challenge Hall will open periodically for
+additional challenges. The prize you get will be one of the random
+promos listed below.
+
+-- POSSIBLE OPPONENTS, FIRST TWO ROUNDS
+any Club Member from any Club, with four prizes
+
+-- POSSIBLE OPPONENTS, LAST ROUND
+any Club Master, plus Rando and the four GRs, with six prizes
+
+-- POSSIBLE REWARDS
+Arcanine Lv34
+Pikachu Lv13
+Pikachu Lv16 (CoroCoro)
+Pikachu Lv16 (Toyota)
+Flying Pikachu Lv12 (CoroCoro)
+Flying Pikachu Lv12 (ANA)
+Surfing Pikachu Lv13 (CoroCoro)
+Surfing Pikachu Lv13 (JR)
+Slowpoke Lv09
+Mewtwo Lv30
+Mewtwo Lv60 (CoroCoro)
+Mewtwo Lv60 (FanBook)
+Mew Lv08
+Jigglypuff Lv12
+Imakuni?
+Super Energy Retrieval
+
+** If you win the extra Challenge Cups 10 times, you will receive the
+Ponyta Coin (for page three of the Event Coin screens).
+
+
+=========================================================================
+  [4c]  DR. OOYAMA'S LAB
+=========================================================================
+
+ --------------------------------------------
+//    Top Room                            //
+--------------------------------------------
+Mikasa is sitting at the table and is more than happy to help you with
+the  rules, and if you want he can take you through a practice duel. (See
+section 2a for more info.)
+
+After the Great Rocket King Biruricchi's defeat, Dr. Ooyama installs a
+Challenge Machine: a machine that pits random GB1 opponents against
+your deck. The object is to get as many wins in a row as you can. After
+50 consecutive wins on that machine, you receive the Dugtrio Coin (for
+page three of the Event Coin screens).
+
+ --------------------------------------------
+//    Left Room                            //
+--------------------------------------------
+Arai-Mon is in this room, monitoring the upper-right machine. When you
+talk to him, he is willing to battle you with various decks. (See
+section 2a for more info.)
+
+ --------------------------------------------
+//    Right Room                           //
+--------------------------------------------
+Here, there is a Deck Save Machine and an Auto Deck Machine. (A second
+Auto Deck Machine arrives later.) The Deck Save Machine has the same
+files on it as the Deck Save Machine in your MiniCom. The Auto Deck
+Machines have large numbers of already designed deck plans for your
+interest, but honestly you're better off using your own designs.
+
+
+=========================================================================
+  [4d]  POKEMON DOME
+=========================================================================
+
+** Before the first island is liberted, GR#5 hangs out here. You can't
+fight him, though. **
+
+As you rescue the Grand Masters, they will appear here. (It's where they
+live or something.) Until all four of them are rescued, the ones you
+have rescued will fight you for boosters:
+ ______________
+//   HIROKO   \\
+  Location: left, at left table
+Booster(s): Bulbasaur (1) Pack +
+            Omanyte (3) Pack +
+            Mr. Mime (4) Pack
+    Rescue: third room in the GR Fire Fort (see section 3c)
+ _____________
+//   STEVE   \\
+  Location: left, at right table
+Booster(s): Omanyte (3) Pack +
+            Mr. Mime (4) Pack
+    Rescue: second room in the GR Lightning Fort (see section 3b)
+ _______________
+//  KANEKOUJI  \\
+  Location: right, at right table
+Booster(s): Moltres (2) Pack +
+            Omanyte (3) Pack +
+            Mr. Mime (4) Pack
+    Rescue: second room in the GR Water Fort (see section 3d)
+
+Once you rescue them all, the Final Cup opens, and you can win one copy
+of each Legendary Card. (See section 3h for the Final Cup.)
+ _______________
+//  RYUUDOO    \\
+Location: right, at left table
+  Rescue: second room in the GR Water Fort (see section 3d)
+
+ --------------------------------------------
+//    Grand Masters Cup                    //
+--------------------------------------------
+After you win 10 Link Battles, you can go to the Pokemon Dome and
+participate in the Grand Masters Cup!
+
+Unlike the other Cups, the Grand Masters Cup is a standard elimination
+tournament. The other contestants are GB1 Island Club Masters, and if you
+get to the end, you'll fight one of the Grand Masters themselves.
+
+If you win, you'll be shown four promos, and allowed to keep two. Any
+promo in the game is a possible reward except for Bill's Computer,
+any of the mail-in promos (Alakazam Lv45, Gengar Lv40, Machamp Lv54, Golem
+Lv37, and Omastar Lv36), Imakuni? and GR's Mewtwo.
+
+(This information came from the GB2 Official GuideBook.)
+
+
+=========================================================================
+  [4e]  GAME CENTER (GB2 Island)
+=========================================================================
+
+
+                +--------------+  +-------------+
+                |     * C *    |  |====* E *====|
+                |     *===*    |  |    *===*    |
+                |              +--+             |
+                |===*          +--+             |
+                | B |      *===|  |=====   =====|
+                |===*      | D |  | *F*     *G* |
+                |          *===|  |             |
+                +-----+  +-----+  +-------------+
+                      |  |
++------------+  +-----+  +-----+
+|   | 4    5 |  |  2  |3 |  A  |   A = Prize Counter
+|   +--------|  |-----+  +-----+   B = Bill's Computer
+|            +--+              |   C = Black Box
+|            +--+              |   D = Coin Toss Game
+|            |  |              |   E = Card Dungeon
+|            |  |    1         |   F = Slot Machines (1 chip)
++------------+  +-----+  +-----+   G = Slot Machines (5 chips)
+                      |  |
+                      |  |
+                      |  |
+
+1 = This guy will keep you from leaving if you still have chips in your
+    posession -- give them to the lady marked "2" first.
+2 = Will keep your chips for you until your next visit.
+3 = Will give you 10 chips if you run out.
+4 = Battle Center. Use the gamelink cable to battle another cartridge;
+    receive 3 random boosters for winning and 1 for losing. Win 50 times
+    for the Raichu Coin and 100 times for the Lugia Coin.
+5 = Gift Center. Use the gamelink cable to send or receive a card or
+    a deck "recipe" to another cartridge.
+
+The best way to get chips, in my opinion, is the Coin Flip game. It only
+takes a lucky streak or two to get LOADS of chips. The next best is the
+slots. The great thing about the slots is that you don't have to pay
+attention to the game -- you can watch a movie or something and just hit
+the Down button loads of times and everything else is automatic. (Check
+occasionally in case you enter Bonus Mode, when you have to press A.)
+
+ --------------------------------------------
+//  Collecting Prizes                      //
+--------------------------------------------
+To collect prizes, talk to the lady behind the counter marked "A" on the
+map and you will be asked a yes or no  question. (No is default.) "Yes"
+will take you to the prize screen:
+
+  ==<PLAYER>'s CHIPS====XXX=
+  | Venusaur Lv64    2000 |
+  | Mew Lv15         2000 |
+  | Bill's Computer  1000 |   After the Jigglypuff Coin is purchased,
+  | Jigglypuff Coin   500 |   the fourth item will be "Present Pack x3"
+  | Present Pack x1   200 |
+  =========================
+
+Along the top it shows how many chips you have left. To purchase a prize,
+select what you want and press A. You will be asked if you want it. (No
+is default.) If you choose yes, you will receive what you wanted. After
+you've bought something it will ask if that is all. (No is default.)
+"Yes" will take you away from this screen. "No" will let you continue on
+to other items.
+
+ --------------------------------------------
+//  Bill's Computer                        //
+--------------------------------------------
+The lower machine (marked "B" on the map) is Bill's Computer. The cost
+is 20 chips and copy of the card Bill's Computer. You are then allowed
+to trade in any of the following cards for any of the following Promo
+evolutions:
+   Any Omanyte  -> Omastar Lv36
+   Any Haunter  -> Gengar Lv40
+   Any Machoke  -> Machamp Lv54
+   Any Graveler -> Golem Lv37
+   Any Kadabra  -> Alakazam Lv45
+
+The card Bill's Computer can be received at various places: 1) Rando gives you one in the Game Center, if you visit it before
+    clearing the Fighting Fort.
+ 2) it can be traded for a Base Chansey Lv55 (GB1 Challenge Hall)
+ 3) it can be won at the GR Island's Challenge Cup (2nd challenge)
+ 4) Ishihara trades you one (his last trade)
+ 5) it can be bought for 1000 chips (Game Center)
+
+ --------------------------------------------
+//  Black Box                              //
+--------------------------------------------
+The topmost machine is called the Black Box. ("C" on the map.) For 5
+chips, you can choose from 1 to 5 cards to send in, and later, you'll get
+cards back in the mail. I still haven't quite figured out exactly how it
+determines what  card(s) you get back, but these are the general
+principles (from the Official Guidebook):
+
+1. You the cards you get in the mail will be of greater or equal value
+than the cards you sent out.
+2. The process isn't random -- each combination of cards you send out
+will yield the same results.
+3. If you send cards of multiple colors and the colors have varying
+amounts of cards, what is sent back will be the color of the majority.
+4. If you send cards of multiple colors and the amount of cards per
+color are equal, a Trainer card will be sent back.
+5. If several cards of the same Pokemon are sent out, the Pokemon's
+evolution will be sent back.
+6. Certain combinations of rare cards will yield promo cards.
+
+Also see section B1, which contains a list Promo "recipes" for the
+Black Box.
+
+On an interesting note, if you send in 5 Promos, you'll get the same 5
+Promos back with a few other extra cards (usually not rares).
+
+ ---------------------------------------------
+//  Coin Flip Game                         //
+--------------------------------------------
+At the table marked "D" is the Coin Flip Game. The cost is 1 chip. The
+object is to flip as many heads in a row as possible. If you are able to
+flip 10 heads in a row, you will receive a Mew Lv8. You will receive
+various amounts of chips back as secondary prizes if you get more than
+two heads in a row:
+
+   3 flips = 20 chips    = 1/8 chance (12.5%)     = 2.5 chips avg.
+   4 flips = 40 chips    = 1/16 chance (6.3%)     = 2.5 chips avg.
+   5 flips = 100 chips   = 1/32 chance (3.1%)     = 3.1 chips avg.
+   6 flips = 200 chips   = 1/64 chance (1.6%)     = 3.1 chips avg.
+   7 flips = 500 chips   = 1/128 chance (0.7%)    = 3.9 chips avg.
+   8 flips = 1000 chips  = 1/256 chance (0.4%)    = 3.9 chips avg.
+   9 flips = 3000 chips  = 1/512 chance (0.2%)    = 5.9 chips avg.
+  10 flips = Mew Lv8     = 1/1024 chance (0.09%)
+
+Unlike real life where casinos make a clear profit overall, the chances
+of winning any chips back outweigh the cost of 1 chip to play the game.
+Your mileage may vary depending on luck, of course, but overall it's the
+best thing to do for chips.
+
+If you're just starting out (and only have 10 chips) it won't hurt to try
+this game a few times. If you run out, dash to the lady marked 3 on the
+map and she'll give you 10 more chips.
+
+ --------------------------------------------
+//  Slot Machines                          //
+--------------------------------------------
+The slot machines on the left take 1 coin to play, and the ones on the
+right take 5 coins to play. Likewise, prizes given on the right are 5x
+the prizes given on the left. (Always play the right one!)
+
+Remember, if you run out of coins, talk to the lady marked 3 on the map
+and she'll give you 10 more coins.
+   ---------------------------------------------
+   | 3 Energies  |  Left        |  Right       |
+   |   to Match  |  Slots       |  Slots       |
+   ---------------------------------------------
+   |       Fire  |  2 coins     |  10 coins    |
+   |  Lightning  |  3 coins     |  15 coins    |
+   |      Water  |  4 coins     |  20 coins    |
+   |  Colorless  |  20 coins    |  100 coins   |
+   |    Rainbow  |  Bonus Game  |  Bonus Game  |
+   ---------------------------------------------
+
+A Bonus Game changes the slots from Energies to Legendary Pokemon and
+bags of money. You have ten shots to get a match of any kind before
+returning to normal play mode.
+   --------------------------------------------------
+   |  3 Symbols  |  Left         |  Right           |
+   |   to Match  |  Slots        |  Slots           |
+   --------------------------------------------------
+   | Money Bags  |  100 coins    |  500 coins       |
+   |   Any Pkmn  |  Present Pack |  Present Pack x3 |
+   --------------------------------------------------
+Before you get too excited, the Present Packs are Energy-filled. The
+chances for a money bag match is much greater than a match of any Pokemon
+so you'll probably get the 100/500 coin prize.
+
+ --------------------------------------------
+//  Card Dungeon                           //
+--------------------------------------------
+The area marked "E" is the Card Dungeon. To enter, talk to the purple-
+haired lady and say  yes. (No is default.) You will then enter the first
+room, where your first opponent awaits.
+
+To progress, talk to each opponent, and they will ask you to battle. (No
+is default  and if selected will whisk you away from the dungeon back to
+the outside.) If you say yes, you will then be asked how many chips to
+bet, and the duel will begin. After the match (if you won) you will
+receive your winnings and be asked if you want to continue through the
+dungeon. (No is default and if selected will return you to the outside.)
+Upon yes, the person will open the next door, and the process repeats.
+
+If you bet the highest amount and win all the time (save before
+battling!) then you will gain 210 chips each run through. While this is
+the most guaranteed way of gaining chips, it's not as fast as the slots
+or the coin flip game. (It is more interesting, though.)
+ __________
+/   PAWN   \
+ CHIPS TO BET: 10
+No. OF PRIZES: 4
+        NOTES: The Pawn's deck is a Fire-Colorless deck. (Fossil Moltres
+Lv35 covers the Colorless' Weakness, before you think about using a
+mono-Fighting deck against him.) The deck has a lot of coin-toss cards,
+like Vending Kangaskhan Lv36, Vending Lickitung Lv20, Vending Chansy
+Lv40, and Vending Magmar Lv27, so while he may not do consistant damage,
+a lucky string of flips will tear you apart. He's also full on Energy
+Retrieval for replenishing all the discarded cards from Magmar and
+Moltres, and Energy Removal and Potion to stall for Energy-applying time.
+I recommend hitting hard with neutral colored Pokemon and stocking Energy
+Removal to keep him on the defensive.
+ ____________
+/   KNIGHT   \
+ CHIPS TO BET: 10 or 20
+No. OF PRIZES: 4
+        NOTES: The Knight's got Base Charizard and family, Kabuto and
+Kabutops, and both varieties of Kangaskhan. There's only Fighting and
+Colorless energy in this deck, so Charmander thru Charizard are there
+for countering Grass Weakness rather than being a really offensive
+threat. Charmeleon can be damaging when backed by Colorless Energy, but
+Charizard isn't as much, especially when Energy Removal'd. If you're
+careful, Grass Pokemon and Energy Removal should see you through fine.
+ ____________
+/   BISHOP   \
+ CHIPS TO BET: 10 or 30
+No. OF PRIZES: 4
+        NOTES: The Bishop runs a color-changing deck with all three
+Porygons, Fossil Golbat Lv29, and Vending Venomoth Lv22. Golbat is nasty
+when used against Grass-weak cards, so don't let him color-change you! A
+strong Fire angle should work well against Venomoth and its backup,
+Jungle Scyther Lv25, but still be wary of Porygon. If you're fast, he
+shouldn't have time to set up his deck before you clobber him.
+ __________
+/   ROOK   \
+ CHIPS TO BET: 30 or 50
+No. OF PRIZES: 5
+        NOTES: The Rook has Jungle Eevee Lv12 and three Eevee
+evolutions: Gameboy Flareon Lv22, Rocket Dark Vaporeon Lv28 and Gameboy
+Jolteon Lv24, with Fearow and Dragonite. There are only eight Water
+Energy cards, but four each of Double Colorless, Potion, Full Heal, and
+Recycle Energies. You may find these "functional" Energy cards more
+annoying the Rook's Trainer cards! In this case, Lightning cards will do
+the best as his Fighting Weaknesses are covered well.
+ ___________
+/   QUEEN   \
+ CHIPS TO BET: 50 or 100
+No. OF PRIZES: 6
+        NOTES: Her elements are stacked in such a way that taking
+advantage of any one elemental Weakness is impossible, so you may want
+to go with Grass-Weak cards and no-Weakness cards. Because of the number
+of colors in her deck, using Energy Removal techniques is a HUGE blow
+against her. Base Dragonair Lv33 and Base Poliwrath Lv48 do beautifully
+to fill both roles at once. (Do remember to also use Energy Removal and
+Super Energy Removal as well, of course.) If you can't do either
+technique, just try to have your strongest offensive cards as streamlined
+as you can, or use Vending Mr. Mime Lv20 to null her type advantages.
+
+
+=========================================================================
+  [4f]  GR CHALLENGE HALL (GB2 Island)
+=========================================================================
+
+Side Room Trade = Base Chansey Lv55 --> Bill's Computer
+
+The Challenge Cup here is just like the one on the first island -- you'll
+be put against three random opponents, between which you can save and
+change your deck. If you win, you will receive a promotional card.
+
+Note that opponents with extra rules will still play with those extra
+rules in the Challenge Hall, but deck requirements are ignored.
+
+Various challenges are available during the course of gameplay. If you
+miss one, you'll have another opportunity to win the promo card again
+at randomly held Challenges after the story is over.
+
+The below information was taken from the Official Guidebook.
+
+ --------------------------------------------
+//    First Challenge                      //
+--------------------------------------------
+-- WHEN
+any point between the defeat of Catherine at the GR Lightning Fort and
+the defeat of both Hiderou of the GR Fire Fort and and Kanoko of the GR
+Water Fort
+
+-- POSSIBLE OPPONENTS (four prizes)
+any Fort Minion (not Master) from the first four Forts: Grass, Lightning,
+Fire, Water
+
+-- REWARD
+Dark Persian Lv28
+
+ --------------------------------------------
+//    Second Challenge                     //
+--------------------------------------------
+-- WHEN
+any point between the defeat of Kamiya of the GR Fighting Fort and the
+defeat of Mami of the GR Psychic Fort
+
+-- POSSIBLE OPPONENTS (four prizes)
+any Fort Minion (not Master) from the first six Forts: Grass, Lightning,
+Fire, Water, Fighting, Psychic
+
+-- REWARD
+Bill's Computer
+
+ --------------------------------------------
+//    King Cup                             //
+--------------------------------------------
+After story mode is over, the King Cup is held occasionally in the GR
+Challenge Hall. You'll get a random promo if you make it through.
+
+-- POSSIBLE OPPONENTS, FIRST TWO ROUNDS
+any Fort Minion from any GR Fort, with four prizes
+
+-- POSSIBLE OPPONENTS, LAST ROUND
+any Fort Master from any GR Fort, plus any Colorless Altar guy,
+with six prizes
+
+-- POSSIBLE REWARDS
+see section A9 for the possible promos you can receive
+
+If you win the King Cup 10 times, you will receive the Horsea Coin (for
+page three of the Event Coin screens).
+
+ --------------------------------------------
+//    Challenge Machine                    //
+--------------------------------------------
+After story mode is over, a GR Challenge Machine is installed in the
+GR Challenge Hall. It functions identical to the first island's
+Challenge Machine, only it selects decks from the second island. After
+50 consecutive wins on this machine, you receive the Gengar Coin (for
+page three of the Event Coin screens).
+
+
+=========================================================================
+  [4g]  MR. ISHIHARA'S HOUSE (GB2 Island)
+=========================================================================
+
+** See section 4a on how to make Ishihara trade with you. **
+
+After you finish trading with Ishihara on the first Island, he'll move
+to his second house on the second island. Here, he'll trade the
+following:
+
+ --------------------------------------------
+//  Cards to Trade                         //
+--------------------------------------------
+Vending Moltres Lv37 --> Surfing Pikachu Lv13 (JR)
+Vending Articuno Lv34 --> Surfing Pikachu Lv13 (CoroCoro)
+Fossil Zapdos Lv40 --> Flying Pikachu Lv12 (CoroCoro)
+Rocket Dark Dragonite Lv33 --> Bill's Computer
+
+Occasionally he'll return to the first island to study, but he'll
+come back eventually, so don't panic if he's gone! (See section 4a for
+an explanation of how to "wait" for his next move.)
+
+After the last trade, he'll let you duel him:
+ ________________
+//   ISHIHARA   \\
+Bosters(s): two random boosters
+     Notes: The Pokemon in his deck are all Promos, except for one Base
+Gyarados Lv41 (if only to justify the inclusion of Promo Magikarp Lv10).
+There's Marill, Surfing Pikachu, Promo Electabuzz Lv20, and a handful
+of Colorless Promos including Dark Persian, Cool Porygon, Promo
+Farfetch'd Lv38 and Promo Kangaskhan Lv38. Note that except for Gyarados
+and Farfetch'd, who Resist Fighting, nearly everyone else is Weak to
+Fighting, and the rest (except for Gyarados) are Weak to Lightning. His
+Trainer count is low and unfocused so he shouldn't give you too much
+trouble. (His deck is a reminder that an expensive deck does not always
+make a good deck!)
+
+If Ishihara can't be found, save and reset the game -- he'll return.
+(If not, lather, rinse, repeat.)
+
+
+=========================================================================
+  [4h]  SEALED FORT (GB2 Island)
+=========================================================================
+
+The doors will not be unsealed until you defeat the Great Rocket King
+Biruricchi a second time. Then the door will be open next time you come.
+
+Why are they ghosts? And why do they have cards? The world may never
+find out, but in the meantime you can refine your deck techniques
+against these master players.
+
+These guys are tough. Their decks embody deck archetypes from across
+the ages, and probably at least one of them will give you a hard time. If
+you defeat them you will receive a Present Pack, which isn't too useful
+by itself this late in the game, but the challenging the Ghost Masters is
+in of itself a good enough goal. They are, from left to right:
+ _________
+/   EJI   \
+Location: leftmost
+   Notes: This kid has a Wigglytuff Do-the-Wave Deck, with Jungle Scyther
+Lv25, Fossil Magmar Lv31, and Base Hitmonchan Lv33 as backup. His Trainer
+card count is fairly high at 27, and his Energy card count is
+devastatingly low as a result, so Energy denial tactics will do very
+well. Between Item Finder, Computer Search, Professor Oak, and his vast
+library of other Trainers, he has fantastic control over gameplay, so be
+prepared to take some losses -- even before he's at full speed.
+ ______________
+/   MAGICIAN   \
+Location: second from left
+   Notes: This guy's deck is almost a classic Alakazam stall. Like
+Eji, his Energy count is on the low side, but unlike Eji's Do-the-Wave,
+the Magician's deck doesn't need Energy to be a threat. Base Alakazam
+Lv42 will warm the Bench, sliding damage counters off his main
+attackers, like Jungle Mr. Mime Lv28, and onto his sponges: Base Chansey
+Lv55, Fossil Tentacool Lv10 and occasionally Jungle Scyther Lv25. He
+does have draw cards, like Oak, Bill, and Bill's Teleporter, but once
+he's set up, he takes all the time he needs. Going for Psychic
+Resistance helps enormously, and be sure you have someone who can deal
+with Mr. Mime's Poke Power or you're in for a lot of trouble.
+ ______________
+/   TOSHIRON   \
+Location: third from left
+   Notes: Here's the good news: Toshiron's Trainer count is low. The
+bad news is that it's a Trainer card denial deck. Both Fossil Psyduck
+Lv15 and Vending Gastly Lv13 have attacks that prevent Trainer use for
+one turn, and Dark Vileplume's Poke Power will keep both of you from
+playing Trainers forever! Not only that, but Vending Haunter Lv26's
+Poltergeist attack does 10 damage for each of the Trainer cards in your
+hand! If you don't feel like changing your deck beforehand, make sure
+you don't let Trainer cards accumulate -- use them as early as you can,
+even if their use isn't efficient or even useful. Fortunately, there
+isn't Grass Energy in the deck, so a third of his Pokemon won't even
+hurt you beyond their Powers. He's got Dark Golduck for a little
+muscle, though, so watch out.
+ ___________
+/   PIERO   \
+Location: fourth from left
+   Notes: This deck is mono-fire, so bring out all your best Water cards.
+He's got Fossil Magmar Lv31, Base Ninetales Lv32, Base Arcanine Lv45 and
+Promo Arcanine Lv34, some of which demand Energy upkeep, so Energy
+denial will help. Nothing too tricky, really.
+ _______________
+/   TOBI-CHAN   \
+Location: center
+   Notes: I'm not sure why this guy is here; his deck is pretty basic.
+Vending Weedle Lv15, Jungle Scyther Lv25, Base Charmeleon Lv32, and
+Fossil Magmar Lv31 are his primary fighters. (Yes, you read that
+correctly -- Weedle is a main attacker.) A good Fire and/or Water deck
+will deal with him handily.
+ _______________
+/   DEE (Dii)   \
+Location: fourth from right
+   Notes: Dee means trouble with a capital T: the only Pokemon in his
+deck are Promo Zapdos Lv68, Base Chansey Lv55, and Gameboy Ditto Lv19 --
+the latter being essentially another few of the first two. Fortunately,
+he only has two Scoop Up, and no other means of recycling Zapdos'
+Pokemon power. It helps to use Pokemon with more than 70 HP as they can
+survive one hit from Zapdos' attack. Normally he keeps his Bench empty,
+so if you can KO that one Zapdos you'll win by default, no matter how
+many losses you've taken (as long as it's less than six, that is.)
+ ________________
+/   MASQUERADE   \
+Location: third from right
+   Notes: GR's Mewtwo's power increases all damage done to his Dark
+Pokemon -- Dark Golduck, Dark Clefable, and Dark Dragonair -- by either
+0, 10 or 20 damage, determined randomly. In addition, Dark Clefable's
+power reduces damage done to his Dark Pokemon by 0, 10 or 20 damage.
+(Before you think about fighting fire with fire, these effects will not
+spill over onto your own Dark Pokemon!) You could try to use Fighting
+cards to take on Dark Clefable and the deck's backup, Jungle Kangaskhan
+Lv40, but watch out for GR's Mewtwo, especially if his Bench is full of
+Dark Pokemon.
+ __________
+/   ANNA   \
+Location: second from right
+   Notes: Anna has a generic Psychic deck with Exeggutor and Dark
+Clefable. Standard techniques will work here, but note that she's got
+4x Double Colorless Energy and 4x Recycle Energy before you try Energy
+denial. Psychic-Resistant cards will help immensely. Otherwise you
+could go with Fire to hinder Exeggutor, which can become dangerous if
+allowed to power up.
+ _________
+/   YUI   \
+Location: rightmost
+   Notes: This is a classic Raindance deck, with Base Blastoise Lv52,
+Fossil Lapras Lv31, Fossil Articuno Lv35 and Promo Articuno Lv37. She
+actually runs low on Basics, so a fast Lightning deck would work
+wonderfully; everyone but Articuno is weak to Lightning. Be sure to
+cut off her progress to Blastoise as soon as possible, or she'll
+start to deal you massive damage.
+
+
+=========================================================================
+  [4i]  IMAKUNI?
+=========================================================================
+
+Imakuni? (yes, the question mark is part of his name) is a pop singer in
+Japan known for doing a lot of work with Pokemon, including the Japanese
+version of the "Poke Raps" ("Pokemon Ieru ka na?"). The only exposure
+Americans have had of this guy is in the other Pokemon TCG GB game, but
+on the other side of the Pacific he's more well known, and has a pretty
+strong association with the Pokemon franchise in the very early years.
+
+Imakuni? appears in the side room of any Club or Fort. You'll notice
+right away if you have sound on because the music will be different.
+Fight him and he'll leave -- and won't reappear until you save and
+restart the game. (He'll be in a different Club when he does reappear,
+of course.)
+
+There are actually two... uh, varieties of Imakuni? -- one in a black
+suit that can be found on the first island, and one in a red suit that
+frequents the second island.
+
+ --------------------------------------------
+//  Imakuni? (Black)                       //
+--------------------------------------------
+Black Imakuni? will appear randomly in the lower-left corner of any
+Clubs' Left Room.
+
+To "unlock" Imakuni?, you must talk to one of the following people:
+   - Stone Club, Left Room, lower-right person (woman with red hair)
+   - Water Club, Left Room, upper-right person (next to bookshelves)
+   - Esper Club, Left Room, lower-right person (girl with purple hair)
+
+(You don't have to restart your game after "unlocking" to make him
+appear.)
+
+If you encounter him before you assemble the GR Coin he'll CardPop! you.
+Don't worry if you missed the chance, though -- it's always the same:
+his promo, the Imakuni? card. (Yay...?)
+ ________________
+//   IMAKUNI?   \\
+Boosters(s): complicated; see below
+      Notes: While Fossil Golduck Lv27 or Fossil Hypno Lv36 are probably
+his most dangerous cards, there really isn't much to worry about.
+He'll Poke Flute your own KO'd Pokemon back to your Bench, and Confuse
+his own Active Pokemon with the promo Imakuni?. Even Imposter Professor
+Oak might prove useful when your own hand is in trouble. Use Lightning
+cards and/or Psychic-Resistant cards to defeat him. All in all, a nice
+easy way to grind for boosters.
+
+-- FIRST and SECOND WIN REWARDS
+one or two boosters (Packs 1-3)
+
+-- THIRD WIN REWARDS
+Promo Farfetch'd Lv20
+
+-- FOURTH and FIFTH WIN REWARDS
+one to four boosters (Bulbasaur, Moltres, or Omanyte Packs)
+
+-- SIXTH WIN REWARD
+Imakuni? (Promo card)
+
+-- SEVENTH and EIGHTH WIN REWARDS
+one to four boosters (Bulbasaur, Moltres, Omanyte, or Mr. Mime Packs)
+
+-- NINTH WIN REWARD
+Promo Farfetch'd Lv20 or Imakuni? (Promo card)
+
+-- TENTH+ WIN REWARDS
+one to four boosters (Bulbasaur, Moltres, Omanyte, Mr. Mime, or Pidgeot
+Packs)
+
+ --------------------------------------------
+//  Imakuni? (Red)                         //
+--------------------------------------------
+Red Imakuni? doesn't have to be unlocked, but just appears randomly in
+the top-right corner of the Left Room of any GR2 Island building. (If
+the building does not have a Left Room, he can't appear there.)
+
+(He also doesn't seem to hang out in Forts you haven't unlocked yet.
+Lucky you!)
+ ________________
+//   IMAKUNI?   \\
+Prize(s): complicated; see below
+   NOTES: An interesting deck, especially vis a vis choice of Trainer
+cards. Imakuni? will thoughtfully use his own promo ("Imakuni?") to
+confuse his own Active Pokemon, Computer Error to forfeit his turn and
+allow you to draw up to 5 cards, Poke Flute to revive your own KO'd
+Basic Pokemon, and Digger to deal damage to himself if not you. His
+biggest threat is probably Dark Hypno or Dark Golduck, but really all
+you have to do is run Psychic-Resistant cards.
+
+-- FIRST and SECOND WIN REWARDS
+one or two boosters (Omanyte, Rocket R, or Rocket Grunt Packs)
+
+-- THIRD WIN REWARD
+Promo Slowpoke Lv9
+
+-- FOURTH and FIFTH WIN REWARDS
+one to four boosters (Moltres, Omanyte, Rocket R, or Rocket Grunt Packs)
+
+-- THIRD WIN REWARD
+Imakuni? (Promo card)
+
+-- SEVENTH and EIGHTH WIN REWARDS
+one to four boosters (Moltres, Omanyte, Mr. Mime, Pidgeot Rocket R, or
+Rocket Grunt Packs)
+
+-- NINTH WIN REWARD
+Promo Slowpoke Lv9 or Imakuni? (Promo card)
+
+-- TENTH+ WIN REWARDS
+one to four boosters (any Pack)
+
+
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+=========================================================================
+=======|    (5)   M E N U S     A N D     N A V I G A T I O N    |=======
+=========================================================================
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+
+This section is designed to help non-Japanese readers navigate the game.
+If you are playing in a language you can read, you can probably skip this
+section completely. (This game has some new features, so if you've played
+the first game you still might want to check this section in case there's
+something you don't know about.)
+
+=========================================================================
+  [5a]  YES versus NO
+=========================================================================
+
+Throughout the Game, you will encounter Yes-No questions. It can be
+difficult to respond if you don't know which choice is Yes and which
+choice is No.
+                                                  --
+ |    |                                          ___
+ |  --+-- |    \              |    \   |    \      /
+ |   _|   |     |             |     |  |     |    /
+ |  / |\  |                   |        |         /\
+ |  \/ /   \/                  \/       \/      /  \_/
+
+    Yes = "hai"                        No = "iie"
+(pronounced "high")              (pronounced "ee-yeh")
+
+The least committal choice is selected by default, and this is usually
+"No" -- but not always -- so be careful not to get the two mixed up.
+
+
+=========================================================================
+  [5b]  MAIN MENU
+=========================================================================
+
+Pressing START during any part of the game (except the duels) will bring
+you to the main menu, which is a seven-item list that will appear to the
+right side of the gameboy screen.
+
+============
+| STATUS   |
+| DIARY    |
+| DECK     |
+| MINICOM  | (short for "miniature computer")
+| COIN(S)  |
+| OPTIONS  |
+| EXIT     |
+============
+
+-- STATUS
+Shows your name, cards collected, game time, coin selected, and  GR coin
+fragments collected.
+
+-- DIARY
+Shows your name, coins collected, cards collected, and gametime.  On the
+bottom is a prompt asking you whether or not to "write in your diary"
+(save). "Yes" is the default answer.
+
+-- DECK
+Brings you to the DECK MENU. (5c)
+
+-- MINICOM
+Brings you to the MINICOM MENU. (5e)
+
+-- COINS
+The box around one of the coin indicates which coin you have selected
+fro dueling. Use the arrow buttons to scroll to various coins on various
+Event Coin screens. (There are three screens -- room for 24 coins)
+
+-- OPTIONS
+Brings you to the OPTIONS MENU. (5g)
+
+
+=========================================================================
+  [5c]  DECK MENU (or 4-Deck Screen)
+=========================================================================
+
+There are four slots: one for each deck. You may have 1-4 decks at a
+time, but never 0. The icon of the hand-with-cards icon to the left of
+the Deck name indicates which deck is selected for dueling.
+
+Use the up-down arrow buttons to select a deck. If you press A, the
+following 4-option menu will appear at the bottom:
+
+============================
+| EDIT DECK    SELECT DECK |
+| CHANGE NAME         STOP |
+============================
+
+-- EDIT DECK
+Takes you to the DECK EDITING MENU (5d)
+
+-- SELECT DECK
+Moves the hand-with-cards icon so that the deck you've selected will be
+the one used to battle.
+
+-- CHANGE NAME
+Let's you change the deck's name.
+
+-- STOP
+Will bring you back to the previous menu. (5b)
+
+Pressing B will remove the 4-option screen for that deck, and allow you
+to choose another deck slot with the arrow buttons. Pressing B from there
+will take you back to the Main Menu. (5b)
+
+
+=========================================================================
+  [5d]  DECK EDITING MENU
+=========================================================================
+
+Use the right-left buttons to scroll between the card type sections
+represented as boxed icons in the top. (Grass, Fire, Water, Lightning,
+Fighting, Psychic, Colorless, Trainers, Energy)
+
+Use the up and down buttons to go down into one of the sections and
+browse through all the cards. The number to the right says how many
+copies of that card you have available for use in your deck. (Available
+for use means that copy of a card isn't in another deck already.)
+
+To see what a card looks like, press A, then use the left and right arrow
+buttons to scroll between the various card breakdown screens, or START
+or A to go to the next screen. You can press up or down to go to its
+neighboring cards. To get out of these screens, press START or A at the
+last screen or press B at any screen.
+
+To change the amount of that card in your deck, press the left-right
+buttons while that card is selected. Note you cannot have any more than 4
+cards of the same name in one deck, so if you've put in two Bulbasaur
+Lv12 and two Bulbasaur Lv13 you cannot have any more Bulbasaur, even if
+it's at a different level. To get out of a card type section, press B and
+you can browse through the top again.
+
+Pressing B when at the very basic navigation will take you to a totally
+different screen in 2 boxes:
+
+===========================
+| CHECK   CONTINUE   NAME |
+| SAVE   DISMANTLE   STOP |
+===========================
+= <Deck Name> =============
+| ENERGY CARDS          # |
+| BASIC POKEMON         # |
+| STAGE 1 CARDS         # |
+| STAGE 2 CARDS         # |
+| TRAINER CARDS         # |
+===========================
+
+NOTE: The items in the second box don't really do anything, they just
+summarize the content of your deck. You can ignore that box if you like.
+
+-- CHECK
+Will take you to the DECK CHECK SCREEN, which breaks down the deck so you
+can view all the cards in one place and quickly look for problems.
+
+-- CONTINUE
+Will take you to the previous menu to continue changing your deck.
+(Pressing B will do this also.)
+
+-- NAME
+Lets you change the deck's name.
+
+-- SAVE
+A prompt will come up, asking whether or not you want to save the deck.
+If no, if will return to the six-option box. If yes, it will ask whether
+or not you want it to be saved in your Deck Save Machine. If yes, it will
+bring you to the Deck Save Machine menu for you to choose a slot to save
+it in. (Pressing B will get you out of the Deck Save Machine menu without
+saving to a slot.) If no, you will go back to the 4-Deck Menu, changes
+saved. NOTE: if your deck doesn't have 60 cards with at least 1 Basic
+Pokemon, it will not let you save at all.
+
+-- DISMANTLE
+It will ask you if you want to break up the deck -- take all the cards
+out of it to make a blank deck slot. If no, it will return you to the
+six-option screen. If yes, it will ask you to confirm this with another
+yes-no prompt. Yes will dismantle the deck. NOTE: If this particular
+deck is the only deck you have out, it won't let you dismantle it.
+
+-- STOP
+Will take you back to the 4-Deck Menu.
+
+
+=========================================================================
+  [5e]  MINICOM (= "Miniature Computer")
+=========================================================================
+
+=========================
+|        MINICOM        |
+=========================
+| DECK SAVE MACHINE     |    NOTE: When you have a new mail to read,
+| MAILBOX               |    there will be an envelope jiggling next
+| CARDS                 |    to the MAILBOX option.
+| SWITCH OFF            |
+=========================
+| Please select a Menu. |
+=========================
+
+-- DECK SAVE MACHINE
+Will be explained below. (5f)
+
+-- MAILBOX
+Once you get past the picture of the mailbox (which will be animated if
+you have new mail), select the mail you want to read/delete. When you
+press A, a 3-option screen will appear at the very top:
+     =========================
+     | READ - DELETE - STOP. |
+     =========================
+DELETE will bring you to a prompt: Do you want to delete this mail? No is
+automatically selected. Yes will delete the mail. TIP: sometimes you get
+booster packs in the mail, so it's best to read them before deleting
+them.
+
+-- CARDS
+Very similar to the Deck Editing Screen. The numbers to the side show how
+many total copies of that card you have, and the number in the very top-
+right corner is the number of cards you have total.
+
+-- SWITCH OFF
+Will bring you back to the Main Menu.
+
+
+=========================================================================
+  [5f]  DECK SAVE MACHINE
+=========================================================================
+
+There are 50 slots in the Deck Save Machine to save decks. The Deck Save
+Machine you carry with you on your MiniCom has the same files as the Deck
+Saving Machine in Dr. Ooyama's Lab.
+
+In viewing a list of saved decks, the following symbols will occur:
+
+   CIRCLE TO THE FAR RIGHT OF THE DECK NAME
+You have enough spare cards to reconstruct a copy of that deck.
+
+   DOTTED "X" WITH A NUMBER
+You have enough cards to build the deck, but some of the card you need
+are already in another deck. (You will have to dismantle another deck
+before it can construct it for you.)
+
+   X WITH A NUMBER IN THE VERY FAR SIDE
+You don't have enough cards to build that deck, even if another deck is
+dismantled.
+
+Once you have used the up and down arrow buttons to select a deck, press
+A and the lower box will change to have these four options:
+
+=============================
+| SAVE DECK     DELETE SLOT |
+| CONSTRUCT DECK       STOP |
+=============================
+
+-- SAVE DECK
+Takes you to the 4-Deck Menu where you select a deck, then it will save
+that deck in the slot you've just selected. If there is a deck in that
+slot already, it will ask whether or not you want to overwrite the save.
+If yes, it will save the new deck over the old one. If no, you will go
+back to the 4-option screen above.
+
+-- CONSTRUCT DECK
+Will build the deck based on the save file. If the file calls for cards
+that you've already included in decks you have out, it will ask if you
+want to dismantle the decks that contain the necessary cards. If yes, it
+will dismantle the old decks and create the new one. If no, you will go
+back to the 4-option screen above.
+
+-- DELETE SLOT
+Will ask if you want to erase the deck slot. If yes, the slot will now be
+blank. If no, you will go back to the 4-option screen above.
+
+
+=========================================================================
+  [5g]  OPTIONS
+=========================================================================
+
+= MESSAGE SPEED ===============
+| Slow   1  2  3  4  5   Fast |
+===============================
+| DUEL ANIMATION ==============
+| Show All    Skip Some   None|
+===============================
+| COIN TOSS ANIMATION =========
+| Show All       Skip Some    |
+===============================
+| WINDOW COLOR ================
+| Red    Blue   Green   Black |
+===============================
+  EXIT OPTIONS
+
+
+MESSAGE SPEED should always be on 5. This ensures instant text in message
+boxes.
+
+When DUEL ANIMATION is on NONE, you can press/hold B during some parts of
+the duel and it will skip/quicken some animation--such as drawing cards.
+This greatly speeds up duels.
+
+When COIN TOSS ANIMATION is on SKIP SOME, you can skip all in-the-air
+animation when you hold down B on your opponent's flips and when you
+press B to flip your own coins. This is really great for a large number
+of consecutive coin flips.
+
+WINDOW COLOR is self-explanatory.
+
+EXIT OPTIONS will bring you back to the Main Menu.
+
+
+=========================================================================
+  [5h]  PC MENU
+=========================================================================
+
+The PCs are in the Side Room of each club and fort, in the far upper-left
+hand corner.
+
+===================
+| CARD ALBUM      |
+| DECK DIAGNOSIS  |
+| RULES           |
+| PRINT OUT       |
+| SWITCH OFF      |
+===================
+
+-- CARD ALBUM
+This is basically a picture checklist sorted by booster.
+
+-- DECK DIAGNOSIS
+Dr. Ooyama will review your deck and give advice here.
+
+-- RULES
+It's a rulebook.
+
+-- PRINT OUT
+Since I don't have a Gameboy Printer I can't tell you more. Supposedly
+it lets you print out card pictures and deck lists.
+
+-- SWITCH OFF
+Turns the PC off. Pressing B does this, too.
+
+
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+=========================================================================
+======================|    (6)   D U E L I N G    |======================
+=========================================================================
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+
+Again, this section is to help non-Japanese readers play the game. If you
+are playing in a language you can read, you can probably skip this
+section completely. (People who are familiar with the first game might
+still want to look it over once, though.)
+
+
+=========================================================================
+  [6a]  CHALLENGING SOMEONE TO A DUEL
+=========================================================================
+
+When you talk to someone who is able to duel you, you will encounter a
+yes-no question. (No is selected by default.) No will prevent a duel, and
+Yes will let the duel proceed. If you select Yes and you still don't seem
+to be entering a duel, check the trainer's information in the Walkthrough
+section to see if he/she has deck requirements that your deck doesn't
+meet.
+
+=========================================================================
+  [6b]  THE PROCESS OF A DUEL
+=========================================================================
+
+A) You and your opponent will each shuffle each other's decks (done auto-
+matically).
+
+B) Each of you draw 7 cards for your opening hand (done automatically).
+If a player's hand does not contain at least one Basic Pokemon card, that
+player will shuffle his or her hand back into his or her deck and draw
+seven cards again. (The other player will not draw 2 cards if this
+happens, as he or she might when playing with real-life cards -- this
+rule has been omitted from the Gameboy version of the Pokemon TCG.)
+
+C)  You will be shown your hand. Select 1 Basic Pokemon to be put in the
+    Active position, then press A.
+
+D)  Then you may choose up to 5 cards to be your Benched Pokemon. (Press
+    B when you are done setting up.)
+
+E)  Prizes will then be placed (done automatically).
+
+F)  You will flip a coin to see who goes first. Heads means you will go
+    first, tails means your opponent will go first.
+
+G1) DURING THE DUEL (your opponent's turn) -->
+    When it's your opponent's turn, you can't do anything.
+
+G2) DURING THE DUEL (your turn) -->
+     1) You will automatically draw a card. (If you can't draw a card
+        because there are no cards in your deck, you lose.)
+     2) You may do any of the following things in any order as often as
+        you like:
+           - Put a Basic Pokemon on the Bench
+           - Evolve a Pokemon
+           - Attach an Energy card to 1 of your Pokemon (only 1 per turn)
+           - Play a Trainer card
+           - Retreat your Active Pokemon
+           - Use a Pokemon Power
+     3) To end your turn, select End Turn or use an Attack.
+
+H)  In between each turn,
+      - Paralysis fades. (Only for the Player whose card has spent 1 of
+        their own turns being Paralyzed.)
+      - ALL Poisoned Pokemon take 10 damage (both yours and your
+        opponent's), or 20 damage in special cases.
+      - Flip 1 coin for ALL Asleep Pokemon (yours and your opponent's).
+        If heads, that Pokemon is no longer Asleep.
+    (this is all done automatically)
+
+I)  A player wins anytime any of the following conditions are met:
+      - the player draws all of his or her prizes
+      - the opponent's deck has NO cards when he or she tries to
+        draw a card at the beginning of his or her turn
+      - the player's opponent has no in-play Pokemon
+
+
+=========================================================================
+  [6c]  MAIN DUELING SCREEN (default dueling menu)
+=========================================================================
+
+The Main dueling Screen has three sections:
+
+1) Your opponent's Active Pokemon and In-play Area Summary
+2) Your own Active Pokemon and In-play Area Summary
+3) The 6-option box
+
+=================================
+|  B[#]  P[#]     Pkmn Name LvX |
+|  E [energy]      @@@@@@@@@@@  |
+|  HP OOOOOO       @  Card   @  |   OPPONENT'S SIDE
+=================  @   Pic   @  |   OF THE SCREEN
+|  @@@@@@@@@@@  |  @         @  |
+|  @  Card   @  |  @@@@@@@@@@@  |
+|  @   Pic   @  =================
+|  @         @   E [energy]     |   YOUR SIDE
+|  @@@@@@@@@@@   HP OOOOOO      |   OF THE SCREEN
+| Pkmn Name LvX     B[#]  P[#]  |
+=================================
+|  HAND      CHECK     RETREAT  |   THE SIX-OPTION BOX
+|  ATTACK      POWER      DONE  |
+=================================
+
+B[#] = number of Pokemon remaining on Bench
+P[#] = number of remaining Prize cards
+
+Total Hit Points (HP) is indicated by a number of circles, one circle for
+ten HP. To indicate ten HP of damage, one circle is darkened. When all
+circles are darkened, that Pokemon is Knocked Out (KO'ed). This is the
+equivolent of "damage counters" in the real-life card game.
+
+-- HAND
+Takes you to your hand. (6d)
+
+-- CHECK
+Lets you check areas of the game table. (6e)
+
+-- RETREAT
+Allows you to retreat. (6f)
+
+-- ATTACK
+Lets you attack. (6g)
+
+-- POWER
+Lets you use a Pokemon Power. (6h)
+
+-- DONE
+When you can't attack or don't want to attack and you need to end your
+turn, select this option and your turn will end.
+
+SHORTCUTS:
+   hold B + press UP = look at opponent's in-play Pokemon
+   hold B + press DOWN = look at your in-play Pokemon
+   hold B + press RIGHT = look at opponent's Discard Pile
+   hold B + press LEFT = look at your Discard Pile
+   press SELECT = look at the main game summary, where you can move the
+   cursor to each part of the gameplay area and press A to look closer
+
+
+=========================================================================
+  [6d]  USING CARDS IN YOUR HAND
+=========================================================================
+
+When you select the HAND option in the Main Dueling Screen, your hand
+will be shown (unless your hand is empty):
+
+===============================
+| "Player's Hand"       X / X |
+| =>[ ] Card Name             |
+|   [ ] Card Name             |      If you've selected a card and
+|   [ ] Card Name             |      press the A button, two options
+|   [ ] Card Name             |      will appear:
+|   [ ] Card Name             |
+=================== @@@@@@@@@@@      ===================
+| Please select   | @  Card   @      |  USE            |
+| a card.         | @   Pic   @      |  CHECK          |
+=================== @@@@@@@@@@@      ===================
+
+Use the up and down arrow buttons to scroll up or down in your hand. The
+picture of the card will be shown in the lower-right corner.
+
+NOTE: When you press SELECT while viewing your hand, the cards will be
+sorted in order by card type, Pokemon number, and experience level.
+
+-- USE
+Will use the card to whatever parameters the card indicates. (Evolution
+cards will evolve, Basic Pokemon will be placed on your Bench, Trainer
+cards will be played, etc.)
+
+-- CHECK
+Will let you browse through the card breakdown screens, enabling you to
+view its text and other important battle information.
+
+ --------------------------------------------
+//  Playing an Energy Card                 //
+--------------------------------------------
+When you play an Energy Card, you will be given a list of all your In-
+Play Pokemon. Choose 1 of them and the Energy card will be attached to
+that Pokemon.
+
+NOTE: You cannot play an Energy card if you have already played one that
+turn.
+
+ --------------------------------------------
+//  Playing an Trainer Card                //
+--------------------------------------------
+Because trainer cards are so varied it is impossible to cover all
+possible information here about them. It should be possible just to
+figure it out on your own based on the individual card description.
+
+NOTE: You cannot play a Trainer card if you cannot fulfill the
+requirements of that card (discarding cards, etc.) or if your opponent
+has used an attack preventing you from playing Trainer cards.
+
+ --------------------------------------------
+//  Playing an Basic Pokemon               //
+--------------------------------------------
+Playing a Basic card will put it onto your Bench.
+
+NOTE: You cannot play a Basic Pokemon card if you don't have enough room
+on your Bench.
+
+ --------------------------------------------
+//  Playing an Evolution Card              //
+--------------------------------------------
+If you play an Evolution card, it will give you a list of all your In-
+play cards. Choose 1 of them to Evolve (it must correspond).
+
+Evolving cures all status ailments: Sleep, Paralysis, Confusion, and
+Poison. It also removes all effects of attack, such as Tail Whip and
+Smokescreen.
+
+NOTE: You cannot play an Evolution card if the effect of a card already
+in play prevents the use of Evolution cards, if you don't have the right
+Pokemon in play to evolve from, or if the Pokemon the Evolution card
+evolves from was played that same turn. You also cannot play an Evolution
+card on the first turn of the game.
+
+
+=========================================================================
+  [6e]  THE CHECK COMMAND
+=========================================================================
+
+When you are inside the Check menus you will not be able to play any
+cards -- only browse.
+
+Using the CHECK command will change the bottom box to a 4-option window:
+
+==========================================
+| MAIN PLAY AREA           RULEBOOK      |
+| YOUR PLAY AREA    OPPONENT'S PLAY AREA |
+==========================================
+
+ --------------------------------------------
+//  Main Play Area                         //
+--------------------------------------------
+(You can also get here by pressing SELECT while on the Main Dueling
+Screen.)
+
+This will vaguely look like what a normal real-life duel looks like with
+every card and pile represented, rather than a summary like on the Main
+Dueling Screen. Select whatever pile / card you want to look at and press
+A. You will then be able to browse that card / that pile.
+
+Pressing the up button all the way will let you see a list of your
+opponent's in-play Pokemon, and pressing the down button all the way will
+let you see a list of your own in-play Pokemon. Press A or START to
+browse through the card breakdown screens of individual cards; press
+SELECT to look at the Energy cards attached to that card. In all cases,
+pressing B will bring you back to the previous menu.
+
+You will be able to browse everything but your opponent's deck, your
+own deck, and your opponent's hand (except under special circumstances).
+
+ --------------------------------------------
+//  Rulebook                               //
+--------------------------------------------
+It's a rulebook.
+
+ --------------------------------------------
+//  Your Play Area                         //
+--------------------------------------------
+There will be a 3-option box on the bottom of what looks like your half
+of the game table in a real-life card duel. Scroll between the three
+options and the arrows on the screen will reflect your choices:
+
+   ===================================
+   |  YOUR POKEMON        YOUR HAND  |
+   |  YOUR DISCARD PILE              |
+   ===================================
+
+-- YOUR POKEMON
+Lists of all your In-Play Pokemon. Pressing SELECT with a Pokemon
+selected will show you the Energy cards attached to that Pokemon.
+
+-- YOUR HAND
+You will browse your hand, though you will not be able to play any cards.
+
+-- YOUR DISCARD PILE
+You will browse your discard pile.
+
+In all three cases, you can browse the screens of individual cards by
+pressing A or START.
+
+ --------------------------------------------
+//  Your Opponent's Play Area              //
+--------------------------------------------
+Exactly the same as YOUR PLAY AREA, only with your opponent's cards.
+
+You will not be able to view your opponent's hand unless you have a
+Fossil Omanyte in play (whose Power lets you view your opponent's hand).
+
+
+=========================================================================
+  [6f]  RETREATING
+=========================================================================
+
+If you want to switch your Active Pokemon with one on your Bench, you may
+retreat it (only if you have at least 1 Benched Pokemon.)
+
+1) If you have the correct amount of Energy to retreat, you will be given
+a list of all the Energy attached to that Pokemon in order to choose the
+appropriate number to discard. (If the Pokemon has no Retreat Cost, this
+step won't happen.)
+
+2) Next, you will be given a list of all your Benched Pokemon. Choose 1
+to replace it with.
+
+If your Active Pokemon is Confused when it tries to retreat, you flip a
+coin after step 2. If heads, the retreat worked. If tails, it didn't work
+and you can't try to retreat again until your next turn. (When you are
+Confused and try to retreat you must discard the energy, even if you
+flipped tails.)
+
+If you select the Retreat command and it will not let you retreat, it is
+either because you don't have enough energy to retreat, you don't have
+any Benched Pokemon, an effect of a Pokemon Power or attack prevents you
+from retreating, or the card has a status ailment preventing movement
+(Sleep or Paralysis).
+
+NOTE: Retreating does not call for "exact change" -- If you want your
+Charmander to Retreat, and the only energy attached is a Double Colorless
+Energy, discarding that card will satisfy the Retreat Cost, even though
+Charmander's Retreat Cost only calls for 1 energy.
+
+ANOTHER NOTE: Remember that some opponent's rules may call for increased
+or decreased Retreat Costs, and that some Pokemon Powers can change the
+Retreat Cost.
+
+
+=========================================================================
+  [6g]  USING AN ATTACK
+=========================================================================
+
+When you use the ATTACK command, the lower box will change into an attack
+list with the Energy cost, attack name, and base damage of all the
+attacks that card has. A dotted "X" underneath the attack name indicates
+that the attack has an effect.
+
+To use an attack, select the attack you want to use and press A.
+
+If your Active Pokemon is Confused when it tries to attack, you must
+flip a coin. If heads, that attack works like normal; if tails, that
+Pokemon does 20 damage to itself, even if that attack wouldn't have dealt
+damage otherwise.
+
+If your Active Pokemon is Asleep or Paralyzed, it cannot attack (except
+Vending Slowbro Lv35, whose second attack requires it to be Asleep).
+
+If you try to use the ATTACK command but it won't let you, it is because
+your Pokemon doesn't have enough energy to use that attack, some other
+in-game card effect prevents you from using that attack, or the card
+has a status ailment preventing movement (Sleep or Paralysis).
+
+Remember, when you attack your turn ends. Always attack last!
+
+
+=========================================================================
+  [6h]  POKEMON POWERS
+=========================================================================
+There are three types of Pokemon Powers:
+1) the kind that are always on
+2) the kind that have to be used
+3) the kind that are automatically used when the card is put into play.
+
+When you use the POWER command, you will be given a list of all your In-
+play Pokemon. If they have any Powers, it will be written below the card
+name.
+
+At any time you may press A and look at a Pokemon's Power, but only if
+the Power is of the second type will you be asked whether or not you want
+to use the Power (Yes-No). Other types of powers are used automatically.
+
+
+=========================================================================
+  [6i]  STATUS AILMENTS (aka Special Conditions)
+=========================================================================
+
+"Status Ailments" refers (in this guide) collectively to the conditions
+of Sleep, Confusion, Paralysis, and Poison. (Beginning with the eCard
+Sets of the real life TCG, these are called "Special Conditions.")
+
+A Pokemon can only have one status ailment at a time (except for Poison).
+This means that if a Pokemon is Confused, a successful sleep attack will
+cause it to Sleep, overriding the Confusion. (This is different from the
+original RPGs, where a Pokemon cannot get different status ailment when
+it already has one.)
+
+ --------------------------------------------
+//  Sleep                                  //
+--------------------------------------------
+When a Pokemon is Asleep, it cannot "move" -- it can't attack or Retreat.
+Between EACH turn, flip a coin. If heads, that Pokemon is no longer
+Asleep; if tails, it is still Asleep.
+
+TRIVIA: There's a story that the original design of the game had it so
+you flipped only after one player's turn (not both), but the card game's
+Sleep system was too powerful that way, so it was changed to after both
+player's turns. (But as it stands now, Sleep is not very powerful at all,
+especially if you have to flip a coin to cause the Sleep in the first
+place.)
+
+ --------------------------------------------
+//  Confusion                              //
+--------------------------------------------
+When a Pokemon is Confused, you must flip a coin before both attacking or
+Retreating. When attacking, if the coin is tails, the card does 20 damage
+to itself. When Retreating, if it's tails, the Energy is discarded anyway
+but the card "failed" to Retreat and can't attempt another Retreat until
+the next turn.
+
+NOTES: When a Pokemon inflicts damage on itself due to Confusion,
+Weakness and Resistance is applied. This means Aerodactyl will not hurt
+itself, because it's Resistant to its own type, and Psychic cards who are
+weak to Psychic will do 40 damage. (This is why in later versions of the
+real-life card game, the official rules on Confusion were altered to say
+"two damage counters" instead of "deals 20 damage".)
+
+ --------------------------------------------
+//  Paralysis                              //
+--------------------------------------------
+When a Pokemon is Paralyzed, it cannot "move" -- it can't attack or
+Retreat. Paralysis wears off at the end of that player's next turn.
+
+ --------------------------------------------
+//  Poison                                 //
+--------------------------------------------
+When a Pokemon is Poisoned, it receives 10 damage between EACH player's
+turn. It can otherwise "move" normally (i.e. attack, Retreat).
+
+Certain types of Poison deals 20 damage instead.
+
+NOTE: If a Pokemon gets KO'd from Poison damage, they other player still
+takes a prize.
+
+ --------------------------------------------
+//  Dealing with Status Ailments           //
+--------------------------------------------
+There are several tricks with curing status ailments without the use of
+a Full Heal (although that is certainly an option):
+
+Only the Active Pokemon can have a Status Ailment, so if Retreats or is
+switched, the condition goes away. Sleep and Paralysis prevent movement,
+but even these can be healed with a Switch, Gust of Wind, the attack
+Whirlwind, etc.
+
+Also, evolving a Pokemon heals whatever status problems it had before.
+
+
+=========================================================================
+  [6j]  STOPPING IN THE MIDDLE OF A DUEL / SCUMMING
+=========================================================================
+
+================= @@@@@@@  This game auto-saves during almost every step
+| CardPop!      | @char @  in a duel, so if you turn the game off or run
+|>Continue      | @ pic @  out of batteries in the middle of a match you
+| New Game      | @     @  can resume where you left off. Select the
+| Continue Duel | @@@@@@@  "Continue Duel" option from the main startup
+=================    Name  screen and the match will resume from the last
+= Location ==============  duel auto-save point.
+|  Coins Earned     XX  |  
+|  Card Album    XX/441 |  Note that if the "Continue Duel" option is
+|  Play Time     XX:XX  |  available but you choose to resume the game
+=========================  from the last "real" save using the "Continue"
+                           option, you will get a warning that the
+progress you have made from the save up to the match you've entered will
+be lost -- and it will ask for confirmation that you want to proceed.
+("No" is default.)
+
+This auto-save feature makes it possible to scum for certain outcomes
+during a match. For instance, if I use Base Electabuzz Lv35's
+Thunderpunch attack and the coin flips tails and I decide I'd rather
+not let Electabuzz injure itself, I can restart the game, continue the
+match, and use Thundershock instead. See section 1c for more uses of
+scumming.
+
+ --------------------------------------------
+//  When the Game Auto-Saves               //
+--------------------------------------------
+Except for attacks, every move you make in the game is auto-saved. (Your
+opponent's turn is not saved at all.) The game saves between its
+"announcement" of a move and when it returns you to the normal basic
+screen. After you attack (ending your turn), the game does not save until
+your opponent has played his/her WHOLE turn and gameplay is returned to
+you.
+
+
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+=========================================================================
+====|   (A)   A P P E N D I X   -   C a r d    L o c a t i o n s   |=====
+=========================================================================
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+
+Booster Packs can be identified by the character on their packaging, but
+they can also be identified by their pack number: 1 through 8. To aid
+non Japanese speakers, throughout the guide I refer to such boosters by
+both their number and their packaging. Please note that the boosters
+actually have names, however, and those are listed in the section of each
+pack.
+
+ --------------------------------------------
+//  Booster Conventions                    //
+--------------------------------------------
+Because some cards have different rarities in this game than that in the
+real-life cards and the TCG for GB1, rarities are included in this list:
+
+   R: Rare (star)
+   U: Uncommon (diamond)
+   C: Common (circle)
+
+This game is based entirely on the Japanese card game as released by
+Media Factory, so the Japanese conventions are followed rather than the
+English (Wizards of the Coast) ones when it comes to card rarities and
+distribution:
+
+-- RARES
+There is no distinction between Rare cards and Rare-Holographic cards in
+terms of rarity -- a rare is a rare whether it is shiny or not.
+
+-- BOOSTER SIZE
+Each booster comes with 1 Rare card, 3 Uncommon cards and 6 Common
+cards, making each booster exactly 10 cards big. (The equivolant-era
+English cards have one extra card: another Common or an Energy card,
+depending on the set.)
+
+-- (FOSSIL) MEW
+The Mew the English TCG knows as Wizards of the Coast Promo #8 and #9 is
+available in the boosters, since that particular Mew came in the Fossil
+booster and not as a Promo in Japan.
+
+-- ROCKET RARITIES
+Some Rocket rarities had been changed between the Japan and the
+American release. This game follows the Japan release and its rarities.
+e.g. In English, Potion Energy is an (U), but in Japanese it is a (C) so
+in this game it is a (C).
+
+ --------------------------------------------
+//  Expansion Set Inclusions               //
+--------------------------------------------
+Cards have real-life equivalents from the following sets:
+
+    SET  IDENTIFICATION SYMBOL
+   Base: blank (set aka "Base Set" or "Basic")
+ Jungle: flower
+ Fossil: bone hand
+ Rocket: the letter R
+    Gym: pokeball w/ the word "gym"
+Vending: upside down b/w pokeball
+ B-Deck: Bulbasaur icon (from Bulbasaur Deck in the Intropack)
+ S-Deck: Squirtle icon (from Squirtle Deck in the Intropack)
+Gameboy: the letters GB (usually means there is no real-life equivalent)
+
+* The Vending Series and the Bulbasaur and Squirtle Intropack decks have
+not been released in English in full, even though some have been adapted
+to become English Promos.
+
+=========================================================================
+  [A1]  BULBASAUR (1) PACK LIST
+=========================================================================
+
+Japanese name = Hajimete no Pokemon (Beginning Pokemon)
+
+-- GRASS CARDS
+A01: (C) B-Deck Bulbasaur Lv12
+A02: (U) B-Deck Ivysaur Lv26
+A03: (C) Base Weedle Lv12
+A04: (U) Base Kakuna Lv23
+A05: (R) Base Beedrill Lv32
+A06: (C) Base Nidoran Lv20
+A07: (U) Base Nidorino Lv25
+A08: (C) Vending Venonat Lv15
+A09: (R) Jungle Venomoth Lv28
+A10: (U) Base Tangela Lv8
+
+-- FIRE CARDS
+A11: (C) Base Charmander Lv10
+A12: (U) Base Charmeleon Lv32
+A13: (R) Base Charizard Lv76
+A14: (C) Base Vulpix Lv11
+A15: (R) Base Ninetales Lv32
+A16: (U) S-Deck Growlithe Lv12
+A17: (R) S-Deck Arcanine Lv35
+A18: (C) Base Ponyta Lv10
+A19: (U) Jungle Rapidash Lv33
+
+-- WATER CARDS
+A20: (C) Base Seel Lv12
+A21: (R) Base Dewgong Lv42
+A22: (C) Fossil Krabby Lv20
+A23: (U) Fossil Kingler Lv27
+A24: (C) Base Staryu Lv15
+A25: (U) Base Starmie Lv28
+A26: (C) Base Magikarp Lv8
+A27: (R) Base Gyarados Lv41
+
+-- LIGHTNING CARDS
+A28: (C) Base Pikachu Lv12
+A29: (R) B-Deck Raichu Lv33
+A30: (R) B-Deck Electabuzz Lv30
+A31: (R) Base Zapdos Lv64
+
+-- FIGHTING CARDS
+A32: (C) Base Diglett Lv8
+A33: (R) Base Dugtrio Lv36
+A34: (C) Base Machop Lv20
+A35: (U) Base Machoke Lv40
+A36: (R) Base Machamp Lv67
+A37: (C) Base Onix Lv12
+A38: (R) Base Hitmonchan Lv33
+
+-- PSYCHIC CARDS
+A39: (C) Base Gastly Lv8
+A40: (U) Base Haunter Lv22
+A41: (C) Base Drowzee Lv12
+A42: (R) Fossil Hypno Lv36
+A43: (U) S-Deck Jynx Lv27
+
+-- COLORLESS CARDS
+A44: (C) Base Rattata Lv9
+A45: (U) Base Raticate Lv41
+A46: (C) B-Deck Meowth Lv17
+A47: (R) Base Chansey Lv55
+A48: (C) Jungle Eevee Lv12
+A49: (C) Base Porygon Lv12
+A50: (R) Jungle Snorlax Lv20
+
+-- TRAINER CARDS
+A51: (U) Super Potion
+A52: (U) Energy Retrieval
+A53: (C) Energy Search
+A54: (U) Professor Oak
+A55: (C) Potion
+A56: (U) Full Heal
+A57: (C) Switch
+A58: (R) Scoop Up
+A59: (U) Pokedex
+A60: (C) Bill
+
+-- ENERGY CARDS
+E01: ( ) Grass Energy
+E02: ( ) Fire Energy
+E03: ( ) Water Energy
+E04: ( ) Lightning Energy
+E05: ( ) Fighting Energy
+E06: ( ) Psychic Energy
+
+
+=========================================================================
+  [A2]  MOLTRES (2) PACK LIST
+=========================================================================
+
+Japanese name = Densetsu no Chikara (Legendary Power)
+
+-- GRASS CARDS
+B01: (R) Base Venusaur Lv67
+B02: (C) Base Caterpie Lv13
+B03: (U) Base Metapod Lv21
+B04: (U) Jungle Butterfree Lv28
+B05: (C) Jungle Nidoran F Lv13
+B06: (U) Jungle Nidorina Lv24
+B07: (R) Base Nidoking Lv48
+B08: (C) Vending Paras Lv15
+B09: (U) Vending Parasect Lv29
+B10: (C) Jungle Exeggcute Lv14
+B11: (U) Jungle Exeggutor Lv35
+B12: (R) Vending Scyther Lv23
+
+-- FIRE CARDS
+B13: (R) Base Arcanine Lv45
+B14: (U) S-Deck Magmar Lv18
+B15: (R) Jungle Flareon Lv28
+B16: (R) Fossil Moltres Lv35
+
+-- WATER CARDS
+B17: (C) S-Deck Squirtle Lv14
+B18: (U) S-Deck Wartortle Lv24
+B19: (R) Base Blastoise Lv52
+B20: (C) Fossil Tentacool Lv10
+B21: (U) Fossil Tentacruel Lv21
+B22: (C) Fossil Shellder Lv8
+B23: (U) Fossil Cloyster Lv25
+B24: (C) Jungle Goldeen Lv12
+B25: (U) Jungle Seaking Lv28
+B26: (R) Vending Lapras Lv24
+B27: (R) Jungle Vaporeon Lv42
+
+-- LIGHTNING CARDS
+B28: (C) Gameboy Magnemite Lv14
+B29: (R) Vending Magneton Lv30
+B30: (R) Base Electabuzz Lv35
+B31: (R) Jungle Jolteon Lv29
+
+-- FIGHTING CARDS
+B32: (C) Base Sandshrew Lv12
+B33: (U) Fossil Sandslash Lv33
+B34: (C) Vending Geodude Lv15
+B35: (U) Fossil Graveler Lv29
+B36: (C) Vending Cubone Lv14
+B37: (U) Gameboy Marowak Lv32
+B38: (R) Vending Hitmonlee Lv23
+B39: (C) Jungle Rhyhorn Lv18
+B40: (U) Jungle Rhydon Lv48
+
+-- PSYCHIC CARDS
+B41: (C) Base Abra Lv10
+B42: (U) Base Kadabra Lv38
+B43: (R) Vending Mewtwo Lv54
+
+-- COLORLESS CARDS
+B44: (C) S-Deck Spearow Lv9
+B45: (U) Vending Clefairy Lv15
+B46: (C) Jungle Jigglypuff Lv14
+B47: (R) Jungle Wigglytuff Lv36
+B48: (U) Base Farfetch'd Lv20
+B49: (R) Jungle Kangakshan Lv40
+B50: (C) Base Dratini Lv10
+B51: (R) Base Dragonair Lv33
+B52: (R) Fossil Dragonite Lv45
+
+-- TRAINER CARDS
+B53: (C) Energy Removal
+B54: (U) Revive
+B55: (U) Defender
+B56: (C) Gust of Wind
+B57: (U) PlusPower
+B58: (C) Pokemon Trader
+B59: (C) Pokemon Center
+B60: (R) Pokemon Breeder
+
+-- ENERGY CARDS
+E07: (U) Double Colorless Energy
+
+
+=========================================================================
+  [A3]  OMANYTE (3) PACK LIST
+=========================================================================
+
+Japanese name = Shinka no Shima (Fossil Island / Island of Fossils)
+
+-- GRASS CARDS
+C01: (C) Fossil Ekans Lv10
+C02: (R) Vending Arbok Lv30
+C03: (R) Jungle Nidoqueen Lv43
+C04: (C) Fossil Zubat Lv10
+C05: (U) Vending Golbat Lv25
+C06: (C) Jungle Oddish Lv8
+C07: (U) Jungle Gloom Lv22
+C08: (R) Jungle Vileplume Lv35
+C09: (C) Jungle Bellsprout Lv11
+C10: (U) Jungle Weepinbell Lv28
+C11: (R) Jungle Victreebel Lv42
+C12: (C) Fossil Grimer Lv17
+C13: (R) Fossil Muk Lv34
+C14: (C) S-Deck Koffing Lv14
+C15: (U) Fossil Weezing Lv27
+C16: (R) Jungle Pinsir Lv24
+
+-- FIRE CARDS
+C17: (U) Base Magmar Lv24
+
+-- WATER CARDS
+C18: (C) Base Squirtle Lv8
+C19: (U) Base Wartortle Lv22
+C20: (C) Fossil Psyduck Lv15
+C21: (R) Vending Golduck Lv28
+C22: (C) Base Poliwag Lv13
+C23: (U) Vending Poliwhirl Lv30
+C24: (R) Vending Poliwrath Lv40
+C25: (C) Fossil Horsea Lv19
+C26: (U) Fossil Seadra Lv23
+C27: (C) Fossil Omanyte Lv19
+C28: (U) Fossil Omastar Lv32
+C29: (R) Fossil Articuno Lv35
+
+-- LIGHTNING CARDS
+C30: (C) Jungle Pikachu Lv14
+C31: (R) Fossil Raichu Lv45
+C32: (C) Base Voltorb Lv10
+C33: (R) Gameboy Electrode Lv35
+
+-- FIGHTING CARDS
+C34: (C) Jungle Mankey Lv7
+C35: (U) Jungle Primeape Lv35
+C36: (U) Vending Machoke Lv24
+C37: (U) Fossil Golem Lv36
+C38: (C) Fossil Kabuto Lv9
+C39: (U) Vending Aerodactyl Lv30
+
+-- PSYCHIC CARDS
+C40: (R) Base Alakazam Lv42
+C41: (C) Fossil Slowpoke Lv18
+C42: (U) Fossil Slowbro Lv26
+C43: (C) Vending Gastly Lv13
+C44: (U) Vending Haunter Lv26
+C45: (R) Fossil Gengar Lv38
+C46: (U) Vending Hypno Lv30
+C47: (U) Base Jynx Lv23
+
+-- COLORLESS CARDS
+C48: (R) Jungle Clefable Lv34
+C49: (C) Jungle Meowth Lv15
+C50: (U) Jungle Persian Lv25
+C51: (U) Vending Lickitung Lv20
+C52: (C) Vending Tauros Lv35
+C53: (U) Vending Porygon Lv18
+
+-- TRAINER CARDS
+C54: (R) Itemfinder
+C55: (R) Super Energy Removal
+C56: (C) Mysterious Fossil
+C57: (R) Computer Search
+C58: (R) Clefairy Doll
+C59: (C) Poke Ball
+
+
+=========================================================================
+  [A4]  MR. MIME (4) PACK LIST
+=========================================================================
+
+Japanese name = Chou BATORU (Super Battle)
+
+-- GRASS CARDS
+D01: (U) Base Ivysaur Lv20
+D02: (U) Vending Metapod Lv20
+D03: (C) Vending Weedle Lv15
+D04: (U) Vending Kakuna Lv20
+D05: (U) Fossil Arbok Lv27
+D06: (C) Vending Nidoran F Lv12
+D07: (U) Vending Nidorina Lv22
+D08: (C) Vending Nidoran M Lv22
+D09: (U) Vending Nidorino Lv23
+D10: (C) Jungle Paras Lv8
+D11: (U) Jungle Parasect Lv28
+D12: (C) Jungle Venonat Lv12
+D13: (C) Vending Venomoth Lv22
+D14: (C) Base Koffing Lv13
+D15: (U) Gameboy Tangela Lv12
+
+-- FIRE CARDS
+D16: (U) Vending Charmander Lv12
+D17: (C) Vending Vulpix Lv13
+D18: (R) Gameboy Ninetales Lv35
+D19: (U) Base Growlithe Lv18
+D20: (U) Gameboy Flareon Lv22
+
+-- WATER CARDS
+D21: (C) Vending Shellder Lv16
+D22: (C) Vending Krabby Lv17
+D23: (R) Vending Kingler Lv33
+D24: (C) Vending Staryu Lv17
+D25: (U) Gameboy Vaporeon Lv29
+
+-- LIGHTNING CARDS
+D26: (R) Base Raichu Lv40
+D27: (C) Base Magnemite Lv13
+D28: (R) Base Magneton Lv28
+D29: (U) Gameboy Jolteon Lv24
+
+-- FIGHTING CARDS
+D30: (U) Vending Graveler Lv27
+D31: (R) Vending Rhydon Lv37
+D32: (R) Fossil Kabutops Lv30
+
+-- PSYCHIC CARDS
+D33: (U) Fossil Gastly Lv17
+D34: (R) Fossil Haunter Lv17
+D35: (R) Jungle Mr. Mime Lv28
+D36: (R) Vending Mewtwo Lv67
+D37: (R) Fossil Mew Lv23
+
+-- COLORLESS CARDS
+D38: (C) Base Pidgey Lv8
+D39: (U) Vending Pidgeotto Lv38
+D40: (R) Gameboy Pidgeot Lv38
+D41: (C) Vending Spearow Lv12
+D42: (C) Jungle Fearow Lv27
+D43: (R) Base Clefairy Lv14
+D44: (C) Gameboy Jigglypuff Lv13
+D45: (C) Base Doduo Lv10
+D46: (U) Jungle Dodrio Lv28
+D47: (R) Gameboy Ditto Lv19
+D48: (U) Vending Eevee Lv5
+
+-- TRAINER CARDS
+D49: (U) Fossil Excavation
+D50: (C) Gambler
+D51: (R) Moon Stone
+D52: (R) Imposter Professor Oak
+D53: (R) Lass
+D54: (C) Recycle
+
+
+=========================================================================
+  [A5]  PIDGEOT (5) PACK LIST
+=========================================================================
+
+Japanese name = Soratobu Pokemon (Flying Pokemon)
+
+-- GRASS CARDS
+F01: (U) Vending Bulbasaur Lv15
+F02: (C) Vending Zubat Lv12
+F03: (U) Fossil Golbat Lv29
+F04: (C) Vending Bellsprout Lv10
+F05: (U) Vending Weepinbell Lv23
+F06: (R) Vending Weezing Lv26
+
+-- FIRE CARDS
+F07: (C) Vending Ponyta Lv8
+F08: (U) Vending Rapidash Lv30
+F09: (C) Vending Magmar Lv27
+
+-- WATER CARDS
+F10: (U) Vending Squirtle Lv15
+F11: (U) Fossil Golduck Lv27
+F12: (C) Vending Poliwag Lv15
+F13: (U) Base Poliwhirl Lv28
+F14: (R) Base Poliwrath Lv48
+F15: (C) Vending Seel Lv10
+F16: (U) Vending Dewgong Lv24
+F17: (C) Vending Horsea Lv20
+F18: (R) Vending Seadra Lv26
+F19: (R) Fossil Lapras Lv31
+F20: (U) Vending Omanyte Lv22
+
+-- LIGHTNING CARDS
+F21: (U) Vending Pikachu Lv5
+F22: (R) Vending Raichu Lv32
+F23: (C) Vending Magnemite Lv15
+F24: (R) Fossil Magneton Lv35
+F25: (C) Vending Voltorb Lv8
+F26: (R) Jungle Electrode Lv42
+F27: (R) Fossil Zapdos Lv40
+
+-- FIGHTING CARDS
+F28: (C) Vending Sandshrew Lv15
+F29: (U) Vending Sandslash Lv35
+F30: (C) Vending Machop Lv18
+F31: (U) Vending Machoke Lv28
+F32: (C) Fossil Geodude Lv16
+F33: (U) Vending Graveler Lv28
+F34: (C) Jungle Cubone Lv13
+F35: (U) Jungle Marowak Lv26
+F36: (R) Fossil Hitmonlee Lv30
+F37: (R) Vending Hitmonchan Lv23
+
+-- PSYCHIC CARDS
+F38: (C) Vending Abra Lv8
+F39: (R) Vending Kadabra Lv39
+F40: (C) Vending Slowbro Lv35
+F41: (R) Vending Haunter Lv25
+
+-- COLORLESS CARDS
+F42: (C) Vending Pidgey Lv10
+F43: (U) Base Pidgeotto Lv36
+F44: (R) Jungle Pidgeot Lv40
+F45: (C) Vending Rattata Lv15
+F46: (C) Jungle Spearow Lv13
+F47: (U) Vending Fearow Lv24
+F48: (R) Vending Wigglytuff Lv40
+F49: (C) Vending Doduo Lv8
+F50: (U) Vending Dodrio Lv25
+F51: (R) Vending Snorlax Lv35
+
+-- TRAINER CARDS
+F52: (U) Mr. Fuji
+F53: (R) Pokemon Recall
+F54: (U) Poke Flute
+F55: (R) Master Ball
+F56: (U) Maintenance
+
+
+=========================================================================
+  [A6]  ROCKET R (6) PACK LIST
+=========================================================================
+
+Japanese name = Warera ROKETTO-Dan (We Are the Rockets)
+
+-- GRASS CARDS
+G01: (C) Rocket Ekans Lv15
+G02: (R) Rocket Dark Arbok Lv25
+G03: (C) Rocket Grimer Lv10
+G04: (U) Rocket Dark Muk Lv25
+G05: (R) Jungle Scyther Lv25
+
+-- FIRE CARDS
+G06: (C) Rocket Charmander Lv9
+G07: (U) Rocket Dark Charmeleon Lv23
+G08: (R) Rocket Dark Charizard Lv38
+G09: (C) Rocket Ponyta Lv15
+G10: (C) Rocket Dark Rapidash Lv24
+G11: (U) Fossil Magmar Lv31
+G12: (U) Rocket Dark Flareon Lv23
+G13: (C) Rocket Squirtle Lv16
+G14: (U) Rocket Dark Wartortle Lv21
+G15: (R) Rocket Dark Blastoise Lv28
+G16: (C) Rocket Magikarp Lv6
+G17: (R) Rocket Dark Gyarados Lv31
+G18: (U) Rocket Dark Vaporeon Lv28
+G19: (U) Vending Omanyte Lv20
+
+-- LIGHTNING CARDS
+G20: (C) Rocket Magnemite Lv12
+G21: (R) Rocket Dark Magneton Lv26
+G22: (C) Rocket Voltorb Lv13
+G23: (U) Rocket Dark Electrode Lv24
+G24: (U) Rocket Dark Jolteon Lv23
+
+-- FIGHTING CARDS
+G25: (C) Rocket Diglett Lv15
+G26: (R) Rocket Dark Dugtrio Lv18
+G27: (C) Rocket Mankey Lv14
+G28: (U) Rocket Dark Primeape Lv23
+G29: (C) Rocket Machop Lv24
+G30: (U) Rocket Dark Machoke Lv28
+G31: (R) Rocket Dark Machamp Lv30
+G32: (U) Vending Kabuto Lv22
+G33: (R) Fossil Aerodactyl Lv28
+
+-- PSYCHIC CARDS
+G34: (C) Rocket Abra Lv14
+G35: (U) Rocket Dark Kadabra Lv24
+G36: (R) Rocket Dark Alakazam Lv30
+G37: (R) Vending Mr. Mime Lv20
+G38: (R) Vending Jynx Lv18
+G39: (R) Base Mewtwo Lv53
+
+-- COLORLESS CARDS
+G40: (C) Rocket Rattata Lv12
+G41: (C) Rocket Dark Raticate Lv25
+G42: (U) Gameboy Meowth Lv13
+G43: (U) Jungle Tauros Lv32
+G44: (C) Rocket Eevee Lv9
+
+-- TRAINER CARDS
+G45: (U) Max Revive
+G46: (R) Devolution Spray
+G47: (U) The Boss's Way
+
+-- ENERGY CARDS
+E08: (C) Potion Energy
+E09: (C) Full Heal Energy
+E10: (R) Rainbow Energy
+
+
+=========================================================================
+  [A7]  ROCKET GRUNT (7) PACK LIST
+=========================================================================
+
+Japanese name = ROKETTO-Dan no Yabou (The Rockets' Ambition)
+
+-- GRASS CARDS
+H01: (C) Base Bulbasaur Lv13
+H02: (U) Gameboy Dark Ivysaur Lv16
+H03: (R) Gameboy Dark Venusaur Lv37
+H04: (C) Rocket Zubat Lv9
+H05: (R) Rocket Dark Golbat Lv25
+H06: (C) Rocket Oddish Lv21
+H07: (U) Rocket Dark Gloom Lv21
+H08: (R) Rocket Dark Vileplume Lv29
+H09: (C) Rocket Koffing Lv12
+H10: (R) Rocket Dark Weezing Lv24
+H11: (U) Vending Pinsir Lv15
+
+-- FIRE CARDS
+H12: (R) Gameboy Dark Ninetales Lv28
+H13: (C) Vending Growlithe Lv16
+H14: (R) Vending Moltres Lv37
+
+-- WATER CARDS
+H15: (C) Rocket Psyduck Lv16
+H16: (U) Rocket Dark Golduck Lv23
+H17: (U) Gameboy Dark Starmie Lv27
+H18: (R) Vending Articuno Lv34
+
+-- LIGHTNING CARDS
+H19: (R) Gameboy Dark Raichu Lv31
+H20: (R) Vending Zapdos Lv28
+
+-- FIGHTING CARDS
+H21: (U) Vending Onix Lv25
+H22: (U) Gameboy Dark Marowak Lv27
+
+-- PSYCHIC CARDS
+H23: (C) Rocket Slowpoke Lv16
+H24: (R) Rocket Dark Slowbro Lv27
+H25: (U) Gameboy Dark Haunter Lv23
+H26: (R) Gameboy Dark Gengar Lv33
+H27: (C) Rocket Drowzee Lv10
+H28: (R) Rocket Dark Hypno Lv26
+H29: (U) Gameboy Dark Fearow Lv25
+
+-- COLORLESS CARDS
+H30: (R) Gameboy Dark Clefable Lv33
+H31: (C) Rocket Meowth Lv10
+H32: (C) Rocket Dark Persian Lv28
+H33: (U) Jungle Lickitung Lv26
+H34: (U) Vending Chansey Lv40
+H35: (U) Vending Kangaskhan Lv36
+H36: (C) Rocket Porygon Lv20
+H37: (C) Rocket Dratini Lv12
+H38: (U) Rocket Dark Dragonair Lv28
+H39: (R) Rocket Dark Dragonite Lv33
+
+-- TRAINER CARDS
+H40: (C) Super Scoop Up
+H41: (U) Challenge
+H42: (U) Imposter Oak's Revenge
+H43: (C) Sleep!
+H44: (C) Digger
+H45: (C) Goop Gas Attack
+H46: (C) Bill's Teleporter
+H47: (C) Nightly Garbage Run
+H48: (R) Rocket's Sneak Attack
+H49: (R) The Rocket's Trap
+
+-- ENERGY CARDS
+E11: (U) Recycle Energy
+
+
+=========================================================================
+  [A8]  MEOWTH (8) PACK EXPLANATION
+=========================================================================
+
+Japanese name = Present Pack
+
+Dr. Ooyama will send you a Present Pack through the mail, and Arai-Mon
+will  give you a Present Pack if you duel him and win against his stacked
+decks. These particular Present Packs will contain Energy cards only.
+
+Other Present Packs you receive at Dr. Ooyama's lab are Bulbasaur (1)
+Packs just disguised as Present Packs -- they only contain cards from
+the Bulbasaur Booster.
+
+Otherwise, Present Packs can be bought at the Game Center for various
+amounts of chips or won by defeating the Ghost Masters. They contain
+random cards from all the booster packs.
+
+During early gameplay, the Present Packs can be a very good thing because
+not all the boosters are available right away, and they will give you a
+chance to get cards from the other boosters. However, during late
+gameplay, you will probably find it more productive to try to earn
+specific boosters to increase your chances of finding a particular card.
+
+
+=========================================================================
+  [A9]  PROMOTIONAL CARD LIST AND LOCATIONS
+=========================================================================
+
+ --------------------------------------------
+//  Master Promo List                      //
+--------------------------------------------
+
+-- GRASS CARDS:
+P01: Venusaur Lv67
+
+-- FIRE CARDS:
+P02: Charizard Lv76
+P03: Arcanine Lv34
+P04: Moltres Lv40
+
+-- WATER CARDS:
+P05: Blastoise Lv52
+P06: Magikarp Lv10
+P07: Omastar Lv36
+P08: Articuno Lv37
+P09: Marill Lv17
+
+-- LIGHTNING CARDS:
+P10: Pikachu Lv13
+P11: Pikachu Lv16 (Toyota)
+P12: Pikachu Lv16 (CoroCoro)
+P13: Flying Pikachu Lv12 (CoroCoro)
+P14: Flying Pikachu Lv12 (ANA)
+P15: Surfing Pikachu Lv13 (CoroCoro)
+P16: Surfing Pikachu Lv13 (JR)
+P17: Electabuzz Lv20
+P18: Zapdos Lv68
+
+-- FIGHTING CARDS:
+P19: Diglett Lv16
+P20: Dugtrio Lv40
+P21: Mankey Lv7
+P22: Machamp Lv54
+P23: Golem Lv37
+
+-- PSYCHIC CARDS:
+P24: Alakazam Lv45
+P25: Slowpoke Lv9
+P26: Gengar Lv40
+P27: Mewtwo Lv30
+P28: Mewtwo Lv60 (FanBook)
+P29: Mewtwo Lv60 (CoroCoro)
+P30: GR's Mewtwo Lv35
+P31: Mew Lv8
+
+-- COLORLESS CARDS:
+P32: Jigglypuff Lv12
+P33: Meowth Lv14
+P34: Dark Persian Lv28
+P35: Farfetch'd Lv20
+P36: Kangaskhan Lv38
+P37: Cool Porygon Lv15
+P38: Hungry Snorlax Lv50
+P39: Dragonite Lv41
+P40: Dragonite Lv43
+P41: Togepi Lv8
+
+-- TRAINER CARDS:
+P42: Imakuni?
+P43: Super Energy Retrieval
+P44: Computer Error
+P45: Bill's Computer
+
+-- PHANTOM CARDS
+PXX: Venusaur Lv64
+PXX: Mew Lv15
+PXX: Lugia Lv55
+PXX: Here Comes Team Rocket!
+
+ --------------------------------------------
+//  Side-Room Trades                       //
+--------------------------------------------
+-- GB1 ISLAND TRADES
+Battle Club:       Fossil Hitmonlee Lv27 --> Mewtwo Lv60 (CoroCoro)
+Fire Club:         Jungle Flareon Lv28 --> Meowth Lv14
+Esper Club:        Base Alakazam Lv42 --> Kangaskhan Lv38
+Stone Club:        Jungle Snorlax Lv20 --> Jigglypuff Lv12
+Elec Club:         Base Voltorb Lv10 --> Pikachu Lv16 (CoroCoro)
+
+-- GB2 ISLAND TRADES
+GR Grass Fort:     Dark Venusaur Lv37 --> Venusaur Lv67
+GR Lightning Fort: Dark Raichu Lv31 --> Pikachu Lv16 (Toyota)
+GR Fire Fort:      Dark Charizard Lv38 --> Charizard Lv76
+GR Water Fort:     Dark Blastoise Lv28 --> Blastoise Lv52
+GR Psychic Fort:   Dark Hypno Lv26 --> Mewtwo Lv60 (FanBook)
+GR Challenge Hall: Base Chansey Lv55 --> Bill's Computer
+
+ --------------------------------------------
+//  Game Center                            //
+--------------------------------------------
+-- BILL'S COMPUTER
+Bill's Computer and any Kadabra--> Alakazam Lv45
+Bill's Computer and any Machoke --> Machamp Lv54
+Bill's Computer and any Omanyte --> Omastar Lv36
+Bill's Computer and any Haunter --> Gengar Lv40
+Bill's Computer and any Graveler --> Golem Lv37
+
+-- COIN TOSS GAME
+Mew Lv8 (if you win the Coin Toss Game)
+
+-- PRIZE CORNER
+Venusaur Lv64 (2000 chips)
+Mew Lv15 (2000 chips)
+Bill's Computer (1000 chips)
+
+ --------------------------------------------
+//  Mr. Ishihara                           //
+--------------------------------------------
+-- FIRST ISLAND HOUSE
+Vending Clefairy Lv15 --> Flying Pikachu Lv12 (ANA)
+Jungle Clefable Lv34 --> Togepi Lv8
+Fossil Dragonite Lv45 --> Marill Lv17
+
+-- SECOND ISLAND HOUSE
+Vending Moltres Lv37 --> Surfing Pikachu Lv13 (JR)
+Vending Articuno Lv34 --> Surfing Pikachu Lv13 (CoroCoro)
+Fossil Zapdos Lv40 --> Flying Pikachu Lv12 (CoroCoro)
+Rocket Dark Dragonite Lv33 --> Bill's Computer
+
+ --------------------------------------------
+//  Opponent's Rewards                     //
+--------------------------------------------
+-- RANDO
+Super Energy Retrieval (twice)
+Computer Error!
+
+-- IMAKUNI?
+Imakuni? (the card) (sixth or ninth win)
+Farfetch'd Lv20 (Black Imakuni? only; third or ninth win)
+Slowpoke Lv09 (from Red Imakuni? only; third or ninth win)
+(Imakuni?'s giveaways taken from the Official Guidebook)
+
+ --------------------------------------------
+//  Benefactors Rewards                    //
+--------------------------------------------
+Rescue people from the first island from the clutches of Team GR to
+receive:
+
+Hungry Snorlax (from Science Club Master Kurushima)
+Electabuzz Lv20 (from Grand Master Steve)
+Arcanine Lv34 (from Grand Master Hiroko)
+Magikarp Lv10 (from Grand Master Kanekouji)
+Cool Porygon (from Battle Club Master)
+Dragonite Lv43 (from Grand Master Ryuudoo)
+
+ --------------------------------------------
+//  Legendary Cards                        //
+--------------------------------------------
+Acquire these after fighting in the Pokemon Dome.
+
+Moltres Lv40
+Zapdos Lv68
+Articuno Lv37
+Dragonite Lv41
+
+ --------------------------------------------
+//  Phantom Cards                          //
+--------------------------------------------
+You can only CardPop! for these... or buy them in the Game Center (first
+two only).
+
+Venusaur Lv64
+Mew Lv15
+Lugia Lv55
+Here Comes Team Rocket!
+
+ --------------------------------------------
+//  Miscellaneous                          //
+--------------------------------------------
+-- GR FIGHTING FORT MAZE
+Diglett Lv16
+Dugtrio Lv40
+
+-- GREAT KING BIRURICCHI
+GR's Mewtwo Lv35
+
+ --------------------------------------------
+//  and the last card...                   //
+--------------------------------------------
+Mankey Lv07 is only available as a random prize if you win the Grand
+Masters Cup or the King Cup. (?_?)
+
+ --------------------------------------------
+//  Various Challenge Cups                 //
+--------------------------------------------
+The following lists were taken from the Official Guidebook.
+
+-- CHALLENGE CUP (first island)
+1st Cup: Mewtwo Lv30
+2nd Cup: Pikachu Lv13
+Additional Challenges: possible prizes -->
+   Arcanine Lv34
+   Pikachu Lv13
+   Pikachu Lv16 (CoroCoro)
+   Pikachu Lv16 (Toyota)
+   Flying Pikachu Lv12 (CoroCoro)
+   Flying Pikachu Lv12 (ANA)
+   Surfing Pikachu Lv13 (CoroCoro)
+   Surfing Pikachu Lv13 (JR)
+   Slowpoke Lv09
+   Mewtwo Lv30
+   Mewtwo Lv60 (CoroCoro)
+   Mewtwo Lv60 (FanBook)
+   Mew Lv08
+   Jigglypuff Lv12
+   Imakuni?
+   Super Energy Retrieval
+(all of these are duplicates of promos available elsewhere)
+
+-- GR CHALLENGE CUP (second island)
+1st Cup: Dark Persian Lv28
+2nd Cup: Bill's Computer
+King Cup: possible prizes -->
+   Venusaur Lv67
+   Charizard Lv76
+   Blastoise Lv52
+   Magikarp Lv10
+   Marill Lv17
+   Diglett Lv16
+   Dugtrio Lv40
+   Mankey Lv07
+   Togepi Lv08
+   Meowth Lv14
+   Dark Persian Lv28
+   Farfetch'd Lv20
+   Kangaskhan Lv38
+   Cool Porygon Lv15
+   Hungry Snorlax Lv43
+   Computer Error!
+(most of these are duplicates of promos available elsewhere)
+
+-- GRAND MASTERS CUP
+For a prize, you will be shown a random four and allowed to keep two of
+the following promos:
+   ANY promotional card except
+      - Bill's Computer
+      - mail-in promos (Alakazam, Gengar, Machamp, Golem, and Omastar)
+      - Imakuni? (the card)
+      - GR's Mewtwo
+
+
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+=========================================================================
+======|   (B)   M I S C E L L A N E O U S     R E S O U R C E S  |=======
+=========================================================================
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+
+
+=========================================================================
+  [B1]  Black Box Recipies
+=========================================================================
+
+All these recipes marked (*) come from a Japanese website that has been
+archived here: http://web.archive.org/web/20100729001527/
+http://juno777.hp.infoseek.co.jp/kako/gb2_black.htm
+All of them were tested and some corrections were made.
+
+Some recipes yield the same result when other cards are added -- this
+list contains the minimum cards you need to send in to get the Promo.
+
+See section 4e for information on how to use the Black Box.
+
+ --------------------------------------------
+//  EXAMPLE                                //
+--------------------------------------------
+-- TO GET THIS CARD...
+...you must send in this card.
+And this card.
+
+ --------------------------------------------
+//  Grass Cards                            //
+--------------------------------------------
+-- PROMO VENUSAUR Lv67 *
+Dark Venusaur
+Dark Vileplume
+
+ --------------------------------------------
+//  Fire Cards                             //
+--------------------------------------------
+-- LEGENDARY MOLTRES Lv40 *
+Base Ninetales Lv32
+Dark Ninetales
+Fossil Moltres Lv 35
+
+-- PROMO ARCANINE Lv34 *
+Base Ninetales Lv32
+Base Arcanine Lv45
+
+ --------------------------------------------
+//  Water Cards                            //
+--------------------------------------------
+-- PROMO BLASTOISE Lv52 *
+Dark Blastoise
+Dark Gyarados
+
+-- PROMO MAGIKARP Lv10 *
+Gyarados
+Dark Gyarados
+
+ --------------------------------------------
+//  Lightning Cards                        //
+--------------------------------------------
+-- LEGENDARY ZAPDOS Lv68 *
+Base Raichu Lv40
+Dark Raichu
+Base Zapdos Lv64
+
+-- PROMO PIKACHU Lv13 *
+Vending Raichu Lv32
+Base Raichu Lv40
+Fossil Raichu Lv45
+Dark Raichu
+
+-- PROMO PIKACHU Lv16 (Toyota) *
+Vending Raichu Lv32
+Base Raichu Lv40
+Fossil Raichu Lv45
+
+-- PROMO PIKACHU Lv16 (CoroCoro)
+Electrode Lv35
+Electrode Lv42
+Magneton Lv28
+Magneton Lv35
+
+-- PROMO ELECTABUZZ Lv20 *
+Base Electabuzz Lv35
+Base Magneton Lv28
+Fossil Magneton Lv35
+Vending Magneton Lv30
+
+ --------------------------------------------
+//  Fighting Cards                         //
+--------------------------------------------
+-- PROMO DIGLETT *
+Base Dugtrio Lv36
+Dark Dugtrio
+
+-- PROMO DUGTRIO Lv40
+Base Dugtrio Lv36
+Vending Hitmonchan Lv23
+Fossil Hitmonlee Lv30
+
+-- PROMO MANKEY *
+Vending Hitmonchan Lv23
+Fossil Hitmonlee Lv30
+
+ --------------------------------------------
+//  Psychic Cards                         //
+--------------------------------------------
+-- PROMO SLOWPOKE Lv9
+Alakazam Lv42
+Gengar Lv38
+Mr. Mime Lv28
+
+-- PROMO MEWTWO Lv60 (FanBook) *
+Base Mewtwo Lv53
+Fossil Mew Lv23
+
+-- PROMO MEWTWO Lv60 (CoroCoro)
+Vending Mewtwo Lv67
+Fossil Mew Lv23
+
+-- PROMO MEWTWO Lv30 *
+Base Mewtwo Lv53
+Vending Mewtwo Lv67
+
+-- GR'S MEWTWO *
+Base Mewtwo Lv53
+Vending Mewtwo Lv67
+Fossil Mew Lv23
+
+ --------------------------------------------
+//  Colorless Cards                        //
+--------------------------------------------
+-- PROMO JIGGLYPUFF Lv12 *
+Base Clefairy Lv14
+Base Chansey Lv55
+
+-- PROMO MEOWTH Lv14 *
+Ditto
+Jungle Snorlax Lv20
+
+-- PROMO FARFETCH'D Lv20
+GB Pidgeot Lv38
+Base Clefairy Lv14
+Ditto
+
+-- COOL PORYGON *
+Jungle Clefable Lv34
+Ditto
+
+-- HUNGRY SNORLAX *
+Jungle Snorlax Lv20
+Vending Snorlax Lv35
+
+-- PROMO KANGASKHAN Lv38 *
+Jungle Kangaskhan Lv40
+Base Dragonair Lv33
+
+ --------------------------------------------
+//  Trainer Cards                         //
+--------------------------------------------
+-- SUPER ENERGY RETRIEVAL
+Vending Poliwrath Lv40
+Base Dragonair Lv33
+
+
+Have other recipes? Email me at the address given at the end of the file.
+
+
+=========================================================================
+  [B2] Colorless Altar Guys
+=========================================================================
+
+In the Colorless Altar, there's no way for you to know which cards the
+Minions want in your deck except reading it. (You could guess-and-check,
+I suppose, but do you really want to do that?) For people who know no
+Japanese, I have prepared the following ASCII art so you can tell which
+requirement they are presenting.
+
+ --------------------------------------------
+//  Nishijima - bottom guy                 //
+--------------------------------------------
+
+   | ()             | ()
+---+---          ---+---    "Poppo"
+   |     | |  |     |       = Pidgey
+ / | \       /    / | \
+/  |  \    _/    /  |  \
+
+
+   |           ____   ____||      /
+---+--  ____      /      /    \  /    "Onisuzume"
+  /|             /      /      \/     = Spearow
+ / |   ______   / \    / \     /\
+/  |           /   \  /   \   /  \
+
+
+/________    /___      __     /_______           |               | ||
+_|_|_|_|_   /___/__   /  \   / |__|__| --+--  ---+--   |  |    __|__
+_|_|_|_|_   |  |  |  /    | /| |__|__|   |        /    |  |      |   ____
+_|_|_|_|_   +------      /   | ||   ||   |       / \   |  |  | __|__
+            |          /     | ||___||   |    _/ |  \  |  | /    |
+/  |  \  \  |_____|  /_____  | |_____| --+--     |    /   |/     |
+
+"Mushoku Ni-Ko Enerugii" = Double Colorless Energy
+
+
+ --------------------------------------------
+//  Samejima - middle guy                  //
+--------------------------------------------
+
+------            |    |      +--+--+
+          ----    |    |      |     |    "Miniryuu"
+ ____             |    | __         |    = Dratini
+         ______       /    |       /
+_______           ___/   --+-  ___/
+
+
+_____()
+     |  |    |  ---  /   "Purin"
+    /   |    |      /    = Jigglypuff
+   /        /      /
+  /      __/    __/
+
+
+   /                                              _______
+--+-    \   | ___    _|__ _      ___     /  |        |       "Nanika
+ /    |  \  |         |  \ \    / | \   /|  |__/    /_____   no Seki"
+     _|_    |         |   \ \  |  |  |   |  |      /|    |   = Mysterious
+    / | \   |         |   |    |  |  |   |  |     / |    |   Fossil
+    \_|     | ----   /   \|     \/  /    |  |____   |____|
+
+
+ --------------------------------------------
+//  Ishii - top guy                        //
+--------------------------------------------
+
+______   ----             |---
+     |  ______           /    |
+     |       |  | |  |  /----/    "Koratta"
+     |      /       /       /     = Rattata
+------   __/      _/      _/
+
+
+                    ____
+ ----                  /    "Nyaasu"
+        ___  ------   /     = Meowth
+        | /          / \
+------  |           /   \
+
+
+ | __    -----              | ()   |____ ----  \
+-+/  \    __/_   |   \   ---+---  /   |   |     \   |
+ |    |       \  |    |     |        /   -+---     /    "Warui Pokemon"
+/|    |  /\   |  |    |   / | \     /     |       /     = Dark Pokemon
+ |   /   \_\_/   |/      /  |  \   /      \__  __/
+
+
+
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+=========================================================================
+=======================|    T H E     E N D    |=========================
+=========================================================================
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+
+
+=========================================================================
+  [i] ALSO AVAILABLE
+=========================================================================
+
+I've also made the following guides for this game:
+  - Detailed Trainer Guide
+  - Card Spoilers and Card Locations Guide
+  - Quick Ref
+
+
+=========================================================================
+  [ii] CONTACTING ME
+=========================================================================
+
+I can be reached at alamedyang at gmail dot com.
+
+Email me corrections, additions, complaints, whatever. (I will probably
+take forever to respond, though.)

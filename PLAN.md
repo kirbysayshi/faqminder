@@ -1,20 +1,22 @@
 # FAQMiner — Build Plan
 
-Offline-first PWA for reading game-FAQ text walkthroughs. Local-only (no server), deployed static to GitHub Pages. This file is the **cross-session source of truth**: keep the Phase Status table current so any session can resume. Detail lives in code — this is a pointer, not a spec.
+Offline-first, **mobile-first** PWA for reading game-FAQ text walkthroughs. Local-only (no server), deployed static to GitHub Pages. Primary target = mobile, where tabs/apps get purged from memory — so **persistence is load-bearing** (every bit of reader state survives a cold reload). This file is the **cross-session source of truth**: keep the Phase Status table current so any session can resume. Detail lives in code — this is a pointer, not a spec.
 
 ## Locked decisions
 
 | Concern | Choice | Notes |
 |---|---|---|
-| Build | Vite + React + TS, pnpm | |
+| Build | Vite + React + **TS 6.x** (pinned; TS 7 breaks depcruise — see CLAUDE.md), pnpm | |
 | Routing | React Router 7 **framework mode**, `ssr:false`, `prerender:['/']` | SPA static export; `base=/faqminder/`; `404.html` SPA fallback for deep links |
 | State | **Jotai** (reactive/ephemeral atoms) | matches ADR "atoms" |
 | Persistence | **Dexie** (IndexedDB) + `dexie-react-hooks` `useLiveQuery` | FAQ blobs + parsed model + per-doc reader state |
 | Styling | Tailwind (utilitarian, terse UI) | |
-| Offline | `vite-plugin-pwa` (precache app shell) | FAQ content already in IndexedDB |
+| Offline | `vite-plugin-pwa` (precache app shell) | **SW wiring deferred to P7** — plugin's default outDir fights RR framework mode's per-env `build/client`. Static manifest only for now |
 | Layers | per `adrs/0001-structure.md` | enforced by dependency-cruiser + eslint-plugin-import |
 | Tests | Vitest — pure `lib/` fns against real `fixtures/` | parse/encoding/search are highest value |
 | Deploy | `gh-pages` manual (user handles repo/CI) | no GitHub Actions for now |
+| Long tasks | run in **tmux** (dev server, verify) | another Vite project is already running — **never assume the port**, read it from Vite's output |
+| Versions | install with `pnpm add <pkg>@latest` | never hand-pick versions; `pnpm-workspace.yaml` sets `savePrefix:''` (exact) + pre-approves `esbuild` builds |
 
 ## Feature → layer map
 
@@ -33,7 +35,13 @@ Offline-first PWA for reading game-FAQ text walkthroughs. Local-only (no server)
 ## Key algorithms (non-obvious — capture here)
 
 **Parse / prose classifier** (`lib/parse`, run **once at import**, result cached in Dexie):
-Split to lines → group by blank-line boundaries into blocks → classify each `prose | other`. Mark `prose` only when **confident** (conservative): ≥2 lines, consistent left indent, line lengths clustered ~[40,80], high alpha ratio, and NO art signatures (runs of `| _ / \ = + . : ~`, dotted leaders, box-drawing). Everything else stays `other` = rendered `<pre>` verbatim. Prose blocks: join wrapped lines → soft-wrap; render a small toggle icon above; user can force off/on. Never auto-reflow ASCII art.
+Split to lines → group by blank-line boundaries into blocks → classify. Goal = **preserve visual intent while letting font size change**. Classification is **relative within the block**, NOT against absolute line-length thresholds (FAQs vary widely in width):
+- `prose` — lines wrap consistently near a shared right margin, high alpha ratio, no art signatures → join wrapped lines, soft-wrap, left-align.
+- `indented-list` — prose-like but with a hanging/leading indent → reflow **preserving the left indent** (CSS `padding-left`/hanging indent), don't collapse the indent.
+- `floated-box` — a text column with a right-side box/art gutter → reflow the prose column, drop the float, keep intent.
+- `other` / `ascii-art` — banners, boxed tables, dotted-leader TOCs, anything with art signatures (runs of `| _ / \ = + . : ~`, box-drawing, leader dots) → rendered `<pre>` verbatim, never reflowed.
+
+Conservative: when unsure, fall back to `other`. Reflowable blocks render a small toggle icon; user can force off/on per block. Never auto-reflow ASCII art.
 
 **Reflow override model** (`domains/document`): store per-FAQ `{ auto: blockId[], overrides: Record<blockId, boolean> }`. Effective = override ?? auto-membership. Persisted; survives reload.
 
@@ -43,7 +51,7 @@ Split to lines → group by blank-line boundaries into blocks → classify each 
 
 ## Phases (status: `[ ]` todo · `[~]` wip · `[x]` done)
 
-- [ ] **P0 Scaffold** — Vite+RR7+TS+Tailwind+PWA, pnpm, Vitest, dependency-cruiser boundaries, layer dirs, `404.html`, deploy script. Verify dev server + build.
+- [x] **P0 Scaffold** — Vite+RR8(fw mode,`ssr:false`)+TS6+Tailwind4, pnpm, Vitest, depcruise boundaries (13 mod, 0 violations), layer dirs, `404.html`, `deploy:gh`. Verified: typecheck/build/depcruise/test green; dev server 200 on `:5174/faqminder/`. PWA SW → P7.
 - [ ] **P1 Storage + import** — Dexie schema (`domains/library`), `lib/encoding`, `features/import` file input → decode → save. List FAQs.
 - [ ] **P2 Reader + switch** — `lib/parse` block model, `domains/document`, `features/reader` renders blocks; `_index` picker + `faq.$id` route; switch active FAQ.
 - [ ] **P3 Scroll bookmark** — anchor persistence + restore.
@@ -62,5 +70,5 @@ Each phase = its own commit(s). Update this table + note surprises before ending
 
 - Large fixtures (Dragon Warrior IV ~6.8k lines): may need windowing/virtualization in `features/reader` (defer to P7 if perf is fine).
 - Fatal Frame fixture has BOM + Windows-1252 mojibake → `lib/encoding` must detect, not assume UTF-8.
-- Mobile: custom selection overlay coexisting with native selection menu — validate on device in P5.
-- RR7 framework `ssr:false` + prerender + GH Pages base path + deep-link 404 shim — validate in P0.
+- Mobile: custom selection overlay coexisting with native selection menu — validate in P5 (mobile-first).
+- RR7 framework `ssr:false` + prerender + GH Pages base path — `404.html` SPA fallback is known-good on GH Pages, no verification needed.

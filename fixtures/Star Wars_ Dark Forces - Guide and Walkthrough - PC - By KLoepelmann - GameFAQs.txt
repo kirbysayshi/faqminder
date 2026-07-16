@@ -1,0 +1,3288 @@
+
+
+   ___STAR______________________________________________________________
+  /            ________      ______    ________    ____ _____           \
+  |            |       \     |    |    |       \   |   ||   |            |
+  |            |   __   \    |    |    |   __   \  |   ||   |            |
+  |            |   ||   |    | /\ |    |   ||   |  |   ||   |            |
+  |            |   ||   |   |  ||  |   |   ||   |  |   |/   |            |
+  |            |   ||   |   |  ||  |   |   ~`   /  |       /             |
+  |            |   ||   |   |  ||  |   |   /\   \  |   |\  \             |
+  |            |   ||   |  |   ~'   |  |   ||   |  |   ||   |            |
+  |            |   ~'   /  |   __   |  |   ||   |  |   ||   |            |
+  |            |_______/   |__/  \__|  |___||___|  |___||___|            |
+  | _________    ______    ________      ______    _________    ______   |
+  | |       |   /      \   |       \    /      \   |       |   /      \  |
+  | |   ____|  /   __   \  |   __   \  /   __   \  |   ____|  /   __   \ |
+  | |   |      |   ||   |  |   ||   |  |   ||   |  |   |      |   ||___| |
+  | |   |___   |   ||   |  |   ||   |  |   ||___|  |   |___   \_   \_    |
+  | |   ____|  |   ||   |  |   ~`   /  |   | ____  |   ____|    \_   \_  |
+  | |   |      |   ||   |  |   /\   \  |   ||   |  |   |      ____\,   \ |
+  | |   |      |   ||   |  |   ||   |  |   ||   |  |   |____  |   ||   | |
+  | |   |      \   ~'   /  |   ||   |  \   ~'   /  |       |  \   ~'   / |
+  | |___|       \______/   |___||___|   \______/   |_______|   \______/tm|
+  \______________________________________________________________    ___/
+                                                                 WARS
+
+                         STAR WARS: DARK FORCES
+                               The FAQList
+                       "The dark side of the force
+                            Just got darker."
+
+                              Version 2.60c
+                             (FINAL VERSION)
+                      Last Updated: October 16, 1996
+
+                        Compiled and Maintained by
+                         Dr Karsten A. Loepelmann
+                          <kloepel@connect.ab.ca>
+
+
+This FAQList is copyright 1995 and 1996 by Karsten A. Loepelmann.  All rights
+reserved. Permission is granted for reproduction, distribution, transmission,
+or storage for noncommercial purposes only, on the condition that the contents
+are not changed in any way.  Permission for any other use or distribution of
+this FAQList must be obtained from the rights holder, Karsten A. Loepelmann.
+All trademarks herein are acknowledged as the property of their respective
+owners. Star Wars is a registered trademark of Lucasfilm Ltd.  Dark Forces is a trademark of LucasArts Entertainment Company. 
+
+This document will be Internet-published in:
+   news:alt.games.dark-forces
+   news:comp.sys.ibm.pc.games.action
+   news:rec.arts.sf.starwars.games
+   http://www.connect.ab.ca/~kloepel/df.htm
+
+
+Abbreviations used:
+   DF = Dark Forces
+   LA = LucasArts
+   TD = Thermal Detonator
+   DT = Dark Trooper
+
+
+Contents:
+(*)=denotes a section that has changed since the last release of this FAQ
+(+)=denotes a section that has been added since the last release of this FAQ
+
+ * 0.0 Welcome!
+
+   1.0 Introduction
+   * 1.1 What is "Dark Forces"?
+     1.2 Is DF canon?
+     1.3 What is required to run DF?
+     1.4 What media format is DF offered on?
+     1.5 What sound cards are supported?
+     1.6 What controllers are supported?
+     1.7 Does DF have _________?
+      1.7.1 ...a multiplayer option?
+      1.7.2 ...a "save" feature?
+     1.8 How do I get DF?
+   * 1.9 Will there be any sequels to DF?
+     1.10 MacDF
+      1.10.1 MacDF hardware requirements
+      1.10.2 Running custom levels on MacDF
+      1.10.3 MacDF patch file
+      1.10.4 MacDF demo
+     1.11 Sony PlayStation DF
+
+   2.0 DF Demo
+     2.1 Where can I get the demo?
+     2.2 Is the demo level in the full game release?
+   
+   3.0 DF vs. DOOM
+     3.1 Isn't DF just a ripoff of iD Software's DOOM?
+     3.2 Does DF kick DOOM's butt?
+     3.3 Is DF easier than DOOM?
+
+   4.0 Undocumented Codes
+     4.1 Gameplay Cheat Codes
+      4.1.1 LABUG
+      4.1.2 LACDS
+      4.1.3 LADATA
+      4.1.4 LAIMLAME
+      4.1.5 LAMAXOUT
+      4.1.6 LANTFH
+      4.1.7 LAPOGO
+      4.1.8 LAPOSTAL
+      4.1.9 LARANDY
+      4.1.10 LAREDLITE
+      4.1.11 LASKIP
+      4.1.12 LAUNLOCK
+      4.1.13 LABRADY (Mac only)
+      4.1.14 LAOZ (Mac only)
+      4.1.15 LATERMINATE (Mac only)
+     4.2 Mission Codes
+     4.3 "Dork Farces" :)
+     4.4 Command Line Options
+
+   5.0 Weapons and Items
+     5.1 Weapons
+      5.1.1 Fists
+      5.1.2 Modified Bryar Pistol
+      5.1.3 Stormtrooper Laser Rifle
+      5.1.4 Thermal Detonators
+      5.1.5 Imperial Repeater Gun
+      5.1.6 Jeron Fusion Cutter
+      5.1.7 I.M. Mines
+      5.1.8 Packered Mortar Gun
+      5.1.9 Stouker Concussion Rifle
+      5.1.10 Assault Cannon
+     5.2 Ammo
+     5.3 Weapon Supercharge
+     5.4 How is aiming/targeting accomplished?
+     5.5 Various Items
+      5.5.1 Keys
+      5.5.2 Head Lamp
+      5.5.3 Infrared Goggles
+      5.5.4 Ice Cleats
+      5.5.5 Air Mask
+      5.5.6 Batteries
+      5.5.7 Shields
+       5.5.7.1 Shield Supercharge
+       5.5.7.2 Revive
+       5.5.7.3 Med Kit
+     
+   6.0 Opponents
+    6.1 Imperial Stormtroopers
+    6.2 Imperial Officers
+    6.3 Imperial Commandos
+    6.4 Gun Turrets
+    6.5 Probe Droids
+    6.6 Interrogation Droids
+    6.7 Remotes
+    6.8 Mouse Droids
+    6.9 Trandoshans
+    6.10 Gran
+    6.11 Gamorreans
+    6.12 Dianoga
+    6.13 Boba Fett
+    6.14 Kell Dragons
+  * 6.15 Dark Troopers
+    6.16 How many opponents are there in each Mission?
+  * 6.17 How many shots are required to take out each opponent?
+  + 6.18 How many hits can Kyle take from each weapon?
+
+   7.0 The Missions
+     7.1 Prologue Mission I: The Death Star Plans: Operation Skyhook: Phase 2
+     7.2 Mission II: After the Massacre
+     7.3 Mission III: The Subterranean Hideout
+     7.4 Mission IV: Imperial Weapons Research Facility
+     7.5 Mission V: The Blood Moon
+     7.6 Mission VI: Crix Madine's Fate
+     7.7 Mission VII: Deadly Cargo
+     7.8 Mission VIII: Ice Station Beta
+     7.9 Mission IX: The Death Mark
+     7.10 Mission X: Jabba's Revenge
+     7.11 Mission XI: The Imperial Mask
+     7.12 Mission XII: Smuggler's Hijack
+     7.13 Mission XIII: The Stowaway
+   * 7.14 Mission XIV: The Dark Awakening
+
+   8.0 Miscellaneous Questions
+    8.1 What is "headwave"?
+     8.1.1 Does DF induce motion sickness?
+    8.2 Who are the people behind DF?
+    8.3 Has George Lucas provided any input to DF?
+    8.4 What is the name of Kyle's dropship?
+    8.5 What happened to the Imperial-class Star Destroyer Mission?
+  * 8.6 Is there a strategy guide?
+  * 8.7 Is there a DF fan club?
+  * 8.8 Is there any DF merchandise available?
+
+   9.0 DF Customization
+    9.1 How do I remap the keys?
+    9.2 What are .GOB files?
+     9.2.1 What software was used to create the .GOB files?
+     9.2.2 How should a custom .GOB file be loaded?
+    9.3 How are the different floors separated?
+    9.4 How are textures assigned?
+    9.5 How are dynamic properties assigned?
+    9.6 How do you place objects in a mission?
+    9.7 Can you create floor panels that can be blown up?
+    9.8 Can you create sloped floors?
+    9.9 How are sounds associated with actions?
+    9.10 Is there a limit to the size and complexity of the missions?
+    9.11 Day of the Tentacle?
+
+ * 10.0 Custom Missions and Mission Editors
+ *  10.1 MPC mission editors
+ *  10.2 MacDF mission editors
+ *  10.3 Custom missions
+
+ * 11.0 Troubleshooting
+    11.1 Help installing
+    11.2 Help with sound cards
+ *  11.3 Misc help
+    11.4 How do I contact LA technical support?
+
+ * 12.0 Acknowledgements
+
+   13.0 References
+==========================================================================
+
+============
+0.0 Welcome!
+============
+This file is a list of frequently asked questions about the MPC (MS-DOS
+CD-ROM) game _Star Wars: Dark Forces_ (which was released March 7, 1995). 
+It's also a file of answers to those questions ;-)  DF was voted the #1 game!
+(Poll taken in _Computer Gaming World_'s April, 1995 issue; results listed in
+the June, 1995 issue.)
+
+*** NOTE! ***
+This is the 'final' version of the FAQList.  I have relinquished maintainance
+of the custom missions list (see section 10.3), so I do not anticipate making any changes to this FAQList (sorry, but I just don't have the time).  A great big THANKS! to all who contributed.  I hope this document was able to help some of you through DF!
+
+Dark Forces Project Leader Daron Stinnett and Lead Artist/Co-writer Justin
+Chin provided me with much inside info on DF.  Many of the questions below
+were answered with info provided to me by them.  Thanks, Daron and Justin!
+
+The *new* WWW site for the DF FAQ is (and will be, for the time being):
+     http://www.connect.ab.ca/~kloepel/df.htm
+
+(A great big thanks to John-Paul May and the great people at TWEB for giving
+the DF FAQList Website a home for over a year! Unfortunately, a fire destroyed TWEB in October, 1996. :-(
+
+I humbly note that my site has been honoured on the "Cool List" compiled by
+Warren Ernst <wernst@crl.com>, author of the excellent _Using Netscape_ .
+Check out his Cool List at:
+     http://llama.jpl.nasa.gov/bookmark.htm
+
+ -KAL
+  May the (Dark) Forces be with you!
+
+
+
+================
+1.0 Introduction
+================
+1.1 What is "Dark Forces"?
+==========================
+"A long time ago, in a galaxy far, far away....
+
+"The New Order of the Empire stretches its evil clutches across the galaxy,
+consuming planets with devastating results. Through many struggles, the Rebel
+Alliance has learned of a new Imperial battle station, the DEATH STAR, with
+enough power to destroy an entire planet.
+
+"Unable to acquire the plans to the deadly space station, the Rebels have
+employed the skills of Kyle Katarn. Known to most as a mercenary for hire,
+Katarn is a rogue figure who has a partial alliance with the Rebels.
+
+"Armed only with a blaster pistol and an intimate knowledge of Imperial
+methods, Katarn prepares to infiltrate the Imperial base in which the plans
+are kept..."
+
+Dark Forces is LucasArts' new first-person perspective game.  It is based on a
+LA-developed 'Jedi Engine', which supports "full 3D objects, a realistic
+lighting model, atmospheric effects (haze, fog, etc.), Gouraud shading,
+animating textures, 3D viewing angles and more."
+
+Each of the 14 missions encompasses a different world, each with a unique look
+and feel.  This is not a static environment, according to project leader Daron
+Stinnett: "the worlds extend out in all directions.  There are elevators to
+take you to multiple floors, bridges over flowing water, catwalks, air shafts
+and other architectural features.  We wanted an active environment, so ships
+come and go at the flight decks, rivers sweep along, platforms and conveyor
+belts move, and much of the machinery functions."
+
+In this game, you play Kyle Katarn, a mercenary once employed by the
+Galactic Empire who is now working with the Rebel Alliance.  Kyle's first
+mission is to steal the plans for an awesome space station: the Death Star. 
+Subsequently, the Rebels learn of Imperial General Mohc's plans to create
+battalions of mechanized "Dark Troopers" -- specially enhanced stormtroopers
+which could spell the end of the rebellion.  In Dark Forces, the player, as
+Katarn, must travel to varied locations -- such as the Gromas Mines, a
+Super Star Destroyer, the Imperial City on Coruscant, and the spaceport moon
+of Nar Shaddaa -- to stop the Empire from unleashing the Dark Troopers...
+
+The characters inhabiting the game are familiar ones from the Star Wars
+universe, and include Imperial Stormtroopers and officers, pig-like
+Gamorreans, interrogation droids, the monster from the trash compactor, and
+Boba Fett, among others.  You will be able to use many different weapons;
+among them a blaster rifle, thermal detonators, and an assault cannon.
+
+
+1.2 Is DF canon?
+================
+DF itself is *not* canon (meaning 'in Star Wars continuity'), but that's not
+to say it doesn't have ties to Star Wars continuity.  Kyle Katarn's first
+mission takes place shortly before the events of _Star Wars: A New Hope_
+(Episode IV). 
+
+Surely, if there were a Rebel who had accomplished as much as Katarn
+(succeeding in over a dozen extremely difficult missions single-handedly,
+facing hundreds of opponents), we would have heard of him by now.  But, hey
+-- just try to play along, okay?  After all, you may shoot down the enigmatic
+bounty hunter Boba Fett -- but he later appears in _Return of the Jedi_ to be
+fed to the Sarlacc, and then reappears on Nar Shaddaa in the Dark Horse
+Comics series _Star Wars: Dark Empire_. 
+
+On the other hand, Justin Chin writes:
+     Kyle Katarn is not a more visible character in the Rebellion because
+     Mon Mothma and the rest of the leaders of the Rebellion are concerned
+     about the controversial nature of his employment. Namely his past with
+     the Empire, in which he had many successful operations against the   
+     Rebellion, leaving many dead. The other is that he is not officially a   
+     part of the Rebellion, and is paid very well for his deeds. Other
+     rebel members are not paid so well if not at all. In fact this very
+     fact greatly upsets Princess Leia to no end. Even with the success with
+     the Death Star plans and the Dark Troopers. Mon Mothma went behind
+     Leia's back to hire him to steal the Death Star plans.
+
+BTW, 'katarn' (the surname of the protagonist in DF) is the name of a predator
+on the Wookie homeworld of Kashyyyk.  Also, in the Star Wars book _Heir to the
+Empire_, written by Timothy Zahn (the first book in his trilogy), there is a
+Lieutenant Page who heads a New Republic group called the 'Katarn Commandos.'
+
+Justin Chin writes:
+     ["Katarn"] was used before I officially started on the project. I tried
+     to think of a better one, but I as well as others, were used to it so it
+     was not changed. He was in fact named after the animal. But he has no   
+     relation to the Katarn Commandos.
+
+
+1.3 What is required to run DF?
+===============================
+   COMPUTER: IBM and 100% compatibles
+   OPERATING SYSTEM: MS-DOS 5.0 or higher
+   CPU: 386DX/33 minimum (486DX/33 or higher strongly recommended)
+   CD-ROM drive required
+   MEMORY: 8 megabytes RAM (6.5 megabytes XMS free)
+   HARD DISK DRIVE: 3.5 megabytes available space required
+   INPUT DEVICE: keyboard; joystick and mouse optional
+   VIDEO: 256-colour VGA/MCGA (Local Bus or PCI recommended)
+   SOUND CARDS: various popular sound cards are supported. See section 1.5
+
+The CD-ROM drive need not adhere to the MPC2 standard of a 300kb/s transfer
+rate, but the faster your drive, the faster you'll load the levels.  Note
+that DF actually exceeds certain MPC2 requirements (i.e., you *must* have 8 Mb
+RAM).  Yes, you need at least 8 (eight) megabytes of RAM -- no, this is *not*
+a typo.  Time to upgrade that PC XT!
+
+The README.TXT file accompanying the DF demo states that DF requires a
+Microsoft-compatible mouse, but will also support the Flightstick Pro and
+ThrustMaster Flight Control Systems, as well as regular joysticks.
+
+
+1.4 What media format is DF offered on?
+=======================================
+Right now, DF is being offered on MPC and Mac CD-ROM *only*.  Although it has
+been rumoured, there are apparently *no* plans to offer DF on floppies
+later.  Daron Stinnett notes:
+     I don't think so.  We considered it, but it doesn't look like the
+     retailers want a floppy version.
+
+Some players have expressed their disdain for the small size of DF.  They
+say that the CD is "padded" with the inclusion of the DF demo.  (In fact, the
+demo of Full Throttle is larger than DF itself -- this is largely due to the
+former's extensive sound and animation components.)  However, others have
+noted that just because a game comes on a CD-ROM doesn't mean that it *should*
+take up 640 Mb -- some games don't lend themselves to that.  It would have
+been nice to have a few more Missions on the CD, like another 200 or so ;-) 
+Think of it this way: what if DF were only offered on (two dozen) floppies? 
+Would you have been happy? 
+
+*** Important note:
+If you are offered DF on ~21 floppy disks, or find such a version on a BBS or
+FTP site, that version is *pirated*.  Do *not* download, purchase, or accept DF in this format.  This is *illegal*.  You are considered an accessory unless you report this violation of copyright to the authorities.  A lot of people worked very hard on DF -- they don't work for free.  If you want to try out DF, get the demo level (see section 2.0).
+
+
+1.5 What sound cards are supported?
+===================================
+Creative Labs' SoundBlaster, SoundBlaster Pro, SoundBlaster 16, AWE32;
+MediaVision's ProAudioSpectrum, PAS16, ProAudio Studio, and Premium 3-D;
+Roland MT32/LAPC-1; Ensoniq Soundscape; Gravis UltraSound and UltraSound Max
+in native mode; General MIDI, and compatibles.  (Plug: the stereo sound on my
+PAS16 is flawless and fabulous.) 
+
+
+1.6 What controllers are supported?
+===================================
+Two-and three-button mice (mouses?) are supported, as are the FlightStick Pro,
+and the ThrustMaster FCS and compatibles.  Note: the FLCS is *not* supported.
+The Gravis GamePad is supported, and the buttons are configurable. 
+
+     
+1.7 Does DF have __________?
+============================ 
+1.7.1 ...a multiplayer option?
+==============================
+LA made the decision not to include modem or network play in DF, preferring
+instead to concentrate on producing a solid game (I'm paraphrasing). 
+
+Although it wouldn't make much sense to have a 'deathmatch'-style game with
+two rebels fighting each other, a one-on-one Kyle Katarn/Trooper match is
+possible.  A cooperative modem game option would fit much better into the
+storyline, considering that some fairly intricate and complex puzzles must be
+solved to complete a mission. 
+
+The storyline, however, is *not* the decisive factor here.  LA obviously
+decided that DF would be "popular enough" without a modem option.  Many
+net.players have modems or are on networks, thus the high demand for this
+option on the Net is understandable.
+
+
+1.7.2 ...a "save" feature?
+==========================
+There is *no* mid-mission save feature in DF.  After you complete a mission,
+your status and weapons are saved.  In each mission, there are various
+invisible "save locations".  If you die, and you have at least one life left,
+you are "reincarnated" at the last save location you passed with 100 shield
+units and 100% health.  You keep all the items you found up to that point and
+your map contents, ammo status, and the status of all enemies (dead/alive),
+doors, etc. is unchanged.
+
+If you lose all your lives, you restart at the beginning of the mission and
+everything (enemies, doors, map, etc.) is reset as if you'd started the
+mission anew.  Additionally, *you* are reset as you were when you first
+started the mission.  That is, you have all the weapons, ammo, lives, shields,
+and special items you had when you first started the mission.  It's not like
+starting Mission 1 again, with no extra weapons, etc.
+
+Is this a good feature, or a glaring omission?  On the pro side, some observe
+that having to play all the way thru a mission nonstop is exciting, and
+contributes to the realism of the game.  On the con side, others note that
+reality has a way of intruding into game-playing, and that it would be nice
+to save the game in the middle of one of those long missions and come back to
+it later to do such mundane activities as eating, sleeping, and going out on
+dates, for example. 
+
+
+1.8 How do I get DF?
+====================
+MPC DF and MacDF are listed at US$44.95 when ordered directly from LA (CA
+residents add 7.25%).  Shipping and handling is another US$5 per order within
+the US; US$6 to Canada.
+
+To order DF in the USA and Canada, call 1-800-STARWARS, or 1-800-98LUCAS
+(1-800-9858227), or check your local software retailer. 
+
+
+1.9 Will there be any sequels to DF?
+====================================
+Yes!  On March 18, 1996, LA announced the sequel to DF.  From the press
+release: 
+     Jedi Knight: Dark Forces II
+     PC and Macintosh CD-ROM
+     First-Person Action Adventure
+
+     The long-awaited multiplayer sequel to the award-winning _Dark Forces_,
+     _Jedi Knight_ continues the story of the young mercenary Kyle Katarn as
+     he takes a quest into his past and learns the ways of the Jedi.  With
+     this knowledge he must stop seven Dark Jedi from unlocking the powers of
+     a hidden Jedi burial ground. _Jedi Knight_ fulfills *Star Wars* game
+     fans' ultimate wish -- an opportunity to experience the power of the
+     Force and, with lightsaber in hand, become a Jedi Master. 
+
+JK: DF II is scheduled to be released in late 1996/early 1997.  For the full
+press release, see:
+     http://www.lucasarts.com/pages/Announcement.527.html 
+
+Project leader is Justin Chin; other team members include Ingar Shu and Ray
+Gresko.
+
+For more information on JK: DF II, please see the Invisible Knights HeadQuarters at: 
+     http://ikteam.simplenet.com/
+
+or Ackbar's Jedi Knight Page at:
+     http://www.nucleus.com/~dlovejoy/
+
+
+1.10 MacDF
+==========
+A version of DF for the Apple Macintosh computers has been released; the
+port was done by Aaron Giles <agiles@aol.com>.  The missions are identical to
+those in the MPC version.  A demo version has also been released--see section
+1.10.4 for locations.
+
+(Although I've used Macs before, I don't run DF on a Mac. Mac users are
+encouraged to correct me on any errors in this section!)
+
+MPC vs. Mac versions of DF:
+ - All Missions are identical; all MPC cheat codes work; custom levels work on
+   both platforms. 
+ - Animations from Rebel Assault II and Full Throttle are included on the Mac
+   disc. 
+
+
+1.10.1 MacDF hardware requirements
+==================================
+   COMPUTER: Apple Macintosh
+   OPERATING SYSTEM: MacOS version 7.1 or higher
+   CPU: minimum 68040 or PowerPC required
+   CD-ROM drive required
+   MEMORY: minimum 8 megabytes RAM
+   HARD DISK DRIVE: 5mb HD space minimum, 13mb HD space recommended
+   INPUT DEVICE: keyboard or mouse (see note below)
+   VIDEO: 13" color monitor required
+
+Powermacs can run DF in high resolution (640x480), but it's apparently "a bit
+sluggish" on a 60 MHz 601. On an 80 MHz PowerMac 6100, it runs at hi-res at
+letterbox size, or at low-res (320x240)in full-screen. You should have no
+trouble running DF in high resolution on a PowerMac 8100 or 9500.
+
+Note: the CD includes settings for the following joysticks and pads:
+Thrustmaster, MouseStick, GamePad, Flightstick Pro, Questick, and QuePad.
+
+
+1.10.2 Running custom levels on MacDF
+=====================================
+There were initially some problems getting the custom MPC DF missions to work
+with MacDF, but they have been solved!  Follow these instructions:
+   1. Use Stuffit Deluxe (a $30 commercial program) and choose "Unzip" from
+      the "Translate" menu to unzip the files. Make sure "Convert CR/LFs" box
+      is *unchecked*. (You can also use ZipIt, a $15 shareware program.)
+   2. Use a file utility such as ResEdit to change the Type code of the .GOB
+      file to "DATA" and the Creator code to "dRfO" (the last character is the
+      letter O, *not* zero).
+   3. Move the .GOB file into the same folder as your Dark Forces
+      application. Do *not* move it into the Dark Forces Data folder, or the
+      game will crash when you try to start the level. 
+   4. Double-click on the .GOB file to start Dark Forces and play the custom
+      mission. 
+Note that you do not need the accompanying *.BAT file to run a custom level
+with MacDF.
+
+
+1.10.3 MacDF patch file
+=======================
+There is a file that updates MacDF to version 1.2; this 687 Kbyte file is
+available from the LA WWW site:
+     http://www.lucasarts.com/downloads/patches/mac/df1.2patch.sit.bin
+
+These are the changes that have been made since the original release:
+ - added a warning if RAM Doubler/virtual memory is detected
+ - fixed the crash after loading bug ("black screen" bug)
+ - reenabled code to automatically adjust the memory partition when things
+   are tight
+ - fixed the lack of stereo panning and the high pitched rattling noise
+ - fixed color table code to properly notify the system of palette changes
+ - fixed Thread Manager detection code
+ - provided an updated settings file for the Flightstick Pro
+
+
+1.10.4 MacDF demo
+=================
+There is a single-mission, 5095 Kb demo of MacDF available, called "dark-forces-demo.hqx".  Sorry, but it appears that this file is no longer available.  (Maybe from LA?)
+
+
+1.11 Sony PlayStation DF
+========================
+LA has announced a version of DF for the Sony PlayStation.  From the press
+release:
+     The award winning _Dark Forces_ is a first-person action-adventure game
+     executed in richly detailed 3D graphics.  The compelling *Star Wars*
+     story is fraught with danger and intrigue and challenges players to
+     destroy the Empire's latest weapon: the dark trooper. 
+
+
+
+===========
+2.0 DF Demo
+===========
+There is a single-mission demo of DF: "Prologue Mission 1: The Death Star
+Plans, Operation Skyhook: Phase 2" is available in a package of three files:
+   DFORCES1.ZIP - This file contains the first level of Dark Forces. This is
+                  the only file that is REQUIRED to play the demo.
+                FILE SIZE: 3.3 Megabytes
+                HD SPACE : 8.0 Megabytes
+
+   DFORCES2.ZIP - This file contains the opening cutscene for the demo.  This
+                  file is optional. The demo will work without this file,
+                  however you will not see the opening cutscene.
+                FILE SIZE: 1.0 Megabytes
+                HD SPACE : 2.0 Megabytes
+
+   DFORCES3.ZIP - This file contains the trailing cutscene for the demo.  This
+                  file is optional. The demo will work without this file,
+                  however you will not see the trailing cutscene.
+                FILE SIZE: 5.8 Megabytes
+                HD SPACE : 8.0 Megabytes
+
+
+2.1 Where can I get the demo?
+=============================
+If you buy DF, you get the demo on the CD-ROM for free!  However, if you just
+want to try it out before buying, here are some options: 
+Try the following sites:
+     http://www.3dg.com/DarkForces/demo.html
+     http://www.lucasarts.com/downloads/demos/
+
+The demo was also included on the CD-ROM coverdisks of the magazines _PC
+Gamer_, Vol.2, No.3 (March, 1995), and _Computer Gaming World_, No.128 (March,
+1995).
+
+The demos on the CD-ROMs are version 0.16D, as opposed to the 0.163D version
+available on the Net.  Only the Net version allows you to choose mission
+difficulty from Easy, Medium, and Hard. 
+
+
+2.2 Is the demo level in the full game release?
+===============================================
+Yes, mostly.  However, not all of the enemies, weapons, and secrets in the
+demo level are in the final game.  The demo level was loaded up with goodies
+so that people would have more fun with the demo and see more variety.
+
+
+
+===============       
+3.0 DF vs. DOOM
+===============
+I've only included this section because there's a *lot* of net.advocacy (and
+net.noise) on Usenet.  Don't flame me!  I have tried to make this section as
+balanced and fair as possible, staying away from mere opinions in favour of
+the facts.  If my facts are wrong, let me know.  Ultimately, every individual
+must make up his or her own mind which game he or she prefers. 
+
+I suggest you make up your own mind -- and not try to "convert" others.
+Download the shareware version of DOOM 1.8 and compare it with the DF Prologue
+Mission 1 demo, available at better FTP sites everywhere.
+
+(Me?  I bought DOOM, and have played it solo and over the modem, and have
+played a bit of DOOM II -- in addition to DF, of course.  But I'm probably not
+going to "rmdir doom" anytime soon.  I like each game for its unique
+features.) 
+
+If you wish to flame me on these (quite reasonable, I think) answers, get a
+clue.  Like IDDQD.  ;-)
+
+
+3.1 Isn't DF just a ripoff of iD Software's DOOM?
+=================================================
+Strictly speaking, no: although Dark Forces is a first-person perspective
+action/adventure game -- as is DOOM -- it has many features that make it
+unique.  Think of it this way: if DF is a ripoff of DOOM, then DOOM is a
+ripoff of Wolfenstein 3D, which is a ripoff of both Castle Wolfenstein and
+Wizardry for the Apple ][...
+
+Each one of these games has, shall we say, "inspired" a successor.  The 
+successor has made large improvements in gameplay and design.  Also, advances
+in computer hardware have allowed the latter games to be more ambitious in
+their attempts to create a pseudo-immersive game environment.
+
+That is not to say, however, that DF could have existed without DOOM.  But I
+will not change the answer to this particular FAQuestion unless I receive the
+"smoking gun" internal memo from LA stating "Develop a ripoff of DOOM."  (The
+magazine _PC Games Plus Global_ reported that "apparently LucasArts confessed
+to Jay Wilbur of id that they had ripped apart the DOOM engine to assemble Dark
+Forces.")
+
+From _CD-ROM Magazine_:
+     "So how much had id Software's Doom influenced the team.[sic] "When Doom
+first came out it made us set our sights a bit higher," said Stinnet[sic].  "We
+knew we wanted to do a first-person _Star Wars_ game, but we didn't know what
+programming technology we'd use. But it is our own engine, which we developed
+internally." Is it better than the Doom engine? "It has quite a bit more
+capability -- ours can look up and down and it has 3D objects."
+     "However, there's no rivalry going on, just a lot of healthy American
+mutual respect. Both teams keep in touch through E-mail and the id team has
+played Dark Forces and (according to a Lucas PR person) loved every bit of
+it. This is probably because Dark Forces includes some of the features which
+id is supposedly including in its latest title, Quake. The most obvious
+difference is that in Dark Forces, you can look up and down. To create the
+right perspective, the programmers employed a clever fish-eye effect which
+makes buildings look as if they're really looming over you."
+ 
+
+3.2 Does DF kick DOOM's butt?
+=============================
+("Huh-huh. Hey, Beavis. He said 'butt'. Cool.")  DF does offer several
+substantial improvements over the features offered in DOOM.  The primary one
+to be considered must be the fact that it is a part of the Star Wars universe.
+As a member of the "Star Wars Generation", I can attest to the impact of the
+movie trilogy on the popular culture shared by me and my peers.  Indeed, George
+Lucas intended Star Wars to be no less than "a fairy tale for a generation that
+had none of their own" or something like that.
+
+DF and DOOM have many features in common:
+ - designed as pseudo-immersive first-person shoot-'n'-move environments
+ - use realistic lighting/shading fx (unknown whether DOOM uses Gouraud
+   shading)
+ - have the player acting as a single protagonist attempting to accomplish
+   various goals (e.g., collecting keys, destroying enemies, finding exits)
+   within each game level
+ - have a myriad of weapons at the player's disposal
+
+DF, however, has several unique features:
+ - great emphasis on solving elaborate puzzles to complete mission objectives
+ - has many full 3D objects, whereas DOOM had exclusively planar graphics
+ - allows multiple-layered 'levels' of play *directly* above each other, vs.
+   DOOM's multiple-tiered, but single-layer levels
+ - many animated fx (rotating Death Star holos, etc.)
+ - atmospheric fx, like haze and fog
+ - the ability to 'look up' and 'look down', as well as aim weapons up
+   and down at will
+ - the ability to jump and crouch
+ - multi-megabytes of cutscenes
+
+The most significant difference between DOOM/DOOM II and DF is that id's games
+have multiplayer and save-game features, whereas LA does not currently offer
+these particular options in DF. 
+
+A recent LA ad campaign contained the following copy: "After facing
+stormtroopers, the Death Star and Darth Vader, we took on our toughest
+adversary yet. [The critics.]", and these reviews:
+    "Is it as good as DOOM? Actually, in almost every way, it's better."
+         -Computer Gaming World
+    "(four stars out of four) Just as the Star Wars saga set new sci-fi
+     standards, Dark Forces sets a high mark..."
+         -USA Today
+    "10 rating...Dark Forces is the game that DOOM II should have been...a
+     must-own."
+         -Computer Player
+    "The terrific 3D rendering is guaranteed to induce vertigo."
+         -Newsweek
+
+
+3.3 Is DF easier than DOOM?
+===========================
+Did you finish all 14 Missions?  Did you get all the secrets in all DF
+Missions?  Enemies (including the Dark Troopers) not challenging enough, even
+on "hard"?  Can you finish all Missions with your eyes closed?  Which one is
+harder?  Maybe I don't care; both are fun.  Maybe you think you're some kind
+of DOOM-god.  To you I say: Don't underestimate the Dark Forces.  Your
+overconfidence is your weakness ;-)
+
+
+
+======================
+4.0 Undocumented Codes
+======================
+To get a display of the cheat codes, run the sound card setup program
+IMUSE.EXE.  Hold down both [Shift] keys and a [Ctrl] key and type the letters
+WORK.  A message will scroll across the screen, followed by all DF cheat
+codes.  Also, when the message is scrolling, push the [Tab] key, and test your
+music and sound.  Note that this trick may not work on some Pentium-based PCs.
+There are three types of codes: gameplay, mission, and joke. :)
+
+
+4.1 Gameplay Cheat Codes:
+=========================
+To activate a cheat, you must be in control of Kyle in heads-up display mode
+(i.e., not in inventory, briefing, or cutscenes); simply type the keys below
+(e.g., L A B U G to activate Insect Mode). 
+
+
+4.1.1 LABUG
+===========
+Toggles "Insect Mode".  Decreases your "size" parameter: when you see your
+"self" in map view, you no longer have a "circle" around you.  Allows you to
+squeeze thru narrow openings, and helps you avoid enemy fire.  Also, when you
+crouch, your minimum height goes from 2.0 to 0.3 units.
+
+
+4.1.2 LACDS
+===========
+Toggles "Map Supermode".  Type it once to get a full detailed map, showing
+item locations as well as enemy location and movement.  Typing it again
+changes the colour of any "steps" to a darker green colour.  Typing it a
+third time turns Supermode off.  The letters "CDS" are the initials of DF
+Project Leader Daron Stinnett. 
+
+These are the objects:
+   Yellow circle = Mouse Droid or starship
+   Yellow circle around dot = laser turret
+   Yellow triangle = live opponent
+   Grey triangle = deceased opponent
+   Blue triangle = shield units
+   Blue square = ammo
+   White dot = mine
+   Yellow dot = static scenery
+   Orange triangle = dynamic scenery (changes to pale yellow when shot) 
+
+
+4.1.3 LADATA
+============
+Toggles coordinate information display, which gives your location in the
+game. Good for level mapping. There are five variables: 
+   X = east/west position; increases from west to east
+   Y = altitude
+   Z = north/south position; increases from south to north
+   H = height of protagonist; usually 5.8
+   S = % secrets discovered
+The first four parameters are apparently in units of feet.
+
+
+4.1.4 LAIMLAME
+==============
+Toggles full invincibility.  You're safe from shots to falls.  Note: if you
+pick up a Shield Supercharge while using this code, when the Supercharge runs
+out, you will be vulnerable again.  Just retype the code to reinstate it.  You
+have to admit to being "lame" to become invulnerable (and back again)!
+
+
+4.1.5 LAMAXOUT
+==============
+This cheat gives you all weapons, full ammo and shields, plus all inventory
+items. Maxed out!
+
+
+4.1.6 LANTFH
+============
+Teleport to current map position.  This cheat 'ports you to the center point
+of the map.  Hit [Tab] to bring up the map.  Hold down the [~] key and press
+the arrow keys to move the map, without moving yourself.  You may also hit
+the [ or ] key to change the level of your destination.  Type LANTFH, and you
+will be teleported to the location of the red dot on that level, if possible.
+If you press [Alt]-[Tab] to turn on *all* layers, you will be teleported to
+the topmost layer.  Note that you cannot teleport to a location that is
+undefined.  The letters stand for "No Time For Hugs".
+
+Note: For MacDF, you must use the 8, 4, 6, and 3 keypad keys for movement.
+
+
+4.1.7 LAPOGO
+============
+Toggles height checking.  Good for making those impossible jumps up (though
+not across chasms): if you walk up to a wall with a ledge above it, it will
+move you to that ledge.  "Pogo-stick" mode. 
+
+
+4.1.8 LAPOSTAL
+==============
+Gives all guns, and full ammo, shields, and health (as well as battery power,
+ice cleats, infrared goggles and gas mask).  I can see the headline now:
+"Postal Worker Goes on Rampage--Apparently Triggered by Implication Made in
+Violent Computer Game" :)
+
+            
+4.1.9 LARANDY
+=============
+Weapon Supercharge.  Increases firing rate (and ammo consumption :( for 50
+seconds.  "RANDY" is apparently an inside joke among the DF team members; it
+has nothing to do with the president of LA.
+
+
+4.1.10 LAREDLITE
+================
+Toggles enemy-freeze mode.  If you shoot opponents in this mode, they won't
+die/fall/explode until you toggle it off.  Called "pondering toggle".
+
+
+4.1.11 LASKIP
+============
+Immediately forces successful completion of mission, and marks it as a
+victory.  Will show any cutscenes.
+
+
+4.1.12 LAUNLOCK
+===============
+Gives you all the keys, code cards, broken Dark Trooper gun, the Phrik metal,
+data tape, ice cleats, IR goggles in your inventory.
+
+
+4.1.13 LABRADY (Mac only)
+=========================
+Full ammo.  Note: this code only works with MacDF.
+
+
+4.1.14 LAOZ (Mac only)
+======================
+"Dorothy Mode."  Speeds up music and voices, and shrinks enemies to about half
+their normal size. Note: this code only works with MacDF.
+
+
+4.1.15 LATERMINATE (Mac only)
+=============================
+Full invincibility, unlimited ammo, and unlimited weapon supercharge.  Unlike
+LAIMLAME, laser bolts do not bounce off you.  Note: this code only works with
+MacDF. 
+
+
+4.2 Mission Codes
+=================
+Typing one of the following codes will teleport you to that Mission; however
+you will forfeit all weapons and items.
+
+Mission:  Code=======     Title================== 
+  I       LASECBASE       Secret Base (The Death Star Plans)
+  II      LATALAY         Talay: Tak Base
+  III     LASEWERS        Anoat City (The Subterranean Hideout)
+  IV      LATESTBASE      Imperial Weapons Research Facility
+  V       LAGROMAS        Gromas Mines
+  VI      LADTENTION      Imperial Detention Center
+  VII     LARAMSHED       Ramsees Hed Docking Port
+  VIII    LAROBOTICS      Robotics Construction Facility
+  IX      LANARSHADA      Nar Shaddaa
+  X       LAJABSHIP       Jabba's Ship
+  XI      LAIMPCITY       Imperial City
+  XII     LAFUELSTAT      Fuel Station
+  XIII    LAEXECUTOR      The Executor
+  XIV     LAARC           The Arc Hammer
+
+
+4.3 "Dork Farces" :)
+====================
+Nowhere is the term "Dork Farces" more applicable than here, in the section
+on the "secret codes" which *DON'T* work, and are only *GAGS*, okay?
+
+ Fake code=====================================  What it doesn't do==========
+ LADIDAOOHLALAFALALALALALALALAH                  Show Mohc naked in cut-scenes
+ LASUPERCALIFRAGILISTICEXPIALIDOCIOUS            Enable LAN Multiplayer Mode
+ LAISASLADOESYOUKNOWWHATIMTALKINGABOUT           Try it and see (18+ only)
+ LAQUICKBROWNFOXJUMPEDOVERTHELAZYDOG             Measure typing speed
+ LASPAMSPAMSPAMSPAMSPAMSPAMSPAMSPAMSPAMSPAMSPAM  Carpal tunnel activation
+
+These codes are, no doubt, a play on the finger-twisting DOOM cheat-code
+IDSPISPOPD. 
+
+
+4.4 Command Line Options
+========================
+To use the command-line options, start DF from the DOS prompt in the
+directory in which DF is located. Type DARK followed by one of the
+command-line switches.
+
+   -c0                Disable cutscenes, briefing, and agent menu
+   -f                 Disable FILES= test
+   -g                 Record file name list (also -gob)
+   -l<level-name>     Run level by name
+   -m                 Disable memory check
+   -p                 Use JEDIPATH environment variable for search path
+   -shots             Take screenshots. Press [PrintScreen] to save current
+                          screen in PCX format, as SCRSHTnn.PCX where nn goes
+                          from 00 to 99. 
+   -t                 Auto test (also -test)
+   -u<GOB-name>       Load user GOB file
+   -x<drive-letter>   Force CD drive letter
+
+
+
+=====================
+5.0 Weapons and Items
+=====================
+5.1 Weapons
+===========
+You begin the game with only your fists and a Modified Bryar Pistol. 
+At the start of succeeding Missions, you retain any weapons or other items
+(e.g., infrared goggles) that you finished a previous mission with.  You
+also keep whatever ammo you had as well.
+
+You'll notice that the following list doesn't include a lightsabre. Why not?
+Because the protagonist, Kyle Katarn, is *not* a Jedi. Yet ;-) 
+
+The names for most of the weapons were created by DF design team member
+Justin Chin:
+     Names just come to mind, or I see them and I write them down in my
+     notebook or on my white board and generally if they're good enough they
+     will find a home.
+
+     Another interesting note is the QS100 Welding arm. That was named after
+     a robotic device that [lead programmer] Ray Gresko programmed when he
+     worked in the robotics industry. That was his request.
+
+      
+5.1.1 Fists
+===========
+This is what you have to use when you run out of ammo.  Good luck! ;-)
+
+
+5.1.2 Modified Bryar Pistol
+===========================
+Fires coherent packets of intense light energy, also called "bolts" (ain't I a
+total Star Wars geek?).  This gun is very accurate, but repeat firing is slow
+and its effectiveness is lessened over distance.  Use this weapon when
+confronted by a few, less powerful opponents.  Each red bolt takes one energy
+unit; shares ammo pool with Stormtrooper Laser Rifle. 
+
+From Justin Chin:
+     I got that [name] from composer Gavin Bryars. I just liked the name and
+     it sounded great. Actually this weapon is a Bryar rifle with the barrel
+     and muzzle shortened. Hence "modified" in the name. Saying it was a rifle
+     would just confuse people. This is Kyle's trusty weapon it's accurate and
+     reliable. In terms of the SW universe it's an antique but a very reliable
+     weapon. 
+
+
+5.1.3 Stormtrooper Laser Rifle
+==============================
+Fires more rapidly, but less accurately than the Bryar Pistol; also less
+effective over distances.  Use this weapon when up against many opponents. 
+Each red bolt takes two energy units; shares ammo pool with Modified Bryar
+Pistol. 
+
+
+5.1.4 Thermal Detonators
+========================
+When activated, TDs produce a fusion reaction which causes a small explosion.
+Princess Leia threatened to use one in _Return of the Jedi_ ("The mighty
+Jabba asks why he must pay fifty thousand.  Because he's holding a *thermal
+detonator*!!" :).  The longer you hold down the primary fire button (e.g., the
+[CTRL] key), the farther you toss the TD when you release it.  Hitting secondary fire (e.g., [z]) tosses the TDs with a three-second time delay before detonation.  Use TDs against a single, tough opponent in close proximity.
+ 
+
+5.1.5 Imperial Repeater Gun
+===========================
+Also known as the "autogun".  Fires blue energy bolts.  Pressing primary fire
+shoots off a single bolt, taking one unit from the power cells; whereas
+pressing secondary fire shoots off a trio of bolts simultaneously in a
+triangular configuration, taking three units. This weapon is fast and highly
+accurate, especially over long distances.  Shares ammo pool with Fusion
+Cutter and Concussion Rifle. 
+
+From Justin Chin:
+     The name is pretty self-explanatory. My favorite gun. Uses standard off-
+     the-shelf power cells. As explained in the game, this is the prototype
+     for the Dark Troopers. I originally had the Phase 2 carrying this with a
+     ribbon chain clip to an ammo pack slung in the back.
+
+
+5.1.6 Jeron Fusion Cutter
+=========================
+Fires green energy bolts; low repeat-fire rate.  Pressing primary fire shoots
+green bolts successively from each of the four chambers; each shot takes one
+unit. Pressing secondary fire launches all four chambers simultaneously; this
+expends *eight* units from the power cells.  Not good for long-range firing;
+better up close with several tough targets.  Shares ammo pool with Repeater
+Gun and Concussion Rifle. 
+
+From Justin Chin:
+     The fusion cutter is officially mentioned in the _Star Wars_ novel.
+     It is used in mining situations to cut rock. I thought it was
+     cool-sounding and would be good in the game. ("Jeron"...just popped 
+     into my head, right about the time the manual needed to go to press.
+     It's amazing what deadlines can do for your creativity.) Jeron is the
+     manufacturer of this tool. Jeron makes great tools: anything from cutters
+     to hydrospanners. 
+
+
+5.1.7 I.M. Mines
+================
+Drops an antipersonnel mine.  Pressing primary fire drops a mine which
+explodes after three seconds (run!).  Pressing secondary fire drops a mine
+which is armed after one second, and is not detonated unless some fool comes
+along and steps on it.  Heh.  Beeps before detonation: you've got a
+split-second to run away.  Drop some if you're being followed by severe
+nasties. 
+
+From Justin Chin:
+     I.M. stands for "Imperial Machines", an outside contractor of Imperial
+     weapons. I think Moff Rebus did some work for them but he hated their
+     political infighting, and he wanted a more creative environment.
+
+       
+5.1.8 Packered Mortar Gun
+=========================
+Fires mortars.  Duh!  This is an incredibly powerful gun.  Lobs one explosive
+shell per shot.  Note that you get maximum distance if you're pointing
+yourself up at a 45 degree angle.  Use from a distance to wipe out many
+opponents.
+
+From Justin Chin:
+     I like Packard cars, what can I say? Sounded cool. This mortar gun is
+     another favorite of Kyle's. He used this thing heavily when he freed Jan
+     from her imprisonment.
+
+
+5.1.9 Stouker Concussion Rifle
+==============================
+Creates a shockwave that is only stopped by a wall; takes four units from the
+power cells.  Shares ammo pool with Repeater Gun and Fusion Cutter.  Use only
+from a distance against many, tough opponents. 
+
+From Justin Chin:
+     Stouker sounds cool doesn't it? Another one that popped in my head. This
+     weapon is the primary weapon for a vicious group of Bossk-type
+     characters, the Sissks. Kyle doesn't have a very good standing with them.
+     He doesn't like them either. They talk too much and are not the type you
+     can trust. Stouker is the maker of the primary concussion chamber in the
+     weapon. The gang doesn't call it that, everyone else does. It's purely
+     built from scratch by this group. It's like their gang thing.
+
+
+5.1.10 Assault Cannon
+=====================
+This weapon is two-in-one.  Primary fire triggers the energy weapon that fires
+one shot of energy from a plasma cartridge; has an incredibly high rate of
+fire.  Secondary fire launches a devastating rocket.  Use both against Dark
+Troopers, what else? :) 
+
+
+5.2 Ammo
+========
+When you start Mission 1, you receive 100 energy units for your Bryar
+pistol.  At the start of succeeding missions, you retain whatever ammo you
+finished the previous mission with.
+
+The following chart gives the type of and maximum ammo used by each weapon:
+                 _____________________________________
+   Ammo \ Weapon:| BR| SR| TD| RG| FC| IM| MG| CR|DTW| 
+  ===============|===|===|===|===|===|===|===|===|===|
+  *Energy Units  |500|500|___|___|___|___|___|___|___|
+   Thermal Det.  |___|___|_50|___|___|___|___|___|___|
+  *Power Cells   |___|___|___|500|500|___|___|500|___|
+   Mines         |___|___|___|___|___|_30|___|___|___|
+   Mortars       |___|___|___|___|___|___|_50|___|___|
+   Plasma        |___|___|___|___|___|___|___|___|400|
+   Rockets       |___|___|___|___|___|___|___|___|_20|
+ 
+         BR=Modified Bryar Rifle        IM=I.M. Mines
+         SR=Stormtrooper Laser Rifle    MG=Packered Mortar Gun
+         TD=Thermal Detonator           CR=Stouker Concussion Rifle
+         RG=Imperial Repeater Gun       DTW=Dark Trooper Weapon
+         FC=Jeron Fusion Cutter
+  * - indicates that ammo is in a pool shared by multiple weapons
+     
+
+5.3 Weapon Supercharge
+======================
+This powerup doubles your rate of fire for all weapons (including fists!), but
+lasts for only 50 seconds. 
+
+
+5.4 How is aiming/targeting accomplished?
+=========================================
+One of the first things you'll notice is your accuracy at shooting distant
+targets with the Bryar Pistol or Stormtrooper Rifle; it almost seems as if
+some of the shots find their targets by themselves.  (No, you're *not* using
+the Force...)  The development team devised a routine, whereby the game willpick the best target within a cone-shaped zone emanating from the weapon.  So
+even if you're pointing slightly off the mark, it'll direct the bolts to the
+target. 
+
+It's been said that blasters are "clumsy...random" weapons.  Don't sit back
+and wait for targeting to be accomplished for you, or you'll quickly find
+yourself dead.  Keep adjusting your targeting until most of your shots hit
+their target; often you'll just have to get closer to your target.
+ 
+
+5.5 Various Items
+=================
+5.5.1 Keys
+==========
+In some Missions, you will encounter locked doors.  You will be informed which
+colour key is required to unlock the door; it will be either red, blue, or
+yellow. You can find keys sitting out in the open, or may be dropped by an
+Imperial when you kill him. 
+ 
+
+5.5.2 Head Lamp
+===============
+You always have this item.  It allows you to see in dark areas, but also lets
+your opponents see you, too.  Uses battery power (albeit more slowly than the
+Infrared Goggles).  It's best to use this in a dark area containing no
+opponents. 
+ 
+
+5.5.3 Infrared Goggles
+======================
+These goggles help you see in the dark, however, you opponents won't be
+able to see you -- but at the cost of draining your batteries much more
+quickly than the headlight.  Use when you are in a dark area that may be
+populated with enemies. 
+
+I've debated Daron Stinnett on whether or not these are "infrared" or "light
+amplification" goggles.  He calls them IR goggles, but notes their
+functional similarity to the ones used by a character in the film _The
+Silence of the Lambs_, which is actually a *light amplification* visor.
+Computer-enhanced IR goggles generally have multicoloured "blobby" shapes that
+indicate differential heat radiation by the subject.  However, Army Officer
+Havoc <havoc@tc.ct.se> notes that "Active IR", in use since WWII, produces a
+greenish display much like that in DF. 
+
+
+5.5.4 Ice Cleats
+================
+These help you walk on ice and snow, giving your better control at the
+expense of walking speed.
+
+
+5.5.5 Gas Mask
+==============
+Filters out airborne hazards.  Use this when you hear Kyle's heavy
+breathing/gasping.  Uses battery power. 
+
+
+5.5.6 Batteries
+===============
+Batteries power the Infrared Goggles, Air Mask, and Head Lamp.  You can
+get a battery by shooting a Mouse Droid (see section 6.8).
+
+
+5.5.7 Shields
+=============
+You can have a maximum of 200 shield units and a maximum of 100 health units.
+Kyle begins the game (and each Mission) with 100 units of each.  Your health
+does not go down unless you're shot when your shields are below 50 units. 
+When your shields are at 0, your health will decrease very rapidly when
+shot. When you are struck with a shot, the screen will briefly flash a colour
+indicating the type of damage you've sustained.  If the screen flashes green,
+your shields have taken a hit.  If the flash is red *and* green, your health
+and any remaining shields have been decreased.  (Note that picking up an
+object will flash the screen blue.)
+
+
+5.5.7.1 Shield Supercharge
+==========================
+This powerup gives you temporary invincible shielding, lasting 50 seconds.
+The shield supercharge will also completely recharge your shield to 200, even
+after it wears off.
+ 
+
+5.5.7.2 Revive
+==============
+This powerup resets your shields to 200 and health to 100%.
+
+
+5.5.7.3 Med Kit
+===============
+This box with a red cross increases your health.
+
+
+     
+=============
+6.0 Opponents
+=============
+6.1 Imperial Stormtroopers
+==========================
+D'ja ever see a little movie called, _Star Wars_?  These guys in white armour
+are lousy shots, just like in the movie.  Two direct blaster hits prove that
+their armour really *is* useless. 
+
+
+6.2 Imperial Officers
+=====================
+These guys in brown uniforms and cute widdle caps are always spouting about
+"violating Imperial law".  Like I care.  One direct blaster hit shuts 'em up
+-- permanently. 
+
+ 
+6.3 Imperial Commandos
+======================
+Tough hombres wearing helmets, dressed all in black.  They only go down after
+three direct blaster hits.
+ 
+
+6.4 Gun Turrets
+===============
+Everybody hates these blasted things.  If you haven't set it off yet, wait
+until the turret has turned away from you before commencing blasting.  Make
+sure your gun is pointed up at it first, though.
+ 
+
+6.5 Probe Droids
+================
+What are these crazy droids saying?  It's as hard to figure out as the lyrics
+to "Lapti Nek".  What's not hard to figure out is that it takes five direct
+blaster hits to bring one down.  Watch out for the secondary explosion they
+produce when you nail one! Releases 10 power cells. 
+ 
+
+6.6 Interrogation Droids
+========================
+How the heck did Princess Leia survive against one of these nasty black
+spheres?  Taking one down with five direct blaster hits nets you some power
+cells. 
+ 
+
+6.7 Remotes
+===========
+Small and fast, these tiny grey spheres are peskier than a mynock chewing on
+your power cables.  Your best bet is to (1) get some distance, (2) point your
+gun up or down to match its "elevation", and then (3) move left and right
+to shoot it down.
+
+
+6.8 Mouse Droids
+================
+These harmless, black, squarish little droids roll around making R2-D2 sounds.
+To shoot them either aim your weapon lower (by using PageUp/PageDown keys),
+by crouching down ([C] key) and firing, or by crouching and punching them
+(thereby conserving ammo). They release a battery. (Note: I previously called
+them "InfoBots", unaware that they have an Official Star Wars Name.) 
+
+
+6.9 Trandoshans
+===============
+Bossk was a Trandoshan.  Whatever happened to Bossk?  The reptilian
+Trandoshans in DF favour the Stouker Concussion Rifle, which does a *lot* of
+damage, even from a great distance.  Beware!  The best strategy is to get as
+close as possible to them: they'll stop firing to prevent injuring themselves
+with the concussion blast from their rifles.  Now punch or shoot them!  Also,
+when they're hit, it takes them a moment to recover. 
+
+
+6.10 Gran
+=========
+No, this isn't your beloved Granny.  These tri-green-eyed creeps like to toss
+TDs at you.  They've got quite a throwing arm -- they'd be good playing
+batball for the planet Naltor!  The best way to handle them, believe it or not, is to get as close as possible.  They will then go into "pugilist"-mode,
+throwing punches instead of TDs, allowing you to punch or shoot them.
+
+
+6.11 Gamorreans
+===============
+Don't let these pig-like axe-wielders get close to you!  They're tough and
+can do a *lot* of damage.  Try running up to them and punching, then running
+backwards; your quickness is advantageous. 
+
+
+6.12 Dianoga
+============
+Also known as "the monster from the trash compactor."  They live in water or
+sewage.  They pop an eyestalk out of the surface and make a rumbling
+noise before chewing on you.  When you hear them, get some distance, then
+fire!  Quite a few people favour using fists on these enemies.
+ 
+
+6.13 Boba Fett
+==============
+Did you know Boba Fett's first appearance in the Star Wars universe was in
+the Star Wars Holiday Special?  It's true!  He appears at the end of Mission
+XI, flying around you, shooting rockets.  When you kill him. it may not be a
+continuity glitch because: 1) maybe he's just stunned :), or 2) maybe it's
+just some other guy in Mandalorian Shocktrooper armour.
+
+
+6.14 Kell Dragons
+=================
+Big, ugly, and smelly.  No, it's not your ex-girlfriend/boyfriend, it's
+Jabba's pet Kell Dragons!  You have to kill them with your bare hands in
+Mission X.  Don't stand in one spot too long, or you're a goner!  BTW, it
+takes 14 punches to fell a Kell. 
+
+
+6.15 Dark Troopers
+==================
+There are three different types of DTs:
+Stage 1 DTs are merely (!) an endoskeleton.  They have no weapons, aside from
+  their limbs, which are like knives or stabbing weapons.  It takes many TDs
+  to stop one.  They have a shield on their forearms which can deflect bolts.
+Stage 2 DTs are fully armoured, with an exoskeleton.  They carry the Assault
+  Cannon.  They also fly.  How do you kill them?  "Use the Force, Luke!"
+The Dark Trooper Boss is found at the end of Mission XIV, and is General Mohc
+  in a DT shell.  This DT also has the Assault Cannon, and can fly. If you
+  thought Stage 2 DTs were hard to kill... 
+
+Here are some DT-fighting tips:
+ - get above them, and...
+ - don't let them get above you
+ - try finding a hiding spot where they can't get at you, otherwise...
+ - stay out in the open, leaving yourself room to move
+
+
+6.16 How many opponents are there in each Mission?
+==================================================
+Thanks to Steph Smith <ag422@freenet.carleton.ca> for the following:
+
+ST=Stormtrooper; IO=Imperial Officer; IC=Imperial Commando; TS=Trandoshans;
+GR=Gran; GG=Gamorean Guards; SC=Dianoga (Sewer Creature); KD=Krayt Dragon;
+BF=Boba Fett; PD=Probe Droid; ID=Interrogation Droid; RM=Remotes;
+GT=Gun Turrets; WA=Welding Arm; DT1=Dark Trooper Endoskeletons;
+DT2=Dark Trooper; DT3=Dark Trooper Boss.
+
+EASY
+ -------Mission number:-----------------------------------------------------
+| TYPE | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | TOTAL |
+|------|---|---|---|---|---|---|---|---|---|----|----|----|----|----|-------|
+|  ST  | 19| 38|---| 41| 95| 46| 40| 14|  6|----|  53|  29|  34|  49|  464  |
+|  IO  |  7|  9|---|  7|  3|  3|  6|  6|  1|----|  23|  11|   7|   8|   91  |
+|  IC  |  4|  7|---|  5| 19| 15|  4|  5|  3|----|  38|  11|   8|  16|  135  |
+|  TS  |---|---|---|---|---|---|---|---| 12|   2|----|   3|----|----|   17  |
+|  GR  |---|---|  1|---|---|  4| 15|---| 19|  31|----|   7|----|----|   77  |
+|  GG  |---|---|---|---|---|---|  6|---| 12|  30|----|  10|----|----|   58  |
+|  KD  |---|---|---|---|---|---|---|---|---|   2|----|----|----|----|    2  |
+|  SC  |---|---| 21|---|---|  1|---|---|---|   2|----|----|----|----|   24  |
+|  BF  |---|---|---|---|---|---|---|---|---|----|   1|----|----|----|    1  |
+|  PD  |---|---| 10|---|  3|  3|---|---|---|----|   9|----|   2|----|   27  |
+|  ID  |  1|---|  7|---|---|  2|---|---|---|----|   9|----|   7|   4|   30  |
+|  RM  |---|---|  8|  2|---|  7|---|---|  7|----|----|----|----|----|   24  |
+|  GT  |---|---|---|  5|  4|  3|---|  1|---|----|   7|----|----|   5|   25  |
+|  WA  |---|---|---|---|---|---|---|---|---|----|----|----|----|   4|    4  |
+|  MO  |  5|---|---|  6|---|  2|  3|---|---|----|   6|   2|   5|   5|   34  |
+|  DT1 |---|---|---|---|  1|---|---|  1|---|----|   1|----|----|   4|    7  |
+|  DT2 |---|---|---|---|---|---|---|  3|---|----|----|----|   2|   3|    8  |
+|  DT3 |---|---|---|---|---|---|---|---|---|----|----|----|----|   1|    1  |
+|---------------------------------------------------------------------------|
+|TOTAL | 36| 54| 47| 66|125| 86| 74| 30| 60|  67| 147|  73|  65|  99|  1029 |
+ ---------------------------------------------------------------------------
+
+MEDIUM
+ -------Mission number:-----------------------------------------------------
+| TYPE | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | TOTAL |
+|------|---|---|---|---|---|---|---|---|---|----|----|----|----|----|-------|
+|  ST  | 38| 63|---| 68| 95| 62| 63| 14|  8|----|  78|  36|  60|  67|  652  |
+|  IO  |  7| 14|---| 12|  4|  7|  9|  6|  1|----|  25|  14|  14|   9|  122  |
+|  IC  |  8| 18|---| 11| 24| 26|  8|  5|  3|----|  49|  16|  21|  42|  231  |
+|  TS  |---|---|---|---|---|---|---|---| 19|   6|----|   7|----|----|   32  |
+|  GR  |---|---|  3|---|---|  7| 24|---| 27|  45|----|  15|----|----|  121  |
+|  GG  |---|---|---|---|---|---|  9|---| 16|  41|----|  11|----|----|   77  |
+|  KD  |---|---|---|---|---|---|---|---|---|   5|----|----|----|----|    5  |
+|  SC  |---|---| 35|---|---|  3|---|---|---|   2|----|----|----|----|   40  |
+|  BF  |---|---|---|---|---|---|---|---|---|----|   1|----|----|----|    1  |
+|  PD  |---|---| 16|---|  7|  5|---|---|---|----|  14|----|   6|----|   48  |
+|  ID  |  2|---| 18|---|---|  6|---|---|---|----|  11|----|   7|   9|   53  |
+|  RM  |---|---| 11|  2|---|  7|---|---|  7|----|----|----|----|----|   27  |
+|  GT  |---|---|---| 12|  7|  3|---|  6|---|----|   7|----|----|  11|   46  |
+|  WA  |---|---|---|---|---|---|---|---|---|----|----|----|----|   4|    4  |
+|  MO  |  5|---|---|  6|---|  2|  3|---|---|----|   6|   2|   5|   5|   34  |
+|  DT1 |---|---|---|---|  1|---|---|  2|---|----|   1|----|----|   6|   10  |
+|  DT2 |---|---|---|---|---|---|---|  3|---|----|----|----|   4|   6|   13  |
+|  DT3 |---|---|---|---|---|---|---|---|---|----|----|----|----|   1|    1  |
+|---------------------------------------------------------------------------|
+|TOTAL | 60| 95| 83|111|138|128|116| 36| 81|  99| 192| 101| 117| 160|  1517 |
+ ---------------------------------------------------------------------------
+
+HARD
+ -------Mission number:-----------------------------------------------------
+| TYPE | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | TOTAL |
+|------|---|---|---|---|---|---|---|---|---|----|----|----|----|----|-------|
+|  ST  | 57| 99|---| 98| 96| 76| 84| 44| 11|----|  99|  40|  81|  80|  865  |
+|  IO  |  9| 18|---| 22|  5|  7| 13|  7|  1|----|  31|  17|  19|   9|  158  |
+|  IC  | 12| 33|---| 19| 27| 47| 16| 11|  7|----|  52|  19|  27|  42|  312  |
+|  TS  |---|---|---|---|---|---|---|---| 32|  15|----|  14|----|----|   61  |
+|  GR  |---|---|  5|---|---|  7| 33|---| 33|  66|----|  18|----|----|  162  |
+|  GG  |---|---|---|---|---|---| 12|---| 17|  50|----|  11|----|----|   90  |
+|  KD  |---|---|---|---|---|---|---|---|---|  10|----|----|----|----|   10  |
+|  SC  |---|---| 52|---|---|  3|---|---|---|   3|----|----|----|----|   58  |
+|  BF  |---|---|---|---|---|---|---|---|---|----|   1|----|----|----|    1  |
+|  PD  |---|---| 19|---| 10|  6|---|---|---|----|  16|----|   8|----|   59  |
+|  ID  |  3|---| 29|---|---| 12|---|---|---|----|  13|----|   8|  18|   83  |
+|  RM  |---|---| 16|  2|---|  9|---|---|  8|----|----|----|----|----|   35  |
+|  GT  |---|---|---| 23| 12|  3|---|  9|---|----|   7|----|----|  19|   73  |
+|  WA  |---|---|---|---|---|---|---|---|---|----|----|----|----|   4|    4  |
+|  MO  |  5|---|---|  2|---|  2|  3|   |   |----|   6|   2|   5|   5|   30  |
+|  DT1 |---|---|---|---|  1|---|---|  3|---|----|----|----|----|  10|   14  |
+|  DT2 |---|---|---|---|---|---|---|  3|---|----|   2|----|   4|   9|   18  |
+|  DT3 |---|---|---|---|---|---|---|---|---|----|----|----|----|   1|    1  |
+|---------------------------------------------------------------------------|
+|TOTAL | 86|150|121|166|151|172|161| 77|109| 144| 227| 121| 152| 197|  2034 |
+ ---------------------------------------------------------------------------
+
+  Please note that I have included monster generators, but that
+  1 generator = 1 monster, although it is possible that a generator
+  can produce more than one monster at a time.
+
+  I would like to thank the authors of UNGOB.EXE and DFUSE for 
+  making the counting so much easier.
+
+
+6.17 How many shots are required to take out each opponent?
+===========================================================
+Thanks to Paulius Stepanas <p.stepanas@trl.telstra.com.au> for the following section:
+
+     The table shows the minimum number of shots from each weapon required to
+     kill each enemy.
+
+ ----------------Weapon:------------------------------------------------
+| Opponent      |   1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |  0 | MS |
+|===============+=====+====+====+====+====+====+====+====+====+====+====+
+| Officer       |   1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Storm Trooper |   1 |  2 |  2 |  1 |  2 |  2 |  1 |  1 |  1 |  1 |  1 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Commando      |   1 |  3 |  3 |  1 |  3 |  2 |  1 |  1 |  1 |  1 |  1 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Dianoga       |   2 |  4 |  4 |  1 |  4 |  3 |  1 |  1 |  2 |  2 |  1 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Gran          |   2 |  4 |  4 |  1 |  4 |  3 |  1 |  1 |  2 |  2 |  1 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Trandoshan    |   3 |  5 |  5 |  2 |  5 |  4 |  1 |  2 |  2 |  2 |  1 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Gamorrean     |   5 |  9 |  9 |  3 |  9 |  7 |  2 |  3 |  3 |  2 |  2 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Kell Dragon   |  14 | 20 | 20 |  8 | 18 | 14 |  3 |  7 |  6 |  6 |  5 | 
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Remote        |   1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Interrogator  |   3 |  5 |  5 |  1 |  5 |  4 |  1 |  2 |  2 |  2 |  1 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Probe Droid   |   3 |  5 |  5 |  1 |  5 |  4 |  1 |  2 |  2 |  2 |  1 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| MouseBot      |   1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Laser Turret  |   4 |  6 |  6 |  2 |  6 |  5 |  1 |  2 |  2 |  2 |  1 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Welding Arm   |   8 | 13 | 13 |  5 | 13 |  9 |  2 |  4 |  5 |  5 |  3 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| P.G.U.        |   1 |  2 |  2 |  1 |  2 |  1 |  1 |  1 |  1 |  1 |  1 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Phase 1 DT    | ~57 |~65 |~42 |  8 |~27 |~25 |  3 |  5 |  6 |~11 |  4 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Phase 2 DT    |     |~37 |~42 |  8 |~37 | 18 |  4 | 12 | 10 | 12 |  8 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Phase 3 DT    | 100 | 78 | 90 | 22 | 79 | 53 | 12 | 25 | 25 | 25 | 18 |
+|---------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Boba Fett     |     |~25 | 38 |  5 | 34 | 17 |  4 |  9 |  7 |  7 |  4 |
+|===============+=====+====+====+====+====+====+====+====+====+====+====+
+| Kyle Katarn   |  -  | 10 | 10 | 22 | 10 | 15 | 90 | 42 | 30 | 30 | 59 |
+ ---------------+-----+----+----+----+----+----+----+----+----+----+----
+
+     The row showing Kyle Katarn indicates how much of his shields or health
+     he will lose when shooting at a shot-reflecting wall.  This should give
+     an indication of how much damage the various enemies do.
+
+     In most cases, the numbers are reliable.  However, exact information
+     could not be collected for some weapon/enemy combinations, and is
+     indicated by a tilde (~) as being an approximate figure.  This was
+     primarily a problem with the Dark Troopers and Boba Fett, for the
+     following reasons: 
+  
+       - Phase 1 Dark Troopers deflect shots, sustaining only partial damage
+         (rather than none at all, apparently) from the shot.  The numbers
+         given indicate the minimum number of shots actually fired before the
+         Dark Trooper died, as this is a more useful and meaningful figure
+         than trying to guess how much damage deflected shots do.
+
+       - With Phase 2 Dark Troopers, the main problem is due to the nature of
+         the assault rifle they use.  Basically, the shots rebound from walls
+         and from Kyle, and often succeed in hitting the Dark Trooper.  Most
+         people would notice the former effect in some of the later levels in
+         the game (if they're clever);  the latter is only detectable using
+         the invulnerability cheat.  Although it is possible, in theory, to
+         dodge all shots from the Dark Trooper, this takes a LOT of patience
+         with the lesser weapons!  :)
+         (This is also a problem with the Phase 3 Dark Trooper, but I was
+         more patient.)
+
+       - The number of shots taken to kill Boba Fett is also difficult to
+         measure, partly because he is hurt (an indeterminate amount) by the
+         explosions from his own rockets, but mainly because the explosions
+         blind Kyle, making it difficult to see whether a shot has actually
+         hit Boba Fett as he dodges about.  (It is possible to confine him
+         horizontally, but much more difficult to prevent him making small
+        movements up and down, and to a lesser extent also to the sides.)
+
+       - I decided not to bother measuring how many punches it takes to kill
+         a Phase 2 Dark Trooper or Boba Fett, partly due to the problems
+         mentioned.
+
+
+6.18 How many hits can Kyle take from each weapon?
+==================================================
+Thanks to Chris Nichols <Vader2010@aol.com> for the following:
+
+This is based solely on the assumption that Kyle Katarn has 100 hit points
+     1 Laser Bolt            = 10 points
+     1 TD                    = 22 points+
+     1 Repeater Gun          = 10 points
+     1 Jeron Fusion Cutter   = 15 points
+     1 I.M. Mine             = 90 points+
+     1 Mortar                = 42 points
+     1 Concussion Rifle      = 30 points
+     1 Plasma bolt           = 30 points
+     1 Rocket                = 59 points+
+
+   + TDs, mines, and missiles have an area affect.
+     Direct hit values are given above.
+
+
+
+================
+7.0 The Missions
+================
+Specific locations of objects and items parallel the format of the LADATA info
+on your screen: (X/Y/Z).  The position may not be exact because enemies
+carrying Code Keys, for example, may move around a bit.  The first Mission is
+given as a complete walkthru to give you an idea of what to do; later missions
+are less detailed to let *you* uncover the details.  Thus, if you follow the
+walkthrus below, you won't see *all* areas in each Mission.  You will,
+however, accomplish all of your objectives.  Also, the secrets are listed
+separately, for those whose wish to skip them, or find them on their own. 
+
+The enemies you'll discover are yours to handle as you will.  I haven't
+described their location or numbers because that varies with the difficulty
+setting of the mission.
+
+SECRETS are listed separately; they are non-essential to completing your
+mission and are generally more difficult to get to.  After getting a secret,
+you'll have to return to the location you were at before attempting to get the
+secret.  I've largely avoided specifying the contents of secret areas because
+this also apparently varies with the difficulty setting.
+
+I've (subjectively) rated the difficulty of each mission from low, moderate,
+medium, to high.  Give me feedback if you disagree with my rating.
+ 
+
+7.1 Prologue Mission I: The Death Star Plans: Operation Skyhook: Phase 2
+========================================================================
+Location: Imperial Secret Base, Danuta
+Objectives: - Find and retrieve the Death Star plans
+            - Return to your ship on the roof of the base
+Difficulty: Low
+
+Trivia: The (first) Death Star, constructed in orbit around the planet
+Despayre in the Horuz system, measured 120 km in diameter. It was
+populated by 27,048 officers; 774,576 troops, pilots, and crew; close to
+400,000 support crew; and over 25,000 stormtroopers. That's no small moon!
+
+The shortest mission with the longest title! To get the Red Key, go outside
+the complex to Floor 0. As you exit Floor 1, there will be two doors in front
+of you: one to your left, one to your right. Go in either one, and shoot any
+stormtroopers. There will be an elevator which you will take up a level.
+Shoot any enemies; the Imperial officer is the one with the Red Key, around
+(0234/24.0/0165). Run over the key and go back to Floor 1. Now you can go
+through the Red Key door (0258/1.0/0292) and take the elevator up a level. 
+
+In the Red Key area, there is a switch on the wall. Press the switch at
+(0264/20.0/0341) and jump down to Floor 1. There will be a new area now open,
+to the right of where you started the game. Kill any enemies there.
+
+SECRET 1: In this new area there is a switch on the wall. Press this
+(0227/0.1/0335) and return to the Red Key area (Floor 2). Go to the round
+switch again, and look across the hallway. There will be a 'closet' that has
+opened up. To get to it, you must run fast (hold down the left [SHIFT] key)
+and jump [X] at the last moment.
+
+SECRET 2: Go outside to Floor 0 again. Check your map with [TAB]. You exited
+Floor 1 at a location of 6:00 on an analog clock; on the outside wall there
+are two caves. Enter the one at 10:00 (0116/-2.0/0383); turn on your
+headlight. Run and jump to get a revive (0158/22.4/0423); exit the cave via
+the other hole at (0173/2.1/0428).
+
+Go back into the new area. Take the round elevator up to Floor 2. Shoot any
+enemies. Go up to the northeastmost part of the Floor (don't fall off!). Point
+yourself west. You should see a ledge on the outer wall that has a shield
+unit on it. Back up as far east as your can go, and take a running jump to
+reach the ledge. Pick up the shields. Jump down to Floor 0.
+
+SECRET 3: Go to the new area 2 again, and go to the southmost point, where it
+forms a little 'peninsula'. There is another peninsula for the east side of
+this Floor. You must jump across from the west side to the east side. (It may
+help to use the Map view.) It *is* possible to run and jump almost immediately
+and reach the other side.
+
+SECRET 4: Go to the northeast corner of this Floor, and point yourself to the
+northeast. You should be able to see a ledge in the outer wall. Back up a
+ways, and run and jump onto the ledge. Enter the passageway. You cannot open
+the door on your right (0446/-9.0/0284). Go deeper into the cave until you hit
+a wall (0380/24.0/0362). Open the wall to reveal a switch. Press the switch
+(0393/24.1/0398) to open the door by the cave mouth. 
+
+SECRET 5: Go through the open doorway and press the switch on the wall at
+(0458/-9.0/0258). This will lower the wall. Drop down. Now you're on Floor 0
+again, but to your left will be a new area. Go through the door at
+(0442/-9.0/0282) then hit the switch at (0459/-9.0/0260) to open the second
+door. This area contains IR Goggles, shields, batteries, medikits and
+stormtroopers. Go to door of the "Emperor's Lounge" at (0538/-9.0/0234),
+containing several interrogator droids. This room gets its name from the
+pictures of Emperor Palpatine on the walls. 
+
+Go to the new area and take go down stairs behind the round elevator.
+
+SECRET 6: Behind the first door at (0171/-13.0/0349) is a stormtrooper and a
+brownish mechanism, which is part of the elevator mechanism. If you have
+followed this walkthru so far, the elevator will be at the upper level,
+allowing you to step into the secret area behind the mechanism at
+(0163/-14.0/0338) and pick up some energy cells and shield units. 
+
+Continue down and past the holo of the Death Star, turn left down the hallway.
+You will see an Imperial officer behind a counter. Shoot him and any others.
+Behind the counter is a switch at (0330/-20.0/0275) which will open the wall
+behind you. Go into this new room and take the red circuit board. "This is
+too easy. Now to get to my ship!"
+
+SECRET 7: Go through the door to the north and go *past* the door of the round
+elevator until you reach a lone stormtrooper. Blast him. Now face east. Go up
+to the wall and open it at (0345/-20.0/0342). It will turn, and you must move
+ahead to enter the room. Blast the stormtroopers and soldiers. Pick up the
+energy packs, shield units, and batteries. To exit, go back up to the wall
+and open it again. 
+
+Now take the round elevator up. Blast any stormtroopers here. (In this
+courtyard, you can open a grate in front of a duct leading down. If you take
+this, you will land right where you started, which is kind of pointless. This
+is presumably how Kyle entered the Imperial Base in the first place. Note
+that jumping down the shaft will get you an extra life.) 
+
+If you've got the Death Star plans, your ship will drop down into the
+courtyard. You've accomplished your objectives! (Hit [ESC] to end.) 
+
+
+7.2 Mission II: After the Massacre
+==================================
+Location: Talay: Tak Base
+Objectives: - Find and restart hydro-electric power generator
+            - Find some clues to the Dark Trooper
+            - Return to the landing area
+Difficulty: Moderate
+
+Trivia: Contrary to popular assumption, the white armour that stormtroopers
+wear is not meant solely to withstand blaster fire. Rather, it is an
+armoured spacesuit that allows them to withstand the vacuum of space. Debate
+in the Usenet newsgroup rec.arts.sf.starwars has centred on the possibility
+that stormtroopers are clones. 
+
+Before you begin, note that because the power is off, doors will not function
+and many areas are dangerously dark. So restoring power is your first
+objective. Go up steps (0123/0.5/0190) into the "fort" structure -- explore it
+on your way back. Head east to the wall, around (0177/14.0/xxxx), and pick off
+enemies below. Jump down. Cross the bridge, exit the room to the south. Enter
+the dark structure (0390/2.0/0143) and eliminate all enemies.
+
+SECRET 1: There is a secret door at (0413/2.0/0072).
+
+Go into the room (0427/4.0/0072) and exit to the west, towards the
+canal. You'll see a platform in the water surrounded by three spiral arms.
+Run along one of the arms and go to the centre of the platform. The switch
+(0225/2.0/0023) turns on the power. Get onto one of the now-turning arms and
+back the way you came. 
+
+Head north, the east to rotating arm bridge control room (0473/2.0/0263). The
+switch (0450/2.0/0290) rotates the bridge so you can get halfway across;
+then, another switch (0402/6.0/0344) rotates the bridge so you can get the
+rest of the way across. 
+
+Keep heading north, blasting opponents and crouching under a door
+(0482/-2.0/0662) to get past it. Enter a building thru a door (0392/7.0/0649)
+and wipe out all opponents. Take the spiral staircase up, and go thru a door
+(0440/19.0/0709) and you'll find the broken Dark Trooper weapon
+(0480/16.0/0709). 
+
+SECRET 2: Go back down into the main room and thru a door at (0353/7.0/0688)
+into another room and thru another door at (0278/9.0/0736). Crouch to hit
+"hand" switch (0322/11.0/0726); turn around to get items in a low space. 
+
+Exit this building.
+
+SECRET 3: Go around the building until you see the waterfall. Crouch down and
+open a secret door at (0482/-2.0/0662) to get items.
+
+Get into the water and follow it south; to your right will be an area with
+MediKits, shields, and ammo. Go *back* north the way you came. Leave this
+area. The door at (0394/5.0/0486) is shut, so jump out the southeast window.
+Cross rotating arm bridge. Cross the bridge over the canal. Open the door at
+(0181/2.0/0209) to re-enter the fort. Behind one door at (0165/0.0/0203) is an
+extra life; then go thru another door (0142/0.0/0203) and up the stairs. Head
+west, bypassing the steps you used to enter the fort in the first place. Look
+for the circular staircase down to the landing area. 
+
+
+7.3 Mission III: The Subterranean Hideout
+=========================================
+Location: Anoat City
+Objective: - Find the Imperial weapons engineer Moff Rebus
+Difficulty: Medium
+
+Trivia: The Anoat system is adjacent to the Hoth system; it was here that Han
+Solo evaded his Imperial pursuers after the evacuation of Echo Base in _The
+Empire Strikes Back_. 
+
+Explore the landing area, knocking off any Probots. Then go to the Main Gates
+switch (0315/0.0/0188) which controls the four gates. Hit it once to open Gate
+1.
+
+Gate 1 (west):
+SECRET 1: When you come to the first falls, run and jump straight ahead onto
+a narrow ledge around the inside of the circular "cascade". Edge around until
+you find the cave at (-183/-4.0/0272).
+
+Follow the flow and go down the first falls; get out of sludge to area your
+right. 
+
+SECRET 2: There is a secret door at (0250/-20.0/0285).
+SECRET 3: While in the secret 2 room, open another secret door at
+(0247/-20.0/0272). 
+
+Take the elevator up (0248/-20.0/0306) to find a switch (0259/-4.0/0344) to
+raise the sludge level in the main (figure 8-shaped) pool. Return to the flow,
+and into the "Lagoon".  Watch out for Dianoga and find the door
+(0070/-66.0/0305) to get TDs, ammo, and MediKits. Behind another door
+(0091/-66.0/0211) you'll find more supplies and an elevator (0120/8.0/0165) to
+get you back to the landing area. Go and activate the Main Gates switch again.
+
+Gate 2 (north face, west gate): Again into the flow, get out on your left this
+time, and activate the switch (0261/-5.0/0319) which opens a door
+(0290/-10.0/0312). Get into the muck and follow it thru the now-open doorway
+to the "central sluice area" -- open the door (0350/-40.0/0471), followed
+by another door, and a switch; then just follow the drain. You'll find
+ammo (0508/5.0/0324) if you take the double-S curves at the far east. (Watch
+out for Dianoga at the end outflow!) Activate the Main Gates switch once
+again. 
+
+Gate 3 (north face, east gate): Get out of the sewage on your right, and go up
+an elevator to find a switch (0377/0.0/0299) which lowers the level of sludge
+directly outside (watch thru the window!). Now go out and take the door
+(0355/-11.0/297). Find a switch (0317/-4.0/0344) to raise the level in the
+main sludge pool. (No, you can't jump thru the window to the north passage.)
+Follow the sludge out, jumping over the pillars (0363/-16.0/0339) to the
+central sluice area and down the drain again. Activate the Main Gates switch
+yet again.
+
+Gate 4 (east): This area is not essential, but you may pick up a few items.
+Follow thru as before.
+
+Activate Main Gates switch so that Gate 2 is open. Return to Gate 2 area.
+Take the passage in the north end of the figure 8-shaped pool
+(0287/-10.0/0378)
+
+SECRET 4: Go south into a dark "swimming pool" area. Open secret door
+(0192/-6.0/0348) to find a lot of ammo.
+
+SECRET 5: Go along a north passageway now, until you find a waterfall. Behind
+the waterfall (0169/-9.0/0538) at the extreme north end is a secret area.
+
+Follow the flow until you get to a series of large pillars. A switch
+(0185/-25.0/0427) raises a platform you area standing on, allowing you to jump
+across the pillars. Jump to the first platform in front of you to your left,
+then to the one on your right, then to the ledge. 
+
+Follow the ledge, until you see an area on your left. Make a running jump
+south across the sludge. The first set of doors will open automatically. Open
+the double set of "eye" doors. There are stairs at the south end of this
+room. Take them up and you will find Moff Rebus (0105/7.0/0295).
+ 
+
+7.4 Mission IV: Imperial Weapons Research Facility
+==================================================
+Location: The Planet Fest
+Objectives: - Infiltrate the base and find some samples of the metal that
+              they are testing
+            - Return to the landing area
+Difficulty: Medium
+
+When exploring the surface of the planet, it'll help to point yourself down a
+bit so as not to fall off the cliffs.
+
+SECRET 1: Take the narrow ledge (0263/-11.0/0399) and jump north across to
+(0209/-11.0/0421). Take an elevator (0244/-10.0/0455) to get to items. 
+
+SECRET 2: Cross the narrow bridge. Continue until you reach the ledge
+overlooking the main gate courtyard (which may have several stormtroopers in 
+formation) at (-002/29.9/0516). Jump down and go up the stairs at
+(-131/0.0/0464). Go east across the top of the door and take an elevator up.
+You'll find an extra life in the guard lookout at (-095/48.0/0487). Go back
+the way you came; an elevator at (0007/1.0/0454) will take you up again.
+NOTE: If you go to the elevator outside the gate and take it to the top, you
+can jump down to the ledge that goes into the main gate towers, and get the
+extra life that way.
+
+To get to the facility, you'll have to cross the narrow bridge
+(0202/-12.0/0294). Run across a small chasm, then a larger one heading
+northwest to (0105/-5.0/0400). Find the access shaft (-005/1.0/0322) and jump
+down! There's a chamber to the east with ammo, batteries, and IR goggles.
+Stuck at (0035/-38.0/0254)? While crouching, jump up. Follow the shafts
+south until you are inside the facility. 
+
+Go up the stairs. To open the east door (0104/-27.0/0183), you must hit the
+switch (-082/-28.0/0181) at the west end first. Now *run* to the door before
+it closes. Continue around, up and elevator, then south, and down another
+elevator. There's a room of shields (-015/-22.0/-040).  
+
+SECRET 3: There's a secret room at (-273/-3.0/0086)
+
+Head up stairs north into a room; take stairs (-261/-5.0/0145) up. Open a
+door (-146/5.0/0224) and take elevator (-113/38.0/0218) up. You need Code Key
+5, held by an Officer in this room. Also, the switch (-062/39.0/0244) opens
+a set of doors (-118/7.0/0265) needed later. Now, go back east the way you
+came and enter the code (-043/-17.0/-014) to open the door behind you
+(-063/-18.0/0004).
+
+Thru the doorway, you'll go up a circular stairway, down a hallway, and thru
+a door at the end (-019/44.0/0097). In this room there's a window, from
+which you'll see a central platform served by a rotating-arm bridge. The left
+switch (-041/44.0/0093) controls the arm height; the right switch
+(-041/44.0/0105) controls the arm's rotation. Align the bridge with one of
+the three doors you can access from the circular stairway. Look out the
+window and refer to your map to make sure the bridge is aligned properly. Go
+thru one of the three doorways (-138/-6.0/0027), (-175/10.0/0078), or
+(-144/34/0168), across the bridge to the central pillar and hit a switch
+(-101/-6.0/0085), (-107/10.0/0091), or (-100/34.0/0114).  After you hit a
+switch, you'll have to return to the control room and realign the bridge for
+the next switch.
+
+After all switches are thrown, the door to the right of the window in the
+control room will be open (-030/44.0/0121). Align the walkway bridge with the
+final door, at 3:00 of the circular area; this will allow you access to the
+central platform (-044/54.0/0128) and the Phrik metal (-091/51.0/0102). The
+pillar will go up and down; scoot off where you got on. To exit, you cannot go
+back the way you came; you'll have to go further west, to where you obtained
+the Code Key.
+
+SECRET 4: You must cross a platform to get to the door with the red circle.
+Drop down to the floor here. Go to (-164/-15.0/0252) to see a moving
+vertical wall with a red switch. Shoot the switch. Go around to the other
+side and drop down. The door at (-100/-32.0/0244) will now be open, allowing
+you to get supplies. To get back up, take the elevator at (-153/-31.0/0244). 
+
+At the door with the red circle (-146/5.0/0224) take a left and head north.
+
+SECRET 5: Secret room at (-167/7.0/0277)
+
+Go thru the now-open doorway (-118/7.0/0280) and head north. Hit a switch
+(-038/0.0/0452) to lower the barrier to the outside (-089/0.0/0405). Find a
+Shield Supercharge (-083/0.0/0481). Take the elevator (0014/0.0/0450) and go
+back to the landing area.
+
+EXTRA SECRET SECRET: Turn on LAIMLAME and LAPOGO. Jump off the ledge at your
+start point, heading north. Turn around and go to (0274/-132.0/0519),
+pointing south. You'll pop up to a super-secret room, with a chain dangling
+from the ceiling. Open the super-secret door at (0271/-1.0/0491) to see a
+defenseless Ewok being held prisoner. Ewoks really take it on the chin in DF.
+
+There is another way to get to the Ewok without cheating. At the far end of
+the area identified as "Secret 1", you are actually directly across from, and
+above, the entrance to the Ewok cave. A good running jump from the rock point
+at (0293/24.0/0565) toward the door at about (0276/-1.0/0510) will get you
+into the cell area. It isn't easy. The key is to aim for the "corner" in the
+rock face across from you.
+
+
+7.5 Mission V: The Blood Moon
+=============================
+Location: Gromas Mines
+Objectives: - Locate the reactor and set the sequencer charge
+            - Get back to the ship
+Difficulty: Low
+
+Enter the facility at the far east end. Take the elevator (0350/-2.0/0347). Go
+up the stairs and find the Fusion Cutter at (0258/29.0/0339). Go east thru the
+door at (0219/30.0/0330) past the turbine, thru the door at (0147/30.0/0351).
+            
+SECRET 1: Find supplies behind a secret door at (0119/18.0/0332)
+
+SECRET 2: Open secret door at (0072/21.0/0309) to get shields, and...
+SECRET 3: Go west to open door (0057/20.0/0295) to get TDs and ammo, then...
+SECRET 4: Go east to open door (0086/20.0/0294) to get shields.
+
+Continue west until you get to room with the slow up-'n'-down turbine. The
+door at (-371/30.0/0309) *won't* open yet. Jump onto the turbine. Jump out
+into the east tunnel near the bottom of the shaft. Go along the tunnel. When
+you come to a smaller "press" in your path, run and jump over the shaft when
+it's in the upright position. 
+
+You need the Blue Key to open the door at (-183/-32.0/0303). To get the Blue
+Key, continue down the tunnel and jump to the key at (-001/-33.0/0414). Jump
+back, and open the Blue Key door. Continue down the tunnel, jumping down the
+last shaft. Keep going until you reach a platform in an open area. Run and
+jump to another platform to the east. Follow that tunnel until you reach a
+seeming dead end at an open area (-093/-40.0/0339). Carefully edge forward
+onto a platform directly below. Then run and jump to the west tunnel. Follow
+it until an elevator brings you to the reactor floor. 
+
+The reactor is at (-408/-91.0/0357). As soon as you plant the sequencer
+charge, switch to TDs to better handle the DT exoskeleton. You'll find an
+extra life at (-295/-96.1/0494). Tale the elevator at (-325/-96.0/0335) up.
+The door at (-371/30.0/0309) will now be open.
+
+Hit the switch at (-379/30.0/0304) which will open the door at
+(-376/31.0/0238) and the rest down the hall. As you start down the hall,
+the doors will begin to close. Run down the hall to get out. If you get
+stuck behind one of the doors there will be a switch behind it at
+(-362/31.0/xxxx) that will open it, so you can return to the main control
+switch and try again.
+
+Jump into the east canyon; take the tunnel at (-279/0.0/0083). Jump up into
+the canyon at (0084/-2.0/0385 to meet your ship at (-185/9.0/0503).
+
+
+7.6 Mission VI: Crix Madine's Fate
+==================================
+Location: Imperial Detention Facility, Orinackra
+Objectives: - Find Crix Madine
+Difficulty: High
+
+Trivia: General Crix Madine is from Corellia. He specializes in covert
+operations, and was responsible for engineering the mission of a strike team
+taking the shuttle Tyderium to destroy the shield generators which protected
+the second Death Star in _Return of the Jedi_.
+
+There are six levels in the detention centre. I won't refer to their symbols,
+but rather to their level provided by the map. Thus, Madine is believed to
+be on level S1. For the record, here are the colours of the symbols and the
+corresponding levels: 
+   green = Floor 0
+   red = S1
+   blue = S2
+   orange = S3
+   grey = S4
+   pale blue = S5 
+
+There are two elevators: the west one and the east one. The west elevator
+cycles between levels 0, S2, S4, S5, 0, etc. The east elevator cycles between
+levels S5, S3, S1, S5, etc. The only level with access to both elevators is
+S5.
+
+Summon the floating platform by hitting the switch at (0144/128.0/0002). Get
+on the platform and as it travels back, shoot a switch at the other end at
+(0118/128.0/0202) to open the doors where the platform docks. Enter the
+facility. The switch at (0116/128.0/0224) opens the wall behind you, allowing
+access to the compartment containing the switch you just shot.
+
+The switch at (0169/148.0/0383) opens access to another switch at
+(0147/110.0/0427). Go up to Floor 0 (green detention level). There is a door
+requiring a Red Key at (0102/128.0/0467). 
+
+SECRET 1: Throw a TD at the crack in the wall at (0113/128.0/0146) to blow it
+open. Go into the newly opened hole and get supplies.
+
+SECRET 2: Blow open wall at (0114/148.0/0355).
+SECRET 3: Blow open wall at (0179/110.0/0369).
+SECRET 4: Blow open wall at (0106/128.0/0433).
+SECRET 5: To get to the "Smoking Room", blow open the wall and jump up to the
+hole at (0090/128.0/0447). 
+
+Take the west elevator to level S2.  An officer here carries Code Key 3. Use
+this code at (0141/65.0/0477) to open door at (0185/64.0/0487).
+
+SECRET 6: Blow open wall at (0103/64.0/0504).
+SECRET 7: Blow open wall at (0143/64.0/0515).
+SECRET 8: Blow open the wall at (0108/64.0/0441).
+SECRET 9: Blow open the wall at (0155/64.0/0441). The switch at
+(0134/64.0/0429) triggers an elevator down.  Go down to find stuff.
+
+SECRET 10: Note that in one of the secret areas, there is a "shaft" pointing
+to a blue switch. Hit this switch at (0094/64.0/0461) to briefly open the last
+secret area. *Run* to (0095/64.0/0500) to get a revive.
+
+Take the elevator down to S4. Jump into vent at (0160/-2.0/0507). The switch
+at (0182/-1.0/0502) briefly turns off the magnetic lock at (0207/-1.0/0536).
+Run thru. A switch at (0232/0.0/0559) toggles the doors at (0195/0.0/0566) and
+(0195/0.0/0551): one open, the other closed. This new area contains prisoners.
+To deactivate the maglock to leave, crouch and press the switch at
+(0246/-1.0/0523).
+
+Take the elevator down to S5. When the maglock at (0066/-32.0/0476) flickers,
+it is *dangerous*. Wait until it is on steadily, it is safe to walk thru.
+
+SECRET 11: Blow open the wall at (0023/-32.0/0400).
+
+Go thru this level until you see a switch thru a window. Shoot the switch thru
+the window to open the door at (0176/-32.0/0373)!
+
+SECRET 12: Open secret door at (0114/-36.0/0354) to get gas mask.
+
+Pass thru the door at (0232/-32.0/0443) and put your gas mask on. Go thru the
+maglock while flickering, and pick up the Red Key at (0356/-32.0/0444).  Go to
+the east elevator.
+
+Take the east elevator up to S3. Get Code Keys 4 and 5 from officers. Enter
+Code 5 at (0252/33.0/0570) to open door at (0270/36.0/0456). Enter Code 4 at
+(0252/33.0/057) to open door at (0341/48.0/0463).
+
+Take the east elevator up to S1. Get Code Keys 1 and 2 from officers. The
+door at (0159/96.0/0554) will *not* open for you.
+
+Take the east elevator down to S5. Use the switch outside the elevator to
+send it up once, to level S3. Go thru level S5 to the west elevator (remember
+to shoot the switch thru the window to open the door again). Take the west
+elevator to level 0. Get out and use the external switch to send the elevator
+to the next level down (to S2).
+
+You have a choice of ways to enter the elevator shaft: 1) Open Red Key door at
+(0102/128.0/0467) -- note the schematic on the wall: it will help you thru
+the next part. 2) Go to hole at (0108/128.0/0439) and jump thru another hole
+into a vent at (0112/128.0/0444).
+
+Crouch to open door at (0121/115.0/0456). Jump onto top of the west elevator;
+open door at (0128/76.0/0466). Jump down into the chasm between elevators;
+open door at (0148/52.0/0467); then go across the top of the east elevator.
+Go thru the vents. You will find the graffiti "Ewoks Suck" on the walls at
+(0190/46.0/0466).
+
+SECRET 13: In the room with the Gun Turret, blow open the wall at
+(0195/62.0/0544). 
+
+Continue thru the vents and into the garbage compactor.
+
+SECRET 14: From the safe area to the east, blow open a crack in the wall in
+the main chamber containing the central "press-o'-death", at
+(0234/59.0/0615). Then (*carefully!*) enter the hole to get a revive.
+
+Jump onto the moving "press" in the north chamber. Run and jump over the
+central "press-o'-death" onto the south moving press. Run and jump over it
+again to the northwest press. Finally, jump across to the platform on the
+west end. Go thru the door at (0175/90.0/0623).
+
+Set off the mine to blow the wall at (0203/91.0/0647). Enter Code 2 at
+(0165/98.0/0594) to open the doors. Madine is at (0135/95.0/0614). Note that
+entering Code 1 will open the doors at (0145/97.0/0669). Entering a code of
+XXX will open the doors at (0145/97.0/0641). 
+
+
+7.7 Mission VII: Deadly Cargo
+=============================
+Location: Ramsees Hed Docking Port, Cal-Seti
+Objectives: - Place the tracking device in the rear of the smuggler ship
+Difficulty: Moderate
+
+SECRET 1: Call down the elevator at (-255/-40.0/0744). Go up, then east
+across walkway formed by the big door. Stop before you get completely across.
+Run and jump into room to the southeast to get items. Skip the next paragraph
+of the walkthru.
+
+A switch at (-225/-40.0/0729) opens the big door at (-215/-40.0/0701). The
+switch at (-182/-41.0/0691) will lower the door. Watch your head!
+
+Find the Yellow Key at (-287/-40.0/0576).
+
+SECRET 2: To get some shields, shoot the Power Generating Units to open a
+secret hole at (-277/-40.0/0639).
+
+Go thru door at (-150/-40.0/0628). The switch at (-086/-56.0/0523) shifts a
+couple of "barriers" west (watch your map!). A switch at (-057/-56.0/0540)
+shifts them east partially. A switch at (-051/-56.0/0458 shifts them east
+more. Taking the platform at (-034/-54.0/0466) up will shift the barriers
+east the rest of the way. Walk over the left barrier and go south; go
+south, then west to raising platform. Jump down. Take another platform up at
+(-136/-40.0/0445). Jump to the platform along the south end, which will go
+up.
+
+SECRET 3: Run along the raising platform and jump into the room to the south
+of it (it's tricky!). From here, start following a ledge at (-259/-16.0/0436)
+until you come to a room at (-257/-16.0/0500) with items. 
+
+After the raising platform has gone up, you may enter a door at
+(-177/8.00/0368). 
+
+Head south. Find lots of items behind door at (-237/8.0/0288). The infamous
+"Imperial Bathroom" is at (-160/8.0/0161). To find the Red Key, go thru door
+at (-212/8.0/0197) and take elevator down. Jump into pit. You'll find the Red
+Key at (-215/-16.0/0068). Jump into small "closet" at (-216/-16.0/0152) and
+find an extra life.
+SECRET 4: Continue south, to where Gran are bombing you. Shoot switch at
+(-154/15.0/0020) to lower platform. Go up and pick up items.
+
+To get back to the Red Key area, stand on the 'platform' and shoot the switch
+at (-215/-16.0/0154). The Red Key is used on the door at (-144/8.0/0169).
+You'll find the Blue Key at (-239/11.0/-144). Go back the way you came, north.
+
+SECRET 5: Blow open crate at (-238/17.0/0588) to get mortars.
+SECRET 6: Blow open crate at (-238/9.0/0571) to get mortars
+SECRET 7: Blow open crate at (-238/25.0/0483) to get items.
+
+Continue north. One of the crates on a ledge at (-286/-8.0/0661) lists '1 Ton
+Rubber Duck' as its contents. You need the Blue Key at the door at
+(-223/9.0/0594). Go thru doors at (-203/16.0/-011) and (-180/9.0/0843). Hit
+[space] at (-222/9.0/0944) to affix the device. 
+
+EXTRA SECRET SECRET: If you use the LANTFH cheat to teleport yourself, you'll
+find an extra life at (-099/-51.0/0516). Toss a TD north and you'll find
+another chained Ewok prisoner!
+
+There is another way to get to the Ewok without cheating.  You'll recall that
+you flip several switches to move a "crate" along a narrow passage, then use
+a elevator to cross over that "crate," and move to another area.  The platform
+in front of the "Extra Secret Secret" is tied to that final lift.  When it is
+down, run like a madman back to the FIRST switch, and the crates will be
+lowered to let you in.  You have to hurry since it rises as soon as the
+elevator rises. 
+ 
+
+7.8 Mission VIII: Ice Station Beta
+==================================
+Location: Robotics Construction Facility, Anteevy
+Objectives: - Infiltrate the facility
+            - Set Sequencer Charges 1, 2, and 3
+            - Return to the landing area
+Difficulty: Moderate
+
+Trivia: Snowtroopers are the elite stormtrooper corps trained to operate in
+frigid climates.  Oddly, there are no snowtroopers at Ice Station Beta. 
+            
+SECRET 1: When you start the level, inch westward and drop down onto the ledge
+in front of you (044/2.0/493). Head north and crouch to enter the passage at
+(0039/2.0/0488). Note that this cave is shaped like the head of Max the
+rabbit, from LA's Sam & Max Hit the Road game. 
+
+Head west along the south end of the complex; take a right at a fork at
+(-083/0.0/0326). When you get to the chasm, *carefully* jump down to get the
+Ice Cleats at (-346/-10.0/0342). Jump out; then run and jump across the
+chasm.
+
+SECRET 2: Crouch to find items at (-203/-7.5/0235).
+
+SECRET 3: Jump into stream at (-094/-2.0/0234). Get out on your left and head
+west, ducking under beams. Take the next left, at (-280/-7.5/0259). Turn
+left again to get items at (-274/-7.5/0234).
+
+SECRET 4: If you just got secret 3, simply turn around and go west to get
+more items.
+
+Keep going until you get to the waterfall at (-036/-2.0/0200), and enter the
+passage behind it. Pick up ammo and supplies. Go up the stairs at
+(-042/2.0/-0160) and jump into the stream. Jump out to your left and find the
+Blue Key at (260/17.0/0222). You can now either go back to the Blue Key door
+(337/16.0/0170), or jump to the conveyor from this ledge. Either way you will
+end up on this conveyor, which takes you west. 
+
+SECRET 5: Run, crouch, and jump thru open windows into room on your right at
+(0009/17.0/0272) to get items. 
+
+Look through the window on your right side at (-138/16/0243). Shoot the switch
+at (-182/14.0/0289) to open the door ahead of you. (You may jump into this
+room to get items, but this is not a secret.)
+
+SECRET 6: Shooting the switch to open the door and making it thru to
+(-353/14.0/0247) counts as a secret! 
+
+Get onto the next conveyor. Be careful when you make the next right: run thru
+the doorway when it opens, or you'll get caught in a crusher at
+(-213/18.0/0179). Jump to a narrow ledge that will prevent you from going into
+the industrial waste; get onto the three rising platforms at (-271/6.5/0191).
+Get onto the next conveyor. 
+
+Jump to the switch at (-452/13.0/0152) and pull it: this will open another
+door that otherwise blocks your path at (-433/13.0/0210). Get the Shield
+Supercharge, then jump back onto the conveyor.
+
+SECRET 7: Jump into the room with the rotating "humanoid" holo, and get
+supplies.
+
+You'll have to run and jump across the gap in the conveyors ahead, then thru
+the window into the room on your right at (-415/10/0247). Shoot the officer
+here and get the Red Key. The switch at (-398/10.0/0262) activates a
+ventilation system which clears the room in which you set the charges of
+poison gas. Hitting the switch precludes the use of the gas mask.
+
+SECRET 8: Go thru the south door at (-410/10.0/0247) to get supplies.
+
+Exit the room thru the north door at (-410/10.0/0274). Get gas mask at
+(-376/10.0/0306). Hit the switch at (-366/10.0/0306) to briefly open the door
+at (-371/10.0/0287). Enter the passageway. Head north. Around a corner a
+switch (-335/10.0/0289) will open a couple of doors at (-301/16.0/0287) and
+(-300/16.0/0293) that allow access the fan shaft. But first shut off the fan
+by hitting the switch at (-295/16.0/0287). Go into the fan shaft and drop
+down between the blades. At the bottom, pick up the Revive, which you'll
+likely need. 
+
+Run and jump over the industrial waste in each of the three chambers to set
+the charges, at (-128/-44.0/0392), (-128/-44.0/0193), and (-300/-44.0/0293)
+in any order. Turn around and fight off the Stage 2 Dark Trooper which is now
+attacking you (the DT will be released in the chamber in which you set your
+final charge). Enter a hallway at (-210/-40.0/0340).
+
+SECRET 9: When you open one of the doors in this area, a panel at
+(-220/-40.0/0391) will open, revealing some supplies.
+
+Depending on the level of difficulty you selected for this mission, 1 to 3 DTs
+will attack you here. A switch at (-346/-40.0/0309) opens the door.  Run and
+jump across to the steps and return to your ship at (050/8.0/0452). 
+
+
+7.9 Mission IX: The Death Mark
+==============================
+Location: Nar Shaddaa, The Vertical City
+Objectives: - Find Imperial Navigational evidence
+Difficulty: Moderate
+
+Trivia: Nar Shaddaa spaceport is located on a moon orbiting the planet Nar
+Hutta. This "vertical city" is home to smugglers and pirates. It first
+appeared in the Dark Horse Comics series _Dark Empire_. Nar Shaddaa is a
+"wretched hive of scum and villainy". :)
+
+Drop down to the floor of the chamber.
+
+SECRET 1: *RUN* past the moving block; shoot or hit switch at (-021/0.0/-082)
+to stop the block. Get Mortar Gun and shells by crouching at (-020/0.0/-101).
+
+Hit switch at (0138/0.0/-082). *RUN* across the chamber to (-031/0.0/-131).
+Crouch to enter; get Yellow Key at (-051/-4.0/-111). Take elevator up. Open
+Yellow Key door at (-040/27.0/-087). Head west; take door at
+(-140/12.0/-156); continue west; take door at (-358/12.0/-172). Take rising
+half-circle platform up.
+
+Open hidden door at (-349/36.0/-142). Take elevator down. Find extra life at
+(-295/0.0/-120). Go back the way you came. Go south; take door at
+(-281/36.0/-198). Cross the bridge. Get Fusion Cutter from room at
+(-239/36.0/-154).
+
+SECRET 2: Open "door" at (-214/36.0/-166). Go under crushers; to your left is
+a secret area with items.
+
+SECRET 3: Continue east under all the crushers for more supplies. Go back
+west under the crushers again.
+
+SECRET 4: Open door at (-280/36.0/-140). Get a running start and jump across
+to (-316/36.0/-094) to get supplies. Jump down and go back up to the room
+you first jumped from.
+
+SECRET 5: Go to (-257/36.0/-160) and point yourself south. Run and jump
+across to a dark room at (-245/36.0/-199) to get items.
+
+Go back to the bridge; jump to the platform to the west. Go thru the left
+door. Go thru the repulsor fields: left, right, left.
+
+SECRET 6: After going left and right thru the repulsor fields, open secret
+door at (-296/24.0/-235) to get items.
+
+Go around the corner and kill the Trandoshan, and get his Concussion Rifle.
+Go back out to the platform; go thru the right door. Go east. Enter building
+at (-046/24.0/-307) up stairs. Get Red Key at (-048/32.0/-334). Enter
+another building thru the Red Key door at (-109/24.0/-325); go up stairs.
+
+SECRET 7: Open secret door at (-191/32.0/-361) to get supplies.
+
+SECRET 8: Run and jump thru the window south into other building to get
+mortars. Jump back into the building you came from.
+
+SECRET 9: Open door at (-202/32.0/-393). Before it closes, run and jump thru
+the doorway north into another building, and north again into yet another
+building. From (-157/40.0/-227) looking east, jump to the narrow ledge on the
+right. Follow the passage; jump north to secret area and extra life. Go thru
+door and take elevator down to get more supplies. Go back out into open area
+the way you came. 
+
+Head southwest. If you go thru door at (-395/30.0/-448), *DON'T* try to jump
+across: you won't make it! Hit switch at (-561/30.0/-434) to release
+Trandoshan behind you.
+
+SECRET 10: Throw TDs at any of the five corrugated metal panels here to
+obtain access to supplies--and more Trandoshans.
+
+Go down stairs at (-485/30.0/-461). Find the Blue Key at (-468/22.0/-391).
+Open Blue Key door at (-370/27.0/-360). Head north, then east around the
+semicircular hallway, then across the catwalk. Get Imperial Nava Card at
+(-043/24.0/0002).
+
+ 
+7.10 Mission X: Jabba's Revenge
+===============================
+Location: Jabba the Hutt's Ship
+Objectives: - Get your gear back
+            - Locate the Nava Card
+            - Rescue Jan
+Difficulty: High
+
+Trivia: A scene of Han Solo meeting Jabba the Hutt was filmed for the original
+_Star Wars_ film.  In this scene, Jabba is merely a human.  George Lucas
+intended to create a more exotic-looking Jabba, but didn't have the budget.
+Dissatisfied with the scene, it was cut from the film.
+
+Kill the Kell Dragon(s) with your bare fists, then kill the Gran and take his
+TDs. Go into east chamber. Hit switch at (0474/-48.0/0046), which raises the
+dark "trim" along the bottom of the outside of the structure in the middle
+of the chamber. Jump up onto this trim, on the west side. Go along it,
+hugging the wall, then go to the other side. Jump across the "hallway" to get
+Blue Key (0474/-36.0/0125). Open Blue Key door (0479/-48.0/0246) and go thru
+it. Run and jump west to niche.
+
+SECRET 1: Open secret door (0317/-47.0/0213) to get items.
+
+Edge along the wall on the narrow ledge, heading south. Hit the switch
+(0264/-46.0/0170) to open the door (0356/-47.0/0237). Enter this room and
+get your gear back by jumping at (0337/-47.0/0278). Hit switch at
+(0313/-47.0/0242) to raise the floor outside, which allows you to go further
+west.
+
+Hit switch at (0249/-46.0/0361) to lower stairs at (0264/-46.0/0323) outside.
+Go up stairs, and go thru door (0383/-40.0/0340) and find the Red Key
+(0361/-40.0/0464). Go back out and thru the Red Key door at (0424/-40.0/0346).
+Take elevator (0558/-39.0/0501) up. Hit switch at (0505/-28.0/0516) to raise
+bridge briefly. Run north across it.
+
+SECRET 2: Turn back towards the ledge you came from while on the bridge.
+Hurry and jump into the room just east of it.
+
+SECRET 3: While on the bridge again, run and jump to the right into room at
+(0539/-24.0/0574).
+
+SECRET 4: While in previous secret area, open door and go up stairs. Jump
+across to other room. Find items at (0492/-14.0/0655). 
+
+Go west. Take elevator up (0319/-27.0/0573); run and jump north across gap.
+Jump down the triangular hole to (0363/-44.0/0759). Find Yellow Key at
+(0381/-38.0/0737). Get back up by hitting switch (0428/-44.0/0754), which
+briefly brings down the elevator. Open Yellow Key door at (0444/-16.0/0781).
+Go up spiral stairs and keep going! 
+
+SECRET 5: Open the fresco of Jabba at (0302/0.0/0291) to get items. Thanks,
+Jabba!
+
+SECRET 6: Go to (0403/3.0/0244) and jump up. Open secret door to access items.
+
+Nava Card is in a room thru door at (0471/5.0/0352), at (0461/5.0/0375). Leave
+this room an go thru door at (0484/1.0/0129). Jump down and kill Kell
+Dragon(s).
+
+SECRET 7: Open door (0422/-6.0/0049) to get stuff.
+
+Hit switch at (0368/0.0/0096) to raise floor level. Head north.
+
+SECRET 8: Hit switch at (0391/0.0/0155) to get supplies.
+
+Head west, down stairs. Go around pit on a ledge, hugging the wall. Go to the
+northeast corner, face south. Run and jump to the *second* (southmost)
+compartment. (If you fall into the pit, hit switch at (0278/-18.0/-007) to
+get out.)
+
+SECRET 9: While falling down the second compartment, you must hit a switch.
+This will open a secret door at (0243/-48.0/-019) in the pit with the
+Gammorean guards. Welcome to Jabba's Jacuzzi (a pool in the shape of a Hutt)!
+If you neglect to hit the switch while falling, you can set a mine under
+yourself which will blow you up high enough to reach the switch -- go to
+(0274/xxxx/0009) and face north. Remember to go LAIMLAME first!
+
+You're now in the detention area. Run and jump across to the west side. (If
+you fall into this pit, go to the southeast corner elevator.) Jan is behind
+the door at (0191/-32.0/-048).
+
+
+7.11 Mission XI: The Imperial Mask
+==================================
+Location: Imperial City, Coruscant
+Objectives: - Locate the I.S.O. building.
+            - Crack the main vault. Insert the Nava Card into the decoder and
+              get the decoded data tapes. 
+            - Meet Jan back at the ship.
+Difficulty: Medium
+
+Trivia: Now the home of the Emperor, the Imperial City on the planet Coruscant
+was also the seat of power for the Old Republic. It is continually being
+rebuilt upon old layers of itself. This city was first described in Timothy
+Zahn's book _Heir to the Empire_, and also appeared in the comic series _Dark
+Empire_.
+
+Leave landing area. Head east, then north to get supplies.
+
+SECRET 1: Drop onto platform east of you. Open door (0924/170.5/0478) and
+take elevator up. Collect items. Go back the way you came.
+
+Head south into square area. Take southwest elevator, then head south.
+
+SECRET 2: Hit hidden switch in Emperor's Mural at (0385/100.5/0043) to reveal a
+switch. Shoot this switch to raise platform. Get items. Hit switch at
+(0386/124.5/0038) to lower platform.
+
+SECRET 3: If you face the Emperor's Mural, to the right is a platform above
+you. Shoot the red switch (0463/115.5/0064) on this platform to bring it
+down. Get on it and hit the switch at (0465/100.5/0058) to take it up and get
+items. 
+
+Go west; then up stairs at (0323/100.5/-042). Get items. Head east. Take
+elevator; head south. Get Blue Key at (0302/196.0/-312). Go south and get
+items. Run and jump east to other rooftop. Take door at (0470/196.0/-251).
+
+SECRET 4: Go into the northeast alcove as the platform descends. Open hidden
+door at (0531/148.0/-228) to get items.
+
+At the bottom, go east thru two doors and up stairs. Open door at
+(0932/105.0/-207) and go up elevator. There are two doors ahead: enter the
+right door first and get items. Then take the left door. Hit switch at
+(0894/142.0/-129) to open vent shaft to the left. Crouch and hit switch a
+few times at (0925/142.0/-131) to move centre block closer to the vent opening
+so you can run and jump into it (check your map). Hit switch at
+(0813/152.0/-188) to open access ahead of you. Get Red Key at
+(0802/143.0/-291). Hit switch at (0818/142.0/-265) to open door to courtyard.
+
+Open Red Key door at (0859/142.0/-251). Go east and take elevator; go west
+and take another elevator.
+
+SECRET 5: Go to ledge along the northwest of the level; move along it and
+open a secret door at (0758/194.0/-135).
+
+Open door at (0829/194.0/-334); hit switch at (0814/194.0/-384) to reveal door
+at (0811/194.0/-190). Take elevator down.  Welcome to the Hexagon!
+
+               ____________6_
+              /\___________x/\          LEGEND:
+            1/x/\__________/\ \          x - switch location
+       In --> / /\___  ___/\   \         n - switch number
+           / / / /\      /\ \ \ \
+          /_/_/_/_COMPUTER_\_\_\_x5     Switch Location:
+         2\x\ \ \   CORE   / / / /       1: (0882/64.0/-186)
+           \ \ \ \/______\/ / / /        2: (0852/64.0/-262)
+            \ \ \/___  ___\/ / /         3: (0901/64.0/-325)
+             \ \/__________\/x/4         4: (0982/64.0/-313)
+              \/x___________\/           5: (1011/64.0/-238)
+                3                        6: (0962/64.0/-175)
+                
+First, open all doors in the outer ring (i.e., set each switch to open,
+closed, closed; or black, red, red) in this order: 1, 6, 5, 4, 3, 2 (going
+around the outer ring clockwise). Now you'll have to set the switches to
+allow you to access the Computer Core. Start at switch 1, and go around the
+outer ring counterclockwise, setting the switches according to the chart
+below.
+  Switch  Position
+  ======  ========
+    1.    closed, closed, open
+    2.    closed, closed, open
+    3.    closed, closed, open
+    4.    closed, open, closed
+    5.    closed, open, closed
+    6.    open, closed, closed
+(The "open" and "closed" above refer to the doors located at the vertex of the
+hexagon proximal to the switch, in order, from outer to inner rings.)
+
+In the Computer Core there are two switches: first hit the one at
+(0924/66.0/-262), then the one at (0925/66.0/-238). Head west; press
+switches at (0853/44.0/-233) and (0852/44.0/-268) to reveal a switch at
+(0858/44.0/-250). Take the data tapes at (0860/44.0/-239). The door behind
+you (0827/44.0/-248) will open. Follow the tunnel, then head northeast. Go
+up the elevator, then north to your ship--which is gone! Then, to quote a
+certain former smuggler: "Boba Fett!? Where!?" :) Shoot down the bounty
+hunter, and Jan will return. 
+
+
+7.12 Mission XII: Smuggler's Hijack
+===================================
+Location: Imperial Fuel Station, Ergo
+Objectives: - Get on board the smuggler ship.
+            - Hijack the smuggler ship.
+Difficulty: Moderate
+
+Go south and hit "hand" switch at (-058/0.0/0032). Get into elevator and press
+the switch at (-068/0.0/-051) to take it up. Take circular stairway down and
+open the sliding semicircular door at the bottom to enter the outer ring.
+Enter the "cantina" at (0242/0.0/-295); get the Blue Key from an officer. Go
+thru sliding doors at (0149/0.0/-551) and go up stairs. Face the courtyard at
+(0004/16.0/-458). Run and jump across to central "cylinder". Go across the
+rotating arm bridge to the southwest cylinder. Hit switch at (-136/16.0/-480)
+and immediately run backwards onto the bridge. It will rotate to the
+northeast cylinder.
+
+SECRET 1: Get onto the northeast cylinder. Open secret door at
+(0016/16.0/-255); drop down to collect items. Crouch and hit switch at
+(0020/-16.0/-269) to raise the platform and exit. 
+
+Hit switch at (-020/16.0/-316) and run backwards onto the bridge again. It will
+rotate to the northwest cylinder. Get off and head northwest; enter the
+elevator at (-289/16.0/-255). Hit switch (-298/16.0/-253) to go up. Exit; go
+down hallway and up stairs.
+
+SECRET 2: Use the Blue Key to access storage at (-175/74.0/-330).
+
+Go thru one of the side doors (-169/74.0/-366) or (-139/74.0/-323) and go to
+the "honeycomb" map/switch at (-191/74.0/-320). Hit this switch *once*. Go
+back to the northwest cylinder. Jump down into the courtyard; an elevator
+(0022/-15.0/-469) in the southeast cylinder will take you back up. Take
+stairs down to the outer ring. Go to the newly opened door at
+(-339/0.0/-210). Go up stairs and into elevator at (-351/17.0/-207); hit
+switch at (-361/17.0/-210) to go down. Enter the "white area".
+
+Go northwest; take Yellow Key from officer at (-611/0.0/-029). Open the
+Yellow Key door at (-557/-3.0/-142). "OK, Jan. Smuggler ship secured." Hit
+switch at (-579/-3.0/-140). "Now launching. See you on the dark side." 
+
+EXTRA NON-SECRET: Blow open the door behind the Yellow Key officer at
+(-618/0.0/-025) to see a DF "DEFAULT" texture!
+
+
+7.13 Mission XIII: The Stowaway
+===============================
+Location: The Executor
+Objectives: - Reach the cargo bay safely.
+            - Activate the cargo shuttle system.
+            - Jump into the cargo ship and ride to the Arc Hammer
+Difficulty: Low
+
+Trivia: The _Executor_ is a Super-class Star Destroyer, serving as Lord Darth
+Vader's flagship. At 8,000 m in length, it is five times larger than an
+Imperial-class Star Destroyer. It was destroyed during the Battle of Endor in
+_Return of the Jedi_. 
+
+Go down stairs at (-849/-31.0/0225). Hit switch (-917/-55.0/0120) to lower
+platform; hit switch at (-924/-54.0/0114) to go up. Head south and west. The
+switch at (-1112/-32.0/0146) briefly opens blast door above. Approach the
+blast door, which will raise a platform; step thru the open doorway. Go north
+thru door at (-1158/-16.0/0208); take platform down, then head east and take
+platform up. Head south and take platform up. Go east and take platform at
+(-810/65.0/0154) up. Run and jump across five elevated platforms.
+
+SECRET 1: On the fifth platform, hit switch at (-670/92.0/0197). Jump north
+to newly opened alcove containing supplies. Jump back onto the platform.
+
+Jump to platform to the east. Go thru the door at (-627/92.0/0180).
+
+SECRET 2: Take platform at (-594/93.0/0208) down. Crouch at (-595/-8.0/0138)
+to open secret door. 
+
+Open door at (-565/92.0/0173) and face DT(s). If you're still alive, continue
+east thru doorway at (-375/92.0/0178). Welcome to the Cargo Shuttle Bay! Now
+you must prepare the Cargo Shuttle for departure. Hit switch at
+(-242/92.0/0150) to move shuttle out of the first bay. Go thru door at
+(-265/92.0/0095). Hit switch at (-172/92.0/0153) to move shuttle into the
+next bay. Continue east thru door at (-164/92.0/0094). Hit left switch at
+(-098/92.0/0117) to rotate the shuttle, then the right switch at
+(-098/92.0/0109) to dock it. Take south door at (-117/97.0/0039). Continue
+until you're in the shuttle. "Here we go."
+
+
+7.14 Mission XIV: The Dark Awakening
+====================================
+Location: The Arc Hammer
+Objectives: - Set Sequencer Charges 1, 2, and 3.
+            - Get to the shuttle bay and escape with an Imperial Shuttle.
+Difficulty: High
+
+NOTE: At (-400/128.0/0140) there are floating treasures (lives and revives)
+which can only be obtained by sitting on a mine.  These are not secrets, and
+you can only obtain these by cheating (or by forfeiting a life or two), so I
+am not mentioning these floating treasures.  Er, except for this paragraph. 
+
+Exit the shuttle. Take platform at (-010/91.0/0182) down. Go south around the
+QS100 Welding Arm and hit switch at (-166/90.0/0138). Go back around the welder
+and take the platform up again. You will now be able to access a door at
+(-080/122.0/0243).
+
+SECRET 1: At (-091/128.0/0179), point east. Run and jump across to a small
+hallway. Open door at (-036/122.0/0159) to get items. 
+
+Continue to (-175/128.0/0164) where you'll summon an elevator to take down. 
+Go thru doorway at (-199/96.0/0116). Hit switch at (-330/101/0085). Run and
+jump to door with the red circle at (-283/96.0/0028) which will be open
+briefly. Confront DT(s). Continue ahead, taking platform up at
+(-166/97.0/-077). Cross catwalk and head west, then up stairs. Hit switch at
+(-467/126.0/0023) and go up these "double" stairs again(!). Run and jump north
+across to narrow ledge. 
+
+SECRET 2: Behind you on a pillar is a red switch. Run and jump, nudging the
+switch in mid-air. Go up the double-stairs described above. Use the switch to
+open the red circle door; run and jump thru that doorway. Crouch at
+(-303/92.0/0003) to enter a room containing several items. 
+
+Follow ledge along. Run and jump east to alcove, and continue north. Crouch at
+(-415/128.0/0280) and follow tunnels along until you jump down. Shoot switch at (-454/100.0/0183); this will allow you to set the first Sequencer Charge at
+(-440/100.0/0157). "That's one."
+
+Take elevator at (-424/100.0/0238) up. Follow tunnels back out. Go east into
+elevator at (-378/128.0/0278). Hit hand switch at (-357/128.0/0285) to go
+down. At the hallway with rising and falling pillars, jump onto the south
+pillar first. Get off into small alcove to the west; then run and jump north
+across to the alcove across the hall; get onto next pillar, to the west.
+
+SECRET 3: From the pillar, go north into a short tunnel. Welcome to the
+Intergalactic Room of Pancakes--you'll soon *be* one! The idea is to run
+across the room, hiding in small holes at the east and west sides of the
+room. The secret part is at the north end.
+
+Go across the pillars westward. Don't try to go against the conveyor.
+
+SECRET 4: Run and jump west across to the other side. Run and jump east to
+alcove at (-442/64.0/0411).
+
+SECRET 5: In the alcove, open a secret door at (-442/64.0/0422). Follow the
+passageway, then run and jump across to another alcove at (-479/64.0/0462)
+to get supplies.
+
+Jump down; take elevator at (-507/33.0/0490) up. At (-483/64.0/0557) point
+yourself northeast; run across. Set Sequencer Charge 2 at (-464/64.0/0638).
+"For freedom."
+
+Run and jump across to the east side. Ride along the conveyor. Run and jump
+across to the west side. Go thru now-open door at (-500/64.0/0418). Hit
+switch at (-519/64.0/0369) to take elevator down. Go thru door at
+(-541/0.0/0274). Get on conveyor at (-562/0.0/0384). You'll turn a corner,
+then see an obstacle coming. Duck! (If you fall, take elevator at
+(-598/-16.0/0099) to get back up.) If you need supplies, go thru door at
+(-553/0.0/0121). Get onto next conveyor at (-574/-1.0/0136). Shoot the switch
+on your right to open the door ahead. Continue north thru the door at
+(-724/0.0/0354), until you get to the next conveyor. Take a right! Continue
+on. You'll come to a stop; get back on; take a left. Jump a barrier, then
+duck under the next one. Take a left, then duck! Jump south over barrier to
+next conveyor, then onto an elevator. Continue to the end and hit switch at
+(-595/48.0/0054) to shut conveyor off.
+
+Jump down. Head east and south. You'll see a row at five red switches at
+(-489/16.0/-139). Your goal is to make the wall to your left appear like this:
+            _____
+  _____     |   |____  
+      |_____|
+
+This should work: hit the leftmost switch 4 times, the next one once, the next
+four times, the next three times, and the last one 5 times.
+
+Go up elevator at (-552/16.0/-048) and thru newly opened doorway at
+(-534/64.0/-078); head south. Shoot switch at (-484/64.0/-239); now plant the
+final Sequencer Charge at (-458/64.0/-225). "Jan would be proud."
+
+Get into elevator and hit switch at (-529/64.0/-271) to go down. Go to the
+southwest hangar bay and drop down. Hit switch at (-659/-113.0/-557). Face the
+last DARK TROOPER: General Mohc in a DT exoskeleton. "It's been a long time
+since I've faced an opponent in battle. I'm glad my opponent is so worthy."
+In addition to standard DT weapons, he also fires a barrage of five golden
+spheres simultaneously. 
+
+If you survive, go into the northeast hangar bay and open door at
+(-484/-96.0/-375) and find an Imperial Shuttle. The Arc Hammer will be
+destroyed ("...an unfortunate setback."), but have we seen the last of the Dark Troopers...?
+
+
+
+===========================
+8.0 Miscellaneous Questions
+===========================
+8.1 What is "headwave"?
+=======================
+"Headwave" is the bobbing motion that "Kyle" makes when he walks or runs. 
+Press [F6] to turn it off if it annoys you.
+ 
+
+8.1.1 Does DF induce motion sickness?
+=====================================
+Since the rise of fast first-person walk-thru games like Wolfenstein 3-D, it
+has become apparent that many people are susceptible to nausea induced by
+the apparent motion of the game's display.  Psychologically speaking (yay! I
+get to apply some of my 10 years in psychology to a FAQ! :), this is due to
+the discrepancy between your visual and vestibular senses.  Some people are
+affected more than others.  Try turning off the "headwave": [F6] key. 
+ 
+
+8.2 Who are the people behind DF?
+=================================
+The principles behind DF are:
+   Daron Stinnett - project leader
+   Ray Gresko - lead programmer
+   Justin Chin - lead artist/co-writer
+   Winston Wolff - programmer
+...ably aided and assisted by *many* others.
+
+
+8.3 Has George Lucas provided any input to DF?
+==============================================
+George Lucas, author of the _Star Wars_ trilogy of films, director of _Star
+Wars: A New Hope_, founder of LucasArts Entertainment, was involved in the
+creation of the Dark Troopers.  Specifically, he gave the DF team feedback on
+the design of the DTs. 
+
+In fact, Lucas appeared on CNN's _Future Watch_ show on the weekend of March
+18/19 talking about and playing (!) DF.  During the last week of Febuary,
+Daron Stinnett accompanied Lucas and crew down to Disneyland for the opening
+of the Indiana Jones ride.  They took the opportunity to promote DF with
+George Lucas and the national press in one place.  Stinnett reports that
+Lucas "was a DF natural".
+
+
+8.4 What is the name of Kyle's dropship?
+========================================
+According to DF design team member Justin Chin:
+   The 'official' name of Kyle's ship is the 'Crow'.  It comes from a joke
+   name I had for it while I was writing the design, 'Mouldy Crow'.  Which is
+   still my personal favorite.  I used it to annoy some people who, wanted a
+   more macho name.  Maybe it will appear somewhere in the future.
+
+
+8.5 What happened to the Imperial-class Star Destroyer Mission?
+===============================================================
+The DF box shows a Mission aboard an Imperial-class STD that doesn't appear
+in the game.  Daron Stinnett has this to say:
+     Originally, that was our first level.  It was a really well designed
+     level, but we decided that it was too big for the first level of the
+     game. We were concerned that the puzzles were too difficult and that the
+     level was too non-linear for beginners.  So instead we created the secret
+     imperial base. Much of the geometry for the Imperial-class Star Destroyer
+     was carried over to the Executor.  But the mission was different, so not
+     all of the geometry could be reused.
+
+
+8.6 Is there a strategy guide?
+==============================
+A book has been published giving complete, hand-holding walkthrus of each and
+every DF Mission, complete with black&white and colour pictures.  _Dark
+Forces: Official Players Guide_ by Jeff Hoff is published by Infotainment
+World Books; ISBN = 1572800224.  This book is *not* cheap: US$18.95. 
+
+Should you buy this book?  Here's a checklist.  If you've:
+  1) read this FAQ,
+  2) and *still* cannot finish the game,
+  3) let alone the first Mission,
+  4) on Easy,
+  5) with full cheats,
+  6) and have great wads of money to burn,
+I recommend the strategy guide to you.  I'd also recommend you trade in your
+computer and buy and nice, non-complex Nintendo system, and get a copy of the
+movie _Dumb and Dumber_.  And a hat to cover your lobotomy scars.  But first,
+send me US$70/CDN$100 to pay for this FAQ.  Thanks.
+
+(Sorry, it's just that no one asked me if *I* wanted to rake in gobs of money,
+writing a book about DF! >fume<)
+
+_Computer Gaming World_ #131 (June, 1995) also had a brief article giving tips
+on some missions.  It is nowhere near as comprehensive as this humble FAQ.
+(See checklist above.) 
+
+_Computer Game Review_ Vol. 4, No. 11 (June, 1995) included a 32-page special
+"CGR's Guide to Dark Forces".  This booklet contains a review of DF, an
+interview with Daron Stinnett, a list of enemies, and walkthrus of all
+missions with some colour pictures.  It does *not* guide you to any secrets,
+and again is not as comprehensive as this document.  For US$4.99/CDN$6.50
+it's not a bad deal.  (And I say that even though I'm not getting paid for
+it :-) 
+
+Keep your eyes open for a forthcoming book on 3-D gaming by Robert E. Waring,
+which will include material from this humble FAQList!
+
+
+8.7 Is there a DF fan club?
+===========================
+There is a Dark Forces Fan Club on America On-Line.  It meets every Tuesday
+evening at 10:00 pm Eastern time in Private Room: Dark Forces to discuss the
+game, editing levels, etc.  For info on joining, email <DakJanson@aol.com>,
+<SkyVValker@aol.com>, or <DfMaverick@aol.com>. 
+
+An excellent WinHelp/ASCII-based publication was the "Katarn's Saber Newsletter" (formerly called "The Dark Forces Newsletter") that collected information about custom levels, and even has a WinHelp version of this humble FAQList.  Sadly, publication has ceased.  For more information, see the Website at:
+     http://www.inforopa.com/dfn/dfn.html
+
+For exhaustive listings of DF-related stuff, contact the Invisible Knights <ikteam@ibm.net>, or see their Website at: 
+     http://ikteam.simplenet.com/
+
+
+8.8 Is there any DF merchandise available?
+==========================================
+Dark Forces ChromArt:
+---------------------
+Approximately 8 x 10" chromium-matted print with an engraved-like identity
+plate and a certificate of authenticity (ready for framing).  Available at
+your local comics/specialty store, or online at:
+     http://www.zanart.com
+
+You can also contact Zanart via phone or snail-mail. Ask for item SW-C14, for US$11.99+shipping.  Call 1-800-808-2336, or mail:
+     Zanart
+     7641 Burnet Ave.
+     Van Nuys, CA  91405
+     USA 
+
+DF T-shirt:
+-----------
+Two-sided, all-cotton white shirt with saying, "I conquered Dark Forces."
+Sizes M, L, or XL.  Available from the LA Company Store, item 23-005,
+US$12.95+shipping. Call 1-800-98-LUCAS (1-800-985-8227), fax (818) 587-6629,
+mail:
+     LucasArts Company Store
+     P.O. Box 9367
+     Canoga Park, CA  91309-0367
+     USA
+
+DF mousepad:
+------------
+Features the picture from the cover of the DF box.  Available at your local
+computer specialty store; or from the LA Company Store: item 91-801,
+US$6.00+shipping (only available with the purchase of the DF T-shirt). 
+
+
+
+====================
+9.0 DF Customization
+====================
+I owe a large debt of gratitude to Daron Stinnett for his generous help
+answering most of the questions posed in this section.  If you want more
+information on customizing DF, see Tola Dalton's Web site, which has a great
+big selection of utilities, custom 3D objects, and other kewl stuff:
+     http://www.3dg.com/DarkForces/utils.html
+     http://www.3dg.com/DarkForces/levelcmp.html
+ 
+
+9.1 How do I remap the keys?
+============================
+*** WARNING! Do not attempt the following unless you *know* what you're doing.
+
+DF allows you to customize all controls in the game, except "view center." 
+The default for "view center" is keypad-5, which has a scan code of 4C.  To
+change the keyboard control, use a hex editor on the file JEDI.CFG and modify
+offset D8 from 4C to whatever key you wish.  You must use the scan code of
+the key, which you can find using programs like Norton Diagnostics, PC-Tools'
+DiskEdit, or other. 
+
+   Control         Hex offset(s)
+   -------         -------------
+   Turn right      C9,D3,E1
+   Turn left       CA,D4,E0
+   Forward         CB,DD
+   Backward        CC,DC
+   Crouch          D5
+   Jump            D7
+   Nudge           D6
+   Speed mode      CD
+   Slow mode       CE
+   Primary fire    CF
+   Secondary fire  D0
+   Strafe mode     D9
+   Strafe right    D1
+   Strafe left     D2
+   View up         DE
+   View down       DF
+   View center     D8
+According to Werner Spahl <spahl@work2.ch-cip.Uni-Koeln.DE>, you can use the
+mouse buttons to slide by changing hex offset F6 to 03.
+
+Here are some scan codes for keyboard keys in hexadecimal:
+
+Q   W   E   R   T   Y   U   I   O   P   [   ]   [Enter]   left[Ctrl]
+10  11  12  13  14  15  16  17  18  19  1A  1B     1C        1D
+
+A   S   D   F   G   H   J   K   L   ;   '   `   left[Shift]
+1E  1F  20  21  22  23  24  25  26  27  28  29      2A
+
+\   Z   X   C   V   B   N   M   ,   .   /   right[Shift]   keypad *
+2B  2C  2D  2E  2F  30  31  32  33  34  35       36           37
+
+left[Alt]   [space]   [caps]
+   38          39       3A
+
+To customize the controls, replace the data at the proper offset with the key
+code indicated above.
+
+ 
+
+9.2 What are .GOB files?
+========================
+Very simply, the .GOB files contain the architecture of the levels of the
+game. They are simple resource files that contain a bunch of files packed into
+one file. For example, the SOUNDS.GOB file that came with the demo is
+comprised of 98 VOC sound files stitched together, with an identifying header.
+
+From Daron Stinnett (speaking about the demo level):
+     There are only three files in DARK.GOB that comprise a level definition
+     (<level>.inf, <level>.o, <level>.lvb). Any of these files can be
+     extracted, modified, and will run as normal files in the \DARK directory.
+     The loader will load up files from the normal DOS file system before it
+     goes to the GOB. The .INF and .O files are plain text and should be easy
+     to modify. The .LVB file is a little more complex. It represents the
+     binary version of .LEV files. .LEV files are plain text descriptions of
+     the level geometry that we use for internal development. We have decided
+     to ditch the .LVB files in favor of the .LEV files for the final release
+     of the game. It should be a simple task to create editors. I would
+     suggest that someone write an extractor to pull out the .O and .INF files
+     and play around with them with any text editor.
+
+
+9.2.1 What software was used to create the .GOB files?
+======================================================
+AutoDesk 3D Studio was used to create the polygon objects in the game, like
+the TIE fighters.  Also, it was used to create the enemies in 3D, from which
+the 2D sprites used in the game were generated.  AutoDesk AutoCAD release 12
+was used to create the .LEV and .O files, which are a part of the .GOB files.
+Note that this fact does not rule out the use of home-brewed levels.  It just
+means that whatever editors are used must be able to generate compatible .GOB
+files. 
+
+
+9.2.2 How should a custom .GOB file be loaded?
+==============================================
+There is a command-line option in the full release version to load a
+custom-created .GOB file.  Type:
+          dark -u<GOB-name>
+where <GOB-name> is the filename of the custom Mission(s).
+
+
+9.3 How are the different floors separated?
+===========================================
+The layers are only useful for the map and to help the level designers keep
+track of geometry in the level.  There are restrictions in designing DF
+levels, but placement of geometry in 3D space isn't one of them.  Geometry
+placement is free-form -- nothing is segmented into layers for the engine's
+sake. 
+
+
+9.4 How are textures assigned?
+==============================
+Daron Stinnett:
+     We just used DPAINT to create textures.  Then we converted them
+     into our own .BM format.  It is a very simple bitmap file format with the
+     first 32 bytes a header and the rest is data.  Texture assignment is
+     obvious by looking at the LEV files.
+
+
+9.5 How are dynamic properties assigned?
+========================================
+Daron Stinnett:
+     There is a level "programming" language that is used to script the
+     actions of all geometry.  The scripts are contained in the .INF files. 
+     This data is plain old ASCII text, so it shouldn't be too hard to learn
+     how it works.  There are a few predefined scripts that can be attached to
+     a given sector by setting bits in the geometry data (.LEV files).  These
+     are things like standard doors, etc. 
+
+
+9.6 How do you place objects in a mission?
+==========================================
+Take a look at the .O files; it will be self-explanitory.  AutoCAD was used to
+place objects, but it can be done by hand -- or with some other simple tool.
+
+
+9.7 Can you create floor panels that can be blown up?
+=====================================================
+It might be possible.  If anyone has gotten that far and wants to try it,
+send me email which I will relay to Daron.
+
+
+9.8 Can you create sloped floors?
+=================================
+Daron Stinnett:
+     Not really.  DF is comprised of two 3D engines.  One that is geared for
+     high speed and has some geometry restrictions, and one that is slower but
+     doesn't have any geometry restrictions.  The player can only have very
+     simple collisions with the full 3D geometry, thus it isn't suitable for
+     normal level geometry that you can walk on.  However, you could create
+     stairs and lay a polygon like a piece of plywood on the stairs.  This
+     would create the illusion of a sloped floor.  But when you walked up the
+     slope, your movement would be like you were on the stairs, not the
+     plywood. 
+
+
+9.9 How are sounds associated with actions?
+===========================================
+Daron Stinnett:
+     There are default sounds for most script components, but you can override
+     default sounds with certain keywords in the INF files.  There are also
+     special objects in the .O files called point sounds, we use these for
+     things like the wind in Mission IV. 
+
+
+9.10 Is there a limit to the size and complexity of the missions?
+================================================================
+Daron Stinnett:
+     Memory was our limitation.  The total of all the level components
+     couldn't exceed 2MB because we wanted to keep DF under the 8MB memory
+     requirement.  If you don't mind requiring more memory, then the levels
+     can get larger than 2MB.  There are some hard limitations for the number
+     of objects, sounds, sectors, etc.  But these limits are pretty high.
+
+
+9.11 Day of the Tentacle?
+=========================
+The following hack was provided by Troy Benge <del3116@rs6000.ivcc.edu>:
+   If you edit the .O file (example: secbase.o) add 1 to the number of 
+   "SPRS:" (to "11") and to the number of "OBJECTS:" (to "169") in the SPR list 
+   add the line:
+       SPR: IDTGUN.WAX
+           or
+       SPR: DEFAULT.WAX
+
+   Go to the end of the file and add the lines:
+
+   CLASS: SPRITE  DATA: 11 X:183.00 Y: -42.00 Z:332.00 PCH: 0.00 YAW: 0.00 
+   ROL: 0.00  DIFF: 1
+     SEQ
+       LOGIC:  SCENERY
+       LOGIC:  ANIM
+     SEQEND  
+
+   Save the file and put it in the DARK dir and start the game. The Tentacle 
+   will be waiting on the roof.
+
+
+
+========================================
+10.0 Custom Missions and Mission Editors
+========================================
+10.1 MPC Mission editors
+========================
+All DF fans should thank the authors of these fine utilities for helping keep
+DF going!
+
+Dark Forces Editor Version v2.00 (dfed2.zip - 138,509 bytes)
+------------------------------------------------------------
+This editor allows you to modify existing missions and randomize the
+locations of opponents. Windows 3.x application. Shareware, $5+ to register.
+ - written by Sean Baker <srbaker@nwoca.ohio.gov>
+
+
+Dark Forces UtilitieS and Editor v1.00 (dfuse100.exe - 1,072,330 bytes)
+-----------------------------------------------------------------------
+DFUSE is a collection of utilities to modify/create DF levels. This is not for
+the casual player; it is a powerful tool that requires some skill to use. It
+includes geometry and object editors, viewers, and converters; .GOB-extractors
+and -builders. It is postcard-ware (send him one if you like the utility!).
+
+ - written by Yves Borckmans <Yves.Borckmans@ping.be>
+
+
+Windows Dark Forces UtilitieS and Editor
+----------------------------------------
+From the README.TXT file:
+WDFUSE is a collection of tools to design levels for Dark Forces.  It is a
+complete Windows port of DFUSE/DOS, with many corrections and improvements.
+Included in the package is the a version of the "Dark Forces Unofficial
+Specifications".
+
+Contrary to DFUSE/DOS, WDFUSE is SHAREWARE.  Its registration fee is a $25 ALL
+CHARGES PAID International Order.  The unregistered version is severely
+limited in the size of the level it can save.  Registered users gain full
+save capabilities and email support. They will also be able to use the
+forthcoming WAD converter. 
+
+Minimum requirements: a computer able to run Windows 3.1 or Windows 95, 8 Mb
+of RAM, a mouse, 640*480*256 resolution.  Recommended: 486/66 or higher, more
+than 8 Mb RAM,  800*600*256 resolution or higher.
+
+As of this writing, the current version is 2.10beta1, in 16- and 32-bit flavours.
+
+See Yves' Website at:
+     http://www.ping.be/~ping4087/wdfuse.htm
+
+ - written by Yves Borckmans <Yves.Borckmans@ping.be>
+
+
+WEdit: The New Dark Forces Editor for Win95
+-------------------------------------------
+Wedit is "the hottest WIN95 tool for creation of DARK FORCES levels.  Version
+2.33 of Wedit contains new and exiting features, a new and very easy to use
+INF Editor, tools for doors and staircase generation, plus some bug fixes."
+
+WEdit is shareware; for the full version that has the limitations removed and
+for tech support, send US$35 to: 
+     Ole Thomasen
+     106 Beavertail Pt
+     Houston, TX  77024
+     USA
+
+WEdit v2.33 is available at the Wedit homepage:
+     http://www.hia.net/wedit
+
+ - written by Ole Thomasen <obt@interserv.com>,<102245.1610@compuserve.com>
+
+
+10.2 MacDF mission editors
+==========================
+MacDF fans rejoice: Brad Oliver <bradman@primenet.com> has created a DF
+editor for the Mac!  It is called Dark Forge 0.993 (formerly known as DFLE).  It can be found at:
+     http://www.primenet.com/~bradman/darkforces.html
+
+
+10.3 Custom missions
+====================
+This section of the FAQList used to contain a list of all custom DF
+missions.  Sorry, but due to constraints on my time, I found that I was not
+able to keep up with the flood of new levels, many of which are only available
+on AOL or CIS (despite my pleas for cooperation, few custom mission authors
+kept me updated on new missions :-(.
+
+Fortunately for DF fans, a couple of people have come to my rescue!  Aris
+Paterakis <aris@ocq.qc.ca> and David Lovejoy <dlovejoy@nucleus.com> have taken
+responsibility for keeping track of DF custom missions.  Their DF Custom
+Missions FAQList answers all sorts of questions, including where to find
+custom missions.  Check out Ackbar's Dark Forces Levels Page at:
+     http://www.nucleus.com/~dlovejoy/
+
+Also, an extensive list of custom missions is available as part of the
+Dark Forces and Jedi Knight Archive Library.  See the Invisible Knights' Website at:
+     http://ikteam.simplenet.com/
+
+
+
+====================
+11.0 Troubleshooting
+====================
+If you run into problems running DF, make sure you've read the README.TXT file
+that came with DF.  Try making a clean boot disk, and make sure you have
+enough XMS free.  Beyond this, I simply cannot help you with any problems.
+Contact LA, giving them your exact configuration and a description of the
+problem.
+
+
+11.1 Help installing
+====================
+The most common problem is getting an error regarding JEDI.CFG.  Fortunately,
+there's a simple fix.  From the DOS command line, type INSTALL -Xk where 'k'
+is the letter of your CD-ROM drive. 
+
+LA has provided a fix for a "divide overflow error".  The following changes
+to your CMOS settings are suggested:
+ - disable the turbo switch
+ - lower the bus clock speed
+ - disable all caching
+ - disable hidden refresh
+ - or make sure that you have the line "STACKS=9,256" in your CONFIG.SYS
+
+
+11.2 Help with sound cards
+==========================
+SETUP doesn't recognize the IRQs of some cards correctly. You can solve this
+problem by patching the IMUSE.INI file. Using a disk editor, you'll find the
+internal names (e.g. SBCLONE.WDR (SoundBlaster compatible), SB16.WDR
+(SoundBlaster 16) or SBPRO.WDR (SoundBlaster Pro)). With an offset of 0Eh/0Fh
+bytes from the first character of the name, you find the 2-byte hexadecimal
+port number. The interrupt channel can be found at offset 12h, and the DMA
+channel is located at offset 16h. So you can easily patch the port/DMA/IRQ
+combination you need, even if it's not offered by SETUP.
+
+
+11.3 Misc help
+==============
+ - Does DF run too slowly for you?  Rerun the SETUP program and transfer more
+components of DF to your hard drive, provided you have the room. 
+ - DF runs fine in Windows 95.  Just make a .PIF file to specify settings when
+running from Windows (note that you can't run DF *in* a window), or you can
+simply run DF from the command line.
+ - DF also runs fine under OS/2 (and you can run it from a network CD-ROM
+drive). 
+ - Certain models of Cyrix chips may lock up when loading a DF level.  To fix
+this, the DOS4GW.EXE that comes with DF needs to be replaced with an older
+version.  Contact LA for the fix.
+
+
+11.4 How do I contact LA technical support?
+===========================================
+CI$:
+   Game Publishers Forum A (GO GAMAPUB)
+   section 7
+   Or send email to ID# 75300,454
+
+America Online:
+   Keyword "LucasArts"
+   Or send email to LUCASARTS3
+
+GEnie:
+   Games RT (m805)
+   category 27
+   Or send email to LUCASARTS
+
+Internet Email:
+   75300.454@compuserve.com
+   Or send email to LucasArts3@AOL.com
+
+WWW site:
+   http://www.lucasarts.com/
+
+Technical Support BBS:
+   +(415) 257-3070
+
+
+
+=====================
+12.0 Acknowledgements
+=====================
+If you gave me tips and your name is not listed here, I apologize. I use a
+"first one gets credit" system -- many people sent me tips and secrets after I
+had already found them. Also, I was unprepared for the deluge of mail I
+received, and often lost track of messages; sorry! If I ever meet any of the
+following people, I'll buy them a beverage of their choice:
+
+ - Tim Smulders <smulders@iconn.net> sent me a bunch of custom Missions I was
+   missing--including his own! 
+ - Steph Smith <ag422@freenet.carleton.ca> gets a big cheer for counting *all*   enemies in *all* levels at *all* levels of difficulty; he also wrote
+   descriptions of some cheat codes 
+ - Troy Benge <del3116@rs6000.ivcc.edu> uncovered the hidden Tentacle
+ - Paulius Stepanas <p.stepanas@trl.telstra.com.au> gave me lots of feedback
+   on things ranging from grammar (how embarrassing!) to strategy, and made
+   the kewl shots-to-kill table in section 6.17 
+ - Allen Do <neko@netcom.com> found secrets for Missions III, IV, X, and XI;
+   as well as the extra non-secret in Mission XII
+ - Dennis McKenna <mckenna1@ix.netcom.com>, after spending a "damn week on
+   this level", found another way of getting an extra life in Mission IV
+ - Marc Atkin <atkin@gagarin.cs.umass.edu> found a secret in Mission IV
+ - Alexandre da Silva Pereira <alexsper@embratel.net.br> found how to get to
+   the Ewok in Mission IV without cheating 
+ - Jimmy Kwon <merklin@garcon.mit.edu> found *seven* secrets in Mission VI,
+   and also provided the hack for key mappings 
+ - Bart Barenburg <bartb@win.tue.nl> clarified the function of a switch in
+   Mission VI 
+ - Clark and Shannon Janes <caj101@psu.edu> clarified the elevator positions
+   in Mission VI
+ - Steven Loretero <leialii@aloha.net> fixed a coordinate in Mission VI
+ - Charles Bird <charles.bird@aquila.com> set me straight on flickering
+   maglocks 
+ - Michael Montona <mmontona@CapAccess.org> found the Ewok in Mission VII
+ - Tom <TCKind@aol.com> found the Ewok in Mission VII without cheating
+ - Shawn E. Robinson <dlfc82b@prodigy.com> assisted me with the walkthru in
+   Mission VIII
+ - Jason D. Wright <jdw2@lehigh.edu> clarified the function of a switch in
+   Mission VIII
+ - Alan Hartman <Alan.Hartman@AtlantaGA.ATTGIS.COM> found a convenient ledge
+   in Mission VIII
+ - Atsushi Kanamori <kanamori@Xenon.Stanford.EDU> helped with Jabba's Jacuzzi
+ - Adrian Kwong <akwong@bme.synapse.net> drew the ASCII map of the Hexagon 
+ - Clint Cox <clint.cox@camel.com> provided descriptions of most of the cheat
+   codes
+ - H. Ian Novack <ian@gomez.JPL.NASA.GOV> reminded me of the name of the
+   Mouse Droids, plus gave tips on combating enemies
+ - Eushuk Hong <umeister@leland.stanford.edu> provided info on Windows95
+ - <andyhat@bj-42.rh.uchicago.edu> ran DF under OS/2
+ - Jason Dyer <jdyer@indirect.com> gave me info on Cyrix chips
+ - Mark Haidekker <mark@mathematik.uni-Bremen.de> provided info on IRQs
+ - <KerryH5912@aol.com> first came up with the term "Dork Farces" :)
+ - Edouard Poor <poor@esu6.auckland.ac.nz>, Bob Dunlap II
+   <73710.1366@compuserve.com>, Chik <cc_foo@postoffice.utas.edu.au>, and Brad
+   Oliver <bradman@primenet.com> helped me with MacDF info 
+
+
+===============
+13.0 References
+===============
+_The Adventurer_, #9: Winter 1994/5 (published by LA).
+_CD-ROM Magazine_, Vol. 1, #5 (Dec.1994).
+_Computer Game Review_ Vol. 4, No. 11 (June, 1995)
+_Computer Gaming World_ #131 (June, 1995)
+_PC Games Plus Global_, Vol.3, No.1 (#44).
+_Star Wars Insider_, #23.

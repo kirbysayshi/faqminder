@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Mobile-first defaults: prevent iOS auto text inflation (reader controls font
+   size explicitly) and honor safe-area insets for standalone PWA. */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100dvh;
+  overscroll-behavior-y: none;
+}
