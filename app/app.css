@@ -11,3 +11,17 @@ body {
   min-height: 100dvh;
   overscroll-behavior-y: none;
 }
+
+/* Brief highlight when jumping to a search occurrence. */
+@keyframes reader-flash {
+  from {
+    background-color: rgba(250, 204, 21, 0.3);
+  }
+  to {
+    background-color: transparent;
+  }
+}
+.reader-flash {
+  animation: reader-flash 1.3s ease-out;
+}
+

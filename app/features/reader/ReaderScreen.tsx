@@ -5,6 +5,7 @@ import { parseDocument } from "~/lib/parse";
 import type { FaqMeta } from "~/domains/library";
 import { readerFontAtom, type ReaderState } from "~/domains/reader";
 import { FormattingControls } from "./FormattingControls";
+import { SelectionSearch } from "./SelectionSearch";
 import { useScrollBookmark } from "./useScrollBookmark";
 
 const LINE_HEIGHT = 1.4;
@@ -63,6 +64,8 @@ export function ReaderScreen({
           ))}
         </div>
       </div>
+
+      <SelectionSearch doc={doc} scrollRef={scrollRef} />
     </div>
   );
 }

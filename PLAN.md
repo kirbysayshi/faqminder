@@ -56,7 +56,7 @@ Conservative: when unsure, fall back to `other`. Reflowable blocks render a smal
 - [x] **P2 Reader + switch** — `lib/parse` block splitter (all `art` until P6), `features/reader` renders verbatim mono blocks w/ `data-block-id` (anchor/search hooks), `faq.$id` route via `clientLoader` reading IndexedDB + ErrorBoundary. Switch = navigation. Tests: parse units + reader render (exact ASCII preserved). 17 green. NB: `domains/document` deferred to P6 (parse is pure/ephemeral for now).
 - [x] **P3 Scroll bookmark** — `domains/db` (centralized Dexie, v2 adds readerState), `domains/reader` persistence, `lib/scroll` anchor geometry (unit-tested), `useScrollBookmark` restores pre-paint + saves throttled on scroll & on pagehide/visibility-hidden (mobile purge). Reader keyed by faqId. 22 green.
 - [x] **P4 Formatting** — global persisted font-size atom (`domains/reader`, localStorage via jotai, getOnInit no-flash), `FormattingControls` A−/A+ stepper in reader header, applied to scroll region. 23 green. (Global not per-doc; line-height left fixed — utilitarian.)
-- [ ] **P5 Selection search** — `lib/search`, overlay, jump-to-instance + highlight.
+- [x] **P5 Selection search** — `lib/search` (case-insensitive, per-block hits w/ context, unit-tested), `SelectionSearch` (co-located): selectionchange→count pill→bottom-sheet list→tap jumps + flashes block. 29 green.
 - [ ] **P6 Prose reflow** — classifier at import, per-block toggle icon, override persistence.
 - [ ] **P7 PWA + polish** — manifest/icons, offline verify, empty/error states, end-to-end verify against fixtures.
 
