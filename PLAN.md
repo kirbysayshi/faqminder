@@ -57,7 +57,7 @@ Conservative: when unsure, fall back to `other`. Reflowable blocks render a smal
 - [x] **P3 Scroll bookmark** — `domains/db` (centralized Dexie, v2 adds readerState), `domains/reader` persistence, `lib/scroll` anchor geometry (unit-tested), `useScrollBookmark` restores pre-paint + saves throttled on scroll & on pagehide/visibility-hidden (mobile purge). Reader keyed by faqId. 22 green.
 - [x] **P4 Formatting** — global persisted font-size atom (`domains/reader`, localStorage via jotai, getOnInit no-flash), `FormattingControls` A−/A+ stepper in reader header, applied to scroll region. 23 green. (Global not per-doc; line-height left fixed — utilitarian.)
 - [x] **P5 Selection search** — `lib/search` (case-insensitive, per-block hits w/ context, unit-tested), `SelectionSearch` (co-located): selectionchange→count pill→bottom-sheet list→tap jumps + flashes block. 29 green.
-- [ ] **P6 Prose reflow** — classifier at import, per-block toggle icon, override persistence.
+- [x] **P6 Prose reflow** — `lib/parse` conservative classifier (relative hard-wrap test + list-marker/art-run guards; verified across all 8 fixtures), `reflowText`, `domains/document` override persistence (db v3 docState), `BlockView` renders art verbatim / prose reflowed-with-¶-toggle (indent preserved), default-on. 36 green. NB: indented-list/floated-box kinds reserved — v1 reflows confident prose only (lists/boxes stay verbatim, conservative).
 - [ ] **P7 PWA + polish** — manifest/icons, offline verify, empty/error states, end-to-end verify against fixtures.
 
 Each phase = its own commit(s). Update this table + note surprises before ending a session.

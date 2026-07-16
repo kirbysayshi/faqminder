@@ -2,19 +2,21 @@ import { Link, isRouteErrorResponse } from "react-router";
 import type { Route } from "./+types/faq";
 import { getFaqMeta, getFaqText } from "~/domains/library";
 import { getReaderState } from "~/domains/reader";
+import { getReflowOverrides } from "~/domains/document";
 import { ReaderScreen } from "~/features/reader";
 
 // SPA (ssr:false): the loader runs on the client and reads IndexedDB directly.
 export async function clientLoader({ params }: Route.ClientLoaderArgs) {
-  const [meta, text, anchor] = await Promise.all([
+  const [meta, text, anchor, reflowOverrides] = await Promise.all([
     getFaqMeta(params.id),
     getFaqText(params.id),
     getReaderState(params.id),
+    getReflowOverrides(params.id),
   ]);
   if (!meta || text === undefined) {
     throw new Response("FAQ not found", { status: 404 });
   }
-  return { meta, text, anchor: anchor ?? null };
+  return { meta, text, anchor: anchor ?? null, reflowOverrides };
 }
 
 export function meta({ loaderData }: Route.MetaArgs) {
@@ -29,6 +31,7 @@ export default function Faq({ loaderData }: Route.ComponentProps) {
       meta={loaderData.meta}
       text={loaderData.text}
       initialAnchor={loaderData.anchor}
+      initialReflowOverrides={loaderData.reflowOverrides}
     />
   );
 }

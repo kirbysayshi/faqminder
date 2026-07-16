@@ -32,10 +32,11 @@ export async function addFaq(input: NewFaqInput): Promise<string> {
 }
 
 export async function deleteFaq(id: string): Promise<void> {
-  await db.transaction("rw", db.faqs, db.contents, db.readerState, async () => {
+  await db.transaction("rw", db.faqs, db.contents, db.readerState, db.docState, async () => {
     await db.faqs.delete(id);
     await db.contents.delete(id);
     await db.readerState.delete(id);
+    await db.docState.delete(id);
   });
 }
 

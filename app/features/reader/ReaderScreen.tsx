@@ -1,32 +1,45 @@
 import { useAtomValue } from "jotai";
-import { useMemo, useRef } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 import { Link } from "react-router";
 import { parseDocument } from "~/lib/parse";
 import type { FaqMeta } from "~/domains/library";
+import { setReflowOverride } from "~/domains/document";
 import { readerFontAtom, type ReaderState } from "~/domains/reader";
+import { BlockView } from "./BlockView";
 import { FormattingControls } from "./FormattingControls";
 import { SelectionSearch } from "./SelectionSearch";
 import { useScrollBookmark } from "./useScrollBookmark";
 
-const LINE_HEIGHT = 1.4;
-
-// The reader: a full-height column with a sticky header and a scroll region that
-// renders each block verbatim (monospace). Wide ASCII art scrolls horizontally;
-// font size (P4) is driven by the --reader-font CSS var. Blocks carry
-// data-block-id for scroll-anchoring (P3) and selection jumps (P5).
+// The reader: a full-height column with a sticky header and a scroll region.
+// Blocks carry data-block-id for scroll-anchoring (P3) and selection jumps (P5).
+// Prose blocks auto-reflow (P6) unless the user has overridden per block.
 export function ReaderScreen({
   meta,
   text,
   initialAnchor = null,
+  initialReflowOverrides = {},
 }: {
   meta: FaqMeta;
   text: string;
   initialAnchor?: ReaderState | null;
+  initialReflowOverrides?: Record<number, boolean>;
 }) {
   const doc = useMemo(() => parseDocument(text), [text]);
   const scrollRef = useRef<HTMLDivElement>(null);
   const font = useAtomValue(readerFontAtom);
+  const [overrides, setOverrides] = useState(initialReflowOverrides);
   useScrollBookmark(meta.id, scrollRef, initialAnchor);
+
+  const toggleReflow = useCallback(
+    (blockId: number) => {
+      setOverrides((prev) => {
+        const on = !(prev[blockId] ?? true); // prose defaults to reflowed
+        void setReflowOverride(meta.id, blockId, on);
+        return { ...prev, [blockId]: on };
+      });
+    },
+    [meta.id],
+  );
 
   return (
     <div className="flex h-dvh flex-col bg-neutral-950">
@@ -50,17 +63,12 @@ export function ReaderScreen({
       >
         <div className="w-max min-w-full">
           {doc.blocks.map((block) => (
-            <pre
+            <BlockView
               key={block.id}
-              data-block-id={block.id}
-              className="font-mono whitespace-pre text-neutral-100"
-              style={{
-                lineHeight: LINE_HEIGHT,
-                marginTop: block.gapBefore ? `${block.gapBefore * LINE_HEIGHT}em` : 0,
-              }}
-            >
-              {block.lines.join("\n")}
-            </pre>
+              block={block}
+              reflowOn={overrides[block.id] ?? true}
+              onToggle={toggleReflow}
+            />
           ))}
         </div>
       </div>

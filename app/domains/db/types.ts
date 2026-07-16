@@ -25,3 +25,10 @@ export interface ReaderState {
   scrollFraction: number; // 0..1 within that block
   updatedAt: number;
 }
+
+/** Per-FAQ document state. `reflowOverrides` maps blockId -> user's on/off choice,
+ * overriding the auto classification (only deviations are stored). */
+export interface DocState {
+  id: string; // faqId
+  reflowOverrides: Record<number, boolean>;
+}

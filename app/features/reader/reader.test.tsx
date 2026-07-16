@@ -64,7 +64,7 @@ describe("ReaderScreen", () => {
       "utf-8",
     );
     const { container } = renderReader(text);
-    expect(container.querySelectorAll("pre[data-block-id]").length).toBeGreaterThan(20);
+    expect(container.querySelectorAll("[data-block-id]").length).toBeGreaterThan(20);
     expect(screen.getByRole("heading")).toHaveTextContent("Ace Combat 3");
   });
 });
