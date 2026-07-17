@@ -85,7 +85,7 @@ describe("reader layout (real browser)", () => {
 
   it("keeps art at base size and scrolling when fit is turned off", async () => {
     await page.getByLabelText("Reader options").click();
-    await page.getByRole("switch", { name: /fit diagrams/i }).click();
+    await page.getByRole("switch", { name: /fit wide text/i }).click();
     await page.getByLabelText("Close options").click();
 
     expect(parseFloat(getComputedStyle($("[data-reader-scroll]")).fontSize)).toBe(14);

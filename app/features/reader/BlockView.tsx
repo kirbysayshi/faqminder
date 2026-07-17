@@ -2,8 +2,10 @@ import { reflowText, type Block } from "~/lib/parse";
 
 export const LINE_HEIGHT = 1.4;
 
-// Verbatim monospace. Wide ASCII art scrolls horizontally *within its own block*
-// so it never widens the page and force prose off-screen.
+// Anything that can't wrap: diagrams, tables, contents lists, and prose the reader
+// has un-wrapped. It scrolls horizontally *within its own block* so it never widens
+// the page and forces prose off-screen. Font size comes from the container (see
+// useArtFont) — fitted to the screen, or the base size.
 function Verbatim({ lines }: { lines: string[] }) {
   return (
     <div className="overflow-x-auto">
