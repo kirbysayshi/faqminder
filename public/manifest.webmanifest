@@ -1,6 +1,6 @@
 {
-  "name": "FAQMiner",
-  "short_name": "FAQMiner",
+  "name": "FAQMinder",
+  "short_name": "FAQMinder",
   "description": "Offline reader for game-FAQ text walkthroughs.",
   "display": "standalone",
   "theme_color": "#0a0a0a",

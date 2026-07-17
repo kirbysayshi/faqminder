@@ -1,5 +1,9 @@
 import { page } from "vitest/browser";
-import { render } from "@testing-library/react";
+// vitest-browser-react, not @testing-library/react: RTL turns React's act
+// environment on for the whole test, so every state update driven by a REAL browser
+// event (which is the entire point of these tests) is reported as "not wrapped in
+// act". This renderer scopes act() to the render itself, then turns it back off.
+import { render } from "vitest-browser-react";
 import { MemoryRouter } from "react-router";
 import { beforeEach, describe, expect, it } from "vitest";
 import type { FaqMeta } from "~/domains/library";
@@ -44,10 +48,10 @@ async function stepFont(dir: "Increase" | "Decrease", times = 1) {
 }
 
 describe("reader layout (real browser)", () => {
-  // Per-test: testing-library auto-cleanup unmounts between tests.
-  beforeEach(() => {
+  // Per-test: the renderer auto-cleans up between tests, so re-render each time.
+  beforeEach(async () => {
     document.body.style.margin = "0";
-    render(
+    await render(
       <MemoryRouter>
         <ReaderScreen meta={meta} text={dw4} />
       </MemoryRouter>,

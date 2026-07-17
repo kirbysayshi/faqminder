@@ -71,14 +71,14 @@ try {
   for (const url of ["http://localhost:4173/faqminder/", "http://localhost:4173/faqminder"]) {
     await page.goto(url, { waitUntil: "networkidle" });
     const ok = await page
-      .getByRole("heading", { name: "FAQMiner" })
+      .getByRole("heading", { name: "FAQMinder" })
       .isVisible({ timeout: 10000 })
       .catch(() => false);
     check(`renders at ${new URL(url).pathname}`, ok);
   }
 
   await page.goto("http://localhost:4173/faqminder/", { waitUntil: "networkidle" });
-  check("app loads online", await page.getByText(/FAQMiner/).first().isVisible());
+  check("app loads online", await page.getByText(/FAQMinder/).first().isVisible());
 
   // --- Update available ---
   const banner = page.locator("[data-update-banner]");
@@ -113,7 +113,7 @@ try {
   await page.goto("about:blank");
   await page.goto("http://localhost:4173/faqminder/", { waitUntil: "networkidle" });
   const ok = await page
-    .getByRole("heading", { name: "FAQMiner" })
+    .getByRole("heading", { name: "FAQMinder" })
     .isVisible({ timeout: 10000 })
     .catch(() => false);
   check("app shell renders OFFLINE (SW-served)", ok);

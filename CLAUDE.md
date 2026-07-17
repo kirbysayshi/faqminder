@@ -1,4 +1,4 @@
-# FAQMiner — conventions
+# FAQMinder — conventions
 
 `PLAN.md` is the cross-session source of truth (phases + resume protocol). `adrs/` holds architecture decisions. This file = durable conventions not obvious from code.
 
@@ -25,7 +25,8 @@
 - **browser** (`*.browser.test.tsx`, real Chromium at phone size) — **anything layout-related**: jsdom has no layout engine, so wrapping/alignment/overflow bugs are invisible to unit tests. Screenshots land in `scratch-shots/` (also auto-captured on failure).
   - Import `~/app.css` and assert a computed style first — without the real stylesheet every measurement is meaningless.
   - Measure text position with a `Range` over the text: an element's rect sits at the container edge regardless of `text-indent` and proves nothing. Measure overflow with `scrollWidth`, not the box rect.
-  - Render per-test (`beforeEach`) — testing-library auto-cleanup unmounts between tests.
+  - Render with **`vitest-browser-react`** (`await render(...)` — it's async), never `@testing-library/react`. RTL turns React's act environment on for the whole test, so every update driven by a real browser event — the entire point here — is reported as "not wrapped in act". This renderer scopes `act()` to the render and turns it back off. (RTL + `userEvent` stays correct for the jsdom unit tests, where userEvent is act-wrapped.)
+  - Render per-test (`beforeEach`) — the renderer auto-cleans up between tests.
   - `page.screenshot()` needs `{ element }`, else it captures the runner's own page (blank). Omit `path` — it's relative to the test file and escapes `screenshotDirectory`.
 - Full-app flows (routing, IndexedDB, reload): start dev in tmux, then `pnpm verify:e2e` (Playwright; reads `PORT`, default 5174). Production build (base paths, update flow, offline/SW): `pnpm verify:prod` (builds, serves, cuts network).
 

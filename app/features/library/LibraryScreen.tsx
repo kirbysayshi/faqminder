@@ -11,7 +11,7 @@ export function LibraryScreen({ importSlot }: { importSlot?: ReactNode }) {
   return (
     <main className="mx-auto flex min-h-dvh max-w-2xl flex-col p-4">
       <header className="flex items-center justify-between gap-3 pb-4">
-        <h1 className="text-xl font-semibold">FAQMiner</h1>
+        <h1 className="text-xl font-semibold">FAQMinder</h1>
         {importSlot}
       </header>
 

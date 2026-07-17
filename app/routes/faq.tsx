@@ -20,7 +20,7 @@ export async function clientLoader({ params }: Route.ClientLoaderArgs) {
 }
 
 export function meta({ loaderData }: Route.MetaArgs) {
-  return [{ title: loaderData ? `${loaderData.meta.title} — FAQMiner` : "FAQMiner" }];
+  return [{ title: loaderData ? `${loaderData.meta.title} — FAQMinder` : "FAQMinder" }];
 }
 
 export default function Faq({ loaderData }: Route.ComponentProps) {

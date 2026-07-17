@@ -1,4 +1,4 @@
-# FAQMiner — Build Plan
+# FAQMinder — Build Plan
 
 Offline-first, **mobile-first** PWA for reading game-FAQ text walkthroughs. Local-only (no server), deployed static to GitHub Pages. Primary target = mobile, where tabs/apps get purged from memory — so **persistence is load-bearing** (every bit of reader state survives a cold reload). This file is the **cross-session source of truth**: keep the Phase Status table current so any session can resume. Detail lives in code — this is a pointer, not a spec.
 
