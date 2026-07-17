@@ -11,6 +11,7 @@
     "test:watch": "vitest",
     "depcruise": "depcruise app",
     "verify:e2e": "node scripts/verify-e2e.mjs",
+    "verify:layout": "node scripts/verify-layout.mjs",
     "verify:offline": "pnpm build && node scripts/verify-offline.mjs",
     "deploy:gh": "pnpm build && gh-pages -d build/client"
   },

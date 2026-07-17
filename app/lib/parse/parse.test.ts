@@ -1,7 +1,9 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
-import { parseDocument, reflowText } from "./index";
+import { expandTabs, parseDocument, reflowText } from "./index";
+
+const first = (text: string) => parseDocument(text).blocks[0]!;
 
 describe("parseDocument", () => {
   it("splits on blank-line boundaries and records gaps", () => {
@@ -12,16 +14,14 @@ describe("parseDocument", () => {
   });
 
   it("records leading blank lines as gapBefore on the first block", () => {
-    const { blocks } = parseDocument("\n\nHello\n");
-    expect(blocks[0]).toMatchObject({ startLine: 2, gapBefore: 2 });
+    expect(parseDocument("\n\nHello\n").blocks[0]).toMatchObject({ startLine: 2, gapBefore: 2 });
   });
 
   it("computes the common left indent, ignoring blank interior lines", () => {
-    const { blocks } = parseDocument("    a\n      b\n    c");
-    expect(blocks[0]!.indent).toBe(4);
+    expect(first("    a\n      b\n    c").indent).toBe(4);
   });
 
-  it("parses a real fixture into many blocks, preserving lines verbatim", () => {
+  it("parses a real fixture, preserving lines verbatim, banner stays art", () => {
     const text = readFileSync(
       resolve(
         process.cwd(),
@@ -33,10 +33,36 @@ describe("parseDocument", () => {
     const { blocks } = parseDocument(text);
     expect(blocks.length).toBeGreaterThan(20);
     expect(blocks[0]!.lines.join("\n")).toContain("Shotgunnova"); // lines untouched
-    // The banner is art; ASCII art must dominate a FAQ (conservative classifier).
-    expect(blocks[0]!.kind).toBe("art");
-    const art = blocks.filter((b) => b.kind === "art").length;
-    expect(art / blocks.length).toBeGreaterThan(0.6);
+    expect(blocks[0]!.kind).toBe("art"); // the banner
+    // A real FAQ has both: plenty of art, and prose worth reflowing.
+    expect(blocks.some((b) => b.kind === "art")).toBe(true);
+    expect(blocks.some((b) => b.kind === "prose")).toBe(true);
+  });
+});
+
+describe("expandTabs", () => {
+  it("expands to 8-column tab stops, not a fixed run of spaces", () => {
+    expect(expandTabs("\t  X")).toBe(" ".repeat(10) + "X"); // tab -> col 8, then 2 spaces
+    expect(expandTabs("a\tb")).toBe("a" + " ".repeat(7) + "b"); // advances to col 8
+  });
+
+  it("makes tab- and space-indented siblings agree on their indent", () => {
+    // Real FAQs mix both for the same visual column (Dragon Warrior IV does).
+    const spaced = first(
+      [
+        "          Offensive: Dealing damage is the priority.  This will have mages",
+        "                     in the party use their best attack spells here.",
+      ].join("\n"),
+    );
+    const tabbed = first(
+      [
+        "\t  Try Out:   The best way to describe 'Try Out' is \"random\".  All it",
+        "                     does is choose random spells to use or simply attack.",
+      ].join("\n"),
+    );
+    expect(spaced.reflow!.firstLineIndent).toBe(10);
+    expect(tabbed.reflow!.firstLineIndent).toBe(10); // NOT 0 — tabs resolved
+    expect(tabbed.reflow!.layout).toBe("hanging");
   });
 });
 
@@ -47,31 +73,84 @@ describe("prose classification", () => {
     "went, which is exactly the kind of block we want to be able to reflow.",
   ].join("\n");
 
-  it("classifies a hard-wrapped paragraph as prose", () => {
-    expect(parseDocument(prose).blocks[0]!.kind).toBe("prose");
+  it("classifies a hard-wrapped paragraph as a reflowable block", () => {
+    expect(first(prose)).toMatchObject({
+      kind: "prose",
+      reflow: { layout: "block", padLeft: 0, firstLineIndent: 0 },
+    });
   });
 
-  it("reflows prose by dropping hard wraps and collapsing whitespace", () => {
-    const { blocks } = parseDocument(prose);
-    const text = reflowText(blocks[0]!);
+  it("reflows by dropping hard wraps and collapsing whitespace", () => {
+    const text = reflowText(first(prose));
     expect(text).not.toContain("\n");
-    expect(text.startsWith("This is a normal hard-wrapped paragraph")).toBe(true);
     expect(text).toContain("author typed at"); // wrap boundary joined with a space
   });
 
-  it("keeps ASCII banners as art", () => {
-    const banner = ["=====================", "|  SUPER GAME  FAQ  |", "====================="].join("\n");
-    expect(parseDocument(banner).blocks[0]!.kind).toBe("art");
+  it("keeps a paragraph whose FIRST line is indented (indent must not break it)", () => {
+    const block = first(
+      [
+        "    Once you reach Chapter 5, the first menu that appears when you enter",
+        "battle will be slightly different.  Once you recruit Mara and Nara you see",
+        "this menu (having 'Tactics' selected):",
+      ].join("\n"),
+    );
+    // First line indents 4, continuation sits at 0 -> positive text-indent.
+    expect(block).toMatchObject({
+      kind: "prose",
+      reflow: { layout: "block", padLeft: 0, firstLineIndent: 4 },
+    });
   });
 
-  it("keeps a ragged list as art (conservative)", () => {
+  it("reflows a label + hanging body, dropping the decorative underline", () => {
+    const block = first(
+      [
+        "MEMBER:  Once you've obtained the wagon in Chapter 5 you'll have this one.",
+        "-------  This option will allow you to switch out characters from a wagon",
+        "         (in standby) into your active party.  If you have less than 5",
+      ].join("\n"),
+    );
+    expect(block.reflow).toMatchObject({ layout: "hanging", padLeft: 9, firstLineIndent: 0 });
+    const text = reflowText(block);
+    expect(text.startsWith("MEMBER: Once you've obtained")).toBe(true);
+    expect(text).toContain("this one. This option will allow"); // body lines joined
+    expect(text).not.toContain("---"); // underline dropped, not inlined
+  });
+
+  it("never merges separate labelled items (Q: / A:)", () => {
+    const block = first(
+      [
+        "Q: Is there any way to stop the sea lice from eating my rations as I go?",
+        "A: Hold L2 and move the left analog stick back and forth while the rations",
+        "   are being eaten to shake them off before they finish the job entirely.",
+      ].join("\n"),
+    );
+    expect(block.kind).toBe("art"); // two real labels => leave verbatim
+  });
+
+  it("keeps ASCII banners as art", () => {
+    const banner = ["=====================", "|  SUPER GAME  FAQ  |", "====================="];
+    expect(first(banner.join("\n")).kind).toBe("art");
+  });
+
+  it("keeps a ragged bulleted list as art", () => {
     const list = [
       "  - Sword: found in the opening cave near the waterfall",
       "  - Shield: purchased from the town armorer for 90 gold",
       "  - Potion: dropped occasionally by slimes in the forest",
     ].join("\n");
-    // Ragged right edge (varying line lengths) => not a wrapped paragraph.
-    expect(parseDocument(list).blocks[0]!.kind).toBe("art");
+    expect(first(list).kind).toBe("art");
+  });
+
+  it("keeps an aligned price table as art (aligned column, not prose)", () => {
+    const shop = [
+      "Chain Mail        350G",
+      "Bronze Armor      700G",
+      "Half Plate Armor  1200G",
+      "Scale Shield      180G",
+      "Iron Shield       650G",
+      "Wooden Hat        120G",
+    ].join("\n");
+    expect(first(shop).kind).toBe("art");
   });
 
   it("keeps a dotted-leader TOC as art", () => {
@@ -80,6 +159,16 @@ describe("prose classification", () => {
       " II. Controls ............................... CTRL0",
       "III. Walkthrough ............................ WLKTH",
     ].join("\n");
-    expect(parseDocument(toc).blocks[0]!.kind).toBe("art");
+    expect(first(toc).kind).toBe("art");
+  });
+
+  it("keeps an indented TOC (short ragged entries) as art", () => {
+    const toc = [
+      "                1. CHAPTER ONE: THE ROYAL SOLDIERS OF BURLAND CASTLE",
+      "                   1A. Burland",
+      "                   1B. Cave to Izmit",
+      "                   1C. Izmit Village",
+    ].join("\n");
+    expect(first(toc).kind).toBe("art");
   });
 });

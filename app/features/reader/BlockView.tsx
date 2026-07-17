@@ -2,10 +2,25 @@ import { reflowText, type Block } from "~/lib/parse";
 
 export const LINE_HEIGHT = 1.4;
 
-// One block. `art` renders verbatim (monospace, no wrap). A `prose` block is a
-// reflow candidate: it shows a toggle (¶) and renders either reflowed+wrapped
-// (indent preserved) or verbatim, per `reflowOn`. data-block-id is always on the
-// outer element for scroll-anchoring and search jumps.
+// Verbatim monospace. Wide ASCII art scrolls horizontally *within its own block*
+// so it never widens the page and force prose off-screen.
+function Verbatim({ lines }: { lines: string[] }) {
+  return (
+    <div className="overflow-x-auto">
+      <pre
+        className="w-max whitespace-pre text-neutral-100"
+        style={{ lineHeight: LINE_HEIGHT }}
+      >
+        {lines.join("\n")}
+      </pre>
+    </div>
+  );
+}
+
+// One block. `art` renders verbatim. A `prose` block is a reflow candidate: it
+// shows a toggle (¶) and renders either reflowed (wrapping to the viewport, with
+// the original indent structure preserved via padding + text-indent) or verbatim.
+// data-block-id is always on the outer element for scroll-anchoring / search jumps.
 export function BlockView({
   block,
   reflowOn,
@@ -16,19 +31,21 @@ export function BlockView({
   onToggle: (blockId: number) => void;
 }) {
   const marginTop = block.gapBefore ? `${block.gapBefore * LINE_HEIGHT}em` : 0;
-  const content = block.lines.join("\n");
 
-  if (block.kind !== "prose") {
+  if (block.kind !== "prose" || !block.reflow) {
     return (
-      <pre
-        data-block-id={block.id}
-        className="font-mono whitespace-pre text-neutral-100"
-        style={{ lineHeight: LINE_HEIGHT, marginTop }}
-      >
-        {content}
-      </pre>
+      <div data-block-id={block.id} style={{ marginTop }}>
+        <Verbatim lines={block.lines} />
+      </div>
     );
   }
+
+  const { padLeft, firstLineIndent } = block.reflow;
+  // Honor the source's columns, but cap them on narrow screens: a FAQ written for
+  // 80 columns can hang its body at col 21, which would eat half a phone. min()
+  // keeps the true column on desktop and adapts on mobile.
+  const hang = `min(${padLeft}ch, 30%)`;
+  const first = `min(${firstLineIndent}ch, 12%)`;
 
   return (
     <div data-block-id={block.id} className="relative" style={{ marginTop }}>
@@ -46,18 +63,19 @@ export function BlockView({
       </button>
       {reflowOn ? (
         <p
-          className="font-mono whitespace-pre-wrap break-words text-neutral-100"
-          style={{ lineHeight: LINE_HEIGHT, paddingLeft: `${block.indent}ch` }}
+          className="whitespace-pre-wrap break-words text-neutral-100"
+          style={{
+            lineHeight: LINE_HEIGHT,
+            // Continuation lines sit at the hang column; the first line offsets
+            // back to its own indent — reproduces paragraph and hanging indents.
+            paddingLeft: hang,
+            textIndent: `calc(${first} - ${hang})`,
+          }}
         >
           {reflowText(block)}
         </p>
       ) : (
-        <pre
-          className="font-mono whitespace-pre text-neutral-100"
-          style={{ lineHeight: LINE_HEIGHT }}
-        >
-          {content}
-        </pre>
+        <Verbatim lines={block.lines} />
       )}
     </div>
   );

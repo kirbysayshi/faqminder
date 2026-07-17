@@ -76,10 +76,10 @@ export function ReaderScreen({
       <div
         ref={scrollRef}
         data-reader-scroll
-        className="flex-1 overflow-auto overscroll-contain px-3 py-2"
+        className="flex-1 overflow-y-auto overflow-x-hidden overscroll-contain px-3 py-2 font-mono"
         style={{ fontSize: `${font}px` }}
       >
-        <div className="w-max min-w-full">
+        <div>
           {doc.blocks.map((block) => (
             <BlockView
               key={block.id}

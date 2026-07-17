@@ -48,10 +48,10 @@ try {
   );
   check("prose reflow toggle present", proseId != null);
   const blockSel = `[data-block-id="${proseId}"]`;
-  check("prose renders as <p> by default", (await page.locator(`${blockSel} > p`).count()) === 1);
+  check("prose renders as <p> by default", (await page.locator(`${blockSel} p`).count()) === 1);
   await page.locator(`${blockSel} button`).click();
-  await page.locator(`${blockSel} > pre`).waitFor({ timeout: 3000 });
-  check("toggling reflow off renders <pre>", (await page.locator(`${blockSel} > pre`).count()) === 1);
+  await page.locator(`${blockSel} pre`).waitFor({ timeout: 3000 });
+  check("toggling reflow off renders <pre>", (await page.locator(`${blockSel} pre`).count()) === 1);
 
   // --- Selection search ---
   const selected = await page.evaluate(() => {

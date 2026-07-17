@@ -52,19 +52,28 @@ describe("ReaderScreen", () => {
     expect(scroll.style.fontSize).toBe("20px");
   });
 
-  it("renders each block as a verbatim, id-tagged <pre>", () => {
+  it("renders each block as a verbatim, id-tagged element", () => {
     const { container } = renderReader("banner\nline2\n\ntext");
-    const blocks = container.querySelectorAll("pre[data-block-id]");
+    const blocks = container.querySelectorAll("[data-block-id]");
     expect(blocks).toHaveLength(2);
     expect(blocks[0]).toHaveTextContent("banner");
     expect(blocks[0]?.getAttribute("data-block-id")).toBe("0");
+    expect(blocks[0]?.querySelector("pre")).not.toBeNull();
   });
 
   it("preserves ASCII art exactly (no whitespace collapsing)", () => {
     const art = "  |¯|   |¯|\n /   \\ / \\";
     const { container } = renderReader(art);
-    const pre = container.querySelector("pre[data-block-id]");
-    expect(pre?.textContent).toBe(art);
+    expect(container.querySelector("[data-block-id] pre")?.textContent).toBe(art);
+  });
+
+  it("lets wide art scroll inside its own block instead of widening the page", () => {
+    const { container } = renderReader("|" + "=".repeat(200) + "|");
+    // The art sits in its own horizontal scroller; the page never scrolls sideways.
+    expect(container.querySelector("[data-block-id] .overflow-x-auto")).not.toBeNull();
+    expect(container.querySelector("[data-reader-scroll]")?.className).toContain(
+      "overflow-x-hidden",
+    );
   });
 
   it("renders a large real fixture without dropping blocks", () => {

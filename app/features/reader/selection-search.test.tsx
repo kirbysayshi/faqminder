@@ -11,7 +11,9 @@ const meta: FaqMeta = {
 };
 
 function selectSubstring(el: HTMLElement, needle: string) {
-  const node = el.firstChild as Text;
+  // Text lives in the <pre>/<p> inside the block wrapper.
+  const host = el.querySelector("pre, p") ?? el;
+  const node = host.firstChild as Text;
   const start = (node.textContent ?? "").indexOf(needle);
   const range = document.createRange();
   range.setStart(node, start);

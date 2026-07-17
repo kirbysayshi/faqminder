@@ -34,14 +34,18 @@ Offline-first, **mobile-first** PWA for reading game-FAQ text walkthroughs. Loca
 
 ## Key algorithms (non-obvious — capture here)
 
-**Parse / prose classifier** (`lib/parse`, run **once at import**, result cached in Dexie):
-Split to lines → group by blank-line boundaries into blocks → classify. Goal = **preserve visual intent while letting font size change**. Classification is **relative within the block**, NOT against absolute line-length thresholds (FAQs vary widely in width):
-- `prose` — lines wrap consistently near a shared right margin, high alpha ratio, no art signatures → join wrapped lines, soft-wrap, left-align.
-- `indented-list` — prose-like but with a hanging/leading indent → reflow **preserving the left indent** (CSS `padding-left`/hanging indent), don't collapse the indent.
-- `floated-box` — a text column with a right-side box/art gutter → reflow the prose column, drop the float, keep intent.
-- `other` / `ascii-art` — banners, boxed tables, dotted-leader TOCs, anything with art signatures (runs of `| _ / \ = + . : ~`, box-drawing, leader dots) → rendered `<pre>` verbatim, never reflowed.
+**Tabs**: expanded to 8-col stops at parse (`expandTabs`) — FAQs mix tabs/spaces for one visual column; all column math and the verbatim render depend on it.
 
-Conservative: when unsure, fall back to `other`. Reflowable blocks render a small toggle icon; user can force off/on per block. Never auto-reflow ASCII art.
+**Layout**: prose wraps to the viewport; each art block scrolls horizontally on its own. The reader never scrolls horizontally as a whole. Reflowed prose reproduces the source's structure via `padding-left` (hang column) + `text-indent` (first line), each capped with CSS `min()` so an 80-col FAQ doesn't eat half a phone.
+
+**Parse / prose classifier** (`lib/parse`, deterministic, re-run per open):
+Split to lines → group by blank-line boundaries into blocks → classify. Goal = **preserve visual intent while letting font size change**. Everything is **relative within the block** — no absolute line-length thresholds (FAQs vary widely in width). Two reflowable layouts:
+- `block` — a wrapped paragraph. Continuation lines share one indent (`padLeft`); the first line is free, so a paragraph indent (first line in) or hanging indent (first line out) both survive.
+- `hanging` — a label/definition item: one label, then a body at a consistent hang column (`TALK:` / `-----` / body…). The label is kept; decorative label-column content on later lines (a `-----` underline) is dropped. Requires exactly **one** meaningful label — a second (`Q:`/`A:`) means separate items, so leave verbatim.
+
+Rejected as `art` (verbatim, never reflowed): <2 lines, too short, not text-dominated, any decorative line (ratio of art chars > .5, or dotted leaders), ≥2 list markers, ragged/non-full lines (a TOC's short entries), or an aligned column (a shop/stat table — most lines resume text at the same column).
+
+Conservative: when unsure → `art`. Reflowable blocks render a ¶ toggle; the user can force off/on per block, persisted.
 
 **Reflow override model** (`domains/document`): store per-FAQ `{ auto: blockId[], overrides: Record<blockId, boolean> }`. Effective = override ?? auto-membership. Persisted; survives reload.
 
@@ -57,7 +61,7 @@ Conservative: when unsure, fall back to `other`. Reflowable blocks render a smal
 - [x] **P3 Scroll bookmark** — `domains/db` (centralized Dexie, v2 adds readerState), `domains/reader` persistence, `lib/scroll` anchor geometry (unit-tested), `useScrollBookmark` restores pre-paint + saves throttled on scroll & on pagehide/visibility-hidden (mobile purge). Reader keyed by faqId. 22 green.
 - [x] **P4 Formatting** — **per-document** persisted font size (in `readerState`, loaded via clientLoader, merge-patched alongside scroll anchor), `FormattingControls` A−/A+ stepper (controlled) in reader header. Different docs keep their own base size (ASCII width varies). Line-height fixed — utilitarian.
 - [x] **P5 Selection search** — `lib/search` (case-insensitive, per-block hits w/ context, unit-tested), `SelectionSearch` (co-located): selectionchange→count pill→bottom-sheet list→tap jumps + flashes block. 29 green.
-- [x] **P6 Prose reflow** — `lib/parse` conservative classifier (relative hard-wrap test + list-marker/art-run guards; verified across all 8 fixtures), `reflowText`, `domains/document` override persistence (db v3 docState), `BlockView` renders art verbatim / prose reflowed-with-¶-toggle (indent preserved), default-on. 36 green. NB: indented-list/floated-box kinds reserved — v1 reflows confident prose only (lists/boxes stay verbatim, conservative).
+- [x] **P6 Prose reflow** — `lib/parse` conservative classifier (`block` + `hanging` layouts; tab expansion; table/TOC/decoration guards; verified across all 8 fixtures), `reflowText`, `domains/document` override persistence (db v3 docState), `BlockView` renders art verbatim / prose reflowed-with-¶-toggle, default-on. Prose wraps to viewport; art scrolls per-block. Verified in-browser via `verify:layout`. NB: floated-box (prose beside a right-hand art gutter) still stays verbatim — conservative.
 - [x] **P7 PWA + polish** — SW via post-build Workbox (`scripts/build-sw.mjs`, precache 18 files, navigateFallback), client-only registration in root, manifest + SVG icon. Real-browser E2E (`scripts/verify-e2e.mjs`, 13 checks: import→reader→font→reflow→selection-jump→scroll-restore-across-reload→list) + offline verify (`scripts/verify-offline.mjs`, SW serves shell with network cut) both pass. Empty/error/busy states in place.
 
 Each phase = its own commit(s). Update this table + note surprises before ending a session.
