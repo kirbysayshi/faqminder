@@ -36,14 +36,10 @@ export function ReaderOptions({
         </div>
 
         <label className="flex cursor-pointer items-center justify-between gap-4 px-4 py-4">
-          {/* Say what it does: this fits everything that can't wrap — diagrams,
-              tables, contents lists, and any paragraph un-wrapped with ¶ — not
-              only the ASCII drawings. */}
           <span className="min-w-0">
             <span className="block text-sm text-neutral-100">Fit wide text to screen</span>
             <span className="block text-xs text-neutral-500">
-              Shrink diagrams, tables and anything else that can’t wrap, instead of
-              scrolling sideways. Pinch to zoom in.
+              Shrink unwrappable text instead of scrolling sideways. Pinch to zoom in.
             </span>
           </span>
           <input

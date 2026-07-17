@@ -1,4 +1,4 @@
-blocks: 676  art: 254  prose-block: 364  prose-hanging: 58
+blocks: 728  art: 270  prose-block: 400  prose-hanging: 58
 --------------------------------------------------------------------------------
 #0000 art                 L31  |                           _____
 #0001 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -11,668 +11,720 @@ blocks: 676  art: 254  prose-block: 364  prose-hanging: 58
 #0008 art                 L43  |                 5. CHAPTER FIVE: THE CHOSEN ONES
 #0009 art                 L9   | X...............Item/Equipment List
 #0010 art                 L7   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#0011 art                 L15  | _________
-#0012 art                 L7   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#0013 block   f=8  p=0  L7   ( 509) | This walkthrough is copyrighted to Ramina. This is my own information and it may not be distribu
-#0014 art                 L1   | The following website(s) have permission to host this document:
-#0015 art                 L2   | - www.gamefaqs.com
-#0016 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#0017 art                 L5   |    _________________________
-#0018 art                 L1   |                                     ~*~*~*~
-#0019 art                 L1   |       "As the Legend of Erdrick slips into the past, it's time to begin anew.
-#0020 block   f=0  p=0  L2   ( 121) | Chapter One: Ragnar, the King's General. You must find the reason for the recent disappearance o
-#0021 block   f=0  p=0  L3   ( 151) | Chapter Two: Alena, the Princess. As daughter of the King, you wish to escape his overly-protect
-#0022 block   f=0  p=0  L3   ( 170) | Chapter Three: Taloon, the Merchant. Your lifelong dream is to own a store. Leave your family be
-#0023 block   f=0  p=0  L3   ( 198) | Chapter Four: Mara & Nara, the Dancer and the Fortune Teller. These sisters learn of their fathe
-#0024 art                 L1   | Chapter Five:  Fulfill a prophecy.  Is this your destiny?"
-#0025 art                 L1   |                                     ~*~*~*~
-#0026 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#0027 art                 L5   |    ______________________
-#0028 art                 L13  |              _____________________________[D-Pad]:  Moves characters; navigate
-#0029 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#0030 art                 L5   |    _______________________
-#0031 block   f=8  p=0  L6   ( 454) | There are three main menus that you'll be paying more attention to than anything else in the gam
-#0032 art                 L7   |  _____       ______
-#0033 art                 L8   |                        |==Ragn==|
-#0034 hanging f=0  p=7  L4   ( 214) | TALK: This option will allow you to talk to the citizens of the towns and anyone else in the gam
-#0035 hanging f=0  p=9  L3   ( 195) | STATUS: This selection will lead to a new menu that displays each characters' current statistics
-#0036 art                 L5   |                 ______      ______
-#0037 hanging f=19 p=26 L5   ( 237) | INFO: Allows you to view each character's stats and EXP. Pressing 'A' again will show their equi
-#0038 hanging f=19 p=31 L5   ( 232) | CONDITION: This will bring up a separate menu where you can easily see your entire party's HP/MP
-#0039 hanging f=0  p=8  L4   ( 270) | EQUIP: The Equip selection will bring up a smaller window listing your characters. Select which 
-#0040 hanging f=0  p=8  L3   ( 179) | DOOR: Pretty obvious what this one does. Stand in front of a door and use this option to open th
-#0041 hanging f=0  p=8  L5   ( 287) | SPELL: The Spell selection will bring up a smaller window showing each of your characters. Choos
-#0042 hanging f=0  p=7  L4   ( 228) | ITEM: Brings up each characters' inventory. This allows you to use items like Medical Herbs, Ant
-#0043 art                 L6   |       ____________
-#0044 hanging f=10 p=16 L3   ( 151) | USE: This option will simply use the item. If it's an item that can be used on another character
-#0045 hanging f=10 p=21 L2   (  92) | TRANSFER: Transfer allows you to give an item or piece of equipment to another party member.
-#0046 hanging f=10 p=20 L4   ( 217) | DISCARD: Using this option will let you throw away an item that you don't want. Be careful, thou
-#0047 hanging f=10 p=20 L4   ( 235) | APPRAISE: This option won't become available until Ch. 3 & later in Ch. 5 (when Taloon is presen
-#0048 hanging f=0  p=9  L6   ( 400) | TACTICS: Selecting 'Tactics' will allow you to rearrange the formation of your party. In Chapter
-#0049 hanging f=0  p=9  L3   ( 206) | SEARCH: Use the Search option to check the ground beneath your feet, inspect or look in vases/dr
-#0050 art                 L3   |  ____________
-#0051 block   f=8  p=0  L8   ( 586) | This menu will appear at the bottom of your screen when you press the A Button on the field (alo
-#0052 block   f=8  p=0  L3   ( 143) | You'll notice that the text color of the menus will change color depending on your party's curre
-#0053 block   f=0  p=0  L4   ( 173) | WHITE - HP at max or HP in a healthy state GREEN - HP in critical condition (Heal now!) BLUE - N
+#0011 art                 L1   | _________
+#0012 block   f=0  p=0  L2   ( 113) | 12.05.15 \ Document created. All of the basic game information is _________/ complete. Walkthrou
+#0013 art                 L10  | ____________________
+#0014 block   f=0  p=0  L2   ( 145) | 06.07.16 \ Small Medal List and the whole guide complete (after quite a _________/ long break). 
+#0015 art                 L7   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#0016 block   f=8  p=0  L7   ( 509) | This walkthrough is copyrighted to Ramina. This is my own information and it may not be distribu
+#0017 art                 L1   | The following website(s) have permission to host this document:
+#0018 block   f=0  p=2  L1   (  18) | - www.gamefaqs.com
+#0019 block   f=0  p=2  L1   (  19) | - www.neoseeker.com
+#0020 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#0021 art                 L5   |    _________________________
+#0022 art                 L1   |                                     ~*~*~*~
+#0023 art                 L1   |       "As the Legend of Erdrick slips into the past, it's time to begin anew.
+#0024 block   f=0  p=0  L2   ( 121) | Chapter One: Ragnar, the King's General. You must find the reason for the recent disappearance o
+#0025 block   f=0  p=0  L3   ( 151) | Chapter Two: Alena, the Princess. As daughter of the King, you wish to escape his overly-protect
+#0026 block   f=0  p=0  L3   ( 170) | Chapter Three: Taloon, the Merchant. Your lifelong dream is to own a store. Leave your family be
+#0027 block   f=0  p=0  L3   ( 198) | Chapter Four: Mara & Nara, the Dancer and the Fortune Teller. These sisters learn of their fathe
+#0028 art                 L1   | Chapter Five:  Fulfill a prophecy.  Is this your destiny?"
+#0029 art                 L1   |                                     ~*~*~*~
+#0030 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#0031 art                 L5   |    ______________________
+#0032 art                 L13  |              _____________________________[D-Pad]:  Moves characters; navigate
+#0033 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#0034 art                 L5   |    _______________________
+#0035 block   f=8  p=0  L6   ( 454) | There are three main menus that you'll be paying more attention to than anything else in the gam
+#0036 art                 L7   |  _____       ______
+#0037 art                 L8   |                        |==Ragn==|
+#0038 hanging f=0  p=7  L4   ( 214) | TALK: This option will allow you to talk to the citizens of the towns and anyone else in the gam
+#0039 hanging f=0  p=9  L3   ( 195) | STATUS: This selection will lead to a new menu that displays each characters' current statistics
+#0040 art                 L5   |                 ______      ______
+#0041 hanging f=19 p=26 L5   ( 237) | INFO: Allows you to view each character's stats and EXP. Pressing 'A' again will show their equi
+#0042 hanging f=19 p=31 L5   ( 232) | CONDITION: This will bring up a separate menu where you can easily see your entire party's HP/MP
+#0043 hanging f=0  p=8  L4   ( 270) | EQUIP: The Equip selection will bring up a smaller window listing your characters. Select which 
+#0044 hanging f=0  p=8  L3   ( 179) | DOOR: Pretty obvious what this one does. Stand in front of a door and use this option to open th
+#0045 hanging f=0  p=8  L5   ( 287) | SPELL: The Spell selection will bring up a smaller window showing each of your characters. Choos
+#0046 hanging f=0  p=7  L4   ( 228) | ITEM: Brings up each characters' inventory. This allows you to use items like Medical Herbs, Ant
+#0047 art                 L6   |       ____________
+#0048 hanging f=10 p=16 L3   ( 151) | USE: This option will simply use the item. If it's an item that can be used on another character
+#0049 hanging f=10 p=21 L2   (  92) | TRANSFER: Transfer allows you to give an item or piece of equipment to another party member.
+#0050 hanging f=10 p=20 L4   ( 217) | DISCARD: Using this option will let you throw away an item that you don't want. Be careful, thou
+#0051 hanging f=10 p=20 L4   ( 235) | APPRAISE: This option won't become available until Ch. 3 & later in Ch. 5 (when Taloon is presen
+#0052 hanging f=0  p=9  L6   ( 400) | TACTICS: Selecting 'Tactics' will allow you to rearrange the formation of your party. In Chapter
+#0053 hanging f=0  p=9  L3   ( 206) | SEARCH: Use the Search option to check the ground beneath your feet, inspect or look in vases/dr
 #0054 art                 L3   |  ____________
-#0055 block   f=8  p=0  L4   ( 289) | Anytime you're roaming around on the world map or in caves or towers, it's very likely you'll be
-#0056 art                 L5   |   |==Ragn==|
-#0057 art                 L2   |            /\   /\   /\
-#0058 art                 L7   |    __    ___  ____________________
-#0059 block   f=8  p=0  L5   ( 360) | The top window you should already be familiar with; this is the status menu that you see when yo
-#0060 hanging f=0  p=6  L3   ( 173) | NOTE: Starting in Chapter 5, a window in the upper-right of the screen will display the party's 
-#0061 block   f=8  p=0  L3   ( 192) | Let's start with the bottom left window. First of all, you'll see which character you're control
-#0062 hanging f=0  p=8  L3   ( 161) | FIGHT: This option is the one you'll use the most in battle; hands down. It simply allows that c
-#0063 hanging f=0  p=8  L6   ( 410) | SPELL: The Spell option will bring up another window where you can select which spell you want t
-#0064 hanging f=0  p=6  L6   ( 406) | RUN: Using Run will give you the opportunity to flee from the battle. This option doesn't always
-#0065 hanging f=0  p=7  L4   ( 225) | ITEM: This selection will bring up a new window containing that character's inventory. It will a
-#0066 hanging f=0  p=8  L6   ( 381) | PARRY: Parry will simply put the character in a state of defense where they will not attack, but
-#0067 block   f=8  p=0  L3   ( 185) | Once you reach Chapter 5, the first menu that appears when you enter battle will be slightly dif
-#0068 art                 L6   |    __________ ___________________
-#0069 hanging f=0  p=8  L3   ( 198) | FIGHT: Hasn't changed; this selection will then allow you to select how you want the first chara
-#0070 hanging f=0  p=10 L5   ( 308) | TACTICS: Selecting this will bring up another sub-menu that has 3 options: Change Tactics, See S
-#0071 hanging f=10 p=21 L2   ( 119) | Normal: A balance between offensive and defensive attacks/spells. Can be useful through most of 
-#0072 hanging f=10 p=21 L2   ( 110) | Offensive: Dealing damage is the priority. This will have any mages in the party use their best 
-#0073 hanging f=10 p=21 L3   ( 170) | Try Out: The best way to describe 'Try Out' is "random". All it does is choose random spells to 
-#0074 hanging f=10 p=21 L3   ( 146) | Save MP: This will tell your mages to minimize MP consumption. They will still use spells occasi
-#0075 hanging f=10 p=21 L5   ( 264) | Defensive: Well, the opposite of Offensive. This tactic can come in handy during longer battles 
-#0076 hanging f=10 p=21 L2   (  79) | Use No MP: Does exactly what it says: tells your mages not to use magic at all.
-#0077 block   f=10 p=10 L8   ( 533) | I find myself going back and forth between Normal, Offensive, and Use No MP quite a lot in this 
-#0078 hanging f=0  p=9  L6   ( 400) | MEMBER: Once you've obtained the wagon in Chapter 5 you'll have this option. This option will al
-#0079 hanging f=0  p=6  L3   ( 155) | RUN: Attempts to escape from battle immediately. If foes are bewildered or don't notice you at t
-#0080 block   f=8  p=0  L9   ( 669) | The window to the right of the battle selection window will show, in text, the monsters you're f
-#0081 block   f=8  p=0  L4   ( 245) | Once you have defeated all of the monsters in the battle, a victory message will appear and your
-#0082 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#0083 art                 L5   |    ____________________________________________________
-#0084 block   f=8  p=0  L3   ( 164) | Your characters' stats are what determine how strong they are in battle. There are ten basic sta
-#0085 art                 L10  | - Strength
-#0086 hanging f=0  p=11 L4   ( 252) | STRENGTH: This is the base stat for determining how strong a character's physical attack is. The
-#0087 hanging f=0  p=10 L7   ( 463) | AGILITY: Agility is the stat that determines how soon a character will attack in battle. If you 
-#0088 hanging f=0  p=11 L4   ( 242) | VITALITY: If you've played DW3, you should be familiar with this statistic. Vitality effects a c
-#0089 hanging f=0  p=15 L4   ( 243) | INTELLIGENCE: The magic-using characters in the DW games generally have great Intelligence growt
-#0090 hanging f=0  p=7  L6   ( 404) | LUCK: A very mysterious stat indeed. Similar to how DW3 incorporated Luck, this stat seems to ef
-#0091 hanging f=0  p=9  L5   ( 299) | MAX HP: Pretty self-explanatory; the total Hitpoints or "life" each character possesses. When a 
-#0092 hanging f=0  p=9  L6   ( 359) | MAX MP: Another self-explanatory stat; the total Magic points a player has in order to cast spel
-#0093 hanging f=0  p=15 L9   ( 498) | ATTACK POWER: This stat goes hand-in-hand with Strength, but there's a notable difference. Any t
-#0094 hanging f=0  p=16 L5   ( 273) | DEFENSE POWER: Defense Power works the same way as Attack Power. When a player equips certain pi
-#0095 hanging f=0  p=20 L8   ( 464) | EXPERIENCE POINTS: This last one really isn't a stat so to speak, but it's a number that determi
-#0096 block   f=8  p=0  L6   ( 441) | Status ailments are conditions that your characters can sometimes be put under during battle. Ma
-#0097 art                 L39  |  _______________________________________________________________________
-#0098 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#0099 art                 L5   |    _______________________________________________________________
-#0100 art                 L60  |  _____________________________________________________________________________
-#0101 art                 L15  |  _____________________________________________________________________________
-#0102 art                 L15  |  _____________________________________________________________________________
-#0103 art                 L44  |  _____________________________________________________________________________
-#0104 art                 L49  |  _____________________________________________________________________________
-#0105 art                 L16  |  _____________________________________________________________________________
-#0106 art                 L49  |  _____________________________________________________________________________
-#0107 art                 L43  |  _____________________________________________________________________________
-#0108 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#0109 art                 L5   |    ______________________________________________
-#0110 hanging f=0  p=3  L6   ( 421) | - SAVE OFTEN! I know you've heard this 1,000,001 times but I can't stress it enough. You never k
-#0111 hanging f=0  p=3  L7   ( 473) | - Talk to anyone and everyone you come across. Most of what people have to say has something to 
-#0112 hanging f=0  p=3  L6   ( 400) | - Get rid of pesky status ailments as soon as you can. It's not fun getting inflicted with poiso
-#0113 hanging f=0  p=3  L7   ( 446) | - Try not to run away from a random battle unless you have to. If your party is on the brink of 
-#0114 hanging f=0  p=3  L3   ( 201) | - I just want to give clarity to some of the terminology you'll see throughout this guide. To av
-#0115 hanging f=3  p=7  L11  ( 744) | (o) I'm attempting to make this Walkthrough as close to 100% complete as I can. Meaning it shoul
-#0116 hanging f=3  p=7  L4   ( 235) | (o) When giving navigational directions, I tend to use things like NW, NE, SW, or SE a lot. This
-#0117 hanging f=3  p=7  L5   ( 336) | (o) The 'Recommended LVL' line at the beginning of each section is nothing more than a guideline
-#0118 hanging f=3  p=7  L6   ( 360) | (o) If you see '[Ch. _ Misc.]' in the Monsters box at the top of each section, that just means y
-#0119 hanging f=3  p=7  L11  ( 748) | (o) I find it more advantageous to save any and all of your stat-boosting seeds until late in th
-#0120 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#0121 art                 L5   |    ____________________________
-#0122 block   f=8  p=0  L3   ( 153) | After the cinematic title screen, start a new quest and input the main character's name and gend
-#0123 art                 L4   |  _____________________________________________________________________________
-#0124 art                 L18  |  ______________________
-#0125 art                 L6   | WEAPONS SHOP:
-#0126 art                 L8   | ARMOR SHOP:
-#0127 block   f=8  p=0  L5   ( 372) | As the first chapter begins you control Ragnar, a soldier of Burland, who is being given the ass
-#0128 block   f=8  p=0  L4   ( 258) | Leave the castle and explore the town itself. Since you only begin with 50G, there's not much yo
-#0129 block   f=8  p=0  L5   ( 305) | After speaking with the townspeople, you'll also learn from a woman in the SW corner of town tha
-#0130 block   f=8  p=0  L5   ( 302) | Leave town and fight around the Burland area until Ragnar reaches LVL 3 or so. By then, you shou
-#0131 block   f=8  p=0  L3   ( 160) | Once you've made any equipment upgrades you can and rested, leave Burland and start traveling NW
-#0132 art                 L13  |  ______________________
-#0133 block   f=8  p=0  L6   ( 381) | Follow the linear path north and go right when you can. Continue along the path and walk east in
-#0134 block   f=8  p=0  L5   ( 335) | Walk clockwise around the water and take the path on the left. Follow it as it goes north to fin
-#0135 art                 L17  |  ______________________
-#0136 art                 L7   | WEAPONS SHOP:
-#0137 art                 L8   | ARMOR SHOP:
-#0138 block   f=8  p=0  L9   ( 640) | A fairly small village; you'll find the Item Shop and the Inn near the entrance of town. The Wea
-#0139 block   f=8  p=0  L8   ( 546) | You may notice the staircase on the very north end of town near the shops. Head down and speak t
-#0140 block   f=8  p=0  L7   ( 465) | When you return to Burland, speak with the woman (Flora) south of the entrance and she'll decide
-#0141 block   f=8  p=0  L7   ( 471) | Now that we have this information, rest at the Inn and save your game. Now might be a good time 
-#0142 art                 L12  |  ______________________________
-#0143 block   f=8  p=0  L6   ( 387) | Walk directly north and down the well you come to. When you land in the cavern below follow the 
-#0144 block   f=8  p=0  L3   ( 220) | Follow this linear path until the voice beckons you again. This time, ignore its instructions an
-#0145 block   f=8  p=0  L8   ( 604) | Backtrack to the last intersection and go south this time to find a staircase leading down which
-#0146 block   f=8  p=0  L6   ( 416) | Now that we have a new injury-healing friend, retrace your steps back to where the voice calls y
-#0147 block   f=8  p=0  L5   ( 349) | Retrace your steps back to the split in the path and go west this time as the voice suggests. At
-#0148 block   f=8  p=0  L8   ( 567) | Now it's time for us to leave, so backtrack south to the staircase we came from in the very SW c
-#0149 block   f=8  p=0  L7   ( 465) | You should be in a small room with 5 vases along the NW corner. Take the time to search each of 
-#0150 block   f=8  p=0  L12  ( 886) | Now that we have the Flying Shoes, we can rescue the children that are being taken to Loch Tower
-#0151 block   f=8  p=0  L4   ( 249) | When you're ready to go, leave Izmit and walk directly west. Stand against the water surrounding
-#0152 art                 L15  |  ____________________
-#0153 block   f=8  p=0  L6   ( 441) | When you land in the tower, you'll witness a child being abducted and taken downstairs. Follow t
-#0154 block   f=8  p=0  L9   ( 652) | Walk directly north from the stairs and pass the large door on your left. You'll soon some to an
-#0155 block   f=8  p=0  L13  ( 909) | You'll now be on the first floor of the tower. Walk directly south and down the staircase you se
-#0156 block   f=8  p=0  L5   ( 340) | If you need to return to the basement to heal up, don't hesitate to do so. From the stairs that 
-#0157 block   f=8  p=0  L3   ( 211) | Walk east along the path and north into the room. After some quick dialogue, walk north and spea
-#0158 art                 L16  | +-----------------------+----------------------------------------------------+
-#0159 block   f=8  p=0  L8   ( 546) | After the battle, the children will follow you as you make your way out of the tower. The quicke
-#0160 art                 L9   |  ______________________________
-#0161 block   f=8  p=0  L8   ( 526) | When you reach Izmit, the children will be reunited with their families and you can speak to the
-#0162 block   f=8  p=0  L4   ( 284) | When you're ready to continue, leave Izmit and return to Burland through the cave. Return to the
-#0163 art                 L4   |  _____________________________________________________________________________
-#0164 art                 L17  |  _________________________
-#0165 art                 L3   | WEAPONS SHOP:
-#0166 art                 L3   | ARMOR SHOP:
-#0167 block   f=8  p=0  L9   ( 599) | After the short intro to Chapter 2, you'll be speaking with the King (Alena's father) in the thr
-#0168 block   f=8  p=0  L8   ( 521) | You won't be able to get into the King's Chambers yet, so go back downstairs and speak with Brey
-#0169 block   f=8  p=0  L4   ( 282) | You'll land on the roof of the castle where all you need to do is walk off the edge to the north
-#0170 block   f=8  p=0  L4   ( 251) | As you start to walk west to the small town in sight you'll be stopped by Brey and Cristo. When 
-#0171 art                 L16  |  ______________________
-#0172 art                 L5   | WEAPONS SHOP:
-#0173 art                 L8   | ARMOR SHOP:
-#0174 block   f=8  p=0  L5   ( 350) | When I said a small town, I wasn't joking. Check out the shops and speak with the few citizens i
-#0175 block   f=8  p=0  L3   ( 192) | By the time you reach LVL 4 or so, purchase a Copper Sword for Cristo and give his old Club to A
-#0176 block   f=8  p=0  L5   ( 357) | When you're ready to continue, heal and save your game in Surene. Be warned that if you at any p
-#0177 art                 L21  |  ________________
-#0178 block   f=8  p=0  L6   ( 405) | Not a very big town. Be sure to speak with all the villagers to learn that young girls are being
-#0179 block   f=8  p=0  L8   ( 597) | Before saying yes, it might be a good idea to get everyone to LVL 6 and accumulate some cash to 
-#0180 block   f=8  p=0  L4   ( 285) | Walk into the House of Healing to the north and speak with the shaman inside. Tell him you're re
-#0181 art                 L20  | +-----------------------+----------------------------------------------------+
-#0182 block   f=8  p=0  L5   ( 315) | The Item Shop will also open once you've defeated the boss; the shop can be located in the very 
-#0183 block   f=8  p=0  L6   ( 371) | After speaking with everyone and receiving gratitude from the villagers, heal up and save as usu
-#0184 block   f=8  p=0  L3   ( 161) | From Tempe, follow the path NE and then go directly east when you can. You'll eventually reach a
-#0185 art                 L21  |  _________________
-#0186 art                 L7   | WEAPONS SHOP: (Opens after you obtain the Thief's Key)
-#0187 block   f=8  p=0  L5   ( 348) | After exploring and speaking with the citizens of Frenor you'll hear that the Princess is suppos
-#0188 block   f=8  p=0  L7   ( 456) | Speak with the people up here and the "Princess" will be taken away. Follow the kidnappers and y
-#0189 block   f=8  p=0  L5   ( 334) | You can now stay at the Inn and save your game via the House of Healing in the SW corner of town
-#0190 block   f=8  p=0  L9   ( 631) | Take this time to fight the monsters around Frenor to gain EXP and Gold. You'll probably want to
-#0191 art                 L17  |  _______________________________
-#0192 hanging f=0  p=7  L4   ( 268) | NOTE: Make sure you save all of Cristo's MP for healing. This cave has a few monsters that can m
-#0193 block   f=8  p=0  L9   ( 653) | From the entrance, walk SW a few paces and then south into the dark passage. You'll find a treas
-#0194 block   f=8  p=0  L8   ( 569) | On the bottom floor, walk south and take the eastern path. When you reach a larger room walk wes
-#0195 art                 L9   |  ________________________________
-#0196 block   f=8  p=0  L5   ( 314) | Return to Frenor at night and head to the NW side of town. Here you'll find the graveyard and no
-#0197 block   f=8  p=0  L6   ( 437) | Before we leave Frenor, speak to everyone in town after the fake Princess has left. You'll get s
-#0198 block   f=8  p=0  L4   ( 233) | Travel far south of Frenor (passing the cave) and turn SW a bit. You will soon spot a shrine to 
-#0199 art                 L21  |  ________________
-#0200 art                 L7   | WEAPONS SHOP:
-#0201 art                 L8   | ARMOR SHOP:
-#0202 block   f=8  p=0  L6   ( 397) | Do the usual routine when you enter the Bazaar. Check the shops and speak with the people around
-#0203 block   f=8  p=0  L6   ( 426) | If you walk over to the west side of the Bazaar you'll be stopped by a guard from Santeem Castle
-#0204 block   f=8  p=0  L3   ( 206) | You'll learn about a tournament going on in Endor to the east after talking to everyone. That's 
-#0205 art                 L9   |  _____________________________
-#0206 block   f=8  p=0  L6   ( 403) | Cast Return to Santeem and enter the castle. Make your way to 2F and talk to the King to find ou
-#0207 block   f=8  p=0  L5   ( 373) | Talk to the old man, Goz, then check the dresser/drawers in the room to find a WING OF WYVERN. L
-#0208 block   f=8  p=0  L9   ( 624) | Leave Surene and return to the Bazaar. Speak to the Item Shop owner by walking behind him and us
-#0209 art                 L16  |  ________________________
-#0210 hanging f=0  p=8  L3   ( 209) | NOTE: Hopefully Brey has learned Snowstorm by now. If not, it would be wise to fight monsters un
-#0211 block   f=8  p=0  L6   ( 418) | Walk north and into the room in the center to find a staircase. If you go down here you'll find 
-#0212 block   f=9  p=0  L6   ( 406) | On 2F, walk left until you hit the wall then go south. Follow the path SE as it bends and up ano
-#0213 block   f=8  p=0  L4   ( 231) | Go east through the passage and turn directly south. Follow the pathway as it turns left and go 
-#0214 block   f=8  p=0  L6   ( 441) | Head north from these stairs and through the opening. In the very NW corner of this room you'll 
-#0215 block   f=8  p=0  L3   ( 219) | At the top you'll find a couple of elves dancing in the center of the room. Approach them and th
-#0216 block   f=8  p=0  L5   ( 327) | Now that we have everything, leave the tower and cast Return to Santeem Castle. Make your way to
-#0217 block   f=8  p=0  L6   ( 396) | Leave Santeem and make your way back to Frenor. Travel south of Frenor, passing the cave where w
-#0218 art                 L16  |  ____________________________
-#0219 art                 L8   | ITEM SHOP:
-#0220 art                 L4   | ITEM SHOP (Tournament):
-#0221 art                 L7   | WEAPONS SHOP:
-#0222 art                 L8   | ARMOR SHOP:
-#0223 block   f=8  p=0  L5   ( 370) | Endor is by far the largest Castle/Town you've encountered thus far. Take your time exploring an
-#0224 block   f=8  p=0  L8   ( 568) | If you go downstairs on the 1F of the Inn you'll find a Casino. You can only play with special c
-#0225 block   f=8  p=0  L5   ( 362) | After exploring the town and talking to everyone, head into the main door of the castle on the n
-#0226 block   f=8  p=0  L6   ( 403) | Leave and enter the western (left) door of the Castle from the outside and you'll be in the hall
-#0227 block   f=8  p=0  L8   ( 569) | Speak to the soldier you see here and he'll allow you into the Colesium. The staircase on the fa
-#0228 block   f=8  p=0  L5   ( 338) | Once you've rested and purchased what you need, speak to everyone in the room and exit to the no
-#0229 art                 L9   | +------------------+---------------------------------------------------------+
-#0230 art                 L9   | +------------------+---------------------------------------------------------+
-#0231 art                 L9   | +------------------+---------------------------------------------------------+
-#0232 art                 L9   | +------------------+---------------------------------------------------------+
-#0233 art                 L13  | +------------------+---------------------------------------------------------+
-#0234 block   f=8  p=0  L10  ( 704) | After felling the Linguar the announcer will call for champion, Necrosaro, to step forward. Unfo
-#0235 art                 L4   |  _____________________________________________________________________________
-#0236 art                 L14  |  ___________________
-#0237 art                 L6   | ITEM SHOP:
-#0238 art                 L9   | WEAPONS SHOP:
-#0239 art                 L8   | ARMOR SHOP:
-#0240 block   f=8  p=0  L4   ( 243) | As Chapter 3 begins, Taloon's wife will give him his LUNCH and wish him off to work. When you ha
-#0241 block   f=8  p=0  L8   ( 604) | North of Taloon's house you'll find a small Item Shop and above that is an old man who asks you 
-#0242 block   f=8  p=0  L11  ( 766) | Your main objective right now is to run the Weapons Shop in the SW corner of town. Approach the 
-#0243 block   f=8  p=0  L11  ( 773) | After a while your boss will appear again and pay you at the end of your shift. You'll generally
-#0244 block   f=8  p=0  L4   ( 230) | Once Taloon has hit level 3 or so, rest up and purchase better equipment (don't bother with the 
-#0245 art                 L12  |  ________________________________
-#0246 block   f=8  p=0  L4   ( 283) | From the entrance, walk west and down the staircase here. Now simply follow the linear path on B
-#0247 block   f=8  p=0  L5   ( 330) | Continue the linear path, making your way down more stairs until you reach an area with another 
-#0248 block   f=8  p=0  L5   ( 316) | Walk north and take path to the left, then go down the stairs at the end. On B4, follow the path
-#0249 block   f=8  p=0  L7   ( 469) | With the boulder following you, walk east into the next passage and follow it as it turns south.
-#0250 art                 L8   |         With the pit now covered by the boulder, you can cross to the south
-#0251 block   f=8  p=0  L6   ( 400) | If you forgot to push a boulder into the room along with you and you have already taken the Iron
-#0252 block   f=8  p=0  L9   ( 607) | Now that we have the Iron Safe, retrace your steps and exit the cave (most of the pathways are l
-#0253 art                 L13  |  __________________
-#0254 block   f=8  p=0  L7   ( 510) | Upon entering, follow the path and take the narrow passage north to the town itself. Not much go
-#0255 block   f=8  p=0  L6   ( 370) | Behind the Item Shop is a house where you'll find the mayor. Speak with him and agree to stay th
-#0256 art                 L12  |  ___________________
+#0055 block   f=8  p=0  L8   ( 586) | This menu will appear at the bottom of your screen when you press the A Button on the field (alo
+#0056 block   f=8  p=0  L3   ( 143) | You'll notice that the text color of the menus will change color depending on your party's curre
+#0057 block   f=0  p=0  L4   ( 173) | WHITE - HP at max or HP in a healthy state GREEN - HP in critical condition (Heal now!) BLUE - N
+#0058 art                 L3   |  ____________
+#0059 block   f=8  p=0  L4   ( 289) | Anytime you're roaming around on the world map or in caves or towers, it's very likely you'll be
+#0060 art                 L5   |   |==Ragn==|
+#0061 art                 L2   |            /\   /\   /\
+#0062 art                 L7   |    __    ___  ____________________
+#0063 block   f=8  p=0  L5   ( 360) | The top window you should already be familiar with; this is the status menu that you see when yo
+#0064 hanging f=0  p=6  L3   ( 173) | NOTE: Starting in Chapter 5, a window in the upper-right of the screen will display the party's 
+#0065 block   f=8  p=0  L3   ( 192) | Let's start with the bottom left window. First of all, you'll see which character you're control
+#0066 hanging f=0  p=8  L3   ( 161) | FIGHT: This option is the one you'll use the most in battle; hands down. It simply allows that c
+#0067 hanging f=0  p=8  L6   ( 410) | SPELL: The Spell option will bring up another window where you can select which spell you want t
+#0068 hanging f=0  p=6  L6   ( 406) | RUN: Using Run will give you the opportunity to flee from the battle. This option doesn't always
+#0069 hanging f=0  p=7  L4   ( 225) | ITEM: This selection will bring up a new window containing that character's inventory. It will a
+#0070 hanging f=0  p=8  L6   ( 381) | PARRY: Parry will simply put the character in a state of defense where they will not attack, but
+#0071 block   f=8  p=0  L3   ( 185) | Once you reach Chapter 5, the first menu that appears when you enter battle will be slightly dif
+#0072 art                 L6   |    __________ ___________________
+#0073 hanging f=0  p=8  L3   ( 198) | FIGHT: Hasn't changed; this selection will then allow you to select how you want the first chara
+#0074 hanging f=0  p=10 L5   ( 308) | TACTICS: Selecting this will bring up another sub-menu that has 3 options: Change Tactics, See S
+#0075 hanging f=10 p=21 L2   ( 119) | Normal: A balance between offensive and defensive attacks/spells. Can be useful through most of 
+#0076 hanging f=10 p=21 L2   ( 110) | Offensive: Dealing damage is the priority. This will have any mages in the party use their best 
+#0077 hanging f=10 p=21 L3   ( 170) | Try Out: The best way to describe 'Try Out' is "random". All it does is choose random spells to 
+#0078 hanging f=10 p=21 L3   ( 146) | Save MP: This will tell your mages to minimize MP consumption. They will still use spells occasi
+#0079 hanging f=10 p=21 L5   ( 264) | Defensive: Well, the opposite of Offensive. This tactic can come in handy during longer battles 
+#0080 hanging f=10 p=21 L2   (  79) | Use No MP: Does exactly what it says: tells your mages not to use magic at all.
+#0081 block   f=10 p=10 L8   ( 533) | I find myself going back and forth between Normal, Offensive, and Use No MP quite a lot in this 
+#0082 hanging f=0  p=9  L6   ( 400) | MEMBER: Once you've obtained the wagon in Chapter 5 you'll have this option. This option will al
+#0083 hanging f=0  p=6  L3   ( 155) | RUN: Attempts to escape from battle immediately. If foes are bewildered or don't notice you at t
+#0084 block   f=8  p=0  L9   ( 669) | The window to the right of the battle selection window will show, in text, the monsters you're f
+#0085 block   f=8  p=0  L4   ( 245) | Once you have defeated all of the monsters in the battle, a victory message will appear and your
+#0086 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#0087 art                 L5   |    ____________________________________________________
+#0088 block   f=8  p=0  L3   ( 164) | Your characters' stats are what determine how strong they are in battle. There are ten basic sta
+#0089 block   f=0  p=2  L1   (  10) | - Strength
+#0090 block   f=0  p=2  L1   (   9) | - Agility
+#0091 block   f=0  p=2  L1   (  10) | - Vitality
+#0092 block   f=0  p=2  L1   (  14) | - Intelligence
+#0093 block   f=0  p=2  L1   (   6) | - Luck
+#0094 block   f=0  p=2  L1   (   8) | - Max HP
+#0095 block   f=0  p=2  L1   (   8) | - Max MP
+#0096 block   f=0  p=2  L1   (  14) | - Attack Power
+#0097 block   f=0  p=2  L1   (  15) | - Defense Power
+#0098 block   f=0  p=2  L1   (  25) | - Experience Points (EXP)
+#0099 hanging f=0  p=11 L4   ( 252) | STRENGTH: This is the base stat for determining how strong a character's physical attack is. The
+#0100 hanging f=0  p=10 L7   ( 463) | AGILITY: Agility is the stat that determines how soon a character will attack in battle. If you 
+#0101 hanging f=0  p=11 L4   ( 242) | VITALITY: If you've played DW3, you should be familiar with this statistic. Vitality effects a c
+#0102 hanging f=0  p=15 L4   ( 243) | INTELLIGENCE: The magic-using characters in the DW games generally have great Intelligence growt
+#0103 hanging f=0  p=7  L6   ( 404) | LUCK: A very mysterious stat indeed. Similar to how DW3 incorporated Luck, this stat seems to ef
+#0104 hanging f=0  p=9  L5   ( 299) | MAX HP: Pretty self-explanatory; the total Hitpoints or "life" each character possesses. When a 
+#0105 hanging f=0  p=9  L6   ( 359) | MAX MP: Another self-explanatory stat; the total Magic points a player has in order to cast spel
+#0106 hanging f=0  p=15 L9   ( 498) | ATTACK POWER: This stat goes hand-in-hand with Strength, but there's a notable difference. Any t
+#0107 hanging f=0  p=16 L5   ( 273) | DEFENSE POWER: Defense Power works the same way as Attack Power. When a player equips certain pi
+#0108 hanging f=0  p=20 L8   ( 464) | EXPERIENCE POINTS: This last one really isn't a stat so to speak, but it's a number that determi
+#0109 block   f=8  p=0  L6   ( 441) | Status ailments are conditions that your characters can sometimes be put under during battle. Ma
+#0110 art                 L34  |  _______________________________________________________________________
+#0111 block   f=0  p=0  L2   ( 109) | |Paralysis | NM |Character cannot attack or|Full Moon Herb, | | | |defend for several rounds.|Nu
+#0112 art                 L3   | |           |              |                          |                 |
+#0113 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#0114 art                 L5   |    _______________________________________________________________
+#0115 art                 L60  |  _____________________________________________________________________________
+#0116 art                 L15  |  _____________________________________________________________________________
+#0117 art                 L15  |  _____________________________________________________________________________
+#0118 art                 L44  |  _____________________________________________________________________________
+#0119 art                 L49  |  _____________________________________________________________________________
+#0120 art                 L16  |  _____________________________________________________________________________
+#0121 art                 L49  |  _____________________________________________________________________________
+#0122 art                 L43  |  _____________________________________________________________________________
+#0123 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#0124 art                 L5   |    ______________________________________________
+#0125 hanging f=0  p=3  L6   ( 421) | - SAVE OFTEN! I know you've heard this 1,000,001 times but I can't stress it enough. You never k
+#0126 hanging f=0  p=3  L7   ( 473) | - Talk to anyone and everyone you come across. Most of what people have to say has something to 
+#0127 hanging f=0  p=3  L6   ( 400) | - Get rid of pesky status ailments as soon as you can. It's not fun getting inflicted with poiso
+#0128 hanging f=0  p=3  L7   ( 446) | - Try not to run away from a random battle unless you have to. If your party is on the brink of 
+#0129 hanging f=0  p=3  L3   ( 201) | - I just want to give clarity to some of the terminology you'll see throughout this guide. To av
+#0130 hanging f=3  p=7  L11  ( 744) | (o) I'm attempting to make this Walkthrough as close to 100% complete as I can. Meaning it shoul
+#0131 hanging f=3  p=7  L4   ( 235) | (o) When giving navigational directions, I tend to use things like NW, NE, SW, or SE a lot. This
+#0132 hanging f=3  p=7  L5   ( 336) | (o) The 'Recommended LVL' line at the beginning of each section is nothing more than a guideline
+#0133 hanging f=3  p=7  L6   ( 360) | (o) If you see '[Ch. _ Misc.]' in the Monsters box at the top of each section, that just means y
+#0134 hanging f=3  p=7  L11  ( 748) | (o) I find it more advantageous to save any and all of your stat-boosting seeds until late in th
+#0135 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#0136 art                 L5   |    ____________________________
+#0137 block   f=8  p=0  L3   ( 153) | After the cinematic title screen, start a new quest and input the main character's name and gend
+#0138 art                 L4   |  _____________________________________________________________________________
+#0139 art                 L18  |  ______________________
+#0140 art                 L6   | WEAPONS SHOP:
+#0141 art                 L8   | ARMOR SHOP:
+#0142 block   f=8  p=0  L5   ( 372) | As the first chapter begins you control Ragnar, a soldier of Burland, who is being given the ass
+#0143 block   f=8  p=0  L4   ( 258) | Leave the castle and explore the town itself. Since you only begin with 50G, there's not much yo
+#0144 block   f=8  p=0  L5   ( 305) | After speaking with the townspeople, you'll also learn from a woman in the SW corner of town tha
+#0145 block   f=8  p=0  L5   ( 302) | Leave town and fight around the Burland area until Ragnar reaches LVL 3 or so. By then, you shou
+#0146 block   f=8  p=0  L3   ( 160) | Once you've made any equipment upgrades you can and rested, leave Burland and start traveling NW
+#0147 art                 L13  |  ______________________
+#0148 block   f=8  p=0  L6   ( 381) | Follow the linear path north and go right when you can. Continue along the path and walk east in
+#0149 block   f=8  p=0  L5   ( 335) | Walk clockwise around the water and take the path on the left. Follow it as it goes north to fin
+#0150 art                 L17  |  ______________________
+#0151 art                 L7   | WEAPONS SHOP:
+#0152 art                 L8   | ARMOR SHOP:
+#0153 block   f=8  p=0  L9   ( 640) | A fairly small village; you'll find the Item Shop and the Inn near the entrance of town. The Wea
+#0154 block   f=8  p=0  L8   ( 546) | You may notice the staircase on the very north end of town near the shops. Head down and speak t
+#0155 block   f=8  p=0  L7   ( 465) | When you return to Burland, speak with the woman (Flora) south of the entrance and she'll decide
+#0156 block   f=8  p=0  L7   ( 471) | Now that we have this information, rest at the Inn and save your game. Now might be a good time 
+#0157 art                 L12  |  ______________________________
+#0158 block   f=8  p=0  L6   ( 387) | Walk directly north and down the well you come to. When you land in the cavern below follow the 
+#0159 block   f=8  p=0  L3   ( 220) | Follow this linear path until the voice beckons you again. This time, ignore its instructions an
+#0160 block   f=8  p=0  L8   ( 604) | Backtrack to the last intersection and go south this time to find a staircase leading down which
+#0161 block   f=8  p=0  L6   ( 416) | Now that we have a new injury-healing friend, retrace your steps back to where the voice calls y
+#0162 block   f=8  p=0  L5   ( 349) | Retrace your steps back to the split in the path and go west this time as the voice suggests. At
+#0163 block   f=8  p=0  L8   ( 567) | Now it's time for us to leave, so backtrack south to the staircase we came from in the very SW c
+#0164 block   f=8  p=0  L7   ( 465) | You should be in a small room with 5 vases along the NW corner. Take the time to search each of 
+#0165 block   f=8  p=0  L12  ( 886) | Now that we have the Flying Shoes, we can rescue the children that are being taken to Loch Tower
+#0166 block   f=8  p=0  L4   ( 249) | When you're ready to go, leave Izmit and walk directly west. Stand against the water surrounding
+#0167 art                 L15  |  ____________________
+#0168 block   f=8  p=0  L6   ( 441) | When you land in the tower, you'll witness a child being abducted and taken downstairs. Follow t
+#0169 block   f=8  p=0  L9   ( 652) | Walk directly north from the stairs and pass the large door on your left. You'll soon some to an
+#0170 block   f=8  p=0  L13  ( 909) | You'll now be on the first floor of the tower. Walk directly south and down the staircase you se
+#0171 block   f=8  p=0  L5   ( 340) | If you need to return to the basement to heal up, don't hesitate to do so. From the stairs that 
+#0172 block   f=8  p=0  L3   ( 211) | Walk east along the path and north into the room. After some quick dialogue, walk north and spea
+#0173 art                 L16  | +-----------------------+----------------------------------------------------+
+#0174 block   f=8  p=0  L8   ( 546) | After the battle, the children will follow you as you make your way out of the tower. The quicke
+#0175 art                 L9   |  ______________________________
+#0176 block   f=8  p=0  L8   ( 526) | When you reach Izmit, the children will be reunited with their families and you can speak to the
+#0177 block   f=8  p=0  L4   ( 284) | When you're ready to continue, leave Izmit and return to Burland through the cave. Return to the
+#0178 art                 L4   |  _____________________________________________________________________________
+#0179 art                 L17  |  _________________________
+#0180 art                 L3   | WEAPONS SHOP:
+#0181 art                 L3   | ARMOR SHOP:
+#0182 block   f=8  p=0  L9   ( 599) | After the short intro to Chapter 2, you'll be speaking with the King (Alena's father) in the thr
+#0183 block   f=8  p=0  L8   ( 521) | You won't be able to get into the King's Chambers yet, so go back downstairs and speak with Brey
+#0184 block   f=8  p=0  L4   ( 282) | You'll land on the roof of the castle where all you need to do is walk off the edge to the north
+#0185 block   f=8  p=0  L4   ( 251) | As you start to walk west to the small town in sight you'll be stopped by Brey and Cristo. When 
+#0186 art                 L16  |  ______________________
+#0187 art                 L5   | WEAPONS SHOP:
+#0188 art                 L8   | ARMOR SHOP:
+#0189 block   f=8  p=0  L5   ( 350) | When I said a small town, I wasn't joking. Check out the shops and speak with the few citizens i
+#0190 block   f=8  p=0  L3   ( 192) | By the time you reach LVL 4 or so, purchase a Copper Sword for Cristo and give his old Club to A
+#0191 block   f=8  p=0  L5   ( 357) | When you're ready to continue, heal and save your game in Surene. Be warned that if you at any p
+#0192 art                 L21  |  ________________
+#0193 block   f=8  p=0  L6   ( 405) | Not a very big town. Be sure to speak with all the villagers to learn that young girls are being
+#0194 block   f=8  p=0  L8   ( 597) | Before saying yes, it might be a good idea to get everyone to LVL 6 and accumulate some cash to 
+#0195 block   f=8  p=0  L4   ( 285) | Walk into the House of Healing to the north and speak with the shaman inside. Tell him you're re
+#0196 art                 L15  | +-----------------------+----------------------------------------------------+
+#0197 block   f=0  p=0  L3   ( 172) | | You and your comrades will gain 150 EXP and 100G for the victory. If you | | get lucky enough,
+#0198 art                 L2   | |                                                                            |
+#0199 block   f=8  p=0  L5   ( 315) | The Item Shop will also open once you've defeated the boss; the shop can be located in the very 
+#0200 block   f=8  p=0  L6   ( 371) | After speaking with everyone and receiving gratitude from the villagers, heal up and save as usu
+#0201 block   f=8  p=0  L3   ( 161) | From Tempe, follow the path NE and then go directly east when you can. You'll eventually reach a
+#0202 art                 L15  |  _________________
+#0203 block   f=0  p=0  L6   ( 103) | Medical Herb 8G Antidote Herb 10G Wing of Wyvern 25G Full Moon Herb 30G Chain Mail 350G Wooden H
+#0204 art                 L7   | WEAPONS SHOP: (Opens after you obtain the Thief's Key)
+#0205 block   f=8  p=0  L5   ( 348) | After exploring and speaking with the citizens of Frenor you'll hear that the Princess is suppos
+#0206 block   f=8  p=0  L7   ( 456) | Speak with the people up here and the "Princess" will be taken away. Follow the kidnappers and y
+#0207 block   f=8  p=0  L5   ( 334) | You can now stay at the Inn and save your game via the House of Healing in the SW corner of town
+#0208 block   f=8  p=0  L9   ( 631) | Take this time to fight the monsters around Frenor to gain EXP and Gold. You'll probably want to
+#0209 art                 L17  |  _______________________________
+#0210 hanging f=0  p=7  L4   ( 268) | NOTE: Make sure you save all of Cristo's MP for healing. This cave has a few monsters that can m
+#0211 block   f=8  p=0  L9   ( 653) | From the entrance, walk SW a few paces and then south into the dark passage. You'll find a treas
+#0212 block   f=8  p=0  L8   ( 569) | On the bottom floor, walk south and take the eastern path. When you reach a larger room walk wes
+#0213 art                 L9   |  ________________________________
+#0214 block   f=8  p=0  L5   ( 314) | Return to Frenor at night and head to the NW side of town. Here you'll find the graveyard and no
+#0215 block   f=8  p=0  L6   ( 437) | Before we leave Frenor, speak to everyone in town after the fake Princess has left. You'll get s
+#0216 block   f=8  p=0  L4   ( 233) | Travel far south of Frenor (passing the cave) and turn SW a bit. You will soon spot a shrine to 
+#0217 art                 L21  |  ________________
+#0218 art                 L7   | WEAPONS SHOP:
+#0219 art                 L8   | ARMOR SHOP:
+#0220 block   f=8  p=0  L6   ( 397) | Do the usual routine when you enter the Bazaar. Check the shops and speak with the people around
+#0221 block   f=8  p=0  L6   ( 426) | If you walk over to the west side of the Bazaar you'll be stopped by a guard from Santeem Castle
+#0222 block   f=8  p=0  L3   ( 206) | You'll learn about a tournament going on in Endor to the east after talking to everyone. That's 
+#0223 art                 L9   |  _____________________________
+#0224 block   f=8  p=0  L6   ( 403) | Cast Return to Santeem and enter the castle. Make your way to 2F and talk to the King to find ou
+#0225 block   f=8  p=0  L5   ( 373) | Talk to the old man, Goz, then check the dresser/drawers in the room to find a WING OF WYVERN. L
+#0226 block   f=8  p=0  L9   ( 624) | Leave Surene and return to the Bazaar. Speak to the Item Shop owner by walking behind him and us
+#0227 art                 L16  |  ________________________
+#0228 hanging f=0  p=8  L3   ( 209) | NOTE: Hopefully Brey has learned Snowstorm by now. If not, it would be wise to fight monsters un
+#0229 block   f=8  p=0  L6   ( 418) | Walk north and into the room in the center to find a staircase. If you go down here you'll find 
+#0230 block   f=9  p=0  L6   ( 406) | On 2F, walk left until you hit the wall then go south. Follow the path SE as it bends and up ano
+#0231 block   f=8  p=0  L4   ( 231) | Go east through the passage and turn directly south. Follow the pathway as it turns left and go 
+#0232 block   f=8  p=0  L6   ( 441) | Head north from these stairs and through the opening. In the very NW corner of this room you'll 
+#0233 block   f=8  p=0  L3   ( 219) | At the top you'll find a couple of elves dancing in the center of the room. Approach them and th
+#0234 block   f=8  p=0  L5   ( 327) | Now that we have everything, leave the tower and cast Return to Santeem Castle. Make your way to
+#0235 block   f=8  p=0  L6   ( 396) | Leave Santeem and make your way back to Frenor. Travel south of Frenor, passing the cave where w
+#0236 art                 L16  |  ____________________________
+#0237 art                 L8   | ITEM SHOP:
+#0238 art                 L4   | ITEM SHOP (Tournament):
+#0239 art                 L7   | WEAPONS SHOP:
+#0240 art                 L8   | ARMOR SHOP:
+#0241 block   f=8  p=0  L5   ( 370) | Endor is by far the largest Castle/Town you've encountered thus far. Take your time exploring an
+#0242 block   f=8  p=0  L8   ( 568) | If you go downstairs on the 1F of the Inn you'll find a Casino. You can only play with special c
+#0243 block   f=8  p=0  L5   ( 362) | After exploring the town and talking to everyone, head into the main door of the castle on the n
+#0244 block   f=8  p=0  L6   ( 403) | Leave and enter the western (left) door of the Castle from the outside and you'll be in the hall
+#0245 block   f=8  p=0  L8   ( 569) | Speak to the soldier you see here and he'll allow you into the Colesium. The staircase on the fa
+#0246 block   f=8  p=0  L5   ( 338) | Once you've rested and purchased what you need, speak to everyone in the room and exit to the no
+#0247 art                 L3   | +------------------+---------------------------------------------------------+
+#0248 block   f=0  p=0  L4   ( 232) | | HP: 70 | | +------------------+ Attack, attack, heal with Medical Herb (if necessary).| | You 
+#0249 art                 L2   | |                                                                            |
+#0250 art                 L9   | +------------------+---------------------------------------------------------+
+#0251 art                 L9   | +------------------+---------------------------------------------------------+
+#0252 art                 L9   | +------------------+---------------------------------------------------------+
+#0253 art                 L13  | +------------------+---------------------------------------------------------+
+#0254 block   f=8  p=0  L10  ( 704) | After felling the Linguar the announcer will call for champion, Necrosaro, to step forward. Unfo
+#0255 art                 L4   |  _____________________________________________________________________________
+#0256 art                 L14  |  ___________________
 #0257 art                 L6   | ITEM SHOP:
-#0258 art                 L7   | WEAPONS SHOP:
-#0259 block   f=8  p=0  L5   ( 368) | The Inn will be on your left and the other shops are all on the right side when you enter. Be su
-#0260 block   f=8  p=0  L4   ( 254) | When you enter the castle itself, you'll find a man in the SW corner who will purchase any extra
-#0261 block   f=8  p=0  L11  ( 798) | You'll also find a man named Reed in the NW corner of the castle who will ask you to meet him be
-#0262 art                 L14  |  ________________________________
-#0263 block   f=8  p=0  L4   ( 258) | Make your way back north to Lakanaba and speak to the man you just rescued from jail. You'll fin
-#0264 block   f=8  p=0  L8   ( 548) | Leave Lakanaba and return to Foxville with your new pal. When you reach the town itself the dog 
-#0265 block   f=8  p=0  L6   ( 452) | Leave the Foxville area and travel south back to Bonmalmo. Make your way to the King and he'll t
-#0266 block   f=8  p=0  L5   ( 364) | Leave Bonmalmo and travel south across the bridge. You may want to spend a little time leveling 
-#0267 art                 L21  |  ________________
-#0268 art                 L7   | WEAPONS SHOP:
-#0269 art                 L8   | ARMOR SHOP:
-#0270 block   f=8  p=0  L7   ( 527) | Welcome (back) to Endor! We've explored this town in the previous chapter but take the time to s
-#0271 block   f=8  p=0  L4   ( 296) | Our main objective in Endor right now is to head into the castle and speak with the Princess. St
-#0272 block   f=8  p=0  L6   ( 397) | Upon returning to Bonmalmo, talk to the King and show him the Royal Scroll from your inventory. 
-#0273 block   f=8  p=0  L6   ( 431) | Now that we have permission, we need to find a venue to get started. In the SW corner of town yo
-#0274 block   f=8  p=0  L6   ( 433) | There's a building on the NE side of town that has a gentleman upstairs who will mention a rare 
-#0275 block   f=8  p=0  L6   ( 406) | You may have already spoken to some people in Endor that will ask if you'd like to hire them as 
-#0276 block   f=8  p=0  L5   ( 340) | Travel east over the bridge and then start moving NE. Ignore the first cave you come across (thi
-#0277 art                 L16  |  ______________________________________
-#0278 hanging f=0  p=7  L3   ( 209) | NOTE: This is the first area of the game where you can encounter the famous Metal Slime. They're
-#0279 block   f=8  p=0  L7   ( 489) | Follow the path from the entrance until you reach some stairs and a ship to your right. Ignore t
-#0280 block   f=8  p=0  L9   ( 617) | On B2, follow the path north and go west when it splits. Continue along the pathway as it turns 
-#0281 block   f=8  p=0  L9   ( 637) | Make your way to the SE corner of B2 and you'll notice a new staircase has appeared. Take them d
-#0282 block   f=8  p=0  L4   ( 268) | Exit the cave by retracing your steps; shouldn't be too difficult, just make sure you keep an ey
-#0283 art                 L9   |  ____________________________________
-#0284 block   f=8  p=0  L6   ( 425) | Upon your return to Endor, pay a visit to the collector who wanted the Silver Statuette in the h
-#0285 block   f=8  p=0  L8   ( 529) | When you have all the money you need, return to the vacant shop in the SW corner of town and tal
-#0286 block   f=8  p=0  L6   ( 409) | While you're in Endor, pay another visit to the King. After hearing that you finally opened up s
-#0287 block   f=8  p=0  L6   ( 429) | We can go about getting this equipment 1 of 2 ways. You could either walk around Endor and the C
-#0288 block   f=8  p=0  L10  ( 709) | Assuming the Sword of Malice is for sale back in Lakanaba, go back there and buy as many as you 
-#0289 block   f=8  p=0  L11  ( 802) | With this money, you can repeat the process by going back to Lakanaba and buying as many Swords 
-#0290 block   f=8  p=0  L3   ( 217) | After you've made all the money you want and have filled the order for the equipment, you'll be 
-#0291 art                 L17  |  _________________________________________
-#0292 block   f=8  p=0  L5   ( 321) | Enter the tunnel we passed on the way to the Cave of the Silver Statuette. At the end you'll fin
-#0293 block   f=8  p=0  L5   ( 364) | After handing over the money, speak with him one last time and leave the tunnel. Wait about 1 da
-#0294 block   f=8  p=0  L11  ( 785) | Return to Endor and go downstairs in the 1F of the Inn. Cue the music; The first true Casino in 
-#0295 block   f=8  p=0  L5   ( 334) | After talking to everyone in the Casino, leave and go back to your shop to speak to Neta. She'll
-#0296 art                 L4   |  _____________________________________________________________________________
-#0297 art                 L14  |  ___________________
-#0298 art                 L6   | WEAPONS SHOP:
-#0299 art                 L7   | ARMOR SHOP:
-#0300 block   f=8  p=0  L8   ( 538) | Watch the opening scene in the theater to be introduced to the two main protagonists of Chapter 
-#0301 block   f=8  p=0  L8   ( 603) | You won't have much money to buy anything of worth right now, but eventually you'll want to get 
-#0302 block   f=8  p=0  L3   ( 166) | When you're ready to continue, rest and travel north of Monbaraba until you see a sign in the ro
-#0303 art                 L21  |  _______________
-#0304 block   f=8  p=0  L6   ( 437) | Take the tour and talk to all the villagers to learn about your father's pupil, Orin, and his wh
-#0305 block   f=8  p=0  L7   ( 530) | There's really nothing to get at the Item Shop. The Chain Sickle isn't really necessary if you b
-#0306 art                 L15  |  ____________________________
-#0307 block   f=8  p=0  L7   ( 459) | Follow the linear path to begin with. When you reach an opening to the north, just ignore it (un
-#0308 block   f=8  p=0  L3   ( 202) | Walk south and go west past the columns. When you reach a small pond, walk around it to the nort
-#0309 block   f=8  p=0  L6   ( 404) | On the bottom floor, walk all the way east until you hit the wall then go south. Cross the long 
-#0310 block   f=8  p=0  L7   ( 485) | Now that Orin is tagging along, return to the elevator and take it back up. Walk east to the pon
-#0311 block   f=8  p=0  L4   ( 280) | When you reach the floor below, follow the short linear path to yet another elevator that we'll 
-#0312 block   f=8  p=0  L7   ( 473) | Unless Mara has learned Outside by now (which I'm sure she hasn't), you'll have to backtrack thr
-#0313 art                 L16  |  ________________________
-#0314 block   f=8  p=0  L7   ( 480) | Even though there aren't any items to pick up here right now, we can still gather some important
-#0315 block   f=8  p=0  L6   ( 403) | After speaking to everyone and getting the full story, you'll learn that the port town to the no
-#0316 block   f=8  p=0  L2   ( 101) | When you think you're ready, heal up and take the short walk north of Keeleon Castle to find Hav
-#0317 art                 L20  |  ___________________
-#0318 art                 L7   | WEAPONS SHOP:
-#0319 art                 L8   | ARMOR SHOP:
-#0320 block   f=8  p=0  L4   ( 300) | No items to find, but there's some shopping to do and information to get here. You'll learn abou
-#0321 block   f=8  p=0  L5   ( 370) | As far as equipment upgrades go, you should have plenty of money to play around with after the C
-#0322 block   f=8  p=0  L8   ( 531) | The Gunpowder we need can be found in an underground mine in the village of Aktemto to the west.
-#0323 art                 L16  |  ________________________
-#0324 block   f=8  p=0  L5   ( 327) | Quite a depressing town. Speak with everyone around to learn how sick people around here are get
-#0325 block   f=8  p=0  L8   ( 545) | Immediately walk to the right and take the MYSTIC ACORNS from the treasure chest. Follow the pat
-#0326 block   f=8  p=0  L5   ( 378) | Simply walk as far north as you can on this floor until you can't any longer, then walk east to 
-#0327 block   f=8  p=0  L2   ( 129) | With the Gunpowder in hand, let's make our way back to Haville first to heal up and save. Let's 
-#0328 art                 L16  |  _____________________________
-#0329 block   f=8  p=0  L8   ( 561) | Back in Keeleon, head inside and make your way to the SE corner of 1F. Outside of the Counsil's 
-#0330 block   f=8  p=0  L3   ( 216) | Here we find the evil Balzack, the imposter King of Keeleon, and the beast who killed Nara and M
-#0331 art                 L16  | +------------------+----------------------------------------------------------+
-#0332 block   f=8  p=0  L5   ( 365) | Watch the scene afterwards and you'll be forced into a battle with Keeleon himself. You can't wi
-#0333 block   f=8  p=0  L4   ( 293) | Follow the path to the exit and watch the scene outside the castle. Unfortunately, we'll have to
-#0334 block   f=8  p=0  L4   ( 229) | Once you're on the ship you'll have to speak with everyone at least once, then go up and speak t
-#0335 art                 L4   |  _____________________________________________________________________________
-#0336 art                 L12  |  _________________________
-#0337 block   f=8  p=0  L5   ( 374) | We've reach the 5th and final chapter, but we still have a LONG way to go. When you have control
-#0338 block   f=8  p=0  L5   ( 343) | After the scene, you'll be taken down into the basement to hide from the invading monsters. When
-#0339 block   f=8  p=0  L5   ( 360) | Before leaving the village, you can find a hidden FEATHER HAT by searching the ground in the cen
-#0340 block   f=8  p=0  L8   ( 576) | When you leave the unnamed village, walk a few paces south to find a hut owned by a woodsman. In
-#0341 art                 L19  |  ________________
-#0342 art                 L6   | WEAPONS SHOP:
-#0343 art                 L8   | ARMOR SHOP:
-#0344 block   f=8  p=0  L3   ( 197) | Nothing too interesting going on here. You can speak to the adventurers leaving the castle to be
-#0345 block   f=8  p=0  L5   ( 344) | Speak to everyone in Branca to learn that Mara and Nara seem to be SW of here in Endor. Good thi
-#0346 block   f=8  p=0  L4   ( 244) | When you're about LVL 3 or 4 and you're ready to continue, leave Branca and travel SW until you 
-#0347 art                 L21  |  ________________
-#0348 art                 L7   | WEAPONS SHOP:
-#0349 art                 L8   | ARMOR SHOP:
-#0350 block   f=8  p=0  L6   ( 378) | Welcome back to Endor. Speak with everyone around to get some updated dialogue since Chapter 3. 
-#0351 block   f=8  p=0  L5   ( 320) | Now head down to the Casino in the basement of the Inn. On the north end at the slot machines yo
-#0352 block   f=8  p=0  L6   ( 443) | Don't bother updating any equipment right now. You probably won't have much money anyway, but yo
-#0353 block   f=8  p=0  L4   ( 306) | You can go inside the Coliseum (side entrances of the Castle) to watch the wedding between the P
-#0354 art                 L19  |  ___________________
-#0355 art                 L7   | WEAPONS SHOP:
-#0356 art                 L8   | ARMOR SHOP:
-#0357 block   f=8  p=0  L5   ( 360) | You won't find much here either. The main reason we're here is to pick up a Broad Sword for the 
-#0358 art                 L1   |         Head north to visit Lakanaba when you're done.
-#0359 art                 L19  |  ___________________
-#0360 art                 L5   | WEAPONS SHOP:
-#0361 art                 L8   | ARMOR SHOP:
-#0362 block   f=8  p=0  L5   ( 326) | Talk to the villagers and get a look around. There are some treasure chests in the basement of t
-#0363 block   f=8  p=0  L4   ( 270) | If you'd like you can stick around just east of Lakanaba where you can run into Metal Slimes eve
-#0364 block   f=8  p=0  L5   ( 324) | Looks like there's nothing else in the Endor/Bonmalmo region we can do, so return to Endor and t
-#0365 art                 L15  |  _______________________
-#0366 block   f=8  p=0  L7   ( 480) | You'll notice the horse and wagon right away. Wouldn't that make a perfect traveling addition! S
-#0367 block   f=8  p=0  L5   ( 372) | Rest at the Inn here, speak to everyone else, then leave the Desert Inn. The cave we're looking 
-#0368 block   f=8  p=0  L3   ( 156) | When you're ready to go, walk east of the Desert Inn until you reach some bridges. Cross each of
-#0369 art                 L18  |  ___________________________
-#0370 block   f=8  p=0  L4   ( 277) | A very simple cave to navigate; you probably won't even need my directions. Nevertheless, begin 
-#0371 block   f=8  p=0  L6   ( 380) | Eventually, the floor will give way and Mara & Nara will fall down, leaving the Hero all alone. 
-#0372 art                 L4   |         You'll have to fight two Liclick's, so nothing out of the ordinary.
-#0373 block   f=8  p=0  L8   ( 605) | I was going to consider this battle a Boss Battle, but considering there isn't a whole lot of st
-#0374 block   f=8  p=0  L9   ( 617) | Afterwards, head up the stairs and follow the path to another staircase that you'll take down. W
-#0375 block   f=8  p=0  L4   ( 288) | Make your way to the center of this room and break through the cluster of walls in the middle to
-#0376 block   f=8  p=0  L5   ( 342) | When you return, talk to the man again and he'll notice the Symbol. In return he'll offer you hi
-#0377 block   f=9  p=0  L5   ( 339) | The next village on our journey lies directly south of here, but you'll have to go SE around the
-#0378 art                 L16  |  _________________
-#0379 art                 L7   | ITEM SHOP:
-#0380 art                 L8   | WEAPONS SHOP:
-#0381 art                 L8   | ARMOR SHOP:
-#0382 block   f=8  p=0  L5   ( 331) | You can talk to the man outside the first Inn here to get the tour of Aneaux. The only item to o
-#0383 block   f=8  p=0  L3   ( 179) | You'll notice that there's two Inns: one that charges double than the other. You get nothing spe
-#0384 block   f=8  p=0  L5   ( 319) | You should have all of the equipment upgrades at this point, so there isn't anything worth buyin
-#0385 art                 L20  |  ___________________
-#0386 art                 L7   | WEAPONS SHOP:
-#0387 art                 L7   | ARMOR SHOP:
-#0388 block   f=8  p=0  L6   ( 433) | When you get to Konenber, take your time and explore the port town. Talk to everyone around to l
-#0389 block   f=8  p=0  L4   ( 246) | Head into the building in the NW corner of town to find Taloon's ship. You can get on and talk t
-#0390 block   f=8  p=0  L6   ( 430) | The only equipment upgrade we need to purchase here are two Golden Barrettes for Mara and Nara. 
-#0391 block   f=8  p=0  L3   ( 172) | From Konenber, simply travel east until you hit the shoreline, then go north into the forest. Cr
-#0392 art                 L23  |  __________________________
-#0393 hanging f=0  p=6  L10  ( 700) | NOTE: There are LOTS of different types of monsters in this place, and for some reason the rando
-#0394 block   f=8  p=0  L5   ( 337) | Open the large door in your way and make your way to the north end of this room. You'll first no
-#0395 block   f=8  p=0  L4   ( 270) | Before going up the stairs, walk into the north wall (from either side) of the center structure 
-#0396 block   f=8  p=0  L7   ( 503) | Walk south a ways and towards the center of the room (below the tile arrangement). Now go direct
-#0397 block   f=8  p=0  L5   ( 310) | Retrace your steps, yet again, towards the center of this floor. Now walk directly south of the 
-#0398 block   f=8  p=0  L12  ( 847) | Return to the previous pathway and continue south. The path is linear until you reach a fork on 
-#0399 block   f=8  p=0  L12  ( 846) | Walk directly south and open the chest for the FIRE OF SERENITY. Now walk back to the stairs you
-#0400 art                 L16  | +------------------+---------------------------------------------------------+
-#0401 block   f=8  p=0  L4   ( 222) | After the battle, walk up to the center torch and use the Fire of Serenity you just got. The evi
-#0402 art                 L9   |  __________________________
-#0403 block   f=8  p=0  L6   ( 415) | First order of business is to find Taloon. You'll locate him in front of the ship warehouse in t
-#0404 block   f=8  p=0  L7   ( 467) | If you purchased several Swords of Malice back in Chapter 3, be sure the Hero gets one (best swo
-#0405 art                 L21  |  _________________
-#0406 art                 L7   | WEAPONS SHOP:
-#0407 art                 L8   | ARMOR SHOP:
-#0408 hanging f=0  p=7  L6   ( 384) | NOTE: The monsters that you can encounter in the sea are available anywhere in the ocean, theref
-#0409 block   f=8  p=0  L6   ( 449) | You know the drill; speak to everyone and explore the town. The main reason we're here is to pic
-#0410 block   f=8  p=0  L4   ( 262) | The only equipment upgrades to take note of are the Full Plate Armor and the Iron Helmet. Get a 
-#0411 block   f=8  p=0  L7   ( 481) | Check out the 2F of the Inn to find Brey and Cristo. Speak with Brey and he'll join your party, 
-#0412 block   f=8  p=0  L8   ( 555) | The next stop on our journey is the kingdom of Soretta far to the SE. Leave Mintos and travel ea
-#0413 block   f=8  p=0  L3   ( 201) | Leave the traveler's shrine and walk east until you hit the mountains. Now turn south and follow
-#0414 art                 L18  |  ___________________
-#0415 art                 L3   | WEAPONS SHOP:
-#0416 art                 L3   | ARMOR SHOP:
-#0417 block   f=8  p=0  L3   ( 212) | Not much to do here other than talk to the villagers and get more info on Alena and the Padequia
-#0418 block   f=8  p=0  L5   ( 309) | The cave where we can find the Padequia Seed for Cristo can be found just SW of Soretta at the e
-#0419 art                 L16  |  ______________________________
-#0420 block   f=8  p=0  L7   ( 508) | Follow the path when you enter the cave and you'll soon come across some blue tiles with directi
-#0421 block   f=8  p=0  L4   ( 276) | This floor of the cave is rather large and there's a lot more of those arrow tiles. If you walk 
-#0422 block   f=8  p=0  L14  ( 990) | Walk to the NW corner here and you'll find 2 columns of directional tiles leading north. Step on
-#0423 block   f=8  p=0  L5   ( 343) | Step on the tiles to the right then walk SE (this spot should look familiar). Again, step on the
-#0424 block   f=8  p=0  L11  ( 811) | On the bottom floor, you'll find a jumbled mess of arrow tiles. As confusing as it looks, the tw
-#0425 art                 L19  |  _______________________
-#0426 block   f=8  p=0  L4   ( 246) | Once you're back in Soretta, locate the King the field to the SE and speak with him. He'll notic
-#0427 block   f=8  p=0  L6   ( 413) | Leave and return to Mintos. Enter the Inn and go upstairs to find Cristo with Alena at his bedsi
-#0428 art                 L1   | NOTE:  Hector will leave the party once you've recruited Alena and Cristo.
-#0429 art                 L13  |  ____________________________
-#0430 block   f=8  p=0  L11  ( 814) | The easiest way to reach Burland is by first casting Return to Endor. Hop on your ship and follo
-#0431 block   f=8  p=0  L8   ( 594) | The only reason we're here right now is to raid the treasure room. Enter the castle and make you
-#0432 block   f=8  p=0  L6   ( 436) | We'll be coming back here later, but for now we need to start looking for the Magic Key in the K
-#0433 art                 L22  |  _______________________
-#0434 art                 L5   | 2ND ARMOR SHOP: (Endor)
-#0435 block   f=8  p=0  L4   ( 273) | When you enter Keeleon, you'll notice that you won't be able to open any of the doors. When you 
-#0436 block   f=8  p=0  L10  ( 692) | Leave Keeleon and walk north to Haville. Talk to the man who runs the Weapons Shop on the west s
-#0437 block   f=8  p=0  L4   ( 261) | You can revisit Monbaraba far south of Kievs but there isn't anything to do here. The only thing
-#0438 block   f=8  p=0  L7   ( 467) | We've narrowed our search down and it looks like the Magic Key is somewhere in the Cave West of 
-#0439 block   f=8  p=0  L8   ( 582) | Search the vases along the north side to find a SMALL MEDAL, then open the treasure chest down h
-#0440 block   f=8  p=0  L7   ( 495) | When you're ready to do battle, return to Keeleon Castle and enter through the eastern-most door
-#0441 art                 L24  | +------------------+---------------------------------------------------------+
-#0442 block   f=8  p=0  L6   ( 424) | Watch the scene after the battle and Ragnar will join your party. This means we finally have eve
-#0443 block   f=8  p=0  L9   ( 630) | Now that Ragnar's part of the gang, let's upgrade his equipment. Get him a Battle Axe and an Iro
-#0444 block   f=8  p=0  L8   ( 571) | Now cast Return to Endor and make your way to the SE corner of town. Now we can open the door to
-#0445 block   f=8  p=0  L11  ( 814) | You may have noticed the two treasure chests locked away on the 1F of this armor shop. In order 
-#0446 block   f=8  p=0  L8   ( 578) | Now come back at night (use the Lamp of Darkness or the Day-Night spell to speed the process up)
-#0447 block   f=8  p=0  L4   ( 235) | Before continuing on our main quest, now is a great opportunity to mess around in the Casino in 
-#0448 art                 L17  |  ______________________
-#0449 block   f=8  p=0  L12  ( 872) | The main items you want to go for right now are the Meteorite Armband (you may want a couple of 
-#0450 block   f=8  p=0  L9   ( 656) | The strategy I used was buy a few hundred coins from the counter (I spent about 7000G to get 350
-#0451 block   f=8  p=0  L7   ( 510) | As bad as this sounds, just keep trying to double-or-nothing until you win a couple thousand coi
-#0452 block   f=8  p=0  L4   ( 254) | Like I mentioned, it should only take a few hours with this method to win a lot of coins. Then a
-#0453 block   f=8  p=0  L4   ( 275) | Once you've had enough of the Casino for now, leave Endor and get on your ship. Sail south down 
-#0454 art                 L20  |  ___________________________
-#0455 art                 L3   | WEAPONS SHOP:
-#0456 art                 L7   | ARMOR SHOP:
-#0457 block   f=8  p=0  L6   ( 434) | A small village to explore, but necessary in our travels. For some reason, visiting Seaside Vill
-#0458 block   f=8  p=0  L4   ( 286) | Before we say goodbye, come back at night and walk to the shore on the south end of town. You'll
-#0459 block   f=8  p=0  L5   ( 331) | When you're finished with Seaside Village, it's time for us to return to Santeem Castle and take
-#0460 art                 L20  |  ___________________________
-#0461 block   f=8  p=0  L5   ( 308) | From Seaside Village, get on your ship and sail a few paces east to get back into the ocean. Fol
-#0462 block   f=8  p=0  L8   ( 541) | Rest and save your game in Surene first, then put together the team of the Hero, Alena, Mara, an
-#0463 art                 L23  | +------------------+----------------------------------------------------------+
-#0464 block   f=8  p=0  L6   ( 396) | Although Balzack is no more, monsters still lurk around Santeem Castle. The only thing left to d
-#0465 block   f=8  p=0  L13  ( 956) | Leave the castle and take the time to visit all of the towns you saw back in Chapter 2. The only
-#0466 block   f=8  p=0  L4   ( 250) | Now leave Surene and travel NE to Tempe in the mountains. There's nothing to find here (unless y
-#0467 block   f=8  p=0  L3   ( 221) | Travel all the way east and return to Frenor. If you enter the town at night, you can search the
-#0468 block   f=8  p=0  L7   ( 521) | The next stop on our journey is far NW of Santeem on an island covered with rocky shoals. From S
-#0469 art                 L13  |  ___________________
-#0470 art                 L6   | ITEM SHOP:
-#0471 art                 L6   | WEAPONS SHOP 1:
-#0472 art                 L4   | WEAPONS SHOP 2: (night)
-#0473 art                 L8   | ARMOR SHOP:
-#0474 block   f=8  p=0  L5   ( 308) | Alright, a waterway town! Speak to the man at the entrance to reach the ship that you'll have to
-#0475 block   f=8  p=0  L4   ( 286) | If you come back at night you can access the 2nd Weapons Shop in the SW corner of town. The Swor
-#0476 block   f=8  p=0  L9   ( 682) | Now explore the castle during the day. If you enter through one of the two side entrances you ca
-#0477 block   f=8  p=0  L5   ( 345) | Looks like we'll have to find another way to please the King. If you have visited Monbaraba earl
-#0478 block   f=8  p=0  L9   ( 639) | Cast Return to Stancia and make sure you put Panon in your main party. You'll also want to put h
-#0479 art                 L15  |  _________________________
-#0480 block   f=8  p=0  L4   ( 276) | The first step in continuing to look for the other Zenithian treasures is back in Burland. If yo
-#0481 block   f=8  p=0  L4   ( 248) | There's not much new in Burland other than some updated dialogue. Talk to the townspeople and vi
-#0482 art                 L5   |         Before we do, though, revisit Izmit to the north and rest at the Inn.
-#0483 art                 L12  |  __________________________
-#0484 art                 L6   | MEDAL KING'S PRIZES
-#0485 block   f=8  p=0  L7   ( 497) | Finding the Small Medal King isn't too difficult, it's just a lot of sailing we have to do. From
-#0486 block   f=8  p=0  L11  ( 765) | There's an Inn available here, but no House of Healing unfortunately. The Medal King sits on his
-#0487 block   f=8  p=0  L6   ( 419) | Once you've traded your medals in, cast Return to Burland and get back on your ship. Now sail ea
-#0488 art                 L14  |  _____________________
-#0489 art                 L3   | ITEM SHOP:
-#0490 art                 L3   | WEAPONS SHOP:
-#0491 art                 L7   | ARMOR SHOP:
-#0492 block   f=8  p=0  L5   ( 356) | You'll find that Gardenbur is a castle fully run by women. Enter the castle and begin talking to
-#0493 block   f=8  p=0  L9   ( 615) | Now for the item hunt. If you make your way over to the kitchen on the first floor (west side of
-#0494 block   f=8  p=0  L7   ( 511) | In a small room just north of the Armor Shop on 1F, speak to the woman in here and she'll tell y
-#0495 block   f=8  p=0  L6   ( 458) | When you speak with the Queen, she'll agree to let you go and call you innocent if you stop the 
-#0496 block   f=8  p=0  L4   ( 254) | There's a cave SE of Gardenbur where the real thief fled to hide. Before leaving Gardenbur, sear
-#0497 art                 L16  |  _____________________________________
-#0498 block   f=8  p=0  L5   ( 343) | From the entrance, walk all the way south and then go west to follow the outer path north. Walk 
-#0499 block   f=8  p=0  L11  ( 782) | Retrace your steps and walk all the way west until you hit the wall. Walk north along the west w
-#0500 block   f=8  p=0  L13  ( 987) | Make your way back and this time take the narrow pathway leading south near the chest we just op
-#0501 block   f=8  p=0  L4   ( 225) | Now retrace your steps and return to the east side of B2. If you walk all the way to the SE corn
-#0502 block   f=8  p=0  L4   ( 298) | Don't bother searching the vases and drawers for anything because they're all empty. Just make s
-#0503 art                 L17  | +------------------+---------------------------------------------------------+
-#0504 block   f=8  p=0  L9   ( 629) | After the battle a Gardenbur soldier will come and take Bakor away. Cast Outside and go back to 
-#0505 block   f=8  p=0  L3   ( 200) | Now we can open all of the previously locked doors that we've come across on our travels with ou
-#0506 art                 L14  |  ___________________________
-#0507 block   f=8  p=0  L3   ( 201) | The first stop is Branca. Head into the castle and in the NW corner you'll find three treasures 
-#0508 block   f=8  p=0  L4   ( 295) | Now return to Lakanaba (cast Return to Bonmalmo and travel north) and head down into the basemen
-#0509 block   f=8  p=0  L4   ( 223) | Next stop is Haville. Go down to the jail and you can open the cell doors to reach the vases ins
-#0510 block   f=8  p=0  L3   ( 211) | Leave and return to Konenber. Make your way to the Inn and go upstairs. You'll find a treasure c
-#0511 block   f=8  p=0  L8   ( 537) | We've obtained all the treasures available right now, so the next stop on our quest is the town 
-#0512 art                 L17  |  _____________________
-#0513 art                 L6   | WEAPONS SHOP:
-#0514 art                 L7   | ARMOR SHOP:
-#0515 block   f=8  p=0  L11  ( 807) | A very small village, but a necessary stop on our travels. You may recognize the tower on the no
-#0516 block   f=8  p=0  L6   ( 452) | The main reason we're here is to inspect the tower. Remember how Saro played a flute to allow th
-#0517 art                 L15  | +------------------+---------------------------------------------------------+
-#0518 block   f=8  p=0  L6   ( 418) | After the battle speak to Rosa. She'll tell you all about Saro (AKA Necrosaro) and how you must 
-#0519 art                 L15  |  ___________________________________
-#0520 block   f=8  p=0  L5   ( 366) | Open the door upon entering and follow the waterway east. Staying on your ship, continue north u
-#0521 block   f=8  p=0  L6   ( 445) | Go back and get on your ship and continue north through the water. Follow the waterway all the w
-#0522 block   f=8  p=0  L7   ( 461) | Cast Outside and go back to Burland to rest and save. There's one more dungeon to explore before
-#0523 art                 L14  |  _______________________
-#0524 block   f=8  p=0  L5   ( 324) | Walk north and up the stone steps to reach a waterfall. Stand front and center against the water
-#0525 block   f=8  p=0  L4   ( 270) | Go north and then turn west near the water. Follow the path south and then west again. Now go no
-#0526 block   f=8  p=0  L7   ( 523) | Walk all the way south from the stairs on B3 to find a treasure chest in the SW corner of the ro
-#0527 block   f=8  p=0  L7   ( 501) | On the bottom floor simply follow the linear path to the METAL BABBLE SWORD! I chose to give it 
-#0528 art                 L14  |  ______________________
-#0529 block   f=8  p=0  L4   ( 292) | Walk north and open the door. Inside, continue north and open one of many doors blocking the way
-#0530 block   f=8  p=0  L8   ( 574) | Walk east and step onto either row of tiles and then go down the staircase next to you. Walk to 
-#0531 block   f=8  p=0  L5   ( 362) | Retrace your steps to the initial passage you came from and continue south. Follow the path alon
-#0532 block   f=8  p=0  L8   ( 551) | Go south from the spring and you'll reach those directional tiles we used earlier. Go around the
-#0533 block   f=8  p=0  L3   ( 209) | Either cast Outside, or walk north onto those tiles to put you back at the beginning. Either way
-#0534 block   f=8  p=0  L7   ( 522) | Our next stop is that small island continent covered with mountains on all sides. If you check y
-#0535 art                 L16  |  _____________________
-#0536 art                 L6   | WEAPONS SHOP:
-#0537 art                 L8   | ARMOR SHOP:
-#0538 block   f=8  p=0  L6   ( 386) | Not much going on here at all. Talk to the villagers for information, then sail towards the smal
-#0539 block   f=8  p=0  L4   ( 227) | The Weapons & Armor Shops don't have anything important; we've seen this equipment in other plac
-#0540 art                 L20  |  _____________________________
-#0541 block   f=8  p=0  L5   ( 366) | Walk to the left side and open the door with your Final Key. Now approach the colossal statue. E
-#0542 block   f=8  p=0  L5   ( 347) | Walk down and go west until you reach a room with statues. In the SE corner you'll find a chest 
-#0543 block   f=8  p=0  L6   ( 395) | Walk west and then south through the opening. Now turn east and walk all the way to the eastern 
-#0544 block   f=8  p=0  L5   ( 316) | Walk SE and then directly east. Ignore the two rooms along the way and continue along the path u
-#0545 block   f=8  p=0  L8   ( 591) | Go back to the staircase and down to the previous floor. Walk north from the stairs on 3F and co
-#0546 block   f=8  p=0  L6   ( 375) | You'll now be near the top with two openings on either side along the south edge. Walk west and 
-#0547 block   f=8  p=0  L3   ( 189) | When you reach the other side of the river, our next destintaion lies to the east. Travel SE at 
-#0548 art                 L17  |  ______________________
-#0549 block   f=8  p=0  L8   ( 564) | This is where we'll need that Staff of Transform, although you can speak to the monsters as huma
-#0550 block   f=8  p=0  L7   ( 524) | Head up the stairs along the southern wall to find the empty throne room. Go down the stairs in 
-#0551 block   f=8  p=0  L7   ( 452) | Exit and re-enter Dire Palace to get back to the entrance. Head up to the throne room again, but
-#0552 block   f=8  p=0  L11  ( 791) | Re-enter again and this time go upstairs and into the conference room (don't forget to use the S
-#0553 art                 L19  |  _____________________________
-#0554 block   f=8  p=0  L4   ( 228) | Back in Aktemto, walk north and head down into the mines. The first few floors haven't changed s
-#0555 block   f=8  p=0  L5   ( 319) | Starting from the ladder on B3 (you'll know because there's a corpse nearby), walk north until y
-#0556 block   f=8  p=0  L4   ( 248) | On B4, walk NE from the ladder and take the passage north. When the path splits, go east to find
-#0557 block   f=8  p=0  L5   ( 339) | Now walk back west and take the path leading north to arrive at an opening in the wall next to a
-#0558 block   f=8  p=0  L5   ( 368) | Go back outside and follow the path east to find the entrance of Esturk's Palace. Once inside, w
-#0559 block   f=8  p=0  L5   ( 322) | Continue west down the hall and you'll find another treasure chest in a separate room in the NW 
-#0560 block   f=8  p=0  L5   ( 302) | Follow the linear path north and then east. Ignore the staircase you see and continue south down
-#0561 block   f=8  p=0  L5   ( 328) | Walk north and ignore the skeleton guarding the treasure chest for now; we'll be able to reach i
-#0562 block   f=8  p=0  L4   ( 297) | Approach the monsters and tell them you won't leave. You'll have to battle a Rhinoking and a Ben
-#0563 art                 L23  | +------------------+---------------------------------------------------------+
-#0564 block   f=8  p=0  L7   ( 482) | Watch the scene involving Saro after the fight, then start back- tracking your way out. When you
-#0565 art                 L1   |         Now that we're out of that Hell-hole, cast Return to Riverton.
-#0566 art                 L9   |  __________________________
-#0567 block   f=8  p=0  L4   ( 268) | Upon your return to Riverton, revisit the merchant on the NW side who mentioned the Gas Canister
-#0568 block   f=8  p=0  L5   ( 355) | Leave Riverton and get on your balloon (walk on top and press 'A'). If you check your Treasure M
-#0569 art                 L15  |  ____________________________________
-#0570 art                 L3   | ITEM SHOP:
-#0571 art                 L3   | WEAPONS SHOP:
-#0572 art                 L4   | ARMOR SHOP:
-#0573 block   f=8  p=0  L7   ( 491) | Speak to the elves and explore their tiny village outside the World Tree. There's an Armor Shop 
-#0574 block   f=8  p=0  L7   ( 505) | Before we venture through the World Tree, you'll have to construct a party of only 3 members. Th
-#0575 block   f=8  p=0  L7   ( 519) | When you're ready to go, enter the World Tree and begin by walking north. Enter the smaller room
-#0576 block   f=8  p=0  L6   ( 391) | Go back down the ladder to 1F and walk south. Go east into the narrow passage on your right and 
-#0577 block   f=8  p=0  L7   ( 513) | Walk south from the ladder on 3F and out onto the leaves to find yet another ladder. Take this o
-#0578 block   f=8  p=0  L4   ( 269) | Head up the ladder and walk north out onto the leaves again. This time walk counter-clockwise al
-#0579 block   f=8  p=0  L8   ( 576) | On the top level, take a few paces west and go SW along the branch (be careful not to fall off) 
-#0580 block   f=8  p=0  L2   ( 140) | You can simply fall off any edge of the tree to land just outside Elfville. You can now access y
-#0581 art                 L23  |  ____________________________________
-#0582 art                 L3   | WEAPONS SHOP:
-#0583 art                 L7   | ARMOR SHOP:
-#0584 block   f=8  p=0  L4   ( 261) | There's still one place we haven't visited yet. Cast Return to Konenber and get on your balloon.
-#0585 block   f=8  p=0  L3   ( 182) | From where you land, travel NE and around the mountain range. Continue east (passing the cave to
-#0586 block   f=8  p=0  L6   ( 398) | Explore the town and speak to its citizens. A lot of the information you get involves the Zenith
-#0587 block   f=8  p=0  L7   ( 508) | Obviously, our next destination is the Zenithian Tower. But before we go travel far east of Gott
-#0588 block   f=8  p=0  L7   ( 518) | You'll land on an elevator at the bottom. Step onto the switch to ride it back up to the top. Ge
-#0589 block   f=8  p=0  L4   ( 244) | Leave the shrine and return to Gottside to rest and save your game. Since we have all the Zenith
-#0590 art                 L16  |  __________________________
-#0591 block   f=8  p=0  L3   ( 172) | Make sure the Hero has all 4 pieces of Zenithian equipment on before trying to get in the tower.
-#0592 block   f=8  p=0  L5   ( 338) | Once you're inside, walk north through the first intersection and turn west once you get towards
-#0593 block   f=8  p=0  L6   ( 418) | Retrace your steps to the first floor and go all the way east this time to find a staircase in t
-#0594 block   f=8  p=0  L5   ( 364) | Take the stairs to your left (SW corner) and then make your way to the SW corner of the next roo
-#0595 block   f=8  p=0  L6   ( 382) | Walk west and up the ladder, then continue moving west until you see a doorway and a staircase b
-#0596 block   f=8  p=0  L4   ( 291) | Return to the room where you initially chose to go outside (instead of taking the stairs) and th
-#0597 block   f=8  p=0  L8   ( 549) | You'll be in a rather large room now. From the doorway you came from, walk east and follow the p
-#0598 art                 L9   |  ___________________________
-#0599 hanging f=0  p=7  L5   ( 324) | NOTE: If you enter Zenithian Castle with Lucia in your main party, she'll leave now and you can 
-#0600 block   f=8  p=0  L8   ( 542) | We've reach our long-awaited destination, and the Hero's long-lost home! Speak with the Zenithia
-#0601 block   f=8  p=0  L6   ( 419) | Our main objective here is to talk to the Master Dragon at the top of the castle. After speaking
-#0602 art                 L4   |         You'll find out that the only way to reach Necrosaro's domain is to pass through a dange
-#0603 block   f=8  p=0  L9   ( 685) | Before taking the plunge, take this time to make sure everyone has their optimized equipment at 
-#0604 block   f=8  p=0  L2   ( 147) | When you're all saved up and ready to go, return to Zenithia and jump down the hole in the cloud
-#0605 art                 L22  |  ____________________________
-#0606 hanging f=0  p=7  L5   ( 286) | NOTE: Don't be ashamed to run away from most of the random battles here. Some of the enemies tak
-#0607 block   f=8  p=0  L10  ( 741) | Walk north into the next room and open the door at the top of the screen. Inside here you'll fin
-#0608 block   f=8  p=0  L9   ( 626) | Walk north from the chest and step on the left column of tiles at the top to return to the previ
-#0609 block   f=8  p=0  L5   ( 357) | Now make your way to the SW corner of this room and follow the safe path east along the southern
-#0610 block   f=8  p=0  L8   ( 563) | Backtrack through the hallway to that first passage that we ignored before. Enter this path to r
-#0611 block   f=8  p=0  L9   ( 631) | Avoid the pit by going west and then south around it. Step on the left column of arrow tiles lea
-#0612 block   f=8  p=0  L8   ( 541) | Walk north and onto the boat and sail directly east until you reach a tiny island with another s
-#0613 block   f=8  p=0  L4   ( 235) | Go back down the stairs (or simply jump down the pit) and go down one more staircase on the nort
-#0614 art                 L16  |  ______________________________
-#0615 block   f=8  p=0  L7   ( 483) | Inside the Last Refuge, walk north and a Zenithian will appear from the flames. If you speak to 
-#0616 block   f=8  p=0  L9   ( 655) | From here on out, I suggest using a team consisting of the Hero (duh), Alena, Ragnar, and Cristo
-#0617 art                 L15  | +------------------+----------------------------------------------------------+
-#0618 block   f=8  p=0  L3   ( 188) | The next stop is directly south of the Den of Radimvice. Enter the shrine on the SE corner of th
-#0619 art                 L14  | +------------------+----------------------------------------------------------+
-#0620 block   f=8  p=0  L8   ( 548) | That's 2 down, 2 to go! Return to the Last Refuge to heal and save, then travel to the SW corner
-#0621 block   f=8  p=0  L6   ( 443) | You'll have to get by 5 moving statues that move according to how you move. The best way to get 
-#0622 block   f=8  p=0  L3   ( 222) | After getting by the statues, cast StepGuard and walk into the opening. Here you'll find the Gig
-#0623 art                 L13  | +------------------+----------------------------------------------------------+
-#0624 block   f=8  p=0  L3   ( 170) | Return to the Last Refuge to heal, then walk to the NW corner to reach the final fiend in the De
-#0625 art                 L15  | +------------------+----------------------------------------------------------+
-#0626 block   f=8  p=0  L6   ( 434) | Well, that takes care of that barrier around the palace. Return to the Refuge to heal up and sav
-#0627 art                 L21  |  _____________________________
-#0628 block   f=8  p=0  L6   ( 410) | Head north into the palace and you'll immediately be met by 3 Clay Dolls wandering around the ro
-#0629 block   f=8  p=0  L7   ( 491) | Walk outside and continue NE and back into the castle (just ignore the corpse :P). Follow the ha
-#0630 block   f=8  p=0  L5   ( 327) | Walk directly north of the stairs on this floor and between the statues to find a hidden room. W
-#0631 block   f=8  p=0  L4   ( 227) | Return to the room where you found that hidden path between the statues. There's an exit in the 
-#0632 block   f=8  p=0  L8   ( 574) | Now backtrack to the elevator we initially passed and take that down to the floor below. Walk so
-#0633 block   f=8  p=0  L8   ( 570) | You'll now be back on the World Map with free access to the mountain where Necrosaro resides. Be
-#0634 art                 L7   | HERO                    ALENA                   RAGNAR
-#0635 art                 L7   | CRISTO                  NARA                    MARA
-#0636 art                 L6   | TALOON                  BREY
-#0637 block   f=8  p=0  L3   ( 216) | Also, make sure the Hero has the Sage's Stone for healing. It'll be very important in this fight
-#0638 art                 L12  | +------------------+----------------------------------------------------------+
-#0639 art                 L10  | +------------------+----------------------------------------------------------+
-#0640 art                 L9   | +------------------+----------------------------------------------------------+
-#0641 art                 L10  | +------------------+----------------------------------------------------------+
-#0642 art                 L9   | +------------------+----------------------------------------------------------+
-#0643 art                 L9   | +------------------+----------------------------------------------------------+
-#0644 art                 L16  | +------------------+----------------------------------------------------------+
-#0645 block   f=8  p=0  L2   ( 143) | Watch the scenes after the battle, then when you have control leave Zenithia Castle to complete 
-#0646 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#0647 art                 L5   |    ________________________________________________________________
-#0648 art                 L4   |  ___________________________________
-#0649 block   f=8  p=0  L4   ( 256) | The chart below includes all of the common and key items in the game; by "key" items, I mean ite
-#0650 art                 L146 | * = Key Item
-#0651 art                 L4   |  ___________________________________
-#0652 block   f=8  p=0  L6   ( 370) | The following chart includes all of the weapons in the game in alphabetical order. I have also l
-#0653 art                 L4   | H - Hero        B - Brey
-#0654 art                 L92  | * = Cursed
-#0655 art                 L4   |  __________________________________
-#0656 art                 L71  | * = Cursed
-#0657 art                 L4   |  ___________________________________
-#0658 art                 L23  |  ____________________________________________________________________________
-#0659 art                 L4   |  ___________________________________
-#0660 art                 L30  | * = Cursed
-#0661 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#0662 art                 L5   |    ________________________________________________________________
-#0663 block   f=8  p=0  L6   ( 438) | The following chart lists all of the monsters in the game (including bosses). I have listed thei
-#0664 hanging f=0  p=7  L9   ( 553) | NOTE: There are 9 monsters hidden within the code of Dragon Warrior IV that never appear in the 
-#0665 art                 L497 |  ____________________________________________________________________________
-#0666 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#0667 art                 L5   |    ________________________________________________________________
-#0668 art                 L6   | MEDAL KING'S PRIZES
-#0669 art                 L107 |  ____________________________________________________________________________
-#0670 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#0671 art                 L5   |    __________________________________________________________
-#0672 block   f=8  p=0  L3   ( 161) | First and foremost I'd like to credit Enix for making such an amazing game! Dragon Warrior IV is
-#0673 block   f=8  p=0  L3   ( 157) | I owe a HUGE amount of credit to Woodus' Dragon's Den for supplying a lot of the list informatio
-#0674 block   f=8  p=0  L2   (  97) | And last, but certainly not least, I want to thank GameFAQs for hosting this document on the web
-#0675 art                 L1   | (c) Ramina 2007-2014
+#0258 art                 L9   | WEAPONS SHOP:
+#0259 art                 L2   | ARMOR SHOP:
+#0260 block   f=0  p=0  L6   ( 110) | Wayfarer's Clothes 70G Leather Armor 180G Chain Mail 350G Bronze Armor 700G Leather Shield 90G L
+#0261 block   f=8  p=0  L4   ( 243) | As Chapter 3 begins, Taloon's wife will give him his LUNCH and wish him off to work. When you ha
+#0262 block   f=8  p=0  L8   ( 604) | North of Taloon's house you'll find a small Item Shop and above that is an old man who asks you 
+#0263 block   f=8  p=0  L11  ( 766) | Your main objective right now is to run the Weapons Shop in the SW corner of town. Approach the 
+#0264 block   f=8  p=0  L11  ( 773) | After a while your boss will appear again and pay you at the end of your shift. You'll generally
+#0265 block   f=8  p=0  L4   ( 230) | Once Taloon has hit level 3 or so, rest up and purchase better equipment (don't bother with the 
+#0266 art                 L12  |  ________________________________
+#0267 block   f=8  p=0  L4   ( 283) | From the entrance, walk west and down the staircase here. Now simply follow the linear path on B
+#0268 block   f=8  p=0  L5   ( 330) | Continue the linear path, making your way down more stairs until you reach an area with another 
+#0269 block   f=8  p=0  L5   ( 316) | Walk north and take path to the left, then go down the stairs at the end. On B4, follow the path
+#0270 block   f=8  p=0  L7   ( 469) | With the boulder following you, walk east into the next passage and follow it as it turns south.
+#0271 art                 L8   |         With the pit now covered by the boulder, you can cross to the south
+#0272 block   f=8  p=0  L6   ( 400) | If you forgot to push a boulder into the room along with you and you have already taken the Iron
+#0273 block   f=8  p=0  L9   ( 607) | Now that we have the Iron Safe, retrace your steps and exit the cave (most of the pathways are l
+#0274 art                 L13  |  __________________
+#0275 block   f=8  p=0  L7   ( 510) | Upon entering, follow the path and take the narrow passage north to the town itself. Not much go
+#0276 block   f=8  p=0  L6   ( 370) | Behind the Item Shop is a house where you'll find the mayor. Speak with him and agree to stay th
+#0277 art                 L12  |  ___________________
+#0278 art                 L6   | ITEM SHOP:
+#0279 art                 L7   | WEAPONS SHOP:
+#0280 block   f=8  p=0  L5   ( 368) | The Inn will be on your left and the other shops are all on the right side when you enter. Be su
+#0281 block   f=8  p=0  L4   ( 254) | When you enter the castle itself, you'll find a man in the SW corner who will purchase any extra
+#0282 block   f=8  p=0  L11  ( 798) | You'll also find a man named Reed in the NW corner of the castle who will ask you to meet him be
+#0283 art                 L14  |  ________________________________
+#0284 block   f=8  p=0  L4   ( 258) | Make your way back north to Lakanaba and speak to the man you just rescued from jail. You'll fin
+#0285 block   f=8  p=0  L8   ( 548) | Leave Lakanaba and return to Foxville with your new pal. When you reach the town itself the dog 
+#0286 block   f=8  p=0  L6   ( 452) | Leave the Foxville area and travel south back to Bonmalmo. Make your way to the King and he'll t
+#0287 block   f=8  p=0  L5   ( 364) | Leave Bonmalmo and travel south across the bridge. You may want to spend a little time leveling 
+#0288 art                 L21  |  ________________
+#0289 art                 L7   | WEAPONS SHOP:
+#0290 art                 L8   | ARMOR SHOP:
+#0291 block   f=8  p=0  L7   ( 527) | Welcome (back) to Endor! We've explored this town in the previous chapter but take the time to s
+#0292 block   f=8  p=0  L4   ( 296) | Our main objective in Endor right now is to head into the castle and speak with the Princess. St
+#0293 block   f=8  p=0  L6   ( 397) | Upon returning to Bonmalmo, talk to the King and show him the Royal Scroll from your inventory. 
+#0294 block   f=8  p=0  L6   ( 431) | Now that we have permission, we need to find a venue to get started. In the SW corner of town yo
+#0295 block   f=8  p=0  L6   ( 433) | There's a building on the NE side of town that has a gentleman upstairs who will mention a rare 
+#0296 block   f=8  p=0  L6   ( 406) | You may have already spoken to some people in Endor that will ask if you'd like to hire them as 
+#0297 block   f=8  p=0  L5   ( 340) | Travel east over the bridge and then start moving NE. Ignore the first cave you come across (thi
+#0298 art                 L16  |  ______________________________________
+#0299 hanging f=0  p=7  L3   ( 209) | NOTE: This is the first area of the game where you can encounter the famous Metal Slime. They're
+#0300 block   f=8  p=0  L7   ( 489) | Follow the path from the entrance until you reach some stairs and a ship to your right. Ignore t
+#0301 block   f=8  p=0  L9   ( 617) | On B2, follow the path north and go west when it splits. Continue along the pathway as it turns 
+#0302 block   f=8  p=0  L9   ( 637) | Make your way to the SE corner of B2 and you'll notice a new staircase has appeared. Take them d
+#0303 block   f=8  p=0  L4   ( 268) | Exit the cave by retracing your steps; shouldn't be too difficult, just make sure you keep an ey
+#0304 art                 L9   |  ____________________________________
+#0305 block   f=8  p=0  L6   ( 425) | Upon your return to Endor, pay a visit to the collector who wanted the Silver Statuette in the h
+#0306 block   f=8  p=0  L8   ( 529) | When you have all the money you need, return to the vacant shop in the SW corner of town and tal
+#0307 block   f=8  p=0  L6   ( 409) | While you're in Endor, pay another visit to the King. After hearing that you finally opened up s
+#0308 block   f=8  p=0  L6   ( 429) | We can go about getting this equipment 1 of 2 ways. You could either walk around Endor and the C
+#0309 block   f=8  p=0  L10  ( 709) | Assuming the Sword of Malice is for sale back in Lakanaba, go back there and buy as many as you 
+#0310 block   f=8  p=0  L11  ( 802) | With this money, you can repeat the process by going back to Lakanaba and buying as many Swords 
+#0311 block   f=8  p=0  L3   ( 217) | After you've made all the money you want and have filled the order for the equipment, you'll be 
+#0312 art                 L11  |  _________________________________________
+#0313 block   f=0  p=0  L6   ( 125) | Magic Potion 30 Wizard's Ring 500 Staff of Jubilation 1000 Mirror of Ra 2500 Meteorite Armband 4
+#0314 block   f=8  p=0  L5   ( 321) | Enter the tunnel we passed on the way to the Cave of the Silver Statuette. At the end you'll fin
+#0315 block   f=8  p=0  L5   ( 364) | After handing over the money, speak with him one last time and leave the tunnel. Wait about 1 da
+#0316 block   f=8  p=0  L11  ( 785) | Return to Endor and go downstairs in the 1F of the Inn. Cue the music; The first true Casino in 
+#0317 block   f=8  p=0  L5   ( 334) | After talking to everyone in the Casino, leave and go back to your shop to speak to Neta. She'll
+#0318 art                 L4   |  _____________________________________________________________________________
+#0319 art                 L14  |  ___________________
+#0320 art                 L6   | WEAPONS SHOP:
+#0321 art                 L7   | ARMOR SHOP:
+#0322 block   f=8  p=0  L8   ( 538) | Watch the opening scene in the theater to be introduced to the two main protagonists of Chapter 
+#0323 block   f=8  p=0  L8   ( 603) | You won't have much money to buy anything of worth right now, but eventually you'll want to get 
+#0324 block   f=8  p=0  L3   ( 166) | When you're ready to continue, rest and travel north of Monbaraba until you see a sign in the ro
+#0325 art                 L21  |  _______________
+#0326 block   f=8  p=0  L6   ( 437) | Take the tour and talk to all the villagers to learn about your father's pupil, Orin, and his wh
+#0327 block   f=8  p=0  L7   ( 530) | There's really nothing to get at the Item Shop. The Chain Sickle isn't really necessary if you b
+#0328 art                 L15  |  ____________________________
+#0329 block   f=8  p=0  L7   ( 459) | Follow the linear path to begin with. When you reach an opening to the north, just ignore it (un
+#0330 block   f=8  p=0  L3   ( 202) | Walk south and go west past the columns. When you reach a small pond, walk around it to the nort
+#0331 block   f=8  p=0  L6   ( 404) | On the bottom floor, walk all the way east until you hit the wall then go south. Cross the long 
+#0332 block   f=8  p=0  L7   ( 485) | Now that Orin is tagging along, return to the elevator and take it back up. Walk east to the pon
+#0333 block   f=8  p=0  L4   ( 280) | When you reach the floor below, follow the short linear path to yet another elevator that we'll 
+#0334 block   f=8  p=0  L7   ( 473) | Unless Mara has learned Outside by now (which I'm sure she hasn't), you'll have to backtrack thr
+#0335 art                 L16  |  ________________________
+#0336 block   f=8  p=0  L7   ( 480) | Even though there aren't any items to pick up here right now, we can still gather some important
+#0337 block   f=8  p=0  L6   ( 403) | After speaking to everyone and getting the full story, you'll learn that the port town to the no
+#0338 block   f=8  p=0  L2   ( 101) | When you think you're ready, heal up and take the short walk north of Keeleon Castle to find Hav
+#0339 art                 L20  |  ___________________
+#0340 art                 L7   | WEAPONS SHOP:
+#0341 art                 L8   | ARMOR SHOP:
+#0342 block   f=8  p=0  L4   ( 300) | No items to find, but there's some shopping to do and information to get here. You'll learn abou
+#0343 block   f=8  p=0  L5   ( 370) | As far as equipment upgrades go, you should have plenty of money to play around with after the C
+#0344 block   f=8  p=0  L8   ( 531) | The Gunpowder we need can be found in an underground mine in the village of Aktemto to the west.
+#0345 art                 L16  |  ________________________
+#0346 block   f=8  p=0  L5   ( 327) | Quite a depressing town. Speak with everyone around to learn how sick people around here are get
+#0347 block   f=8  p=0  L8   ( 545) | Immediately walk to the right and take the MYSTIC ACORNS from the treasure chest. Follow the pat
+#0348 block   f=8  p=0  L5   ( 378) | Simply walk as far north as you can on this floor until you can't any longer, then walk east to 
+#0349 block   f=8  p=0  L2   ( 129) | With the Gunpowder in hand, let's make our way back to Haville first to heal up and save. Let's 
+#0350 art                 L16  |  _____________________________
+#0351 block   f=8  p=0  L8   ( 561) | Back in Keeleon, head inside and make your way to the SE corner of 1F. Outside of the Counsil's 
+#0352 block   f=8  p=0  L3   ( 216) | Here we find the evil Balzack, the imposter King of Keeleon, and the beast who killed Nara and M
+#0353 art                 L16  | +------------------+----------------------------------------------------------+
+#0354 block   f=8  p=0  L5   ( 365) | Watch the scene afterwards and you'll be forced into a battle with Keeleon himself. You can't wi
+#0355 block   f=8  p=0  L4   ( 293) | Follow the path to the exit and watch the scene outside the castle. Unfortunately, we'll have to
+#0356 block   f=8  p=0  L4   ( 229) | Once you're on the ship you'll have to speak with everyone at least once, then go up and speak t
+#0357 art                 L4   |  _____________________________________________________________________________
+#0358 art                 L12  |  _________________________
+#0359 block   f=8  p=0  L5   ( 374) | We've reach the 5th and final chapter, but we still have a LONG way to go. When you have control
+#0360 block   f=8  p=0  L5   ( 343) | After the scene, you'll be taken down into the basement to hide from the invading monsters. When
+#0361 block   f=8  p=0  L5   ( 360) | Before leaving the village, you can find a hidden FEATHER HAT by searching the ground in the cen
+#0362 block   f=8  p=0  L8   ( 576) | When you leave the unnamed village, walk a few paces south to find a hut owned by a woodsman. In
+#0363 art                 L19  |  ________________
+#0364 art                 L6   | WEAPONS SHOP:
+#0365 art                 L8   | ARMOR SHOP:
+#0366 block   f=8  p=0  L3   ( 197) | Nothing too interesting going on here. You can speak to the adventurers leaving the castle to be
+#0367 block   f=8  p=0  L5   ( 344) | Speak to everyone in Branca to learn that Mara and Nara seem to be SW of here in Endor. Good thi
+#0368 block   f=8  p=0  L4   ( 244) | When you're about LVL 3 or 4 and you're ready to continue, leave Branca and travel SW until you 
+#0369 art                 L21  |  ________________
+#0370 art                 L7   | WEAPONS SHOP:
+#0371 art                 L8   | ARMOR SHOP:
+#0372 block   f=8  p=0  L6   ( 378) | Welcome back to Endor. Speak with everyone around to get some updated dialogue since Chapter 3. 
+#0373 block   f=8  p=0  L5   ( 320) | Now head down to the Casino in the basement of the Inn. On the north end at the slot machines yo
+#0374 block   f=8  p=0  L6   ( 443) | Don't bother updating any equipment right now. You probably won't have much money anyway, but yo
+#0375 block   f=8  p=0  L4   ( 306) | You can go inside the Coliseum (side entrances of the Castle) to watch the wedding between the P
+#0376 art                 L19  |  ___________________
+#0377 art                 L7   | WEAPONS SHOP:
+#0378 art                 L8   | ARMOR SHOP:
+#0379 block   f=8  p=0  L5   ( 360) | You won't find much here either. The main reason we're here is to pick up a Broad Sword for the 
+#0380 art                 L1   |         Head north to visit Lakanaba when you're done.
+#0381 art                 L19  |  ___________________
+#0382 art                 L5   | WEAPONS SHOP:
+#0383 art                 L2   | ARMOR SHOP:
+#0384 block   f=0  p=0  L6   ( 110) | Wayfarer's Clothes 70G Leather Armor 180G Chain Mail 350G Bronze Armor 700G Leather Shield 90G L
+#0385 block   f=8  p=0  L5   ( 326) | Talk to the villagers and get a look around. There are some treasure chests in the basement of t
+#0386 block   f=8  p=0  L4   ( 270) | If you'd like you can stick around just east of Lakanaba where you can run into Metal Slimes eve
+#0387 block   f=8  p=0  L5   ( 324) | Looks like there's nothing else in the Endor/Bonmalmo region we can do, so return to Endor and t
+#0388 art                 L15  |  _______________________
+#0389 block   f=8  p=0  L7   ( 480) | You'll notice the horse and wagon right away. Wouldn't that make a perfect traveling addition! S
+#0390 block   f=8  p=0  L5   ( 372) | Rest at the Inn here, speak to everyone else, then leave the Desert Inn. The cave we're looking 
+#0391 block   f=8  p=0  L3   ( 156) | When you're ready to go, walk east of the Desert Inn until you reach some bridges. Cross each of
+#0392 art                 L18  |  ___________________________
+#0393 block   f=8  p=0  L4   ( 277) | A very simple cave to navigate; you probably won't even need my directions. Nevertheless, begin 
+#0394 block   f=8  p=0  L6   ( 380) | Eventually, the floor will give way and Mara & Nara will fall down, leaving the Hero all alone. 
+#0395 art                 L4   |         You'll have to fight two Liclick's, so nothing out of the ordinary.
+#0396 block   f=8  p=0  L8   ( 605) | I was going to consider this battle a Boss Battle, but considering there isn't a whole lot of st
+#0397 block   f=8  p=0  L9   ( 617) | Afterwards, head up the stairs and follow the path to another staircase that you'll take down. W
+#0398 block   f=8  p=0  L4   ( 288) | Make your way to the center of this room and break through the cluster of walls in the middle to
+#0399 block   f=8  p=0  L5   ( 342) | When you return, talk to the man again and he'll notice the Symbol. In return he'll offer you hi
+#0400 block   f=9  p=0  L5   ( 339) | The next village on our journey lies directly south of here, but you'll have to go SE around the
+#0401 art                 L16  |  _________________
+#0402 art                 L7   | ITEM SHOP:
+#0403 art                 L8   | WEAPONS SHOP:
+#0404 art                 L8   | ARMOR SHOP:
+#0405 block   f=8  p=0  L5   ( 331) | You can talk to the man outside the first Inn here to get the tour of Aneaux. The only item to o
+#0406 block   f=8  p=0  L3   ( 179) | You'll notice that there's two Inns: one that charges double than the other. You get nothing spe
+#0407 block   f=8  p=0  L5   ( 319) | You should have all of the equipment upgrades at this point, so there isn't anything worth buyin
+#0408 art                 L20  |  ___________________
+#0409 art                 L7   | WEAPONS SHOP:
+#0410 art                 L7   | ARMOR SHOP:
+#0411 block   f=8  p=0  L6   ( 433) | When you get to Konenber, take your time and explore the port town. Talk to everyone around to l
+#0412 block   f=8  p=0  L4   ( 246) | Head into the building in the NW corner of town to find Taloon's ship. You can get on and talk t
+#0413 block   f=8  p=0  L6   ( 430) | The only equipment upgrade we need to purchase here are two Golden Barrettes for Mara and Nara. 
+#0414 block   f=8  p=0  L3   ( 172) | From Konenber, simply travel east until you hit the shoreline, then go north into the forest. Cr
+#0415 art                 L23  |  __________________________
+#0416 hanging f=0  p=6  L10  ( 700) | NOTE: There are LOTS of different types of monsters in this place, and for some reason the rando
+#0417 block   f=8  p=0  L5   ( 337) | Open the large door in your way and make your way to the north end of this room. You'll first no
+#0418 block   f=8  p=0  L4   ( 270) | Before going up the stairs, walk into the north wall (from either side) of the center structure 
+#0419 block   f=8  p=0  L7   ( 503) | Walk south a ways and towards the center of the room (below the tile arrangement). Now go direct
+#0420 block   f=8  p=0  L5   ( 310) | Retrace your steps, yet again, towards the center of this floor. Now walk directly south of the 
+#0421 block   f=8  p=0  L12  ( 847) | Return to the previous pathway and continue south. The path is linear until you reach a fork on 
+#0422 block   f=8  p=0  L12  ( 846) | Walk directly south and open the chest for the FIRE OF SERENITY. Now walk back to the stairs you
+#0423 art                 L16  | +------------------+---------------------------------------------------------+
+#0424 block   f=8  p=0  L4   ( 222) | After the battle, walk up to the center torch and use the Fire of Serenity you just got. The evi
+#0425 art                 L9   |  __________________________
+#0426 block   f=8  p=0  L6   ( 415) | First order of business is to find Taloon. You'll locate him in front of the ship warehouse in t
+#0427 block   f=8  p=0  L7   ( 467) | If you purchased several Swords of Malice back in Chapter 3, be sure the Hero gets one (best swo
+#0428 art                 L21  |  _________________
+#0429 art                 L7   | WEAPONS SHOP:
+#0430 art                 L8   | ARMOR SHOP:
+#0431 hanging f=0  p=7  L6   ( 384) | NOTE: The monsters that you can encounter in the sea are available anywhere in the ocean, theref
+#0432 block   f=8  p=0  L6   ( 449) | You know the drill; speak to everyone and explore the town. The main reason we're here is to pic
+#0433 block   f=8  p=0  L4   ( 262) | The only equipment upgrades to take note of are the Full Plate Armor and the Iron Helmet. Get a 
+#0434 block   f=8  p=0  L7   ( 481) | Check out the 2F of the Inn to find Brey and Cristo. Speak with Brey and he'll join your party, 
+#0435 block   f=8  p=0  L8   ( 555) | The next stop on our journey is the kingdom of Soretta far to the SE. Leave Mintos and travel ea
+#0436 block   f=8  p=0  L3   ( 201) | Leave the traveler's shrine and walk east until you hit the mountains. Now turn south and follow
+#0437 art                 L18  |  ___________________
+#0438 art                 L3   | WEAPONS SHOP:
+#0439 art                 L3   | ARMOR SHOP:
+#0440 block   f=8  p=0  L3   ( 212) | Not much to do here other than talk to the villagers and get more info on Alena and the Padequia
+#0441 block   f=8  p=0  L5   ( 309) | The cave where we can find the Padequia Seed for Cristo can be found just SW of Soretta at the e
+#0442 art                 L16  |  ______________________________
+#0443 block   f=8  p=0  L7   ( 508) | Follow the path when you enter the cave and you'll soon come across some blue tiles with directi
+#0444 block   f=8  p=0  L4   ( 276) | This floor of the cave is rather large and there's a lot more of those arrow tiles. If you walk 
+#0445 block   f=8  p=0  L14  ( 990) | Walk to the NW corner here and you'll find 2 columns of directional tiles leading north. Step on
+#0446 block   f=8  p=0  L5   ( 343) | Step on the tiles to the right then walk SE (this spot should look familiar). Again, step on the
+#0447 block   f=8  p=0  L11  ( 811) | On the bottom floor, you'll find a jumbled mess of arrow tiles. As confusing as it looks, the tw
+#0448 art                 L19  |  _______________________
+#0449 block   f=8  p=0  L4   ( 246) | Once you're back in Soretta, locate the King the field to the SE and speak with him. He'll notic
+#0450 block   f=8  p=0  L6   ( 413) | Leave and return to Mintos. Enter the Inn and go upstairs to find Cristo with Alena at his bedsi
+#0451 art                 L1   | NOTE:  Hector will leave the party once you've recruited Alena and Cristo.
+#0452 art                 L13  |  ____________________________
+#0453 block   f=8  p=0  L11  ( 814) | The easiest way to reach Burland is by first casting Return to Endor. Hop on your ship and follo
+#0454 block   f=8  p=0  L8   ( 594) | The only reason we're here right now is to raid the treasure room. Enter the castle and make you
+#0455 block   f=8  p=0  L6   ( 436) | We'll be coming back here later, but for now we need to start looking for the Magic Key in the K
+#0456 art                 L22  |  _______________________
+#0457 art                 L5   | 2ND ARMOR SHOP: (Endor)
+#0458 block   f=8  p=0  L4   ( 273) | When you enter Keeleon, you'll notice that you won't be able to open any of the doors. When you 
+#0459 block   f=8  p=0  L10  ( 692) | Leave Keeleon and walk north to Haville. Talk to the man who runs the Weapons Shop on the west s
+#0460 block   f=8  p=0  L4   ( 261) | You can revisit Monbaraba far south of Kievs but there isn't anything to do here. The only thing
+#0461 block   f=8  p=0  L7   ( 467) | We've narrowed our search down and it looks like the Magic Key is somewhere in the Cave West of 
+#0462 block   f=8  p=0  L8   ( 582) | Search the vases along the north side to find a SMALL MEDAL, then open the treasure chest down h
+#0463 block   f=8  p=0  L7   ( 495) | When you're ready to do battle, return to Keeleon Castle and enter through the eastern-most door
+#0464 art                 L20  | +------------------+---------------------------------------------------------+
+#0465 block   f=0  p=0  L2   ( 124) | | After a while, Keeleon will fall and you'll get 5100 EXP as the reward! | | You'll also receiv
+#0466 art                 L2   | |                                                                            |
+#0467 block   f=8  p=0  L6   ( 424) | Watch the scene after the battle and Ragnar will join your party. This means we finally have eve
+#0468 block   f=8  p=0  L9   ( 630) | Now that Ragnar's part of the gang, let's upgrade his equipment. Get him a Battle Axe and an Iro
+#0469 block   f=8  p=0  L8   ( 571) | Now cast Return to Endor and make your way to the SE corner of town. Now we can open the door to
+#0470 block   f=8  p=0  L11  ( 814) | You may have noticed the two treasure chests locked away on the 1F of this armor shop. In order 
+#0471 block   f=8  p=0  L8   ( 578) | Now come back at night (use the Lamp of Darkness or the Day-Night spell to speed the process up)
+#0472 block   f=8  p=0  L4   ( 235) | Before continuing on our main quest, now is a great opportunity to mess around in the Casino in 
+#0473 art                 L11  |  ______________________
+#0474 block   f=0  p=0  L6   ( 125) | Magic Potion 30 Wizard's Ring 500 Staff of Jubilation 1000 Mirror of Ra 2500 Meteorite Armband 4
+#0475 block   f=8  p=0  L12  ( 872) | The main items you want to go for right now are the Meteorite Armband (you may want a couple of 
+#0476 block   f=8  p=0  L9   ( 656) | The strategy I used was buy a few hundred coins from the counter (I spent about 7000G to get 350
+#0477 block   f=8  p=0  L7   ( 510) | As bad as this sounds, just keep trying to double-or-nothing until you win a couple thousand coi
+#0478 block   f=8  p=0  L4   ( 254) | Like I mentioned, it should only take a few hours with this method to win a lot of coins. Then a
+#0479 block   f=8  p=0  L4   ( 275) | Once you've had enough of the Casino for now, leave Endor and get on your ship. Sail south down 
+#0480 art                 L20  |  ___________________________
+#0481 art                 L3   | WEAPONS SHOP:
+#0482 art                 L7   | ARMOR SHOP:
+#0483 block   f=8  p=0  L6   ( 434) | A small village to explore, but necessary in our travels. For some reason, visiting Seaside Vill
+#0484 block   f=8  p=0  L4   ( 286) | Before we say goodbye, come back at night and walk to the shore on the south end of town. You'll
+#0485 block   f=8  p=0  L5   ( 331) | When you're finished with Seaside Village, it's time for us to return to Santeem Castle and take
+#0486 art                 L20  |  ___________________________
+#0487 block   f=8  p=0  L5   ( 308) | From Seaside Village, get on your ship and sail a few paces east to get back into the ocean. Fol
+#0488 block   f=8  p=0  L8   ( 541) | Rest and save your game in Surene first, then put together the team of the Hero, Alena, Mara, an
+#0489 art                 L19  | +------------------+----------------------------------------------------------+
+#0490 block   f=0  p=0  L2   ( 101) | | Your party will receive 6500 EXP after the battle, meaning level-ups for | | just about everyo
+#0491 art                 L2   | |                                                                             |
+#0492 block   f=8  p=0  L6   ( 396) | Although Balzack is no more, monsters still lurk around Santeem Castle. The only thing left to d
+#0493 block   f=8  p=0  L13  ( 956) | Leave the castle and take the time to visit all of the towns you saw back in Chapter 2. The only
+#0494 block   f=8  p=0  L4   ( 250) | Now leave Surene and travel NE to Tempe in the mountains. There's nothing to find here (unless y
+#0495 block   f=8  p=0  L3   ( 221) | Travel all the way east and return to Frenor. If you enter the town at night, you can search the
+#0496 block   f=8  p=0  L7   ( 521) | The next stop on our journey is far NW of Santeem on an island covered with rocky shoals. From S
+#0497 art                 L13  |  ___________________
+#0498 art                 L6   | ITEM SHOP:
+#0499 art                 L6   | WEAPONS SHOP 1:
+#0500 art                 L4   | WEAPONS SHOP 2: (night)
+#0501 art                 L8   | ARMOR SHOP:
+#0502 block   f=8  p=0  L5   ( 308) | Alright, a waterway town! Speak to the man at the entrance to reach the ship that you'll have to
+#0503 block   f=8  p=0  L4   ( 286) | If you come back at night you can access the 2nd Weapons Shop in the SW corner of town. The Swor
+#0504 block   f=8  p=0  L9   ( 682) | Now explore the castle during the day. If you enter through one of the two side entrances you ca
+#0505 block   f=8  p=0  L5   ( 345) | Looks like we'll have to find another way to please the King. If you have visited Monbaraba earl
+#0506 block   f=8  p=0  L9   ( 639) | Cast Return to Stancia and make sure you put Panon in your main party. You'll also want to put h
+#0507 art                 L15  |  _________________________
+#0508 block   f=8  p=0  L4   ( 276) | The first step in continuing to look for the other Zenithian treasures is back in Burland. If yo
+#0509 block   f=8  p=0  L4   ( 248) | There's not much new in Burland other than some updated dialogue. Talk to the townspeople and vi
+#0510 art                 L5   |         Before we do, though, revisit Izmit to the north and rest at the Inn.
+#0511 art                 L12  |  __________________________
+#0512 art                 L6   | MEDAL KING'S PRIZES
+#0513 block   f=8  p=0  L7   ( 497) | Finding the Small Medal King isn't too difficult, it's just a lot of sailing we have to do. From
+#0514 block   f=8  p=0  L11  ( 765) | There's an Inn available here, but no House of Healing unfortunately. The Medal King sits on his
+#0515 block   f=8  p=0  L6   ( 419) | Once you've traded your medals in, cast Return to Burland and get back on your ship. Now sail ea
+#0516 art                 L14  |  _____________________
+#0517 art                 L3   | ITEM SHOP:
+#0518 art                 L3   | WEAPONS SHOP:
+#0519 art                 L7   | ARMOR SHOP:
+#0520 block   f=8  p=0  L5   ( 356) | You'll find that Gardenbur is a castle fully run by women. Enter the castle and begin talking to
+#0521 block   f=8  p=0  L9   ( 615) | Now for the item hunt. If you make your way over to the kitchen on the first floor (west side of
+#0522 block   f=8  p=0  L7   ( 511) | In a small room just north of the Armor Shop on 1F, speak to the woman in here and she'll tell y
+#0523 block   f=8  p=0  L6   ( 458) | When you speak with the Queen, she'll agree to let you go and call you innocent if you stop the 
+#0524 block   f=8  p=0  L4   ( 254) | There's a cave SE of Gardenbur where the real thief fled to hide. Before leaving Gardenbur, sear
+#0525 art                 L16  |  _____________________________________
+#0526 block   f=8  p=0  L5   ( 343) | From the entrance, walk all the way south and then go west to follow the outer path north. Walk 
+#0527 block   f=8  p=0  L11  ( 782) | Retrace your steps and walk all the way west until you hit the wall. Walk north along the west w
+#0528 block   f=8  p=0  L13  ( 987) | Make your way back and this time take the narrow pathway leading south near the chest we just op
+#0529 block   f=8  p=0  L4   ( 225) | Now retrace your steps and return to the east side of B2. If you walk all the way to the SE corn
+#0530 block   f=8  p=0  L4   ( 298) | Don't bother searching the vases and drawers for anything because they're all empty. Just make s
+#0531 art                 L17  | +------------------+---------------------------------------------------------+
+#0532 block   f=8  p=0  L9   ( 629) | After the battle a Gardenbur soldier will come and take Bakor away. Cast Outside and go back to 
+#0533 block   f=8  p=0  L3   ( 200) | Now we can open all of the previously locked doors that we've come across on our travels with ou
+#0534 art                 L14  |  ___________________________
+#0535 block   f=8  p=0  L3   ( 201) | The first stop is Branca. Head into the castle and in the NW corner you'll find three treasures 
+#0536 block   f=8  p=0  L4   ( 295) | Now return to Lakanaba (cast Return to Bonmalmo and travel north) and head down into the basemen
+#0537 block   f=8  p=0  L4   ( 223) | Next stop is Haville. Go down to the jail and you can open the cell doors to reach the vases ins
+#0538 block   f=8  p=0  L3   ( 211) | Leave and return to Konenber. Make your way to the Inn and go upstairs. You'll find a treasure c
+#0539 block   f=8  p=0  L8   ( 537) | We've obtained all the treasures available right now, so the next stop on our quest is the town 
+#0540 art                 L17  |  _____________________
+#0541 art                 L6   | WEAPONS SHOP:
+#0542 art                 L7   | ARMOR SHOP:
+#0543 block   f=8  p=0  L11  ( 807) | A very small village, but a necessary stop on our travels. You may recognize the tower on the no
+#0544 block   f=8  p=0  L6   ( 452) | The main reason we're here is to inspect the tower. Remember how Saro played a flute to allow th
+#0545 art                 L11  | +------------------+---------------------------------------------------------+
+#0546 block   f=0  p=0  L2   ( 129) | | Your party will receive ~6800 EXP (depending on how much extra help he | | called for) and the
+#0547 art                 L2   | |                                                                            |
+#0548 block   f=8  p=0  L6   ( 418) | After the battle speak to Rosa. She'll tell you all about Saro (AKA Necrosaro) and how you must 
+#0549 art                 L15  |  ___________________________________
+#0550 block   f=8  p=0  L5   ( 366) | Open the door upon entering and follow the waterway east. Staying on your ship, continue north u
+#0551 block   f=8  p=0  L6   ( 445) | Go back and get on your ship and continue north through the water. Follow the waterway all the w
+#0552 block   f=8  p=0  L7   ( 461) | Cast Outside and go back to Burland to rest and save. There's one more dungeon to explore before
+#0553 art                 L14  |  _______________________
+#0554 block   f=8  p=0  L5   ( 324) | Walk north and up the stone steps to reach a waterfall. Stand front and center against the water
+#0555 block   f=8  p=0  L4   ( 270) | Go north and then turn west near the water. Follow the path south and then west again. Now go no
+#0556 block   f=8  p=0  L7   ( 523) | Walk all the way south from the stairs on B3 to find a treasure chest in the SW corner of the ro
+#0557 block   f=8  p=0  L7   ( 501) | On the bottom floor simply follow the linear path to the METAL BABBLE SWORD! I chose to give it 
+#0558 art                 L14  |  ______________________
+#0559 block   f=8  p=0  L4   ( 292) | Walk north and open the door. Inside, continue north and open one of many doors blocking the way
+#0560 block   f=8  p=0  L8   ( 574) | Walk east and step onto either row of tiles and then go down the staircase next to you. Walk to 
+#0561 block   f=8  p=0  L5   ( 362) | Retrace your steps to the initial passage you came from and continue south. Follow the path alon
+#0562 block   f=8  p=0  L8   ( 551) | Go south from the spring and you'll reach those directional tiles we used earlier. Go around the
+#0563 block   f=8  p=0  L3   ( 209) | Either cast Outside, or walk north onto those tiles to put you back at the beginning. Either way
+#0564 block   f=8  p=0  L7   ( 522) | Our next stop is that small island continent covered with mountains on all sides. If you check y
+#0565 art                 L16  |  _____________________
+#0566 art                 L6   | WEAPONS SHOP:
+#0567 art                 L8   | ARMOR SHOP:
+#0568 block   f=8  p=0  L6   ( 386) | Not much going on here at all. Talk to the villagers for information, then sail towards the smal
+#0569 block   f=8  p=0  L4   ( 227) | The Weapons & Armor Shops don't have anything important; we've seen this equipment in other plac
+#0570 art                 L20  |  _____________________________
+#0571 block   f=8  p=0  L5   ( 366) | Walk to the left side and open the door with your Final Key. Now approach the colossal statue. E
+#0572 block   f=8  p=0  L5   ( 347) | Walk down and go west until you reach a room with statues. In the SE corner you'll find a chest 
+#0573 block   f=8  p=0  L6   ( 395) | Walk west and then south through the opening. Now turn east and walk all the way to the eastern 
+#0574 block   f=8  p=0  L5   ( 316) | Walk SE and then directly east. Ignore the two rooms along the way and continue along the path u
+#0575 block   f=8  p=0  L8   ( 591) | Go back to the staircase and down to the previous floor. Walk north from the stairs on 3F and co
+#0576 block   f=8  p=0  L6   ( 375) | You'll now be near the top with two openings on either side along the south edge. Walk west and 
+#0577 block   f=8  p=0  L3   ( 189) | When you reach the other side of the river, our next destintaion lies to the east. Travel SE at 
+#0578 art                 L17  |  ______________________
+#0579 block   f=8  p=0  L8   ( 564) | This is where we'll need that Staff of Transform, although you can speak to the monsters as huma
+#0580 block   f=8  p=0  L7   ( 524) | Head up the stairs along the southern wall to find the empty throne room. Go down the stairs in 
+#0581 block   f=8  p=0  L7   ( 452) | Exit and re-enter Dire Palace to get back to the entrance. Head up to the throne room again, but
+#0582 block   f=8  p=0  L11  ( 791) | Re-enter again and this time go upstairs and into the conference room (don't forget to use the S
+#0583 art                 L19  |  _____________________________
+#0584 block   f=8  p=0  L4   ( 228) | Back in Aktemto, walk north and head down into the mines. The first few floors haven't changed s
+#0585 block   f=8  p=0  L5   ( 319) | Starting from the ladder on B3 (you'll know because there's a corpse nearby), walk north until y
+#0586 block   f=8  p=0  L4   ( 248) | On B4, walk NE from the ladder and take the passage north. When the path splits, go east to find
+#0587 block   f=8  p=0  L5   ( 339) | Now walk back west and take the path leading north to arrive at an opening in the wall next to a
+#0588 block   f=8  p=0  L5   ( 368) | Go back outside and follow the path east to find the entrance of Esturk's Palace. Once inside, w
+#0589 block   f=8  p=0  L5   ( 322) | Continue west down the hall and you'll find another treasure chest in a separate room in the NW 
+#0590 block   f=8  p=0  L5   ( 302) | Follow the linear path north and then east. Ignore the staircase you see and continue south down
+#0591 block   f=8  p=0  L5   ( 328) | Walk north and ignore the skeleton guarding the treasure chest for now; we'll be able to reach i
+#0592 block   f=8  p=0  L4   ( 297) | Approach the monsters and tell them you won't leave. You'll have to battle a Rhinoking and a Ben
+#0593 art                 L23  | +------------------+---------------------------------------------------------+
+#0594 block   f=8  p=0  L7   ( 482) | Watch the scene involving Saro after the fight, then start back- tracking your way out. When you
+#0595 art                 L1   |         Now that we're out of that Hell-hole, cast Return to Riverton.
+#0596 art                 L9   |  __________________________
+#0597 block   f=8  p=0  L4   ( 268) | Upon your return to Riverton, revisit the merchant on the NW side who mentioned the Gas Canister
+#0598 block   f=8  p=0  L5   ( 355) | Leave Riverton and get on your balloon (walk on top and press 'A'). If you check your Treasure M
+#0599 art                 L15  |  ____________________________________
+#0600 art                 L3   | ITEM SHOP:
+#0601 art                 L3   | WEAPONS SHOP:
+#0602 art                 L4   | ARMOR SHOP:
+#0603 block   f=8  p=0  L7   ( 491) | Speak to the elves and explore their tiny village outside the World Tree. There's an Armor Shop 
+#0604 block   f=8  p=0  L7   ( 505) | Before we venture through the World Tree, you'll have to construct a party of only 3 members. Th
+#0605 block   f=8  p=0  L7   ( 519) | When you're ready to go, enter the World Tree and begin by walking north. Enter the smaller room
+#0606 block   f=8  p=0  L6   ( 391) | Go back down the ladder to 1F and walk south. Go east into the narrow passage on your right and 
+#0607 block   f=8  p=0  L7   ( 513) | Walk south from the ladder on 3F and out onto the leaves to find yet another ladder. Take this o
+#0608 block   f=8  p=0  L4   ( 269) | Head up the ladder and walk north out onto the leaves again. This time walk counter-clockwise al
+#0609 block   f=8  p=0  L8   ( 576) | On the top level, take a few paces west and go SW along the branch (be careful not to fall off) 
+#0610 block   f=8  p=0  L2   ( 140) | You can simply fall off any edge of the tree to land just outside Elfville. You can now access y
+#0611 art                 L23  |  ____________________________________
+#0612 art                 L3   | WEAPONS SHOP:
+#0613 art                 L7   | ARMOR SHOP:
+#0614 block   f=8  p=0  L4   ( 261) | There's still one place we haven't visited yet. Cast Return to Konenber and get on your balloon.
+#0615 block   f=8  p=0  L3   ( 182) | From where you land, travel NE and around the mountain range. Continue east (passing the cave to
+#0616 block   f=8  p=0  L6   ( 398) | Explore the town and speak to its citizens. A lot of the information you get involves the Zenith
+#0617 block   f=8  p=0  L7   ( 508) | Obviously, our next destination is the Zenithian Tower. But before we go travel far east of Gott
+#0618 block   f=8  p=0  L7   ( 518) | You'll land on an elevator at the bottom. Step onto the switch to ride it back up to the top. Ge
+#0619 block   f=8  p=0  L4   ( 244) | Leave the shrine and return to Gottside to rest and save your game. Since we have all the Zenith
+#0620 art                 L16  |  __________________________
+#0621 block   f=8  p=0  L3   ( 172) | Make sure the Hero has all 4 pieces of Zenithian equipment on before trying to get in the tower.
+#0622 block   f=8  p=0  L5   ( 338) | Once you're inside, walk north through the first intersection and turn west once you get towards
+#0623 block   f=8  p=0  L6   ( 418) | Retrace your steps to the first floor and go all the way east this time to find a staircase in t
+#0624 block   f=8  p=0  L5   ( 364) | Take the stairs to your left (SW corner) and then make your way to the SW corner of the next roo
+#0625 block   f=8  p=0  L6   ( 382) | Walk west and up the ladder, then continue moving west until you see a doorway and a staircase b
+#0626 block   f=8  p=0  L4   ( 291) | Return to the room where you initially chose to go outside (instead of taking the stairs) and th
+#0627 block   f=8  p=0  L8   ( 549) | You'll be in a rather large room now. From the doorway you came from, walk east and follow the p
+#0628 art                 L9   |  ___________________________
+#0629 hanging f=0  p=7  L5   ( 324) | NOTE: If you enter Zenithian Castle with Lucia in your main party, she'll leave now and you can 
+#0630 block   f=8  p=0  L8   ( 542) | We've reach our long-awaited destination, and the Hero's long-lost home! Speak with the Zenithia
+#0631 block   f=8  p=0  L6   ( 419) | Our main objective here is to talk to the Master Dragon at the top of the castle. After speaking
+#0632 art                 L4   |         You'll find out that the only way to reach Necrosaro's domain is to pass through a dange
+#0633 block   f=8  p=0  L9   ( 685) | Before taking the plunge, take this time to make sure everyone has their optimized equipment at 
+#0634 block   f=8  p=0  L2   ( 147) | When you're all saved up and ready to go, return to Zenithia and jump down the hole in the cloud
+#0635 art                 L22  |  ____________________________
+#0636 hanging f=0  p=7  L5   ( 286) | NOTE: Don't be ashamed to run away from most of the random battles here. Some of the enemies tak
+#0637 block   f=8  p=0  L10  ( 741) | Walk north into the next room and open the door at the top of the screen. Inside here you'll fin
+#0638 block   f=8  p=0  L9   ( 626) | Walk north from the chest and step on the left column of tiles at the top to return to the previ
+#0639 block   f=8  p=0  L5   ( 357) | Now make your way to the SW corner of this room and follow the safe path east along the southern
+#0640 block   f=8  p=0  L8   ( 563) | Backtrack through the hallway to that first passage that we ignored before. Enter this path to r
+#0641 block   f=8  p=0  L9   ( 631) | Avoid the pit by going west and then south around it. Step on the left column of arrow tiles lea
+#0642 block   f=8  p=0  L8   ( 541) | Walk north and onto the boat and sail directly east until you reach a tiny island with another s
+#0643 block   f=8  p=0  L4   ( 235) | Go back down the stairs (or simply jump down the pit) and go down one more staircase on the nort
+#0644 art                 L16  |  ______________________________
+#0645 block   f=8  p=0  L7   ( 483) | Inside the Last Refuge, walk north and a Zenithian will appear from the flames. If you speak to 
+#0646 block   f=8  p=0  L9   ( 655) | From here on out, I suggest using a team consisting of the Hero (duh), Alena, Ragnar, and Cristo
+#0647 art                 L15  | +------------------+----------------------------------------------------------+
+#0648 block   f=8  p=0  L3   ( 188) | The next stop is directly south of the Den of Radimvice. Enter the shrine on the SE corner of th
+#0649 art                 L14  | +------------------+----------------------------------------------------------+
+#0650 block   f=8  p=0  L8   ( 548) | That's 2 down, 2 to go! Return to the Last Refuge to heal and save, then travel to the SW corner
+#0651 block   f=8  p=0  L6   ( 443) | You'll have to get by 5 moving statues that move according to how you move. The best way to get 
+#0652 block   f=8  p=0  L3   ( 222) | After getting by the statues, cast StepGuard and walk into the opening. Here you'll find the Gig
+#0653 art                 L13  | +------------------+----------------------------------------------------------+
+#0654 block   f=8  p=0  L3   ( 170) | Return to the Last Refuge to heal, then walk to the NW corner to reach the final fiend in the De
+#0655 art                 L15  | +------------------+----------------------------------------------------------+
+#0656 block   f=8  p=0  L6   ( 434) | Well, that takes care of that barrier around the palace. Return to the Refuge to heal up and sav
+#0657 art                 L21  |  _____________________________
+#0658 block   f=8  p=0  L6   ( 410) | Head north into the palace and you'll immediately be met by 3 Clay Dolls wandering around the ro
+#0659 block   f=8  p=0  L7   ( 491) | Walk outside and continue NE and back into the castle (just ignore the corpse :P). Follow the ha
+#0660 block   f=8  p=0  L5   ( 327) | Walk directly north of the stairs on this floor and between the statues to find a hidden room. W
+#0661 block   f=8  p=0  L4   ( 227) | Return to the room where you found that hidden path between the statues. There's an exit in the 
+#0662 block   f=8  p=0  L8   ( 574) | Now backtrack to the elevator we initially passed and take that down to the floor below. Walk so
+#0663 block   f=8  p=0  L8   ( 570) | You'll now be back on the World Map with free access to the mountain where Necrosaro resides. Be
+#0664 art                 L7   | HERO                    ALENA                   RAGNAR
+#0665 art                 L7   | CRISTO                  NARA                    MARA
+#0666 art                 L6   | TALOON                  BREY
+#0667 block   f=8  p=0  L3   ( 216) | Also, make sure the Hero has the Sage's Stone for healing. It'll be very important in this fight
+#0668 art                 L12  | +------------------+----------------------------------------------------------+
+#0669 art                 L10  | +------------------+----------------------------------------------------------+
+#0670 art                 L9   | +------------------+----------------------------------------------------------+
+#0671 art                 L10  | +------------------+----------------------------------------------------------+
+#0672 art                 L9   | +------------------+----------------------------------------------------------+
+#0673 art                 L9   | +------------------+----------------------------------------------------------+
+#0674 art                 L16  | +------------------+----------------------------------------------------------+
+#0675 block   f=8  p=0  L2   ( 143) | Watch the scenes after the battle, then when you have control leave Zenithia Castle to complete 
+#0676 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#0677 art                 L5   |    ________________________________________________________________
+#0678 art                 L4   |  ___________________________________
+#0679 block   f=8  p=0  L4   ( 256) | The chart below includes all of the common and key items in the game; by "key" items, I mean ite
+#0680 art                 L10  | * = Key Item
+#0681 block   f=0  p=0  L2   ( 106) | | Baron's Horn* | N/A | N/A | Baron's Horn| Calls wagon in Ch. 5 | | | | | Shrine | at Necrosaro
+#0682 art                 L103 | |________________________|______|_______|_____________|______________________|
+#0683 block   f=0  p=0  L2   ( 103) | | Small Medal | N/A | N/A | Various | Collect and trade for| | | | | locations | prizes with the
+#0684 art                 L29  | |                        |      |       |             | King                 |
+#0685 art                 L4   |  ___________________________________
+#0686 block   f=8  p=0  L6   ( 370) | The following chart includes all of the weapons in the game in alphabetical order. I have also l
+#0687 art                 L4   | H - Hero        B - Brey
+#0688 art                 L92  | * = Cursed
+#0689 art                 L4   |  __________________________________
+#0690 art                 L71  | * = Cursed
+#0691 art                 L4   |  ___________________________________
+#0692 art                 L23  |  ____________________________________________________________________________
+#0693 art                 L4   |  ___________________________________
+#0694 art                 L30  | * = Cursed
+#0695 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#0696 art                 L5   |    ________________________________________________________________
+#0697 block   f=8  p=0  L6   ( 438) | The following chart lists all of the monsters in the game (including bosses). I have listed thei
+#0698 hanging f=0  p=7  L9   ( 553) | NOTE: There are 9 monsters hidden within the code of Dragon Warrior IV that never appear in the 
+#0699 art                 L497 |  ____________________________________________________________________________
+#0700 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#0701 art                 L5   |    ________________________________________________________________
+#0702 art                 L6   | MEDAL KING'S PRIZES
+#0703 art                 L28  |  ____________________________________________________________________________
+#0704 block   f=0  p=0  L2   ( 129) | | 09 | Stancia. In the NE part of town there's a staircase leading up | | | to a house with a va
+#0705 art                 L7   | |_________|__________________________________________________________________|
+#0706 block   f=0  p=0  L2   ( 114) | | 12 | Cave Southeast of Gardenbur (B1). The treasure chst in the | | | middle near the south si
+#0707 art                 L1   | |_________|__________________________________________________________________|
+#0708 block   f=0  p=0  L2   ( 138) | | 13 | Branca. After obtaining the Final Key, open the jail door in the| | | NE part of the cast
+#0709 art                 L19  | |_________|__________________________________________________________________|
+#0710 block   f=0  p=0  L2   ( 101) | | 20 | Riverton. Search the south-most grassy patch on the island in | | | the middle of the riv
+#0711 art                 L6   | |_________|__________________________________________________________________|
+#0712 block   f=0  p=0  L2   ( 123) | | 23 | Dire Palace (B1). Check the NW chest in the treasure room (use | | | the steps outside th
+#0713 art                 L5   | |_________|__________________________________________________________________|
+#0714 block   f=0  p=0  L2   ( 115) | | 25 | Inside Esturk's Palace itself. The first chest inside its own | | | little room will have
+#0715 art                 L1   | |_________|__________________________________________________________________|
+#0716 block   f=0  p=0  L2   ( 141) | | 26 | Esturk's Palace (1F). When you come back into the castle there | | | are two chests near 
+#0717 art                 L1   | |_________|__________________________________________________________________|
+#0718 block   f=0  p=0  L2   ( 119) | | 27 | Gottside. On the north side there are some stairs down to a | | | small room. Search the 
+#0719 art                 L6   | |_________|__________________________________________________________________|
+#0720 block   f=0  p=0  L2   ( 128) | | 29 | Zenithian Tower. On the top floor there's a room with 3 dresser/| | | drawers. Search the
+#0721 art                 L15  | |_________|__________________________________________________________________|
+#0722 art                 L2   | ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#0723 art                 L5   |    __________________________________________________________
+#0724 block   f=8  p=0  L3   ( 161) | First and foremost I'd like to credit Enix for making such an amazing game! Dragon Warrior IV is
+#0725 block   f=8  p=0  L3   ( 157) | I owe a HUGE amount of credit to Woodus' Dragon's Den for supplying a lot of the list informatio
+#0726 block   f=8  p=0  L2   (  97) | And last, but certainly not least, I want to thank GameFAQs for hosting this document on the web
+#0727 art                 L1   | (c) Ramina 2007-2014

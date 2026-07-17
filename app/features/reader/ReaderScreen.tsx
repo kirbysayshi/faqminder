@@ -48,37 +48,44 @@ export function ReaderScreen({
   const artFont = useArtFont(scrollRef, doc.artCols, artFit);
   useScrollBookmark(meta.id, scrollRef, initialAnchor);
 
+  // Anything that resizes text re-lays-out the whole document, so remember what was
+  // under the top of the viewport BEFORE the change and put it back after —
+  // otherwise the reader jumps somewhere unpredictable.
+  const pendingAnchor = useRef<ScrollAnchor | null>(null);
+  const rememberViewport = useCallback(() => {
+    const el = scrollRef.current;
+    pendingAnchor.current = el ? currentAnchor(el) : null;
+  }, []);
+
   const toggleArtFit = useCallback(
     (fit: boolean) => {
+      rememberViewport();
       setArtFit(fit);
       void saveArtFit(meta.id, fit);
     },
-    [meta.id],
+    [meta.id, rememberViewport],
   );
-
-  // Resizing re-lays-out the whole document, so remember what was under the top of
-  // the viewport BEFORE the change and put it back after — otherwise the reader
-  // jumps somewhere unpredictable.
-  const pendingAnchor = useRef<ScrollAnchor | null>(null);
 
   const stepFont = useCallback(
     (delta: number) => {
       const next = clampFont(font + delta);
       if (next === font) return;
-      const el = scrollRef.current;
-      pendingAnchor.current = el ? currentAnchor(el) : null;
+      rememberViewport();
       setFont(next);
       void saveFontSize(meta.id, next);
     },
-    [font, meta.id],
+    [font, meta.id, rememberViewport],
   );
 
+  // Keyed on the sizes that actually reflow the document, not on the settings that
+  // produce them: toggling artFit only re-lays-out once useArtFont has measured and
+  // published a new artFont, a render later.
   useLayoutEffect(() => {
     const el = scrollRef.current;
     const anchor = pendingAnchor.current;
     pendingAnchor.current = null;
     if (el && anchor) applyAnchor(el, anchor); // after re-layout, before paint
-  }, [font]);
+  }, [font, artFont]);
 
   const toggleReflow = useCallback(
     (blockId: number) => {

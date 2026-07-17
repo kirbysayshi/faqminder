@@ -95,6 +95,19 @@ describe("reader layout (real browser)", () => {
     expect(scrolling.length).toBeGreaterThan(0); // wide art is reachable by scrolling
   });
 
+  it("keeps the content at the top of the viewport when toggling fit", async () => {
+    const reader = $("[data-reader-scroll]");
+    reader.scrollTo(0, 9000);
+    const before = topBlockId(reader);
+    expect(before).toBeDefined();
+
+    await page.getByLabelText("Reader options").click();
+    await page.getByRole("switch", { name: /fit wide text/i }).click();
+    await page.getByLabelText("Close options").click();
+
+    expect(topBlockId(reader)).toBe(before); // same content still on screen
+  });
+
   it("reflows prose, and no paragraph's text overflows its box", () => {
     const ps = all<HTMLParagraphElement>("[data-reader-scroll] p");
     expect(ps.length).toBeGreaterThan(100);

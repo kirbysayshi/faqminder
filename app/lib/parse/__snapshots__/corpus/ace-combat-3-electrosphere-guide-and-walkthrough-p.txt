@@ -1,4 +1,4 @@
-blocks: 311  art: 179  prose-block: 107  prose-hanging: 25
+blocks: 348  art: 175  prose-block: 148  prose-hanging: 25
 --------------------------------------------------------------------------------
 #0000 art                 L14  |                                           |¯|         |¯|    /¯¯¯\|¯¯¯¯\
 #0001 art                 L35  |        01) Transport .................................................... WK01
@@ -8,306 +8,343 @@ blocks: 311  art: 179  prose-block: 107  prose-hanging: 25
 #0005 art                 L19  | _______________________________________________________________________________
 #0006 block   f=1  p=1  L4   ( 299) | Ace Combat 3 is compatible with all normal controllers, including NeoCon and digital (non-analog
 #0007 art                 L20  |   ___________ ______________________________ ________________________________
-#0008 art                 L8   | _______________________________________________________________________________
-#0009 hanging f=1  p=3  L3   ( 178) | • Saving! Getting A/B Rank on all normal missions in the game will unlock a 36th final mission, 
-#0010 hanging f=1  p=3  L4   ( 294) | • The most advantageous firing position is from behind the enemy while they are in a mid-turn an
-#0011 block   f=3  p=3  L5   ( 305) | The worst positioning, thus, would be about the exact opposite: enemy is heading towards you fro
-#0012 hanging f=1  p=3  L3   ( 189) | • Try to pace yourself on difficulty first off. The walkthrough is written in Normal Mode so tha
-#0013 hanging f=1  p=3  L4   ( 296) | • Don't pull your hair out trying to get "A" ranks! If you settle for B's, the 36th mission is s
-#0014 art                 L7   |                                                     _________________________
-#0015 art                 L3   |  Difficulty : 2/10
-#0016 block   f=1  p=1  L3   ( 210) | Only the EF2000E is unlocked initially and that son of a gun's a dogfighter, which should help a
-#0017 art                 L5   |  ############################################################################
-#0018 block   f=1  p=1  L11  ( 770) | Long-time veterans should have the controls down pat, especially if they've played later PS2 ins
-#0019 block   f=1  p=1  L6   ( 463) | As for the mission itself, the first is always the easiest and this one's no different. The R-50
-#0020 art                 L8   |  MISSION UPDATE!
-#0021 art                 L3   | ACHIEVING A-RANK
-#0022 block   f=1  p=1  L5   ( 372) | Defeat the first four targets in under 3:00 to get the mission update, then defeat the final tar
-#0023 block   f=1  p=1  L3   ( 213) | Since there's no score system like in future ACs, a lot of the extra "oomph" to hit a certain ra
-#0024 art                 L6   | PLANE PLAY-BY-PLAY
-#0025 art                 L8   | _______________________________________________________________________________
-#0026 block   f=1  p=1  L2   ( 119) | Once again, the Typhoon's the only plane up for this job...unless you gained the Fulcrum SS doin
-#0027 block   f=1  p=1  L9   ( 682) | The mission goal is to destroy all the radar sites plaguing General Defense's surveillance, and 
-#0028 block   f=1  p=1  L3   ( 225) | A good tip is to start from the north and work south, taking it slow to the plane doesn't oversh
-#0029 art                 L9   |  MISSION UPDATE!
-#0030 art                 L6   | ACHIEVING A-RANK
-#0031 art                 L9   | PLANE PLAY-BY-PLAY
-#0032 art                 L8   | _______________________________________________________________________________
-#0033 block   f=1  p=1  L6   ( 426) | Based on the success in "Interference," the military has agreed to do joint training exercises. 
-#0034 block   f=1  p=1  L11  ( 819) | The mission itself first requires the player to trail a friendly (Eagle+) at no more than a 1000
-#0035 block   f=1  p=1  L5   ( 356) | After a few loop-de-loops, some training decoys will be released. They'll be missile-unfriendly 
-#0036 art                 L7   |  MISSION UPDATE!
-#0037 art                 L10  | ACHIEVING A-RANK
-#0038 art                 L7   | PLANE PLAY-BY-PLAY
-#0039 art                 L8   | _______________________________________________________________________________
-#0040 block   f=1  p=1  L5   ( 335) | Neuwork's sending warships to reinforce the militarization of Megafloat, a floating city -- and 
-#0041 block   f=1  p=1  L5   ( 329) | The first half of this mission, destroying the listed targets north and south of Rocky Island, i
-#0042 art                 L8   |  MISSION UPDATE!
-#0043 art                 L2   |  Afterwards you can land on the carrier, but I suggest having autopilot do all
-#0044 art                 L7   | ACHIEVING A-RANK
-#0045 art                 L11  | PLANE PLAY-BY-PLAY
-#0046 art                 L8   | _______________________________________________________________________________
-#0047 block   f=1  p=1  L5   ( 313) | Although plenty were killed so far, apparently the military thinks eight R-201s is a huge threat
-#0048 block   f=1  p=1  L6   ( 448) | Like usual, there's a time limit (3:00) for the first half of the mission. It's one's job to fly
-#0049 block   f=1  p=1  L2   ( 153) | Since the planes are in two lines (two pairs of four), it's best to just fly in a circle(ish) mo
-#0050 art                 L7   |  MISSION UPDATE!
-#0051 art                 L8   | ACHIEVING A-RANK
-#0052 block   f=1  p=1  L5   ( 361) | This is the first mission in the game where it's suggested to take a lower rank and achieve an "
-#0053 art                 L8   | PLANE PLAY-BY-PLAY
-#0054 art                 L8   | _______________________________________________________________________________
-#0055 block   f=1  p=1  L5   ( 310) | In Expo City, there seems to be an illegal testing range that needs to be scooped out in case it
-#0056 block   f=1  p=1  L7   ( 527) | To reconnoiter the area, the plane must get each "Facilities" within missile range -- firing at 
-#0057 art                 L5   |  MISSION UPDATE!
-#0058 art                 L7   | ACHIEVING A-RANK
-#0059 art                 L8   | PLANE PLAY-BY-PLAY
-#0060 art                 L8   | _______________________________________________________________________________
-#0061 block   f=1  p=1  L4   ( 239) | A terrorist communique has alerted the UPEO Command that a plane carrying bioweapons is on a col
-#0062 block   f=1  p=1  L9   ( 633) | The briefing detailed the general gist of things: rather than defeating the plane, which would s
-#0063 art                 L6   |  MISSION UPDATE!
-#0064 art                 L1   |  When the festivities end, congratulations on crippling the city economy!
-#0065 art                 L3   | ACHIEVING A-RANK
-#0066 art                 L6   | PLANE PLAY-BY-PLAY
-#0067 art                 L8   | _______________________________________________________________________________
-#0068 block   f=1  p=1  L9   ( 649) | Despite repeated warnings, Neuwork's continuing to fortify Megafloat, its buoyant city seen in a
-#0069 block   f=1  p=1  L5   ( 365) | There's not many surprises for the demilitarizing, although there's a 3:30 time limit to do it a
-#0070 art                 L8   |  MISSION UPDATE!
-#0071 art                 L13  | ACHIEVING A-RANK
-#0072 block   f=1  p=1  L4   ( 280) | This is the second mission in the game where it's suggested to take a lower rank and achieve an 
-#0073 hanging f=1  p=7  L3   ( 184) | NOTE: The 2nd convoy sometimes survives if you're going too fast, so try to decelerate a bit and
-#0074 hanging f=1  p=7  L2   ( 102) | NOTE: You may want to do the difficult part (defeating 5 planes) first, then doing the easier ta
-#0075 art                 L10  | PLANE PLAY-BY-PLAY
-#0076 art                 L8   | _______________________________________________________________________________
-#0077 block   f=1  p=1  L8   ( 559) | One of Neuwork's power plants is supplying an illegal munitions factory, so it needs to be remov
-#0078 block   f=1  p=1  L6   ( 433) | The power plant complex is in the south and arranged in a "quincunx" array: four outer targets a
-#0079 block   f=1  p=1  L3   ( 212) | When all four plants are rubble, the center conelike plant will expose its core. Firing blindly 
-#0080 art                 L7   |  MISSION UPDATE!
-#0081 art                 L7   | ACHIEVING A-RANK
-#0082 art                 L5   |  1) Destroy any 3 planes near northern airport [x3 KO]
-#0083 block   f=1  p=1  L7   ( 519) | Since the hardest "wild card" is the 3 planes, so it's important to get them out of the way firs
-#0084 block   f=1  p=1  L2   ( 153) | Note that you can skip the MSSL part and get three more planes instead, but I like to go for the
-#0085 art                 L8   | PLANE PLAY-BY-PLAY
-#0086 art                 L8   | _______________________________________________________________________________
-#0087 block   f=1  p=1  L6   ( 410) | A bit of a breather from the ninth mission, this surveillance assignment is on a General Resourc
-#0088 art                 L5   |  • Flying in first-person mode makes this easier
-#0089 block   f=1  p=1  L6   ( 438) | The plane in question travels unassumingly forward, so it's a sitting duck... but like all lucky
-#0090 hanging f=1  p=7  L2   ( 146) | NOTE: Mission failure if the chemical weapons plant is not discovered within 5:30! This is not s
-#0091 block   f=1  p=1  L5   ( 310) | The R/F-117X can rise above the canyon without any repercussions, leaving the player to squeak b
-#0092 art                 L6   |  MISSION UPDATE!
-#0093 art                 L10  | ACHIEVING A-RANK
-#0094 block   f=0  p=0  L7   ( 188) | PLANE PLAY-BY-PLAY ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ [x01] R/F-117X -- Default [x19] AH-66B ---- Default [x01] 
-#0095 art                 L8   | _______________________________________________________________________________
-#0096 block   f=1  p=1  L4   ( 272) | Back to the free skies! This time, a NUN (Neo United Nations) chairman has been targeted by terr
-#0097 block   f=1  p=1  L6   ( 434) | As the mission starts, the bogeys are along the eastern edge of the map, two groups, five total.
-#0098 hanging f=1  p=7  L2   (  85) | NOTE: The 1st midair refueling takes place after this, but feel free to autopilot it.
-#0099 art                 L9   | ACHIEVING A-RANK
-#0100 art                 L4   | PLANE PLAY-BY-PLAY
-#0101 art                 L8   | _______________________________________________________________________________
-#0102 block   f=1  p=1  L5   ( 339) | Neuwork's sent an aerial platoon to attack White Valley airbase, and they're cruising at a 30,00
-#0103 block   f=1  p=1  L7   ( 507) | After the awesome launch sequence, the airborne fleet is met high above the earth's weather patt
-#0104 block   f=1  p=1  L2   ( 106) | There's a 5:00 failure limit for this mission. Also, afterwards, there'll be a (skippable) runwa
-#0105 art                 L9   | ACHIEVING A-RANK
-#0106 art                 L4   | PLANE PLAY-BY-PLAY
-#0107 art                 L8   | _______________________________________________________________________________
-#0108 block   f=1  p=1  L6   ( 440) | Intermediate-range ballistic missiles (IRBMs) have been confirmed at some mountain bases, and wi
-#0109 block   f=1  p=1  L5   ( 359) | The first half has a 6:00 time limit. The targets are the eight bases (two groups) plus two guns
-#0110 art                 L7   |  MISSION UPDATE!
-#0111 art                 L11  | ACHIEVING A-RANK
-#0112 block   f=1  p=1  L2   ( 153) | Also, since the base contains clustering targets, employ the machine gun and try to take out a t
-#0113 art                 L10  | PLANE PLAY-BY-PLAY
-#0114 art                 L8   | _______________________________________________________________________________
-#0115 block   f=1  p=1  L5   ( 359) | A platoon of Antlion tanks has been dropped near a space shuttle launching site, and they appear
-#0116 block   f=1  p=1  L5   ( 381) | The first half of the mission takes place as the tanks are being airdropped to the space shuttle
-#0117 art                 L6   |  MISSION UPDATE!
-#0118 art                 L6   | ACHIEVING A-RANK
-#0119 art                 L5   | PLANE PLAY-BY-PLAY
-#0120 art                 L8   | _______________________________________________________________________________
-#0121 block   f=1  p=1  L5   ( 369) | With the success of the launch in the previous mission, the shuttle is now on a return course. N
-#0122 block   f=1  p=1  L6   ( 427) | There are two groups of enemies (4/3 split) to defeat within 4:00, which is a lot easier than y'
-#0123 art                 L5   | ACHIEVING A-RANK
-#0124 art                 L12  | PLANE PLAY-BY-PLAY
-#0125 block   f=1  p=1  L6   ( 436) | Welcome to the exosphere, i.e. outer space. There are some rebel satellites that need to be defe
-#0126 block   f=1  p=1  L5   ( 338) | After blastoff, the mission begins and the 3:00 timer begins. The satellites don't fight back bu
-#0127 art                 L1   |  NOTE: I suggest getting through atmospheric reentry on autopilot.
-#0128 art                 L3   | ACHIEVING A-RANK
-#0129 art                 L3   | PLANE PLAY-BY-PLAY
-#0130 art                 L8   | _______________________________________________________________________________
-#0131 block   f=1  p=1  L5   ( 314) | Some of Neuwork's researchers were abducted by unknown assailants, and they are currently fleein
-#0132 block   f=1  p=1  L8   ( 594) | Although there isn't a stated mission time for this, it's actually 4:30, the time it takes for t
-#0133 block   f=1  p=1  L2   ( 107) | There are only two ways to attack the plane, which, occasionally, is obscured by tunnels and tra
-#0134 hanging f=1  p=3  L4   ( 270) | • Get to a height and dive at the train, pulling up during deceleration to get another shot (tra
-#0135 hanging f=1  p=3  L4   ( 276) | • Make a parallel flightpath with the train, but a little off to one side, so that the vulcan's 
-#0136 art                 L1   |  Mission ends when the six 'bad' train cars are destroyed.
-#0137 art                 L6   | ACHIEVING A-RANK
-#0138 art                 L4   | PLANE PLAY-BY-PLAY
-#0139 art                 L8   | _______________________________________________________________________________
-#0140 block   f=1  p=1  L6   ( 404) | In one of the weirder missions, some nanobite creatures have been released in the forests near C
-#0141 block   f=1  p=1  L6   ( 430) | The mission itself is fairly standard, although there will be a "virus alert" when you're at a c
-#0142 block   f=1  p=1  L5   ( 358) | On the flipside, Nanobites have no means of attack so one basically just has to aim well and thi
-#0143 hanging f=1  p=7  L3   ( 214) | NOTE: Despite the weapon's long reload time, it helps to do a well-aimed long-range shot on the 
-#0144 art                 L3   | ACHIEVING A-RANK
-#0145 art                 L3   | PLANE PLAY-BY-PLAY
-#0146 art                 L8   | _______________________________________________________________________________
-#0147 block   f=1  p=1  L3   ( 225) | Four R-531s are cruising a high-altitude flightpath en route to White Valley airbase, so it's ti
-#0148 art                 L2   |  There four R-531s fly in line formation, so y'can gotta have a good touch to
-#0149 art                 L6   |  MISSION UPDATE!
-#0150 art                 L6   | ACHIEVING A-RANK
-#0151 block   f=1  p=1  L2   ( 120) | How many times did I reset until it finally worked? Lord only knows. But, this is the general gi
-#0152 hanging f=1  p=4  L2   (  90) | 1) Steer toward the leftmost of the 4-plane unit, coming up behind it at a parallel angle.
-#0153 hanging f=1  p=4  L3   ( 195) | 2) As you near closer (about within 4000 feet), arc slightly "rightwards," so that as y'shoot th
-#0154 hanging f=1  p=4  L4   ( 214) | 3) Destroy the next-nearest (by the skin of your teeth!) as the player's plane enters a semi-per
-#0155 hanging f=1  p=4  L2   (  84) | 4) Destroy Plane #3 and hard-decelerate. About 0:45 should have passed on the clock.
-#0156 hanging f=1  p=4  L4   ( 254) | 5) There's 0:45 to defeat the final plane, which, often, is overshot and has to be killed in the
-#0157 art                 L1   |  NOTE: This is one mission y'may want to leave for the simulator, later on.
-#0158 art                 L4   | PLANE PLAY-BY-PLAY
-#0159 art                 L8   | _______________________________________________________________________________
-#0160 block   f=1  p=1  L5   ( 310) | In the Petrol Coast, a logistics base is serving as a refueling point for Neuwork's fleet. Howev
-#0161 block   f=1  p=1  L5   ( 367) | There's a nine-minute (9:00) time limit to finish all this in, which should be more than enough.
-#0162 art                 L6   |  MISSION UPDATE!
-#0163 art                 L8   | ACHIEVING A-RANK
-#0164 art                 L8   | PLANE PLAY-BY-PLAY
-#0165 art                 L8   | _______________________________________________________________________________
-#0166 block   f=1  p=1  L6   ( 434) | A large carrier craft has been spotted flying over Megafloat, and it seems to be an attempt at a
-#0167 block   f=1  p=1  L10  ( 716) | The flight starts with an interception flightpath at the UI-4053 zeppelin (!?) inbound from the 
-#0168 hanging f=1  p=7  L2   ( 121) | NOTE: Attack from level or slightly lower height; from above the target, the missiles simply hit
-#0169 art                 L6   |  MISSION UPDATE!
-#0170 art                 L8   |  MISSION UPDATE!
-#0171 art                 L1   |  Enjoy the Hindenburgian ending.
-#0172 art                 L8   | ACHIEVING A-RANK
-#0173 art                 L6   | PLANE PLAY-BY-PLAY
-#0174 art                 L8   | _______________________________________________________________________________
-#0175 block   f=1  p=1  L4   ( 292) | Ouroboros is operating an illegal weapons plant in Expo City, and their radar will be jammed to 
-#0176 block   f=1  p=1  L9   ( 618) | So, about the mission's jamming periods. The game's timer here is replaced with a countdown cloc
-#0177 block   f=1  p=1  L3   ( 180) | Success in this mission is based on how well stealth is maintained -- "A" is for no enemy detect
-#0178 art                 L6   |  MISSION UPDATE!
-#0179 art                 L7   | ACHIEVING A-RANK
-#0180 art                 L8   | PLANE PLAY-BY-PLAY
-#0181 art                 L8   | _______________________________________________________________________________
-#0182 block   f=1  p=1  L5   ( 309) | Despite repeated warnings by UPEO, the Neuwork airforce has continued to mobilize on Megafloat. 
-#0183 block   f=1  p=1  L8   ( 538) | In a first for the mission, there'll be an ally plane (Su-43) who'll assist in destroying the fo
-#0184 art                 L6   |  MISSION UPDATE!
-#0185 art                 L7   | ACHIEVING A-RANK
-#0186 art                 L12  | PLANE PLAY-BY-PLAY
-#0187 art                 L8   | _______________________________________________________________________________
-#0188 block   f=1  p=1  L6   ( 420) | Because of the actions taken aboard Megafloat, General Resources has mobilized its own air fleet
-#0189 block   f=1  p=1  L6   ( 444) | As expected, it's typical dogfighting action. The planes travel in packs of 3-5 and are spread o
-#0190 art                 L5   |  MISSION UPDATE!
-#0191 art                 L5   | ACHIEVING A-RANK
-#0192 art                 L8   | PLANE PLAY-BY-PLAY
-#0193 art                 L8   | _______________________________________________________________________________
-#0194 block   f=1  p=1  L4   ( 295) | As it turns out, the Neuwork/General Sources fight that's been going on has been instigated by a
-#0195 block   f=1  p=1  L5   ( 368) | The target planes are flying all around the city, but the target buildings're rather easy to des
-#0196 art                 L6   |  MISSION UPDATE!
-#0197 art                 L5   | ACHIEVING A-RANK
-#0198 art                 L9   | PLANE PLAY-BY-PLAY
-#0199 art                 L8   | _______________________________________________________________________________
-#0200 block   f=1  p=1  L6   ( 430) | Neuwark's space research satellite has splashed down in the ocean and the hydrofoils from Megafl
-#0201 block   f=1  p=1  L4   ( 304) | The object of this mission is to prevent the enemy ships from contacting the shuttle first -- if
-#0202 art                 L5   |  MISSION UPDATE!
-#0203 block   f=1  p=1  L3   ( 216) | Always remember that this is a give-and-take mission: if you puppyguard the allies, the ships wi
-#0204 art                 L9   | ACHIEVING A-RANK
-#0205 art                 L1   |  Personally, here's my strategy:
-#0206 art                 L5   |  1) En route to satellite, destroy one plane coming head-on
-#0207 block   f=1  p=1  L5   ( 371) | Note that, as long as you realize that the oncoming planes at the start are going towards the hy
-#0208 art                 L3   |  NOTE: If the ally hydrofoil unit is destroyed, a "D" is automatically gained.
-#0209 art                 L12  | PLANE PLAY-BY-PLAY
+#0008 art                 L4   | _______________________________________________________________________________
+#0009 block   f=0  p=1  L4   ( 273) | ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ Hey, greenhorns!
+#0010 hanging f=1  p=3  L3   ( 178) | • Saving! Getting A/B Rank on all normal missions in the game will unlock a 36th final mission, 
+#0011 hanging f=1  p=3  L4   ( 294) | • The most advantageous firing position is from behind the enemy while they are in a mid-turn an
+#0012 block   f=3  p=3  L5   ( 305) | The worst positioning, thus, would be about the exact opposite: enemy is heading towards you fro
+#0013 hanging f=1  p=3  L3   ( 189) | • Try to pace yourself on difficulty first off. The walkthrough is written in Normal Mode so tha
+#0014 hanging f=1  p=3  L4   ( 296) | • Don't pull your hair out trying to get "A" ranks! If you settle for B's, the 36th mission is s
+#0015 art                 L7   |                                                     _________________________
+#0016 art                 L3   |  Difficulty : 2/10
+#0017 block   f=1  p=1  L3   ( 210) | Only the EF2000E is unlocked initially and that son of a gun's a dogfighter, which should help a
+#0018 art                 L1   |  ############################################################################
+#0019 block   f=1  p=1  L3   ( 227) | HEAD'S-UP: To unlock the thirty-sixth mission, you (the player) must obtain A- and B-ranks in al
+#0020 art                 L1   |  ############################################################################
+#0021 block   f=1  p=1  L11  ( 770) | Long-time veterans should have the controls down pat, especially if they've played later PS2 ins
+#0022 block   f=1  p=1  L6   ( 463) | As for the mission itself, the first is always the easiest and this one's no different. The R-50
+#0023 art                 L8   |  MISSION UPDATE!
+#0024 art                 L3   | ACHIEVING A-RANK
+#0025 block   f=1  p=1  L5   ( 372) | Defeat the first four targets in under 3:00 to get the mission update, then defeat the final tar
+#0026 block   f=1  p=1  L3   ( 213) | Since there's no score system like in future ACs, a lot of the extra "oomph" to hit a certain ra
+#0027 art                 L6   | PLANE PLAY-BY-PLAY
+#0028 art                 L8   | _______________________________________________________________________________
+#0029 block   f=1  p=1  L2   ( 119) | Once again, the Typhoon's the only plane up for this job...unless you gained the Fulcrum SS doin
+#0030 block   f=1  p=1  L9   ( 682) | The mission goal is to destroy all the radar sites plaguing General Defense's surveillance, and 
+#0031 block   f=1  p=1  L3   ( 225) | A good tip is to start from the north and work south, taking it slow to the plane doesn't oversh
+#0032 art                 L9   |  MISSION UPDATE!
+#0033 art                 L6   | ACHIEVING A-RANK
+#0034 art                 L9   | PLANE PLAY-BY-PLAY
+#0035 art                 L8   | _______________________________________________________________________________
+#0036 block   f=1  p=1  L6   ( 426) | Based on the success in "Interference," the military has agreed to do joint training exercises. 
+#0037 block   f=1  p=1  L11  ( 819) | The mission itself first requires the player to trail a friendly (Eagle+) at no more than a 1000
+#0038 block   f=1  p=1  L5   ( 356) | After a few loop-de-loops, some training decoys will be released. They'll be missile-unfriendly 
+#0039 art                 L7   |  MISSION UPDATE!
+#0040 art                 L10  | ACHIEVING A-RANK
+#0041 art                 L7   | PLANE PLAY-BY-PLAY
+#0042 art                 L8   | _______________________________________________________________________________
+#0043 block   f=1  p=1  L5   ( 335) | Neuwork's sending warships to reinforce the militarization of Megafloat, a floating city -- and 
+#0044 block   f=1  p=1  L5   ( 329) | The first half of this mission, destroying the listed targets north and south of Rocky Island, i
+#0045 art                 L8   |  MISSION UPDATE!
+#0046 art                 L2   |  Afterwards you can land on the carrier, but I suggest having autopilot do all
+#0047 art                 L7   | ACHIEVING A-RANK
+#0048 art                 L11  | PLANE PLAY-BY-PLAY
+#0049 art                 L8   | _______________________________________________________________________________
+#0050 block   f=1  p=1  L5   ( 313) | Although plenty were killed so far, apparently the military thinks eight R-201s is a huge threat
+#0051 block   f=1  p=1  L6   ( 448) | Like usual, there's a time limit (3:00) for the first half of the mission. It's one's job to fly
+#0052 block   f=1  p=1  L2   ( 153) | Since the planes are in two lines (two pairs of four), it's best to just fly in a circle(ish) mo
+#0053 art                 L7   |  MISSION UPDATE!
+#0054 art                 L8   | ACHIEVING A-RANK
+#0055 block   f=1  p=1  L5   ( 361) | This is the first mission in the game where it's suggested to take a lower rank and achieve an "
+#0056 art                 L8   | PLANE PLAY-BY-PLAY
+#0057 art                 L8   | _______________________________________________________________________________
+#0058 block   f=1  p=1  L5   ( 310) | In Expo City, there seems to be an illegal testing range that needs to be scooped out in case it
+#0059 block   f=1  p=1  L7   ( 527) | To reconnoiter the area, the plane must get each "Facilities" within missile range -- firing at 
+#0060 art                 L5   |  MISSION UPDATE!
+#0061 art                 L7   | ACHIEVING A-RANK
+#0062 art                 L8   | PLANE PLAY-BY-PLAY
+#0063 art                 L8   | _______________________________________________________________________________
+#0064 block   f=1  p=1  L4   ( 239) | A terrorist communique has alerted the UPEO Command that a plane carrying bioweapons is on a col
+#0065 block   f=1  p=1  L9   ( 633) | The briefing detailed the general gist of things: rather than defeating the plane, which would s
+#0066 art                 L6   |  MISSION UPDATE!
+#0067 art                 L1   |  When the festivities end, congratulations on crippling the city economy!
+#0068 art                 L3   | ACHIEVING A-RANK
+#0069 art                 L6   | PLANE PLAY-BY-PLAY
+#0070 art                 L8   | _______________________________________________________________________________
+#0071 block   f=1  p=1  L9   ( 649) | Despite repeated warnings, Neuwork's continuing to fortify Megafloat, its buoyant city seen in a
+#0072 block   f=1  p=1  L5   ( 365) | There's not many surprises for the demilitarizing, although there's a 3:30 time limit to do it a
+#0073 art                 L8   |  MISSION UPDATE!
+#0074 art                 L13  | ACHIEVING A-RANK
+#0075 block   f=1  p=1  L4   ( 280) | This is the second mission in the game where it's suggested to take a lower rank and achieve an 
+#0076 hanging f=1  p=7  L3   ( 184) | NOTE: The 2nd convoy sometimes survives if you're going too fast, so try to decelerate a bit and
+#0077 hanging f=1  p=7  L2   ( 102) | NOTE: You may want to do the difficult part (defeating 5 planes) first, then doing the easier ta
+#0078 art                 L10  | PLANE PLAY-BY-PLAY
+#0079 art                 L8   | _______________________________________________________________________________
+#0080 block   f=1  p=1  L8   ( 559) | One of Neuwork's power plants is supplying an illegal munitions factory, so it needs to be remov
+#0081 block   f=1  p=1  L6   ( 433) | The power plant complex is in the south and arranged in a "quincunx" array: four outer targets a
+#0082 block   f=1  p=1  L3   ( 212) | When all four plants are rubble, the center conelike plant will expose its core. Firing blindly 
+#0083 art                 L7   |  MISSION UPDATE!
+#0084 art                 L7   | ACHIEVING A-RANK
+#0085 block   f=1  p=4  L1   (  53) | 1) Destroy any 3 planes near northern airport [x3 KO]
+#0086 block   f=1  p=4  L1   (  49) | 2) Destroy MSSL/R-201 at northern airport [x2 KO]
+#0087 block   f=1  p=4  L1   (  75) | 3) At Power Plant area, destroy plants, then the guns and 2nd R-201 [x9 KO]
+#0088 block   f=1  p=4  L1   (  53) | 4) Destroy three MSSLs on outer fringe of map [x3 KO]
+#0089 block   f=1  p=4  L1   (  52) | 5) Race back and destroy the core before time is up.
+#0090 block   f=1  p=1  L7   ( 519) | Since the hardest "wild card" is the 3 planes, so it's important to get them out of the way firs
+#0091 block   f=1  p=1  L2   ( 153) | Note that you can skip the MSSL part and get three more planes instead, but I like to go for the
+#0092 art                 L8   | PLANE PLAY-BY-PLAY
+#0093 art                 L8   | _______________________________________________________________________________
+#0094 block   f=1  p=1  L6   ( 410) | A bit of a breather from the ninth mission, this surveillance assignment is on a General Resourc
+#0095 block   f=1  p=3  L1   (  47) | • Flying in first-person mode makes this easier
+#0096 block   f=1  p=3  L1   (  68) | • Cruise relatively slow; speed + sharp turns = burrowing into cliff
+#0097 block   f=1  p=3  L1   (  47) | • Value a plane's mobility over everything else
+#0098 block   f=1  p=3  L1   (  71) | • Yaw (with shoulder buttons), rather than hard turn, whenever possible
+#0099 block   f=1  p=3  L1   (  74) | • Don't fly above the cliff rim or you're picked up on radar and auto-fail
+#0100 block   f=1  p=1  L6   ( 438) | The plane in question travels unassumingly forward, so it's a sitting duck... but like all lucky
+#0101 hanging f=1  p=7  L2   ( 146) | NOTE: Mission failure if the chemical weapons plant is not discovered within 5:30! This is not s
+#0102 block   f=1  p=1  L5   ( 310) | The R/F-117X can rise above the canyon without any repercussions, leaving the player to squeak b
+#0103 art                 L6   |  MISSION UPDATE!
+#0104 art                 L10  | ACHIEVING A-RANK
+#0105 block   f=0  p=0  L7   ( 188) | PLANE PLAY-BY-PLAY ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ [x01] R/F-117X -- Default [x19] AH-66B ---- Default [x01] 
+#0106 art                 L8   | _______________________________________________________________________________
+#0107 block   f=1  p=1  L4   ( 272) | Back to the free skies! This time, a NUN (Neo United Nations) chairman has been targeted by terr
+#0108 block   f=1  p=1  L6   ( 434) | As the mission starts, the bogeys are along the eastern edge of the map, two groups, five total.
+#0109 hanging f=1  p=7  L2   (  85) | NOTE: The 1st midair refueling takes place after this, but feel free to autopilot it.
+#0110 art                 L9   | ACHIEVING A-RANK
+#0111 art                 L4   | PLANE PLAY-BY-PLAY
+#0112 art                 L8   | _______________________________________________________________________________
+#0113 block   f=1  p=1  L5   ( 339) | Neuwork's sent an aerial platoon to attack White Valley airbase, and they're cruising at a 30,00
+#0114 block   f=1  p=1  L7   ( 507) | After the awesome launch sequence, the airborne fleet is met high above the earth's weather patt
+#0115 block   f=1  p=1  L2   ( 106) | There's a 5:00 failure limit for this mission. Also, afterwards, there'll be a (skippable) runwa
+#0116 art                 L9   | ACHIEVING A-RANK
+#0117 art                 L4   | PLANE PLAY-BY-PLAY
+#0118 art                 L8   | _______________________________________________________________________________
+#0119 block   f=1  p=1  L6   ( 440) | Intermediate-range ballistic missiles (IRBMs) have been confirmed at some mountain bases, and wi
+#0120 block   f=1  p=1  L5   ( 359) | The first half has a 6:00 time limit. The targets are the eight bases (two groups) plus two guns
+#0121 art                 L7   |  MISSION UPDATE!
+#0122 art                 L11  | ACHIEVING A-RANK
+#0123 block   f=1  p=1  L2   ( 153) | Also, since the base contains clustering targets, employ the machine gun and try to take out a t
+#0124 art                 L10  | PLANE PLAY-BY-PLAY
+#0125 art                 L8   | _______________________________________________________________________________
+#0126 block   f=1  p=1  L5   ( 359) | A platoon of Antlion tanks has been dropped near a space shuttle launching site, and they appear
+#0127 block   f=1  p=1  L5   ( 381) | The first half of the mission takes place as the tanks are being airdropped to the space shuttle
+#0128 art                 L6   |  MISSION UPDATE!
+#0129 art                 L6   | ACHIEVING A-RANK
+#0130 art                 L5   | PLANE PLAY-BY-PLAY
+#0131 art                 L8   | _______________________________________________________________________________
+#0132 block   f=1  p=1  L5   ( 369) | With the success of the launch in the previous mission, the shuttle is now on a return course. N
+#0133 block   f=1  p=1  L6   ( 427) | There are two groups of enemies (4/3 split) to defeat within 4:00, which is a lot easier than y'
+#0134 art                 L5   | ACHIEVING A-RANK
+#0135 art                 L12  | PLANE PLAY-BY-PLAY
+#0136 block   f=1  p=1  L6   ( 436) | Welcome to the exosphere, i.e. outer space. There are some rebel satellites that need to be defe
+#0137 block   f=1  p=1  L5   ( 338) | After blastoff, the mission begins and the 3:00 timer begins. The satellites don't fight back bu
+#0138 art                 L1   |  NOTE: I suggest getting through atmospheric reentry on autopilot.
+#0139 art                 L3   | ACHIEVING A-RANK
+#0140 art                 L3   | PLANE PLAY-BY-PLAY
+#0141 art                 L8   | _______________________________________________________________________________
+#0142 block   f=1  p=1  L5   ( 314) | Some of Neuwork's researchers were abducted by unknown assailants, and they are currently fleein
+#0143 block   f=1  p=1  L8   ( 594) | Although there isn't a stated mission time for this, it's actually 4:30, the time it takes for t
+#0144 block   f=1  p=1  L2   ( 107) | There are only two ways to attack the plane, which, occasionally, is obscured by tunnels and tra
+#0145 hanging f=1  p=3  L4   ( 270) | • Get to a height and dive at the train, pulling up during deceleration to get another shot (tra
+#0146 hanging f=1  p=3  L4   ( 276) | • Make a parallel flightpath with the train, but a little off to one side, so that the vulcan's 
+#0147 art                 L1   |  Mission ends when the six 'bad' train cars are destroyed.
+#0148 art                 L6   | ACHIEVING A-RANK
+#0149 art                 L4   | PLANE PLAY-BY-PLAY
+#0150 art                 L8   | _______________________________________________________________________________
+#0151 block   f=1  p=1  L6   ( 404) | In one of the weirder missions, some nanobite creatures have been released in the forests near C
+#0152 block   f=1  p=1  L6   ( 430) | The mission itself is fairly standard, although there will be a "virus alert" when you're at a c
+#0153 block   f=1  p=1  L5   ( 358) | On the flipside, Nanobites have no means of attack so one basically just has to aim well and thi
+#0154 hanging f=1  p=7  L3   ( 214) | NOTE: Despite the weapon's long reload time, it helps to do a well-aimed long-range shot on the 
+#0155 art                 L3   | ACHIEVING A-RANK
+#0156 art                 L3   | PLANE PLAY-BY-PLAY
+#0157 art                 L8   | _______________________________________________________________________________
+#0158 block   f=1  p=1  L3   ( 225) | Four R-531s are cruising a high-altitude flightpath en route to White Valley airbase, so it's ti
+#0159 art                 L2   |  There four R-531s fly in line formation, so y'can gotta have a good touch to
+#0160 art                 L6   |  MISSION UPDATE!
+#0161 art                 L6   | ACHIEVING A-RANK
+#0162 block   f=1  p=1  L2   ( 120) | How many times did I reset until it finally worked? Lord only knows. But, this is the general gi
+#0163 hanging f=1  p=4  L2   (  90) | 1) Steer toward the leftmost of the 4-plane unit, coming up behind it at a parallel angle.
+#0164 hanging f=1  p=4  L3   ( 195) | 2) As you near closer (about within 4000 feet), arc slightly "rightwards," so that as y'shoot th
+#0165 hanging f=1  p=4  L4   ( 214) | 3) Destroy the next-nearest (by the skin of your teeth!) as the player's plane enters a semi-per
+#0166 hanging f=1  p=4  L2   (  84) | 4) Destroy Plane #3 and hard-decelerate. About 0:45 should have passed on the clock.
+#0167 hanging f=1  p=4  L4   ( 254) | 5) There's 0:45 to defeat the final plane, which, often, is overshot and has to be killed in the
+#0168 art                 L1   |  NOTE: This is one mission y'may want to leave for the simulator, later on.
+#0169 art                 L4   | PLANE PLAY-BY-PLAY
+#0170 art                 L8   | _______________________________________________________________________________
+#0171 block   f=1  p=1  L5   ( 310) | In the Petrol Coast, a logistics base is serving as a refueling point for Neuwork's fleet. Howev
+#0172 block   f=1  p=1  L5   ( 367) | There's a nine-minute (9:00) time limit to finish all this in, which should be more than enough.
+#0173 art                 L6   |  MISSION UPDATE!
+#0174 art                 L8   | ACHIEVING A-RANK
+#0175 art                 L8   | PLANE PLAY-BY-PLAY
+#0176 art                 L8   | _______________________________________________________________________________
+#0177 block   f=1  p=1  L6   ( 434) | A large carrier craft has been spotted flying over Megafloat, and it seems to be an attempt at a
+#0178 block   f=1  p=1  L10  ( 716) | The flight starts with an interception flightpath at the UI-4053 zeppelin (!?) inbound from the 
+#0179 hanging f=1  p=7  L2   ( 121) | NOTE: Attack from level or slightly lower height; from above the target, the missiles simply hit
+#0180 art                 L6   |  MISSION UPDATE!
+#0181 art                 L8   |  MISSION UPDATE!
+#0182 art                 L1   |  Enjoy the Hindenburgian ending.
+#0183 art                 L8   | ACHIEVING A-RANK
+#0184 art                 L6   | PLANE PLAY-BY-PLAY
+#0185 art                 L8   | _______________________________________________________________________________
+#0186 block   f=1  p=1  L4   ( 292) | Ouroboros is operating an illegal weapons plant in Expo City, and their radar will be jammed to 
+#0187 block   f=1  p=1  L9   ( 618) | So, about the mission's jamming periods. The game's timer here is replaced with a countdown cloc
+#0188 block   f=1  p=1  L3   ( 180) | Success in this mission is based on how well stealth is maintained -- "A" is for no enemy detect
+#0189 art                 L6   |  MISSION UPDATE!
+#0190 art                 L7   | ACHIEVING A-RANK
+#0191 art                 L8   | PLANE PLAY-BY-PLAY
+#0192 art                 L8   | _______________________________________________________________________________
+#0193 block   f=1  p=1  L5   ( 309) | Despite repeated warnings by UPEO, the Neuwork airforce has continued to mobilize on Megafloat. 
+#0194 block   f=1  p=1  L8   ( 538) | In a first for the mission, there'll be an ally plane (Su-43) who'll assist in destroying the fo
+#0195 art                 L6   |  MISSION UPDATE!
+#0196 art                 L7   | ACHIEVING A-RANK
+#0197 art                 L12  | PLANE PLAY-BY-PLAY
+#0198 art                 L8   | _______________________________________________________________________________
+#0199 block   f=1  p=1  L6   ( 420) | Because of the actions taken aboard Megafloat, General Resources has mobilized its own air fleet
+#0200 block   f=1  p=1  L6   ( 444) | As expected, it's typical dogfighting action. The planes travel in packs of 3-5 and are spread o
+#0201 art                 L5   |  MISSION UPDATE!
+#0202 art                 L5   | ACHIEVING A-RANK
+#0203 art                 L8   | PLANE PLAY-BY-PLAY
+#0204 art                 L8   | _______________________________________________________________________________
+#0205 block   f=1  p=1  L4   ( 295) | As it turns out, the Neuwork/General Sources fight that's been going on has been instigated by a
+#0206 block   f=1  p=1  L5   ( 368) | The target planes are flying all around the city, but the target buildings're rather easy to des
+#0207 art                 L6   |  MISSION UPDATE!
+#0208 art                 L5   | ACHIEVING A-RANK
+#0209 art                 L9   | PLANE PLAY-BY-PLAY
 #0210 art                 L8   | _______________________________________________________________________________
-#0211 block   f=1  p=1  L4   ( 244) | General Resources' radar dishes have been intercepting state secrets with their powerful technol
-#0212 block   f=1  p=1  L7   ( 502) | As said, their radar detects incoming aircraft if they're above 1300ft, so it's crucial to stay 
-#0213 hanging f=1  p=7  L2   (  90) | NOTE: If the enemy's radar is spiked, four F-22Cs also appear when the base is approached.
-#0214 art                 L4   | ACHIEVING A-RANK
-#0215 art                 L8   | PLANE PLAY-BY-PLAY
-#0216 art                 L8   | _______________________________________________________________________________
-#0217 block   f=1  p=1  L4   ( 280) | Ouroboros has kidnapped the NUN chairman and UPEO has green-lighted the retrieval mission, which
-#0218 block   f=1  p=1  L7   ( 475) | Like usual, Expo City is cloaked in nightfall and filled with a wide array of ground targets; th
-#0219 art                 L6   |  MISSION UPDATE!
-#0220 art                 L5   | ACHIEVING A-RANK
-#0221 art                 L9   | PLANE PLAY-BY-PLAY
-#0222 art                 L8   | _______________________________________________________________________________
-#0223 block   f=1  p=1  L3   ( 188) | Port Edwards is under attack by Ouroboros' air force, so it's time to get in gear and neutralize
-#0224 block   f=1  p=1  L6   ( 443) | There are six XFA-35As to deal with first, and they're split into two groups. We've seen their s
-#0225 art                 L10  |  MISSION UPDATE!
-#0226 art                 L5   | ACHIEVING A-RANK
-#0227 art                 L7   | PLANE PLAY-BY-PLAY
-#0228 art                 L8   | _______________________________________________________________________________
-#0229 block   f=1  p=1  L4   ( 266) | Ouroboros' navy is apparently heading toward Megafloat in an attempt to take control, so now it'
-#0230 block   f=1  p=1  L3   ( 169) | The mission starts over Megafloat, already awash in overhead activity and a maritime military pr
-#0231 art                 L11  |  MISSION UPDATE!
-#0232 art                 L5   | ACHIEVING A-RANK
-#0233 art                 L9   | PLANE PLAY-BY-PLAY
-#0234 art                 L1   |  NOTE: The end of this mission segues into the next without time to save!
-#0235 art                 L8   | _______________________________________________________________________________
-#0236 block   f=1  p=1  L5   ( 317) | As said, this mission begins right after the previous is completed. During the downward spiral o
-#0237 block   f=1  p=1  L8   ( 576) | Geofront is a tunnel network underground, so of course there's going to be some problems: (1) st
-#0238 art                 L1   |  NOTE: All of the closing-door portions are randomized, including future ones.
-#0239 block   f=1  p=1  L4   ( 261) | Past the opening/shutting door area, the road bifurcates: left is straighter but with a crapton 
-#0240 block   f=1  p=1  L5   ( 348) | The third stretch entails doing another opening/shutting highway partition trap, although this t
-#0241 block   f=1  p=1  L7   ( 526) | Past there, the annoying route to the end continues: instead of highways, now the pilot has to d
-#0242 art                 L8   | ACHIEVING A-RANK
-#0243 art                 L3   | PLANE PLAY-BY-PLAY
-#0244 art                 L1   |  NOTE: The end of this mission segues into the next without time to save!
-#0245 art                 L8   | _______________________________________________________________________________
-#0246 block   f=1  p=1  L4   ( 298) | One of the two planes that escaped Ouroboros' destroyed blimp has been ID'd as an X-49 Night Rav
-#0247 block   f=1  p=1  L5   ( 366) | First off, a note about Geofront. As we now see, it's not just a tunnel system but an undergroun
-#0248 block   f=1  p=1  L4   ( 299) | The X-49 is a super-agile plane capable of surprisingly sharp turns without deceleration, which 
-#0249 block   f=1  p=1  L6   ( 394) | There are two opportune moments to attack this sucker: (1) firing at its 12 o'clock position -- 
-#0250 block   f=1  p=1  L2   ( 114) | When enough missiles hit (maybe x8?), the player is told to stop firing as the foe is proving to
-#0251 art                 L4   | ACHIEVING A-RANK
-#0252 art                 L3   | PLANE PLAY-BY-PLAY
-#0253 art                 L1   |  NOTE: The end of this mission segues into the next without time to save!
-#0254 art                 L8   | _______________________________________________________________________________
-#0255 block   f=1  p=1  L5   ( 324) | With the X-49 being too dangerous a foe to hit normally, UPEO command has come up with a surpris
-#0256 block   f=1  p=1  L5   ( 373) | The structural supports, obviously, are holding up the ceiling. Lock-on can't be achieved for mi
-#0257 block   f=1  p=1  L2   ( 150) | Laughably, the X-49 will fire its lasers but seems to have little skill in aiming -- even when r
-#0258 art                 L7   | ACHIEVING A-RANK
-#0259 art                 L4   | PLANE PLAY-BY-PLAY
-#0260 art                 L1   |  NOTE: The end of this mission segues into the next without time to save!
-#0261 art                 L8   | _______________________________________________________________________________
-#0262 block   f=1  p=1  L5   ( 320) | After the Geofront debacle, the other X-49 that escaped from Ouroboros' aerial warship is now fl
-#0263 block   f=1  p=1  L8   ( 592) | Essentially, this mission is one big hullabaloo with the fast target being accompanied by some t
-#0264 art                 L10  |  MISSION UPDATE!
-#0265 block   f=1  p=1  L8   ( 538) | There are very few situations where evasion is nearly impossible, but there are two, both at clo
-#0266 block   f=1  p=1  L2   ( 111) | There aren't too many excursions where a plane with 180+ missiles can run out entirely, but this
-#0267 art                 L5   | ACHIEVING A-RANK
-#0268 art                 L7   | PLANE PLAY-BY-PLAY
-#0269 art                 L1   |  NOTE: The end of this mission segues into the next without time to save!
-#0270 art                 L8   | _______________________________________________________________________________
-#0271 block   f=1  p=1  L4   ( 306) | The final mandatory mission in the game takes place over Megafloat's new, uh, islands. The UI-40
-#0272 block   f=1  p=1  L7   ( 481) | Okay, so the Aurora plane is the target. As told in the previous mission, with its highly capabl
-#0273 art                 L10  |  MISSION UPDATE!
-#0274 art                 L3   | ACHIEVING A-RANK
-#0275 art                 L3   | PLANE PLAY-BY-PLAY
-#0276 art                 L8   |           _________          _______    _______  _        ______   _
-#0277 block   f=1  p=1  L6   ( 445) | This ends normal gameplay. After the credits is a save prompt, which will overwrite the currentl
-#0278 hanging f=1  p=7  L2   ( 125) | NOTE: If you got all A/Bs on the previous missions, Mission #36 plays instead of the ending, whi
-#0279 art                 L8   | _______________________________________________________________________________
-#0280 hanging f=1  p=7  L2   (  90) | NOTE: This mission is only unlocked by getting "A" rank on all missions on any difficulty.
-#0281 art                 L3   |  The final FINAL mission in the game is a special unlockable, as stated above.
-#0282 block   f=1  p=1  L4   ( 282) | The entire squadron will be inbound from the southeast part of the city, and they all have those
-#0283 block   f=1  p=1  L7   ( 485) | This thing is so sly that no enemy should ever lay a finger on the player, and they don't even f
-#0284 art                 L6   | ACHIEVING A-RANK
-#0285 art                 L14  | PLANE PLAY-BY-PLAY
-#0286 art                 L10  |  PLANE ---: Type of plane
-#0287 art                 L1   |  Other notes:
-#0288 hanging f=1  p=3  L2   (  90) | • Gun types are Vulcan, Heavy Machine Gun, Cannon, Neutron Beam, Pulse Laser, Laser Cannon
-#0289 hanging f=1  p=3  L2   ( 129) | • Missile types are: Missile, Short-Range Missile, Ground Missile, M.I.R.V., Plasma Beam, Spread
-#0290 art                 L25  |  ____ __________ _____ _____ ________________ _______________ ________________
-#0291 art                 L1   |  NOTE: All 'Spc', RF-12A2, and R-352 have "Spread Bomb" as 4th option
-#0292 art                 L18  | _______________________________________________________________________________
-#0293 hanging f=1  p=7  L3   ( 208) | NOTE: For Mission #36's unlock method, you can beat the game to unlock the mission simulator and
-#0294 hanging f=1  p=7  L4   ( 249) | NOTE: Mission Simulator, once unlocked, can be accessed by (1) going to the load screen and find
-#0295 hanging f=1  p=7  L2   ( 100) | NOTE: The Japanese Intro is shown at the main title screen, by holding L1 & R1 before hitting st
-#0296 block   f=1  p=1  L5   ( 342) | On a separate note, for the mission simulator, there are some cheat inputs to change weapons. Ba
-#0297 art                 L4   |  • Start + O --------> Use Missiles (normal, not short-range)
-#0298 block   f=1  p=1  L2   ( 119) | Some missions, such as Zero Gravity or those requiring particular weapons to complete, can't be 
-#0299 art                 L11  | _______________________________________________________________________________
-#0300 art                 L9   |  [Q] - How do I beat the X-49 and/or UI-4054 Aurora?
-#0301 art                 L8   |  [Q] - How do I get "A" on [mission]!? Urgh! *throws chair*
-#0302 block   f=7  p=7  L2   ( 106) | Really, if you want to unlock everything but can't do it with your current arsenal, this is the 
-#0303 art                 L3   |  [Q] - When I loaded up my save, I didn't have the mission simulator anymore!
-#0304 art                 L4   |  [Q] - What's the O.S.L.?
-#0305 art                 L6   |  [Q] - What's those colored bars on the title screen?
-#0306 art                 L7   | _______________________________________________________________________________
-#0307 art                 L8   | THANKS TO...
-#0308 art                 L12  | _______________________________________________________________________________
-#0309 art                 L1   |  Allowed Sites:                       Disallowed Sites:
-#0310 art                 L14  |   • Gametalk.com                       • cheatcc.com
+#0211 block   f=1  p=1  L6   ( 430) | Neuwark's space research satellite has splashed down in the ocean and the hydrofoils from Megafl
+#0212 block   f=1  p=1  L4   ( 304) | The object of this mission is to prevent the enemy ships from contacting the shuttle first -- if
+#0213 art                 L5   |  MISSION UPDATE!
+#0214 block   f=1  p=1  L3   ( 216) | Always remember that this is a give-and-take mission: if you puppyguard the allies, the ships wi
+#0215 art                 L9   | ACHIEVING A-RANK
+#0216 art                 L1   |  Personally, here's my strategy:
+#0217 block   f=1  p=4  L1   (  58) | 1) En route to satellite, destroy one plane coming head-on
+#0218 block   f=1  p=4  L1   (  76) | 2) Turn around and defeat at least 2-4 more heading for the friendly h'foils
+#0219 block   f=1  p=4  L1   (  68) | 3) Defeat all ships in under 2:00 (mission failure is actually 1:56)
+#0220 block   f=1  p=4  L1   (  60) | 4) During mission update, kill [8-x] amount to reach 8 kills
+#0221 block   f=1  p=4  L1   (  23) | 5) Kill remaining ships
+#0222 block   f=1  p=1  L5   ( 371) | Note that, as long as you realize that the oncoming planes at the start are going towards the hy
+#0223 art                 L3   |  NOTE: If the ally hydrofoil unit is destroyed, a "D" is automatically gained.
+#0224 art                 L12  | PLANE PLAY-BY-PLAY
+#0225 art                 L8   | _______________________________________________________________________________
+#0226 block   f=1  p=1  L4   ( 244) | General Resources' radar dishes have been intercepting state secrets with their powerful technol
+#0227 block   f=1  p=1  L7   ( 502) | As said, their radar detects incoming aircraft if they're above 1300ft, so it's crucial to stay 
+#0228 hanging f=1  p=7  L2   (  90) | NOTE: If the enemy's radar is spiked, four F-22Cs also appear when the base is approached.
+#0229 art                 L4   | ACHIEVING A-RANK
+#0230 art                 L8   | PLANE PLAY-BY-PLAY
+#0231 art                 L8   | _______________________________________________________________________________
+#0232 block   f=1  p=1  L4   ( 280) | Ouroboros has kidnapped the NUN chairman and UPEO has green-lighted the retrieval mission, which
+#0233 block   f=1  p=1  L7   ( 475) | Like usual, Expo City is cloaked in nightfall and filled with a wide array of ground targets; th
+#0234 art                 L6   |  MISSION UPDATE!
+#0235 art                 L5   | ACHIEVING A-RANK
+#0236 art                 L9   | PLANE PLAY-BY-PLAY
+#0237 art                 L8   | _______________________________________________________________________________
+#0238 block   f=1  p=1  L3   ( 188) | Port Edwards is under attack by Ouroboros' air force, so it's time to get in gear and neutralize
+#0239 block   f=1  p=1  L6   ( 443) | There are six XFA-35As to deal with first, and they're split into two groups. We've seen their s
+#0240 art                 L10  |  MISSION UPDATE!
+#0241 art                 L5   | ACHIEVING A-RANK
+#0242 art                 L7   | PLANE PLAY-BY-PLAY
+#0243 art                 L8   | _______________________________________________________________________________
+#0244 block   f=1  p=1  L4   ( 266) | Ouroboros' navy is apparently heading toward Megafloat in an attempt to take control, so now it'
+#0245 block   f=1  p=1  L3   ( 169) | The mission starts over Megafloat, already awash in overhead activity and a maritime military pr
+#0246 art                 L11  |  MISSION UPDATE!
+#0247 art                 L5   | ACHIEVING A-RANK
+#0248 art                 L9   | PLANE PLAY-BY-PLAY
+#0249 art                 L1   |  NOTE: The end of this mission segues into the next without time to save!
+#0250 art                 L8   | _______________________________________________________________________________
+#0251 block   f=1  p=1  L5   ( 317) | As said, this mission begins right after the previous is completed. During the downward spiral o
+#0252 block   f=1  p=1  L8   ( 576) | Geofront is a tunnel network underground, so of course there's going to be some problems: (1) st
+#0253 art                 L1   |  NOTE: All of the closing-door portions are randomized, including future ones.
+#0254 block   f=1  p=1  L4   ( 261) | Past the opening/shutting door area, the road bifurcates: left is straighter but with a crapton 
+#0255 block   f=1  p=1  L5   ( 348) | The third stretch entails doing another opening/shutting highway partition trap, although this t
+#0256 block   f=1  p=1  L7   ( 526) | Past there, the annoying route to the end continues: instead of highways, now the pilot has to d
+#0257 art                 L8   | ACHIEVING A-RANK
+#0258 art                 L3   | PLANE PLAY-BY-PLAY
+#0259 art                 L1   |  NOTE: The end of this mission segues into the next without time to save!
+#0260 art                 L8   | _______________________________________________________________________________
+#0261 block   f=1  p=1  L4   ( 298) | One of the two planes that escaped Ouroboros' destroyed blimp has been ID'd as an X-49 Night Rav
+#0262 block   f=1  p=1  L5   ( 366) | First off, a note about Geofront. As we now see, it's not just a tunnel system but an undergroun
+#0263 block   f=1  p=1  L4   ( 299) | The X-49 is a super-agile plane capable of surprisingly sharp turns without deceleration, which 
+#0264 block   f=1  p=1  L6   ( 394) | There are two opportune moments to attack this sucker: (1) firing at its 12 o'clock position -- 
+#0265 block   f=1  p=1  L2   ( 114) | When enough missiles hit (maybe x8?), the player is told to stop firing as the foe is proving to
+#0266 art                 L4   | ACHIEVING A-RANK
+#0267 art                 L3   | PLANE PLAY-BY-PLAY
+#0268 art                 L1   |  NOTE: The end of this mission segues into the next without time to save!
+#0269 art                 L8   | _______________________________________________________________________________
+#0270 block   f=1  p=1  L5   ( 324) | With the X-49 being too dangerous a foe to hit normally, UPEO command has come up with a surpris
+#0271 block   f=1  p=1  L5   ( 373) | The structural supports, obviously, are holding up the ceiling. Lock-on can't be achieved for mi
+#0272 block   f=1  p=1  L2   ( 150) | Laughably, the X-49 will fire its lasers but seems to have little skill in aiming -- even when r
+#0273 art                 L7   | ACHIEVING A-RANK
+#0274 art                 L4   | PLANE PLAY-BY-PLAY
+#0275 art                 L1   |  NOTE: The end of this mission segues into the next without time to save!
+#0276 art                 L8   | _______________________________________________________________________________
+#0277 block   f=1  p=1  L5   ( 320) | After the Geofront debacle, the other X-49 that escaped from Ouroboros' aerial warship is now fl
+#0278 block   f=1  p=1  L8   ( 592) | Essentially, this mission is one big hullabaloo with the fast target being accompanied by some t
+#0279 art                 L10  |  MISSION UPDATE!
+#0280 block   f=1  p=1  L8   ( 538) | There are very few situations where evasion is nearly impossible, but there are two, both at clo
+#0281 block   f=1  p=1  L2   ( 111) | There aren't too many excursions where a plane with 180+ missiles can run out entirely, but this
+#0282 art                 L5   | ACHIEVING A-RANK
+#0283 art                 L7   | PLANE PLAY-BY-PLAY
+#0284 art                 L1   |  NOTE: The end of this mission segues into the next without time to save!
+#0285 art                 L8   | _______________________________________________________________________________
+#0286 block   f=1  p=1  L4   ( 306) | The final mandatory mission in the game takes place over Megafloat's new, uh, islands. The UI-40
+#0287 block   f=1  p=1  L7   ( 481) | Okay, so the Aurora plane is the target. As told in the previous mission, with its highly capabl
+#0288 art                 L10  |  MISSION UPDATE!
+#0289 art                 L3   | ACHIEVING A-RANK
+#0290 art                 L3   | PLANE PLAY-BY-PLAY
+#0291 art                 L8   |           _________          _______    _______  _        ______   _
+#0292 block   f=1  p=1  L6   ( 445) | This ends normal gameplay. After the credits is a save prompt, which will overwrite the currentl
+#0293 hanging f=1  p=7  L2   ( 125) | NOTE: If you got all A/Bs on the previous missions, Mission #36 plays instead of the ending, whi
+#0294 art                 L8   | _______________________________________________________________________________
+#0295 hanging f=1  p=7  L2   (  90) | NOTE: This mission is only unlocked by getting "A" rank on all missions on any difficulty.
+#0296 art                 L3   |  The final FINAL mission in the game is a special unlockable, as stated above.
+#0297 block   f=1  p=1  L4   ( 282) | The entire squadron will be inbound from the southeast part of the city, and they all have those
+#0298 block   f=1  p=1  L7   ( 485) | This thing is so sly that no enemy should ever lay a finger on the player, and they don't even f
+#0299 art                 L6   | ACHIEVING A-RANK
+#0300 art                 L8   | PLANE PLAY-BY-PLAY
+#0301 block   f=0  p=1  L6   ( 445) | ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ There are twenty
+#0302 art                 L10  |  PLANE ---: Type of plane
+#0303 art                 L1   |  Other notes:
+#0304 hanging f=1  p=3  L2   (  90) | • Gun types are Vulcan, Heavy Machine Gun, Cannon, Neutron Beam, Pulse Laser, Laser Cannon
+#0305 hanging f=1  p=3  L2   ( 129) | • Missile types are: Missile, Short-Range Missile, Ground Missile, M.I.R.V., Plasma Beam, Spread
+#0306 art                 L25  |  ____ __________ _____ _____ ________________ _______________ ________________
+#0307 art                 L1   |  NOTE: All 'Spc', RF-12A2, and R-352 have "Spread Bomb" as 4th option
+#0308 art                 L18  | _______________________________________________________________________________
+#0309 hanging f=1  p=7  L3   ( 208) | NOTE: For Mission #36's unlock method, you can beat the game to unlock the mission simulator and
+#0310 hanging f=1  p=7  L4   ( 249) | NOTE: Mission Simulator, once unlocked, can be accessed by (1) going to the load screen and find
+#0311 hanging f=1  p=7  L2   ( 100) | NOTE: The Japanese Intro is shown at the main title screen, by holding L1 & R1 before hitting st
+#0312 block   f=1  p=1  L5   ( 342) | On a separate note, for the mission simulator, there are some cheat inputs to change weapons. Ba
+#0313 block   f=1  p=3  L1   (  60) | • Start + O --------> Use Missiles (normal, not short-range)
+#0314 block   f=1  p=3  L1   (  38) | • Start + Square ---> Use Spread Bombs
+#0315 block   f=1  p=3  L1   (  32) | • Start + Triangle -> Use O.S.L.
+#0316 block   f=1  p=3  L1   (  37) | • Start + X --------> Use Plasma Beam
+#0317 block   f=1  p=1  L2   ( 119) | Some missions, such as Zero Gravity or those requiring particular weapons to complete, can't be 
+#0318 art                 L11  | _______________________________________________________________________________
+#0319 art                 L9   |  [Q] - How do I beat the X-49 and/or UI-4054 Aurora?
+#0320 art                 L8   |  [Q] - How do I get "A" on [mission]!? Urgh! *throws chair*
+#0321 block   f=7  p=7  L2   ( 106) | Really, if you want to unlock everything but can't do it with your current arsenal, this is the 
+#0322 art                 L3   |  [Q] - When I loaded up my save, I didn't have the mission simulator anymore!
+#0323 art                 L4   |  [Q] - What's the O.S.L.?
+#0324 art                 L6   |  [Q] - What's those colored bars on the title screen?
+#0325 art                 L7   | _______________________________________________________________________________
+#0326 block   f=0  p=0  L2   (  25) | THANKS TO... ¯¯¯¯¯¯¯¯¯¯¯¯
+#0327 block   f=1  p=3  L1   (  37) | • Sailor/Ceej, for puttin' up my junk
+#0328 block   f=1  p=3  L1   (  41) | • Armin Lukic, for the push-button cheats
+#0329 block   f=1  p=3  L1   (  50) | • Rastislav Ková?, for Asterozoa unlock correction
+#0330 block   f=1  p=3  L1   (  57) | • Dragoon of Infinity, for talkin' with me about the game
+#0331 block   f=1  p=3  L1   (  64) | • Stepswordsman, for telling how to access the mission simulator
+#0332 block   f=1  p=3  L1   (  74) | • The readers, 'cause I wuv youse guys! But keep yo' hands to yourself. ;)
+#0333 art                 L4   | _______________________________________________________________________________
+#0334 block   f=0  p=0  L8   ( 610) | ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ This document is
+#0335 art                 L1   |  Allowed Sites:                       Disallowed Sites:
+#0336 block   f=2  p=4  L1   (  28) | • Gametalk.com • cheatcc.com
+#0337 block   f=2  p=4  L1   (  14) | • GameFAQs.com
+#0338 block   f=2  p=4  L1   (  14) | • MyCheats.com
+#0339 block   f=2  p=4  L1   (  15) | • Neoseeker.com
+#0340 block   f=2  p=4  L1   (  16) | • Gamesradar.com
+#0341 block   f=2  p=4  L1   (  17) | • Supercheats.com
+#0342 block   f=2  p=4  L1   (  18) | • Cheathappens.com
+#0343 block   f=2  p=4  L1   (  18) | • Honestgamers.com
+#0344 block   f=2  p=4  L1   (  47) | • Chaptercheats.com E-mail me for permissions ~
+#0345 block   f=2  p=4  L1   (  53) | • Cavesofnarshe.com shotgunnova (a+) gmail (d0t) com.
+#0346 art                 L1   | _______________________________________________________________________________
+#0347 block   f=0  p=0  L3   ( 189) | TRY TO MAKE A WOMAN THAT YOU Document © Shotgunnova, 1997-2009 (and countin'!) MOVE / NOW I'M SH

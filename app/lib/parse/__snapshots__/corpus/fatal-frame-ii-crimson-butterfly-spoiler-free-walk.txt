@@ -1,68 +1,91 @@
-blocks: 66  art: 56  prose-block: 10  prose-hanging: 0
+blocks: 89  art: 55  prose-block: 34  prose-hanging: 0
 --------------------------------------------------------------------------------
 #0000 art                 L27  | ï»¿===============================================================================
 #0001 art                 L3   | /-----------------\
 #0002 art                 L22  | I.   Introduction
-#0003 art                 L12  | This is my first FAQ ever. Please notice me if there are any typos and
-#0004 block   f=0  p=0  L3   ( 203) | I'm not a survival horror fan but this game really worths to be played even for non survival hor
-#0005 art                 L3   | ===============================================================================
-#0006 block   f=0  p=0  L7   ( 502) | This may be not be reproduced under any circumstances except for personal, private use. It may n
-#0007 art                 L3   | ===============================================================================
-#0008 art                 L5   | Main Menu
-#0009 art                 L3   | 2.Load Game
-#0010 art                 L3   | 3.Album
-#0011 art                 L3   | 4.Gallery
-#0012 art                 L13  | 5.Options
-#0013 art                 L5   | Pause Menu
-#0014 art                 L3   | 2.Items
-#0015 art                 L4   | 3.Camera
-#0016 art                 L3   | 4.Photo
-#0017 art                 L3   | 5.File
-#0018 art                 L3   | 6.Memo
-#0019 art                 L3   | 7.Radio
-#0020 art                 L3   | 8.Spirit List (Must beat the game first to get it.)
-#0021 art                 L3   | ===============================================================================
-#0022 art                 L7   | - Always check drawers, pots, etc for items.
-#0023 art                 L3   | ===============================================================================
-#0024 art                 L4   | 1. Prologue
-#0025 art                 L37  | 2. Chapter One - The Lost Village
-#0026 art                 L27  | 3. Chapter Two - Twin Shrine Maiden
-#0027 art                 L13  | 4. Chapter Three - The Repentance
-#0028 block   f=0  p=0  L3   ( 221) | As a little precaution before entering this room, a BIG GHOST is about to appear!! It's called t
-#0029 block   f=0  p=0  L7   ( 537) | After entering the door, take the item on the ground and there is a Sacred Water at the inside b
-#0030 block   f=0  p=0  L9   ( 652) | Now turn right and go down the path to get the Stone Mirror. Turn back and go to the opposite di
-#0031 block   f=0  p=0  L8   ( 571) | In the Dirt-floor Passageway, turn right at the intersection and enter the room (you'll encounte
-#0032 art                 L27  | 5. Chapter Four - Forbidden Ritual
-#0033 art                 L24  | Now go back to the Warehouse corridor (the corridor which connects the
-#0034 art                 L9   | 6. Chapter Five - The Sacrifice
-#0035 block   f=0  p=0  L10  ( 739) | Just go down the path until you reach an opening (there'll be a spirit). Now search the drawers 
-#0036 block   f=0  p=0  L14  (1047) | Go to the Cell in the Kurosawa House through the Underground Cellar (you'll fight two mourners h
-#0037 art                 L40  | 7. Chapter Six - The Remaining
-#0038 art                 L34  | 8. Chapter Seven - Sae
-#0039 art                 L29  | 9. Chapter Eight - Half Moon
-#0040 art                 L18  | 10. Final Chapter - Crimson Butterfly
-#0041 art                 L12  | Final Boss(Easy/Normal mode): Kusabi
-#0042 block   f=0  p=0  L2   ( 118) | Well I think that's all, after beating him just go approach Mayu to see Ending A:Crimson Butterf
-#0043 art                 L3   | ===============================================================================
-#0044 block   f=0  p=0  L2   ( 109) | Beating the game in any difficulty mode will allow you to replay the game with all of your items
-#0045 art                 L5   | Beating the game in Easy mode:
-#0046 art                 L8   | Beating the game in Normal mode:
-#0047 art                 L3   | ++++++++++++++
-#0048 art                 L3   | ===============================================================================
-#0049 art                 L1   | Here are some guides about the Camera Obscura.
-#0050 art                 L6   | Basic Function Upgrade:
-#0051 art                 L5   | Power-up Lenses:
-#0052 art                 L7   | Films:
-#0053 art                 L6   | Functions:
-#0054 art                 L3   | ===============================================================================
-#0055 art                 L1   | This is my personal opinion about the game.
-#0056 art                 L5   | Graphics (10/10)
-#0057 art                 L5   | Storyline (10/10)
-#0058 art                 L4   | Sound (10/10)
-#0059 art                 L4   | Gameplay (10/10)
-#0060 art                 L4   | Controls (10/10)
-#0061 art                 L6   | Replay value (10/10)
-#0062 art                 L3   |  -----------------
-#0063 art                 L3   | ===============================================================================
-#0064 art                 L5   | Special thanks to:
-#0065 art                 L3   | %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#0003 art                 L6   | This is my first FAQ ever. Please notice me if there are any typos and
+#0004 block   f=0  p=0  L6   ( 452) | Fatal Frame 2 - Crimson Butterfly is a prequel to the one of the most popular survival horror ti
+#0005 block   f=0  p=0  L3   ( 203) | I'm not a survival horror fan but this game really worths to be played even for non survival hor
+#0006 art                 L3   | ===============================================================================
+#0007 block   f=0  p=0  L7   ( 502) | This may be not be reproduced under any circumstances except for personal, private use. It may n
+#0008 art                 L3   | ===============================================================================
+#0009 art                 L5   | Main Menu
+#0010 art                 L3   | 2.Load Game
+#0011 art                 L3   | 3.Album
+#0012 art                 L3   | 4.Gallery
+#0013 art                 L13  | 5.Options
+#0014 art                 L5   | Pause Menu
+#0015 art                 L3   | 2.Items
+#0016 art                 L4   | 3.Camera
+#0017 art                 L3   | 4.Photo
+#0018 art                 L3   | 5.File
+#0019 art                 L3   | 6.Memo
+#0020 art                 L3   | 7.Radio
+#0021 art                 L3   | 8.Spirit List (Must beat the game first to get it.)
+#0022 art                 L3   | ===============================================================================
+#0023 block   f=0  p=2  L1   (  44) | - Always check drawers, pots, etc for items.
+#0024 block   f=0  p=2  L2   ( 127) | - Always try to get Zero Shots when fighting hostile spirits, they give you much higher damage a
+#0025 block   f=0  p=2  L2   ( 121) | - Always try to get Multiple Shots when fighting several spirits at once, they save your films a
+#0026 block   f=0  p=2  L2   (  82) | - Always try to use the worst film possible, the good films are rare and precious.
+#0027 art                 L3   | ===============================================================================
+#0028 art                 L2   | 1. Prologue
+#0029 block   f=0  p=0  L2   ( 127) | After the opening FMV, you will get to control Mio. Just walk down the path, following Mayu unti
+#0030 art                 L2   | 2. Chapter One - The Lost Village
+#0031 block   f=0  p=0  L35  (2712) | Turn right, pick the black bag and continue down the path. Upon entering the village, you will s
+#0032 art                 L2   | 3. Chapter Two - Twin Shrine Maiden
+#0033 block   f=0  p=0  L25  (1946) | After getting some items on the floor, get the item on the table and get out of the room. You'll
+#0034 art                 L2   | 4. Chapter Three - The Repentance
+#0035 block   f=0  p=0  L11  ( 797) | You'll notice that the flashlight won't work in this house. Walk in and a ghost of a priest will
+#0036 block   f=0  p=0  L3   ( 221) | As a little precaution before entering this room, a BIG GHOST is about to appear!! It's called t
+#0037 block   f=0  p=0  L7   ( 537) | After entering the door, take the item on the ground and there is a Sacred Water at the inside b
+#0038 block   f=0  p=0  L9   ( 652) | Now turn right and go down the path to get the Stone Mirror. Turn back and go to the opposite di
+#0039 block   f=0  p=0  L8   ( 571) | In the Dirt-floor Passageway, turn right at the intersection and enter the room (you'll encounte
+#0040 art                 L2   | 5. Chapter Four - Forbidden Ritual
+#0041 block   f=0  p=0  L25  (1897) | Get the items from where Mayu was lying and take a picture of the dolls on the racks. Get out of
+#0042 art                 L24  | Now go back to the Warehouse corridor (the corridor which connects the
+#0043 art                 L2   | 6. Chapter Five - The Sacrifice
+#0044 block   f=0  p=0  L7   ( 494) | Go to the Underground Cellar, fight the hostile spirit there, save and exit through the door loc
+#0045 block   f=0  p=0  L10  ( 739) | Just go down the path until you reach an opening (there'll be a spirit). Now search the drawers 
+#0046 block   f=0  p=0  L14  (1047) | Go to the Cell in the Kurosawa House through the Underground Cellar (you'll fight two mourners h
+#0047 art                 L2   | 7. Chapter Six - The Remaining
+#0048 block   f=0  p=0  L38  (2939) | Go through the other door and take the items here, then go through the other door. Now enter the
+#0049 art                 L2   | 8. Chapter Seven - Sae
+#0050 block   f=0  p=0  L32  (2411) | First of all, save here, because after you get out of this room you'll encounter Sae again. She 
+#0051 art                 L2   | 9. Chapter Eight - Half Moon
+#0052 block   f=0  p=0  L27  (2103) | After exiting the Kiryu House, turn right and go down the path until you reach a forkroad. Take 
+#0053 art                 L2   | 10. Final Chapter - Crimson Butterfly
+#0054 block   f=0  p=0  L16  (1187) | Try to get to Kureha Shrine and you'll see an FMV. Fight all the hostile spirits. After defeatin
+#0055 art                 L12  | Final Boss(Easy/Normal mode): Kusabi
+#0056 block   f=0  p=0  L2   ( 118) | Well I think that's all, after beating him just go approach Mayu to see Ending A:Crimson Butterf
+#0057 art                 L3   | ===============================================================================
+#0058 block   f=0  p=0  L2   ( 109) | Beating the game in any difficulty mode will allow you to replay the game with all of your items
+#0059 art                 L5   | Beating the game in Easy mode:
+#0060 art                 L8   | Beating the game in Normal mode:
+#0061 art                 L3   | ++++++++++++++
+#0062 art                 L3   | ===============================================================================
+#0063 art                 L1   | Here are some guides about the Camera Obscura.
+#0064 art                 L2   | Basic Function Upgrade:
+#0065 block   f=0  p=0  L4   ( 301) | The basic functions are more important than the power-up lenses, so upgrade these first. I recom
+#0066 art                 L2   | Power-up Lenses:
+#0067 block   f=0  p=0  L3   ( 197) | I haven't found much use for the non-"Special Shot" Power-up Lenses. The Special Shot ones are B
+#0068 art                 L2   | Films:
+#0069 block   f=0  p=0  L5   ( 318) | Always try to waste your Type-14 first before going with the Type-61, Type-90 or Type-Zero ones.
+#0070 art                 L2   | Functions:
+#0071 block   f=0  p=0  L4   ( 268) | Almost all of the optional functions are good. I'm still missing one function though. There's no
+#0072 art                 L3   | ===============================================================================
+#0073 art                 L1   | This is my personal opinion about the game.
+#0074 art                 L2   | Graphics (10/10)
+#0075 block   f=0  p=0  L3   ( 187) | Tecmo really blasted the graphical effects for this game. The ghosts' visual effects are scary, 
+#0076 art                 L2   | Storyline (10/10)
+#0077 block   f=0  p=0  L3   ( 221) | The environment really adds up to the story. The creeps that are given gives a really deep feeli
+#0078 art                 L2   | Sound (10/10)
+#0079 block   f=0  p=0  L2   ( 134) | The sound effects are marvelous. It adds up much to the creepiness of this game. The voice actor
+#0080 art                 L2   | Gameplay (10/10)
+#0081 block   f=0  p=0  L2   ( 126) | The gameplay is flawless and due to the extremely supporting environment, the game really hooks 
+#0082 art                 L4   | Controls (10/10)
+#0083 art                 L2   | Replay value (10/10)
+#0084 block   f=0  p=0  L4   ( 260) | Nice to be replayed. There are two hidden difficulty modes, and you'll get new costumes each tim
+#0085 art                 L3   |  -----------------
+#0086 art                 L3   | ===============================================================================
+#0087 art                 L5   | Special thanks to:
+#0088 art                 L3   | %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

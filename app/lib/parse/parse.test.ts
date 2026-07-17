@@ -165,18 +165,86 @@ describe("prose classification", () => {
     expect(blocks[1]!.kind).toBe("art");
   });
 
+  it("frees prose that starts right after a banner (no blank line)", () => {
+    const { blocks } = parseDocument(
+      [
+        " --------------------------------------------",
+        "//  How to Get the Game                    //",
+        "--------------------------------------------",
+        "This game will never be released in English commercially, but there's a",
+        "ROM patch for an English fan translation. I won't post the link here",
+        "because of its legal status, but it's really good. It's possible to",
+        "find online -- just look around.",
+      ].join("\n"),
+    );
+    expect(blocks).toHaveLength(2);
+    expect(blocks[0]).toMatchObject({ kind: "art", gapBefore: 0 }); // banner intact
+    expect(blocks[0]!.lines).toHaveLength(3);
+    expect(blocks[1]).toMatchObject({ kind: "prose", startLine: 3 });
+  });
+
+  it("reflows each list item separately, never merging them", () => {
+    const { blocks } = parseDocument(
+      [
+        "The story is pretty generic -- you are a card player who quests to:",
+        "   1) defeat the evil Great Team Rocket through the game of Pokemon TCG",
+        "   2) collect all the cards",
+        "   3) master the game by building the best deck(s) possible",
+      ].join("\n"),
+    );
+    // Lead-in + one block per item — not one merged paragraph, and not verbatim.
+    expect(blocks).toHaveLength(4);
+    expect(blocks.every((b) => b.kind === "prose")).toBe(true);
+    expect(reflowText(blocks[0]!)).toMatch(/^The story is pretty generic/);
+    expect(reflowText(blocks[1]!)).toBe(
+      "1) defeat the evil Great Team Rocket through the game of Pokemon TCG",
+    );
+    expect(reflowText(blocks[2]!)).toBe("2) collect all the cards");
+    // Item text hangs under its own marker: "   1) " => text at col 6.
+    expect(blocks[1]!.reflow).toMatchObject({ firstLineIndent: 3, padLeft: 6 });
+  });
+
+  it("wraps a bullet item under its marker, using the source's own indent", () => {
+    const { blocks } = parseDocument(
+      [
+        "- Your starter deck is not horrible.",
+        "- Some Base Set cards have different rarities that are more appropriate",
+        "  for the card.",
+        "- You collect coins instead of medals, which you can then use to flip",
+        "  your own coins in battle.",
+      ].join("\n"),
+    );
+    expect(blocks).toHaveLength(3);
+    expect(reflowText(blocks[1]!)).toBe(
+      "- Some Base Set cards have different rarities that are more appropriate for the card.",
+    );
+    expect(blocks[1]!.reflow).toMatchObject({ firstLineIndent: 0, padLeft: 2 });
+  });
+
   it("keeps ASCII banners as art", () => {
     const banner = ["=====================", "|  SUPER GAME  FAQ  |", "====================="];
     expect(first(banner.join("\n")).kind).toBe("art");
   });
 
-  it("keeps a ragged bulleted list as art", () => {
-    const list = [
-      "  - Sword: found in the opening cave near the waterfall",
-      "  - Shield: purchased from the town armorer for 90 gold",
-      "  - Potion: dropped occasionally by slimes in the forest",
+  it("reflows a ragged bulleted list one item at a time", () => {
+    const { blocks } = parseDocument(
+      [
+        "  - Sword: found in the opening cave near the waterfall",
+        "  - Shield: purchased from the town armorer for 90 gold",
+        "  - Potion: dropped occasionally by slimes in the forest",
+      ].join("\n"),
+    );
+    expect(blocks).toHaveLength(3); // three items, never merged into a paragraph
+    expect(reflowText(blocks[0]!)).toBe("- Sword: found in the opening cave near the waterfall");
+  });
+
+  it("keeps a stylised title drawn from fenced letters as art", () => {
+    // Real Ace Combat banner: high alpha, but reflowing it destroys the drawing.
+    const title = [
+      "    |e|l|e|c|t|r|o|s|p|h|e|r|e| Spoiler-free FAQ/Walkthrough by Shotgunnova",
+      "     ¯ ¯ ¯ ¯ ¯ ¯ ¯ ¯ ¯ ¯ ¯ ¯ ¯  EMAIL: shotgunnova (@) gmail (do+) com",
     ].join("\n");
-    expect(first(list).kind).toBe("art");
+    expect(first(title).kind).toBe("art");
   });
 
   it("keeps an aligned price table as art (aligned column, not prose)", () => {

@@ -9,6 +9,9 @@ const LIST_MARKER = /^\s*(?:[-*•‣·]|\(?\d{1,3}[.)]|[A-Za-z][.)])\s+\S/;
 const ART_CHARS = /[-_=+*~|\\/#<>[\]{}()]/g;
 // Label-column content that is pure decoration (a rule under a label), not a label.
 const RULE_ONLY = /^[-_=~*+#.]+$/;
+// "|e|l|e|c|t|r|o|" — single characters fenced by pipes. That's a title drawn out of
+// letters, never running text; the letters would otherwise read as high alpha.
+const FENCED_CHARS = /(?:\|.){4,}\|/;
 // Slack (chars) below the block's own max width that still counts as a "full" line.
 const WRAP_SLACK = 15;
 // Minimum non-space chars for a block to plausibly be a wrapped paragraph.
@@ -65,6 +68,7 @@ function isDecorative(line: string): boolean {
   const t = line.trim();
   if (t.length < 3) return false;
   if (/\.{4,}|(?:\.\s){3,}/.test(line)) return true; // TOC leaders
+  if (FENCED_CHARS.test(line)) return true; // a title drawn from fenced letters
   const nonSpace = t.replace(/\s/g, "").length;
   const art = (t.match(ART_CHARS) ?? []).length;
   return nonSpace > 0 && art / nonSpace > 0.5;
@@ -116,26 +120,127 @@ function detectHanging(lines: string[], firstIndent: number): number | null {
   return hang;
 }
 
+export type Piece =
+  | { kind: "art"; lines: string[] }
+  | { kind: "prose"; lines: string[]; reflow: ReflowSpec };
+
+// A marker plus its trailing space; the full match width is the column the item's
+// text starts at, which is where its wrapped lines should hang.
+const LIST_ITEM = /^( *)(?:[-*•‣·]|\(?\d{1,3}[.)]|[A-Za-z][.)])( +)(?=\S)/;
+
 /**
- * FAQs often run a paragraph straight into a diagram with no blank line between:
- *
- *     2 menus will appear: one in the upper left-hand corner and one at the...
- *      _____       ______
- *     |-----COMMAND------|
- *
- * Blank lines alone would make that one block, and the box's borders would drag
- * the paragraph down with them into `art`. So a run is cut at its FIRST decorative
- * line. Only the first — everything from there on stays a single block, so a box's
- * interior can never be split apart or mistaken for prose.
+ * A bulleted or numbered list. Emitted as ONE BLOCK PER ITEM: each item wraps under
+ * its own marker, and items can never be merged into one another (which is what the
+ * blanket "2+ markers => art" rule was protecting against). Any lead-in line before
+ * the first marker becomes its own paragraph, so it doesn't get stranded at the
+ * verbatim size while the items around it reflow.
  */
-function splitAtArt(lines: string[]): string[][] {
-  const first = lines.findIndex(isDecorative);
-  if (first <= 0) return [lines]; // all art, or no decoration at all
-  const head = lines.slice(0, first);
-  // Only split when it buys something: if the head isn't reflowable prose the run
-  // is art either way, and cutting it would just fragment a banner for nothing.
-  if (classify(head).kind !== "prose") return [lines];
-  return [head, lines.slice(first)];
+function classifyList(lines: string[]): Piece[] | null {
+  const markers = lines.map((l) => LIST_ITEM.exec(l));
+  const at = markers.map((m, i) => (m ? i : -1)).filter((i) => i >= 0);
+  if (at.length < 2) return null; // one marker is a sentence, not a list
+
+  const joined = lines.join(" ");
+  const nonSpace = joined.replace(/\s/g, "").length;
+  const letters = joined.match(/[A-Za-z]/g)?.length ?? 0;
+  if (nonSpace === 0 || letters / nonSpace < 0.6) return null; // not text
+
+  const indents = at.map((i) => markers[i]![1]!.length);
+  if (!consistent(indents)) return null; // markers must line up
+  const base = Math.min(...indents);
+
+  // Between items, only continuation lines — indented past the marker column.
+  for (let i = at[0]! + 1; i < lines.length; i++) {
+    if (!markers[i] && indentOf(lines[i]!) <= base) return null;
+  }
+
+  const out: Piece[] = [];
+  const lead = lines.slice(0, at[0]!);
+  if (lead.length) {
+    out.push({
+      kind: "prose",
+      lines: lead,
+      reflow: {
+        layout: "block",
+        padLeft: commonIndent(lead),
+        firstLineIndent: indentOf(lead[0]!),
+      },
+    });
+  }
+
+  for (let k = 0; k < at.length; k++) {
+    const start = at[k]!;
+    const end = k + 1 < at.length ? at[k + 1]! : lines.length;
+    const itemLines = lines.slice(start, end);
+    const continuations = itemLines.slice(1).map(indentOf);
+    out.push({
+      kind: "prose",
+      lines: itemLines,
+      reflow: {
+        layout: "block",
+        // Wrap under the item's text: the source's own continuation indent when it
+        // has one, otherwise the column the marker hands over at.
+        padLeft: continuations.length ? Math.min(...continuations) : markers[start]![0]!.length,
+        firstLineIndent: markers[start]![1]!.length,
+      },
+    });
+  }
+  return out;
+}
+
+/** Group a run into maximal stretches of decorative / non-decorative lines. */
+function byDecoration(lines: string[]): { decorative: boolean; lines: string[] }[] {
+  const out: { decorative: boolean; lines: string[] }[] = [];
+  for (const line of lines) {
+    const decorative = isDecorative(line);
+    const last = out.at(-1);
+    if (last && last.decorative === decorative) last.lines.push(line);
+    else out.push({ decorative, lines: [line] });
+  }
+  return out;
+}
+
+/**
+ * Blank lines alone don't bound a block. FAQs run prose straight into a diagram and
+ * straight out of a banner with no blank line either side:
+ *
+ *     //  How to Get the Game                    //
+ *     --------------------------------------------
+ *     This game will never be released in English commercially, but there's a
+ *
+ * So a run is cut into prose islands and everything else. Anything that isn't
+ * reflowable prose is merged back together, which keeps a box's interior — its
+ * content lines aren't decorative — from being fragmented or mistaken for prose.
+ */
+function piecesForRun(run: string[]): Piece[] {
+  const out: Piece[] = [];
+  let art: string[] = [];
+  const flushArt = () => {
+    if (art.length) out.push({ kind: "art", lines: art });
+    art = [];
+  };
+
+  for (const segment of byDecoration(run)) {
+    if (segment.decorative) {
+      art.push(...segment.lines);
+      continue;
+    }
+    const items = classifyList(segment.lines);
+    if (items) {
+      flushArt();
+      out.push(...items);
+      continue;
+    }
+    const c = classify(segment.lines);
+    if (c.kind === "prose") {
+      flushArt();
+      out.push({ kind: "prose", lines: segment.lines, reflow: c.reflow });
+    } else {
+      art.push(...segment.lines);
+    }
+  }
+  flushArt();
+  return out;
 }
 
 function classify(lines: string[]): { kind: "art" } | { kind: "prose"; reflow: ReflowSpec } {
@@ -220,20 +325,19 @@ export function parseDocument(text: string): ParsedDoc {
     }
 
     let offset = 0;
-    for (const segment of splitAtArt(buf)) {
-      const c = classify(segment);
+    for (const piece of piecesForRun(buf)) {
       blocks.push({
         id: id++,
-        kind: c.kind,
-        lines: segment,
+        kind: piece.kind,
+        lines: piece.lines,
         startLine: startLine + offset,
-        // Only the run's first segment gets the blank-line gap; a segment that
+        // Only the run's first piece gets the blank-line gap; a piece that
         // continues the same run must butt right up against the previous one.
         gapBefore: offset === 0 ? blank : 0,
-        indent: commonIndent(segment),
-        ...(c.kind === "prose" ? { reflow: c.reflow } : {}),
+        indent: commonIndent(piece.lines),
+        ...(piece.kind === "prose" ? { reflow: piece.reflow } : {}),
       });
-      offset += segment.length;
+      offset += piece.lines.length;
     }
   }
 

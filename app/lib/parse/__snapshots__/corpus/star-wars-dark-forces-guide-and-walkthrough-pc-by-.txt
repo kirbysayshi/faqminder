@@ -1,4 +1,4 @@
-blocks: 493  art: 282  prose-block: 208  prose-hanging: 3
+blocks: 642  art: 271  prose-block: 368  prose-hanging: 3
 --------------------------------------------------------------------------------
 #0000 art                 L23  |    ___STAR______________________________________________________________
 #0001 art                 L4   |                          STAR WARS: DARK FORCES
@@ -9,487 +9,636 @@ blocks: 493  art: 282  prose-block: 208  prose-hanging: 3
 #0006 art                 L5   | Abbreviations used:
 #0007 art                 L3   | Contents:
 #0008 art                 L1   |  * 0.0 Welcome!
-#0009 art                 L18  |    1.0 Introduction
-#0010 art                 L3   |    2.0 DF Demo
-#0011 art                 L4   |    3.0 DF vs. DOOM
-#0012 art                 L20  |    4.0 Undocumented Codes
-#0013 art                 L26  |    5.0 Weapons and Items
-#0014 art                 L19  |    6.0 Opponents
-#0015 art                 L15  |    7.0 The Missions
-#0016 art                 L10  |    8.0 Miscellaneous Questions
-#0017 art                 L14  |    9.0 DF Customization
-#0018 art                 L4   |  * 10.0 Custom Missions and Mission Editors
-#0019 art                 L5   |  * 11.0 Troubleshooting
-#0020 art                 L1   |  * 12.0 Acknowledgements
-#0021 art                 L2   |    13.0 References
-#0022 art                 L8   | ============
-#0023 art                 L3   | *** NOTE! ***
-#0024 block   f=0  p=0  L3   ( 222) | Dark Forces Project Leader Daron Stinnett and Lead Artist/Co-writer Justin Chin provided me with
-#0025 block   f=0  p=5  L2   ( 112) | The *new* WWW site for the DF FAQ is (and will be, for the time being): http://www.connect.ab.ca
-#0026 art                 L2   | (A great big thanks to John-Paul May and the great people at TWEB for giving
-#0027 art                 L4   | I humbly note that my site has been honoured on the "Cool List" compiled by
-#0028 art                 L2   |  -KAL
-#0029 art                 L6   | ================
-#0030 block   f=0  p=0  L4   ( 271) | "The New Order of the Empire stretches its evil clutches across the galaxy, consuming planets wi
-#0031 block   f=0  p=0  L3   ( 217) | "Unable to acquire the plans to the deadly space station, the Rebels have employed the skills of
-#0032 block   f=0  p=0  L3   ( 160) | "Armed only with a blaster pistol and an intimate knowledge of Imperial methods, Katarn prepares
-#0033 block   f=0  p=0  L4   ( 271) | Dark Forces is LucasArts' new first-person perspective game. It is based on a LA-developed 'Jedi
-#0034 block   f=0  p=0  L7   ( 511) | Each of the 14 missions encompasses a different world, each with a unique look and feel. This is
-#0035 block   f=0  p=0  L9   ( 665) | In this game, you play Kyle Katarn, a mercenary once employed by the Galactic Empire who is now 
-#0036 block   f=0  p=0  L5   ( 359) | The characters inhabiting the game are familiar ones from the Star Wars universe, and include Im
-#0037 art                 L6   | 1.2 Is DF canon?
-#0038 block   f=0  p=0  L7   ( 484) | Surely, if there were a Rebel who had accomplished as much as Katarn (succeeding in over a dozen
-#0039 art                 L11  | On the other hand, Justin Chin writes:
-#0040 block   f=0  p=0  L4   ( 311) | BTW, 'katarn' (the surname of the protagonist in DF) is the name of a predator on the Wookie hom
-#0041 art                 L5   | Justin Chin writes:
-#0042 art                 L11  | 1.3 What is required to run DF?
-#0043 block   f=0  p=0  L5   ( 340) | The CD-ROM drive need not adhere to the MPC2 standard of a 300kb/s transfer rate, but the faster
-#0044 block   f=0  p=0  L3   ( 211) | The README.TXT file accompanying the DF demo states that DF requires a Microsoft-compatible mous
-#0045 art                 L7   | 1.4 What media format is DF offered on?
-#0046 block   f=0  p=0  L9   ( 631) | Some players have expressed their disdain for the small size of DF. They say that the CD is "pad
-#0047 art                 L3   | *** Important note:
-#0048 art                 L7   | 1.5 What sound cards are supported?
-#0049 art                 L5   | 1.6 What controllers are supported?
-#0050 art                 L6   | 1.7 Does DF have __________?
-#0051 block   f=0  p=0  L5   ( 330) | Although it wouldn't make much sense to have a 'deathmatch'-style game with two rebels fighting 
-#0052 block   f=0  p=0  L4   ( 253) | The storyline, however, is *not* the decisive factor here. LA obviously decided that DF would be
-#0053 art                 L9   | 1.7.2 ...a "save" feature?
-#0054 block   f=0  p=0  L6   ( 426) | If you lose all your lives, you restart at the beginning of the mission and everything (enemies,
-#0055 block   f=0  p=0  L7   ( 473) | Is this a good feature, or a glaring omission? On the pro side, some observe that having to play
-#0056 art                 L5   | 1.8 How do I get DF?
-#0057 block   f=0  p=0  L2   ( 128) | To order DF in the USA and Canada, call 1-800-STARWARS, or 1-800-98LUCAS (1-800-9858227), or che
-#0058 art                 L7   | 1.9 Will there be any sequels to DF?
-#0059 block   f=5  p=5  L7   ( 481) | The long-awaited multiplayer sequel to the award-winning _Dark Forces_, _Jedi Knight_ continues 
-#0060 art                 L3   | JK: DF II is scheduled to be released in late 1996/early 1997.  For the full
-#0061 art                 L2   | Project leader is Justin Chin; other team members include Ingar Shu and Ray
-#0062 block   f=0  p=5  L2   ( 113) | For more information on JK: DF II, please see the Invisible Knights HeadQuarters at: http://ikte
-#0063 art                 L2   | or Ackbar's Jedi Knight Page at:
-#0064 art                 L6   | 1.10 MacDF
-#0065 block   f=0  p=0  L2   ( 128) | (Although I've used Macs before, I don't run DF on a Mac. Mac users are encouraged to correct me
-#0066 art                 L5   | MPC vs. Mac versions of DF:
-#0067 art                 L10  | 1.10.1 MacDF hardware requirements
-#0068 block   f=0  p=0  L4   ( 293) | Powermacs can run DF in high resolution (640x480), but it's apparently "a bit sluggish" on a 60 
-#0069 block   f=0  p=0  L2   ( 142) | Note: the CD includes settings for the following joysticks and pads: Thrustmaster, MouseStick, G
-#0070 art                 L17  | 1.10.2 Running custom levels on MacDF
-#0071 art                 L5   | 1.10.3 MacDF patch file
-#0072 art                 L9   | These are the changes that have been made since the original release:
-#0073 art                 L3   | 1.10.4 MacDF demo
-#0074 art                 L8   | 1.11 Sony PlayStation DF
-#0075 art                 L9   | ===========
-#0076 art                 L5   |    DFORCES2.ZIP - This file contains the opening cutscene for the demo.  This
-#0077 art                 L5   |    DFORCES3.ZIP - This file contains the trailing cutscene for the demo.  This
-#0078 art                 L7   | 2.1 Where can I get the demo?
-#0079 block   f=0  p=0  L3   ( 158) | The demo was also included on the CD-ROM coverdisks of the magazines _PC Gamer_, Vol.2, No.3 (Ma
-#0080 block   f=0  p=0  L3   ( 188) | The demos on the CD-ROMs are version 0.16D, as opposed to the 0.163D version available on the Ne
-#0081 art                 L5   | 2.2 Is the demo level in the full game release?
-#0082 art                 L8   | ===============
-#0083 block   f=0  p=0  L3   ( 208) | I suggest you make up your own mind -- and not try to "convert" others. Download the shareware v
-#0084 block   f=0  p=0  L4   ( 229) | (Me? I bought DOOM, and have played it solo and over the modem, and have played a bit of DOOM II
-#0085 art                 L2   | If you wish to flame me on these (quite reasonable, I think) answers, get a
-#0086 art                 L7   | 3.1 Isn't DF just a ripoff of iD Software's DOOM?
-#0087 block   f=0  p=0  L4   ( 284) | Each one of these games has, shall we say, "inspired" a successor. The successor has made large 
-#0088 block   f=0  p=0  L6   ( 398) | That is not to say, however, that DF could have existed without DOOM. But I will not change the 
-#0089 art                 L15  | From _CD-ROM Magazine_:
-#0090 art                 L9   | 3.2 Does DF kick DOOM's butt?
-#0091 art                 L8   | DF and DOOM have many features in common:
-#0092 art                 L11  | DF, however, has several unique features:
-#0093 block   f=0  p=0  L3   ( 187) | The most significant difference between DOOM/DOOM II and DF is that id's games have multiplayer 
-#0094 art                 L13  | A recent LA ad campaign contained the following copy: "After facing
-#0095 art                 L8   | 3.3 Is DF easier than DOOM?
-#0096 art                 L9   | ======================
-#0097 art                 L5   | 4.1 Gameplay Cheat Codes:
-#0098 art                 L6   | 4.1.1 LABUG
-#0099 art                 L7   | 4.1.2 LACDS
-#0100 art                 L10  | These are the objects:
-#0101 art                 L10  | 4.1.3 LADATA
-#0102 art                 L6   | 4.1.4 LAIMLAME
-#0103 art                 L4   | 4.1.5 LAMAXOUT
-#0104 art                 L10  | 4.1.6 LANTFH
-#0105 art                 L1   | Note: For MacDF, you must use the 8, 4, 6, and 3 keypad keys for movement.
-#0106 art                 L5   | 4.1.7 LAPOGO
-#0107 art                 L6   | 4.1.8 LAPOSTAL
-#0108 art                 L5   | 4.1.9 LARANDY
-#0109 art                 L4   | 4.1.10 LAREDLITE
-#0110 art                 L4   | 4.1.11 LASKIP
-#0111 art                 L4   | 4.1.12 LAUNLOCK
-#0112 art                 L3   | 4.1.13 LABRADY (Mac only)
-#0113 art                 L4   | 4.1.14 LAOZ (Mac only)
-#0114 art                 L5   | 4.1.15 LATERMINATE (Mac only)
-#0115 art                 L4   | 4.2 Mission Codes
-#0116 art                 L15  | Mission:  Code=======     Title==================
-#0117 art                 L4   | 4.3 "Dork Farces" :)
-#0118 art                 L6   |  Fake code=====================================  What it doesn't do==========
-#0119 art                 L2   | These codes are, no doubt, a play on the finger-twisting DOOM cheat-code
-#0120 art                 L5   | 4.4 Command Line Options
-#0121 art                 L12  |    -c0                Disable cutscenes, briefing, and agent menu
-#0122 art                 L9   | =====================
-#0123 block   f=0  p=0  L2   ( 139) | You'll notice that the following list doesn't include a lightsabre. Why not? Because the protago
-#0124 art                 L5   | The names for most of the weapons were created by DF design team member
-#0125 block   f=5  p=5  L3   ( 196) | Another interesting note is the QS100 Welding arm. That was named after a robotic device that [l
-#0126 art                 L3   | 5.1.1 Fists
-#0127 art                 L7   | 5.1.2 Modified Bryar Pistol
-#0128 art                 L7   | From Justin Chin:
-#0129 art                 L6   | 5.1.3 Stormtrooper Laser Rifle
-#0130 art                 L7   | 5.1.4 Thermal Detonators
-#0131 art                 L8   | 5.1.5 Imperial Repeater Gun
-#0132 art                 L5   | From Justin Chin:
-#0133 art                 L8   | 5.1.6 Jeron Fusion Cutter
-#0134 art                 L8   | From Justin Chin:
-#0135 art                 L8   | 5.1.7 I.M. Mines
-#0136 art                 L4   | From Justin Chin:
-#0137 art                 L6   | 5.1.8 Packered Mortar Gun
-#0138 art                 L4   | From Justin Chin:
-#0139 art                 L5   | 5.1.9 Stouker Concussion Rifle
-#0140 art                 L8   | From Justin Chin:
-#0141 art                 L6   | 5.1.10 Assault Cannon
-#0142 art                 L5   | 5.2 Ammo
-#0143 art                 L11  | The following chart gives the type of and maximum ammo used by each weapon:
-#0144 art                 L6   |          BR=Modified Bryar Rifle        IM=I.M. Mines
-#0145 art                 L4   | 5.3 Weapon Supercharge
-#0146 art                 L8   | 5.4 How is aiming/targeting accomplished?
-#0147 block   f=0  p=0  L4   ( 289) | It's been said that blasters are "clumsy...random" weapons. Don't sit back and wait for targetin
-#0148 art                 L8   | 5.5 Various Items
-#0149 art                 L6   | 5.5.2 Head Lamp
-#0150 art                 L6   | 5.5.3 Infrared Goggles
-#0151 block   f=0  p=0  L8   ( 555) | I've debated Daron Stinnett on whether or not these are "infrared" or "light amplification" gogg
-#0152 art                 L4   | 5.5.4 Ice Cleats
-#0153 art                 L4   | 5.5.5 Gas Mask
-#0154 art                 L4   | 5.5.6 Batteries
-#0155 art                 L11  | 5.5.7 Shields
-#0156 art                 L5   | 5.5.7.1 Shield Supercharge
-#0157 art                 L3   | 5.5.7.2 Revive
-#0158 art                 L3   | 5.5.7.3 Med Kit
-#0159 art                 L8   | =============
-#0160 art                 L5   | 6.2 Imperial Officers
-#0161 art                 L4   | 6.3 Imperial Commandos
-#0162 art                 L5   | 6.4 Gun Turrets
-#0163 art                 L6   | 6.5 Probe Droids
-#0164 art                 L5   | 6.6 Interrogation Droids
-#0165 art                 L6   | 6.7 Remotes
-#0166 art                 L7   | 6.8 Mouse Droids
-#0167 art                 L8   | 6.9 Trandoshans
-#0168 art                 L6   | 6.10 Gran
-#0169 art                 L5   | 6.11 Gamorreans
-#0170 art                 L6   | 6.12 Dianoga
-#0171 art                 L7   | 6.13 Boba Fett
-#0172 art                 L6   | 6.14 Kell Dragons
-#0173 art                 L11  | 6.15 Dark Troopers
-#0174 art                 L5   | Here are some DT-fighting tips:
-#0175 art                 L3   | 6.16 How many opponents are there in each Mission?
-#0176 block   f=0  p=0  L5   ( 321) | ST=Stormtrooper; IO=Imperial Officer; IC=Imperial Commando; TS=Trandoshans; GR=Gran; GG=Gamorean
-#0177 art                 L25  | EASY
-#0178 art                 L25  | MEDIUM
-#0179 art                 L25  | HARD
-#0180 block   f=2  p=2  L3   ( 172) | Please note that I have included monster generators, but that 1 generator = 1 monster, although 
-#0181 art                 L2   |   I would like to thank the authors of UNGOB.EXE and DFUSE for
-#0182 art                 L3   | 6.17 How many shots are required to take out each opponent?
-#0183 art                 L2   |      The table shows the minimum number of shots from each weapon required to
-#0184 art                 L43  |  ----------------Weapon:------------------------------------------------
-#0185 block   f=5  p=5  L3   ( 199) | The row showing Kyle Katarn indicates how much of his shields or health he will lose when shooti
-#0186 block   f=5  p=5  L5   ( 284) | In most cases, the numbers are reliable. However, exact information could not be collected for s
-#0187 hanging f=7  p=9  L5   ( 326) | - Phase 1 Dark Troopers deflect shots, sustaining only partial damage (rather than none at all, 
-#0188 art                 L10  |        - With Phase 2 Dark Troopers, the main problem is due to the nature of
-#0189 block   f=7  p=8  L7   ( 465) | - The number of shots taken to kill Boba Fett is also difficult to measure, partly because he is
-#0190 hanging f=7  p=9  L3   ( 144) | - I decided not to bother measuring how many punches it takes to kill a Phase 2 Dark Trooper or 
-#0191 art                 L3   | 6.18 How many hits can Kyle take from each weapon?
-#0192 art                 L10  | This is based solely on the assumption that Kyle Katarn has 100 hit points
-#0193 hanging f=3  p=5  L2   (  82) | + TDs, mines, and missiles have an area affect. Direct hit values are given above.
-#0194 art                 L11  | ================
-#0195 block   f=0  p=0  L3   ( 170) | The enemies you'll discover are yours to handle as you will. I haven't described their location 
-#0196 block   f=0  p=0  L5   ( 361) | SECRETS are listed separately; they are non-essential to completing your mission and are general
-#0197 block   f=0  p=0  L2   ( 142) | I've (subjectively) rated the difficulty of each mission from low, moderate, medium, to high. Gi
-#0198 art                 L6   | 7.1 Prologue Mission I: The Death Star Plans: Operation Skyhook: Phase 2
-#0199 block   f=0  p=0  L4   ( 284) | Trivia: The (first) Death Star, constructed in orbit around the planet Despayre in the Horuz sys
-#0200 block   f=0  p=0  L7   ( 528) | The shortest mission with the longest title! To get the Red Key, go outside the complex to Floor
-#0201 block   f=0  p=0  L3   ( 217) | In the Red Key area, there is a switch on the wall. Press the switch at (0264/20.0/0341) and jum
-#0202 block   f=0  p=0  L5   ( 328) | SECRET 1: In this new area there is a switch on the wall. Press this (0227/0.1/0335) and return 
-#0203 block   f=0  p=0  L5   ( 332) | SECRET 2: Go outside to Floor 0 again. Check your map with [TAB]. You exited Floor 1 at a locati
-#0204 block   f=0  p=0  L5   ( 363) | Go back into the new area. Take the round elevator up to Floor 2. Shoot any enemies. Go up to th
-#0205 block   f=0  p=0  L5   ( 336) | SECRET 3: Go to the new area 2 again, and go to the southmost point, where it forms a little 'pe
-#0206 block   f=0  p=0  L6   ( 436) | SECRET 4: Go to the northeast corner of this Floor, and point yourself to the northeast. You sho
-#0207 block   f=0  p=0  L8   ( 553) | SECRET 5: Go through the open doorway and press the switch on the wall at (0458/-9.0/0258). This
-#0208 art                 L1   | Go to the new area and take go down stairs behind the round elevator.
-#0209 block   f=0  p=0  L5   ( 353) | SECRET 6: Behind the first door at (0171/-13.0/0349) is a stormtrooper and a brownish mechanism,
-#0210 block   f=0  p=0  L5   ( 341) | Continue down and past the holo of the Death Star, turn left down the hallway. You will see an I
-#0211 block   f=0  p=0  L6   ( 403) | SECRET 7: Go through the door to the north and go *past* the door of the round elevator until yo
-#0212 block   f=0  p=0  L5   ( 356) | Now take the round elevator up. Blast any stormtroopers here. (In this courtyard, you can open a
-#0213 block   f=0  p=0  L2   ( 137) | If you've got the Death Star plans, your ship will drop down into the courtyard. You've accompli
-#0214 art                 L7   | 7.2 Mission II: After the Massacre
-#0215 block   f=0  p=0  L5   ( 328) | Trivia: Contrary to popular assumption, the white armour that stormtroopers wear is not meant so
-#0216 block   f=0  p=0  L6   ( 445) | Before you begin, note that because the power is off, doors will not function and many areas are
-#0217 art                 L1   | SECRET 1: There is a secret door at (0413/2.0/0072).
-#0218 block   f=0  p=0  L5   ( 316) | Go into the room (0427/4.0/0072) and exit to the west, towards the canal. You'll see a platform 
-#0219 block   f=0  p=0  L4   ( 249) | Head north, the east to rotating arm bridge control room (0473/2.0/0263). The switch (0450/2.0/0
-#0220 block   f=0  p=0  L5   ( 302) | Keep heading north, blasting opponents and crouching under a door (0482/-2.0/0662) to get past i
-#0221 block   f=0  p=0  L3   ( 223) | SECRET 2: Go back down into the main room and thru a door at (0353/7.0/0688) into another room a
-#0222 art                 L1   | Exit this building.
-#0223 block   f=0  p=0  L2   ( 130) | SECRET 3: Go around the building until you see the waterfall. Crouch down and open a secret door
-#0224 block   f=0  p=0  L8   ( 590) | Get into the water and follow it south; to your right will be an area with MediKits, shields, an
-#0225 art                 L5   | 7.3 Mission III: The Subterranean Hideout
-#0226 block   f=0  p=0  L3   ( 175) | Trivia: The Anoat system is adjacent to the Hoth system; it was here that Han Solo evaded his Im
-#0227 block   f=0  p=0  L3   ( 159) | Explore the landing area, knocking off any Probots. Then go to the Main Gates switch (0315/0.0/0
-#0228 art                 L4   | Gate 1 (west):
-#0229 art                 L2   | Follow the flow and go down the first falls; get out of sludge to area your
-#0230 block   f=0  p=0  L3   ( 139) | SECRET 2: There is a secret door at (0250/-20.0/0285). SECRET 3: While in the secret 2 room, ope
-#0231 block   f=0  p=0  L6   ( 445) | Take the elevator up (0248/-20.0/0306) to find a switch (0259/-4.0/0344) to raise the sludge lev
-#0232 block   f=0  p=0  L8   ( 523) | Gate 2 (north face, west gate): Again into the flow, get out on your left this time, and activat
-#0233 block   f=0  p=0  L8   ( 541) | Gate 3 (north face, east gate): Get out of the sewage on your right, and go up an elevator to fi
-#0234 art                 L2   | Gate 4 (east): This area is not essential, but you may pick up a few items.
-#0235 block   f=0  p=0  L3   ( 153) | Activate Main Gates switch so that Gate 2 is open. Return to Gate 2 area. Take the passage in th
-#0236 block   f=0  p=0  L2   ( 109) | SECRET 4: Go south into a dark "swimming pool" area. Open secret door (0192/-6.0/0348) to find a
-#0237 block   f=0  p=0  L2   ( 151) | SECRET 5: Go along a north passageway now, until you find a waterfall. Behind the waterfall (016
-#0238 block   f=0  p=0  L4   ( 274) | Follow the flow until you get to a series of large pillars. A switch (0185/-25.0/0427) raises a 
-#0239 block   f=0  p=0  L4   ( 289) | Follow the ledge, until you see an area on your left. Make a running jump south across the sludg
-#0240 art                 L7   | 7.4 Mission IV: Imperial Weapons Research Facility
-#0241 block   f=0  p=0  L2   ( 115) | When exploring the surface of the planet, it'll help to point yourself down a bit so as not to f
-#0242 art                 L2   | SECRET 1: Take the narrow ledge (0263/-11.0/0399) and jump north across to
-#0243 block   f=0  p=0  L9   ( 612) | SECRET 2: Cross the narrow bridge. Continue until you reach the ledge overlooking the main gate 
-#0244 block   f=0  p=0  L6   ( 398) | To get to the facility, you'll have to cross the narrow bridge (0202/-12.0/0294). Run across a s
-#0245 block   f=0  p=0  L4   ( 281) | Go up the stairs. To open the east door (0104/-27.0/0183), you must hit the switch (-082/-28.0/0
-#0246 art                 L1   | SECRET 3: There's a secret room at (-273/-3.0/0086)
-#0247 block   f=0  p=0  L6   ( 391) | Head up stairs north into a room; take stairs (-261/-5.0/0145) up. Open a door (-146/5.0/0224) a
-#0248 block   f=0  p=0  L12  ( 826) | Thru the doorway, you'll go up a circular stairway, down a hallway, and thru a door at the end (
-#0249 block   f=0  p=0  L7   ( 473) | After all switches are thrown, the door to the right of the window in the control room will be o
-#0250 block   f=0  p=0  L5   ( 372) | SECRET 4: You must cross a platform to get to the door with the red circle. Drop down to the flo
-#0251 art                 L1   | At the door with the red circle (-146/5.0/0224) take a left and head north.
-#0252 art                 L1   | SECRET 5: Secret room at (-167/7.0/0277)
-#0253 block   f=0  p=0  L4   ( 252) | Go thru the now-open doorway (-118/7.0/0280) and head north. Hit a switch (-038/0.0/0452) to low
-#0254 block   f=0  p=0  L5   ( 374) | EXTRA SECRET SECRET: Turn on LAIMLAME and LAPOGO. Jump off the ledge at your start point, headin
-#0255 block   f=0  p=0  L6   ( 410) | There is another way to get to the Ewok without cheating. At the far end of the area identified 
-#0256 art                 L6   | 7.5 Mission V: The Blood Moon
-#0257 block   f=0  p=0  L3   ( 235) | Enter the facility at the far east end. Take the elevator (0350/-2.0/0347). Go up the stairs and
-#0258 art                 L1   | SECRET 1: Find supplies behind a secret door at (0119/18.0/0332)
-#0259 block   f=0  p=0  L3   ( 210) | SECRET 2: Open secret door at (0072/21.0/0309) to get shields, and... SECRET 3: Go west to open 
-#0260 block   f=0  p=0  L5   ( 333) | Continue west until you get to room with the slow up-'n'-down turbine. The door at (-371/30.0/03
-#0261 block   f=0  p=0  L8   ( 586) | You need the Blue Key to open the door at (-183/-32.0/0303). To get the Blue Key, continue down 
-#0262 block   f=0  p=0  L4   ( 268) | The reactor is at (-408/-91.0/0357). As soon as you plant the sequencer charge, switch to TDs to
-#0263 block   f=0  p=0  L6   ( 369) | Hit the switch at (-379/30.0/0304) which will open the door at (-376/31.0/0238) and the rest dow
-#0264 block   f=0  p=0  L2   ( 143) | Jump into the east canyon; take the tunnel at (-279/0.0/0083). Jump up into the canyon at (0084/
-#0265 art                 L5   | 7.6 Mission VI: Crix Madine's Fate
-#0266 block   f=0  p=0  L4   ( 271) | Trivia: General Crix Madine is from Corellia. He specializes in covert operations, and was respo
-#0267 art                 L10  | There are six levels in the detention centre. I won't refer to their symbols,
-#0268 block   f=0  p=0  L4   ( 231) | There are two elevators: the west one and the east one. The west elevator cycles between levels 
-#0269 block   f=0  p=0  L5   ( 364) | Summon the floating platform by hitting the switch at (0144/128.0/0002). Get on the platform and
-#0270 block   f=0  p=0  L3   ( 184) | The switch at (0169/148.0/0383) opens access to another switch at (0147/110.0/0427). Go up to Fl
-#0271 block   f=0  p=0  L2   ( 131) | SECRET 1: Throw a TD at the crack in the wall at (0113/128.0/0146) to blow it open. Go into the 
-#0272 art                 L5   | SECRET 2: Blow open wall at (0114/148.0/0355).
-#0273 block   f=0  p=0  L2   ( 139) | Take the west elevator to level S2. An officer here carries Code Key 3. Use this code at (0141/6
-#0274 art                 L5   | SECRET 6: Blow open wall at (0103/64.0/0504).
-#0275 block   f=0  p=0  L3   ( 211) | SECRET 10: Note that in one of the secret areas, there is a "shaft" pointing to a blue switch. H
-#0276 block   f=0  p=0  L6   ( 396) | Take the elevator down to S4. Jump into vent at (0160/-2.0/0507). The switch at (0182/-1.0/0502)
-#0277 block   f=0  p=0  L2   ( 151) | Take the elevator down to S5. When the maglock at (0066/-32.0/0476) flickers, it is *dangerous*.
-#0278 art                 L1   | SECRET 11: Blow open the wall at (0023/-32.0/0400).
-#0279 block   f=0  p=0  L2   ( 128) | Go thru this level until you see a switch thru a window. Shoot the switch thru the window to ope
-#0280 art                 L1   | SECRET 12: Open secret door at (0114/-36.0/0354) to get gas mask.
-#0281 block   f=0  p=0  L3   ( 174) | Pass thru the door at (0232/-32.0/0443) and put your gas mask on. Go thru the maglock while flic
-#0282 art                 L3   | Take the east elevator up to S3. Get Code Keys 4 and 5 from officers. Enter
-#0283 block   f=0  p=0  L2   ( 123) | Take the east elevator up to S1. Get Code Keys 1 and 2 from officers. The door at (0159/96.0/055
-#0284 block   f=0  p=0  L5   ( 336) | Take the east elevator down to S5. Use the switch outside the elevator to send it up once, to le
-#0285 block   f=0  p=0  L4   ( 264) | You have a choice of ways to enter the elevator shaft: 1) Open Red Key door at (0102/128.0/0467)
-#0286 block   f=0  p=0  L5   ( 321) | Crouch to open door at (0121/115.0/0456). Jump onto top of the west elevator; open door at (0128
-#0287 art                 L2   | SECRET 13: In the room with the Gun Turret, blow open the wall at
-#0288 art                 L1   | Continue thru the vents and into the garbage compactor.
-#0289 block   f=0  p=0  L3   ( 206) | SECRET 14: From the safe area to the east, blow open a crack in the wall in the main chamber con
-#0290 block   f=0  p=0  L4   ( 269) | Jump onto the moving "press" in the north chamber. Run and jump over the central "press-o'-death
-#0291 block   f=0  p=0  L4   ( 268) | Set off the mine to blow the wall at (0203/91.0/0647). Enter Code 2 at (0165/98.0/0594) to open 
-#0292 art                 L5   | 7.7 Mission VII: Deadly Cargo
-#0293 block   f=0  p=0  L4   ( 244) | SECRET 1: Call down the elevator at (-255/-40.0/0744). Go up, then east across walkway formed by
-#0294 art                 L2   | A switch at (-225/-40.0/0729) opens the big door at (-215/-40.0/0701). The
-#0295 art                 L1   | Find the Yellow Key at (-287/-40.0/0576).
-#0296 block   f=0  p=0  L2   ( 107) | SECRET 2: To get some shields, shoot the Power Generating Units to open a secret hole at (-277/-
-#0297 block   f=0  p=0  L8   ( 524) | Go thru door at (-150/-40.0/0628). The switch at (-086/-56.0/0523) shifts a couple of "barriers"
-#0298 block   f=0  p=0  L3   ( 212) | SECRET 3: Run along the raising platform and jump into the room to the south of it (it's tricky!
-#0299 art                 L2   | After the raising platform has gone up, you may enter a door at
-#0300 art                 L7   | Head south. Find lots of items behind door at (-237/8.0/0288). The infamous
-#0301 block   f=0  p=0  L3   ( 230) | To get back to the Red Key area, stand on the 'platform' and shoot the switch at (-215/-16.0/015
-#0302 block   f=0  p=0  L3   ( 181) | SECRET 5: Blow open crate at (-238/17.0/0588) to get mortars. SECRET 6: Blow open crate at (-238
-#0303 block   f=0  p=0  L4   ( 268) | Continue north. One of the crates on a ledge at (-286/-8.0/0661) lists '1 Ton Rubber Duck' as it
-#0304 block   f=0  p=0  L3   ( 181) | EXTRA SECRET SECRET: If you use the LANTFH cheat to teleport yourself, you'll find an extra life
-#0305 block   f=0  p=0  L7   ( 468) | There is another way to get to the Ewok without cheating. You'll recall that you flip several sw
-#0306 art                 L7   | 7.8 Mission VIII: Ice Station Beta
-#0307 block   f=0  p=0  L2   ( 146) | Trivia: Snowtroopers are the elite stormtrooper corps trained to operate in frigid climates. Odd
-#0308 block   f=0  p=0  L4   ( 274) | SECRET 1: When you start the level, inch westward and drop down onto the ledge in front of you (
-#0309 block   f=0  p=0  L4   ( 227) | Head west along the south end of the complex; take a right at a fork at (-083/0.0/0326). When yo
-#0310 art                 L1   | SECRET 2: Crouch to find items at (-203/-7.5/0235).
-#0311 block   f=0  p=0  L3   ( 195) | SECRET 3: Jump into stream at (-094/-2.0/0234). Get out on your left and head west, ducking unde
-#0312 art                 L2   | SECRET 4: If you just got secret 3, simply turn around and go west to get
-#0313 block   f=0  p=0  L6   ( 422) | Keep going until you get to the waterfall at (-036/-2.0/0200), and enter the passage behind it. 
-#0314 block   f=0  p=0  L2   ( 107) | SECRET 5: Run, crouch, and jump thru open windows into room on your right at (0009/17.0/0272) to
-#0315 block   f=0  p=0  L3   ( 199) | Look through the window on your right side at (-138/16/0243). Shoot the switch at (-182/14.0/028
-#0316 block   f=0  p=0  L2   ( 105) | SECRET 6: Shooting the switch to open the door and making it thru to (-353/14.0/0247) counts as 
-#0317 block   f=0  p=0  L5   ( 326) | Get onto the next conveyor. Be careful when you make the next right: run thru the doorway when i
-#0318 block   f=0  p=0  L3   ( 194) | Jump to the switch at (-452/13.0/0152) and pull it: this will open another door that otherwise b
-#0319 art                 L2   | SECRET 7: Jump into the room with the rotating "humanoid" holo, and get
-#0320 block   f=0  p=0  L5   ( 360) | You'll have to run and jump across the gap in the conveyors ahead, then thru the window into the
-#0321 art                 L1   | SECRET 8: Go thru the south door at (-410/10.0/0247) to get supplies.
-#0322 block   f=0  p=0  L8   ( 534) | Exit the room thru the north door at (-410/10.0/0274). Get gas mask at (-376/10.0/0306). Hit the
-#0323 block   f=0  p=0  L5   ( 358) | Run and jump over the industrial waste in each of the three chambers to set the charges, at (-12
-#0324 block   f=0  p=0  L2   ( 119) | SECRET 9: When you open one of the doors in this area, a panel at (-220/-40.0/0391) will open, r
-#0325 block   f=0  p=0  L3   ( 222) | Depending on the level of difficulty you selected for this mission, 1 to 3 DTs will attack you h
-#0326 art                 L5   | 7.9 Mission IX: The Death Mark
-#0327 block   f=0  p=0  L4   ( 259) | Trivia: Nar Shaddaa spaceport is located on a moon orbiting the planet Nar Hutta. This "vertical
-#0328 art                 L1   | Drop down to the floor of the chamber.
-#0329 block   f=0  p=0  L2   ( 155) | SECRET 1: *RUN* past the moving block; shoot or hit switch at (-021/0.0/-082) to stop the block.
-#0330 block   f=0  p=0  L5   ( 313) | Hit switch at (0138/0.0/-082). *RUN* across the chamber to (-031/0.0/-131). Crouch to enter; get
-#0331 block   f=0  p=0  L4   ( 227) | Open hidden door at (-349/36.0/-142). Take elevator down. Find extra life at (-295/0.0/-120). Go
-#0332 block   f=0  p=0  L2   ( 103) | SECRET 2: Open "door" at (-214/36.0/-166). Go under crushers; to your left is a secret area with
-#0333 block   f=0  p=0  L2   ( 104) | SECRET 3: Continue east under all the crushers for more supplies. Go back west under the crusher
-#0334 block   f=0  p=0  L3   ( 173) | SECRET 4: Open door at (-280/36.0/-140). Get a running start and jump across to (-316/36.0/-094)
-#0335 block   f=0  p=0  L2   ( 127) | SECRET 5: Go to (-257/36.0/-160) and point yourself south. Run and jump across to a dark room at
-#0336 block   f=0  p=0  L2   ( 127) | Go back to the bridge; jump to the platform to the west. Go thru the left door. Go thru the repu
-#0337 block   f=0  p=0  L2   ( 113) | SECRET 6: After going left and right thru the repulsor fields, open secret door at (-296/24.0/-2
-#0338 block   f=0  p=0  L4   ( 296) | Go around the corner and kill the Trandoshan, and get his Concussion Rifle. Go back out to the p
-#0339 art                 L1   | SECRET 7: Open secret door at (-191/32.0/-361) to get supplies.
-#0340 block   f=0  p=0  L2   ( 123) | SECRET 8: Run and jump thru the window south into other building to get mortars. Jump back into 
-#0341 block   f=0  p=0  L6   ( 400) | SECRET 9: Open door at (-202/32.0/-393). Before it closes, run and jump thru the doorway north i
-#0342 block   f=0  p=0  L3   ( 168) | Head southwest. If you go thru door at (-395/30.0/-448), *DON'T* try to jump across: you won't m
-#0343 block   f=0  p=0  L2   ( 120) | SECRET 10: Throw TDs at any of the five corrugated metal panels here to obtain access to supplie
-#0344 block   f=0  p=0  L4   ( 238) | Go down stairs at (-485/30.0/-461). Find the Blue Key at (-468/22.0/-391). Open Blue Key door at
-#0345 art                 L7   | 7.10 Mission X: Jabba's Revenge
-#0346 block   f=0  p=0  L4   ( 280) | Trivia: A scene of Han Solo meeting Jabba the Hutt was filmed for the original _Star Wars_ film.
-#0347 block   f=0  p=0  L7   ( 487) | Kill the Kell Dragon(s) with your bare fists, then kill the Gran and take his TDs. Go into east 
-#0348 art                 L1   | SECRET 1: Open secret door (0317/-47.0/0213) to get items.
-#0349 block   f=0  p=0  L5   ( 293) | Edge along the wall on the narrow ledge, heading south. Hit the switch (0264/-46.0/0170) to open
-#0350 art                 L5   | Hit switch at (0249/-46.0/0361) to lower stairs at (0264/-46.0/0323) outside.
-#0351 block   f=0  p=0  L2   ( 118) | SECRET 2: Turn back towards the ledge you came from while on the bridge. Hurry and jump into the
-#0352 art                 L2   | SECRET 3: While on the bridge again, run and jump to the right into room at
-#0353 block   f=0  p=0  L2   ( 128) | SECRET 4: While in previous secret area, open door and go up stairs. Jump across to other room. 
-#0354 block   f=0  p=0  L5   ( 333) | Go west. Take elevator up (0319/-27.0/0573); run and jump north across gap. Jump down the triang
-#0355 art                 L2   | SECRET 5: Open the fresco of Jabba at (0302/0.0/0291) to get items. Thanks,
-#0356 art                 L1   | SECRET 6: Go to (0403/3.0/0244) and jump up. Open secret door to access items.
-#0357 block   f=0  p=0  L3   ( 159) | Nava Card is in a room thru door at (0471/5.0/0352), at (0461/5.0/0375). Leave this room an go t
-#0358 art                 L1   | SECRET 7: Open door (0422/-6.0/0049) to get stuff.
-#0359 art                 L1   | Hit switch at (0368/0.0/0096) to raise floor level. Head north.
-#0360 art                 L1   | SECRET 8: Hit switch at (0391/0.0/0155) to get supplies.
-#0361 block   f=0  p=0  L4   ( 233) | Head west, down stairs. Go around pit on a ledge, hugging the wall. Go to the northeast corner, 
-#0362 block   f=0  p=0  L6   ( 433) | SECRET 9: While falling down the second compartment, you must hit a switch. This will open a sec
-#0363 block   f=0  p=0  L3   ( 182) | You're now in the detention area. Run and jump across to the west side. (If you fall into this p
-#0364 art                 L8   | 7.11 Mission XI: The Imperial Mask
-#0365 block   f=0  p=0  L5   ( 314) | Trivia: Now the home of the Emperor, the Imperial City on the planet Coruscant was also the seat
-#0366 art                 L1   | Leave landing area. Head east, then north to get supplies.
-#0367 block   f=0  p=0  L2   ( 132) | SECRET 1: Drop onto platform east of you. Open door (0924/170.5/0478) and take elevator up. Coll
-#0368 art                 L1   | Head south into square area. Take southwest elevator, then head south.
-#0369 block   f=0  p=0  L3   ( 186) | SECRET 2: Hit hidden switch in Emperor's Mural at (0385/100.5/0043) to reveal a switch. Shoot th
-#0370 block   f=0  p=0  L4   ( 233) | SECRET 3: If you face the Emperor's Mural, to the right is a platform above you. Shoot the red s
-#0371 block   f=0  p=0  L3   ( 221) | Go west; then up stairs at (0323/100.5/-042). Get items. Head east. Take elevator; head south. G
-#0372 block   f=0  p=0  L2   ( 116) | SECRET 4: Go into the northeast alcove as the platform descends. Open hidden door at (0531/148.0
-#0373 art                 L8   | At the bottom, go east thru two doors and up stairs. Open door at
-#0374 block   f=0  p=0  L2   ( 101) | Open Red Key door at (0859/142.0/-251). Go east and take elevator; go west and take another elev
-#0375 block   f=0  p=0  L2   ( 114) | SECRET 5: Go to ledge along the northwest of the level; move along it and open a secret door at 
-#0376 art                 L2   | Open door at (0829/194.0/-334); hit switch at (0814/194.0/-384) to reveal door
-#0377 art                 L12  |                ____________6_
-#0378 art                 L16  | First, open all doors in the outer ring (i.e., set each switch to open,
-#0379 block   f=0  p=0  L8   ( 531) | In the Computer Core there are two switches: first hit the one at (0924/66.0/-262), then the one
-#0380 art                 L6   | 7.12 Mission XII: Smuggler's Hijack
-#0381 block   f=0  p=0  L9   ( 626) | Go south and hit "hand" switch at (-058/0.0/0032). Get into elevator and press the switch at (-0
-#0382 block   f=0  p=0  L3   ( 183) | SECRET 1: Get onto the northeast cylinder. Open secret door at (0016/16.0/-255); drop down to co
-#0383 block   f=0  p=0  L4   ( 256) | Hit switch at (-020/16.0/-316) and run backwards onto the bridge again. It will rotate to the no
-#0384 art                 L1   | SECRET 2: Use the Blue Key to access storage at (-175/74.0/-330).
-#0385 block   f=0  p=0  L7   ( 495) | Go thru one of the side doors (-169/74.0/-366) or (-139/74.0/-323) and go to the "honeycomb" map
-#0386 block   f=0  p=0  L3   ( 217) | Go northwest; take Yellow Key from officer at (-611/0.0/-029). Open the Yellow Key door at (-557
-#0387 block   f=0  p=0  L2   ( 116) | EXTRA NON-SECRET: Blow open the door behind the Yellow Key officer at (-618/0.0/-025) to see a D
-#0388 art                 L7   | 7.13 Mission XIII: The Stowaway
-#0389 block   f=0  p=0  L4   ( 249) | Trivia: The _Executor_ is a Super-class Star Destroyer, serving as Lord Darth Vader's flagship. 
-#0390 block   f=0  p=0  L7   ( 521) | Go down stairs at (-849/-31.0/0225). Hit switch (-917/-55.0/0120) to lower platform; hit switch 
-#0391 block   f=0  p=0  L2   ( 148) | SECRET 1: On the fifth platform, hit switch at (-670/92.0/0197). Jump north to newly opened alco
-#0392 art                 L1   | Jump to platform to the east. Go thru the door at (-627/92.0/0180).
-#0393 art                 L2   | SECRET 2: Take platform at (-594/93.0/0208) down. Crouch at (-595/-8.0/0138)
-#0394 block   f=0  p=0  L9   ( 620) | Open door at (-565/92.0/0173) and face DT(s). If you're still alive, continue east thru doorway 
-#0395 art                 L6   | 7.14 Mission XIV: The Dark Awakening
-#0396 block   f=0  p=0  L4   ( 303) | NOTE: At (-400/128.0/0140) there are floating treasures (lives and revives) which can only be ob
-#0397 block   f=0  p=0  L4   ( 249) | Exit the shuttle. Take platform at (-010/91.0/0182) down. Go south around the QS100 Welding Arm 
-#0398 block   f=0  p=0  L2   ( 128) | SECRET 1: At (-091/128.0/0179), point east. Run and jump across to a small hallway. Open door at
-#0399 art                 L7   | Continue to (-175/128.0/0164) where you'll summon an elevator to take down.
-#0400 block   f=0  p=0  L4   ( 280) | SECRET 2: Behind you on a pillar is a red switch. Run and jump, nudging the switch in mid-air. G
-#0401 art                 L3   | Follow ledge along. Run and jump east to alcove, and continue north. Crouch at
-#0402 block   f=0  p=0  L5   ( 374) | Take elevator at (-424/100.0/0238) up. Follow tunnels back out. Go east into elevator at (-378/1
-#0403 block   f=0  p=0  L4   ( 260) | SECRET 3: From the pillar, go north into a short tunnel. Welcome to the Intergalactic Room of Pa
-#0404 art                 L1   | Go across the pillars westward. Don't try to go against the conveyor.
-#0405 block   f=0  p=0  L2   ( 102) | SECRET 4: Run and jump west across to the other side. Run and jump east to alcove at (-442/64.0/
-#0406 block   f=0  p=0  L3   ( 167) | SECRET 5: In the alcove, open a secret door at (-442/64.0/0422). Follow the passageway, then run
-#0407 block   f=0  p=0  L3   ( 165) | Jump down; take elevator at (-507/33.0/0490) up. At (-483/64.0/0557) point yourself northeast; r
-#0408 block   f=0  p=0  L13  ( 916) | Run and jump across to the east side. Ride along the conveyor. Run and jump across to the west s
-#0409 block   f=0  p=0  L2   ( 151) | Jump down. Head east and south. You'll see a row at five red switches at (-489/16.0/-139). Your 
-#0410 art                 L3   |             _____
-#0411 block   f=0  p=0  L2   ( 138) | This should work: hit the leftmost switch 4 times, the next one once, the next four times, the n
-#0412 block   f=0  p=0  L3   ( 211) | Go up elevator at (-552/16.0/-048) and thru newly opened doorway at (-534/64.0/-078); head south
-#0413 block   f=0  p=0  L6   ( 404) | Get into elevator and hit switch at (-529/64.0/-271) to go down. Go to the southwest hangar bay 
-#0414 art                 L3   | If you survive, go into the northeast hangar bay and open door at
-#0415 art                 L7   | ===========================
-#0416 art                 L8   | 8.1.1 Does DF induce motion sickness?
-#0417 art                 L8   | 8.2 Who are the people behind DF?
-#0418 art                 L6   | 8.3 Has George Lucas provided any input to DF?
-#0419 block   f=0  p=0  L6   ( 396) | In fact, Lucas appeared on CNN's _Future Watch_ show on the weekend of March 18/19 talking about
-#0420 art                 L7   | 8.4 What is the name of Kyle's dropship?
-#0421 art                 L11  | 8.5 What happened to the Imperial-class Star Destroyer Mission?
-#0422 art                 L6   | 8.6 Is there a strategy guide?
-#0423 art                 L11  | Should you buy this book?  Here's a checklist.  If you've:
-#0424 block   f=0  p=0  L2   ( 111) | (Sorry, it's just that no one asked me if *I* wanted to rake in gobs of money, writing a book ab
-#0425 block   f=0  p=0  L3   ( 175) | _Computer Gaming World_ #131 (June, 1995) also had a brief article giving tips on some missions.
-#0426 block   f=0  p=0  L7   ( 449) | _Computer Game Review_ Vol. 4, No. 11 (June, 1995) included a 32-page special "CGR's Guide to Da
-#0427 block   f=0  p=0  L2   ( 131) | Keep your eyes open for a forthcoming book on 3-D gaming by Robert E. Waring, which will include
-#0428 art                 L6   | 8.7 Is there a DF fan club?
-#0429 block   f=0  p=5  L2   ( 340) | An excellent WinHelp/ASCII-based publication was the "Katarn's Saber Newsletter" (formerly calle
-#0430 block   f=0  p=5  L2   ( 146) | For exhaustive listings of DF-related stuff, contact the Invisible Knights <ikteam@ibm.net>, or 
-#0431 art                 L8   | 8.8 Is there any DF merchandise available?
-#0432 art                 L5   | You can also contact Zanart via phone or snail-mail. Ask for item SW-C14, for US$11.99+shipping.
-#0433 art                 L10  | DF T-shirt:
-#0434 art                 L5   | DF mousepad:
-#0435 art                 L9   | ====================
-#0436 art                 L3   | 9.1 How do I remap the keys?
-#0437 block   f=0  p=0  L6   ( 399) | DF allows you to customize all controls in the game, except "view center." The default for "view
-#0438 art                 L21  |    Control         Hex offset(s)
-#0439 art                 L1   | Here are some scan codes for keyboard keys in hexadecimal:
-#0440 art                 L2   | Q   W   E   R   T   Y   U   I   O   P   [   ]   [Enter]   left[Ctrl]
-#0441 art                 L2   | A   S   D   F   G   H   J   K   L   ;   '   `   left[Shift]
-#0442 art                 L2   | \   Z   X   C   V   B   N   M   ,   .   /   right[Shift]   keypad *
-#0443 art                 L2   | left[Alt]   [space]   [caps]
-#0444 block   f=0  p=0  L2   (  99) | To customize the controls, replace the data at the proper offset with the key code indicated abo
-#0445 art                 L6   | 9.2 What are .GOB files?
-#0446 art                 L13  | From Daron Stinnett (speaking about the demo level):
-#0447 art                 L9   | 9.2.1 What software was used to create the .GOB files?
-#0448 art                 L6   | 9.2.2 How should a custom .GOB file be loaded?
-#0449 art                 L7   | 9.3 How are the different floors separated?
-#0450 art                 L7   | 9.4 How are textures assigned?
-#0451 art                 L9   | 9.5 How are dynamic properties assigned?
-#0452 art                 L4   | 9.6 How do you place objects in a mission?
-#0453 art                 L4   | 9.7 Can you create floor panels that can be blown up?
-#0454 art                 L12  | 9.8 Can you create sloped floors?
-#0455 art                 L7   | 9.9 How are sounds associated with actions?
-#0456 art                 L8   | 9.10 Is there a limit to the size and complexity of the missions?
-#0457 art                 L9   | 9.11 Day of the Tentacle?
-#0458 art                 L1   |    Go to the end of the file and add the lines:
-#0459 art                 L6   |    CLASS: SPRITE  DATA: 11 X:183.00 Y: -42.00 Z:332.00 PCH: 0.00 YAW: 0.00
-#0460 block   f=3  p=3  L2   ( 102) | Save the file and put it in the DARK dir and start the game. The Tentacle will be waiting on the
-#0461 art                 L7   | ========================================
-#0462 art                 L5   | Dark Forces Editor Version v2.00 (dfed2.zip - 138,509 bytes)
-#0463 art                 L6   | Dark Forces UtilitieS and Editor v1.00 (dfuse100.exe - 1,072,330 bytes)
-#0464 art                 L1   |  - written by Yves Borckmans <Yves.Borckmans@ping.be>
-#0465 art                 L7   | Windows Dark Forces UtilitieS and Editor
-#0466 block   f=0  p=0  L5   ( 319) | Contrary to DFUSE/DOS, WDFUSE is SHAREWARE. Its registration fee is a $25 ALL CHARGES PAID Inter
-#0467 block   f=0  p=0  L3   ( 202) | Minimum requirements: a computer able to run Windows 3.1 or Windows 95, 8 Mb of RAM, a mouse, 64
-#0468 art                 L1   | As of this writing, the current version is 2.10beta1, in 16- and 32-bit flavours.
-#0469 art                 L2   | See Yves' Website at:
-#0470 art                 L1   |  - written by Yves Borckmans <Yves.Borckmans@ping.be>
-#0471 art                 L5   | WEdit: The New Dark Forces Editor for Win95
-#0472 art                 L6   | WEdit is shareware; for the full version that has the limitations removed and
-#0473 art                 L2   | WEdit v2.33 is available at the Wedit homepage:
-#0474 art                 L1   |  - written by Ole Thomasen <obt@interserv.com>,<102245.1610@compuserve.com>
-#0475 art                 L5   | 10.2 MacDF mission editors
-#0476 art                 L7   | 10.3 Custom missions
-#0477 art                 L6   | Fortunately for DF fans, a couple of people have come to my rescue!  Aris
-#0478 art                 L3   | Also, an extensive list of custom missions is available as part of the
-#0479 art                 L8   | ====================
-#0480 art                 L5   | 11.1 Help installing
-#0481 art                 L7   | LA has provided a fix for a "divide overflow error".  The following changes
-#0482 art                 L10  | 11.2 Help with sound cards
-#0483 art                 L12  | 11.3 Misc help
-#0484 art                 L6   | 11.4 How do I contact LA technical support?
-#0485 art                 L3   | America Online:
-#0486 art                 L4   | GEnie:
-#0487 art                 L3   | Internet Email:
-#0488 art                 L2   | WWW site:
-#0489 art                 L2   | Technical Support BBS:
-#0490 art                 L8   | =====================
-#0491 art                 L46  |  - Tim Smulders <smulders@iconn.net> sent me a bunch of custom Missions I was
-#0492 art                 L9   | ===============
+#0009 block   f=3  p=3  L1   (  16) | 1.0 Introduction
+#0010 block   f=3  p=5  L10  ( 296) | * 1.1 What is "Dark Forces"? 1.2 Is DF canon? 1.3 What is required to run DF? 1.4 What media for
+#0011 block   f=3  p=5  L7   ( 189) | * 1.9 Will there be any sequels to DF? 1.10 MacDF 1.10.1 MacDF hardware requirements 1.10.2 Runn
+#0012 art                 L3   |    2.0 DF Demo
+#0013 art                 L4   |    3.0 DF vs. DOOM
+#0014 art                 L20  |    4.0 Undocumented Codes
+#0015 art                 L26  |    5.0 Weapons and Items
+#0016 art                 L19  |    6.0 Opponents
+#0017 art                 L15  |    7.0 The Missions
+#0018 block   f=3  p=3  L7   ( 275) | 8.0 Miscellaneous Questions 8.1 What is "headwave"? 8.1.1 Does DF induce motion sickness? 8.2 Wh
+#0019 block   f=2  p=4  L1   (  32) | * 8.6 Is there a strategy guide?
+#0020 block   f=2  p=4  L1   (  29) | * 8.7 Is there a DF fan club?
+#0021 block   f=2  p=4  L1   (  44) | * 8.8 Is there any DF merchandise available?
+#0022 art                 L14  |    9.0 DF Customization
+#0023 block   f=1  p=3  L1   (  42) | * 10.0 Custom Missions and Mission Editors
+#0024 block   f=1  p=4  L1   (  26) | * 10.1 MPC mission editors
+#0025 block   f=1  p=4  L1   (  28) | * 10.2 MacDF mission editors
+#0026 block   f=1  p=4  L1   (  22) | * 10.3 Custom missions
+#0027 block   f=1  p=4  L3   (  70) | * 11.0 Troubleshooting 11.1 Help installing 11.2 Help with sound cards
+#0028 block   f=1  p=4  L2   (  60) | * 11.3 Misc help 11.4 How do I contact LA technical support?
+#0029 art                 L1   |  * 12.0 Acknowledgements
+#0030 art                 L2   |    13.0 References
+#0031 art                 L3   | ============
+#0032 block   f=0  p=0  L5   ( 323) | This file is a list of frequently asked questions about the MPC (MS-DOS CD-ROM) game _Star Wars:
+#0033 art                 L3   | *** NOTE! ***
+#0034 block   f=0  p=0  L3   ( 222) | Dark Forces Project Leader Daron Stinnett and Lead Artist/Co-writer Justin Chin provided me with
+#0035 block   f=0  p=5  L2   ( 112) | The *new* WWW site for the DF FAQ is (and will be, for the time being): http://www.connect.ab.ca
+#0036 art                 L2   | (A great big thanks to John-Paul May and the great people at TWEB for giving
+#0037 art                 L4   | I humbly note that my site has been honoured on the "Cool List" compiled by
+#0038 art                 L2   |  -KAL
+#0039 art                 L6   | ================
+#0040 block   f=0  p=0  L4   ( 271) | "The New Order of the Empire stretches its evil clutches across the galaxy, consuming planets wi
+#0041 block   f=0  p=0  L3   ( 217) | "Unable to acquire the plans to the deadly space station, the Rebels have employed the skills of
+#0042 block   f=0  p=0  L3   ( 160) | "Armed only with a blaster pistol and an intimate knowledge of Imperial methods, Katarn prepares
+#0043 block   f=0  p=0  L4   ( 271) | Dark Forces is LucasArts' new first-person perspective game. It is based on a LA-developed 'Jedi
+#0044 block   f=0  p=0  L7   ( 511) | Each of the 14 missions encompasses a different world, each with a unique look and feel. This is
+#0045 block   f=0  p=0  L9   ( 665) | In this game, you play Kyle Katarn, a mercenary once employed by the Galactic Empire who is now 
+#0046 block   f=0  p=0  L5   ( 359) | The characters inhabiting the game are familiar ones from the Star Wars universe, and include Im
+#0047 art                 L2   | 1.2 Is DF canon?
+#0048 block   f=0  p=0  L4   ( 236) | DF itself is *not* canon (meaning 'in Star Wars continuity'), but that's not to say it doesn't h
+#0049 block   f=0  p=0  L7   ( 484) | Surely, if there were a Rebel who had accomplished as much as Katarn (succeeding in over a dozen
+#0050 art                 L11  | On the other hand, Justin Chin writes:
+#0051 block   f=0  p=0  L4   ( 311) | BTW, 'katarn' (the surname of the protagonist in DF) is the name of a predator on the Wookie hom
+#0052 art                 L5   | Justin Chin writes:
+#0053 art                 L11  | 1.3 What is required to run DF?
+#0054 block   f=0  p=0  L5   ( 340) | The CD-ROM drive need not adhere to the MPC2 standard of a 300kb/s transfer rate, but the faster
+#0055 block   f=0  p=0  L3   ( 211) | The README.TXT file accompanying the DF demo states that DF requires a Microsoft-compatible mous
+#0056 art                 L7   | 1.4 What media format is DF offered on?
+#0057 block   f=0  p=0  L9   ( 631) | Some players have expressed their disdain for the small size of DF. They say that the CD is "pad
+#0058 art                 L3   | *** Important note:
+#0059 art                 L2   | 1.5 What sound cards are supported?
+#0060 block   f=0  p=0  L5   ( 330) | Creative Labs' SoundBlaster, SoundBlaster Pro, SoundBlaster 16, AWE32; MediaVision's ProAudioSpe
+#0061 art                 L2   | 1.6 What controllers are supported?
+#0062 block   f=0  p=0  L3   ( 222) | Two-and three-button mice (mouses?) are supported, as are the FlightStick Pro, and the ThrustMas
+#0063 art                 L4   | 1.7 Does DF have __________?
+#0064 block   f=0  p=0  L2   ( 144) | LA made the decision not to include modem or network play in DF, preferring instead to concentra
+#0065 block   f=0  p=0  L5   ( 330) | Although it wouldn't make much sense to have a 'deathmatch'-style game with two rebels fighting 
+#0066 block   f=0  p=0  L4   ( 253) | The storyline, however, is *not* the decisive factor here. LA obviously decided that DF would be
+#0067 art                 L2   | 1.7.2 ...a "save" feature?
+#0068 block   f=0  p=0  L7   ( 477) | There is *no* mid-mission save feature in DF. After you complete a mission, your status and weap
+#0069 block   f=0  p=0  L6   ( 426) | If you lose all your lives, you restart at the beginning of the mission and everything (enemies,
+#0070 block   f=0  p=0  L7   ( 473) | Is this a good feature, or a glaring omission? On the pro side, some observe that having to play
+#0071 art                 L2   | 1.8 How do I get DF?
+#0072 block   f=0  p=0  L3   ( 174) | MPC DF and MacDF are listed at US$44.95 when ordered directly from LA (CA residents add 7.25%). 
+#0073 block   f=0  p=0  L2   ( 128) | To order DF in the USA and Canada, call 1-800-STARWARS, or 1-800-98LUCAS (1-800-9858227), or che
+#0074 art                 L7   | 1.9 Will there be any sequels to DF?
+#0075 block   f=5  p=5  L7   ( 481) | The long-awaited multiplayer sequel to the award-winning _Dark Forces_, _Jedi Knight_ continues 
+#0076 art                 L3   | JK: DF II is scheduled to be released in late 1996/early 1997.  For the full
+#0077 art                 L2   | Project leader is Justin Chin; other team members include Ingar Shu and Ray
+#0078 block   f=0  p=5  L2   ( 113) | For more information on JK: DF II, please see the Invisible Knights HeadQuarters at: http://ikte
+#0079 art                 L2   | or Ackbar's Jedi Knight Page at:
+#0080 art                 L2   | 1.10 MacDF
+#0081 block   f=0  p=0  L4   ( 248) | A version of DF for the Apple Macintosh computers has been released; the port was done by Aaron 
+#0082 block   f=0  p=0  L2   ( 128) | (Although I've used Macs before, I don't run DF on a Mac. Mac users are encouraged to correct me
+#0083 block   f=0  p=0  L1   (  27) | MPC vs. Mac versions of DF:
+#0084 block   f=1  p=3  L2   (  93) | - All Missions are identical; all MPC cheat codes work; custom levels work on both platforms.
+#0085 block   f=1  p=3  L2   (  82) | - Animations from Rebel Assault II and Full Throttle are included on the Mac disc.
+#0086 art                 L10  | 1.10.1 MacDF hardware requirements
+#0087 block   f=0  p=0  L4   ( 293) | Powermacs can run DF in high resolution (640x480), but it's apparently "a bit sluggish" on a 60 
+#0088 block   f=0  p=0  L2   ( 142) | Note: the CD includes settings for the following joysticks and pads: Thrustmaster, MouseStick, G
+#0089 art                 L17  | 1.10.2 Running custom levels on MacDF
+#0090 art                 L5   | 1.10.3 MacDF patch file
+#0091 block   f=0  p=0  L1   (  69) | These are the changes that have been made since the original release:
+#0092 block   f=1  p=3  L1   (  59) | - added a warning if RAM Doubler/virtual memory is detected
+#0093 block   f=1  p=3  L1   (  56) | - fixed the crash after loading bug ("black screen" bug)
+#0094 block   f=1  p=3  L2   (  83) | - reenabled code to automatically adjust the memory partition when things are tight
+#0095 block   f=1  p=3  L1   (  70) | - fixed the lack of stereo panning and the high pitched rattling noise
+#0096 block   f=1  p=3  L1   (  73) | - fixed color table code to properly notify the system of palette changes
+#0097 block   f=1  p=3  L1   (  37) | - fixed Thread Manager detection code
+#0098 block   f=1  p=3  L1   (  59) | - provided an updated settings file for the Flightstick Pro
+#0099 art                 L3   | 1.10.4 MacDF demo
+#0100 art                 L8   | 1.11 Sony PlayStation DF
+#0101 art                 L9   | ===========
+#0102 art                 L5   |    DFORCES2.ZIP - This file contains the opening cutscene for the demo.  This
+#0103 art                 L5   |    DFORCES3.ZIP - This file contains the trailing cutscene for the demo.  This
+#0104 art                 L7   | 2.1 Where can I get the demo?
+#0105 block   f=0  p=0  L3   ( 158) | The demo was also included on the CD-ROM coverdisks of the magazines _PC Gamer_, Vol.2, No.3 (Ma
+#0106 block   f=0  p=0  L3   ( 188) | The demos on the CD-ROMs are version 0.16D, as opposed to the 0.163D version available on the Ne
+#0107 art                 L2   | 2.2 Is the demo level in the full game release?
+#0108 block   f=0  p=0  L3   ( 220) | Yes, mostly. However, not all of the enemies, weapons, and secrets in the demo level are in the 
+#0109 art                 L3   | ===============
+#0110 block   f=0  p=0  L5   ( 366) | I've only included this section because there's a *lot* of net.advocacy (and net.noise) on Usene
+#0111 block   f=0  p=0  L3   ( 208) | I suggest you make up your own mind -- and not try to "convert" others. Download the shareware v
+#0112 block   f=0  p=0  L4   ( 229) | (Me? I bought DOOM, and have played it solo and over the modem, and have played a bit of DOOM II
+#0113 art                 L2   | If you wish to flame me on these (quite reasonable, I think) answers, get a
+#0114 art                 L2   | 3.1 Isn't DF just a ripoff of iD Software's DOOM?
+#0115 block   f=0  p=0  L5   ( 322) | Strictly speaking, no: although Dark Forces is a first-person perspective action/adventure game 
+#0116 block   f=0  p=0  L4   ( 284) | Each one of these games has, shall we say, "inspired" a successor. The successor has made large 
+#0117 block   f=0  p=0  L6   ( 398) | That is not to say, however, that DF could have existed without DOOM. But I will not change the 
+#0118 art                 L15  | From _CD-ROM Magazine_:
+#0119 art                 L2   | 3.2 Does DF kick DOOM's butt?
+#0120 block   f=0  p=0  L7   ( 507) | ("Huh-huh. Hey, Beavis. He said 'butt'. Cool.") DF does offer several substantial improvements o
+#0121 block   f=0  p=0  L1   (  41) | DF and DOOM have many features in common:
+#0122 block   f=1  p=3  L1   (  71) | - designed as pseudo-immersive first-person shoot-'n'-move environments
+#0123 block   f=1  p=3  L2   (  79) | - use realistic lighting/shading fx (unknown whether DOOM uses Gouraud shading)
+#0124 block   f=1  p=3  L3   ( 169) | - have the player acting as a single protagonist attempting to accomplish various goals (e.g., c
+#0125 block   f=1  p=3  L1   (  51) | - have a myriad of weapons at the player's disposal
+#0126 block   f=0  p=0  L1   (  41) | DF, however, has several unique features:
+#0127 block   f=1  p=3  L1   (  76) | - great emphasis on solving elaborate puzzles to complete mission objectives
+#0128 block   f=1  p=3  L1   (  72) | - has many full 3D objects, whereas DOOM had exclusively planar graphics
+#0129 block   f=1  p=3  L2   ( 123) | - allows multiple-layered 'levels' of play *directly* above each other, vs. DOOM's multiple-tier
+#0130 block   f=1  p=3  L1   (  52) | - many animated fx (rotating Death Star holos, etc.)
+#0131 block   f=1  p=3  L1   (  35) | - atmospheric fx, like haze and fog
+#0132 block   f=1  p=3  L2   (  86) | - the ability to 'look up' and 'look down', as well as aim weapons up and down at will
+#0133 block   f=1  p=3  L1   (  32) | - the ability to jump and crouch
+#0134 block   f=1  p=3  L1   (  30) | - multi-megabytes of cutscenes
+#0135 block   f=0  p=0  L3   ( 187) | The most significant difference between DOOM/DOOM II and DF is that id's games have multiplayer 
+#0136 art                 L13  | A recent LA ad campaign contained the following copy: "After facing
+#0137 art                 L2   | 3.3 Is DF easier than DOOM?
+#0138 block   f=0  p=0  L6   ( 401) | Did you finish all 14 Missions? Did you get all the secrets in all DF Missions? Enemies (includi
+#0139 art                 L3   | ======================
+#0140 block   f=0  p=0  L6   ( 438) | To get a display of the cheat codes, run the sound card setup program IMUSE.EXE. Hold down both 
+#0141 art                 L2   | 4.1 Gameplay Cheat Codes:
+#0142 block   f=0  p=0  L3   ( 196) | To activate a cheat, you must be in control of Kyle in heads-up display mode (i.e., not in inven
+#0143 art                 L2   | 4.1.1 LABUG
+#0144 block   f=0  p=0  L4   ( 282) | Toggles "Insect Mode". Decreases your "size" parameter: when you see your "self" in map view, yo
+#0145 art                 L2   | 4.1.2 LACDS
+#0146 block   f=0  p=0  L5   ( 320) | Toggles "Map Supermode". Type it once to get a full detailed map, showing item locations as well
+#0147 art                 L10  | These are the objects:
+#0148 art                 L10  | 4.1.3 LADATA
+#0149 art                 L2   | 4.1.4 LAIMLAME
+#0150 block   f=0  p=0  L4   ( 299) | Toggles full invincibility. You're safe from shots to falls. Note: if you pick up a Shield Super
+#0151 art                 L4   | 4.1.5 LAMAXOUT
+#0152 art                 L2   | 4.1.6 LANTFH
+#0153 block   f=0  p=0  L8   ( 579) | Teleport to current map position. This cheat 'ports you to the center point of the map. Hit [Tab
+#0154 art                 L1   | Note: For MacDF, you must use the 8, 4, 6, and 3 keypad keys for movement.
+#0155 art                 L2   | 4.1.7 LAPOGO
+#0156 block   f=0  p=0  L3   ( 193) | Toggles height checking. Good for making those impossible jumps up (though not across chasms): i
+#0157 art                 L2   | 4.1.8 LAPOSTAL
+#0158 block   f=0  p=0  L4   ( 251) | Gives all guns, and full ammo, shields, and health (as well as battery power, ice cleats, infrar
+#0159 art                 L2   | 4.1.9 LARANDY
+#0160 block   f=0  p=0  L3   ( 193) | Weapon Supercharge. Increases firing rate (and ammo consumption :( for 50 seconds. "RANDY" is ap
+#0161 art                 L2   | 4.1.10 LAREDLITE
+#0162 block   f=0  p=0  L2   ( 143) | Toggles enemy-freeze mode. If you shoot opponents in this mode, they won't die/fall/explode unti
+#0163 art                 L2   | 4.1.11 LASKIP
+#0164 block   f=0  p=0  L2   ( 104) | Immediately forces successful completion of mission, and marks it as a victory. Will show any cu
+#0165 art                 L2   | 4.1.12 LAUNLOCK
+#0166 block   f=0  p=0  L2   ( 130) | Gives you all the keys, code cards, broken Dark Trooper gun, the Phrik metal, data tape, ice cle
+#0167 art                 L3   | 4.1.13 LABRADY (Mac only)
+#0168 art                 L2   | 4.1.14 LAOZ (Mac only)
+#0169 block   f=0  p=0  L2   ( 135) | "Dorothy Mode." Speeds up music and voices, and shrinks enemies to about half their normal size.
+#0170 art                 L2   | 4.1.15 LATERMINATE (Mac only)
+#0171 block   f=0  p=0  L3   ( 160) | Full invincibility, unlimited ammo, and unlimited weapon supercharge. Unlike LAIMLAME, laser bol
+#0172 art                 L2   | 4.2 Mission Codes
+#0173 block   f=0  p=0  L2   ( 116) | Typing one of the following codes will teleport you to that Mission; however you will forfeit al
+#0174 art                 L15  | Mission:  Code=======     Title==================
+#0175 art                 L2   | 4.3 "Dork Farces" :)
+#0176 block   f=0  p=0  L2   ( 144) | Nowhere is the term "Dork Farces" more applicable than here, in the section on the "secret codes
+#0177 art                 L6   |  Fake code=====================================  What it doesn't do==========
+#0178 art                 L2   | These codes are, no doubt, a play on the finger-twisting DOOM cheat-code
+#0179 art                 L2   | 4.4 Command Line Options
+#0180 block   f=0  p=0  L3   ( 158) | To use the command-line options, start DF from the DOS prompt in the directory in which DF is lo
+#0181 art                 L12  |    -c0                Disable cutscenes, briefing, and agent menu
+#0182 art                 L5   | =====================
+#0183 block   f=0  p=0  L4   ( 256) | You begin the game with only your fists and a Modified Bryar Pistol. At the start of succeeding 
+#0184 block   f=0  p=0  L2   ( 139) | You'll notice that the following list doesn't include a lightsabre. Why not? Because the protago
+#0185 art                 L5   | The names for most of the weapons were created by DF design team member
+#0186 block   f=5  p=5  L3   ( 196) | Another interesting note is the QS100 Welding arm. That was named after a robotic device that [l
+#0187 art                 L3   | 5.1.1 Fists
+#0188 art                 L2   | 5.1.2 Modified Bryar Pistol
+#0189 block   f=0  p=0  L5   ( 356) | Fires coherent packets of intense light energy, also called "bolts" (ain't I a total Star Wars g
+#0190 art                 L7   | From Justin Chin:
+#0191 art                 L2   | 5.1.3 Stormtrooper Laser Rifle
+#0192 block   f=0  p=0  L4   ( 229) | Fires more rapidly, but less accurately than the Bryar Pistol; also less effective over distance
+#0193 art                 L7   | 5.1.4 Thermal Detonators
+#0194 art                 L2   | 5.1.5 Imperial Repeater Gun
+#0195 block   f=0  p=0  L6   ( 395) | Also known as the "autogun". Fires blue energy bolts. Pressing primary fire shoots off a single 
+#0196 art                 L5   | From Justin Chin:
+#0197 art                 L2   | 5.1.6 Jeron Fusion Cutter
+#0198 block   f=0  p=0  L6   ( 408) | Fires green energy bolts; low repeat-fire rate. Pressing primary fire shoots green bolts success
+#0199 art                 L8   | From Justin Chin:
+#0200 art                 L2   | 5.1.7 I.M. Mines
+#0201 block   f=0  p=0  L6   ( 366) | Drops an antipersonnel mine. Pressing primary fire drops a mine which explodes after three secon
+#0202 art                 L4   | From Justin Chin:
+#0203 art                 L2   | 5.1.8 Packered Mortar Gun
+#0204 block   f=0  p=0  L4   ( 226) | Fires mortars. Duh! This is an incredibly powerful gun. Lobs one explosive shell per shot. Note 
+#0205 art                 L4   | From Justin Chin:
+#0206 art                 L2   | 5.1.9 Stouker Concussion Rifle
+#0207 block   f=0  p=0  L3   ( 200) | Creates a shockwave that is only stopped by a wall; takes four units from the power cells. Share
+#0208 art                 L8   | From Justin Chin:
+#0209 art                 L2   | 5.1.10 Assault Cannon
+#0210 block   f=0  p=0  L4   ( 250) | This weapon is two-in-one. Primary fire triggers the energy weapon that fires one shot of energy
+#0211 art                 L2   | 5.2 Ammo
+#0212 block   f=0  p=0  L3   ( 179) | When you start Mission 1, you receive 100 energy units for your Bryar pistol. At the start of su
+#0213 art                 L11  | The following chart gives the type of and maximum ammo used by each weapon:
+#0214 art                 L6   |          BR=Modified Bryar Rifle        IM=I.M. Mines
+#0215 art                 L2   | 5.3 Weapon Supercharge
+#0216 block   f=0  p=0  L2   ( 105) | This powerup doubles your rate of fire for all weapons (including fists!), but lasts for only 50
+#0217 art                 L8   | 5.4 How is aiming/targeting accomplished?
+#0218 block   f=0  p=0  L4   ( 289) | It's been said that blasters are "clumsy...random" weapons. Don't sit back and wait for targetin
+#0219 art                 L4   | 5.5 Various Items
+#0220 block   f=0  p=0  L4   ( 255) | In some Missions, you will encounter locked doors. You will be informed which colour key is requ
+#0221 art                 L2   | 5.5.2 Head Lamp
+#0222 block   f=0  p=0  L4   ( 234) | You always have this item. It allows you to see in dark areas, but also lets your opponents see 
+#0223 art                 L2   | 5.5.3 Infrared Goggles
+#0224 block   f=0  p=0  L4   ( 239) | These goggles help you see in the dark, however, you opponents won't be able to see you -- but a
+#0225 block   f=0  p=0  L8   ( 555) | I've debated Daron Stinnett on whether or not these are "infrared" or "light amplification" gogg
+#0226 art                 L4   | 5.5.4 Ice Cleats
+#0227 art                 L2   | 5.5.5 Gas Mask
+#0228 block   f=0  p=0  L2   ( 104) | Filters out airborne hazards. Use this when you hear Kyle's heavy breathing/gasping. Uses batter
+#0229 art                 L2   | 5.5.6 Batteries
+#0230 block   f=0  p=0  L2   ( 129) | Batteries power the Infrared Goggles, Air Mask, and Head Lamp. You can get a battery by shooting
+#0231 art                 L2   | 5.5.7 Shields
+#0232 block   f=0  p=0  L9   ( 638) | You can have a maximum of 200 shield units and a maximum of 100 health units. Kyle begins the ga
+#0233 art                 L2   | 5.5.7.1 Shield Supercharge
+#0234 block   f=0  p=0  L3   ( 172) | This powerup gives you temporary invincible shielding, lasting 50 seconds. The shield supercharg
+#0235 art                 L3   | 5.5.7.2 Revive
+#0236 art                 L3   | 5.5.7.3 Med Kit
+#0237 art                 L5   | =============
+#0238 block   f=0  p=0  L3   ( 186) | D'ja ever see a little movie called, _Star Wars_? These guys in white armour are lousy shots, ju
+#0239 art                 L2   | 6.2 Imperial Officers
+#0240 block   f=0  p=0  L3   ( 166) | These guys in brown uniforms and cute widdle caps are always spouting about "violating Imperial 
+#0241 art                 L2   | 6.3 Imperial Commandos
+#0242 block   f=0  p=0  L2   ( 103) | Tough hombres wearing helmets, dressed all in black. They only go down after three direct blaste
+#0243 art                 L2   | 6.4 Gun Turrets
+#0244 block   f=0  p=0  L3   ( 197) | Everybody hates these blasted things. If you haven't set it off yet, wait until the turret has t
+#0245 art                 L2   | 6.5 Probe Droids
+#0246 block   f=0  p=0  L4   ( 278) | What are these crazy droids saying? It's as hard to figure out as the lyrics to "Lapti Nek". Wha
+#0247 art                 L2   | 6.6 Interrogation Droids
+#0248 block   f=0  p=0  L3   ( 153) | How the heck did Princess Leia survive against one of these nasty black spheres? Taking one down
+#0249 art                 L2   | 6.7 Remotes
+#0250 block   f=0  p=0  L4   ( 245) | Small and fast, these tiny grey spheres are peskier than a mynock chewing on your power cables. 
+#0251 art                 L2   | 6.8 Mouse Droids
+#0252 block   f=0  p=0  L5   ( 375) | These harmless, black, squarish little droids roll around making R2-D2 sounds. To shoot them eit
+#0253 art                 L2   | 6.9 Trandoshans
+#0254 block   f=0  p=0  L6   ( 424) | Bossk was a Trandoshan. Whatever happened to Bossk? The reptilian Trandoshans in DF favour the S
+#0255 art                 L6   | 6.10 Gran
+#0256 art                 L2   | 6.11 Gamorreans
+#0257 block   f=0  p=0  L3   ( 192) | Don't let these pig-like axe-wielders get close to you! They're tough and can do a *lot* of dama
+#0258 art                 L2   | 6.12 Dianoga
+#0259 block   f=0  p=0  L4   ( 278) | Also known as "the monster from the trash compactor." They live in water or sewage. They pop an 
+#0260 art                 L2   | 6.13 Boba Fett
+#0261 block   f=0  p=0  L5   ( 356) | Did you know Boba Fett's first appearance in the Star Wars universe was in the Star Wars Holiday
+#0262 art                 L2   | 6.14 Kell Dragons
+#0263 block   f=0  p=0  L4   ( 247) | Big, ugly, and smelly. No, it's not your ex-girlfriend/boyfriend, it's Jabba's pet Kell Dragons!
+#0264 art                 L11  | 6.15 Dark Troopers
+#0265 block   f=0  p=0  L1   (  31) | Here are some DT-fighting tips:
+#0266 block   f=1  p=3  L1   (  24) | - get above them, and...
+#0267 block   f=1  p=3  L1   (  30) | - don't let them get above you
+#0268 block   f=1  p=3  L1   (  69) | - try finding a hiding spot where they can't get at you, otherwise...
+#0269 block   f=1  p=3  L1   (  53) | - stay out in the open, leaving yourself room to move
+#0270 art                 L3   | 6.16 How many opponents are there in each Mission?
+#0271 block   f=0  p=0  L5   ( 321) | ST=Stormtrooper; IO=Imperial Officer; IC=Imperial Commando; TS=Trandoshans; GR=Gran; GG=Gamorean
+#0272 art                 L25  | EASY
+#0273 art                 L25  | MEDIUM
+#0274 art                 L25  | HARD
+#0275 block   f=2  p=2  L3   ( 172) | Please note that I have included monster generators, but that 1 generator = 1 monster, although 
+#0276 art                 L2   |   I would like to thank the authors of UNGOB.EXE and DFUSE for
+#0277 art                 L3   | 6.17 How many shots are required to take out each opponent?
+#0278 art                 L2   |      The table shows the minimum number of shots from each weapon required to
+#0279 art                 L43  |  ----------------Weapon:------------------------------------------------
+#0280 block   f=5  p=5  L3   ( 199) | The row showing Kyle Katarn indicates how much of his shields or health he will lose when shooti
+#0281 block   f=5  p=5  L5   ( 284) | In most cases, the numbers are reliable. However, exact information could not be collected for s
+#0282 hanging f=7  p=9  L5   ( 326) | - Phase 1 Dark Troopers deflect shots, sustaining only partial damage (rather than none at all, 
+#0283 art                 L10  |        - With Phase 2 Dark Troopers, the main problem is due to the nature of
+#0284 block   f=7  p=8  L7   ( 465) | - The number of shots taken to kill Boba Fett is also difficult to measure, partly because he is
+#0285 hanging f=7  p=9  L3   ( 144) | - I decided not to bother measuring how many punches it takes to kill a Phase 2 Dark Trooper or 
+#0286 art                 L3   | 6.18 How many hits can Kyle take from each weapon?
+#0287 art                 L10  | This is based solely on the assumption that Kyle Katarn has 100 hit points
+#0288 hanging f=3  p=5  L2   (  82) | + TDs, mines, and missiles have an area affect. Direct hit values are given above.
+#0289 art                 L3   | ================
+#0290 block   f=0  p=0  L8   ( 598) | Specific locations of objects and items parallel the format of the LADATA info on your screen: (
+#0291 block   f=0  p=0  L3   ( 170) | The enemies you'll discover are yours to handle as you will. I haven't described their location 
+#0292 block   f=0  p=0  L5   ( 361) | SECRETS are listed separately; they are non-essential to completing your mission and are general
+#0293 block   f=0  p=0  L2   ( 142) | I've (subjectively) rated the difficulty of each mission from low, moderate, medium, to high. Gi
+#0294 art                 L6   | 7.1 Prologue Mission I: The Death Star Plans: Operation Skyhook: Phase 2
+#0295 block   f=0  p=0  L4   ( 284) | Trivia: The (first) Death Star, constructed in orbit around the planet Despayre in the Horuz sys
+#0296 block   f=0  p=0  L7   ( 528) | The shortest mission with the longest title! To get the Red Key, go outside the complex to Floor
+#0297 block   f=0  p=0  L3   ( 217) | In the Red Key area, there is a switch on the wall. Press the switch at (0264/20.0/0341) and jum
+#0298 block   f=0  p=0  L5   ( 328) | SECRET 1: In this new area there is a switch on the wall. Press this (0227/0.1/0335) and return 
+#0299 block   f=0  p=0  L5   ( 332) | SECRET 2: Go outside to Floor 0 again. Check your map with [TAB]. You exited Floor 1 at a locati
+#0300 block   f=0  p=0  L5   ( 363) | Go back into the new area. Take the round elevator up to Floor 2. Shoot any enemies. Go up to th
+#0301 block   f=0  p=0  L5   ( 336) | SECRET 3: Go to the new area 2 again, and go to the southmost point, where it forms a little 'pe
+#0302 block   f=0  p=0  L6   ( 436) | SECRET 4: Go to the northeast corner of this Floor, and point yourself to the northeast. You sho
+#0303 block   f=0  p=0  L8   ( 553) | SECRET 5: Go through the open doorway and press the switch on the wall at (0458/-9.0/0258). This
+#0304 art                 L1   | Go to the new area and take go down stairs behind the round elevator.
+#0305 block   f=0  p=0  L5   ( 353) | SECRET 6: Behind the first door at (0171/-13.0/0349) is a stormtrooper and a brownish mechanism,
+#0306 block   f=0  p=0  L5   ( 341) | Continue down and past the holo of the Death Star, turn left down the hallway. You will see an I
+#0307 block   f=0  p=0  L6   ( 403) | SECRET 7: Go through the door to the north and go *past* the door of the round elevator until yo
+#0308 block   f=0  p=0  L5   ( 356) | Now take the round elevator up. Blast any stormtroopers here. (In this courtyard, you can open a
+#0309 block   f=0  p=0  L2   ( 137) | If you've got the Death Star plans, your ship will drop down into the courtyard. You've accompli
+#0310 art                 L7   | 7.2 Mission II: After the Massacre
+#0311 block   f=0  p=0  L5   ( 328) | Trivia: Contrary to popular assumption, the white armour that stormtroopers wear is not meant so
+#0312 block   f=0  p=0  L6   ( 445) | Before you begin, note that because the power is off, doors will not function and many areas are
+#0313 art                 L1   | SECRET 1: There is a secret door at (0413/2.0/0072).
+#0314 block   f=0  p=0  L5   ( 316) | Go into the room (0427/4.0/0072) and exit to the west, towards the canal. You'll see a platform 
+#0315 block   f=0  p=0  L4   ( 249) | Head north, the east to rotating arm bridge control room (0473/2.0/0263). The switch (0450/2.0/0
+#0316 block   f=0  p=0  L5   ( 302) | Keep heading north, blasting opponents and crouching under a door (0482/-2.0/0662) to get past i
+#0317 block   f=0  p=0  L3   ( 223) | SECRET 2: Go back down into the main room and thru a door at (0353/7.0/0688) into another room a
+#0318 art                 L1   | Exit this building.
+#0319 block   f=0  p=0  L2   ( 130) | SECRET 3: Go around the building until you see the waterfall. Crouch down and open a secret door
+#0320 block   f=0  p=0  L8   ( 590) | Get into the water and follow it south; to your right will be an area with MediKits, shields, an
+#0321 art                 L5   | 7.3 Mission III: The Subterranean Hideout
+#0322 block   f=0  p=0  L3   ( 175) | Trivia: The Anoat system is adjacent to the Hoth system; it was here that Han Solo evaded his Im
+#0323 block   f=0  p=0  L3   ( 159) | Explore the landing area, knocking off any Probots. Then go to the Main Gates switch (0315/0.0/0
+#0324 art                 L4   | Gate 1 (west):
+#0325 art                 L2   | Follow the flow and go down the first falls; get out of sludge to area your
+#0326 block   f=0  p=0  L3   ( 139) | SECRET 2: There is a secret door at (0250/-20.0/0285). SECRET 3: While in the secret 2 room, ope
+#0327 block   f=0  p=0  L6   ( 445) | Take the elevator up (0248/-20.0/0306) to find a switch (0259/-4.0/0344) to raise the sludge lev
+#0328 block   f=0  p=0  L8   ( 523) | Gate 2 (north face, west gate): Again into the flow, get out on your left this time, and activat
+#0329 block   f=0  p=0  L8   ( 541) | Gate 3 (north face, east gate): Get out of the sewage on your right, and go up an elevator to fi
+#0330 art                 L2   | Gate 4 (east): This area is not essential, but you may pick up a few items.
+#0331 block   f=0  p=0  L3   ( 153) | Activate Main Gates switch so that Gate 2 is open. Return to Gate 2 area. Take the passage in th
+#0332 block   f=0  p=0  L2   ( 109) | SECRET 4: Go south into a dark "swimming pool" area. Open secret door (0192/-6.0/0348) to find a
+#0333 block   f=0  p=0  L2   ( 151) | SECRET 5: Go along a north passageway now, until you find a waterfall. Behind the waterfall (016
+#0334 block   f=0  p=0  L4   ( 274) | Follow the flow until you get to a series of large pillars. A switch (0185/-25.0/0427) raises a 
+#0335 block   f=0  p=0  L4   ( 289) | Follow the ledge, until you see an area on your left. Make a running jump south across the sludg
+#0336 art                 L7   | 7.4 Mission IV: Imperial Weapons Research Facility
+#0337 block   f=0  p=0  L2   ( 115) | When exploring the surface of the planet, it'll help to point yourself down a bit so as not to f
+#0338 art                 L2   | SECRET 1: Take the narrow ledge (0263/-11.0/0399) and jump north across to
+#0339 block   f=0  p=0  L9   ( 612) | SECRET 2: Cross the narrow bridge. Continue until you reach the ledge overlooking the main gate 
+#0340 block   f=0  p=0  L6   ( 398) | To get to the facility, you'll have to cross the narrow bridge (0202/-12.0/0294). Run across a s
+#0341 block   f=0  p=0  L4   ( 281) | Go up the stairs. To open the east door (0104/-27.0/0183), you must hit the switch (-082/-28.0/0
+#0342 art                 L1   | SECRET 3: There's a secret room at (-273/-3.0/0086)
+#0343 block   f=0  p=0  L6   ( 391) | Head up stairs north into a room; take stairs (-261/-5.0/0145) up. Open a door (-146/5.0/0224) a
+#0344 block   f=0  p=0  L12  ( 826) | Thru the doorway, you'll go up a circular stairway, down a hallway, and thru a door at the end (
+#0345 block   f=0  p=0  L7   ( 473) | After all switches are thrown, the door to the right of the window in the control room will be o
+#0346 block   f=0  p=0  L5   ( 372) | SECRET 4: You must cross a platform to get to the door with the red circle. Drop down to the flo
+#0347 art                 L1   | At the door with the red circle (-146/5.0/0224) take a left and head north.
+#0348 art                 L1   | SECRET 5: Secret room at (-167/7.0/0277)
+#0349 block   f=0  p=0  L4   ( 252) | Go thru the now-open doorway (-118/7.0/0280) and head north. Hit a switch (-038/0.0/0452) to low
+#0350 block   f=0  p=0  L5   ( 374) | EXTRA SECRET SECRET: Turn on LAIMLAME and LAPOGO. Jump off the ledge at your start point, headin
+#0351 block   f=0  p=0  L6   ( 410) | There is another way to get to the Ewok without cheating. At the far end of the area identified 
+#0352 art                 L6   | 7.5 Mission V: The Blood Moon
+#0353 block   f=0  p=0  L3   ( 235) | Enter the facility at the far east end. Take the elevator (0350/-2.0/0347). Go up the stairs and
+#0354 art                 L1   | SECRET 1: Find supplies behind a secret door at (0119/18.0/0332)
+#0355 block   f=0  p=0  L3   ( 210) | SECRET 2: Open secret door at (0072/21.0/0309) to get shields, and... SECRET 3: Go west to open 
+#0356 block   f=0  p=0  L5   ( 333) | Continue west until you get to room with the slow up-'n'-down turbine. The door at (-371/30.0/03
+#0357 block   f=0  p=0  L8   ( 586) | You need the Blue Key to open the door at (-183/-32.0/0303). To get the Blue Key, continue down 
+#0358 block   f=0  p=0  L4   ( 268) | The reactor is at (-408/-91.0/0357). As soon as you plant the sequencer charge, switch to TDs to
+#0359 block   f=0  p=0  L6   ( 369) | Hit the switch at (-379/30.0/0304) which will open the door at (-376/31.0/0238) and the rest dow
+#0360 block   f=0  p=0  L2   ( 143) | Jump into the east canyon; take the tunnel at (-279/0.0/0083). Jump up into the canyon at (0084/
+#0361 art                 L5   | 7.6 Mission VI: Crix Madine's Fate
+#0362 block   f=0  p=0  L4   ( 271) | Trivia: General Crix Madine is from Corellia. He specializes in covert operations, and was respo
+#0363 art                 L10  | There are six levels in the detention centre. I won't refer to their symbols,
+#0364 block   f=0  p=0  L4   ( 231) | There are two elevators: the west one and the east one. The west elevator cycles between levels 
+#0365 block   f=0  p=0  L5   ( 364) | Summon the floating platform by hitting the switch at (0144/128.0/0002). Get on the platform and
+#0366 block   f=0  p=0  L3   ( 184) | The switch at (0169/148.0/0383) opens access to another switch at (0147/110.0/0427). Go up to Fl
+#0367 block   f=0  p=0  L2   ( 131) | SECRET 1: Throw a TD at the crack in the wall at (0113/128.0/0146) to blow it open. Go into the 
+#0368 art                 L5   | SECRET 2: Blow open wall at (0114/148.0/0355).
+#0369 block   f=0  p=0  L2   ( 139) | Take the west elevator to level S2. An officer here carries Code Key 3. Use this code at (0141/6
+#0370 art                 L5   | SECRET 6: Blow open wall at (0103/64.0/0504).
+#0371 block   f=0  p=0  L3   ( 211) | SECRET 10: Note that in one of the secret areas, there is a "shaft" pointing to a blue switch. H
+#0372 block   f=0  p=0  L6   ( 396) | Take the elevator down to S4. Jump into vent at (0160/-2.0/0507). The switch at (0182/-1.0/0502)
+#0373 block   f=0  p=0  L2   ( 151) | Take the elevator down to S5. When the maglock at (0066/-32.0/0476) flickers, it is *dangerous*.
+#0374 art                 L1   | SECRET 11: Blow open the wall at (0023/-32.0/0400).
+#0375 block   f=0  p=0  L2   ( 128) | Go thru this level until you see a switch thru a window. Shoot the switch thru the window to ope
+#0376 art                 L1   | SECRET 12: Open secret door at (0114/-36.0/0354) to get gas mask.
+#0377 block   f=0  p=0  L3   ( 174) | Pass thru the door at (0232/-32.0/0443) and put your gas mask on. Go thru the maglock while flic
+#0378 art                 L3   | Take the east elevator up to S3. Get Code Keys 4 and 5 from officers. Enter
+#0379 block   f=0  p=0  L2   ( 123) | Take the east elevator up to S1. Get Code Keys 1 and 2 from officers. The door at (0159/96.0/055
+#0380 block   f=0  p=0  L5   ( 336) | Take the east elevator down to S5. Use the switch outside the elevator to send it up once, to le
+#0381 block   f=0  p=0  L4   ( 264) | You have a choice of ways to enter the elevator shaft: 1) Open Red Key door at (0102/128.0/0467)
+#0382 block   f=0  p=0  L5   ( 321) | Crouch to open door at (0121/115.0/0456). Jump onto top of the west elevator; open door at (0128
+#0383 art                 L2   | SECRET 13: In the room with the Gun Turret, blow open the wall at
+#0384 art                 L1   | Continue thru the vents and into the garbage compactor.
+#0385 block   f=0  p=0  L3   ( 206) | SECRET 14: From the safe area to the east, blow open a crack in the wall in the main chamber con
+#0386 block   f=0  p=0  L4   ( 269) | Jump onto the moving "press" in the north chamber. Run and jump over the central "press-o'-death
+#0387 block   f=0  p=0  L4   ( 268) | Set off the mine to blow the wall at (0203/91.0/0647). Enter Code 2 at (0165/98.0/0594) to open 
+#0388 art                 L5   | 7.7 Mission VII: Deadly Cargo
+#0389 block   f=0  p=0  L4   ( 244) | SECRET 1: Call down the elevator at (-255/-40.0/0744). Go up, then east across walkway formed by
+#0390 art                 L2   | A switch at (-225/-40.0/0729) opens the big door at (-215/-40.0/0701). The
+#0391 art                 L1   | Find the Yellow Key at (-287/-40.0/0576).
+#0392 block   f=0  p=0  L2   ( 107) | SECRET 2: To get some shields, shoot the Power Generating Units to open a secret hole at (-277/-
+#0393 block   f=0  p=0  L8   ( 524) | Go thru door at (-150/-40.0/0628). The switch at (-086/-56.0/0523) shifts a couple of "barriers"
+#0394 block   f=0  p=0  L3   ( 212) | SECRET 3: Run along the raising platform and jump into the room to the south of it (it's tricky!
+#0395 art                 L2   | After the raising platform has gone up, you may enter a door at
+#0396 art                 L7   | Head south. Find lots of items behind door at (-237/8.0/0288). The infamous
+#0397 block   f=0  p=0  L3   ( 230) | To get back to the Red Key area, stand on the 'platform' and shoot the switch at (-215/-16.0/015
+#0398 block   f=0  p=0  L3   ( 181) | SECRET 5: Blow open crate at (-238/17.0/0588) to get mortars. SECRET 6: Blow open crate at (-238
+#0399 block   f=0  p=0  L4   ( 268) | Continue north. One of the crates on a ledge at (-286/-8.0/0661) lists '1 Ton Rubber Duck' as it
+#0400 block   f=0  p=0  L3   ( 181) | EXTRA SECRET SECRET: If you use the LANTFH cheat to teleport yourself, you'll find an extra life
+#0401 block   f=0  p=0  L7   ( 468) | There is another way to get to the Ewok without cheating. You'll recall that you flip several sw
+#0402 art                 L7   | 7.8 Mission VIII: Ice Station Beta
+#0403 block   f=0  p=0  L2   ( 146) | Trivia: Snowtroopers are the elite stormtrooper corps trained to operate in frigid climates. Odd
+#0404 block   f=0  p=0  L4   ( 274) | SECRET 1: When you start the level, inch westward and drop down onto the ledge in front of you (
+#0405 block   f=0  p=0  L4   ( 227) | Head west along the south end of the complex; take a right at a fork at (-083/0.0/0326). When yo
+#0406 art                 L1   | SECRET 2: Crouch to find items at (-203/-7.5/0235).
+#0407 block   f=0  p=0  L3   ( 195) | SECRET 3: Jump into stream at (-094/-2.0/0234). Get out on your left and head west, ducking unde
+#0408 art                 L2   | SECRET 4: If you just got secret 3, simply turn around and go west to get
+#0409 block   f=0  p=0  L6   ( 422) | Keep going until you get to the waterfall at (-036/-2.0/0200), and enter the passage behind it. 
+#0410 block   f=0  p=0  L2   ( 107) | SECRET 5: Run, crouch, and jump thru open windows into room on your right at (0009/17.0/0272) to
+#0411 block   f=0  p=0  L3   ( 199) | Look through the window on your right side at (-138/16/0243). Shoot the switch at (-182/14.0/028
+#0412 block   f=0  p=0  L2   ( 105) | SECRET 6: Shooting the switch to open the door and making it thru to (-353/14.0/0247) counts as 
+#0413 block   f=0  p=0  L5   ( 326) | Get onto the next conveyor. Be careful when you make the next right: run thru the doorway when i
+#0414 block   f=0  p=0  L3   ( 194) | Jump to the switch at (-452/13.0/0152) and pull it: this will open another door that otherwise b
+#0415 art                 L2   | SECRET 7: Jump into the room with the rotating "humanoid" holo, and get
+#0416 block   f=0  p=0  L5   ( 360) | You'll have to run and jump across the gap in the conveyors ahead, then thru the window into the
+#0417 art                 L1   | SECRET 8: Go thru the south door at (-410/10.0/0247) to get supplies.
+#0418 block   f=0  p=0  L8   ( 534) | Exit the room thru the north door at (-410/10.0/0274). Get gas mask at (-376/10.0/0306). Hit the
+#0419 block   f=0  p=0  L5   ( 358) | Run and jump over the industrial waste in each of the three chambers to set the charges, at (-12
+#0420 block   f=0  p=0  L2   ( 119) | SECRET 9: When you open one of the doors in this area, a panel at (-220/-40.0/0391) will open, r
+#0421 block   f=0  p=0  L3   ( 222) | Depending on the level of difficulty you selected for this mission, 1 to 3 DTs will attack you h
+#0422 art                 L2   | 7.9 Mission IX: The Death Mark
+#0423 block   f=0  p=0  L3   ( 111) | Location: Nar Shaddaa, The Vertical City Objectives: - Find Imperial Navigational evidence Diffi
+#0424 block   f=0  p=0  L4   ( 259) | Trivia: Nar Shaddaa spaceport is located on a moon orbiting the planet Nar Hutta. This "vertical
+#0425 art                 L1   | Drop down to the floor of the chamber.
+#0426 block   f=0  p=0  L2   ( 155) | SECRET 1: *RUN* past the moving block; shoot or hit switch at (-021/0.0/-082) to stop the block.
+#0427 block   f=0  p=0  L5   ( 313) | Hit switch at (0138/0.0/-082). *RUN* across the chamber to (-031/0.0/-131). Crouch to enter; get
+#0428 block   f=0  p=0  L4   ( 227) | Open hidden door at (-349/36.0/-142). Take elevator down. Find extra life at (-295/0.0/-120). Go
+#0429 block   f=0  p=0  L2   ( 103) | SECRET 2: Open "door" at (-214/36.0/-166). Go under crushers; to your left is a secret area with
+#0430 block   f=0  p=0  L2   ( 104) | SECRET 3: Continue east under all the crushers for more supplies. Go back west under the crusher
+#0431 block   f=0  p=0  L3   ( 173) | SECRET 4: Open door at (-280/36.0/-140). Get a running start and jump across to (-316/36.0/-094)
+#0432 block   f=0  p=0  L2   ( 127) | SECRET 5: Go to (-257/36.0/-160) and point yourself south. Run and jump across to a dark room at
+#0433 block   f=0  p=0  L2   ( 127) | Go back to the bridge; jump to the platform to the west. Go thru the left door. Go thru the repu
+#0434 block   f=0  p=0  L2   ( 113) | SECRET 6: After going left and right thru the repulsor fields, open secret door at (-296/24.0/-2
+#0435 block   f=0  p=0  L4   ( 296) | Go around the corner and kill the Trandoshan, and get his Concussion Rifle. Go back out to the p
+#0436 art                 L1   | SECRET 7: Open secret door at (-191/32.0/-361) to get supplies.
+#0437 block   f=0  p=0  L2   ( 123) | SECRET 8: Run and jump thru the window south into other building to get mortars. Jump back into 
+#0438 block   f=0  p=0  L6   ( 400) | SECRET 9: Open door at (-202/32.0/-393). Before it closes, run and jump thru the doorway north i
+#0439 block   f=0  p=0  L3   ( 168) | Head southwest. If you go thru door at (-395/30.0/-448), *DON'T* try to jump across: you won't m
+#0440 block   f=0  p=0  L2   ( 120) | SECRET 10: Throw TDs at any of the five corrugated metal panels here to obtain access to supplie
+#0441 block   f=0  p=0  L4   ( 238) | Go down stairs at (-485/30.0/-461). Find the Blue Key at (-468/22.0/-391). Open Blue Key door at
+#0442 art                 L7   | 7.10 Mission X: Jabba's Revenge
+#0443 block   f=0  p=0  L4   ( 280) | Trivia: A scene of Han Solo meeting Jabba the Hutt was filmed for the original _Star Wars_ film.
+#0444 block   f=0  p=0  L7   ( 487) | Kill the Kell Dragon(s) with your bare fists, then kill the Gran and take his TDs. Go into east 
+#0445 art                 L1   | SECRET 1: Open secret door (0317/-47.0/0213) to get items.
+#0446 block   f=0  p=0  L5   ( 293) | Edge along the wall on the narrow ledge, heading south. Hit the switch (0264/-46.0/0170) to open
+#0447 art                 L5   | Hit switch at (0249/-46.0/0361) to lower stairs at (0264/-46.0/0323) outside.
+#0448 block   f=0  p=0  L2   ( 118) | SECRET 2: Turn back towards the ledge you came from while on the bridge. Hurry and jump into the
+#0449 art                 L2   | SECRET 3: While on the bridge again, run and jump to the right into room at
+#0450 block   f=0  p=0  L2   ( 128) | SECRET 4: While in previous secret area, open door and go up stairs. Jump across to other room. 
+#0451 block   f=0  p=0  L5   ( 333) | Go west. Take elevator up (0319/-27.0/0573); run and jump north across gap. Jump down the triang
+#0452 art                 L2   | SECRET 5: Open the fresco of Jabba at (0302/0.0/0291) to get items. Thanks,
+#0453 art                 L1   | SECRET 6: Go to (0403/3.0/0244) and jump up. Open secret door to access items.
+#0454 block   f=0  p=0  L3   ( 159) | Nava Card is in a room thru door at (0471/5.0/0352), at (0461/5.0/0375). Leave this room an go t
+#0455 art                 L1   | SECRET 7: Open door (0422/-6.0/0049) to get stuff.
+#0456 art                 L1   | Hit switch at (0368/0.0/0096) to raise floor level. Head north.
+#0457 art                 L1   | SECRET 8: Hit switch at (0391/0.0/0155) to get supplies.
+#0458 block   f=0  p=0  L4   ( 233) | Head west, down stairs. Go around pit on a ledge, hugging the wall. Go to the northeast corner, 
+#0459 block   f=0  p=0  L6   ( 433) | SECRET 9: While falling down the second compartment, you must hit a switch. This will open a sec
+#0460 block   f=0  p=0  L3   ( 182) | You're now in the detention area. Run and jump across to the west side. (If you fall into this p
+#0461 art                 L8   | 7.11 Mission XI: The Imperial Mask
+#0462 block   f=0  p=0  L5   ( 314) | Trivia: Now the home of the Emperor, the Imperial City on the planet Coruscant was also the seat
+#0463 art                 L1   | Leave landing area. Head east, then north to get supplies.
+#0464 block   f=0  p=0  L2   ( 132) | SECRET 1: Drop onto platform east of you. Open door (0924/170.5/0478) and take elevator up. Coll
+#0465 art                 L1   | Head south into square area. Take southwest elevator, then head south.
+#0466 block   f=0  p=0  L3   ( 186) | SECRET 2: Hit hidden switch in Emperor's Mural at (0385/100.5/0043) to reveal a switch. Shoot th
+#0467 block   f=0  p=0  L4   ( 233) | SECRET 3: If you face the Emperor's Mural, to the right is a platform above you. Shoot the red s
+#0468 block   f=0  p=0  L3   ( 221) | Go west; then up stairs at (0323/100.5/-042). Get items. Head east. Take elevator; head south. G
+#0469 block   f=0  p=0  L2   ( 116) | SECRET 4: Go into the northeast alcove as the platform descends. Open hidden door at (0531/148.0
+#0470 art                 L8   | At the bottom, go east thru two doors and up stairs. Open door at
+#0471 block   f=0  p=0  L2   ( 101) | Open Red Key door at (0859/142.0/-251). Go east and take elevator; go west and take another elev
+#0472 block   f=0  p=0  L2   ( 114) | SECRET 5: Go to ledge along the northwest of the level; move along it and open a secret door at 
+#0473 art                 L2   | Open door at (0829/194.0/-334); hit switch at (0814/194.0/-384) to reveal door
+#0474 art                 L12  |                ____________6_
+#0475 art                 L16  | First, open all doors in the outer ring (i.e., set each switch to open,
+#0476 block   f=0  p=0  L8   ( 531) | In the Computer Core there are two switches: first hit the one at (0924/66.0/-262), then the one
+#0477 art                 L6   | 7.12 Mission XII: Smuggler's Hijack
+#0478 block   f=0  p=0  L9   ( 626) | Go south and hit "hand" switch at (-058/0.0/0032). Get into elevator and press the switch at (-0
+#0479 block   f=0  p=0  L3   ( 183) | SECRET 1: Get onto the northeast cylinder. Open secret door at (0016/16.0/-255); drop down to co
+#0480 block   f=0  p=0  L4   ( 256) | Hit switch at (-020/16.0/-316) and run backwards onto the bridge again. It will rotate to the no
+#0481 art                 L1   | SECRET 2: Use the Blue Key to access storage at (-175/74.0/-330).
+#0482 block   f=0  p=0  L7   ( 495) | Go thru one of the side doors (-169/74.0/-366) or (-139/74.0/-323) and go to the "honeycomb" map
+#0483 block   f=0  p=0  L3   ( 217) | Go northwest; take Yellow Key from officer at (-611/0.0/-029). Open the Yellow Key door at (-557
+#0484 block   f=0  p=0  L2   ( 116) | EXTRA NON-SECRET: Blow open the door behind the Yellow Key officer at (-618/0.0/-025) to see a D
+#0485 art                 L7   | 7.13 Mission XIII: The Stowaway
+#0486 block   f=0  p=0  L4   ( 249) | Trivia: The _Executor_ is a Super-class Star Destroyer, serving as Lord Darth Vader's flagship. 
+#0487 block   f=0  p=0  L7   ( 521) | Go down stairs at (-849/-31.0/0225). Hit switch (-917/-55.0/0120) to lower platform; hit switch 
+#0488 block   f=0  p=0  L2   ( 148) | SECRET 1: On the fifth platform, hit switch at (-670/92.0/0197). Jump north to newly opened alco
+#0489 art                 L1   | Jump to platform to the east. Go thru the door at (-627/92.0/0180).
+#0490 art                 L2   | SECRET 2: Take platform at (-594/93.0/0208) down. Crouch at (-595/-8.0/0138)
+#0491 block   f=0  p=0  L9   ( 620) | Open door at (-565/92.0/0173) and face DT(s). If you're still alive, continue east thru doorway 
+#0492 art                 L6   | 7.14 Mission XIV: The Dark Awakening
+#0493 block   f=0  p=0  L4   ( 303) | NOTE: At (-400/128.0/0140) there are floating treasures (lives and revives) which can only be ob
+#0494 block   f=0  p=0  L4   ( 249) | Exit the shuttle. Take platform at (-010/91.0/0182) down. Go south around the QS100 Welding Arm 
+#0495 block   f=0  p=0  L2   ( 128) | SECRET 1: At (-091/128.0/0179), point east. Run and jump across to a small hallway. Open door at
+#0496 art                 L7   | Continue to (-175/128.0/0164) where you'll summon an elevator to take down.
+#0497 block   f=0  p=0  L4   ( 280) | SECRET 2: Behind you on a pillar is a red switch. Run and jump, nudging the switch in mid-air. G
+#0498 art                 L3   | Follow ledge along. Run and jump east to alcove, and continue north. Crouch at
+#0499 block   f=0  p=0  L5   ( 374) | Take elevator at (-424/100.0/0238) up. Follow tunnels back out. Go east into elevator at (-378/1
+#0500 block   f=0  p=0  L4   ( 260) | SECRET 3: From the pillar, go north into a short tunnel. Welcome to the Intergalactic Room of Pa
+#0501 art                 L1   | Go across the pillars westward. Don't try to go against the conveyor.
+#0502 block   f=0  p=0  L2   ( 102) | SECRET 4: Run and jump west across to the other side. Run and jump east to alcove at (-442/64.0/
+#0503 block   f=0  p=0  L3   ( 167) | SECRET 5: In the alcove, open a secret door at (-442/64.0/0422). Follow the passageway, then run
+#0504 block   f=0  p=0  L3   ( 165) | Jump down; take elevator at (-507/33.0/0490) up. At (-483/64.0/0557) point yourself northeast; r
+#0505 block   f=0  p=0  L13  ( 916) | Run and jump across to the east side. Ride along the conveyor. Run and jump across to the west s
+#0506 block   f=0  p=0  L2   ( 151) | Jump down. Head east and south. You'll see a row at five red switches at (-489/16.0/-139). Your 
+#0507 art                 L3   |             _____
+#0508 block   f=0  p=0  L2   ( 138) | This should work: hit the leftmost switch 4 times, the next one once, the next four times, the n
+#0509 block   f=0  p=0  L3   ( 211) | Go up elevator at (-552/16.0/-048) and thru newly opened doorway at (-534/64.0/-078); head south
+#0510 block   f=0  p=0  L6   ( 404) | Get into elevator and hit switch at (-529/64.0/-271) to go down. Go to the southwest hangar bay 
+#0511 art                 L3   | If you survive, go into the northeast hangar bay and open door at
+#0512 art                 L5   | ===========================
+#0513 block   f=0  p=0  L2   ( 117) | "Headwave" is the bobbing motion that "Kyle" makes when he walks or runs. Press [F6] to turn it 
+#0514 art                 L2   | 8.1.1 Does DF induce motion sickness?
+#0515 block   f=0  p=0  L6   ( 446) | Since the rise of fast first-person walk-thru games like Wolfenstein 3-D, it has become apparent
+#0516 art                 L8   | 8.2 Who are the people behind DF?
+#0517 art                 L2   | 8.3 Has George Lucas provided any input to DF?
+#0518 block   f=0  p=0  L4   ( 250) | George Lucas, author of the _Star Wars_ trilogy of films, director of _Star Wars: A New Hope_, f
+#0519 block   f=0  p=0  L6   ( 396) | In fact, Lucas appeared on CNN's _Future Watch_ show on the weekend of March 18/19 talking about
+#0520 art                 L7   | 8.4 What is the name of Kyle's dropship?
+#0521 art                 L11  | 8.5 What happened to the Imperial-class Star Destroyer Mission?
+#0522 art                 L2   | 8.6 Is there a strategy guide?
+#0523 block   f=0  p=0  L4   ( 290) | A book has been published giving complete, hand-holding walkthrus of each and every DF Mission, 
+#0524 art                 L11  | Should you buy this book?  Here's a checklist.  If you've:
+#0525 block   f=0  p=0  L2   ( 111) | (Sorry, it's just that no one asked me if *I* wanted to rake in gobs of money, writing a book ab
+#0526 block   f=0  p=0  L3   ( 175) | _Computer Gaming World_ #131 (June, 1995) also had a brief article giving tips on some missions.
+#0527 block   f=0  p=0  L7   ( 449) | _Computer Game Review_ Vol. 4, No. 11 (June, 1995) included a 32-page special "CGR's Guide to Da
+#0528 block   f=0  p=0  L2   ( 131) | Keep your eyes open for a forthcoming book on 3-D gaming by Robert E. Waring, which will include
+#0529 art                 L2   | 8.7 Is there a DF fan club?
+#0530 block   f=0  p=0  L4   ( 273) | There is a Dark Forces Fan Club on America On-Line. It meets every Tuesday evening at 10:00 pm E
+#0531 block   f=0  p=5  L2   ( 340) | An excellent WinHelp/ASCII-based publication was the "Katarn's Saber Newsletter" (formerly calle
+#0532 block   f=0  p=5  L2   ( 146) | For exhaustive listings of DF-related stuff, contact the Invisible Knights <ikteam@ibm.net>, or 
+#0533 art                 L8   | 8.8 Is there any DF merchandise available?
+#0534 art                 L5   | You can also contact Zanart via phone or snail-mail. Ask for item SW-C14, for US$11.99+shipping.
+#0535 art                 L10  | DF T-shirt:
+#0536 art                 L2   | DF mousepad:
+#0537 block   f=0  p=0  L3   ( 214) | Features the picture from the cover of the DF box. Available at your local computer specialty st
+#0538 art                 L9   | ====================
+#0539 art                 L3   | 9.1 How do I remap the keys?
+#0540 block   f=0  p=0  L6   ( 399) | DF allows you to customize all controls in the game, except "view center." The default for "view
+#0541 art                 L21  |    Control         Hex offset(s)
+#0542 art                 L1   | Here are some scan codes for keyboard keys in hexadecimal:
+#0543 art                 L2   | Q   W   E   R   T   Y   U   I   O   P   [   ]   [Enter]   left[Ctrl]
+#0544 art                 L2   | A   S   D   F   G   H   J   K   L   ;   '   `   left[Shift]
+#0545 art                 L2   | \   Z   X   C   V   B   N   M   ,   .   /   right[Shift]   keypad *
+#0546 art                 L2   | left[Alt]   [space]   [caps]
+#0547 block   f=0  p=0  L2   (  99) | To customize the controls, replace the data at the proper offset with the key code indicated abo
+#0548 art                 L2   | 9.2 What are .GOB files?
+#0549 block   f=0  p=0  L4   ( 301) | Very simply, the .GOB files contain the architecture of the levels of the game. They are simple 
+#0550 art                 L13  | From Daron Stinnett (speaking about the demo level):
+#0551 art                 L2   | 9.2.1 What software was used to create the .GOB files?
+#0552 block   f=0  p=0  L7   ( 467) | AutoDesk 3D Studio was used to create the polygon objects in the game, like the TIE fighters. Al
+#0553 art                 L6   | 9.2.2 How should a custom .GOB file be loaded?
+#0554 art                 L2   | 9.3 How are the different floors separated?
+#0555 block   f=0  p=0  L5   ( 302) | The layers are only useful for the map and to help the level designers keep track of geometry in
+#0556 art                 L7   | 9.4 How are textures assigned?
+#0557 art                 L9   | 9.5 How are dynamic properties assigned?
+#0558 art                 L2   | 9.6 How do you place objects in a mission?
+#0559 block   f=0  p=0  L2   ( 154) | Take a look at the .O files; it will be self-explanitory. AutoCAD was used to place objects, but
+#0560 art                 L2   | 9.7 Can you create floor panels that can be blown up?
+#0561 block   f=0  p=0  L2   ( 115) | It might be possible. If anyone has gotten that far and wants to try it, send me email which I w
+#0562 art                 L12  | 9.8 Can you create sloped floors?
+#0563 art                 L7   | 9.9 How are sounds associated with actions?
+#0564 art                 L8   | 9.10 Is there a limit to the size and complexity of the missions?
+#0565 art                 L9   | 9.11 Day of the Tentacle?
+#0566 art                 L1   |    Go to the end of the file and add the lines:
+#0567 art                 L6   |    CLASS: SPRITE  DATA: 11 X:183.00 Y: -42.00 Z:332.00 PCH: 0.00 YAW: 0.00
+#0568 block   f=3  p=3  L2   ( 102) | Save the file and put it in the DARK dir and start the game. The Tentacle will be waiting on the
+#0569 art                 L7   | ========================================
+#0570 art                 L2   | Dark Forces Editor Version v2.00 (dfed2.zip - 138,509 bytes)
+#0571 block   f=0  p=0  L3   ( 194) | This editor allows you to modify existing missions and randomize the locations of opponents. Win
+#0572 art                 L2   | Dark Forces UtilitieS and Editor v1.00 (dfuse100.exe - 1,072,330 bytes)
+#0573 block   f=0  p=0  L4   ( 310) | DFUSE is a collection of utilities to modify/create DF levels. This is not for the casual player
+#0574 art                 L1   |  - written by Yves Borckmans <Yves.Borckmans@ping.be>
+#0575 art                 L7   | Windows Dark Forces UtilitieS and Editor
+#0576 block   f=0  p=0  L5   ( 319) | Contrary to DFUSE/DOS, WDFUSE is SHAREWARE. Its registration fee is a $25 ALL CHARGES PAID Inter
+#0577 block   f=0  p=0  L3   ( 202) | Minimum requirements: a computer able to run Windows 3.1 or Windows 95, 8 Mb of RAM, a mouse, 64
+#0578 art                 L1   | As of this writing, the current version is 2.10beta1, in 16- and 32-bit flavours.
+#0579 art                 L2   | See Yves' Website at:
+#0580 art                 L1   |  - written by Yves Borckmans <Yves.Borckmans@ping.be>
+#0581 art                 L2   | WEdit: The New Dark Forces Editor for Win95
+#0582 block   f=0  p=0  L3   ( 228) | Wedit is "the hottest WIN95 tool for creation of DARK FORCES levels. Version 2.33 of Wedit conta
+#0583 art                 L6   | WEdit is shareware; for the full version that has the limitations removed and
+#0584 art                 L2   | WEdit v2.33 is available at the Wedit homepage:
+#0585 art                 L1   |  - written by Ole Thomasen <obt@interserv.com>,<102245.1610@compuserve.com>
+#0586 art                 L5   | 10.2 MacDF mission editors
+#0587 art                 L2   | 10.3 Custom missions
+#0588 block   f=0  p=0  L5   ( 334) | This section of the FAQList used to contain a list of all custom DF missions. Sorry, but due to 
+#0589 art                 L6   | Fortunately for DF fans, a couple of people have come to my rescue!  Aris
+#0590 art                 L3   | Also, an extensive list of custom missions is available as part of the
+#0591 art                 L3   | ====================
+#0592 block   f=0  p=0  L5   ( 307) | If you run into problems running DF, make sure you've read the README.TXT file that came with DF
+#0593 art                 L2   | 11.1 Help installing
+#0594 block   f=0  p=0  L3   ( 188) | The most common problem is getting an error regarding JEDI.CFG. Fortunately, there's a simple fi
+#0595 block   f=0  p=0  L2   ( 111) | LA has provided a fix for a "divide overflow error". The following changes to your CMOS settings
+#0596 block   f=1  p=3  L1   (  26) | - disable the turbo switch
+#0597 block   f=1  p=3  L1   (  27) | - lower the bus clock speed
+#0598 block   f=1  p=3  L1   (  21) | - disable all caching
+#0599 block   f=1  p=3  L1   (  24) | - disable hidden refresh
+#0600 block   f=1  p=3  L1   (  71) | - or make sure that you have the line "STACKS=9,256" in your CONFIG.SYS
+#0601 art                 L2   | 11.2 Help with sound cards
+#0602 block   f=0  p=0  L8   ( 583) | SETUP doesn't recognize the IRQs of some cards correctly. You can solve this problem by patching
+#0603 art                 L12  | 11.3 Misc help
+#0604 art                 L6   | 11.4 How do I contact LA technical support?
+#0605 art                 L3   | America Online:
+#0606 art                 L4   | GEnie:
+#0607 art                 L3   | Internet Email:
+#0608 art                 L2   | WWW site:
+#0609 art                 L2   | Technical Support BBS:
+#0610 art                 L3   | =====================
+#0611 block   f=0  p=0  L5   ( 362) | If you gave me tips and your name is not listed here, I apologize. I use a "first one gets credi
+#0612 block   f=1  p=3  L2   ( 104) | - Tim Smulders <smulders@iconn.net> sent me a bunch of custom Missions I was missing--including 
+#0613 block   f=1  p=3  L2   ( 179) | - Steph Smith <ag422@freenet.carleton.ca> gets a big cheer for counting *all* enemies in *all* l
+#0614 block   f=1  p=3  L1   (  68) | - Troy Benge <del3116@rs6000.ivcc.edu> uncovered the hidden Tentacle
+#0615 block   f=1  p=3  L3   ( 193) | - Paulius Stepanas <p.stepanas@trl.telstra.com.au> gave me lots of feedback on things ranging fr
+#0616 block   f=1  p=3  L2   ( 122) | - Allen Do <neko@netcom.com> found secrets for Missions III, IV, X, and XI; as well as the extra
+#0617 block   f=1  p=3  L2   ( 143) | - Dennis McKenna <mckenna1@ix.netcom.com>, after spending a "damn week on this level", found ano
+#0618 block   f=1  p=3  L1   (  70) | - Marc Atkin <atkin@gagarin.cs.umass.edu> found a secret in Mission IV
+#0619 block   f=1  p=3  L2   ( 115) | - Alexandre da Silva Pereira <alexsper@embratel.net.br> found how to get to the Ewok in Mission 
+#0620 block   f=1  p=3  L2   ( 118) | - Jimmy Kwon <merklin@garcon.mit.edu> found *seven* secrets in Mission VI, and also provided the
+#0621 block   f=1  p=3  L2   (  84) | - Bart Barenburg <bartb@win.tue.nl> clarified the function of a switch in Mission VI
+#0622 block   f=1  p=3  L2   (  89) | - Clark and Shannon Janes <caj101@psu.edu> clarified the elevator positions in Mission VI
+#0623 block   f=1  p=3  L1   (  70) | - Steven Loretero <leialii@aloha.net> fixed a coordinate in Mission VI
+#0624 block   f=1  p=3  L2   (  79) | - Charles Bird <charles.bird@aquila.com> set me straight on flickering maglocks
+#0625 block   f=1  p=3  L1   (  72) | - Michael Montona <mmontona@CapAccess.org> found the Ewok in Mission VII
+#0626 block   f=1  p=3  L1   (  69) | - Tom <TCKind@aol.com> found the Ewok in Mission VII without cheating
+#0627 block   f=1  p=3  L2   (  87) | - Shawn E. Robinson <dlfc82b@prodigy.com> assisted me with the walkthru in Mission VIII
+#0628 block   f=1  p=3  L2   (  86) | - Jason D. Wright <jdw2@lehigh.edu> clarified the function of a switch in Mission VIII
+#0629 block   f=1  p=3  L2   (  91) | - Alan Hartman <Alan.Hartman@AtlantaGA.ATTGIS.COM> found a convenient ledge in Mission VIII
+#0630 block   f=1  p=3  L1   (  76) | - Atsushi Kanamori <kanamori@Xenon.Stanford.EDU> helped with Jabba's Jacuzzi
+#0631 block   f=1  p=3  L1   (  73) | - Adrian Kwong <akwong@bme.synapse.net> drew the ASCII map of the Hexagon
+#0632 block   f=1  p=3  L2   (  82) | - Clint Cox <clint.cox@camel.com> provided descriptions of most of the cheat codes
+#0633 block   f=1  p=3  L2   ( 121) | - H. Ian Novack <ian@gomez.JPL.NASA.GOV> reminded me of the name of the Mouse Droids, plus gave 
+#0634 block   f=1  p=3  L1   (  71) | - Eushuk Hong <umeister@leland.stanford.edu> provided info on Windows95
+#0635 block   f=1  p=3  L1   (  51) | - <andyhat@bj-42.rh.uchicago.edu> ran DF under OS/2
+#0636 block   f=1  p=3  L1   (  61) | - Jason Dyer <jdyer@indirect.com> gave me info on Cyrix chips
+#0637 block   f=1  p=3  L1   (  70) | - Mark Haidekker <mark@mathematik.uni-Bremen.de> provided info on IRQs
+#0638 block   f=1  p=3  L1   (  67) | - <KerryH5912@aol.com> first came up with the term "Dork Farces" :)
+#0639 block   f=1  p=3  L3   ( 188) | - Edouard Poor <poor@esu6.auckland.ac.nz>, Bob Dunlap II <73710.1366@compuserve.com>, Chik <cc_f
+#0640 art                 L3   | ===============
+#0641 block   f=0  p=0  L6   ( 258) | _The Adventurer_, #9: Winter 1994/5 (published by LA). _CD-ROM Magazine_, Vol. 1, #5 (Dec.1994).
