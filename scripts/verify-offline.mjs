@@ -15,7 +15,14 @@ const TYPES = {
 
 const server = http.createServer(async (req, res) => {
   let p = decodeURIComponent(req.url.split("?")[0]);
-  p = p === "/faqminder" ? "/" : p.replace(/^\/faqminder/, "");
+  // Model GitHub Pages: a directory URL without its trailing slash is 301'd to the
+  // slash form. The router only matches "/faqminder/" (see react-router.config.ts).
+  if (p === "/faqminder") {
+    res.writeHead(301, { Location: "/faqminder/" });
+    res.end();
+    return;
+  }
+  p = p.replace(/^\/faqminder/, "") || "/";
   try {
     const body = await readFile(resolve(ROOT, "." + p));
     res.setHeader("content-type", TYPES[extname(p)] ?? "application/octet-stream");
@@ -41,6 +48,18 @@ page.on("console", (m) => m.type() === "error" && console.log("CONSOLE:", m.text
 page.on("pageerror", (e) => console.log("PAGEERROR:", e.message));
 page.on("requestfailed", (r) => console.log("REQFAIL:", r.url(), r.failure()?.errorText));
 try {
+  // Both base-path forms must render. GitHub Pages 301s "/faqminder" -> "/faqminder/",
+  // but this server deliberately does NOT redirect, so it proves the router itself
+  // tolerates the slash-less URL (basename must have no trailing slash).
+  for (const url of ["http://localhost:4173/faqminder/", "http://localhost:4173/faqminder"]) {
+    await page.goto(url, { waitUntil: "networkidle" });
+    const ok = await page
+      .getByRole("heading", { name: "FAQMiner" })
+      .isVisible({ timeout: 10000 })
+      .catch(() => false);
+    check(`renders at ${new URL(url).pathname}`, ok);
+  }
+
   await page.goto("http://localhost:4173/faqminder/", { waitUntil: "networkidle" });
   check("app loads online", await page.getByText(/FAQMiner/).first().isVisible());
   await page.waitForFunction(() => navigator.serviceWorker?.controller != null, { timeout: 10000 });

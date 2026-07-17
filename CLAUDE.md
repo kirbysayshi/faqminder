@@ -31,4 +31,5 @@
 
 ## Deploy
 - Static SPA → GitHub Pages via `pnpm deploy:gh` (manual; no CI). Base path is `VITE_BASE` (default `/faqminder/`) in `vite.config.ts` + `react-router.config.ts`. `build/client/404.html` is the SPA deep-link fallback (copied from `index.html` at build).
+- **The base path's trailing slash is load-bearing.** RR requires `basename` to begin with Vite's `base`, and without the trailing slash SPA mode *silently* stops emitting `build/client/index.html`. Consequence: the router matches `/faqminder/` but not `/faqminder` — the slash is added by an HTTP redirect (GitHub Pages does this for directory URLs; `vite.config.ts`'s `baseRedirect` plugin mirrors it in dev). Don't "fix" this by trimming the basename.
 - Service worker (offline shell) is generated post-build by `scripts/build-sw.mjs` (Workbox), NOT vite-plugin-pwa — the plugin fights RR framework mode's per-environment `build/client` outDir. Registered client-only in `root.tsx` (prod).
