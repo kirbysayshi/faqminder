@@ -88,12 +88,9 @@ export function ReaderScreen({
   }, [font, artFont]);
 
   const toggleReflow = useCallback(
-    (blockId: number) => {
-      setOverrides((prev) => {
-        const on = !(prev[blockId] ?? true); // prose defaults to reflowed
-        void setReflowOverride(meta.id, blockId, on);
-        return { ...prev, [blockId]: on };
-      });
+    (blockId: number, on: boolean) => {
+      void setReflowOverride(meta.id, blockId, on);
+      setOverrides((prev) => ({ ...prev, [blockId]: on }));
     },
     [meta.id],
   );
@@ -153,7 +150,9 @@ export function ReaderScreen({
             <BlockView
               key={block.id}
               block={block}
-              reflowOn={overrides[block.id] ?? true}
+              // Confident prose arrives wrapped; text we only suspect arrives
+              // verbatim with the toggle offered. Either can be overridden.
+              reflowOn={overrides[block.id] ?? block.reflow?.defaultOn ?? false}
               onToggle={toggleReflow}
             />
           ))}

@@ -1,94 +1,95 @@
-blocks: 92  art: 53  prose-block: 12  prose-hanging: 27
+blocks: 92  art: 43  prose-block: 22  prose-hanging: 27
+reflowed: 38  offered (verbatim): 11
 --------------------------------------------------------------------------------
 #0000 art                 L1   | Metal Gear Solid 2: Sons Of Liberty
 #0001 art                 L1   | For Playstation 2
 #0002 art                 L1   | Cardboard Box FAQ
 #0003 art                 L1   | Version 1.36 August 08 2003
 #0004 art                 L1   | By: Gordon Stewart (Grdnstwrt)
-#0005 art                 L2   | "Take care of your cardboard box and it will take care of you!"
+#0005 block   off f=0  p=1  L2   (  80) | "Take care of your cardboard box and it will take care of you!" Solid Snake MGS1
 #0006 art                 L1   | <><><><><><><><><><><><><><><>Version History!<><><><><><><><><><><><><><><><>
-#0007 hanging f=0  p=15 L2   (  96) | Version 0.20:- Have done the Personal Rant, Controls and tanker locations sections of the guide.
-#0008 hanging f=0  p=15 L2   ( 119) | Version 0.80:- I have now done the Plant locations, hints and tips and special delivery for Raid
-#0009 hanging f=0  p=15 L3   ( 194) | Version 1.00:- Have finished the FAQ. Will soon add more Easter Eggs when I remember where I wro
-#0010 hanging f=0  p=15 L3   ( 185) | Version 1.25:- I found that piece of paper and added to the easter eggs section as well as givin
-#0011 art                 L1   | Version 1.30:- Added the quote from Snake at the top!
-#0012 art                 L1   | Version 1.35:- Spelling and grammar mistakes have been corrected!
-#0013 hanging f=0  p=15 L2   ( 119) | Version 1.36:- Spotted a mistake in Version history and corrected a mistake in the box locations
+#0007 hanging on  f=0  p=15 L2   (  96) | Version 0.20:- Have done the Personal Rant, Controls and tanker locations sections of the guide.
+#0008 hanging on  f=0  p=15 L2   ( 119) | Version 0.80:- I have now done the Plant locations, hints and tips and special delivery for Raid
+#0009 hanging on  f=0  p=15 L3   ( 194) | Version 1.00:- Have finished the FAQ. Will soon add more Easter Eggs when I remember where I wro
+#0010 hanging on  f=0  p=15 L3   ( 185) | Version 1.25:- I found that piece of paper and added to the easter eggs section as well as givin
+#0011 block   off f=0  p=0  L1   (  53) | Version 1.30:- Added the quote from Snake at the top!
+#0012 block   off f=0  p=0  L1   (  65) | Version 1.35:- Spelling and grammar mistakes have been corrected!
+#0013 hanging on  f=0  p=15 L2   ( 119) | Version 1.36:- Spotted a mistake in Version history and corrected a mistake in the box locations
 #0014 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0015 art                 L1   | <><><><><><><><><><><><><><><><>Copyright!<><><><><><><><><><><><><><><><><><>
-#0016 block   f=0  p=0  L6   ( 398) | This FAQ is © 2003 Gordon Stewart (Grdnstwrt). This FAQ may neither be used nor distributed for 
+#0016 block   on  f=0  p=0  L6   ( 398) | This FAQ is © 2003 Gordon Stewart (Grdnstwrt). This FAQ may neither be used nor distributed for 
 #0017 art                 L2   | www.gamefaqs.com
-#0018 block   f=0  p=0  L3   ( 182) | If you have any questions, comments or contributions to my FAQ then you can E-mail me at grdnstw
+#0018 block   on  f=0  p=0  L3   ( 182) | If you have any questions, comments or contributions to my FAQ then you can E-mail me at grdnstw
 #0019 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0020 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0021 art                 L3   | *****************
 #0022 art                 L9   | I      - Personal Rant
 #0023 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0024 art                 L3   |                               *****************
-#0025 block   f=0  p=0  L6   ( 425) | For as long as I have known about GameFAQ's.com I have wanted to make a FAQ for Metal Gear Solid
+#0025 block   on  f=0  p=0  L6   ( 425) | For as long as I have known about GameFAQ's.com I have wanted to make a FAQ for Metal Gear Solid
 #0026 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0027 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0028 art                 L3   |                          ***************************
-#0029 block   f=0  p=0  L3   ( 165) | In this section I will go over the controls for when you are in a cardboard box. They are basicl
+#0029 block   on  f=0  p=0  L3   ( 165) | In this section I will go over the controls for when you are in a cardboard box. They are basicl
 #0030 art                 L4   | Move---------------------------------------Direction Buttons/Left Analog Stick
 #0031 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0032 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0033 art                 L3   |                             ***********************
-#0034 block   f=0  p=0  L3   ( 218) | In this section I will tell you where you can find all the cardboard boxes on both the 'Tanker' 
+#0034 block   on  f=0  p=0  L3   ( 218) | In this section I will tell you where you can find all the cardboard boxes on both the 'Tanker' 
 #0035 art                 L1   | *********************************(i - Tanker)*********************************
-#0036 block   f=0  p=0  L2   ( 101) | There are only two boxes on this level but one of them is a bit special. Special in a bad way th
+#0036 block   on  f=0  p=0  L2   ( 101) | There are only two boxes on this level but one of them is a bit special. Special in a bad way th
 #0037 art                 L3   | ******
-#0038 art                 L1   | Location:- In the pantry to the right on Deck-D.
-#0039 hanging f=0  p=13 L2   ( 119) | Desription:- It is a grey box for carrying perishable foods e.g. Oranges. It also has a picture 
-#0040 art                 L1   | Special attributes:- Nothing, it is only good for hiding under!
+#0038 block   off f=0  p=0  L1   (  48) | Location:- In the pantry to the right on Deck-D.
+#0039 hanging on  f=0  p=13 L2   ( 119) | Desription:- It is a grey box for carrying perishable foods e.g. Oranges. It also has a picture 
+#0040 block   off f=0  p=0  L1   (  63) | Special attributes:- Nothing, it is only good for hiding under!
 #0041 art                 L3   | ********
-#0042 hanging f=0  p=11 L3   ( 150) | Location:- On the top deck of the tanker. It is to the far right of the deck after you have beat
-#0043 hanging f=0  p=14 L2   ( 124) | Description:- The same as BOX 1 except it has been left outside and is wet and wrinkled and is p
-#0044 hanging f=0  p=21 L3   ( 181) | Special Attributes:- As the box is wet it will simply fall apart when you are shot at while wear
+#0042 hanging on  f=0  p=11 L3   ( 150) | Location:- On the top deck of the tanker. It is to the far right of the deck after you have beat
+#0043 hanging on  f=0  p=14 L2   ( 124) | Description:- The same as BOX 1 except it has been left outside and is wet and wrinkled and is p
+#0044 hanging on  f=0  p=21 L3   ( 181) | Special Attributes:- As the box is wet it will simply fall apart when you are shot at while wear
 #0045 art                 L1   | *********************************(ii - Plant)*********************************
-#0046 block   f=0  p=0  L3   ( 174) | There are five boxes to get in the plant part of the game. They all transport you somewhere like
+#0046 block   on  f=0  p=0  L3   ( 174) | There are five boxes to get in the plant part of the game. They all transport you somewhere like
 #0047 art                 L3   | ******
-#0048 hanging f=0  p=11 L3   ( 208) | Location:- In the pump room in strut A. That's the door that you need the level 1 card to get in
-#0049 hanging f=0  p=13 L2   ( 119) | Desription:- It is a grey box for carrying perishable foods e.g. Oranges. It also has a picture 
-#0050 art                 L1   | Special attributes:- Transports you to the canteen in strut C.
+#0048 hanging on  f=0  p=11 L3   ( 208) | Location:- In the pump room in strut A. That's the door that you need the level 1 card to get in
+#0049 hanging on  f=0  p=13 L2   ( 119) | Desription:- It is a grey box for carrying perishable foods e.g. Oranges. It also has a picture 
+#0050 block   off f=0  p=0  L1   (  62) | Special attributes:- Transports you to the canteen in strut C.
 #0051 art                 L3   | ******
-#0052 hanging f=0  p=11 L3   ( 155) | Location:- In the medical room in strut F. That's the one down the stairs that you need a level 
-#0053 hanging f=0  p=13 L2   (  87) | Desription:- It is a brownish box with a black stripe on it that says "PSF - Z1" on it.
-#0054 art                 L1   | Special attributes:- Transports you to strut B beside the lockers.
+#0052 hanging on  f=0  p=11 L3   ( 155) | Location:- In the medical room in strut F. That's the one down the stairs that you need a level 
+#0053 hanging on  f=0  p=13 L2   (  87) | Desription:- It is a brownish box with a black stripe on it that says "PSF - Z1" on it.
+#0054 block   off f=0  p=0  L1   (  66) | Special attributes:- Transports you to strut B beside the lockers.
 #0055 art                 L3   | ******
-#0056 hanging f=0  p=11 L2   ( 139) | Location:- This one is one the heli-pad on strut E. It is just up the stairs and on the left beh
-#0057 hanging f=0  p=13 L2   ( 115) | Desription:- Box 3 is a whiteish box with an orange design and chunky lettering that I can't wor
-#0058 art                 L1   | Special attributes:- Transports you to strut A beside the left lockers.
+#0056 hanging on  f=0  p=11 L2   ( 139) | Location:- This one is one the heli-pad on strut E. It is just up the stairs and on the left beh
+#0057 hanging on  f=0  p=13 L2   ( 115) | Desription:- Box 3 is a whiteish box with an orange design and chunky lettering that I can't wor
+#0058 block   off f=0  p=0  L1   (  71) | Special attributes:- Transports you to strut A beside the left lockers.
 #0059 art                 L3   | ******
-#0060 hanging f=0  p=11 L2   (  81) | Location:- In B2 of the shell 1 core. It is in the computer room beside the node.
-#0061 hanging f=0  p=13 L2   ( 120) | Desription:- It is a white box that says "McFarline Toys" on it. It also has a picture of what l
-#0062 hanging f=0  p=21 L2   (  88) | Special attributes:- Transports you to strut F on top of the crates on the bottom floor.
+#0060 hanging on  f=0  p=11 L2   (  81) | Location:- In B2 of the shell 1 core. It is in the computer room beside the node.
+#0061 hanging on  f=0  p=13 L2   ( 120) | Desription:- It is a white box that says "McFarline Toys" on it. It also has a picture of what l
+#0062 hanging on  f=0  p=21 L2   (  88) | Special attributes:- Transports you to strut F on top of the crates on the bottom floor.
 #0063 art                 L3   | ******
-#0064 hanging f=0  p=11 L2   (  96) | Location:- This one is in the parcel room in strut E. It is just below the node on a raised bit.
-#0065 hanging f=0  p=13 L2   ( 115) | Desription:- Box 5 is a black one with the letters Z.O.E on it. It also has a "Catching eye-desi
-#0066 art                 L1   | Special attributes:- Transports you to the small room in strut E.
+#0064 hanging on  f=0  p=11 L2   (  96) | Location:- This one is in the parcel room in strut E. It is just below the node on a raised bit.
+#0065 hanging on  f=0  p=13 L2   ( 115) | Desription:- Box 5 is a black one with the letters Z.O.E on it. It also has a "Catching eye-desi
+#0066 block   off f=0  p=0  L1   (  65) | Special attributes:- Transports you to the small room in strut E.
 #0067 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0068 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0069 art                 L3   |                           *******************
-#0070 art                 L2   | In this section I wil give a few hints and tips on how to use the cardboard
-#0071 hanging f=0  p=3  L4   ( 288) | 1. If you are fighting a boss like Olga and you want to get from one side of the terrain to the 
-#0072 hanging f=0  p=3  L5   ( 336) | 2. If you are spotted by a guard and the alarm is raised and you don't have the stealth camo run
-#0073 hanging f=0  p=3  L3   ( 208) | 3. If a guard does manage to remove your box constantly tap square as he does so and that way yo
+#0070 block   off f=0  p=0  L2   (  95) | In this section I wil give a few hints and tips on how to use the cardboard box to full effect.
+#0071 hanging on  f=0  p=3  L4   ( 288) | 1. If you are fighting a boss like Olga and you want to get from one side of the terrain to the 
+#0072 hanging on  f=0  p=3  L5   ( 336) | 2. If you are spotted by a guard and the alarm is raised and you don't have the stealth camo run
+#0073 hanging on  f=0  p=3  L3   ( 208) | 3. If a guard does manage to remove your box constantly tap square as he does so and that way yo
 #0074 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0075 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0076 art                 L3   |                     *******************************
-#0077 block   f=0  p=0  L6   ( 433) | Remember in MGS1 where you could transport yourself about by donning a box and jumping in a truc
-#0078 block   f=0  p=0  L5   ( 319) | I have had a few E-mails asking for details about the conveyer belt so here is a step by step gu
-#0079 block   f=0  p=0  L5   ( 172) | Box 1 - Canteen in strut C Box 2 - Beside the lockers in strut B Box 3 - Beside the lockers in s
+#0077 block   on  f=0  p=0  L6   ( 433) | Remember in MGS1 where you could transport yourself about by donning a box and jumping in a truc
+#0078 block   on  f=0  p=0  L5   ( 319) | I have had a few E-mails asking for details about the conveyer belt so here is a step by step gu
+#0079 art                 L5   | Box 1 - Canteen in strut C
 #0080 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0081 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0082 art                 L3   |                             ****************
-#0083 block   f=0  p=0  L4   ( 304) | In this section I will mention all the cardboard box related to Easter Eggs. I know some of you 
-#0084 hanging f=0  p=3  L2   ( 130) | 1. Box 4 says "McFarline Toys" on it. McFarline toys were the toy manufacturer for all the Metal
-#0085 hanging f=0  p=3  L3   ( 170) | 2. Box 5 says "Z.O.E" on it. This is a reference to the game called "Zone of the Enders". This g
-#0086 hanging f=0  p=3  L6   ( 402) | 3. When Stillman gives you the coolant spray to freeze the C4's quickly run to the CD connecting
-#0087 hanging f=0  p=3  L2   ( 104) | 4. If you call Snake up on the codec "141.80" while equiping a box he will have some wise words 
+#0083 block   on  f=0  p=0  L4   ( 304) | In this section I will mention all the cardboard box related to Easter Eggs. I know some of you 
+#0084 hanging on  f=0  p=3  L2   ( 130) | 1. Box 4 says "McFarline Toys" on it. McFarline toys were the toy manufacturer for all the Metal
+#0085 hanging on  f=0  p=3  L3   ( 170) | 2. Box 5 says "Z.O.E" on it. This is a reference to the game called "Zone of the Enders". This g
+#0086 hanging on  f=0  p=3  L6   ( 402) | 3. When Stillman gives you the coolant spray to freeze the C4's quickly run to the CD connecting
+#0087 hanging on  f=0  p=3  L2   ( 104) | 4. If you call Snake up on the codec "141.80" while equiping a box he will have some wise words 
 #0088 art                 L1   | <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 #0089 art                 L3   |                                *************
-#0090 block   f=0  p=0  L4   ( 240) | Well in this guide I didn't get help from anyone so I guess thanx to me for being so good at Met
-#0091 art                 L1   | This FAQ is © 2003 Gordon Stewart (Grdnstwrt)
+#0090 block   on  f=0  p=0  L4   ( 240) | Well in this guide I didn't get help from anyone so I guess thanx to me for being so good at Met
+#0091 block   off f=0  p=0  L1   (  45) | This FAQ is © 2003 Gordon Stewart (Grdnstwrt)

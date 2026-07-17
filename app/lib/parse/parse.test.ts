@@ -116,7 +116,7 @@ describe("prose classification", () => {
     expect(text).not.toContain("---"); // underline dropped, not inlined
   });
 
-  it("never merges separate labelled items (Q: / A:)", () => {
+  it("never merges separate labelled items (Q: / A:) on its own initiative", () => {
     const block = first(
       [
         "Q: Is there any way to stop the sea lice from eating my rations as I go?",
@@ -124,7 +124,9 @@ describe("prose classification", () => {
         "   are being eaten to shake them off before they finish the job entirely.",
       ].join("\n"),
     );
-    expect(block.kind).toBe("art"); // two real labels => leave verbatim
+    // Two real labels: renders verbatim. The ¶ is still offered — merging these is
+    // the reader's call to make, not ours to make for them.
+    expect(block.reflow?.defaultOn).toBe(false);
   });
 
   it("splits a paragraph that runs straight into a diagram (no blank line)", () => {
@@ -221,6 +223,22 @@ describe("prose classification", () => {
     expect(blocks[1]!.reflow).toMatchObject({ firstLineIndent: 0, padLeft: 2 });
   });
 
+  it("frees a paragraph sitting under a short heading (no blank line)", () => {
+    const { blocks } = parseDocument(
+      [
+        "-- MAIL",
+        "Occasionally you will receive mail that includes a booster pack. If you",
+        "save right before you open the booster, then you can reset the game and",
+        "try again if you don't get the cards you wanted. Not every mail includes",
+        "it's hard to tell which pieces of mail have a booster.",
+      ].join("\n"),
+    );
+    expect(blocks).toHaveLength(2);
+    expect(blocks[0]).toMatchObject({ kind: "art", lines: ["-- MAIL"] });
+    expect(blocks[1]!.kind).toBe("prose");
+    expect(reflowText(blocks[1]!)).toMatch(/^Occasionally you will receive mail/);
+  });
+
   it("keeps ASCII banners as art", () => {
     const banner = ["=====================", "|  SUPER GAME  FAQ  |", "====================="];
     expect(first(banner.join("\n")).kind).toBe("art");
@@ -268,13 +286,69 @@ describe("prose classification", () => {
     expect(first(toc).kind).toBe("art");
   });
 
-  it("keeps an indented TOC (short ragged entries) as art", () => {
+  it("never reflows an indented TOC (short ragged entries) unasked", () => {
     const toc = [
       "                1. CHAPTER ONE: THE ROYAL SOLDIERS OF BURLAND CASTLE",
       "                   1A. Burland",
       "                   1B. Cave to Izmit",
       "                   1C. Izmit Village",
     ].join("\n");
-    expect(first(toc).kind).toBe("art");
+    expect(first(toc).reflow?.defaultOn ?? false).toBe(false);
+  });
+});
+
+describe("offering the ¶ toggle", () => {
+  it("offers it on a lone long line, but leaves it verbatim", () => {
+    // Fits without being cut off, so nothing is broken — but the reader may still
+    // want it to read like the prose around it rather than at the verbatim size.
+    const block = first("To use an attack, select the attack you want to use and press A.");
+    expect(block.kind).toBe("prose");
+    expect(block.reflow!.defaultOn).toBe(false);
+  });
+
+  it("does not offer it on text too narrow to ever need wrapping", () => {
+    expect(first("-- MAIL").kind).toBe("art"); // a ¶ here would be pure noise
+  });
+
+  it("never reflows a floated box (a drawing with prose beside it)", () => {
+    // Real Zelda shape: sits just under the decorative threshold, so it reads as a
+    // wrapped paragraph and merges the borders into the text.
+    const block = first(
+      [
+        "+-------------------------------+  Finally, follow the road north then west,",
+        "| KINSTONE FUSION #09 PERFORMED |  and fuse Kinstones with the left miner",
+        "+-------------------------------+  there. This makes a chest appear at the",
+      ].join("\n"),
+    );
+    expect(block.kind).toBe("art");
+  });
+
+  it("never mistakes a table's narrow rows for a heading over a paragraph", () => {
+    // Real Ace Combat shape: stripping the short rows would leave survivors of
+    // similar length that read as wrapped prose and get merged.
+    const { blocks } = parseDocument(
+      [
+        " [x01] Carrier ---- Default",
+        " [x01] Convoy ----- Default",
+        " [x04] Facilities - Default [Island - Non-TGT]",
+        " [x09] Gun -------- Default [x4 Island]",
+        " [x05] MSSL ------- Default [x4 Island]",
+      ].join("\n"),
+    );
+    expect(blocks.every((b) => b.reflow?.defaultOn !== true)).toBe(true);
+  });
+
+  it("does not offer it on drawings or tables — wrapping those is only damage", () => {
+    expect(first("|-----COMMAND------|\n| >TALK     SPELL  |").kind).toBe("art");
+    expect(
+      first(
+        [
+          "Chain Mail        350G",
+          "Bronze Armor      700G",
+          "Half Plate Armor  1200G",
+          "Scale Shield      180G",
+        ].join("\n"),
+      ).kind,
+    ).toBe("art");
   });
 });

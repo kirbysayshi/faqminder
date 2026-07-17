@@ -1,8 +1,8 @@
-Ace Combat 3_ Electrosphere - Guide and Walk  blocks= 348  art= 175  block= 148  hanging= 25
-Dragon Warrior IV - Guide and Walkthrough -   blocks= 728  art= 270  block= 400  hanging= 58
-Fatal Frame II_ Crimson Butterfly - Spoiler-  blocks=  89  art=  55  block=  34  hanging=  0
-Metal Gear Solid 2_ Sons of Liberty - Cardbo  blocks=  92  art=  53  block=  12  hanging= 27
-Metal Gear Solid 2_ Sons of Liberty - Guide   blocks=1379  art= 602  block= 649  hanging=128
-Pokemon Card GB2 - Guide and Walkthrough - G  blocks= 792  art= 473  block= 314  hanging=  5
-Star Wars_ Dark Forces - Guide and Walkthrou  blocks= 642  art= 271  block= 368  hanging=  3
-The Legend of Zelda_ The Minish Cap - Guide   blocks=1337  art= 778  block= 528  hanging= 31
+Ace Combat 3_ Electrosphere - Guide and   blocks= 352  art=  99  reflowed= 176  offered=  77
+Dragon Warrior IV - Guide and Walkthroug  blocks= 718  art= 253  reflowed= 450  offered=  15
+Fatal Frame II_ Crimson Butterfly - Spoi  blocks=  90  art=  51  reflowed=  35  offered=   4
+Metal Gear Solid 2_ Sons of Liberty - Ca  blocks=  92  art=  43  reflowed=  38  offered=  11
+Metal Gear Solid 2_ Sons of Liberty - Gu  blocks=1405  art= 521  reflowed= 802  offered=  82
+Pokemon Card GB2 - Guide and Walkthrough  blocks= 825  art= 414  reflowed= 317  offered=  94
+Star Wars_ Dark Forces - Guide and Walkt  blocks= 662  art= 204  reflowed= 391  offered=  67
+The Legend of Zelda_ The Minish Cap - Gu  blocks=1360  art= 696  reflowed= 569  offered=  95

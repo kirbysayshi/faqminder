@@ -30,7 +30,7 @@ export function BlockView({
 }: {
   block: Block;
   reflowOn: boolean;
-  onToggle: (blockId: number) => void;
+  onToggle: (blockId: number, on: boolean) => void;
 }) {
   const marginTop = block.gapBefore ? `${block.gapBefore * LINE_HEIGHT}em` : 0;
 
@@ -53,7 +53,7 @@ export function BlockView({
     <div data-block-id={block.id} className="relative" style={{ marginTop }}>
       <button
         type="button"
-        onClick={() => onToggle(block.id)}
+        onClick={() => onToggle(block.id, !reflowOn)}
         aria-pressed={reflowOn}
         aria-label={reflowOn ? "Undo soft-wrap for this paragraph" : "Soft-wrap this paragraph"}
         title={reflowOn ? "Auto soft-wrapped — tap to undo" : "Tap to soft-wrap"}

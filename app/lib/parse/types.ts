@@ -13,6 +13,13 @@ export interface ReflowSpec {
   layout: "block" | "hanging";
   padLeft: number; // ch: continuation / hang column
   firstLineIndent: number; // ch: indent of the first line
+  /**
+   * Whether to reflow this block without being asked. True only for text we're
+   * confident is a wrapped paragraph. Text we can't be sure about — a lone long
+   * line, a ragged indent — still gets the ¶ toggle, just switched off: the reader
+   * can wrap it if we guessed wrong, and nothing is mangled if they don't.
+   */
+  defaultOn: boolean;
 }
 
 export interface Block {

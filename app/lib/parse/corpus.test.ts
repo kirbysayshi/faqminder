@@ -37,23 +37,28 @@ function describeBlock(b: Block): string {
   if (b.kind !== "prose" || !b.reflow) {
     return `${id} art                 ${lines} | ${(b.lines[0] ?? "").trimEnd().slice(0, 96)}`;
   }
-  const { layout, firstLineIndent, padLeft } = b.reflow;
-  const spec = `${layout.padEnd(7)} f=${String(firstLineIndent).padEnd(2)} p=${String(padLeft).padEnd(2)}`;
+  const { layout, firstLineIndent, padLeft, defaultOn } = b.reflow;
+  // "on" = reflowed unasked (changes what's rendered); "off" = verbatim, toggle only.
+  const spec = `${layout.padEnd(7)} ${defaultOn ? "on " : "off"} f=${String(firstLineIndent).padEnd(2)} p=${String(padLeft).padEnd(2)}`;
   const flowed = reflowText(b);
   return `${id} ${spec} ${lines} (${String(flowed.length).padStart(4)}) | ${flowed.slice(0, 96)}`;
 }
 
 function report(text: string): string {
   const { blocks } = parseDocument(text);
-  const counts = { art: 0, block: 0, hanging: 0 };
+  const counts = { art: 0, block: 0, hanging: 0, on: 0, off: 0 };
   const lines: string[] = [];
   for (const b of blocks) {
-    if (b.kind === "prose" && b.reflow) counts[b.reflow.layout]++;
-    else counts.art++;
+    if (b.kind === "prose" && b.reflow) {
+      counts[b.reflow.layout]++;
+      counts[b.reflow.defaultOn ? "on" : "off"]++;
+    } else counts.art++;
     lines.push(describeBlock(b));
   }
   const header = [
     `blocks: ${blocks.length}  art: ${counts.art}  prose-block: ${counts.block}  prose-hanging: ${counts.hanging}`,
+    // reflowed-on is what actually changes the page; offered-off just adds a ¶.
+    `reflowed: ${counts.on}  offered (verbatim): ${counts.off}`,
     "-".repeat(80),
   ];
   return [...header, ...lines].join("\n") + "\n";
@@ -75,11 +80,12 @@ describe("classifier corpus", () => {
       const { blocks } = parseDocument(readFileSync(resolve(DIR, name), "utf-8"));
       const n = (p: (b: Block) => boolean) => blocks.filter(p).length;
       return [
-        name.slice(0, 44).padEnd(44),
+        name.slice(0, 40).padEnd(40),
         `blocks=${String(blocks.length).padStart(4)}`,
         `art=${String(n((b) => b.kind === "art")).padStart(4)}`,
-        `block=${String(n((b) => b.reflow?.layout === "block")).padStart(4)}`,
-        `hanging=${String(n((b) => b.reflow?.layout === "hanging")).padStart(3)}`,
+        // The number that matters: how much is reflowed without being asked.
+        `reflowed=${String(n((b) => b.reflow?.defaultOn === true)).padStart(4)}`,
+        `offered=${String(n((b) => b.reflow?.defaultOn === false)).padStart(4)}`,
       ].join("  ");
     });
     await expect(rows.join("\n") + "\n").toMatchFileSnapshot("./__snapshots__/corpus/_summary.txt");

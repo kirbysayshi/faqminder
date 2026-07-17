@@ -19,6 +19,10 @@ const MIN_PROSE_CHARS = 80;
 // A hanging item may be shorter: its structure (one label + a consistent hang
 // column + a clean split) is already strong evidence, so the floor can be lower.
 const MIN_HANGING_CHARS = 40;
+// Narrower than this fits any screen, so wrapping has nothing to fix — no toggle.
+const MIN_WRAPPABLE_COLS = 40;
+// A run of repeated box characters: a border, rule, or leader.
+const ART_RUN = /([-_=+*~|\\/#])\1{3,}/;
 
 const TAB_STOP = 8; // FAQs are written for classic 8-column tab stops.
 
@@ -164,6 +168,7 @@ function classifyList(lines: string[]): Piece[] | null {
         layout: "block",
         padLeft: commonIndent(lead),
         firstLineIndent: indentOf(lead[0]!),
+        defaultOn: true,
       },
     });
   }
@@ -182,10 +187,34 @@ function classifyList(lines: string[]): Piece[] | null {
         // has one, otherwise the column the marker hands over at.
         padLeft: continuations.length ? Math.min(...continuations) : markers[start]![0]!.length,
         firstLineIndent: markers[start]![1]!.length,
+        // The list structure IS the evidence; no need to second-guess it.
+        defaultOn: true,
       },
     });
   }
   return out;
+}
+
+/**
+ * A heading sitting directly on top of a paragraph, with no blank line:
+ *
+ *     -- MAIL
+ *     Occasionally you will receive mail that includes a booster pack. If you
+ *     save right before you open the booster, then you can reset the game and
+ *
+ * It isn't decorative enough to cut on, but a hard-wrapped paragraph has NO short
+ * line except its last — so a short line at the top is something else, and it drags
+ * the paragraph out of prose with it. Split it off.
+ */
+function splitHeading(lines: string[]): { head: string[]; rest: string[] } | null {
+  if (lines.length < 3) return null; // need a heading plus a paragraph
+  const lens = lines.map((l) => l.replace(/\s+$/, "").length);
+  const full = Math.max(...lens) - WRAP_SLACK;
+  // EXACTLY one short line on top. Taking every short line would eat the narrow
+  // rows off a table, and the survivors — being similar lengths — would then read
+  // as a wrapped paragraph and get merged into one.
+  if (lens[0]! >= full || lens[1]! < full) return null;
+  return { head: lines.slice(0, 1), rest: lines.slice(1) };
 }
 
 /** Group a run into maximal stretches of decorative / non-decorative lines. */
@@ -220,7 +249,14 @@ function piecesForRun(run: string[]): Piece[] {
     art = [];
   };
 
-  for (const segment of byDecoration(run)) {
+  const segments = byDecoration(run);
+  // Only CONFIDENT prose earns the right to cut a run in half. Text we merely
+  // suspect — a byline sitting inside a banner — stays with the drawing around it
+  // rather than fragmenting it. Standing alone, though, it keeps its toggle.
+  const standalone = segments.length === 1;
+  const carve = (c: { kind: "prose"; reflow: ReflowSpec }) => c.reflow.defaultOn || standalone;
+
+  for (const segment of segments) {
     if (segment.decorative) {
       art.push(...segment.lines);
       continue;
@@ -232,54 +268,100 @@ function piecesForRun(run: string[]): Piece[] {
       continue;
     }
     const c = classify(segment.lines);
-    if (c.kind === "prose") {
+    if (c.kind === "prose" && c.reflow.defaultOn) {
       flushArt();
       out.push({ kind: "prose", lines: segment.lines, reflow: c.reflow });
-    } else {
-      art.push(...segment.lines);
+      continue;
     }
+    // Not a paragraph as a whole — but it may be a heading glued to one. Try this
+    // BEFORE settling for an unsure block, or the heading gets swallowed into it.
+    const split = splitHeading(segment.lines);
+    const rest = split && classify(split.rest);
+    if (split && rest?.kind === "prose" && rest.reflow.defaultOn) {
+      art.push(...split.head);
+      flushArt();
+      out.push({ kind: "prose", lines: split.rest, reflow: rest.reflow });
+      continue;
+    }
+    if (c.kind === "prose" && carve(c)) {
+      flushArt();
+      out.push({ kind: "prose", lines: segment.lines, reflow: c.reflow });
+      continue;
+    }
+    art.push(...segment.lines);
   }
   flushArt();
   return out;
 }
 
+/**
+ * Two questions, not one:
+ *  1. COULD this be wrapped? Anything text-shaped and wide enough to overflow gets
+ *     a ¶ toggle. Drawings, rules and tables never do — wrapping those is only ever
+ *     damage, and an offer we'd never want taken is just noise.
+ *  2. SHOULD it be, unasked? Only when it's confidently a hard-wrapped paragraph.
+ *     Everything else arrives with the toggle off: verbatim, and one tap from
+ *     wrapped if we guessed wrong.
+ */
 function classify(lines: string[]): { kind: "art" } | { kind: "prose"; reflow: ReflowSpec } {
   const ART = { kind: "art" } as const;
-  if (lines.length < 2) return ART;
 
   const joined = lines.join(" ");
   const nonSpace = joined.replace(/\s/g, "").length;
-  if (nonSpace < MIN_HANGING_CHARS) return ART; // too short to be prose at all
+  if (nonSpace === 0) return ART;
   const letters = joined.match(/[A-Za-z]/g)?.length ?? 0;
   if (letters / nonSpace < 0.6) return ART; // not text-dominated
   if (lines.some(isDecorative)) return ART; // rules / borders / banners / leaders
+  if (hasAlignedColumn(lines)) return ART; // a table: wrapping destroys the columns
   if (lines.filter((l) => LIST_MARKER.test(l)).length >= 2) return ART; // a list
 
-  // Hard-wrapped: every line but the last is "full" relative to this block's own
-  // width. Real wrapped text has full lines; a TOC or list has short ragged ones.
   const lens = lines.map((l) => l.replace(/\s+$/, "").length);
   const maxLen = Math.max(...lens);
-  if (Math.min(...lens.slice(0, -1)) < maxLen - WRAP_SLACK) return ART;
+  // Short enough to fit anywhere: there is nothing for wrapping to fix.
+  if (maxLen < MIN_WRAPPABLE_COLS) return ART;
 
+  // Hard-wrapped text has NO short line but its last — that's what wrapping leaves
+  // behind. Ragged lengths mean we're looking at something else.
+  const wrapped = lines.length >= 2 && Math.min(...lens.slice(0, -1)) >= maxLen - WRAP_SLACK;
   const firstLineIndent = indentOf(lines[0]!);
 
-  // A table check is needed here too: an indented TOC ("I  - Intro" / "  i - Sub")
-  // otherwise looks like a label + hanging body.
   const hang = detectHanging(lines, firstLineIndent);
-  if (hang !== null && !hasAlignedColumn(lines)) {
-    return { kind: "prose", reflow: { layout: "hanging", padLeft: hang, firstLineIndent } };
+  if (hang !== null) {
+    return {
+      kind: "prose",
+      reflow: {
+        layout: "hanging",
+        padLeft: hang,
+        firstLineIndent,
+        defaultOn: wrapped && nonSpace >= MIN_HANGING_CHARS,
+      },
+    };
   }
 
-  // Block paragraph: continuation lines must share one indent. The first line is
-  // free — it may be indented (paragraph indent) or outdented (hanging indent).
-  if (nonSpace < MIN_PROSE_CHARS) return ART; // too short to be a wrapped paragraph
+  // A run of box characters beside text is a floated box — a drawing with prose
+  // flowing next to it on the same lines:
+  //
+  //     +-------------------------------+  Finally, follow the road north then
+  //     | KINSTONE FUSION #09 PERFORMED |  west, and fuse Kinstones with the
+  //
+  // It sits just under the decorative threshold, so it reads as a wrapped
+  // paragraph and merges the borders into the prose. Checked only here, below the
+  // hanging path, so a label's "-----" underline still survives.
+  if (lines.some((l) => ART_RUN.test(l))) return ART;
+
+  // Block paragraph. Continuation lines sharing one indent is part of the evidence,
+  // not a precondition — without it we still offer the toggle, just switched off.
   const restIndents = lines.slice(1).map(indentOf);
-  if (!consistent(restIndents)) return ART;
   const padLeft = restIndents.length ? Math.min(...restIndents) : firstLineIndent;
-
-  if (hasAlignedColumn(lines)) return ART; // a table
-
-  return { kind: "prose", reflow: { layout: "block", padLeft, firstLineIndent } };
+  return {
+    kind: "prose",
+    reflow: {
+      layout: "block",
+      padLeft,
+      firstLineIndent,
+      defaultOn: wrapped && consistent(restIndents) && nonSpace >= MIN_PROSE_CHARS,
+    },
+  };
 }
 
 /**
