@@ -29,21 +29,27 @@ export function useArtFont(
   scrollRef: RefObject<HTMLElement | null>,
   artCols: number,
   fit: boolean,
-): number {
-  const [font, setFont] = useState(ART_FONT);
+): { size: number; measured: boolean } {
+  // `measured` matters: this can only run after a paint, so the size lands a render
+  // late and re-lays-out the document under anyone who acted on the first layout.
+  // Callers that care about position must wait for it.
+  const [state, setState] = useState({ size: ART_FONT, measured: false });
 
   useLayoutEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
+    const settle = (size: number) =>
+      setState((prev) => (prev.size === size && prev.measured ? prev : { size, measured: true }));
+
     if (!fit) {
-      setFont(ART_FONT);
+      settle(ART_FONT);
       return;
     }
     const compute = () => {
       const style = getComputedStyle(el);
       const available =
         el.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
-      setFont(
+      settle(
         fitFontSize({
           availablePx: available,
           cols: artCols,
@@ -59,5 +65,5 @@ export function useArtFont(
     return () => observer.disconnect();
   }, [scrollRef, artCols, fit]);
 
-  return font;
+  return state;
 }

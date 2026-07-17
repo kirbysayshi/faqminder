@@ -45,8 +45,8 @@ export function ReaderScreen({
   const [artFit, setArtFit] = useState(initialArtFit);
   const [searchOpen, setSearchOpen] = useState(false);
   const [optionsOpen, setOptionsOpen] = useState(false);
-  const artFont = useArtFont(scrollRef, doc.artCols, artFit);
-  useScrollBookmark(meta.id, scrollRef, initialAnchor);
+  const { size: artFont, measured } = useArtFont(scrollRef, doc.artCols, artFit);
+  useScrollBookmark(meta.id, scrollRef, initialAnchor, measured);
 
   // Anything that resizes text re-lays-out the whole document, so remember what was
   // under the top of the viewport BEFORE the change and put it back after —

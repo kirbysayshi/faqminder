@@ -7,24 +7,36 @@ const SAVE_THROTTLE_MS = 400;
 
 /**
  * Persistent auto-bookmark for the reader scroll region. Restores `initialAnchor`
- * before paint, then saves the anchor (throttled) on scroll and immediately when
- * the page is hidden/backgrounded — mobile tabs get purged without a scroll event.
+ * once the layout has settled, then saves the anchor (throttled) on scroll and
+ * immediately when the page is hidden/backgrounded — mobile tabs get purged
+ * without a scroll event.
+ *
+ * `settled` gates the restore: the art font is measured after a paint, so it
+ * re-lays-out the document a render later. Restoring before that lands puts the
+ * reader hundreds of blocks from where it left off.
  */
 export function useScrollBookmark(
   faqId: string,
   scrollRef: RefObject<HTMLElement | null>,
   initialAnchor: ReaderState | null,
+  settled: boolean,
 ): void {
+  // Restore is one-shot per document, and deliberately separate from the listeners
+  // below: re-running that effect would flush a save of wherever we hadn't restored
+  // to yet, overwriting the bookmark with the top of the document.
+  useLayoutEffect(() => {
+    const el = scrollRef.current;
+    if (!el || !settled || !initialAnchor) return;
+    applyAnchor(el, {
+      blockId: initialAnchor.scrollBlockId,
+      fraction: initialAnchor.scrollFraction,
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [faqId, settled]);
+
   useLayoutEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
-
-    if (initialAnchor) {
-      applyAnchor(el, {
-        blockId: initialAnchor.scrollBlockId,
-        fraction: initialAnchor.scrollFraction,
-      });
-    }
 
     let timer: ReturnType<typeof setTimeout> | undefined;
     const flush = () => {

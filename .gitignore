@@ -4,3 +4,4 @@ dist
 build
 .react-router
 scratch-shots
+.vitest-attachments

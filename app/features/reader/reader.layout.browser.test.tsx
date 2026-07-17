@@ -3,7 +3,7 @@ import { page } from "vitest/browser";
 // environment on for the whole test, so every state update driven by a REAL browser
 // event (which is the entire point of these tests) is reported as "not wrapped in
 // act". This renderer scopes act() to the render itself, then turns it back off.
-import { render } from "vitest-browser-react";
+import { cleanup, render } from "vitest-browser-react";
 import { MemoryRouter } from "react-router";
 import { beforeEach, describe, expect, it } from "vitest";
 import type { FaqMeta } from "~/domains/library";
@@ -183,6 +183,24 @@ describe("reader layout (real browser)", () => {
     await page.getByRole("searchbox").fill("mission");
     await expect.element(page.getByText(/\d+ matches/)).toBeVisible();
     await page.screenshot({ element: $("[data-reader-root]") });
+  });
+
+  it("restores the saved anchor at the SETTLED layout", async () => {
+    // The art font is measured in a layout effect, so it lands a render after the
+    // first paint and re-lays-out the whole document. Restoring before that settles
+    // leaves the reader somewhere else entirely.
+    await cleanup();
+    await render(
+      <MemoryRouter>
+        <ReaderScreen
+          meta={meta}
+          text={dw4}
+          initialAnchor={{ id: meta.id, scrollBlockId: 300, scrollFraction: 0, updatedAt: 0 }}
+        />
+      </MemoryRouter>,
+    );
+    await new Promise((r) => setTimeout(r, 400)); // let every measurement land
+    expect(topBlockId($("[data-reader-scroll]"))).toBe("300");
   });
 
   it("captures a screenshot of the reflowed reader", async () => {
