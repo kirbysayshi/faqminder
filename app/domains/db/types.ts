@@ -23,6 +23,7 @@ export interface ReaderState {
   id: string; // faqId
   scrollBlockId: number;
   scrollFraction: number; // 0..1 within that block
+  fontSize?: number; // per-document font size (px); ASCII width varies by doc
   updatedAt: number;
 }
 

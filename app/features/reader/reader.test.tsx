@@ -3,7 +3,9 @@ import { resolve } from "node:path";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { MemoryRouter } from "react-router";
-import { beforeEach, describe, expect, it } from "vitest";
+import { afterEach, beforeEach, describe, expect, it } from "vitest";
+import { db } from "~/domains/db";
+import { getReaderState } from "~/domains/reader";
 import type { FaqMeta } from "~/domains/library";
 import { ReaderScreen } from "./ReaderScreen";
 
@@ -27,16 +29,27 @@ function renderReader(text: string) {
 }
 
 describe("ReaderScreen", () => {
-  beforeEach(() => localStorage.clear());
+  beforeEach(() => db.readerState.clear());
+  afterEach(() => db.close({ disableAutoOpen: false }));
 
-  it("applies and steps the persisted font size", async () => {
+  it("applies and steps the per-document font size, persisting it", async () => {
     const user = userEvent.setup();
     const { container } = renderReader("hello");
     const scroll = container.querySelector<HTMLElement>("[data-reader-scroll]")!;
     expect(scroll.style.fontSize).toBe("14px");
     await user.click(screen.getByLabelText("Increase text size"));
     expect(scroll.style.fontSize).toBe("15px");
-    expect(localStorage.getItem("faqminder:reader-font")).toBe("15");
+    expect((await getReaderState("x"))?.fontSize).toBe(15);
+  });
+
+  it("honors an initial per-document font from storage", () => {
+    const { container } = render(
+      <MemoryRouter>
+        <ReaderScreen meta={meta} text={"hello"} initialFont={20} />
+      </MemoryRouter>,
+    );
+    const scroll = container.querySelector<HTMLElement>("[data-reader-scroll]")!;
+    expect(scroll.style.fontSize).toBe("20px");
   });
 
   it("renders each block as a verbatim, id-tagged <pre>", () => {

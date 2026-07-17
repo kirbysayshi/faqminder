@@ -92,6 +92,8 @@ try {
   await page.waitForTimeout(300);
   const restored = await page.locator("[data-reader-scroll]").evaluate((el) => el.scrollTop);
   check(`scroll restored on reload (saved ${savedTop}, restored ${restored})`, restored > 500);
+  const fontAfterReload = await page.locator("[data-reader-scroll]").evaluate((el) => el.style.fontSize);
+  check(`per-document font persisted across reload (${fontAfterReload})`, fontAfterReload === "15px");
 
   // --- Switch back to library ---
   await page.getByLabel("Back to library").click();

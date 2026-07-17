@@ -16,7 +16,7 @@ export async function clientLoader({ params }: Route.ClientLoaderArgs) {
   if (!meta || text === undefined) {
     throw new Response("FAQ not found", { status: 404 });
   }
-  return { meta, text, anchor: anchor ?? null, reflowOverrides };
+  return { meta, text, anchor: anchor ?? null, reflowOverrides, font: anchor?.fontSize };
 }
 
 export function meta({ loaderData }: Route.MetaArgs) {
@@ -32,6 +32,7 @@ export default function Faq({ loaderData }: Route.ComponentProps) {
       text={loaderData.text}
       initialAnchor={loaderData.anchor}
       initialReflowOverrides={loaderData.reflowOverrides}
+      initialFont={loaderData.font}
     />
   );
 }

@@ -1,10 +1,14 @@
-import { useAtomValue } from "jotai";
 import { useCallback, useMemo, useRef, useState } from "react";
 import { Link } from "react-router";
 import { parseDocument } from "~/lib/parse";
 import type { FaqMeta } from "~/domains/library";
 import { setReflowOverride } from "~/domains/document";
-import { readerFontAtom, type ReaderState } from "~/domains/reader";
+import {
+  clampFont,
+  DEFAULT_FONT,
+  saveFontSize,
+  type ReaderState,
+} from "~/domains/reader";
 import { BlockView } from "./BlockView";
 import { FormattingControls } from "./FormattingControls";
 import { SelectionSearch } from "./SelectionSearch";
@@ -13,22 +17,36 @@ import { useScrollBookmark } from "./useScrollBookmark";
 // The reader: a full-height column with a sticky header and a scroll region.
 // Blocks carry data-block-id for scroll-anchoring (P3) and selection jumps (P5).
 // Prose blocks auto-reflow (P6) unless the user has overridden per block.
+// Scroll anchor and font size are both per-document (persisted).
 export function ReaderScreen({
   meta,
   text,
   initialAnchor = null,
   initialReflowOverrides = {},
+  initialFont = DEFAULT_FONT,
 }: {
   meta: FaqMeta;
   text: string;
   initialAnchor?: ReaderState | null;
   initialReflowOverrides?: Record<number, boolean>;
+  initialFont?: number;
 }) {
   const doc = useMemo(() => parseDocument(text), [text]);
   const scrollRef = useRef<HTMLDivElement>(null);
-  const font = useAtomValue(readerFontAtom);
   const [overrides, setOverrides] = useState(initialReflowOverrides);
+  const [font, setFont] = useState(initialFont);
   useScrollBookmark(meta.id, scrollRef, initialAnchor);
+
+  const stepFont = useCallback(
+    (delta: number) => {
+      setFont((cur) => {
+        const next = clampFont(cur + delta);
+        if (next !== cur) void saveFontSize(meta.id, next);
+        return next;
+      });
+    },
+    [meta.id],
+  );
 
   const toggleReflow = useCallback(
     (blockId: number) => {
@@ -52,7 +70,7 @@ export function ReaderScreen({
           ‹
         </Link>
         <h1 className="min-w-0 flex-1 truncate text-sm font-medium">{meta.title}</h1>
-        <FormattingControls />
+        <FormattingControls size={font} onStep={stepFont} />
       </header>
 
       <div
