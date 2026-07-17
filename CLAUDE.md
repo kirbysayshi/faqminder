@@ -30,6 +30,8 @@
 - Full-app flows (routing, IndexedDB, reload): start dev in tmux, then `pnpm verify:e2e` (Playwright; reads `PORT`, default 5174). Offline/SW: `pnpm verify:offline` (builds, serves, cuts network).
 
 ## Deploy
-- Static SPA → GitHub Pages via `pnpm deploy:gh` (manual; no CI). Base path is `VITE_BASE` (default `/faqminder/`) in `vite.config.ts` + `react-router.config.ts`. `build/client/404.html` is the SPA deep-link fallback (copied from `index.html` at build).
+- Static SPA → GitHub Pages. `pnpm deploy:gh` (`scripts/deploy.sh`) is the only way to ship: it runs typecheck → tests → depcruise → e2e → offline, and deploys **the artifact those checks ran against**. `pnpm check` is the same without deploying. No CI.
+  - It starts its own dev server for the e2e step and **reads the port from that server's output** (another Vite may hold 5173/5174). `set -m` + killing the process group means it only ever kills its own server — never pattern-kill `react-router dev`, that would take out a tmux dev server.
+- Base path is `VITE_BASE` (default `/faqminder/`) in `vite.config.ts` + `react-router.config.ts`. `build/client/404.html` is the SPA deep-link fallback (copied from `index.html` at build).
 - **The base path's trailing slash is load-bearing.** RR requires `basename` to begin with Vite's `base`, and without the trailing slash SPA mode *silently* stops emitting `build/client/index.html`. Consequence: the router matches `/faqminder/` but not `/faqminder` — the slash is added by an HTTP redirect (GitHub Pages does this for directory URLs; `vite.config.ts`'s `baseRedirect` plugin mirrors it in dev). Don't "fix" this by trimming the basename.
 - Service worker (offline shell) is generated post-build by `scripts/build-sw.mjs` (Workbox), NOT vite-plugin-pwa — the plugin fights RR framework mode's per-environment `build/client` outDir. Registered client-only in `root.tsx` (prod).
