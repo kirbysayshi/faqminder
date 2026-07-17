@@ -1,0 +1,684 @@
+blocks: 682  art: 476  prose-block: 201  prose-hanging: 5
+--------------------------------------------------------------------------------
+#0000 art                 L10  |                                                 ___     ___
+#0001 art                 L6   |           _____    ______    _________   _/___\      |        ||
+#0002 art                 L2   |                       Alamedyang's Ultimate Guide to
+#0003 art                 L1   |                       WALKTHROUGH AND TRANSLATIONS
+#0004 art                 L2   |                         by Alamedyang 2001-2014
+#0005 art                 L5   | *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+#0006 art                 L6   |  --------------------------------------------
+#0007 art                 L14  |  --------------------------------------------
+#0008 art                 L13  |  --------------------------------------------
+#0009 art                 L8   |  --------------------------------------------
+#0010 block   f=0  p=3  L6   ( 138) | Extras on the second island (GB2): [4e] - Game Center [4f] - Challenge Hall [4g] - Mr. Ishihara'
+#0011 art                 L11  |  --------------------------------------------
+#0012 art                 L13  |  --------------------------------------------
+#0013 art                 L12  |  --------------------------------------------
+#0014 art                 L5   |  --------------------------------------------
+#0015 art                 L5   |  --------------------------------------------
+#0016 art                 L5   | *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+#0017 art                 L3   | =========================================================================
+#0018 art                 L4   | The story is pretty generic -- you are a card player who quests to:
+#0019 block   f=0  p=0  L4   ( 227) | Playing a match is exactly the same as the real-life Pokemon Trading Card Game rules (original r
+#0020 art                 L15  |  --------------------------------------------
+#0021 art                 L7   |  --------------------------------------------
+#0022 block   f=0  p=0  L9   ( 599) | The best way to get a physical copy of the game is to go to someplace like http://auctions.yahoo
+#0023 art                 L9   |  --------------------------------------------
+#0024 art                 L3   | =========================================================================
+#0025 block   f=0  p=0  L3   ( 160) | Scumming is the technique of controlled saving and reseting the game (turning the Gameboy off an
+#0026 block   f=0  p=0  L2   (  98) | In this guide, when such an opportunity arises, I will make a note surrounded by pound signs. (#
+#0027 block   f=0  p=0  L4   ( 243) | It's possible to scum during a duel for game-changing results (depending on exact circumstances,
+#0028 art                 L5   |  --------------------------------------------
+#0029 block   f=0  p=0  L3   ( 220) | The game does not save until you leave the screen depicting your current action, so if you make 
+#0030 art                 L8   |  --------------------------------------------
+#0031 block   f=0  p=0  L6   ( 394) | On the same note, if you use Gambler and get tails then reset because you'd rather not waste the
+#0032 block   f=0  p=0  L6   ( 423) | One example of how to take advantage of this is to prevent Confusion damage. After you attack wh
+#0033 block   f=0  p=0  L8   ( 560) | Another way to exploit this system is to "save the heads" for when it matters. Say you are using
+#0034 art                 L8   |  --------------------------------------------
+#0035 art                 L5   |  --------------------------------------------
+#0036 art                 L6   | -- MAIL
+#0037 art                 L4   | -- GIFTS
+#0038 block   f=0  p=0  L3   ( 204) | Early in the game, if you are experienced with the whole spectrum of cards, it may be beneficial
+#0039 art                 L9   |  --------------------------------------------
+#0040 art                 L3   | =========================================================================
+#0041 art                 L3   |  --------------------------------------------
+#0042 block   f=0  p=0  L2   ( 128) | When Pokemon was adapted to a card game, each of the fifteen (at the time) Element types were ad
+#0043 art                 L26  | ------------------------------------------------------
+#0044 block   f=0  p=0  L3   ( 179) | * Flying can be a secondary subtype -- just add Fighting Resistance to whatever color the Flying
+#0045 block   f=0  p=0  L2   ( 125) | NOTE: The Legendary birds -- Articuno, Zapdos, Moltres -- don't have a Weakness. (They're all Re
+#0046 block   f=0  p=0  L2   ( 119) | Except for Jynx, Ice type Pokemon were always Water types also (in the original RPG) so this typ
+#0047 art                 L3   |  --------------------------------------------
+#0048 block   f=0  p=0  L2   (  99) | There are two (good) conventions for identifying two different cards that feature the same Pokem
+#0049 art                 L2   | 1) by expansion set (what people tend to do in the IRL Pokemon TCG)
+#0050 block   f=0  p=0  L6   ( 397) | Rather than pick one system or the other this guide uses both: a card will be identified first b
+#0051 block   f=0  p=0  L4   ( 248) | Exceptions: If there is only one card for a Pokemon, like Exeggutor, I simply say "Exeggutor" an
+#0052 art                 L5   | *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+#0053 art                 L16  |                                 /=\
+#0054 block   f=0  p=0  L7   ( 482) | There are many ways to go through the story; I'm presenting it here in the most convienient orde
+#0055 block   f=0  p=0  L7   ( 483) | NOTE: This guide will use the Japanese names of the Clubs and people. In the English version of 
+#0056 art                 L23  |                     +-------------------+
+#0057 art                 L3   | =========================================================================
+#0058 art                 L3   | When you start the game             After you've saved and
+#0059 art                 L10  | ================                    ================ @@@@@@
+#0060 art                 L4   |  --------------------------------------------
+#0061 art                 L8   | A = talk to someone
+#0062 art                 L6   |  --------------------------------------------
+#0063 block   f=0  p=0  L5   ( 289) | Now you get to pick a name. You can choose between Japanese kana (hiragana and katakana), and th
+#0064 art                 L2   | Then you will be requested to confirm your choice of name and gender
+#0065 art                 L10  |  --------------------------------------------
+#0066 art                 L7   |  --------------------------------------------
+#0067 block   f=0  p=0  L5   ( 345) | Rando, your longtime rival, exchanges words with you, then you go up to speak with Dr. Ooyama, w
+#0068 art                 L1   | ## IF SCUMMING, SAVE BEFORE LEAVING THE LABORATORY. See section 1c. ##
+#0069 block   f=0  p=0  L5   ( 346) | (At this point I recommend turning the text speed all the way up to five. You can do this by goi
+#0070 block   f=0  p=0  L4   ( 226) | The first time you try to leave the Lab, Dr. Ooyama will call you back and say it would be best 
+#0071 block   f=0  p=0  L2   ( 126) | If you want to get a jump on the game and not do any "training" please skip to section 2b. Other
+#0072 art                 L21  |  --------------------------------------------
+#0073 art                 L22  | I would recommend playing Arai-Mon at each step several times to get used
+#0074 art                 L23  |  --------------------------------------------
+#0075 block   f=0  p=0  L2   ( 110) | You won! However, you don't get a booster reward for winning when you play with Dr. Ooyama's hel
+#0076 art                 L3   | =========================================================================
+#0077 block   f=0  p=0  L3   ( 167) | Rando will appear in the first club you enter and CardPop! you. (To CardPop!, press the A button
+#0078 block   f=0  p=0  L2   ( 120) | ## If scumming, reset the game AFTER the picture of the card appears but BEFORE the screen retur
+#0079 block   f=0  p=0  L3   ( 173) | After you CardPop! him, a new option will appear on the opening menu when you start up the game,
+#0080 block   f=0  p=0  L3   ( 202) | Rando will appear again to confront you at several key points in this part of the story; for tho
+#0081 art                 L3   | =========================================================================
+#0082 art                 L11  |  --------------------------------------------
+#0083 art                 L1   | Now you should go to the Battle Club to take on your first GR opponent!
+#0084 art                 L28  |  --------------------------------------------
+#0085 art                 L3   | =========================================================================
+#0086 art                 L6   |  --------------------------------------------
+#0087 block   f=0  p=0  L3   ( 191) | In the side room, Masahiro is just outside the entrance, and begs you to defeat GR#1. (Answer "y
+#0088 art                 L15  | The GR will come straight here after he leaves the Stone Club. Go ahead
+#0089 block   f=0  p=0  L4   ( 270) | This guy is a sinch to deal with. His Voltorb, Magnemite, and Pikachu can all get OHKO'ed by a M
+#0090 art                 L7   |  --------------------------------------------
+#0091 block   f=0  p=0  L4   ( 223) | Once you leave the Battle Club comepletely, the three Battle Club Members will be assembled in t
+#0092 art                 L33  |  --------------------------------------------
+#0093 art                 L3   | =========================================================================
+#0094 art                 L5   |  --------------------------------------------
+#0095 block   f=0  p=0  L4   ( 277) | The Club Members are hiding in the side room. Talk to Haruna, the girl in red in the upper left.
+#0096 block   f=0  p=0  L3   ( 152) | Talk to Misao next, the girl with the long purple hair. She'll give you an Omanyte (3) Pack, and
+#0097 block   f=0  p=0  L6   ( 408) | Ayako, the girl at the table, won't tell you anything until you defeat her in a duel -- I recomm
+#0098 art                 L3   | -- AT MR. ISHIHARA'S HOUSE
+#0099 block   f=0  p=0  L3   ( 172) | Now you need to find GR#2 -- he's either in the Science Club top room or the Green Club top room
+#0100 art                 L35  |  --------------------------------------------
+#0101 art                 L3   | =========================================================================
+#0102 art                 L5   |  --------------------------------------------
+#0103 art                 L15  | GR#2 is toward the top of the Top Room. (I'm pretty sure he was in the
+#0104 art                 L16  |  --------------------------------------------
+#0105 block   f=0  p=0  L2   ( 145) | After you leave the Club completely, all the people in the Green Club and the Science Club will 
+#0106 art                 L36  |  --------------------------------------------
+#0107 art                 L3   | =========================================================================
+#0108 art                 L15  |  --------------------------------------------
+#0109 art                 L5   |  --------------------------------------------
+#0110 art                 L1   | ## If scumming, save before leaving the Top Room. ##
+#0111 art                 L2   | When you go into the foyer, Rando will give you a Moltres (2) Pack. Nice
+#0112 art                 L32  |  --------------------------------------------
+#0113 art                 L3   | =========================================================================
+#0114 art                 L4   |  --------------------------------------------
+#0115 art                 L7   | GR#3 has all the Fire Club trapped in some sort of cage.
+#0116 art                 L5   |  --------------------------------------------
+#0117 art                 L41  |  --------------------------------------------
+#0118 art                 L3   | =========================================================================
+#0119 art                 L8   |  --------------------------------------------
+#0120 block   f=0  p=0  L3   ( 153) | Defeat him, and GR#4 will flee to the Esper Club, where you'll have to do the same thing again..
+#0121 art                 L45  |  --------------------------------------------
+#0122 art                 L3   | =========================================================================
+#0123 art                 L5   |  --------------------------------------------
+#0124 block   f=0  p=0  L5   ( 299) | One big difference between Miura and everyone else in the whole entire game is that if you say "
+#0125 art                 L12  | Anyway, after you defeat him, he loses his temper big time, and slams you
+#0126 art                 L4   |  --------------------------------------------
+#0127 block   f=0  p=0  L3   ( 202) | Once you defeat him, you'll have completed the GR Coin at last! Now you can access the airport, 
+#0128 block   f=0  p=0  L3   ( 178) | ** NOTICE: After the GR Coin is complete, the GB1 Challenge Hall (1st challenge) becomes availab
+#0129 art                 L51  |  --------------------------------------------
+#0130 art                 L3   | =========================================================================
+#0131 block   f=0  p=0  L2   ( 131) | Once you have the completed GR coin, you can talk to the purple-hooded GR in the second room and
+#0132 block   f=0  p=0  L3   ( 184) | Your first trip on the blimp will be a long one, but the animation of each trip afterwards can b
+#0133 art                 L5   | *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+#0134 art                 L36  |                                      GB-2 ISLAND      P
+#0135 block   f=0  p=0  L2   (  99) | Welcome to GB2 Island! You'll notice right away that this place is more impressive than GB1 Isla
+#0136 block   f=0  p=0  L4   ( 239) | This island is a lot more linear than the first island, as well -- you will have less control ov
+#0137 block   f=0  p=0  L5   ( 303) | First of all, I would recommend paying a visit to the Game Center, as it's a good place to get M
+#0138 block   f=0  p=0  L3   ( 194) | If you choose to go to the Game Center, Rando will give you a Bill's Computer in the foyer. (He 
+#0139 art                 L3   | =========================================================================
+#0140 art                 L8   | When you enter the foyer of the GR Grass Fort, you will be approached by
+#0141 block   f=0  p=0  L3   ( 163) | After the duel, he'll reveal his true identity -- Rando! He's one step ahead of you again, and i
+#0142 art                 L6   |  --------------------------------------------
+#0143 block   f=0  p=0  L2   ( 126) | Once defeated, Midori will turn Kurushima loose, who will give you a Kuishimbo (Hungry) Snorlax 
+#0144 art                 L1   | Keep going up and fight everyone.
+#0145 block   f=0  p=0  L2   ( 129) | Yuuta, the second Fort Minion, was the face behind the mask of GR#1 way back at the beginning. (
+#0146 block   f=0  p=0  L7   ( 458) | In the third room is Miyuki, the first opponent who will require your deck to contain certain ca
+#0147 art                 L30  |  --------------------------------------------
+#0148 art                 L3   | =========================================================================
+#0149 block   f=0  p=0  L3   ( 161) | Once you have defeated Morino you will receive the Golbat Coin, which can be used to unlock the 
+#0150 art                 L6   |  --------------------------------------------
+#0151 block   f=0  p=0  L3   ( 191) | ** NOTICE: The 1st challenge at the GB1 Challenge Hall ends (if you haven't done the challenge y
+#0152 block   f=0  p=0  L3   ( 177) | In the second room you will meet Ichikawa, aka GR#3, who's captured Grand Master Steve. Defeat I
+#0153 block   f=0  p=0  L2   ( 119) | ** NOTICE: After you defeat Catherine, the GR Island's Challenge Hall will hold its 1st challeng
+#0154 art                 L30  |  --------------------------------------------
+#0155 art                 L3   | =========================================================================
+#0156 block   f=0  p=0  L3   ( 190) | You can enter the GR Fire Fort once you have the Magnemite Coin from the GR Lightning Fort. Pres
+#0157 block   f=0  p=0  L3   ( 206) | At this point in the game, your path opens up -- you can do the GR Fire Fort or the GR Water For
+#0158 art                 L4   |  --------------------------------------------
+#0159 block   f=0  p=0  L3   ( 193) | The third Fort Minion, Shouko, has Grand Master Hiroko stranded on an island in the middle of a 
+#0160 block   f=0  p=0  L3   ( 203) | ** NOTICE: After you defeat Hiderou (the Fort Master), the 2nd challenge at the GB1 Challenge Ha
+#0161 block   f=0  p=0  L3   ( 187) | ** ANOTHER NOTICE: If you've already defeated the GR Water Fort Master, your defeat of Hiderou w
+#0162 art                 L18  | When you go to leave the Fort, Rando will fight you, so be sure and
+#0163 art                 L28  |  --------------------------------------------
+#0164 art                 L3   | =========================================================================
+#0165 block   f=0  p=0  L2   ( 115) | Like the GR Fire Fort, you can enter the GR Water Fort once you have the Magnemite Coin from the
+#0166 art                 L1   | (A reminder: you can do this Fort or the GR Fire Fort in any order.)
+#0167 art                 L4   |  --------------------------------------------
+#0168 block   f=0  p=0  L2   ( 139) | In the second room, Senta has Grand Master Kanekouji trapped behind a waterfall. When you set hi
+#0169 block   f=0  p=0  L5   ( 291) | ** NOTICE: If you've been following my guide to the letter (that is, if you've already defeated 
+#0170 art                 L24  |  --------------------------------------------
+#0171 art                 L3   | =========================================================================
+#0172 block   f=0  p=0  L3   ( 192) | To open the door you'll need two coins: the Magmar Coin from the GR Fire Fort and the Psyduck Co
+#0173 block   f=0  p=0  L4   ( 253) | This place is a maze. The Xs mark the pitfall traps, which are invisible until you step on them 
+#0174 block   f=0  p=0  L2   ( 100) | Around the maze are chests that contain boosters and other cards. I'd recommend getting all of t
+#0175 block   f=0  p=0  L2   ( 108) | ## Save before opening the chests with boosters, and then reset the game if you don't get cards 
+#0176 art                 L30  | +========+                                           ==============
+#0177 art                 L6   |  --------------------------------------------
+#0178 block   f=0  p=0  L2   ( 136) | Yamaguchi, Fighting Club Master, is being held captive in Gouda's room. Release him (defeat Goud
+#0179 block   f=0  p=0  L3   ( 194) | ** NOTICE: Defeat Kamiya here, and the 2nd challenge at GR Island's Challenge Hall becomes avail
+#0180 block   f=0  p=0  L2   ( 122) | When you defeat Kamiya, you'll get the Machamp coin, with which you can open the door in the bac
+#0181 art                 L2   | When you leave this Fort, Rando will come and taunt you for a minute
+#0182 art                 L29  |  --------------------------------------------
+#0183 art                 L3   | =========================================================================
+#0184 art                 L2   | You won't be able to even come over here before you open the back door
+#0185 art                 L2   | This Fort and the Colorless Altar are interchangable -- you can do them
+#0186 art                 L7   |  --------------------------------------------
+#0187 block   f=0  p=0  L2   ( 135) | ** NOTICE: The 2nd challenge at the GB1 Challenge Hall will end (if you haven't done it yet) wit
+#0188 block   f=0  p=0  L3   ( 184) | ** ANOTHER NOTICE: The 2nd challenge at GR Island's Challenge Hall will also stop being availabl
+#0189 block   f=0  p=0  L2   ( 120) | Grand Master Ryuudoo is being held by Mami. Defeat Mami to set him free, and he'll reward you wi
+#0190 art                 L6   | -- IMPORTANT!
+#0191 art                 L57  |  --------------------------------------------
+#0192 art                 L3   | =========================================================================
+#0193 art                 L2   | You won't be able to even come over here before you open the back door
+#0194 art                 L2   | This Altar and the GR Psychic Stronghold are interchangable in terms of
+#0195 art                 L6   |  --------------------------------------------
+#0196 block   f=0  p=0  L3   ( 194) | NOTE: If for some reason you fight Ishii without defeating the other two first, you can go and d
+#0197 block   f=0  p=0  L6   ( 395) | As a note, all three people have deck requirements that change randomly. section B2 contains ASC
+#0198 art                 L44  |  --------------------------------------------
+#0199 art                 L3   | =========================================================================
+#0200 block   f=0  p=0  L4   ( 236) | At some point, you're going to have to fight the Grand Masters. They're all available to fight a
+#0201 art                 L2   | Anyway, for this part, you'll have to go back to the first island, and
+#0202 art                 L4   |  --------------------------------------------
+#0203 block   f=0  p=0  L3   ( 174) | To begin the Final Cup, you must talk to Ryuudo -- the second guy from the left -- and say "Yes"
+#0204 art                 L40  | These guys are tough, and you must fight them one after each other. (You
+#0205 art                 L7   |  --------------------------------------------
+#0206 art                 L1   | Now, head back to the Second Island.
+#0207 art                 L3   | =========================================================================
+#0208 art                 L1   | Time to take on the King!
+#0209 block   f=0  p=0  L3   ( 211) | Once you have the Mew Coin (from the GR Psychic Stronghold) and the Snorlax Coin (from the Color
+#0210 art                 L14  |  --------------------------------------------
+#0211 block   f=0  p=0  L3   ( 173) | Once inside, the first Rocket Executive will ask to fight you. (You can say "no.") His deck requ
+#0212 block   f=0  p=0  L3   ( 182) | When you win, the other Rocket Executive will ask to fight. (You can also say "no" to her.) She 
+#0213 block   f=0  p=0  L7   ( 473) | After her defeat, they bring you to the King himself -- the Great King Biruricchi. (He'll ask yo
+#0214 art                 L27  |  --------------------------------------------
+#0215 art                 L8   |       Deck: Poison Mist Deck
+#0216 art                 L11  |       Deck: Ultra Remove Deck
+#0217 art                 L23  |       Deck: Psychic Battle Deck
+#0218 art                 L4   |  Deck: Stop Life! Deck
+#0219 art                 L3   |  Deck: Scorcher! Deck
+#0220 art                 L3   |  Deck: Tsunami Starter! Deck
+#0221 art                 L3   |  Deck: Smash to Mincemeat! Deck
+#0222 art                 L3   | =========================================================================
+#0223 art                 L5   | You've done it! It was tough but worth it, wasn't it? Now sit back and
+#0224 block   f=0  p=0  L3   ( 211) | Of course, the game isn't *really* over. There's tons more to do, if only to collect whatever ca
+#0225 art                 L5   | *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+#0226 block   f=0  p=0  L2   ( 111) | These are things you could very well want to do during the course of your game but are not criti
+#0227 art                 L3   | =========================================================================
+#0228 block   f=0  p=0  L4   ( 249) | Mr. Ishihara is named after one of the producers of the original Pokemon RPGs and a major force 
+#0229 art                 L10  |  --------------------------------------------
+#0230 art                 L6   |  --------------------------------------------
+#0231 block   f=0  p=0  L2   ( 138) | After he trades you those three cards, he'll move to the second island, where you can meet him a
+#0232 art                 L3   | =========================================================================
+#0233 hanging f=0  p=18 L3   ( 158) | Side Room Trade = Fossil Graveler Lv29 --> Jungle Wigglytuff Lv36 then Fossil Omanyte Lv19 --> F
+#0234 block   f=0  p=0  L3   ( 159) | The Challenge Cup will pit you against three random opponents, between which you can save and ch
+#0235 block   f=0  p=0  L3   ( 193) | Various challenges are available during the course of gameplay. If you miss one, you'll have ano
+#0236 art                 L1   | The below information was taken from the Official Guidebook.
+#0237 art                 L6   |  --------------------------------------------
+#0238 art                 L20  | -- POSSIBLE OPPONENTS (four prizes)
+#0239 art                 L2   | -- REWARD
+#0240 art                 L6   |  --------------------------------------------
+#0241 art                 L2   | -- POSSIBLE OPPONENTS, FIRST TWO ROUNDS
+#0242 art                 L2   | -- POSSIBLE OPPONENTS, LAST ROUND
+#0243 art                 L2   | -- REWARD
+#0244 art                 L6   |  --------------------------------------------
+#0245 art                 L2   | -- POSSIBLE OPPONENTS, FIRST TWO ROUNDS
+#0246 art                 L2   | -- POSSIBLE OPPONENTS, LAST ROUND
+#0247 art                 L17  | -- POSSIBLE REWARDS
+#0248 block   f=0  p=0  L2   ( 125) | ** If you win the extra Challenge Cups 10 times, you will receive the Ponyta Coin (for page thre
+#0249 art                 L3   | =========================================================================
+#0250 art                 L6   |  --------------------------------------------
+#0251 block   f=0  p=0  L5   ( 320) | After the Great Rocket King Biruricchi's defeat, Dr. Ooyama installs a Challenge Machine: a mach
+#0252 art                 L6   |  --------------------------------------------
+#0253 art                 L8   |  --------------------------------------------
+#0254 art                 L3   | =========================================================================
+#0255 art                 L2   | ** Before the first island is liberted, GR#5 hangs out here. You can't
+#0256 art                 L23  | As you rescue the Grand Masters, they will appear here. (It's where they
+#0257 art                 L6   | Once you rescue them all, the Final Cup opens, and you can win one copy
+#0258 art                 L5   |  --------------------------------------------
+#0259 block   f=0  p=0  L3   ( 210) | Unlike the other Cups, the Grand Masters Cup is a standard elimination tournament. The other con
+#0260 block   f=0  p=0  L4   ( 262) | If you win, you'll be shown four promos, and allowed to keep two. Any promo in the game is a pos
+#0261 art                 L1   | (This information came from the GB2 Official GuideBook.)
+#0262 art                 L3   | =========================================================================
+#0263 art                 L21  |                 +--------------+  +-------------+
+#0264 art                 L9   | 1 = This guy will keep you from leaving if you still have chips in your
+#0265 block   f=0  p=0  L6   ( 428) | The best way to get chips, in my opinion, is the Coin Flip game. It only takes a lucky streak or
+#0266 art                 L6   |  --------------------------------------------
+#0267 art                 L7   |   ==<PLAYER>'s CHIPS====XXX=
+#0268 block   f=0  p=0  L6   ( 375) | Along the top it shows how many chips you have left. To purchase a prize, select what you want a
+#0269 art                 L12  |  --------------------------------------------
+#0270 art                 L6   | The card Bill's Computer can be received at various places: 1) Rando gives you one in the Game C
+#0271 art                 L8   |  --------------------------------------------
+#0272 art                 L11  | 1. You the cards you get in the mail will be of greater or equal value
+#0273 art                 L2   | Also see section B1, which contains a list Promo "recipes" for the
+#0274 block   f=0  p=0  L2   ( 132) | On an interesting note, if you send in 5 Promos, you'll get the same 5 Promos back with a few ot
+#0275 art                 L8   |  ---------------------------------------------
+#0276 art                 L8   |    3 flips = 20 chips    = 1/8 chance (12.5%)     = 2.5 chips avg.
+#0277 block   f=0  p=0  L4   ( 244) | Unlike real life where casinos make a clear profit overall, the chances of winning any chips bac
+#0278 block   f=0  p=0  L3   ( 184) | If you're just starting out (and only have 10 chips) it won't hurt to try this game a few times.
+#0279 art                 L6   |  --------------------------------------------
+#0280 art                 L12  | Remember, if you run out of coins, talk to the lady marked 3 on the map
+#0281 art                 L13  | A Bonus Game changes the slots from Energies to Legendary Pokemon and
+#0282 art                 L6   |  --------------------------------------------
+#0283 block   f=0  p=0  L7   ( 498) | To progress, talk to each opponent, and they will ask you to battle. (No is default and if selec
+#0284 art                 L63  | If you bet the highest amount and win all the time (save before
+#0285 art                 L3   | =========================================================================
+#0286 art                 L1   | Side Room Trade = Base Chansey Lv55 --> Bill's Computer
+#0287 block   f=0  p=0  L3   ( 210) | The Challenge Cup here is just like the one on the first island -- you'll be put against three r
+#0288 block   f=0  p=0  L2   ( 133) | Note that opponents with extra rules will still play with those extra rules in the Challenge Hal
+#0289 block   f=0  p=0  L3   ( 193) | Various challenges are available during the course of gameplay. If you miss one, you'll have ano
+#0290 art                 L1   | The below information was taken from the Official Guidebook.
+#0291 art                 L7   |  --------------------------------------------
+#0292 art                 L3   | -- POSSIBLE OPPONENTS (four prizes)
+#0293 art                 L2   | -- REWARD
+#0294 art                 L6   |  --------------------------------------------
+#0295 art                 L3   | -- POSSIBLE OPPONENTS (four prizes)
+#0296 art                 L2   | -- REWARD
+#0297 art                 L5   |  --------------------------------------------
+#0298 art                 L2   | -- POSSIBLE OPPONENTS, FIRST TWO ROUNDS
+#0299 art                 L3   | -- POSSIBLE OPPONENTS, LAST ROUND
+#0300 art                 L2   | -- POSSIBLE REWARDS
+#0301 block   f=0  p=0  L2   ( 110) | If you win the King Cup 10 times, you will receive the Horsea Coin (for page three of the Event 
+#0302 art                 L8   |  --------------------------------------------
+#0303 art                 L3   | =========================================================================
+#0304 art                 L1   | ** See section 4a on how to make Ishihara trade with you. **
+#0305 block   f=0  p=0  L3   ( 145) | After you finish trading with Ishihara on the first Island, he'll move to his second house on th
+#0306 art                 L7   |  --------------------------------------------
+#0307 block   f=0  p=0  L3   ( 188) | Occasionally he'll return to the first island to study, but he'll come back eventually, so don't
+#0308 art                 L14  | After the last trade, he'll let you duel him:
+#0309 block   f=0  p=0  L2   ( 101) | If Ishihara can't be found, save and reset the game -- he'll return. (If not, lather, rinse, rep
+#0310 art                 L3   | =========================================================================
+#0311 block   f=0  p=0  L2   ( 142) | The doors will not be unsealed until you defeat the Great Rocket King Biruricchi a second time. 
+#0312 block   f=0  p=0  L3   ( 164) | Why are they ghosts? And why do they have cards? The world may never find out, but in the meanti
+#0313 art                 L99  | These guys are tough. Their decks embody deck archetypes from across
+#0314 art                 L3   | =========================================================================
+#0315 block   f=0  p=0  L6   ( 430) | Imakuni? (yes, the question mark is part of his name) is a pop singer in Japan known for doing a
+#0316 block   f=0  p=0  L5   ( 287) | Imakuni? appears in the side room of any Club or Fort. You'll notice right away if you have soun
+#0317 block   f=0  p=0  L3   ( 169) | There are actually two... uh, varieties of Imakuni? -- one in a black suit that can be found on 
+#0318 art                 L5   |  --------------------------------------------
+#0319 art                 L4   | To "unlock" Imakuni?, you must talk to one of the following people:
+#0320 art                 L2   | (You don't have to restart your game after "unlocking" to make him
+#0321 art                 L13  | If you encounter him before you assemble the GR Coin he'll CardPop! you.
+#0322 art                 L2   | -- FIRST and SECOND WIN REWARDS
+#0323 art                 L2   | -- THIRD WIN REWARDS
+#0324 art                 L2   | -- FOURTH and FIFTH WIN REWARDS
+#0325 art                 L2   | -- SIXTH WIN REWARD
+#0326 art                 L2   | -- SEVENTH and EIGHTH WIN REWARDS
+#0327 art                 L2   | -- NINTH WIN REWARD
+#0328 art                 L3   | -- TENTH+ WIN REWARDS
+#0329 art                 L6   |  --------------------------------------------
+#0330 art                 L12  | (He also doesn't seem to hang out in Forts you haven't unlocked yet.
+#0331 art                 L2   | -- FIRST and SECOND WIN REWARDS
+#0332 art                 L2   | -- THIRD WIN REWARD
+#0333 art                 L2   | -- FOURTH and FIFTH WIN REWARDS
+#0334 art                 L2   | -- THIRD WIN REWARD
+#0335 art                 L3   | -- SEVENTH and EIGHTH WIN REWARDS
+#0336 art                 L2   | -- NINTH WIN REWARD
+#0337 art                 L2   | -- TENTH+ WIN REWARDS
+#0338 art                 L5   | *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+#0339 block   f=0  p=0  L5   ( 327) | This section is designed to help non-Japanese readers navigate the game. If you are playing in a
+#0340 art                 L3   | =========================================================================
+#0341 art                 L9   | Throughout the Game, you will encounter Yes-No questions. It can be
+#0342 art                 L2   |     Yes = "hai"                        No = "iie"
+#0343 block   f=0  p=0  L2   ( 139) | The least committal choice is selected by default, and this is usually "No" -- but not always --
+#0344 art                 L3   | =========================================================================
+#0345 block   f=0  p=0  L3   ( 179) | Pressing START during any part of the game (except the duels) will bring you to the main menu, w
+#0346 art                 L9   | ============
+#0347 art                 L3   | -- STATUS
+#0348 art                 L4   | -- DIARY
+#0349 art                 L2   | -- DECK
+#0350 art                 L2   | -- MINICOM
+#0351 art                 L4   | -- COINS
+#0352 art                 L2   | -- OPTIONS
+#0353 art                 L3   | =========================================================================
+#0354 block   f=0  p=0  L3   ( 199) | There are four slots: one for each deck. You may have 1-4 decks at a time, but never 0. The icon
+#0355 block   f=0  p=0  L2   ( 118) | Use the up-down arrow buttons to select a deck. If you press A, the following 4-option menu will
+#0356 art                 L4   | ============================
+#0357 art                 L2   | -- EDIT DECK
+#0358 art                 L3   | -- SELECT DECK
+#0359 art                 L2   | -- CHANGE NAME
+#0360 art                 L2   | -- STOP
+#0361 block   f=0  p=0  L3   ( 187) | Pressing B will remove the 4-option screen for that deck, and allow you to choose another deck s
+#0362 art                 L3   | =========================================================================
+#0363 block   f=0  p=0  L3   ( 186) | Use the right-left buttons to scroll between the card type sections represented as boxed icons i
+#0364 block   f=0  p=0  L4   ( 273) | Use the up and down buttons to go down into one of the sections and browse through all the cards
+#0365 block   f=0  p=0  L5   ( 323) | To see what a card looks like, press A, then use the left and right arrow buttons to scroll betw
+#0366 block   f=0  p=0  L6   ( 396) | To change the amount of that card in your deck, press the left-right buttons while that card is 
+#0367 block   f=0  p=0  L2   ( 100) | Pressing B when at the very basic navigation will take you to a totally different screen in 2 bo
+#0368 art                 L11  | ===========================
+#0369 block   f=0  p=0  L2   ( 142) | NOTE: The items in the second box don't really do anything, they just summarize the content of y
+#0370 art                 L3   | -- CHECK
+#0371 art                 L3   | -- CONTINUE
+#0372 art                 L2   | -- NAME
+#0373 art                 L9   | -- SAVE
+#0374 art                 L6   | -- DISMANTLE
+#0375 art                 L2   | -- STOP
+#0376 art                 L3   | =========================================================================
+#0377 art                 L10  | =========================
+#0378 art                 L2   | -- DECK SAVE MACHINE
+#0379 art                 L11  | -- MAILBOX
+#0380 art                 L4   | -- CARDS
+#0381 art                 L2   | -- SWITCH OFF
+#0382 art                 L3   | =========================================================================
+#0383 block   f=0  p=0  L3   ( 182) | There are 50 slots in the Deck Save Machine to save decks. The Deck Save Machine you carry with 
+#0384 art                 L1   | In viewing a list of saved decks, the following symbols will occur:
+#0385 art                 L2   |    CIRCLE TO THE FAR RIGHT OF THE DECK NAME
+#0386 art                 L4   |    DOTTED "X" WITH A NUMBER
+#0387 art                 L3   |    X WITH A NUMBER IN THE VERY FAR SIDE
+#0388 block   f=0  p=0  L2   ( 132) | Once you have used the up and down arrow buttons to select a deck, press A and the lower box wil
+#0389 art                 L4   | =============================
+#0390 art                 L6   | -- SAVE DECK
+#0391 art                 L6   | -- CONSTRUCT DECK
+#0392 art                 L3   | -- DELETE SLOT
+#0393 art                 L3   | =========================================================================
+#0394 art                 L13  | = MESSAGE SPEED ===============
+#0395 art                 L2   | MESSAGE SPEED should always be on 5. This ensures instant text in message
+#0396 block   f=0  p=0  L3   ( 176) | When DUEL ANIMATION is on NONE, you can press/hold B during some parts of the duel and it will s
+#0397 block   f=0  p=0  L4   ( 237) | When COIN TOSS ANIMATION is on SKIP SOME, you can skip all in-the-air animation when you hold do
+#0398 art                 L1   | WINDOW COLOR is self-explanatory.
+#0399 art                 L1   | EXIT OPTIONS will bring you back to the Main Menu.
+#0400 art                 L3   | =========================================================================
+#0401 art                 L2   | The PCs are in the Side Room of each club and fort, in the far upper-left
+#0402 art                 L7   | ===================
+#0403 art                 L2   | -- CARD ALBUM
+#0404 art                 L2   | -- DECK DIAGNOSIS
+#0405 art                 L2   | -- RULES
+#0406 art                 L3   | -- PRINT OUT
+#0407 art                 L2   | -- SWITCH OFF
+#0408 art                 L5   | *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+#0409 block   f=0  p=0  L4   ( 253) | Again, this section is to help non-Japanese readers play the game. If you are playing in a langu
+#0410 art                 L3   | =========================================================================
+#0411 block   f=0  p=0  L6   ( 368) | When you talk to someone who is able to duel you, you will encounter a yes-no question. (No is s
+#0412 art                 L3   | =========================================================================
+#0413 art                 L2   | A) You and your opponent will each shuffle each other's decks (done auto-
+#0414 block   f=0  p=0  L6   ( 421) | B) Each of you draw 7 cards for your opening hand (done automatically). If a player's hand does 
+#0415 hanging f=0  p=4  L2   ( 102) | C) You will be shown your hand. Select 1 Basic Pokemon to be put in the Active position, then pr
+#0416 hanging f=0  p=4  L2   ( 104) | D) Then you may choose up to 5 cards to be your Benched Pokemon. (Press B when you are done sett
+#0417 art                 L1   | E)  Prizes will then be placed (done automatically).
+#0418 hanging f=0  p=4  L2   ( 118) | F) You will flip a coin to see who goes first. Heads means you will go first, tails means your o
+#0419 hanging f=0  p=4  L2   ( 101) | G1) DURING THE DUEL (your opponent's turn) --> When it's your opponent's turn, you can't do anyt
+#0420 art                 L12  | G2) DURING THE DUEL (your turn) -->
+#0421 art                 L8   | H)  In between each turn,
+#0422 art                 L5   | I)  A player wins anytime any of the following conditions are met:
+#0423 art                 L3   | =========================================================================
+#0424 art                 L1   | The Main dueling Screen has three sections:
+#0425 art                 L3   | 1) Your opponent's Active Pokemon and In-play Area Summary
+#0426 art                 L15  | =================================
+#0427 art                 L2   | B[#] = number of Pokemon remaining on Bench
+#0428 block   f=0  p=0  L4   ( 275) | Total Hit Points (HP) is indicated by a number of circles, one circle for ten HP. To indicate te
+#0429 art                 L2   | -- HAND
+#0430 art                 L2   | -- CHECK
+#0431 art                 L2   | -- RETREAT
+#0432 art                 L2   | -- ATTACK
+#0433 art                 L2   | -- POWER
+#0434 art                 L3   | -- DONE
+#0435 art                 L7   | SHORTCUTS:
+#0436 art                 L3   | =========================================================================
+#0437 block   f=0  p=0  L2   ( 112) | When you select the HAND option in the Main Dueling Screen, your hand will be shown (unless your
+#0438 art                 L11  | ===============================
+#0439 block   f=0  p=0  L2   ( 133) | Use the up and down arrow buttons to scroll up or down in your hand. The picture of the card wil
+#0440 block   f=0  p=0  L2   ( 138) | NOTE: When you press SELECT while viewing your hand, the cards will be sorted in order by card t
+#0441 art                 L4   | -- USE
+#0442 art                 L3   | -- CHECK
+#0443 art                 L6   |  --------------------------------------------
+#0444 art                 L2   | NOTE: You cannot play an Energy card if you have already played one that
+#0445 art                 L6   |  --------------------------------------------
+#0446 block   f=0  p=0  L3   ( 195) | NOTE: You cannot play a Trainer card if you cannot fulfill the requirements of that card (discar
+#0447 art                 L4   |  --------------------------------------------
+#0448 art                 L2   | NOTE: You cannot play a Basic Pokemon card if you don't have enough room
+#0449 art                 L5   |  --------------------------------------------
+#0450 block   f=0  p=0  L3   ( 150) | Evolving cures all status ailments: Sleep, Paralysis, Confusion, and Poison. It also removes all
+#0451 block   f=0  p=0  L5   ( 323) | NOTE: You cannot play an Evolution card if the effect of a card already in play prevents the use
+#0452 art                 L3   | =========================================================================
+#0453 art                 L2   | When you are inside the Check menus you will not be able to play any
+#0454 art                 L1   | Using the CHECK command will change the bottom box to a 4-option window:
+#0455 art                 L4   | ==========================================
+#0456 art                 L5   |  --------------------------------------------
+#0457 block   f=0  p=0  L4   ( 276) | This will vaguely look like what a normal real-life duel looks like with every card and pile rep
+#0458 block   f=0  p=0  L6   ( 402) | Pressing the up button all the way will let you see a list of your opponent's in-play Pokemon, a
+#0459 block   f=0  p=0  L2   ( 141) | You will be able to browse everything but your opponent's deck, your own deck, and your opponent
+#0460 art                 L4   |  --------------------------------------------
+#0461 art                 L6   |  --------------------------------------------
+#0462 art                 L4   |    ===================================
+#0463 art                 L3   | -- YOUR POKEMON
+#0464 art                 L2   | -- YOUR HAND
+#0465 art                 L2   | -- YOUR DISCARD PILE
+#0466 art                 L2   | In all three cases, you can browse the screens of individual cards by
+#0467 art                 L4   |  --------------------------------------------
+#0468 block   f=0  p=0  L2   ( 140) | You will not be able to view your opponent's hand unless you have a Fossil Omanyte in play (whos
+#0469 art                 L3   | =========================================================================
+#0470 block   f=0  p=0  L2   ( 131) | If you want to switch your Active Pokemon with one on your Bench, you may retreat it (only if yo
+#0471 block   f=0  p=0  L4   ( 239) | 1) If you have the correct amount of Energy to retreat, you will be given a list of all the Ener
+#0472 art                 L2   | 2) Next, you will be given a list of all your Benched Pokemon. Choose 1
+#0473 block   f=0  p=0  L5   ( 301) | If your Active Pokemon is Confused when it tries to retreat, you flip a coin after step 2. If he
+#0474 block   f=0  p=0  L5   ( 308) | If you select the Retreat command and it will not let you retreat, it is either because you don'
+#0475 block   f=0  p=0  L4   ( 266) | NOTE: Retreating does not call for "exact change" -- If you want your Charmander to Retreat, and
+#0476 block   f=0  p=0  L3   ( 158) | ANOTHER NOTE: Remember that some opponent's rules may call for increased or decreased Retreat Co
+#0477 art                 L3   | =========================================================================
+#0478 block   f=0  p=0  L4   ( 244) | When you use the ATTACK command, the lower box will change into an attack list with the Energy c
+#0479 art                 L1   | To use an attack, select the attack you want to use and press A.
+#0480 block   f=0  p=0  L4   ( 229) | If your Active Pokemon is Confused when it tries to attack, you must flip a coin. If heads, that
+#0481 block   f=0  p=0  L2   ( 140) | If your Active Pokemon is Asleep or Paralyzed, it cannot attack (except Vending Slowbro Lv35, wh
+#0482 block   f=0  p=0  L4   ( 275) | If you try to use the ATTACK command but it won't let you, it is because your Pokemon doesn't ha
+#0483 art                 L1   | Remember, when you attack your turn ends. Always attack last!
+#0484 art                 L7   | =========================================================================
+#0485 block   f=0  p=0  L3   ( 151) | When you use the POWER command, you will be given a list of all your In- play Pokemon. If they h
+#0486 block   f=0  p=0  L3   ( 217) | At any time you may press A and look at a Pokemon's Power, but only if the Power is of the secon
+#0487 art                 L3   | =========================================================================
+#0488 block   f=0  p=0  L3   ( 208) | "Status Ailments" refers (in this guide) collectively to the conditions of Sleep, Confusion, Par
+#0489 block   f=0  p=0  L5   ( 312) | A Pokemon can only have one status ailment at a time (except for Poison). This means that if a P
+#0490 art                 L6   |  --------------------------------------------
+#0491 block   f=0  p=0  L6   ( 367) | TRIVIA: There's a story that the original design of the game had it so you flipped only after on
+#0492 art                 L8   |  --------------------------------------------
+#0493 block   f=0  p=0  L6   ( 410) | NOTES: When a Pokemon inflicts damage on itself due to Confusion, Weakness and Resistance is app
+#0494 art                 L5   |  --------------------------------------------
+#0495 art                 L5   |  --------------------------------------------
+#0496 art                 L1   | Certain types of Poison deals 20 damage instead.
+#0497 art                 L2   | NOTE: If a Pokemon gets KO'd from Poison damage, they other player still
+#0498 art                 L5   |  --------------------------------------------
+#0499 block   f=0  p=0  L4   ( 229) | Only the Active Pokemon can have a Status Ailment, so if Retreats or is switched, the condition 
+#0500 art                 L1   | Also, evolving a Pokemon heals whatever status problems it had before.
+#0501 art                 L3   | =========================================================================
+#0502 art                 L15  | ================= @@@@@@@  This game auto-saves during almost every step
+#0503 block   f=0  p=0  L6   ( 350) | This auto-save feature makes it possible to scum for certain outcomes during a match. For instan
+#0504 art                 L9   |  --------------------------------------------
+#0505 art                 L5   | *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+#0506 block   f=0  p=0  L6   ( 363) | Booster Packs can be identified by the character on their packaging, but they can also be identi
+#0507 art                 L5   |  --------------------------------------------
+#0508 art                 L3   |    R: Rare (star)
+#0509 block   f=0  p=0  L4   ( 225) | This game is based entirely on the Japanese card game as released by Media Factory, so the Japan
+#0510 art                 L3   | -- RARES
+#0511 art                 L5   | -- BOOSTER SIZE
+#0512 art                 L4   | -- (FOSSIL) MEW
+#0513 art                 L5   | -- ROCKET RARITIES
+#0514 art                 L4   |  --------------------------------------------
+#0515 art                 L10  |     SET  IDENTIFICATION SYMBOL
+#0516 block   f=0  p=0  L3   ( 171) | * The Vending Series and the Bulbasaur and Squirtle Intropack decks have not been released in En
+#0517 art                 L3   | =========================================================================
+#0518 art                 L1   | Japanese name = Hajimete no Pokemon (Beginning Pokemon)
+#0519 art                 L11  | -- GRASS CARDS
+#0520 art                 L10  | -- FIRE CARDS
+#0521 block   f=0  p=0  L9   ( 230) | -- WATER CARDS A20: (C) Base Seel Lv12 A21: (R) Base Dewgong Lv42 A22: (C) Fossil Krabby Lv20 A2
+#0522 block   f=0  p=0  L5   ( 131) | -- LIGHTNING CARDS A28: (C) Base Pikachu Lv12 A29: (R) B-Deck Raichu Lv33 A30: (R) B-Deck Electa
+#0523 block   f=0  p=0  L8   ( 204) | -- FIGHTING CARDS A32: (C) Base Diglett Lv8 A33: (R) Base Dugtrio Lv36 A34: (C) Base Machop Lv20
+#0524 block   f=0  p=0  L6   ( 148) | -- PSYCHIC CARDS A39: (C) Base Gastly Lv8 A40: (U) Base Haunter Lv22 A41: (C) Base Drowzee Lv12 
+#0525 block   f=0  p=0  L8   ( 210) | -- COLORLESS CARDS A44: (C) Base Rattata Lv9 A45: (U) Base Raticate Lv41 A46: (C) B-Deck Meowth 
+#0526 block   f=0  p=0  L11  ( 210) | -- TRAINER CARDS A51: (U) Super Potion A52: (U) Energy Retrieval A53: (C) Energy Search A54: (U)
+#0527 block   f=0  p=0  L7   ( 155) | -- ENERGY CARDS E01: ( ) Grass Energy E02: ( ) Fire Energy E03: ( ) Water Energy E04: ( ) Lightn
+#0528 art                 L3   | =========================================================================
+#0529 art                 L1   | Japanese name = Densetsu no Chikara (Legendary Power)
+#0530 art                 L13  | -- GRASS CARDS
+#0531 block   f=0  p=0  L5   ( 127) | -- FIRE CARDS B13: (R) Base Arcanine Lv45 B14: (U) S-Deck Magmar Lv18 B15: (R) Jungle Flareon Lv
+#0532 art                 L12  | -- WATER CARDS
+#0533 block   f=0  p=0  L5   ( 140) | -- LIGHTNING CARDS B28: (C) Gameboy Magnemite Lv14 B29: (R) Vending Magneton Lv30 B30: (R) Base 
+#0534 block   f=0  p=0  L10  ( 285) | -- FIGHTING CARDS B32: (C) Base Sandshrew Lv12 B33: (U) Fossil Sandslash Lv33 B34: (C) Vending G
+#0535 art                 L4   | -- PSYCHIC CARDS
+#0536 block   f=0  p=0  L10  ( 290) | -- COLORLESS CARDS B44: (C) S-Deck Spearow Lv9 B45: (U) Vending Clefairy Lv15 B46: (C) Jungle Ji
+#0537 block   f=0  p=0  L9   ( 188) | -- TRAINER CARDS B53: (C) Energy Removal B54: (U) Revive B55: (U) Defender B56: (C) Gust of Wind
+#0538 art                 L2   | -- ENERGY CARDS
+#0539 art                 L3   | =========================================================================
+#0540 art                 L1   | Japanese name = Shinka no Shima (Fossil Island / Island of Fossils)
+#0541 art                 L17  | -- GRASS CARDS
+#0542 art                 L2   | -- FIRE CARDS
+#0543 art                 L13  | -- WATER CARDS
+#0544 block   f=0  p=0  L5   ( 134) | -- LIGHTNING CARDS C30: (C) Jungle Pikachu Lv14 C31: (R) Fossil Raichu Lv45 C32: (C) Base Voltor
+#0545 block   f=0  p=0  L7   ( 191) | -- FIGHTING CARDS C34: (C) Jungle Mankey Lv7 C35: (U) Jungle Primeape Lv35 C36: (U) Vending Mach
+#0546 block   f=0  p=0  L9   ( 242) | -- PSYCHIC CARDS C40: (R) Base Alakazam Lv42 C41: (C) Fossil Slowpoke Lv18 C42: (U) Fossil Slowb
+#0547 block   f=0  p=0  L7   ( 196) | -- COLORLESS CARDS C48: (R) Jungle Clefable Lv34 C49: (C) Jungle Meowth Lv15 C50: (U) Jungle Per
+#0548 block   f=0  p=0  L7   ( 160) | -- TRAINER CARDS C54: (R) Itemfinder C55: (R) Super Energy Removal C56: (C) Mysterious Fossil C5
+#0549 art                 L3   | =========================================================================
+#0550 art                 L1   | Japanese name = Chou BATORU (Super Battle)
+#0551 art                 L16  | -- GRASS CARDS
+#0552 art                 L6   | -- FIRE CARDS
+#0553 art                 L6   | -- WATER CARDS
+#0554 block   f=0  p=0  L5   ( 131) | -- LIGHTNING CARDS D26: (R) Base Raichu Lv40 D27: (C) Base Magnemite Lv13 D28: (R) Base Magneton
+#0555 block   f=0  p=0  L4   ( 107) | -- FIGHTING CARDS D30: (U) Vending Graveler Lv27 D31: (R) Vending Rhydon Lv37 D32: (R) Fossil Ka
+#0556 block   f=0  p=0  L6   ( 157) | -- PSYCHIC CARDS D33: (U) Fossil Gastly Lv17 D34: (R) Fossil Haunter Lv17 D35: (R) Jungle Mr. Mi
+#0557 block   f=0  p=0  L12  ( 332) | -- COLORLESS CARDS D38: (C) Base Pidgey Lv8 D39: (U) Vending Pidgeotto Lv38 D40: (R) Gameboy Pid
+#0558 art                 L7   | -- TRAINER CARDS
+#0559 art                 L3   | =========================================================================
+#0560 art                 L1   | Japanese name = Soratobu Pokemon (Flying Pokemon)
+#0561 art                 L7   | -- GRASS CARDS
+#0562 art                 L4   | -- FIRE CARDS
+#0563 art                 L12  | -- WATER CARDS
+#0564 block   f=0  p=0  L8   ( 226) | -- LIGHTNING CARDS F21: (U) Vending Pikachu Lv5 F22: (R) Vending Raichu Lv32 F23: (C) Vending Ma
+#0565 block   f=0  p=0  L11  ( 321) | -- FIGHTING CARDS F28: (C) Vending Sandshrew Lv15 F29: (U) Vending Sandslash Lv35 F30: (C) Vendi
+#0566 block   f=0  p=0  L5   ( 132) | -- PSYCHIC CARDS F38: (C) Vending Abra Lv8 F39: (R) Vending Kadabra Lv39 F40: (C) Vending Slowbr
+#0567 block   f=0  p=0  L11  ( 312) | -- COLORLESS CARDS F42: (C) Vending Pidgey Lv10 F43: (U) Base Pidgeotto Lv36 F44: (R) Jungle Pid
+#0568 block   f=0  p=0  L6   ( 120) | -- TRAINER CARDS F52: (U) Mr. Fuji F53: (R) Pokemon Recall F54: (U) Poke Flute F55: (R) Master B
+#0569 art                 L3   | =========================================================================
+#0570 art                 L1   | Japanese name = Warera ROKETTO-Dan (We Are the Rockets)
+#0571 art                 L6   | -- GRASS CARDS
+#0572 art                 L15  | -- FIRE CARDS
+#0573 art                 L6   | -- LIGHTNING CARDS
+#0574 art                 L10  | -- FIGHTING CARDS
+#0575 art                 L7   | -- PSYCHIC CARDS
+#0576 art                 L6   | -- COLORLESS CARDS
+#0577 art                 L4   | -- TRAINER CARDS
+#0578 art                 L4   | -- ENERGY CARDS
+#0579 art                 L3   | =========================================================================
+#0580 art                 L1   | Japanese name = ROKETTO-Dan no Yabou (The Rockets' Ambition)
+#0581 art                 L12  | -- GRASS CARDS
+#0582 art                 L4   | -- FIRE CARDS
+#0583 art                 L5   | -- WATER CARDS
+#0584 art                 L3   | -- LIGHTNING CARDS
+#0585 art                 L3   | -- FIGHTING CARDS
+#0586 art                 L8   | -- PSYCHIC CARDS
+#0587 art                 L11  | -- COLORLESS CARDS
+#0588 art                 L11  | -- TRAINER CARDS
+#0589 art                 L2   | -- ENERGY CARDS
+#0590 art                 L3   | =========================================================================
+#0591 art                 L1   | Japanese name = Present Pack
+#0592 block   f=0  p=0  L3   ( 213) | Dr. Ooyama will send you a Present Pack through the mail, and Arai-Mon will give you a Present P
+#0593 block   f=0  p=0  L3   ( 162) | Other Present Packs you receive at Dr. Ooyama's lab are Bulbasaur (1) Packs just disguised as Pr
+#0594 block   f=0  p=0  L3   ( 179) | Otherwise, Present Packs can be bought at the Game Center for various amounts of chips or won by
+#0595 block   f=0  p=0  L5   ( 351) | During early gameplay, the Present Packs can be a very good thing because not all the boosters a
+#0596 art                 L3   | =========================================================================
+#0597 art                 L3   |  --------------------------------------------
+#0598 art                 L2   | -- GRASS CARDS:
+#0599 art                 L4   | -- FIRE CARDS:
+#0600 block   f=0  p=0  L6   ( 108) | -- WATER CARDS: P05: Blastoise Lv52 P06: Magikarp Lv10 P07: Omastar Lv36 P08: Articuno Lv37 P09:
+#0601 art                 L10  | -- LIGHTNING CARDS:
+#0602 block   f=0  p=0  L6   ( 104) | -- FIGHTING CARDS: P19: Diglett Lv16 P20: Dugtrio Lv40 P21: Mankey Lv7 P22: Machamp Lv54 P23: Go
+#0603 block   f=0  p=0  L9   ( 178) | -- PSYCHIC CARDS: P24: Alakazam Lv45 P25: Slowpoke Lv9 P26: Gengar Lv40 P27: Mewtwo Lv30 P28: Me
+#0604 block   f=0  p=0  L11  ( 226) | -- COLORLESS CARDS: P32: Jigglypuff Lv12 P33: Meowth Lv14 P34: Dark Persian Lv28 P35: Farfetch'd
+#0605 block   f=0  p=0  L5   ( 100) | -- TRAINER CARDS: P42: Imakuni? P43: Super Energy Retrieval P44: Computer Error P45: Bill's Comp
+#0606 art                 L5   | -- PHANTOM CARDS
+#0607 art                 L9   |  --------------------------------------------
+#0608 art                 L7   | -- GB2 ISLAND TRADES
+#0609 art                 L9   |  --------------------------------------------
+#0610 art                 L2   | -- COIN TOSS GAME
+#0611 art                 L4   | -- PRIZE CORNER
+#0612 art                 L7   |  --------------------------------------------
+#0613 art                 L5   | -- SECOND ISLAND HOUSE
+#0614 art                 L6   |  --------------------------------------------
+#0615 art                 L5   | -- IMAKUNI?
+#0616 art                 L5   |  --------------------------------------------
+#0617 block   f=0  p=0  L6   ( 260) | Hungry Snorlax (from Science Club Master Kurushima) Electabuzz Lv20 (from Grand Master Steve) Ar
+#0618 art                 L4   |  --------------------------------------------
+#0619 art                 L4   | Moltres Lv40
+#0620 art                 L5   |  --------------------------------------------
+#0621 art                 L4   | Venusaur Lv64
+#0622 art                 L6   |  --------------------------------------------
+#0623 art                 L2   | -- GREAT KING BIRURICCHI
+#0624 art                 L5   |  --------------------------------------------
+#0625 art                 L4   |  --------------------------------------------
+#0626 art                 L21  | -- CHALLENGE CUP (first island)
+#0627 art                 L21  | -- GR CHALLENGE CUP (second island)
+#0628 art                 L8   | -- GRAND MASTERS CUP
+#0629 art                 L5   | *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+#0630 art                 L3   | =========================================================================
+#0631 art                 L4   | All these recipes marked (*) come from a Japanese website that has been
+#0632 block   f=0  p=0  L2   ( 139) | Some recipes yield the same result when other cards are added -- this list contains the minimum 
+#0633 art                 L1   | See section 4e for information on how to use the Black Box.
+#0634 art                 L6   |  --------------------------------------------
+#0635 art                 L6   |  --------------------------------------------
+#0636 art                 L7   |  --------------------------------------------
+#0637 art                 L3   | -- PROMO ARCANINE Lv34 *
+#0638 art                 L6   |  --------------------------------------------
+#0639 art                 L3   | -- PROMO MAGIKARP Lv10 *
+#0640 art                 L7   |  --------------------------------------------
+#0641 art                 L5   | -- PROMO PIKACHU Lv13 *
+#0642 art                 L4   | -- PROMO PIKACHU Lv16 (Toyota) *
+#0643 art                 L5   | -- PROMO PIKACHU Lv16 (CoroCoro)
+#0644 block   f=0  p=0  L5   ( 109) | -- PROMO ELECTABUZZ Lv20 * Base Electabuzz Lv35 Base Magneton Lv28 Fossil Magneton Lv35 Vending 
+#0645 art                 L6   |  --------------------------------------------
+#0646 art                 L4   | -- PROMO DUGTRIO Lv40
+#0647 art                 L3   | -- PROMO MANKEY *
+#0648 art                 L7   |  --------------------------------------------
+#0649 art                 L3   | -- PROMO MEWTWO Lv60 (FanBook) *
+#0650 art                 L3   | -- PROMO MEWTWO Lv60 (CoroCoro)
+#0651 art                 L3   | -- PROMO MEWTWO Lv30 *
+#0652 art                 L4   | -- GR'S MEWTWO *
+#0653 art                 L6   |  --------------------------------------------
+#0654 art                 L3   | -- PROMO MEOWTH Lv14 *
+#0655 art                 L4   | -- PROMO FARFETCH'D Lv20
+#0656 art                 L3   | -- COOL PORYGON *
+#0657 art                 L3   | -- HUNGRY SNORLAX *
+#0658 art                 L3   | -- PROMO KANGASKHAN Lv38 *
+#0659 art                 L6   |  --------------------------------------------
+#0660 art                 L1   | Have other recipes? Email me at the address given at the end of the file.
+#0661 art                 L3   | =========================================================================
+#0662 block   f=0  p=0  L5   ( 318) | In the Colorless Altar, there's no way for you to know which cards the Minions want in your deck
+#0663 art                 L3   |  --------------------------------------------
+#0664 art                 L5   |    | ()             | ()
+#0665 art                 L5   |    |           ____   ____||      /
+#0666 art                 L6   | /________    /___      __     /_______           |               | ||
+#0667 art                 L1   | "Mushoku Ni-Ko Enerugii" = Double Colorless Energy
+#0668 art                 L3   |  --------------------------------------------
+#0669 art                 L5   | ------            |    |      +--+--+
+#0670 art                 L5   | _____()
+#0671 art                 L6   |    /                                              _______
+#0672 art                 L3   |  --------------------------------------------
+#0673 art                 L5   | ______   ----             |---
+#0674 art                 L5   |                     ____
+#0675 art                 L5   |  | __    -----              | ()   |____ ----  \
+#0676 art                 L5   | *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+#0677 art                 L3   | =========================================================================
+#0678 art                 L4   | I've also made the following guides for this game:
+#0679 art                 L3   | =========================================================================
+#0680 art                 L1   | I can be reached at alamedyang at gmail dot com.
+#0681 block   f=0  p=0  L2   ( 105) | Email me corrections, additions, complaints, whatever. (I will probably take forever to respond,

@@ -21,6 +21,7 @@
 ## Verification
 `pnpm test` runs both Vitest projects; `test:unit` / `test:browser` run one. Playwright's Chromium is required (`pnpm exec playwright install chromium`).
 - **unit** (jsdom + fake-indexeddb) — pure logic (parse/encoding/search/scroll geometry) + component integration.
+- **Classifier changes: read the corpus diff.** `parse.test.ts` holds hand-written cases that encode *intent* (the `-----` underline is dropped; `Q:`/`A:` never merge). `corpus.test.ts` snapshots every block of every fixture (`__snapshots__/corpus/`, one line per block + a `_summary.txt` tally) — that's the net that makes a reclassification visible instead of silent. A snapshot diff is **not automatically a bug**: read it, decide, then update. Snapshots record *current* behaviour, so never let one stand in for an intent test. Drop a file in `fixtures/` and it's covered on the next run.
 - **browser** (`*.browser.test.tsx`, real Chromium at phone size) — **anything layout-related**: jsdom has no layout engine, so wrapping/alignment/overflow bugs are invisible to unit tests. Screenshots land in `scratch-shots/` (also auto-captured on failure).
   - Import `~/app.css` and assert a computed style first — without the real stylesheet every measurement is meaningless.
   - Measure text position with a `Range` over the text: an element's rect sits at the container edge regardless of `text-indent` and proves nothing. Measure overflow with `scrollWidth`, not the box rect.
