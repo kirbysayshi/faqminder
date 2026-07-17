@@ -50,12 +50,29 @@ describe("grabAndCopy", () => {
   });
 });
 
+const body = () => BOOKMARKLET.slice("javascript:".length);
+
 describe("BOOKMARKLET", () => {
-  it("is a javascript: URL whose body is valid, parseable JS", () => {
+  // Bookmark fields strip newlines; a surviving // comment would then swallow every
+  // closing brace after it — exactly the "missing }" that broke the first version.
+  it("is a single line with no // line comments", () => {
     expect(BOOKMARKLET.startsWith("javascript:")).toBe(true);
-    // Parsing (not running) proves the stringified function is syntactically valid —
-    // the whole point of building it from a real function instead of a hand-minified blob.
-    expect(() => new Function(BOOKMARKLET.slice("javascript:".length))).not.toThrow();
+    expect(BOOKMARKLET).not.toContain("\n");
+    expect(body()).not.toMatch(/\/\//);
+  });
+
+  it("actually runs once flattened — not just parses", () => {
+    // The real regression: valid-but-multiline code parses fine, then breaks when the
+    // newlines are gone. Executing the emitted string reproduces the bookmark's world.
+    document.title = "Chrono Trigger - FAQ - SNES - By Y - GameFAQs";
+    document.body.innerHTML = '<div class="faqtext">A\nB</div>';
+    const writeText = stubClipboard();
+
+    expect(() => (0, eval)(body())).not.toThrow();
+
+    expect(writeText.mock.calls[0]![0]).toBe(
+      `${FAQ_CLIP_MARKER}\tChrono Trigger - FAQ - SNES - By Y - GameFAQs\nA\nB`,
+    );
   });
 
   it("injects the shared marker so it can't drift from parsePastedFaq", () => {
