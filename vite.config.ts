@@ -1,6 +1,7 @@
 /// <reference types="vitest/config" />
 import { reactRouter } from "@react-router/dev/vite";
 import tailwindcss from "@tailwindcss/vite";
+import { playwright } from "@vitest/browser-playwright";
 import { defineConfig } from "vitest/config";
 import { fileURLToPath } from "node:url";
 
@@ -21,10 +22,40 @@ export default defineConfig({
   },
   plugins: [tailwindcss(), !testing && reactRouter()],
   test: {
-    environment: "jsdom",
-    globals: true,
-    setupFiles: ["./app/test/setup.ts"],
-    include: ["app/**/*.{test,spec}.{ts,tsx}"],
-    passWithNoTests: true,
+    passWithNoTests: true, // root-level only; not a per-project option
+    projects: [
+      {
+        extends: true,
+        test: {
+          name: "unit",
+          environment: "jsdom",
+          globals: true,
+          setupFiles: ["./app/test/setup.ts"],
+          include: ["app/**/*.{test,spec}.{ts,tsx}"],
+          exclude: ["app/**/*.browser.test.{ts,tsx}"],
+        },
+      },
+      {
+        // Layout/visual tests. jsdom has no layout engine, so wrapping, alignment
+        // and overflow can ONLY be verified in a real browser.
+        extends: true,
+        test: {
+          name: "browser",
+          globals: true,
+          setupFiles: ["./app/test/setup.browser.ts"],
+          include: ["app/**/*.browser.test.{ts,tsx}"],
+          browser: {
+            enabled: true,
+            provider: playwright(),
+            headless: true,
+            screenshotDirectory: "scratch-shots",
+            instances: [
+              // Phone-sized: the app is mobile-first and that's where wrapping bites.
+              { browser: "chromium", viewport: { width: 390, height: 800 } },
+            ],
+          },
+        },
+      },
+    ],
   },
 });

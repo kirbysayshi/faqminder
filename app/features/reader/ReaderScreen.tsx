@@ -60,7 +60,7 @@ export function ReaderScreen({
   );
 
   return (
-    <div className="flex h-dvh flex-col bg-neutral-950">
+    <div data-reader-root className="flex h-dvh flex-col bg-neutral-950">
       <header className="flex shrink-0 items-center gap-2 border-b border-neutral-800 px-2 py-2">
         <Link
           to="/"

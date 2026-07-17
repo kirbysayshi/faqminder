@@ -18,9 +18,14 @@
 - **Long-running tasks run in tmux** (dev server, verification). **Never assume the Vite port** — another Vite project already runs on 5173, so RR dev picks 5174+. Read the actual port from the tmux pane output.
 
 ## Verification
-- Pure logic (parse/encoding/search/scroll geometry) + component integration are unit-tested (`pnpm test`, jsdom + fake-indexeddb).
-- Real-browser end-to-end: start dev in tmux, then `pnpm verify:e2e` (drives all features via Playwright; reads `PORT`, default 5174). Offline/SW: `pnpm verify:offline` (builds, serves, cuts network). Playwright's Chromium is required (`pnpm exec playwright install chromium`).
-- **`pnpm verify:layout` for anything layout-related** — jsdom has no layout engine, so wrapping/alignment/overflow bugs are invisible to unit tests. It asserts wrapping + alignment and writes screenshots to `scratch-shots/`. When measuring text position, use a `Range` over the text: an element's rect sits at the container edge regardless of `text-indent` and proves nothing.
+`pnpm test` runs both Vitest projects; `test:unit` / `test:browser` run one. Playwright's Chromium is required (`pnpm exec playwright install chromium`).
+- **unit** (jsdom + fake-indexeddb) — pure logic (parse/encoding/search/scroll geometry) + component integration.
+- **browser** (`*.browser.test.tsx`, real Chromium at phone size) — **anything layout-related**: jsdom has no layout engine, so wrapping/alignment/overflow bugs are invisible to unit tests. Screenshots land in `scratch-shots/` (also auto-captured on failure).
+  - Import `~/app.css` and assert a computed style first — without the real stylesheet every measurement is meaningless.
+  - Measure text position with a `Range` over the text: an element's rect sits at the container edge regardless of `text-indent` and proves nothing. Measure overflow with `scrollWidth`, not the box rect.
+  - Render per-test (`beforeEach`) — testing-library auto-cleanup unmounts between tests.
+  - `page.screenshot()` needs `{ element }`, else it captures the runner's own page (blank). Omit `path` — it's relative to the test file and escapes `screenshotDirectory`.
+- Full-app flows (routing, IndexedDB, reload): start dev in tmux, then `pnpm verify:e2e` (Playwright; reads `PORT`, default 5174). Offline/SW: `pnpm verify:offline` (builds, serves, cuts network).
 
 ## Deploy
 - Static SPA → GitHub Pages via `pnpm deploy:gh` (manual; no CI). Base path is `VITE_BASE` (default `/faqminder/`) in `vite.config.ts` + `react-router.config.ts`. `build/client/404.html` is the SPA deep-link fallback (copied from `index.html` at build).
