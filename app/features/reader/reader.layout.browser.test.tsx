@@ -132,6 +132,26 @@ describe("reader layout (real browser)", () => {
     expect(topBlockId(reader)).toBe(before);
   });
 
+  it("fits the header controls on a phone without overflowing", () => {
+    const header = $("[data-reader-root] header");
+    expect(header.scrollWidth).toBeLessThanOrEqual(header.clientWidth + 1);
+    // Everything stays reachable; only the title gives up room.
+    for (const label of ["Search this FAQ", "Decrease text size", "Increase text size"]) {
+      const btn = $(`[aria-label="${label}"]`);
+      expect(btn.getBoundingClientRect().width).toBeGreaterThan(0);
+    }
+  });
+
+  it("search input is >=16px, so iOS never zooms the viewport on focus", async () => {
+    await page.getByLabelText("Search this FAQ").click();
+    const input = $('input[type="search"]');
+    // Computed, not inline: proves no stylesheet shrinks it back under the limit.
+    expect(parseFloat(getComputedStyle(input).fontSize)).toBeGreaterThanOrEqual(16);
+    await page.getByRole("searchbox").fill("mission");
+    await expect.element(page.getByText(/\d+ matches/)).toBeVisible();
+    await page.screenshot({ element: $("[data-reader-root]") });
+  });
+
   it("captures a screenshot of the reflowed reader", async () => {
     $("[data-reader-scroll]").scrollTo(0, 12000);
     // Scope to the rendered component: a bare page.screenshot() captures the

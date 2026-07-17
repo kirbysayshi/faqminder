@@ -80,11 +80,32 @@ try {
   await pill.waitFor({ timeout: 5000 });
   check("selection surfaces a find pill", await pill.isVisible());
   await pill.click();
-  check("match sheet opens", await page.getByText(/matches for/i).isVisible());
+  check("match sheet opens", await page.getByText(/\d+ matches/i).isVisible());
+  // The selection keeps the document's original casing, so compare loosely.
+  const prefilled = await page.getByRole("searchbox", { name: /search this faq/i }).inputValue();
+  check(
+    `selection arrives pre-filled in the search input (“${prefilled}”)`,
+    prefilled.toLowerCase() === "mission",
+  );
   const scrollBefore = await scroll.evaluate((el) => el.scrollTop);
   await page.locator("ul li button").last().click();
   await page.waitForTimeout(600);
   check("tapping a match jumps (scroll moved)", (await scroll.evaluate((el) => el.scrollTop)) !== scrollBefore);
+
+  // --- Manual search (no selection needed) ---
+  await page.getByRole("button", { name: /search this faq/i }).click();
+  const box = page.getByRole("searchbox", { name: /search this faq/i });
+  await box.fill("runway");
+  const hits = page.locator("ul li button");
+  await hits.first().waitFor({ timeout: 5000 });
+  check("typed term finds matches", (await hits.count()) > 0);
+  const beforeTyped = await scroll.evaluate((el) => el.scrollTop);
+  await hits.first().click();
+  await page.waitForTimeout(600);
+  check(
+    "tapping a typed match jumps",
+    (await scroll.evaluate((el) => el.scrollTop)) !== beforeTyped,
+  );
 
   // --- Scroll bookmark across reload ---
   await scroll.evaluate((el) => el.scrollTo(0, 1500));

@@ -24,7 +24,11 @@ function selectSubstring(el: HTMLElement, needle: string) {
   document.dispatchEvent(new Event("selectionchange"));
 }
 
-describe("SelectionSearch", () => {
+const searchInput = () => screen.getByRole("searchbox", { name: /search this faq/i });
+const resultRows = () =>
+  screen.getAllByRole("button").filter((b) => /^\d+/.test(b.textContent ?? ""));
+
+describe("DocumentSearch", () => {
   beforeEach(() => localStorage.clear());
 
   it("surfaces occurrences of a selection and jumps to one", async () => {
@@ -45,15 +49,61 @@ describe("SelectionSearch", () => {
     expect(pill).toHaveTextContent("2");
 
     await user.click(pill);
-    expect(await screen.findByText(/2 matches for/i)).toBeInTheDocument();
+    expect(await screen.findByText(/2 matches/i)).toBeInTheDocument();
+    // The selection arrives pre-filled and stays editable.
+    expect(searchInput()).toHaveValue("map");
 
-    // Jump to the first occurrence.
-    const rows = screen.getAllByRole("button").filter((b) => b.textContent?.includes("map"));
-    await user.click(rows[0]!);
+    await user.click(resultRows()[0]!);
 
     expect(scroll.scrollTo).toHaveBeenCalled();
     expect(block.classList.contains("reader-flash")).toBe(true);
-    await waitFor(() => expect(screen.queryByText(/2 matches for/i)).not.toBeInTheDocument());
+    await waitFor(() => expect(screen.queryByText(/2 matches/i)).not.toBeInTheDocument());
+  });
+
+  it("searches a typed term without needing a selection first", async () => {
+    const user = userEvent.setup();
+    const { container } = render(
+      <MemoryRouter>
+        <ReaderScreen meta={meta} text={"alpha map beta\ngamma map delta"} />
+      </MemoryRouter>,
+    );
+    const scroll = container.querySelector<HTMLElement>("[data-reader-scroll]")!;
+    scroll.scrollTo = vi.fn();
+
+    await user.click(screen.getByRole("button", { name: /search this faq/i }));
+    await user.type(searchInput(), "map");
+
+    expect(await screen.findByText(/2 matches/i)).toBeInTheDocument();
+    await user.click(resultRows()[1]!); // jump to the second hit
+    expect(scroll.scrollTo).toHaveBeenCalled();
+  });
+
+  it("prompts instead of searching until the term is long enough", async () => {
+    const user = userEvent.setup();
+    render(
+      <MemoryRouter>
+        <ReaderScreen meta={meta} text={"alpha map beta\ngamma map delta"} />
+      </MemoryRouter>,
+    );
+    await user.click(screen.getByRole("button", { name: /search this faq/i }));
+    expect(await screen.findByText(/type at least 2 characters/i)).toBeInTheDocument();
+
+    await user.type(searchInput(), "m");
+    expect(screen.getByText(/type at least 2 characters/i)).toBeInTheDocument();
+    expect(resultRows()).toHaveLength(0);
+  });
+
+  // The 16px rule that stops iOS zooming on focus is asserted against a real
+  // computed style in reader.layout.browser.test.tsx.
+  it("focuses the input on open so the keyboard is ready", async () => {
+    const user = userEvent.setup();
+    render(
+      <MemoryRouter>
+        <ReaderScreen meta={meta} text={"alpha map beta"} />
+      </MemoryRouter>,
+    );
+    await user.click(screen.getByRole("button", { name: /search this faq/i }));
+    expect(searchInput()).toHaveFocus();
   });
 
   it("shows nothing when the selection is too short", async () => {

@@ -12,8 +12,8 @@ import {
 } from "~/domains/reader";
 import { applyAnchor, currentAnchor, type ScrollAnchor } from "./anchor";
 import { BlockView } from "./BlockView";
+import { DocumentSearch } from "./DocumentSearch";
 import { FormattingControls } from "./FormattingControls";
-import { SelectionSearch } from "./SelectionSearch";
 import { useScrollBookmark } from "./useScrollBookmark";
 
 // The reader: a full-height column with a sticky header and a scroll region.
@@ -37,6 +37,7 @@ export function ReaderScreen({
   const scrollRef = useRef<HTMLDivElement>(null);
   const [overrides, setOverrides] = useState(initialReflowOverrides);
   const [font, setFont] = useState(initialFont);
+  const [searchOpen, setSearchOpen] = useState(false);
   useScrollBookmark(meta.id, scrollRef, initialAnchor);
 
   // Resizing re-lays-out the whole document, so remember what was under the top of
@@ -91,6 +92,17 @@ export function ReaderScreen({
           ‹
         </Link>
         <h1 className="min-w-0 flex-1 truncate text-sm font-medium">{meta.title}</h1>
+        <button
+          type="button"
+          aria-label="Search this FAQ"
+          onClick={() => setSearchOpen(true)}
+          className="flex h-9 w-9 shrink-0 items-center justify-center rounded text-neutral-300 active:bg-neutral-800"
+        >
+          <svg viewBox="0 0 16 16" aria-hidden className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.8">
+            <circle cx="7" cy="7" r="4.5" />
+            <path d="M10.5 10.5 14 14" strokeLinecap="round" />
+          </svg>
+        </button>
         <FormattingControls size={font} onStep={stepFont} />
       </header>
 
@@ -114,7 +126,12 @@ export function ReaderScreen({
         </div>
       </div>
 
-      <SelectionSearch doc={doc} scrollRef={scrollRef} />
+      <DocumentSearch
+        doc={doc}
+        scrollRef={scrollRef}
+        open={searchOpen}
+        onOpenChange={setSearchOpen}
+      />
     </div>
   );
 }

@@ -4,6 +4,7 @@
 
 ## Product
 - **Mobile-first, offline-first.** Primary target is mobile, where tabs get purged from memory. **Persistence is load-bearing**: every bit of reader state (active FAQ, scroll anchor, font size, reflow overrides) must survive a cold reload.
+- **Never disable viewport zoom** (`maximum-scale`/`user-scalable=no`). It's an accessibility failure, and ASCII art depends on pinch-zoom since A−/A+ only scales prose. Any text input must therefore be **≥16px**, or iOS zooms the viewport on focus and buries the document behind the keyboard — that's why the search input sets `font-size: 16px` explicitly.
 
 ## Architecture
 - Layers per `adrs/0001-structure.md`: `routes → features → domains → lib`; `components` are pure. Import only a subfolder's `index.ts`/`types.ts` barrel.
