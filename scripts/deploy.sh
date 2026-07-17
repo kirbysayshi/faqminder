@@ -54,13 +54,14 @@ PORT="$PORT" node scripts/verify-e2e.mjs
 kill -- -"$DEV_PID" 2>/dev/null || true
 DEV_PID=""
 
-# Builds, then serves the build with the network cut. Leaves build/client ready.
-step "Offline / service worker (builds the deploy artifact)"
-pnpm verify:offline
+# Builds, then drives that build in a browser: base paths, update flow, offline.
+step "Production build (base paths, update flow, offline)"
+pnpm verify:prod
 
 [[ -f build/client/index.html ]] || fail "build/client/index.html missing — nothing to deploy"
 [[ -f build/client/404.html ]] || fail "build/client/404.html missing — deep links would 404"
 [[ -f build/client/sw.js ]] || fail "build/client/sw.js missing — no offline shell"
+[[ -f build/client/version.json ]] || fail "build/client/version.json missing — clients could never detect this deploy"
 
 if $CHECK_ONLY; then
   printf '\n\033[1;32m✔ All checks passed (--check: not deploying)\033[0m\n'

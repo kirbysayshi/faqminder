@@ -4,6 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import { playwright } from "@vitest/browser-playwright";
 import { defineConfig } from "vitest/config";
 import type { Plugin } from "vite";
+import { execSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 // NOTE: base drives both Vite asset paths and the RR basename (react-router.config.ts).
@@ -13,6 +14,59 @@ const base = process.env.VITE_BASE ?? "/faqminder/";
 // The reactRouter plugin expects a route-build context, so it's excluded under
 // Vitest — tests exercise pure lib/domains + component render, not route modules.
 const testing = !!process.env.VITEST;
+
+const VERSION_FILE = "version.json";
+
+function gitSha(): string {
+  try {
+    return execSync("git rev-parse --short HEAD", {
+      stdio: ["ignore", "pipe", "ignore"],
+    })
+      .toString()
+      .trim();
+  } catch {
+    return "nogit";
+  }
+}
+
+/**
+ * Identity of this build. The timestamp matters: a redeploy of the same commit (or
+ * of a dirty tree) is still a new build and must be detectable. Computed ONCE per
+ * process so the value compiled into the client and the one written to version.json
+ * cannot drift apart.
+ */
+function buildVersion(command: "build" | "serve"): string {
+  if (testing) return "test";
+  return `${gitSha()}-${command === "build" ? Date.now() : "dev"}`;
+}
+
+/**
+ * Publishes the build's identity two ways: `__APP_VERSION__` compiled into the
+ * client, and a version.json the running app polls to notice it has gone stale.
+ * Served in dev too, so the update flow is exercisable locally.
+ * NOTE: .json is deliberately absent from the SW's precache globs — a cached
+ * version.json could never report a new version.
+ */
+function appVersion(version: string): Plugin {
+  const body = JSON.stringify({ version }) + "\n";
+  return {
+    name: "faqminder:app-version",
+    config: () => ({ define: { __APP_VERSION__: JSON.stringify(version) } }),
+    configureServer(server) {
+      server.middlewares.use((req, res, next) => {
+        if (req.url?.split("?")[0] !== `${base}${VERSION_FILE}`) return next();
+        res.setHeader("content-type", "application/json");
+        res.setHeader("cache-control", "no-store");
+        res.end(body);
+      });
+    },
+    generateBundle() {
+      // Client build only; build/server is never deployed.
+      if (this.environment && this.environment.name !== "client") return;
+      this.emitFile({ type: "asset", fileName: VERSION_FILE, source: body });
+    },
+  };
+}
 
 // Vite's dev server 404s on the base path without its trailing slash. GitHub Pages
 // redirects that to the slash form, so mirror it in dev — otherwise "/faqminder"
@@ -37,12 +91,17 @@ function baseRedirect(): Plugin {
 
 // Service worker / Workbox is generated post-build (scripts/build-sw.mjs), not by
 // a plugin: vite-plugin-pwa fights RR framework mode's per-environment outDir.
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   base,
   resolve: {
     alias: { "~": fileURLToPath(new URL("./app", import.meta.url)) },
   },
-  plugins: [tailwindcss(), !testing && reactRouter(), baseRedirect()],
+  plugins: [
+    tailwindcss(),
+    !testing && reactRouter(),
+    baseRedirect(),
+    appVersion(buildVersion(command)),
+  ],
   test: {
     passWithNoTests: true, // root-level only; not a per-project option
     projects: [
@@ -80,4 +139,4 @@ export default defineConfig({
       },
     ],
   },
-});
+}));

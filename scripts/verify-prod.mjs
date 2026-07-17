@@ -1,12 +1,15 @@
-// Verifies the production build works offline via the service worker.
-// Serves build/client under /faqminder/, lets the SW install, then cuts the
-// network and reloads — the app shell must still load. Run after `pnpm build`.
+// Drives the PRODUCTION build in a real browser, against a server that models
+// GitHub Pages. Covers what only exists in a real deploy: both base-path forms, the
+// update-available flow (by publishing a new version mid-run), and the service
+// worker serving the shell with the network cut. Run after `pnpm build`.
 import http from "node:http";
-import { readFile } from "node:fs/promises";
+import { readFile, readFile as read } from "node:fs/promises";
 import { resolve, extname } from "node:path";
 import { chromium } from "playwright";
 
 const ROOT = resolve(process.cwd(), "build/client");
+// Served for version.json, so the run can pretend a new build was deployed.
+let publishedVersion = JSON.parse(await read(resolve(ROOT, "version.json"), "utf-8")).version;
 const TYPES = {
   ".html": "text/html", ".js": "text/javascript", ".css": "text/css",
   ".svg": "image/svg+xml", ".json": "application/json",
@@ -23,6 +26,12 @@ const server = http.createServer(async (req, res) => {
     return;
   }
   p = p.replace(/^\/faqminder/, "") || "/";
+  if (p === "/version.json") {
+    res.setHeader("content-type", "application/json");
+    res.setHeader("cache-control", "no-store");
+    res.end(JSON.stringify({ version: publishedVersion }));
+    return;
+  }
   try {
     const body = await readFile(resolve(ROOT, "." + p));
     res.setHeader("content-type", TYPES[extname(p)] ?? "application/octet-stream");
@@ -43,6 +52,14 @@ const check = (n, ok) => {
 
 const browser = await chromium.launch();
 const context = await browser.newContext();
+// Counts document loads, so "Update actually reloaded" is provable.
+await context.addInitScript(() => {
+  try {
+    sessionStorage.setItem("loads", String(Number(sessionStorage.getItem("loads") ?? 0) + 1));
+  } catch {
+    // about:blank has no accessible storage; nothing to count there.
+  }
+});
 const page = await context.newPage();
 page.on("console", (m) => m.type() === "error" && console.log("CONSOLE:", m.text()));
 page.on("pageerror", (e) => console.log("PAGEERROR:", e.message));
@@ -62,6 +79,32 @@ try {
 
   await page.goto("http://localhost:4173/faqminder/", { waitUntil: "networkidle" });
   check("app loads online", await page.getByText(/FAQMiner/).first().isVisible());
+
+  // --- Update available ---
+  const banner = page.locator("[data-update-banner]");
+  check("no update banner while running the deployed version", !(await banner.isVisible()));
+
+  publishedVersion = `deployed-${Date.now()}`; // someone just shipped
+  await page.reload({ waitUntil: "networkidle" });
+  const noticed = await banner.isVisible({ timeout: 8000 }).catch(() => false);
+  check("banner appears once a new version is published", noticed);
+
+  if (noticed) {
+    const loadsBefore = await page.evaluate(() => Number(sessionStorage.getItem("loads") ?? 0));
+    await page.getByRole("button", { name: /update/i }).click();
+    const reloaded = await page
+      .waitForFunction(
+        (n) => Number(sessionStorage.getItem("loads") ?? 0) > n,
+        loadsBefore,
+        { timeout: 10000 },
+      )
+      .then(() => true)
+      .catch(() => false);
+    check("Update reloads the app", reloaded);
+    // NB: don't assert caches are empty here — the reloaded app re-registers the SW
+    // and immediately re-precaches, which is the point. That the OLD precache is
+    // dropped is asserted directly in app-update.test.tsx.
+  }
   await page.waitForFunction(() => navigator.serviceWorker?.controller != null, { timeout: 10000 });
   check("service worker controls the page", true);
 

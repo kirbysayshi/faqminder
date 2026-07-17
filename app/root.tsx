@@ -8,6 +8,7 @@ import {
   ScrollRestoration,
 } from "react-router";
 import type { Route } from "./+types/root";
+import { UpdateBanner } from "~/features/app-update";
 import "./app.css";
 
 export const links: Route.LinksFunction = () => [
@@ -49,6 +50,7 @@ export default function App() {
 
   return (
     <JotaiProvider>
+      <UpdateBanner />
       <Outlet />
     </JotaiProvider>
   );

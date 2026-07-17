@@ -10,6 +10,9 @@ html {
 body {
   min-height: 100dvh;
   overscroll-behavior-y: none;
+  /* The update banner is fixed at the top; this keeps content clear of it. The var
+     is only set while the banner is showing, so normally this is a no-op. */
+  padding-top: var(--app-banner, 0px);
 }
 
 /* The reader restores its scroll anchor explicitly (see useScrollBookmark/anchor.ts).

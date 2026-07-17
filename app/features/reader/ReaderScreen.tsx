@@ -75,7 +75,13 @@ export function ReaderScreen({
   );
 
   return (
-    <div data-reader-root className="flex h-dvh flex-col bg-neutral-950">
+    <div
+      data-reader-root
+      className="flex flex-col bg-neutral-950"
+      // Fill the viewport, less the update banner when it's showing (var is 0px
+      // otherwise, so this is plain 100dvh in the normal case).
+      style={{ height: "calc(100dvh - var(--app-banner, 0px))" }}
+    >
       <header className="flex shrink-0 items-center gap-2 border-b border-neutral-800 px-2 py-2">
         <Link
           to="/"
