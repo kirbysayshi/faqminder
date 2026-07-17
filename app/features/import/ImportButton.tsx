@@ -6,7 +6,13 @@ import { parseFaqFilename } from "~/lib/filename";
 
 // File-input import (no server). Decodes each file, saves to IndexedDB, and — for a
 // single file — opens it. The library list updates reactively via useLiveQuery.
-export function ImportButton({ className = "" }: { className?: string }) {
+export function ImportButton({
+  className = "",
+  label = "Add FAQ",
+}: {
+  className?: string;
+  label?: string;
+}) {
   const inputRef = useRef<HTMLInputElement>(null);
   const navigate = useNavigate();
   const [busy, setBusy] = useState(false);
@@ -41,7 +47,7 @@ export function ImportButton({ className = "" }: { className?: string }) {
     <label
       className={`inline-flex cursor-pointer items-center justify-center rounded-md bg-neutral-100 px-4 py-2 text-sm font-medium text-neutral-900 active:bg-neutral-300 ${className}`}
     >
-      {busy ? "Adding…" : "Add FAQ"}
+      {busy ? "Adding…" : label}
       <input
         ref={inputRef}
         type="file"
