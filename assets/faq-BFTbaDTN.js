@@ -1,0 +1,1 @@
+import{t as e}from"./faq-CLcmFJY-.js";export{e as clientLoader};
