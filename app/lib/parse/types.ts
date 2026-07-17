@@ -28,4 +28,12 @@ export interface Block {
 export interface ParsedDoc {
   blocks: Block[];
   lineCount: number;
+  /**
+   * Width (in columns) that fits the great majority of this document's ASCII art —
+   * the 95th percentile, not the max. FAQs are ~80 columns but carry a handful of
+   * freak-width diagrams (one fixture has a 349-column line); sizing to the max
+   * would shrink every drawing to an unreadable smudge to accommodate an outlier.
+   * Those outliers scroll instead. 0 when the document has no art.
+   */
+  artCols: number;
 }

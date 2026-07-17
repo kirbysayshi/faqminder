@@ -65,14 +65,34 @@ describe("reader layout (real browser)", () => {
     expect(getComputedStyle(reader).fontFamily).toMatch(/mono/i);
   });
 
-  it("never scrolls horizontally — wide art scrolls inside its own block", () => {
+  it("never scrolls horizontally as a whole page", () => {
     const reader = $("[data-reader-scroll]");
     expect(reader.scrollWidth).toBeLessThanOrEqual(reader.clientWidth + 1);
-    // The art is still reachable: its own wrapper is the thing that scrolls.
-    const wideArt = all("[data-block-id] .overflow-x-auto").filter(
+  });
+
+  // Art can't wrap, so on a phone it either shrinks or scrolls. Default is shrink.
+  it("shrinks art to fit the screen, leaving only freak-width diagrams scrolling", async () => {
+    await page.screenshot({ element: $("[data-reader-root]") }); // the title banner
+    const artFont = parseFloat(getComputedStyle($("[data-reader-scroll]")).fontSize);
+    expect(artFont).toBeLessThan(14); // shrunk below the base size on a 390px screen
+
+    const wrappers = all("[data-block-id] .overflow-x-auto");
+    const scrolling = wrappers.filter((d) => d.scrollWidth > d.clientWidth + 1);
+    // Sized to the 95th percentile of art width, so the vast majority now fits and
+    // only the rare outlier still scrolls.
+    expect(scrolling.length / wrappers.length).toBeLessThan(0.1);
+  });
+
+  it("keeps art at base size and scrolling when fit is turned off", async () => {
+    await page.getByLabelText("Reader options").click();
+    await page.getByRole("switch", { name: /fit diagrams/i }).click();
+    await page.getByLabelText("Close options").click();
+
+    expect(parseFloat(getComputedStyle($("[data-reader-scroll]")).fontSize)).toBe(14);
+    const scrolling = all("[data-block-id] .overflow-x-auto").filter(
       (d) => d.scrollWidth > d.clientWidth + 1,
     );
-    expect(wideArt.length).toBeGreaterThan(0);
+    expect(scrolling.length).toBeGreaterThan(0); // wide art is reachable by scrolling
   });
 
   it("reflows prose, and no paragraph's text overflows its box", () => {

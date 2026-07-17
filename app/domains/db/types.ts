@@ -24,6 +24,7 @@ export interface ReaderState {
   scrollBlockId: number;
   scrollFraction: number; // 0..1 within that block
   fontSize?: number; // per-document font size (px); ASCII width varies by doc
+  artFit?: boolean; // shrink unwrappable art to fit the screen instead of scrolling
   updatedAt: number;
 }
 

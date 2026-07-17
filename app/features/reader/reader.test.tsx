@@ -55,7 +55,9 @@ describe("ReaderScreen", () => {
     expect(proseFont(container)).toBe("20px");
   });
 
-  it("keeps unwrappable art at the fixed base size, not the prose size", async () => {
+  // Whether art is shrunk to fit is a layout question, decided in the browser
+  // project; here we only pin that it never follows the prose size.
+  it("keeps unwrappable art independent of the prose size", async () => {
     const user = userEvent.setup();
     const { container } = renderReader("hello");
     const scroll = container.querySelector<HTMLElement>("[data-reader-scroll]")!;

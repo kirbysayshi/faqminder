@@ -17,6 +17,19 @@ export const FONT_STEP = 1;
  */
 export const ART_FONT = 14;
 
+/**
+ * Floor for shrink-to-fit art. Below this the drawing stops reading as a picture,
+ * so freakishly wide diagrams keep their horizontal scroll rather than dissolve.
+ */
+export const MIN_ART_FONT = 6;
+
+/** Default on: an 80-column diagram overflowing a phone is worse than a small one. */
+export const DEFAULT_ART_FIT = true;
+
+export function saveArtFit(id: string, artFit: boolean): Promise<void> {
+  return patch(id, { artFit });
+}
+
 export function clampFont(px: number): number {
   return Math.min(MAX_FONT, Math.max(MIN_FONT, px));
 }

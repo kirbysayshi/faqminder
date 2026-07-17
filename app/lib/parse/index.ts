@@ -237,5 +237,17 @@ export function parseDocument(text: string): ParsedDoc {
     }
   }
 
-  return { blocks, lineCount: lines.length };
+  return { blocks, lineCount: lines.length, artCols: typicalArtWidth(blocks) };
+}
+
+const ART_WIDTH_PERCENTILE = 0.95;
+
+/** See ParsedDoc.artCols: a high percentile, deliberately not the max. */
+function typicalArtWidth(blocks: Block[]): number {
+  const widths = blocks
+    .filter((b) => b.kind === "art")
+    .map((b) => Math.max(...b.lines.map((l) => l.replace(/\s+$/, "").length)))
+    .sort((a, b) => a - b);
+  if (widths.length === 0) return 0;
+  return widths[Math.min(widths.length - 1, Math.floor(widths.length * ART_WIDTH_PERCENTILE))]!;
 }

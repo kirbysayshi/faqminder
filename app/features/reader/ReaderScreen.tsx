@@ -4,9 +4,10 @@ import { parseDocument } from "~/lib/parse";
 import type { FaqMeta } from "~/domains/library";
 import { setReflowOverride } from "~/domains/document";
 import {
-  ART_FONT,
   clampFont,
+  DEFAULT_ART_FIT,
   DEFAULT_FONT,
+  saveArtFit,
   saveFontSize,
   type ReaderState,
 } from "~/domains/reader";
@@ -14,6 +15,8 @@ import { applyAnchor, currentAnchor, type ScrollAnchor } from "./anchor";
 import { BlockView } from "./BlockView";
 import { DocumentSearch } from "./DocumentSearch";
 import { FormattingControls } from "./FormattingControls";
+import { ReaderOptions } from "./ReaderOptions";
+import { useArtFont } from "./useArtFont";
 import { useScrollBookmark } from "./useScrollBookmark";
 
 // The reader: a full-height column with a sticky header and a scroll region.
@@ -26,19 +29,32 @@ export function ReaderScreen({
   initialAnchor = null,
   initialReflowOverrides = {},
   initialFont = DEFAULT_FONT,
+  initialArtFit = DEFAULT_ART_FIT,
 }: {
   meta: FaqMeta;
   text: string;
   initialAnchor?: ReaderState | null;
   initialReflowOverrides?: Record<number, boolean>;
   initialFont?: number;
+  initialArtFit?: boolean;
 }) {
   const doc = useMemo(() => parseDocument(text), [text]);
   const scrollRef = useRef<HTMLDivElement>(null);
   const [overrides, setOverrides] = useState(initialReflowOverrides);
   const [font, setFont] = useState(initialFont);
+  const [artFit, setArtFit] = useState(initialArtFit);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [optionsOpen, setOptionsOpen] = useState(false);
+  const artFont = useArtFont(scrollRef, doc.artCols, artFit);
   useScrollBookmark(meta.id, scrollRef, initialAnchor);
+
+  const toggleArtFit = useCallback(
+    (fit: boolean) => {
+      setArtFit(fit);
+      void saveArtFit(meta.id, fit);
+    },
+    [meta.id],
+  );
 
   // Resizing re-lays-out the whole document, so remember what was under the top of
   // the viewport BEFORE the change and put it back after — otherwise the reader
@@ -103,6 +119,17 @@ export function ReaderScreen({
             <path d="M10.5 10.5 14 14" strokeLinecap="round" />
           </svg>
         </button>
+        <button
+          type="button"
+          aria-label="Reader options"
+          onClick={() => setOptionsOpen(true)}
+          className="flex h-9 w-9 shrink-0 items-center justify-center rounded text-neutral-300 active:bg-neutral-800"
+        >
+          <svg viewBox="0 0 16 16" aria-hidden className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.6">
+            <circle cx="8" cy="8" r="2.2" />
+            <path d="M8 1.6v1.6M8 12.8v1.6M1.6 8h1.6M12.8 8h1.6M3.5 3.5l1.1 1.1M11.4 11.4l1.1 1.1M12.5 3.5l-1.1 1.1M4.6 11.4l-1.1 1.1" strokeLinecap="round" />
+          </svg>
+        </button>
         <FormattingControls size={font} onStep={stepFont} />
       </header>
 
@@ -110,9 +137,9 @@ export function ReaderScreen({
         ref={scrollRef}
         data-reader-scroll
         className="flex-1 overflow-y-auto overflow-x-hidden overscroll-contain px-3 py-2 font-mono"
-        // Unwrappable text (art/diagrams) inherits the fixed base size; only
-        // wrapped prose follows --prose-font.
-        style={{ fontSize: `${ART_FONT}px`, "--prose-font": `${font}px` } as React.CSSProperties}
+        // Unwrappable text (art/diagrams) inherits artFont — the base size, or
+        // shrunk to fit the screen. Only wrapped prose follows --prose-font.
+        style={{ fontSize: `${artFont}px`, "--prose-font": `${font}px` } as React.CSSProperties}
       >
         <div>
           {doc.blocks.map((block) => (
@@ -131,6 +158,12 @@ export function ReaderScreen({
         scrollRef={scrollRef}
         open={searchOpen}
         onOpenChange={setSearchOpen}
+      />
+      <ReaderOptions
+        open={optionsOpen}
+        onOpenChange={setOptionsOpen}
+        artFit={artFit}
+        onArtFitChange={toggleArtFit}
       />
     </div>
   );
