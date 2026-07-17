@@ -9,6 +9,14 @@ export const MIN_FONT = 9;
 export const MAX_FONT = 28;
 export const FONT_STEP = 1;
 
+/**
+ * Base size for text that CANNOT be wrapped — ASCII art, diagrams, tables. Fixed:
+ * resizing only ever affects wrapped prose, because scaling art would just make a
+ * fixed-width drawing overflow further. Art scrolls inside its own block, and the
+ * viewport still pinch-zooms for a closer look.
+ */
+export const ART_FONT = 14;
+
 export function clampFont(px: number): number {
   return Math.min(MAX_FONT, Math.max(MIN_FONT, px));
 }

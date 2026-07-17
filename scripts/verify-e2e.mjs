@@ -33,12 +33,15 @@ try {
   check("reader opens after import", await page.locator("[data-block-id]").count() > 20);
   check("title from filename", (await page.locator("h1").innerText()).includes("Ace Combat 3"));
 
-  // --- Formatting ---
+  // --- Formatting (prose size rides --prose-font; art keeps the fixed base) ---
   const scroll = page.locator("[data-reader-scroll]");
-  const before = await scroll.evaluate((el) => el.style.fontSize);
+  const proseFont = () => scroll.evaluate((el) => el.style.getPropertyValue("--prose-font"));
+  const artFont = () => scroll.evaluate((el) => el.style.fontSize);
+  const before = await proseFont();
+  const artBefore = await artFont();
   await page.getByLabel("Increase text size").click();
-  const after = await scroll.evaluate((el) => el.style.fontSize);
-  check("font size steps up", parseInt(after) === parseInt(before) + 1);
+  check("prose font steps up", parseInt(await proseFont()) === parseInt(before) + 1);
+  check("art font is unaffected by resizing", (await artFont()) === artBefore);
 
   // --- Reflow toggle (pin one prose block by id; its label flips on toggle) ---
   const proseId = await page.evaluate(() =>
@@ -92,7 +95,9 @@ try {
   await page.waitForTimeout(300);
   const restored = await page.locator("[data-reader-scroll]").evaluate((el) => el.scrollTop);
   check(`scroll restored on reload (saved ${savedTop}, restored ${restored})`, restored > 500);
-  const fontAfterReload = await page.locator("[data-reader-scroll]").evaluate((el) => el.style.fontSize);
+  const fontAfterReload = await page
+    .locator("[data-reader-scroll]")
+    .evaluate((el) => el.style.getPropertyValue("--prose-font"));
   check(`per-document font persisted across reload (${fontAfterReload})`, fontAfterReload === "15px");
 
   // --- Switch back to library ---

@@ -12,6 +12,13 @@ body {
   overscroll-behavior-y: none;
 }
 
+/* The reader restores its scroll anchor explicitly (see useScrollBookmark/anchor.ts).
+   Native scroll anchoring is Chrome/Firefox-only — absent on iOS Safari, our primary
+   target — so relying on it would be inconsistent, and it fights our own restore. */
+[data-reader-scroll] {
+  overflow-anchor: none;
+}
+
 /* Brief highlight when jumping to a search occurrence. */
 @keyframes reader-flash {
   from {

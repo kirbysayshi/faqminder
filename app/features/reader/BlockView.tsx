@@ -66,6 +66,9 @@ export function BlockView({
           className="whitespace-pre-wrap break-words text-neutral-100"
           style={{
             lineHeight: LINE_HEIGHT,
+            // Only wrapped text resizes; art keeps the container's base size. The
+            // ch-based indents below scale with it, so the structure holds.
+            fontSize: "var(--prose-font)",
             // Continuation lines sit at the hang column; the first line offsets
             // back to its own indent — reproduces paragraph and hanging indents.
             paddingLeft: hang,

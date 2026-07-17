@@ -1,14 +1,16 @@
-import { useCallback, useMemo, useRef, useState } from "react";
+import { useCallback, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router";
 import { parseDocument } from "~/lib/parse";
 import type { FaqMeta } from "~/domains/library";
 import { setReflowOverride } from "~/domains/document";
 import {
+  ART_FONT,
   clampFont,
   DEFAULT_FONT,
   saveFontSize,
   type ReaderState,
 } from "~/domains/reader";
+import { applyAnchor, currentAnchor, type ScrollAnchor } from "./anchor";
 import { BlockView } from "./BlockView";
 import { FormattingControls } from "./FormattingControls";
 import { SelectionSearch } from "./SelectionSearch";
@@ -37,16 +39,29 @@ export function ReaderScreen({
   const [font, setFont] = useState(initialFont);
   useScrollBookmark(meta.id, scrollRef, initialAnchor);
 
+  // Resizing re-lays-out the whole document, so remember what was under the top of
+  // the viewport BEFORE the change and put it back after — otherwise the reader
+  // jumps somewhere unpredictable.
+  const pendingAnchor = useRef<ScrollAnchor | null>(null);
+
   const stepFont = useCallback(
     (delta: number) => {
-      setFont((cur) => {
-        const next = clampFont(cur + delta);
-        if (next !== cur) void saveFontSize(meta.id, next);
-        return next;
-      });
+      const next = clampFont(font + delta);
+      if (next === font) return;
+      const el = scrollRef.current;
+      pendingAnchor.current = el ? currentAnchor(el) : null;
+      setFont(next);
+      void saveFontSize(meta.id, next);
     },
-    [meta.id],
+    [font, meta.id],
   );
+
+  useLayoutEffect(() => {
+    const el = scrollRef.current;
+    const anchor = pendingAnchor.current;
+    pendingAnchor.current = null;
+    if (el && anchor) applyAnchor(el, anchor); // after re-layout, before paint
+  }, [font]);
 
   const toggleReflow = useCallback(
     (blockId: number) => {
@@ -77,7 +92,9 @@ export function ReaderScreen({
         ref={scrollRef}
         data-reader-scroll
         className="flex-1 overflow-y-auto overflow-x-hidden overscroll-contain px-3 py-2 font-mono"
-        style={{ fontSize: `${font}px` }}
+        // Unwrappable text (art/diagrams) inherits the fixed base size; only
+        // wrapped prose follows --prose-font.
+        style={{ fontSize: `${ART_FONT}px`, "--prose-font": `${font}px` } as React.CSSProperties}
       >
         <div>
           {doc.blocks.map((block) => (

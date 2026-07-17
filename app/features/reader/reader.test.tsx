@@ -5,7 +5,7 @@ import userEvent from "@testing-library/user-event";
 import { MemoryRouter } from "react-router";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { db } from "~/domains/db";
-import { getReaderState } from "~/domains/reader";
+import { ART_FONT, getReaderState } from "~/domains/reader";
 import type { FaqMeta } from "~/domains/library";
 import { ReaderScreen } from "./ReaderScreen";
 
@@ -32,13 +32,17 @@ describe("ReaderScreen", () => {
   beforeEach(() => db.readerState.clear());
   afterEach(() => db.close({ disableAutoOpen: false }));
 
+  // The prose size rides a CSS var; the container's own font-size is the fixed
+  // base that unwrappable art inherits.
+  const proseFont = (c: HTMLElement) =>
+    c.querySelector<HTMLElement>("[data-reader-scroll]")!.style.getPropertyValue("--prose-font");
+
   it("applies and steps the per-document font size, persisting it", async () => {
     const user = userEvent.setup();
     const { container } = renderReader("hello");
-    const scroll = container.querySelector<HTMLElement>("[data-reader-scroll]")!;
-    expect(scroll.style.fontSize).toBe("14px");
+    expect(proseFont(container)).toBe("14px");
     await user.click(screen.getByLabelText("Increase text size"));
-    expect(scroll.style.fontSize).toBe("15px");
+    expect(proseFont(container)).toBe("15px");
     expect((await getReaderState("x"))?.fontSize).toBe(15);
   });
 
@@ -48,8 +52,17 @@ describe("ReaderScreen", () => {
         <ReaderScreen meta={meta} text={"hello"} initialFont={20} />
       </MemoryRouter>,
     );
+    expect(proseFont(container)).toBe("20px");
+  });
+
+  it("keeps unwrappable art at the fixed base size, not the prose size", async () => {
+    const user = userEvent.setup();
+    const { container } = renderReader("hello");
     const scroll = container.querySelector<HTMLElement>("[data-reader-scroll]")!;
-    expect(scroll.style.fontSize).toBe("20px");
+    expect(scroll.style.fontSize).toBe(`${ART_FONT}px`);
+    await user.click(screen.getByLabelText("Increase text size"));
+    expect(scroll.style.fontSize).toBe(`${ART_FONT}px`); // unchanged by resizing
+    expect(proseFont(container)).toBe("15px");
   });
 
   it("renders each block as a verbatim, id-tagged element", () => {

@@ -1,33 +1,9 @@
 import { useLayoutEffect } from "react";
 import type { RefObject } from "react";
 import { saveScrollAnchor, type ReaderState } from "~/domains/reader";
-import { anchorFromRects, scrollDeltaForAnchor, type BlockRect } from "~/lib/scroll";
+import { applyAnchor, currentAnchor } from "./anchor";
 
 const SAVE_THROTTLE_MS = 400;
-
-function measureBlocks(el: HTMLElement): BlockRect[] {
-  const rects: BlockRect[] = [];
-  for (const b of el.querySelectorAll<HTMLElement>("[data-block-id]")) {
-    const r = b.getBoundingClientRect();
-    rects.push({ blockId: Number(b.dataset.blockId), top: r.top, height: r.height });
-  }
-  return rects;
-}
-
-function currentAnchor(el: HTMLElement): { blockId: number; fraction: number } | null {
-  return anchorFromRects(measureBlocks(el), el.getBoundingClientRect().top);
-}
-
-function restore(el: HTMLElement, anchor: ReaderState): void {
-  const block = el.querySelector<HTMLElement>(`[data-block-id="${anchor.scrollBlockId}"]`);
-  if (!block) return;
-  const bRect = block.getBoundingClientRect();
-  el.scrollTop += scrollDeltaForAnchor(
-    bRect,
-    el.getBoundingClientRect().top,
-    anchor.scrollFraction,
-  );
-}
 
 /**
  * Persistent auto-bookmark for the reader scroll region. Restores `initialAnchor`
@@ -43,7 +19,12 @@ export function useScrollBookmark(
     const el = scrollRef.current;
     if (!el) return;
 
-    if (initialAnchor) restore(el, initialAnchor);
+    if (initialAnchor) {
+      applyAnchor(el, {
+        blockId: initialAnchor.scrollBlockId,
+        fraction: initialAnchor.scrollFraction,
+      });
+    }
 
     let timer: ReturnType<typeof setTimeout> | undefined;
     const flush = () => {

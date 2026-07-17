@@ -11,6 +11,7 @@
 - Prose reflow is conservative and preserves visual intent; never auto-reflow ASCII art. See `PLAN.md`.
 - **Tabs are expanded to 8-column stops at parse.** FAQs mix tabs and spaces for the same visual column, so every column measurement (and the verbatim render) is wrong until tabs are resolved. Done at parse, not import, so already-stored documents are fixed without re-importing.
 - **Prose wraps to the viewport; wide art scrolls inside its own block.** The reader must never scroll horizontally as a whole — a full-width wrapper makes prose wrap to the widest art block instead of the screen.
+- **Two font sizes.** Resizing (A−/A+) only scales *wrapped* prose, via the `--prose-font` var; unwrappable art/diagrams stay at the fixed `ART_FONT` (scaling a fixed-width drawing just makes it overflow further — it scrolls in-block, and the viewport still pinch-zooms). Resizing re-lays-out the document, so the reader captures the top-of-viewport anchor *before* the change and restores it after. `overflow-anchor: none` is deliberate: native scroll anchoring is absent on iOS Safari (our primary target) and fights the explicit restore.
 
 ## Tooling
 - **pnpm only.** Add deps with `pnpm add <pkg>@latest` — never hand-pick versions. `pnpm-workspace.yaml` sets `savePrefix:''` (exact pins) and pre-approves `esbuild` builds. Build-script approval (`pnpm approve-builds`) is interactive — do not attempt it non-interactively; surface to the user if a new dep needs it.

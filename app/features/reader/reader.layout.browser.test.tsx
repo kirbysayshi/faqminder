@@ -30,6 +30,19 @@ const tacticItems = () =>
     /^(Offensive|Try Out|Save MP|Defensive|Use No MP):/.test(p.textContent ?? ""),
   );
 
+/** The block currently under the top of the viewport. */
+function topBlockId(reader: HTMLElement): string | undefined {
+  const top = reader.getBoundingClientRect().top;
+  return all("[data-block-id]").find((b) => b.getBoundingClientRect().bottom > top + 1)?.dataset
+    .blockId;
+}
+
+const px = (el: Element) => parseFloat(getComputedStyle(el).fontSize);
+
+async function stepFont(dir: "Increase" | "Decrease", times = 1) {
+  for (let i = 0; i < times; i++) await page.getByLabelText(`${dir} text size`).click();
+}
+
 describe("reader layout (real browser)", () => {
   // Per-test: testing-library auto-cleanup unmounts between tests.
   beforeEach(() => {
@@ -82,6 +95,37 @@ describe("reader layout (real browser)", () => {
     const item = tacticItems()[0]!;
     const pad = parseFloat(getComputedStyle(item).paddingLeft);
     expect(item.getBoundingClientRect().width - pad).toBeGreaterThan(200);
+  });
+
+  it("resizes only wrapped prose — art keeps its base size", async () => {
+    const art = $("[data-block-id] pre"); // verbatim block
+    const prose = $<HTMLParagraphElement>("[data-reader-scroll] p");
+    const artBefore = px(art);
+    const proseBefore = px(prose);
+
+    await stepFont("Increase", 4);
+    expect(px(prose)).toBeGreaterThan(proseBefore); // wrapped text grew
+    expect(px(art)).toBe(artBefore); // art untouched
+
+    await stepFont("Decrease", 8);
+    expect(px(prose)).toBeLessThan(proseBefore); // wrapped text shrank
+    expect(px(art)).toBe(artBefore); // still untouched
+  });
+
+  it("keeps the content at the top of the viewport when resizing", async () => {
+    const reader = $("[data-reader-scroll]");
+    reader.scrollTo(0, 9000);
+    const before = topBlockId(reader);
+    expect(before).toBeDefined();
+
+    // Native scroll anchoring is off (iOS Safari lacks it), so this only passes
+    // because the reader restores the anchor itself. Without it the top jumps ~10
+    // blocks backwards when the document re-lays-out.
+    await stepFont("Increase", 5);
+    expect(topBlockId(reader)).toBe(before); // same content still on screen
+
+    await stepFont("Decrease", 5);
+    expect(topBlockId(reader)).toBe(before);
   });
 
   it("captures a screenshot of the reflowed reader", async () => {
