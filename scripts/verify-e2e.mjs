@@ -26,8 +26,10 @@ try {
   await page.evaluate(() => indexedDB.deleteDatabase("faqminder"));
   await page.reload({ waitUntil: "networkidle" });
 
-  // --- Import ---
+  // --- Import (file picker now lives in the Add view) ---
   check("library empty state", await page.getByText(/No FAQs yet/i).isVisible());
+  await page.getByRole("link", { name: /Add FAQ/i }).click();
+  await page.waitForURL(/\/add$/);
   await page.locator('input[type="file"]').setInputFiles(FIXTURE);
   await page.waitForSelector("[data-reader-scroll]", { timeout: 10000 });
   check("reader opens after import", await page.locator("[data-block-id]").count() > 20);
