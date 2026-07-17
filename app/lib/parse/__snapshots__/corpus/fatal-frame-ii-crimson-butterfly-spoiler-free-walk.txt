@@ -1,4 +1,4 @@
-blocks: 65  art: 56  prose-block: 9  prose-hanging: 0
+blocks: 66  art: 56  prose-block: 10  prose-hanging: 0
 --------------------------------------------------------------------------------
 #0000 art                 L27  | ï»¿===============================================================================
 #0001 art                 L3   | /-----------------\
@@ -42,26 +42,27 @@ blocks: 65  art: 56  prose-block: 9  prose-hanging: 0
 #0039 art                 L29  | 9. Chapter Eight - Half Moon
 #0040 art                 L18  | 10. Final Chapter - Crimson Butterfly
 #0041 art                 L12  | Final Boss(Easy/Normal mode): Kusabi
-#0042 art                 L5   | Well I think that's all, after beating him just go approach Mayu to see Ending
-#0043 block   f=0  p=0  L2   ( 109) | Beating the game in any difficulty mode will allow you to replay the game with all of your items
-#0044 art                 L5   | Beating the game in Easy mode:
-#0045 art                 L8   | Beating the game in Normal mode:
-#0046 art                 L3   | ++++++++++++++
-#0047 art                 L3   | ===============================================================================
-#0048 art                 L1   | Here are some guides about the Camera Obscura.
-#0049 art                 L6   | Basic Function Upgrade:
-#0050 art                 L5   | Power-up Lenses:
-#0051 art                 L7   | Films:
-#0052 art                 L6   | Functions:
-#0053 art                 L3   | ===============================================================================
-#0054 art                 L1   | This is my personal opinion about the game.
-#0055 art                 L5   | Graphics (10/10)
-#0056 art                 L5   | Storyline (10/10)
-#0057 art                 L4   | Sound (10/10)
-#0058 art                 L4   | Gameplay (10/10)
-#0059 art                 L4   | Controls (10/10)
-#0060 art                 L6   | Replay value (10/10)
-#0061 art                 L3   |  -----------------
-#0062 art                 L3   | ===============================================================================
-#0063 art                 L5   | Special thanks to:
-#0064 art                 L3   | %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#0042 block   f=0  p=0  L2   ( 118) | Well I think that's all, after beating him just go approach Mayu to see Ending A:Crimson Butterf
+#0043 art                 L3   | ===============================================================================
+#0044 block   f=0  p=0  L2   ( 109) | Beating the game in any difficulty mode will allow you to replay the game with all of your items
+#0045 art                 L5   | Beating the game in Easy mode:
+#0046 art                 L8   | Beating the game in Normal mode:
+#0047 art                 L3   | ++++++++++++++
+#0048 art                 L3   | ===============================================================================
+#0049 art                 L1   | Here are some guides about the Camera Obscura.
+#0050 art                 L6   | Basic Function Upgrade:
+#0051 art                 L5   | Power-up Lenses:
+#0052 art                 L7   | Films:
+#0053 art                 L6   | Functions:
+#0054 art                 L3   | ===============================================================================
+#0055 art                 L1   | This is my personal opinion about the game.
+#0056 art                 L5   | Graphics (10/10)
+#0057 art                 L5   | Storyline (10/10)
+#0058 art                 L4   | Sound (10/10)
+#0059 art                 L4   | Gameplay (10/10)
+#0060 art                 L4   | Controls (10/10)
+#0061 art                 L6   | Replay value (10/10)
+#0062 art                 L3   |  -----------------
+#0063 art                 L3   | ===============================================================================
+#0064 art                 L5   | Special thanks to:
+#0065 art                 L3   | %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

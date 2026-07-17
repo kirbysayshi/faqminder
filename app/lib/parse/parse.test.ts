@@ -127,6 +127,44 @@ describe("prose classification", () => {
     expect(block.kind).toBe("art"); // two real labels => leave verbatim
   });
 
+  it("splits a paragraph that runs straight into a diagram (no blank line)", () => {
+    // Dragon Warrior IV does this constantly: prose, then a menu box, no gap.
+    const { blocks } = parseDocument(
+      [
+        "    There are three main menus that you'll be paying attention to more",
+        "than anything else in the game and that's the Command menu, the Status",
+        "menu and the Battle menu.  I'll also be discussing the Tactics sub-menu",
+        " _____       ______",
+        "|-----COMMAND------|",
+        "| >TALK     SPELL  |",
+        "|__________________|",
+      ].join("\n"),
+    );
+    expect(blocks).toHaveLength(2);
+    expect(blocks[0]).toMatchObject({ kind: "prose", reflow: { layout: "block" } });
+    // The box stays one intact art block, butted against the prose (no gap).
+    expect(blocks[1]).toMatchObject({ kind: "art", gapBefore: 0 });
+    expect(blocks[1]!.lines).toHaveLength(4);
+    expect(blocks[1]!.startLine).toBe(3);
+  });
+
+  it("splits a hanging item that runs straight into a diagram", () => {
+    const { blocks } = parseDocument(
+      [
+        "STATUS:  This selection will lead to a new menu where you can view your",
+        "-------  current statistics and experience points.  If you press the A",
+        "         button again another menu will appear with more information.",
+        "         ______    ______",
+        "         |------STATUS------|",
+        "         |__________________|",
+      ].join("\n"),
+    );
+    expect(blocks).toHaveLength(2);
+    expect(blocks[0]).toMatchObject({ kind: "prose", reflow: { layout: "hanging" } });
+    expect(reflowText(blocks[0]!)).not.toContain("---"); // underline still dropped
+    expect(blocks[1]!.kind).toBe("art");
+  });
+
   it("keeps ASCII banners as art", () => {
     const banner = ["=====================", "|  SUPER GAME  FAQ  |", "====================="];
     expect(first(banner.join("\n")).kind).toBe("art");

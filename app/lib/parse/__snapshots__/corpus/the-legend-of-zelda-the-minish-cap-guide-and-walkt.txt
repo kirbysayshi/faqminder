@@ -1,4 +1,4 @@
-blocks: 1087  art: 784  prose-block: 272  prose-hanging: 31
+blocks: 1136  art: 784  prose-block: 321  prose-hanging: 31
 --------------------------------------------------------------------------------
 #0000 art                 L5   |                                  The Legend of
 #0001 art                 L27  |                            T H E  M I N I S H  C A P
@@ -12,962 +12,962 @@ blocks: 1087  art: 784  prose-block: 272  prose-hanging: 31
 #0009 block   f=0  p=0  L12  ( 875) | The Minish Cap is another portable Zelda game the likes of Link's Awakening and the Oracles. By 
 #0010 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
 #0011 block   f=0  p=0  L5   ( 369) | When you start up the game, pick a file and you will be asked to name it. Whatever you name it i
-#0012 art                 L25  | After picking the file, it starts off by telling the story of the Hero of Men.
-#0013 art                 L19  | ----------------------------
-#0014 art                 L9   | ----------------------------
-#0015 art                 L15  | ----------------------------
-#0016 block   f=0  p=0  L3   ( 209) | Afterwards, Vaati approaches the chest, and finds out there's nothing there aside from a rabble 
-#0017 art                 L27  | ----------------------------
-#0018 art                 L4   | ----------------------------
-#0019 art                 L6   | ----------------------------
-#0020 art                 L7   | ----------------------------
-#0021 art                 L5   | ----------------------------
-#0022 art                 L29  | ----------------------------
-#0023 block   f=0  p=0  L9   ( 664) | Wow! You've shrunk to an incredibly small size! After exiting the stump (you can forgo this anim
-#0024 art                 L28  | ----------------------------
-#0025 block   f=0  p=0  L7   ( 536) | Talk to the elder, and Ezlo will speak up, saying we need to break Vaati's curse by reforging th
-#0026 art                 L12  | ============================
-#0027 block   f=0  p=0  L8   ( 624) | Inside, you'll see a barrel locked by vines. Head east and climb, step on the switch to light a 
-#0028 art                 L11  | Take down the Mulldozer and go up the left side. See the marking on the floor,
-#0029 block   f=0  p=0  L7   ( 510) | In here, you'll see two statues next to two floor switches. Putting them on the switches reveals
-#0030 block   f=0  p=0  L10  ( 709) | Enter the barrel, move it until there's an upper-right exit, and head out there. Enter the locke
-#0031 art                 L28  | Climb the small ladder to the north room. Jump off, head left, kill the
-#0032 art                 L34  | Once down there, suck the lilypad toward you, hop on, then blow air by tapping
-#0033 block   f=0  p=0  L5   ( 319) | Push the block below the chest to the right and open it for 20 Rupees, then go back downstairs. 
-#0034 art                 L23  | ~~~~~~~~~~~~~~~~~~~~~~~
-#0035 art                 L7   | +++++++++++++++++++
-#0036 art                 L6   | Quest Status:
-#0037 art                 L7   |   _____________________________
-#0038 art                 L8   | ----------------------------
-#0039 art                 L13  | ----------------------------
-#0040 art                 L8   | ----------------------------
-#0041 art                 L9   | ----------------------------
-#0042 art                 L17  | ----------------------------
-#0043 art                 L39  | ----------------------------
-#0044 art                 L26  | Heading back to Stockwell's, you'll notice he has a new    __________  ________
-#0045 block   f=0  p=0  L5   ( 346) | With all that done, head to the west side and talk to the soldier blocking the way out. He sees 
-#0046 art                 L23  | ----------------------------
-#0047 block   f=0  p=0  L9   ( 705) | Head south. There's a bunch of white...stuff. I think it's webbing. Anyway, get past it as it hu
-#0048 art                 L24  | ----------------------------
-#0049 block   f=0  p=0  L11  ( 821) | Now head west. See the green Crenel Bean? Enter the "valley" leading to it, approach it, and pic
-#0050 block   f=0  p=0  L4   ( 278) | Head back out and get back to normal size. Backtrack your way to where you dealt with that green
-#0051 art                 L15  | ----------------------------
-#0052 art                 L30  | Back outside, use the whirlwinds to glide across west. Climb the ladder to go
-#0053 block   f=0  p=0  L11  ( 801) | In the cave, kill the Helmasaurs, and push the top block left. On the next set of blocks, push t
-#0054 block   f=0  p=0  L9   ( 648) | In here, there's a switch across the pit. To hit it, place a bomb, pick it up, and throw it acro
-#0055 art                 L12  | ----------------------------
-#0056 art                 L5   | ----------------------------
-#0057 art                 L14  | ============================
-#0058 block   f=0  p=0  L10  ( 720) | In here, follow the path west, up the ladder, and follow the pathway around to the east, where a
-#0059 art                 L8   | Head down and get back to normal size with the pedestal.   __________  ________
-#0060 block   f=0  p=0  L11  ( 814) | Ride the rock platform across and get off as soon as you can before it crumbles, and hit the Rol
-#0061 art                 L14  | Head west, then north. Jump into the hole, then jump out. Now walk along the
-#0062 block   f=0  p=0  L9   ( 692) | Back in here, use the Cane to flip the minecart over. Hop in and get sent flying to a chest on a
-#0063 block   f=0  p=0  L8   ( 560) | You'll end up in a room of Rollobites. Hit them and throw them into the row of holes leading to 
-#0064 block   f=0  p=0  L11  ( 830) | In here, flip the moving rock platform over, and get on it when it's moving south. Flip the next
-#0065 art                 L21  | Use the whirlwind at the end to glide to the south ledge, follow it to the
-#0066 art                 L25  | ~~~~~~~~~~~~~~~~~~~~~~~
-#0067 art                 L11  | +++++++++++++++++++
-#0068 art                 L9   | Quest Status:
-#0069 art                 L7   |   _____________________________
-#0070 art                 L15  | ----------------------------
-#0071 art                 L7   | ----------------------------
-#0072 art                 L7   | ----------------------------
-#0073 art                 L12  | ----------------------------
-#0074 block   f=0  p=0  L8   ( 577) | As might be obvious, any time you see these glowing tiles, you can now split yourself in two by 
-#0075 art                 L16  | ----------------------------
-#0076 art                 L11  | ----------------------------
-#0077 block   f=0  p=0  L7   ( 476) | Down here, you'll find a tree with an entrance. Head inside and walk down the stairs to find Car
-#0078 block   f=0  p=0  L14  (1022) | With that done, head over to the house to the right of Stockwell's shop. Inside is a pot you can
-#0079 art                 L12  | Next head over to Swiftblade's place. He has a new move to teach you now that
-#0080 art                 L6   | ----------------------------
-#0081 art                 L19  | ----------------------------
-#0082 art                 L6   | ----------------------------
-#0083 art                 L48  | ----------------------------
-#0084 art                 L14  | ----------------------------
-#0085 art                 L12  | ----------------------------
-#0086 art                 L17  | ----------------------------
-#0087 block   f=0  p=0  L7   ( 535) | Re-enter the shoemaker's place, and shrink yourself from the pot. Climb the small ladder up to R
-#0088 art                 L11  | ----------------------------
-#0089 block   f=0  p=0  L8   ( 562) | Out here on the north side, there's a cave entrance. Enter, split yourself in two with the ghost
-#0090 block   f=0  p=0  L5   ( 345) | Use the Cane of Pacci on the hole and fling yourself on the ledge. Shrink yourself on the stump 
-#0091 art                 L5   | ----------------------------
-#0092 art                 L12  | ----------------------------
-#0093 art                 L15  | ----------------------------
-#0094 art                 L35  | ----------------------------
-#0095 art                 L50  | Climb up to the ledge, then head north across the bridge. Climb down on the
-#0096 art                 L13  | ----------------------------
-#0097 block   f=0  p=0  L14  (1038) | Head east. Climb the ladder and kill the Tektites to make a way further up. Climb, then head eas
-#0098 block   f=0  p=0  L3   ( 234) | Follow the path, get rid of any blocks and Ropes you see, as you will need to kill all enemies t
-#0099 art                 L15  | ============================
-#0100 art                 L43  | Now stand on the glowing tile that the Armos was on, charge your sword fully,
-#0101 art                 L15  | Up here, kill the Stalfos and destroy the Eyegore Statues up north, then go a
-#0102 block   f=0  p=0  L13  ( 923) | Follow the path and you will see a couple of skulls with a space between them. Place a bomb ther
-#0103 block   f=0  p=0  L10  ( 730) | Head east, slash through the skulls. At the south end, bypass the rolling spiked logs by ducking
-#0104 art                 L18  | Get yourself back to normal size, and step on the switch to make a [[SMALL
-#0105 block   f=0  p=0  L12  ( 874) | Now exit the room and enter the second-left doorway, climb up to the second floor, follow the ro
-#0106 block   f=0  p=0  L9   ( 686) | In here, before climbing, dig out the statue and push it onto the floor switch to keep it down, 
-#0107 art                 L12  | ~~~~~~~~~~~~~~~~~~~~~~~
-#0108 art                 L44  | It will get faster and harder to hit the eye-palms the more damage is done, and
-#0109 art                 L12  | Quest Status:
-#0110 art                 L16  |   _____________________________
-#0111 art                 L15  | ----------------------------
-#0112 block   f=0  p=0  L12  ( 873) | Now to get that bottle. Head over to the cafe that's to the left of Stockwell's, and push aside 
-#0113 block   f=0  p=0  L8   ( 592) | So with the bottle of dog food in hand, exit his shop the way you entered. We'll deliver the dog
-#0114 art                 L21  | Right outside that place are two kids, Candy and Lolly. Both will want to do
-#0115 art                 L32  | A quick break from Fusions, over at the bazaar, there's a new place open. It's
-#0116 art                 L12  | Now, heading over to the Post Office, you'll
-#0117 block   f=0  p=0  L2   ( 107) | With that, I think we can finally move on from Hyrule Town. Spent enough time here. Head south o
-#0118 art                 L6   | ----------------------------
-#0119 art                 L12  | ----------------------------
-#0120 art                 L24  | ----------------------------
-#0121 art                 L1   | Now head west to Western Wood.
-#0122 art                 L12  | ----------------------------
-#0123 art                 L11  | ----------------------------
-#0124 art                 L23  | ----------------------------
-#0125 art                 L6   | ----------------------------
-#0126 art                 L22  | ----------------------------
-#0127 art                 L32  | Enter the little farm there to find a digging spot as well as two farmers,
-#0128 art                 L31  | ----------------------------
-#0129 art                 L10  | With that done, use the Ocarina of Wind to warp to Lake Hylia. You'll be placed
-#0130 art                 L15  | ----------------------------
-#0131 block   f=0  p=0  L9   ( 668) | Head back, and enter the purple-roofed house. Inside, pour the water onto the fireplace, then fl
-#0132 block   f=0  p=0  L8   ( 614) | Exit the library and head down west, past Stranger's house and down the steps. Enter the house h
-#0133 art                 L27  | Cross the plank, then enter Stranger's house, the yellow-roofed one. Exit
-#0134 block   f=0  p=0  L9   ( 660) | Unfortunately, he doesn't quite seem to remember, and says to ask his masks since they "watch" o
-#0135 art                 L5   | ----------------------------
-#0136 art                 L12  | ----------------------------
-#0137 art                 L12  | ----------------------------
-#0138 art                 L13  | ----------------------------
-#0139 art                 L25  | Dropped down here, push aside the bottom block (the one you can reach, anyway)
-#0140 art                 L25  | ----------------------------
-#0141 art                 L12  | ============================
-#0142 art                 L28  | See the block of ice? A [[SMALL KEY]] is inside. To get it, push it south, then
-#0143 block   f=0  p=0  L9   ( 645) | Get on the water and swim down the waterfall. Swim south, dive underneath the log as it passes, 
-#0144 art                 L26  | Back down here, go south a bit when the log is going south, dive off and under
-#0145 block   f=0  p=0  L10  ( 752) | Follow the path and you will see a giant lever, can't be moved by just one. There's some glowing
-#0146 art                 L30  | Head north next, then go downstairs. Go downstairs again, and move the lever
-#0147 block   f=0  p=0  L10  ( 768) | Exit the room and continue north through the maze, taking a right. Follow the path, open the che
-#0148 block   f=0  p=0  L11  ( 781) | In the next room north, push the left ice block left, then go and push the other ice block down 
-#0149 block   f=0  p=0  L11  ( 840) | In here, swim past and dive under the spiked logs, get past the Scissors Beetles, and head east 
-#0150 block   f=0  p=0  L11  ( 848) | Kill everything again, then bomb the north wall as the tiles made out as an arrow clearly point 
-#0151 art                 L13  | ~~~~~~~~~~~~~~~~~~~~~~~
-#0152 art                 L17  | Repeat the process with deflecting its rocks then dashing behind it to light
-#0153 art                 L16  | +++++++++++++++++++
-#0154 art                 L16  | Quest Status:
-#0155 art                 L12  |   _____________________________
-#0156 art                 L35  | ----------------------------
-#0157 art                 L9   | ----------------------------
-#0158 art                 L8   | ----------------------------
-#0159 art                 L27  | ----------------------------
-#0160 art                 L23  | So exit the house. Unfortunately, a couple of Takkuri come by to knock you out
-#0161 art                 L14  | ----------------------------
-#0162 block   f=0  p=0  L9   ( 691) | Split yourself into three, and ride on the platforms while dodging the blocks. Step on the switc
-#0163 art                 L18  | ----------------------------
-#0164 art                 L38  | ----------------------------
-#0165 block   f=0  p=0  L12  ( 871) | Enter the inn, go to the second floor, and light the torches there from the ladder. This will op
-#0166 art                 L14  | Head back north, and bomb through the cracked rocks to reach a chest containing
-#0167 art                 L75  | ----------------------------
-#0168 art                 L13  | Exit Gentari's house and head east over to the barrel house. Inside, there's a
-#0169 art                 L8   | ----------------------------
-#0170 art                 L6   | ----------------------------
-#0171 art                 L14  | ----------------------------
-#0172 art                 L14  |                                    Head west. Remember Waveblade's dojo? Well,
-#0173 art                 L10  | ----------------------------
-#0174 art                 L17  | ----------------------------
-#0175 art                 L15  | ----------------------------
-#0176 art                 L17  | ----------------------------
-#0177 art                 L21  |                                    Up here, you'll find a Tingle brother named
-#0178 art                 L15  | ----------------------------
-#0179 block   f=0  p=0  L11  ( 772) | Exit the house, and Percy is not there. Enter the house, and suddenly he's there with the Moblin
-#0180 art                 L12  | ----------------------------
-#0181 art                 L29  | ----------------------------
-#0182 art                 L25  | Drop south, then head to the east. Climb up
-#0183 art                 L7   | ----------------------------
-#0184 art                 L18  | ----------------------------
-#0185 art                 L27  | ----------------------------
-#0186 art                 L22  | ----------------------------
-#0187 art                 L10  | ----------------------------
-#0188 art                 L23  | ----------------------------
-#0189 block   f=0  p=0  L9   ( 686) | Out here, avoid the Rock Chuchu and simply climb up the wall here. At the top, investigate the g
-#0190 block   f=0  p=0  L3   ( 223) | Up here, you'll notice something huge hiding behind the mountain, and it sounds like a Goron...b
-#0191 art                 L17  | ----------------------------
-#0192 block   f=0  p=0  L12  ( 879) | Head north, dig through the cloud there to find a Kinstone piece, then jump into the whirlwind h
-#0193 block   f=0  p=0  L9   ( 681) | Jump into the whirlwind here and glide south to land on a cloud. Here, dig away the clouds so yo
-#0194 block   f=0  p=0  L11  ( 822) | Open the chest for 50 Mysterious Shells, then jump into the whirlwind and glide southeast. Here,
-#0195 art                 L14  | Jump into the whirlwind and glide west. Dig through the cloud, jump into the
-#0196 art                 L30  | In case you're wondering, I counted all five of those Fusions as one. Anyway,
-#0197 art                 L12  | ============================
-#0198 art                 L30  | As you may notice, the map is quickly going to become useless. Follow the
-#0199 block   f=0  p=0  L9   ( 687) | At the end of the path, jump on the panel to get below the grating, go to the other one (beware 
-#0200 block   f=0  p=0  L9   ( 661) | At the end, jump off, jump into the grating, head east. Jump onto the panel onto the platform be
-#0201 art                 L18  |  __________V
-#0202 block   f=0  p=0  L12  ( 915) | Up here, jump off and head northwest. Here, you'll have to cross the bridge while being wary of 
-#0203 block   f=0  p=0  L12  ( 926) | Head south here through the doorway. In here are a couple of Ball and Chain Soldiers. To defeat 
-#0204 art                 L14  | Here, attack the Stalfos with your Bow, jump across, and head east through the
-#0205 block   f=0  p=0  L11  ( 758) | Finally inside of a building, it seems. Take out your Flame Lantern, as it's dark in here. Just 
-#0206 art                 L16  | Jump over the rolling logs, climb up and open the chest for a [[SMALL KEY]].
-#0207 block   f=0  p=0  L12  ( 824) | Jump back across, then head northwest from where you climbed up here. Push the blocks off, jump 
-#0208 block   f=0  p=0  L13  (1010) | Here, move your way around the Bombarossas while trying not to set them off, because if you do, 
-#0209 block   f=0  p=0  L5   ( 356) | Hop up them partially, and jump to the east. Hop up this stack of clouds to the next floor, and 
-#0210 art                 L13  | ~~~~~~~~~~~~~~~~~~~~~~~
-#0211 art                 L13  | You'll get back on the female, so attack her eyes while dodging the shots from
-#0212 art                 L17  | +++++++++++++++++++
-#0213 art                 L18  | Quest Status:
-#0214 art                 L17  |   _____________________________
-#0215 art                 L7   | ----------------------------
-#0216 art                 L17  | ----------------------------
-#0217 block   f=0  p=0  L3   ( 218) | Once you exit, you'll find that something looks different...walk south and you will see a couple
-#0218 art                 L13  | ============================
-#0219 block   f=0  p=0  L12  ( 803) | Step on the switch to open both prison cells, then go over to Daltus' cell and cure his curse wi
-#0220 block   f=0  p=0  L10  ( 721) | So head north here, then go west when you can. Follow the hall there until you get to some canno
-#0221 art                 L33  | Here, split yourself on the tiles, and move south while dodging the Trap, and
-#0222 block   f=0  p=0  L9   ( 674) | Here, split yourself so that two are on both of the bottom corners, and two are between the midd
-#0223 block   f=0  p=0  L11  ( 808) | Go east to find a line of Sparks. Goody! Free Fairies! Head north to fight a Black Knight, which
-#0224 block   f=0  p=0  L10  ( 773) | In here, kill all the Stalfos and the two Wall Masters, then shoot the eyes on the north wall to
-#0225 block   f=0  p=0  L11  ( 866) | Fight off the Ghinis (one of them, when defeated, will get rid of all of them) and head east. Go
-#0226 art                 L31  | Head back west, then north. Go west twice, and fight off the two Dark Nuts to
-#0227 art                 L17  | ~~~~~~~~~~~~~~~~~~~~~~~
-#0228 block   f=0  p=0  L2   ( 100) | After having dealt enough damage, you're teleported to a strange area. Vaati transforms yet agai
-#0229 art                 L15  | ~~~~~~~~~~~~~~~~~~~~~~~
-#0230 block   f=0  p=0  L8   ( 618) | After enough damage is dealt, Vaati seems to be defeated. Head up to Zelda, and use your Four Sw
-#0231 art                 L13  | ~~~~~~~~~~~~~~~~~~~~~~~
-#0232 block   f=0  p=0  L6   ( 394) | Now to do that to the other arm. Wait for him to get his other arm to attack, swing the Cane of 
-#0233 art                 L9   | Now that both arms are gone, the four small eyes in front of Vaati will open
-#0234 block   f=0  p=0  L6   ( 446) | Once enough damage is dealt, Vaati will finally be defeated. The magical cap will disperse from 
+#0012 block   f=0  p=0  L3   ( 234) | After picking the file, it starts off by telling the story of the Hero of Men. A blade made by t
+#0013 art                 L22  |   _____________________________
+#0014 art                 L19  | ----------------------------
+#0015 art                 L9   | ----------------------------
+#0016 art                 L15  | ----------------------------
+#0017 block   f=0  p=0  L3   ( 209) | Afterwards, Vaati approaches the chest, and finds out there's nothing there aside from a rabble 
+#0018 art                 L27  | ----------------------------
+#0019 art                 L4   | ----------------------------
+#0020 art                 L6   | ----------------------------
+#0021 art                 L7   | ----------------------------
+#0022 art                 L5   | ----------------------------
+#0023 art                 L29  | ----------------------------
+#0024 block   f=0  p=0  L9   ( 664) | Wow! You've shrunk to an incredibly small size! After exiting the stump (you can forgo this anim
+#0025 art                 L28  | ----------------------------
+#0026 block   f=0  p=0  L7   ( 536) | Talk to the elder, and Ezlo will speak up, saying we need to break Vaati's curse by reforging th
+#0027 art                 L12  | ============================
+#0028 block   f=0  p=0  L8   ( 624) | Inside, you'll see a barrel locked by vines. Head east and climb, step on the switch to light a 
+#0029 art                 L11  | Take down the Mulldozer and go up the left side. See the marking on the floor,
+#0030 block   f=0  p=0  L7   ( 510) | In here, you'll see two statues next to two floor switches. Putting them on the switches reveals
+#0031 block   f=0  p=0  L10  ( 709) | Enter the barrel, move it until there's an upper-right exit, and head out there. Enter the locke
+#0032 block   f=0  p=0  L10  ( 761) | Climb the small ladder to the north room. Jump off, head left, kill the Mulldozers, and head lef
+#0033 art                 L18  |                               __________  ________
+#0034 block   f=0  p=0  L11  ( 841) | Once down there, suck the lilypad toward you, hop on, then blow air by tapping the button to mov
+#0035 art                 L23  |                               __________  ________
+#0036 block   f=0  p=0  L5   ( 319) | Push the block below the chest to the right and open it for 20 Rupees, then go back downstairs. 
+#0037 art                 L23  | ~~~~~~~~~~~~~~~~~~~~~~~
+#0038 art                 L7   | +++++++++++++++++++
+#0039 art                 L6   | Quest Status:
+#0040 art                 L7   |   _____________________________
+#0041 art                 L8   | ----------------------------
+#0042 art                 L13  | ----------------------------
+#0043 art                 L8   | ----------------------------
+#0044 art                 L9   | ----------------------------
+#0045 art                 L17  | ----------------------------
+#0046 art                 L39  | ----------------------------
+#0047 block   f=0  p=0  L9   ( 642) | Heading back to Stockwell's, you'll notice he has a new __________ ________ item in stock. It's 
+#0048 art                 L17  |                               __________  ________
+#0049 block   f=0  p=0  L5   ( 346) | With all that done, head to the west side and talk to the soldier blocking the way out. He sees 
+#0050 art                 L23  | ----------------------------
+#0051 block   f=0  p=0  L9   ( 705) | Head south. There's a bunch of white...stuff. I think it's webbing. Anyway, get past it as it hu
+#0052 art                 L24  | ----------------------------
+#0053 block   f=0  p=0  L11  ( 821) | Now head west. See the green Crenel Bean? Enter the "valley" leading to it, approach it, and pic
+#0054 block   f=0  p=0  L4   ( 278) | Head back out and get back to normal size. Backtrack your way to where you dealt with that green
+#0055 art                 L15  | ----------------------------
+#0056 block   f=0  p=0  L15  (1064) | Back outside, use the whirlwinds to glide across west. Climb the ladder to go further up. Before
+#0057 art                 L15  |                               __________  ________
+#0058 block   f=0  p=0  L11  ( 801) | In the cave, kill the Helmasaurs, and push the top block left. On the next set of blocks, push t
+#0059 block   f=0  p=0  L9   ( 648) | In here, there's a switch across the pit. To hit it, place a bomb, pick it up, and throw it acro
+#0060 art                 L12  | ----------------------------
+#0061 art                 L5   | ----------------------------
+#0062 art                 L14  | ============================
+#0063 block   f=0  p=0  L10  ( 720) | In here, follow the path west, up the ladder, and follow the pathway around to the east, where a
+#0064 art                 L8   | Head down and get back to normal size with the pedestal.   __________  ________
+#0065 block   f=0  p=0  L11  ( 814) | Ride the rock platform across and get off as soon as you can before it crumbles, and hit the Rol
+#0066 art                 L14  | Head west, then north. Jump into the hole, then jump out. Now walk along the
+#0067 block   f=0  p=0  L9   ( 692) | Back in here, use the Cane to flip the minecart over. Hop in and get sent flying to a chest on a
+#0068 block   f=0  p=0  L8   ( 560) | You'll end up in a room of Rollobites. Hit them and throw them into the row of holes leading to 
+#0069 block   f=0  p=0  L11  ( 830) | In here, flip the moving rock platform over, and get on it when it's moving south. Flip the next
+#0070 block   f=0  p=0  L9   ( 695) | Use the whirlwind at the end to glide to the south ledge, follow it to the large lava room. Use 
+#0071 art                 L12  |                               __________  ________
+#0072 art                 L25  | ~~~~~~~~~~~~~~~~~~~~~~~
+#0073 art                 L11  | +++++++++++++++++++
+#0074 art                 L9   | Quest Status:
+#0075 art                 L7   |   _____________________________
+#0076 art                 L15  | ----------------------------
+#0077 art                 L7   | ----------------------------
+#0078 art                 L7   | ----------------------------
+#0079 art                 L12  | ----------------------------
+#0080 block   f=0  p=0  L8   ( 577) | As might be obvious, any time you see these glowing tiles, you can now split yourself in two by 
+#0081 art                 L16  | ----------------------------
+#0082 art                 L11  | ----------------------------
+#0083 block   f=0  p=0  L7   ( 476) | Down here, you'll find a tree with an entrance. Head inside and walk down the stairs to find Car
+#0084 block   f=0  p=0  L14  (1022) | With that done, head over to the house to the right of Stockwell's shop. Inside is a pot you can
+#0085 art                 L12  | Next head over to Swiftblade's place. He has a new move to teach you now that
+#0086 art                 L6   | ----------------------------
+#0087 art                 L19  | ----------------------------
+#0088 art                 L6   | ----------------------------
+#0089 art                 L48  | ----------------------------
+#0090 art                 L14  | ----------------------------
+#0091 art                 L12  | ----------------------------
+#0092 art                 L17  | ----------------------------
+#0093 block   f=0  p=0  L7   ( 535) | Re-enter the shoemaker's place, and shrink yourself from the pot. Climb the small ladder up to R
+#0094 art                 L11  | ----------------------------
+#0095 block   f=0  p=0  L8   ( 562) | Out here on the north side, there's a cave entrance. Enter, split yourself in two with the ghost
+#0096 block   f=0  p=0  L5   ( 345) | Use the Cane of Pacci on the hole and fling yourself on the ledge. Shrink yourself on the stump 
+#0097 art                 L5   | ----------------------------
+#0098 art                 L12  | ----------------------------
+#0099 art                 L15  | ----------------------------
+#0100 art                 L35  | ----------------------------
+#0101 block   f=0  p=0  L8   ( 569) | Climb up to the ledge, then head north across the bridge. Climb down on the next ledge, then das
+#0102 art                 L42  |                               __________  ________
+#0103 art                 L13  | ----------------------------
+#0104 block   f=0  p=0  L14  (1038) | Head east. Climb the ladder and kill the Tektites to make a way further up. Climb, then head eas
+#0105 block   f=0  p=0  L3   ( 234) | Follow the path, get rid of any blocks and Ropes you see, as you will need to kill all enemies t
+#0106 art                 L15  | ============================
+#0107 block   f=0  p=0  L10  ( 773) | Now stand on the glowing tile that the Armos was on, charge your sword fully, and then move to t
+#0108 art                 L33  |                               __________  ________
+#0109 art                 L15  | Up here, kill the Stalfos and destroy the Eyegore Statues up north, then go a
+#0110 block   f=0  p=0  L13  ( 923) | Follow the path and you will see a couple of skulls with a space between them. Place a bomb ther
+#0111 block   f=0  p=0  L10  ( 730) | Head east, slash through the skulls. At the south end, bypass the rolling spiked logs by ducking
+#0112 art                 L18  | Get yourself back to normal size, and step on the switch to make a [[SMALL
+#0113 block   f=0  p=0  L12  ( 874) | Now exit the room and enter the second-left doorway, climb up to the second floor, follow the ro
+#0114 block   f=0  p=0  L9   ( 686) | In here, before climbing, dig out the statue and push it onto the floor switch to keep it down, 
+#0115 art                 L12  | ~~~~~~~~~~~~~~~~~~~~~~~
+#0116 block   f=0  p=0  L6   ( 390) | It will get faster and harder to hit the eye-palms the more damage is done, and it can also poun
+#0117 art                 L38  | ~~~~~~~~~~~~~~~~~~~~~~~
+#0118 art                 L12  | Quest Status:
+#0119 art                 L16  |   _____________________________
+#0120 art                 L15  | ----------------------------
+#0121 block   f=0  p=0  L12  ( 873) | Now to get that bottle. Head over to the cafe that's to the left of Stockwell's, and push aside 
+#0122 block   f=0  p=0  L8   ( 592) | So with the bottle of dog food in hand, exit his shop the way you entered. We'll deliver the dog
+#0123 art                 L21  | Right outside that place are two kids, Candy and Lolly. Both will want to do
+#0124 block   f=0  p=0  L8   ( 620) | A quick break from Fusions, over at the bazaar, there's a new place open. It's called Simon's Si
+#0125 art                 L24  |                               __________  ________
+#0126 art                 L12  | Now, heading over to the Post Office, you'll
+#0127 block   f=0  p=0  L2   ( 107) | With that, I think we can finally move on from Hyrule Town. Spent enough time here. Head south o
+#0128 art                 L6   | ----------------------------
+#0129 art                 L12  | ----------------------------
+#0130 art                 L24  | ----------------------------
+#0131 art                 L1   | Now head west to Western Wood.
+#0132 art                 L12  | ----------------------------
+#0133 art                 L11  | ----------------------------
+#0134 art                 L23  | ----------------------------
+#0135 art                 L6   | ----------------------------
+#0136 art                 L22  | ----------------------------
+#0137 block   f=0  p=0  L13  ( 996) | Enter the little farm there to find a digging spot as well as two farmers, Eenie and Meenie. The
+#0138 art                 L19  |                               __________  ________
+#0139 art                 L31  | ----------------------------
+#0140 block   f=0  p=0  L7   ( 480) | With that done, use the Ocarina of Wind to warp to Lake Hylia. You'll be placed on top of a ledg
+#0141 art                 L3   |                        +-------------------------------+
+#0142 art                 L15  | ----------------------------
+#0143 block   f=0  p=0  L9   ( 668) | Head back, and enter the purple-roofed house. Inside, pour the water onto the fireplace, then fl
+#0144 block   f=0  p=0  L8   ( 614) | Exit the library and head down west, past Stranger's house and down the steps. Enter the house h
+#0145 block   f=0  p=0  L9   ( 690) | Cross the plank, then enter Stranger's house, the yellow-roofed one. Exit through the hole that 
+#0146 art                 L18  |                               __________  ________
+#0147 block   f=0  p=0  L9   ( 660) | Unfortunately, he doesn't quite seem to remember, and says to ask his masks since they "watch" o
+#0148 art                 L5   | ----------------------------
+#0149 art                 L12  | ----------------------------
+#0150 art                 L12  | ----------------------------
+#0151 art                 L13  | ----------------------------
+#0152 block   f=0  p=0  L9   ( 685) | Dropped down here, push aside the bottom block (the one you can reach, anyway) on the left side,
+#0153 art                 L16  |                               __________  ________
+#0154 art                 L25  | ----------------------------
+#0155 art                 L12  | ============================
+#0156 block   f=0  p=0  L8   ( 617) | See the block of ice? A [[SMALL KEY]] is inside. To get it, push it south, then east into the su
+#0157 art                 L20  |                               __________  ________
+#0158 block   f=0  p=0  L9   ( 645) | Get on the water and swim down the waterfall. Swim south, dive underneath the log as it passes, 
+#0159 block   f=0  p=0  L8   ( 602) | Back down here, go south a bit when the log is going south, dive off and under the water when th
+#0160 art                 L18  |                               __________  ________
+#0161 block   f=0  p=0  L10  ( 752) | Follow the path and you will see a giant lever, can't be moved by just one. There's some glowing
+#0162 block   f=0  p=0  L14  (1020) | Head north next, then go downstairs. Go downstairs again, and move the lever to close the ceilin
+#0163 art                 L16  |                               __________  ________
+#0164 block   f=0  p=0  L10  ( 768) | Exit the room and continue north through the maze, taking a right. Follow the path, open the che
+#0165 block   f=0  p=0  L11  ( 781) | In the next room north, push the left ice block left, then go and push the other ice block down 
+#0166 block   f=0  p=0  L11  ( 840) | In here, swim past and dive under the spiked logs, get past the Scissors Beetles, and head east 
+#0167 block   f=0  p=0  L11  ( 848) | Kill everything again, then bomb the north wall as the tiles made out as an arrow clearly point 
+#0168 art                 L13  | ~~~~~~~~~~~~~~~~~~~~~~~
+#0169 block   f=0  p=0  L7   ( 513) | Repeat the process with deflecting its rocks then dashing behind it to light its flower a few mo
+#0170 art                 L10  | ~~~~~~~~~~~~~~~~~~~~~~~
+#0171 art                 L16  | +++++++++++++++++++
+#0172 art                 L16  | Quest Status:
+#0173 art                 L12  |   _____________________________
+#0174 art                 L35  | ----------------------------
+#0175 art                 L9   | ----------------------------
+#0176 art                 L8   | ----------------------------
+#0177 art                 L27  | ----------------------------
+#0178 art                 L23  | So exit the house. Unfortunately, a couple of Takkuri come by to knock you out
+#0179 art                 L14  | ----------------------------
+#0180 block   f=0  p=0  L9   ( 691) | Split yourself into three, and ride on the platforms while dodging the blocks. Step on the switc
+#0181 art                 L18  | ----------------------------
+#0182 art                 L38  | ----------------------------
+#0183 block   f=0  p=0  L12  ( 871) | Enter the inn, go to the second floor, and light the torches there from the ladder. This will op
+#0184 block   f=0  p=0  L11  ( 843) | Head back north, and bomb through the cracked rocks to reach a chest containing 100 Rupees, and 
+#0185 art                 L3   |                        +-------------------------------+
+#0186 art                 L75  | ----------------------------
+#0187 block   f=0  p=0  L10  ( 774) | Exit Gentari's house and head east over to the barrel house. Inside, there's a Minish doing rese
+#0188 art                 L3   |                        +-------------------------------+
+#0189 art                 L8   | ----------------------------
+#0190 art                 L6   | ----------------------------
+#0191 art                 L14  | ----------------------------
+#0192 art                 L14  |                                    Head west. Remember Waveblade's dojo? Well,
+#0193 art                 L10  | ----------------------------
+#0194 art                 L17  | ----------------------------
+#0195 art                 L15  | ----------------------------
+#0196 art                 L17  | ----------------------------
+#0197 art                 L21  |                                    Up here, you'll find a Tingle brother named
+#0198 art                 L15  | ----------------------------
+#0199 block   f=0  p=0  L11  ( 772) | Exit the house, and Percy is not there. Enter the house, and suddenly he's there with the Moblin
+#0200 art                 L12  | ----------------------------
+#0201 art                 L29  | ----------------------------
+#0202 art                 L25  | Drop south, then head to the east. Climb up
+#0203 art                 L7   | ----------------------------
+#0204 art                 L18  | ----------------------------
+#0205 art                 L27  | ----------------------------
+#0206 art                 L22  | ----------------------------
+#0207 art                 L10  | ----------------------------
+#0208 art                 L23  | ----------------------------
+#0209 block   f=0  p=0  L9   ( 686) | Out here, avoid the Rock Chuchu and simply climb up the wall here. At the top, investigate the g
+#0210 block   f=0  p=0  L3   ( 223) | Up here, you'll notice something huge hiding behind the mountain, and it sounds like a Goron...b
+#0211 art                 L17  | ----------------------------
+#0212 block   f=0  p=0  L12  ( 879) | Head north, dig through the cloud there to find a Kinstone piece, then jump into the whirlwind h
+#0213 block   f=0  p=0  L9   ( 681) | Jump into the whirlwind here and glide south to land on a cloud. Here, dig away the clouds so yo
+#0214 block   f=0  p=0  L11  ( 822) | Open the chest for 50 Mysterious Shells, then jump into the whirlwind and glide southeast. Here,
+#0215 block   f=0  p=0  L11  ( 835) | Jump into the whirlwind and glide west. Dig through the cloud, jump into the whirlwind, glide so
+#0216 art                 L3   |                        +-------------------------------+
+#0217 art                 L30  | In case you're wondering, I counted all five of those Fusions as one. Anyway,
+#0218 art                 L12  | ============================
+#0219 block   f=0  p=0  L10  ( 754) | As you may notice, the map is quickly going to become useless. Follow the grated floor after cli
+#0220 art                 L20  |                               __________  ________
+#0221 block   f=0  p=0  L9   ( 687) | At the end of the path, jump on the panel to get below the grating, go to the other one (beware 
+#0222 block   f=0  p=0  L9   ( 661) | At the end, jump off, jump into the grating, head east. Jump onto the panel onto the platform be
+#0223 art                 L18  |  __________V
+#0224 block   f=0  p=0  L12  ( 915) | Up here, jump off and head northwest. Here, you'll have to cross the bridge while being wary of 
+#0225 block   f=0  p=0  L12  ( 926) | Head south here through the doorway. In here are a couple of Ball and Chain Soldiers. To defeat 
+#0226 art                 L14  | Here, attack the Stalfos with your Bow, jump across, and head east through the
+#0227 block   f=0  p=0  L11  ( 758) | Finally inside of a building, it seems. Take out your Flame Lantern, as it's dark in here. Just 
+#0228 art                 L16  | Jump over the rolling logs, climb up and open the chest for a [[SMALL KEY]].
+#0229 block   f=0  p=0  L12  ( 824) | Jump back across, then head northwest from where you climbed up here. Push the blocks off, jump 
+#0230 block   f=0  p=0  L13  (1010) | Here, move your way around the Bombarossas while trying not to set them off, because if you do, 
+#0231 block   f=0  p=0  L5   ( 356) | Hop up them partially, and jump to the east. Hop up this stack of clouds to the next floor, and 
+#0232 art                 L13  | ~~~~~~~~~~~~~~~~~~~~~~~
+#0233 block   f=0  p=0  L5   ( 351) | You'll get back on the female, so attack her eyes while dodging the shots from the male, then ho
+#0234 art                 L8   | ~~~~~~~~~~~~~~~~~~~~~~~
 #0235 art                 L17  | +++++++++++++++++++
 #0236 art                 L18  | Quest Status:
-#0237 art                 L13  |   _____________________________
-#0238 art                 L49  | ----------------------------
-#0239 art                 L9   | ----------------------------
-#0240 art                 L26  | ----------------------------
-#0241 art                 L50  | Return back and take a complete left this time, digging through the thin
-#0242 art                 L9   | ----------------------------
-#0243 art                 L9   | - The Town Minish in the mushroom house at Hyrule Town on the west side. Or, in
-#0244 art                 L5   | - Zill. This kid is in Hyrule Town, and he's the one with snot dripping from
-#0245 art                 L5   | - The Forest Minish who lives in a vase house. He's actually at the village in
-#0246 art                 L1   | With those Fusions taken care of, warp to Veil Falls.
-#0247 art                 L14  | ----------------------------
-#0248 art                 L7   | ----------------------------
-#0249 art                 L5   | ----------------------------
-#0250 art                 L7   | ----------------------------
-#0251 art                 L12  | ----------------------------
-#0252 art                 L26  | Head north a bit until you see a small hollow log leading east. Head through it
-#0253 art                 L31  | ----------------------------
-#0254 art                 L5   | /¯¯¯¯
-#0255 block   f=0  p=1  L2   ( 109) | [ ] - Business Scrub: This one is in a cave at the bottom west side of Mt. Crenel's Base. He sel
-#0256 block   f=0  p=1  L2   ( 146) | [ ] - Gina: This is the pink ghost inside the northeast grave in Royal Valley. You've done two u
-#0257 block   f=0  p=1  L2   ( 142) | [ ] - Percy: The poet who lives in his home at Western Wood. You've done a unique Kinstone Fusio
-#0258 block   f=0  p=1  L3   ( 166) | [ ] - Minister Potho: The minister whom you rescued from his stoned curse at Dark Hyrule Castle.
-#0259 block   f=0  p=1  L3   ( 202) | [ ] - Town Minish: He's living in the carpenters' house in Hyrule Town, west side. Just enter th
-#0260 block   f=0  p=1  L3   ( 229) | [ ] - Mutoh: He's the boss of the carpenters in their house at Hyrule Town. He stands there with
-#0261 block   f=0  p=1  L2   ( 126) | [ ] - Mack: The sawing carpenter at their house. He has an afro. He's a bit fickle with his Fusi
-#0262 block   f=0  p=1  L2   ( 112) | [ ] - Doyle: The sawing carpenter at their house. He has a flat-top haircut. Again, he's fickle,
-#0263 block   f=0  p=1  L2   ( 114) | [ ] - Brent: The carpenter at their house who holds a piece of lumber. He's fickle, so try buggi
-#0264 block   f=0  p=1  L3   ( 193) | [ ] - Malon: She's the ranch girl selling milk over by the north entrance to Hyrule Town. Due to
-#0265 block   f=0  p=1  L4   ( 251) | [ ] Epona: Oddly enough, the horse for Malon's milk carriage wants to fuse at any time. You'll n
-#0266 block   f=0  p=1  L2   ( 131) | [ ] - Leila: She's the girl in the Simon's Simulations building in Hyrule Town. She's a bit fick
-#0267 art                 L2   | [ ] - Herb: He's the man sitting outside the cafe at Hyrule Town. He's a bit
-#0268 art                 L2   | [ ] - Town Minish: He's sitting up in the rafters of the cafe, and is hungry.
-#0269 block   f=0  p=1  L2   ( 115) | [ ] - Town Minish: He's sitting up in the cafe's rafters, wanting a red hat like the Forest Mini
-#0270 block   f=0  p=1  L2   ( 117) | [ ] - Forest Minish: He's sitting up in the cafe's rafters, feeling more refined. Like the other
-#0271 block   f=0  p=1  L3   ( 177) | [ ] - Hurdy-Gurdy Man: The goofy-looking guy at the beginning of the game who taught you about K
-#0272 art                 L2   | [ ] - Baris: He's the man sitting at the cafe, enjoying himself. He's kinda
-#0273 art                 L1   | [ ] - Chai: She's the lady drinking something at the cafe. She's kinda fickle.
-#0274 art                 L1   | [ ] - Breve: The old woman wandering about in the cafe. Kinda fickle.
-#0275 block   f=0  p=1  L2   ( 110) | [ ] - Harrison: One of the two identical-looking kids in school. He doesn't want to go home...an
-#0276 art                 L2   | [ ] - Erik: The other of the identical kids in school. He LOVES school! Though
-#0277 art                 L2   | [ ] - Joel: He's the kid in the blue shirt in the second floor of the inn. He's
-#0278 art                 L2   | [ ] - Satchel: He's the man sitting by a table in the second floor of the inn.
-#0279 block   f=0  p=1  L2   ( 100) | [ ] - Lolly: He's the kid wandering around the first floor of the inn. He's looking forward to f
-#0280 art                 L1   | [ ] - Bindle: He's the guy on the first floor of the inn. A bit fickle though.
-#0281 art                 L2   | [ ] - Romio: He's the man in the house just above the rented house in the
-#0282 art                 L2   | [ ] - Berry: She's Romio's little sister, living in the same house with him.
-#0283 block   f=0  p=1  L2   ( 113) | [ ] - Rolf: Romio's dog. In order to fuse with him, you'll have to be Minish- sized. He's willin
-#0284 art                 L1   | [ ] - Julietta: The girl living in the house next door to Romio. She's fickle.
-#0285 art                 L2   | [ ] - Verona: She's the mother of Julietta, in the same house as her. Her
-#0286 art                 L2   | [ ] - Jim: He's Julietta's little brother, living in the same house. He's
-#0287 block   f=0  p=1  L5   ( 328) | [ ] - Scratcher: Julietta's cat. You'll have to be Minish-sized, but be careful. Cats like to sw
-#0288 block   f=0  p=1  L2   ( 138) | [ ] - Anju: She's the Cucco lady at the southeast corner of town, always gets you to catch her C
-#0289 block   f=0  p=1  L2   ( 119) | [ ] - Talon: Malon's dad, he stays to work at the ranch in Lon Lon Ranch east of Hyrule Town. He
-#0290 block   f=0  p=1  L3   ( 168) | [ ] - Elsie: The cow inside the ranch. To reach her, shrink on the tree outside and follow the w
-#0291 block   f=0  p=1  L2   ( 114) | [ ] - Forest Minish: He's inside the green mushroom house in Minish Village. He's a bit fickle w
-#0292 block   f=0  p=1  L2   ( 101) | [ ] - Festari: He's the Minish Village priest, living in that (what appears to be) crystalline h
-#0293 block   f=0  p=1  L2   ( 109) | [ ] - Forest Minish: He's the researcher for Pico Blooms in the barrel house in Minish Village. 
-#0294 art                 L1   | [ ] - Forest Minish: He's the other Minish in the barrel house, fickle as well.
-#0295 block   f=0  p=1  L2   ( 116) | [ ] - Forest Minish: He's in the house in Minish Village, within the lake in the north-east corn
-#0296 art                 L3   | [ ] - Gregal: The guy you saved from certain death up at Cloud Tops. He's up
-#0297 art                 L2   | So with those done, time to cover the Fusions. These are by no means in
-#0298 art                 L8   | /¯¯¯¯
-#0299 art                 L7   | [ ] - This Shared Kinstone Fusion makes the fountain in the northwest area of
-#0300 art                 L9   | [ ] - This Shared Kinstone Fusion makes the fountain in the northeast area of
-#0301 art                 L7   | [ ] - This Shared Kinstone Fusion makes a chest appear at North Hyrule Field.
-#0302 art                 L6   | [ ] - This Shared Kinstone Fusion makes a tree open up around the east side of
-#0303 art                 L7   | [ ] - This Shared Kinstone Fusion makes a chest appear at the Minish road of
-#0304 art                 L5   | [ ] - This Shared Kinstone Fusion makes a chest appear just east of Smith's
-#0305 art                 L6   | [ ] - This Shared Kinstone Fusion makes a puddle of water dry up in South
-#0306 art                 L7   | [ ] - This Shared Kinstone Fusion makes a chest appear at Lon Lon Ranch. To
-#0307 art                 L6   | [ ] - This Shared Kinstone Fusion makes a chest appear at the Minish road of
-#0308 art                 L5   | [ ] - This Shared Kinstone Fusion makes a Golden Rope appear at Eastern Hills.
-#0309 art                 L6   | [ ] - This Shared Kinstone Fusion makes a chest appear on the east side of
-#0310 art                 L6   | [ ] - This Shared Kinstone Fusion makes a chest appear on the west side of
-#0311 art                 L6   | [ ] - This Shared Kinstone Fusion makes a Golden Octorok appear at the north
-#0312 art                 L6   | [ ] - This Shared Kinstone Fusion makes a chest appear at the north side of
-#0313 art                 L6   | [ ] - This Shared Kinstone Fusion makes a Minish-sized hole appear at the very
-#0314 art                 L6   | [ ] - This Shared Kinstone Fusion makes a chest appear on the Minish road
-#0315 art                 L6   | [ ] - This Shared Kinstone Fusion makes a chest appear a bit east of Deepwood
-#0316 block   f=0  p=0  L5   ( 331) | And that's all the Shared Kinstone Fusions! Go and grab the results from them. The rest of the p
-#0317 art                 L11  | ----------------------------
-#0318 art                 L51  | ----------------------------
-#0319 art                 L17  | +++++++++++++++++++
-#0320 art                 L21  | Quest Status: *ALL*
-#0321 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
-#0322 block   f=0  p=0  L5   ( 340) | Want to go through the game while only being given general hints on where to go? Want to know wh
-#0323 art                 L5   |  _____________________________
-#0324 hanging f=0  p=4  L2   (  80) | [ ] - After the cutscenes from arriving at the castle, head out to Minish Woods.
-#0325 hanging f=0  p=4  L2   ( 107) | [ ] - Wander through Minish Woods until you a cutscene occurs. Grab Heart Piece #1 nearby and go
-#0326 hanging f=0  p=4  L2   (  80) | [ ] - Enter Minish Village, collect Heart Piece #2, make way to Deepwood Shrine.
-#0327 art                 L9   | [ ] - Clear Deepwood Shrine while also getting Heart Pieces #3 and #4.
-#0328 hanging f=0  p=4  L2   ( 104) | [ ] - Enter Hyrule Town and do Kinstone Fusion #01. Also purchase wallet & Boomerang through cuc
-#0329 art                 L1   | [ ] - Learn new technique, go get Heart Piece #5 at South Hyrule Field.
-#0330 art                 L1   | [ ] - Get Empty Bottle #1 at Trilby Highlands, enter Mt. Crenel.
-#0331 art                 L1   | [ ] - Work on climbing up while getting Heart Piece #6 and #7.
-#0332 hanging f=0  p=4  L2   (  81) | [ ] - Grab Grip Ring and climb up Crenel Wall. Get Big Bomb Bag #1 along the way.
-#0333 art                 L1   | [ ] - Make way to Melari's Mines from the tops, and drop off Picori Blade.
-#0334 art                 L9   | [ ] - Clear Cave of Flames, getting Heart Piece #8 in the process.
-#0335 art                 L1   | [ ] - Head to town.
-#0336 art                 L1   | [ ] - Get Minish-sized self to west side of town to move the dog.
-#0337 art                 L1   | [ ] - Learn new technique in town, get Heart Piece #9 from inn as Minish-size.
-#0338 art                 L1   | [ ] - Get Big Wallet #2 from Minish Woods through Eastern Hills.
-#0339 art                 L1   | [ ] - Get Heart Piece #10 from Veil Falls through Lon Lon Ranch.
-#0340 art                 L1   | [ ] - Get Heart Piece #11 from North Hyrule Field.
-#0341 art                 L1   | [ ] - Get Heart Piece #12 and new technique at right side of Mt. Crenel.
-#0342 hanging f=0  p=4  L2   ( 119) | [ ] - Make way to Castor Wilds, find out you need Pegasus Boots, return to Hyrule Town and visit
-#0343 hanging f=0  p=4  L3   ( 165) | [ ] - On second visit, shrink and have Minish tell you where to go. Head to Lon Lon Ranch, get t
-#0344 hanging f=0  p=4  L2   ( 129) | [ ] - Get Mushroom and wake up Rem to get Pegasus Boots. Along the way, get to Goron in Lon Lon 
-#0345 hanging f=0  p=4  L2   ( 144) | [ ] - Return to Castor Wilds, explore it for three Golden Kinstone Pieces with which to fuse to 
-#0346 art                 L1   | [ ] - Get through Wind Ruins, get Heart Piece #15.
-#0347 art                 L9   | [ ] - Clear the Fortress of Winds, getting Heart Piece #16 in the process.
-#0348 art                 L1   | [ ] - Get bottle from Stockwell's storage.
-#0349 hanging f=0  p=4  L2   (  84) | [ ] - Perform Kinstone Fusions #35, #36, and #37 with Candy, Hagen, and the Postman.
-#0350 art                 L1   | [ ] - Get Heart Piece #17 from Simon's Simulations.
-#0351 hanging f=0  p=4  L2   (  95) | [ ] - Perform Kinstone Fusions #29, #30, and #31 from Stranger, one of the Oracles, and Bremor.
-#0352 art                 L1   | [ ] - Take portal from Stranger's Fusion, cure Gregal from his ghost.
-#0353 hanging f=0  p=4  L2   ( 106) | [ ] - Do Kinstone Fusions #41, #43, and #44 with Smith, Forest Minish, and Tingle from South Hyr
-#0354 art                 L1   | [ ] - Do Kinstone Fusion #25 with Forest Minish at Western Wood.
-#0355 art                 L1   | [ ] - Do Kinstone Fusion #13 with Business Scrub at Castor Wilds.
-#0356 hanging f=0  p=4  L2   (  85) | [ ] - Do Kinstone Fusion #14 with Forest Minish at Wind Ruins to get Large Quiver #1.
-#0357 art                 L1   | [ ] - Get Big Wallet #3 from Lon Lon Ranch.
-#0358 hanging f=0  p=4  L2   ( 103) | [ ] - Perform Kinstone Fusions #49 and #50 with Eenie and Meenie, get Empty Bottle #2 at Eastern
-#0359 art                 L1   | [ ] - Perform Kinstone Fusion #68 with Business Scrub at Minish Woods.
-#0360 art                 L1   | [ ] - Get Heart Piece #18 from Lon Lon Ranch.
-#0361 hanging f=0  p=4  L3   ( 163) | [ ] - Make Empty Bottle #3 out of the dog food bottle at Lake Hylia, and perform Kinstone Fusion
-#0362 hanging f=0  p=4  L4   ( 250) | [ ] - Visit the Hyrule Town library and return all three books to meet Librari, getting the Powe
-#0363 art                 L1   | [ ] - Grab three Heart Pieces at Lake Hylia as well as a new Tiger Scroll.
-#0364 art                 L9   | [ ] - Clear Temple of Droplets.
-#0365 hanging f=0  p=4  L2   ( 139) | [ ] - Reach Royal Valley through North Hyrule Field, and get Big Quiver #2, Heart Piece #23, and
-#0366 art                 L1   | [ ] - Make way through the Royal Crypt.
-#0367 hanging f=0  p=4  L2   (  80) | [ ] - Perform Kinstone Fusions #16, #17, and #19 from Spookter, Dampé, and Gina.
-#0368 art                 L1   | [ ] - Get Heart Piece #24, Big Quiver #3, and Big Bomb Bag #2 from Hyrule Town.
-#0369 hanging f=0  p=4  L2   ( 109) | [ ] - Perform Kinstone Fusions #32, #33, and #34 with the Oracles, grab the Joy Butterflies from
-#0370 hanging f=0  p=4  L2   (  99) | [ ] - Perform Kinstone Fusion #38 with Mama at Hyrule Town, explore the underground of Hyrule To
-#0371 hanging f=0  p=4  L2   (  92) | [ ] - Perform Kinstone Fusion #42 with Smith, and get Heart Piece #25 at South Hyrule Field.
-#0372 hanging f=0  p=4  L2   ( 132) | [ ] - Perform Kinstone Fusions #51 and #52 from Mysterious Wall and Forest Minish at Eastern Hil
-#0373 hanging f=0  p=4  L2   ( 133) | [ ] - At Minish Woods, perform Kinstone Fusions #69, #70, and #71 with Business Scrub, Gentari, 
-#0374 hanging f=0  p=4  L3   ( 185) | [ ] - Use Lake Hylia to reach northeast corner of Minish Woods as Lake Hylia. At Lake Hylia, per
-#0375 hanging f=0  p=4  L2   ( 128) | [ ] - Perform Kinstone Fusion #46 with Ankle at Lon Lon Ranch, and Kinstone Fusion #28 with Fore
-#0376 art                 L1   | [ ] - Perform Kinstone Fusions #18 and #20 with Dampé and Gina at Royal Valley.
-#0377 hanging f=0  p=4  L2   ( 130) | [ ] - Perform Kinstone Fusions #21, #22, #23, and #24 with Knuckle, Forest Minish, Mysterious Wa
-#0378 art                 L1   | [ ] - Get Heart Piece #28 and help Percy back into his house at Western Wood.
-#0379 art                 L1   | [ ] - Perform Kinstone Fusion #12 with Minish at Mt. Crenel's Base.
-#0380 hanging f=0  p=4  L3   ( 173) | [ ] - Perform Kinstone Fusions #05-#09 at Melari's Mines in Mt. Crenel. Do Kinstone Fusions #10 
-#0381 art                 L1   | [ ] - Get Heart Piece #31 and decreased charge time at Castor Wilds.
-#0382 art                 L1   | [ ] - Clean up at Wind Ruins and end up getting Big Bomb Bag #3.
-#0383 hanging f=0  p=4  L2   ( 117) | [ ] - Get Magical Boomerang at North Hyrule Field, and do Kinstone Fusion #27 with Grimblade at 
-#0384 hanging f=0  p=4  L2   ( 100) | [ ] - Get Heart Piece #32 at Veil Falls, perform Kinstone Fusion #03. Climb up the Falls to the 
-#0385 hanging f=0  p=4  L2   ( 148) | [ ] - Perform Kinstone Fusions #53 and #54 at Cloud Tops with the Wind Tribe, and explore around
-#0386 hanging f=0  p=4  L2   ( 106) | [ ] - At Wind Tribe home, get Light Arrows and perform Kinstone Fusions #55, #56, and #58, get u
-#0387 art                 L8   | [ ] - Clear Palace of Winds, get Heart Piece #33 in the process.
-#0388 art                 L1   | [ ] - Head to Elemental Sanctuary to forge the Four Sword.
-#0389 art                 L9   | [ ] - Clear Dark Hyrule Castle and defeat the final boss.
-#0390 art                 L1   | [ ] - Perform Kinstone Fusion #45 with Tingle at South Hyrule Field.
-#0391 block   f=0  p=1  L2   ( 128) | [ ] - Perform Kinstone Fusions #61 and #62 with David Jr. and Mysterious Wall at Lake Hylia, get
-#0392 art                 L2   | [ ] - Perform Kinstone Fusion #48 with Goron and get Empty Bottle #4 at Lon
-#0393 art                 L1   | [ ] - Get Tiger Scroll #8 at Castor Wilds.
-#0394 block   f=0  p=1  L2   ( 127) | [ ] - Perform Kinstone Fusions #74, #75, and #76 with Town Minish at west Hyrule Town, Zill, and
-#0395 art                 L1   | [ ] - Get Heart Piece #40 at Veil Falls.
-#0396 art                 L1   | [ ] - Get Heart Piece #41 at Castor Wilds using the new lilypads.
-#0397 art                 L1   | [ ] - Obtain the Mirror Shield from Biggoron.
-#0398 block   f=0  p=1  L2   ( 102) | [ ] - Perform (Shared) Kinstone Fusions #77 through #94, grab Heart Piece #42 from one of the re
-#0399 art                 L1   | [ ] - Perform Kinstone Fusions #72 and #73 with Forest Minish at Minish Woods.
-#0400 art                 L1   | [ ] - Get Heart Piece #43 at Veil Falls.
-#0401 art                 L1   | [ ] - Get Heart Container at Lake Hylia.
-#0402 art                 L2   | [ ] - Clean up all the results from the Kinstone Fusions, and pick up the
-#0403 art                 L4   | [ ] - Gather up all 136 Figurines for Heart Piece #44 and the Carlov Medal.
-#0404 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
-#0405 block   f=0  p=0  L8   ( 556) | This is a list of Heart Pieces, listed in chronological order that I get them in the walkthrough
-#0406 art                 L5   | ----------------------------
-#0407 block   f=0  p=1  L6   ( 416) | How to get: After a certain Kinstone Fusion, a Minish-sized hole will appear at Lake Hylia, near
-#0408 art                 L5   | ----------------------------
-#0409 block   f=0  p=1  L4   ( 245) | How to get: Found in plain sight in front of Deepwood Shrine. From the entrance to Minish Woods 
-#0410 art                 L5   | ----------------------------
-#0411 block   f=0  p=1  L4   ( 299) | How to get: To enter Minish Village, shrink yourself on the stump in the southeast corner of Min
-#0412 art                 L5   | ----------------------------
-#0413 block   f=0  p=1  L3   ( 182) | How to get: After defeating the Madderpillar mini-boss on the first floor, get the Gust Jar and 
-#0414 art                 L5   | ----------------------------
-#0415 block   f=0  p=1  L5   ( 331) | How to get: First, at the north room of the dungeon where the great majority of dust is, get rid
-#0416 art                 L5   | ----------------------------
-#0417 block   f=0  p=1  L3   ( 193) | How to get: Fuse Kinstones with Hurdy-Gurdy Man at Hyrule Town (required to advance), and a tree
-#0418 art                 L5   | ----------------------------
-#0419 block   f=0  p=1  L5   ( 318) | How to get: At Mt. Crenel's Base, make your way to the west side, at one point having to glide a
-#0420 art                 L5   | ----------------------------
-#0421 block   f=0  p=1  L4   ( 242) | How to get: After climbing up a vine created from a green Crenel Bean at the mountain's base, go
-#0422 art                 L5   | ----------------------------
-#0423 block   f=0  p=1  L4   ( 241) | How to get: After changing the tracks in floor B1 and taking the minecart, head west and north t
-#0424 art                 L5   | ----------------------------
-#0425 block   f=0  p=1  L6   ( 449) | How to get: Enter the home to the right of Stockwell's shop. Inside is a large blue pot. Flip it
-#0426 art                 L5   | ----------------------------
-#0427 block   f=0  p=1  L4   ( 306) | How to get: To enter Veil Falls, go to the northwest side of the Lon Lon Ranch area, where you'l
-#0428 art                 L5   | ----------------------------
-#0429 block   f=0  p=1  L4   ( 276) | How to get: On the northwest side of North Hyrule Field, there's a sign that tells you that this
-#0430 art                 L5   | ----------------------------
-#0431 block   f=0  p=1  L7   ( 507) | How to get: Grip Ring should be needed, and you need the White Sword infused with the Earth and 
-#0432 art                 L5   | ----------------------------
-#0433 block   f=0  p=1  L3   ( 220) | How to get: Enter Lake Hylia from Lon Lon Ranch, using the whirlwinds. Enter Minish Woods from t
-#0434 art                 L5   | ----------------------------
-#0435 block   f=0  p=1  L3   ( 218) | How to get: On the southwest corner of Castor Wilds, there is a giant gravestone. Push the stone
-#0436 art                 L5   | ----------------------------
-#0437 block   f=0  p=1  L4   ( 288) | How to get: At the second stump you can shrink from, backtrack after shrinking. Climb down the s
-#0438 art                 L5   | ----------------------------
-#0439 block   f=0  p=1  L6   ( 461) | How to get: From the entrance, enter the door second from the right and climb all the way to the
-#0440 art                 L5   | ----------------------------
-#0441 block   f=0  p=1  L5   ( 325) | How to get: As the requirements say, beat the third dungeon, which is the Fortress of Winds. Aft
-#0442 art                 L5   | ----------------------------
-#0443 block   f=0  p=1  L4   ( 304) | How to get: Once in the garden of the ranch, you will see a tree on the north side that sparkles
-#0444 art                 L5   | ----------------------------
-#0445 block   f=0  p=1  L2   ( 155) | How to get: Over at the north side of Lake Hylia is Stockwell's house, and a pool next to it. Di
-#0446 art                 L5   | ----------------------------
-#0447 block   f=0  p=1  L3   ( 175) | How to get: This is simple to find. Just use the Flippers to swim to the south edge of Lake Hyli
-#0448 art                 L5   | ----------------------------
-#0449 block   f=0  p=1  L3   ( 182) | How to get: Using the Flippers, swim to the southwest side of Lake Hylia and climb the steps to 
-#0450 art                 L5   | ----------------------------
-#0451 block   f=0  p=1  L3   ( 229) | How to get: Once you can do so (once the guards aren't blocking the way), head to the southeast 
-#0452 art                 L5   | ----------------------------
-#0453 block   f=0  p=1  L4   ( 260) | How to get: Once you enter the graveyard on the north side of the valley (after going through th
-#0454 art                 L5   | ----------------------------
-#0455 block   f=0  p=1  L3   ( 218) | How to get: Anju, the Cucco lady at the southeast corner of town, constantly has her Cuccos miss
-#0456 art                 L5   | ----------------------------
-#0457 block   f=0  p=1  L5   ( 312) | How to get: Head over to the southwest corner of South Hyrule Field to find a tree that sparkles
-#0458 art                 L5   | ----------------------------
-#0459 block   f=0  p=1  L3   ( 187) | How to get: Do a Kinstone Fusion with the Minish inside his house on the south part of Eastern H
-#0460 art                 L5   | ----------------------------
-#0461 block   f=0  p=1  L3   ( 226) | How to get: Shrink using the stump just on the west side of Minish Village, and swim north acros
-#0462 art                 L5   | ----------------------------
-#0463 block   f=0  p=1  L2   ( 144) | How to get: Do a Kinstone Fusion with a Forest Minish at Lake Hylia, and a tree in Western Woods
-#0464 art                 L5   | ----------------------------
-#0465 block   f=0  p=1  L3   ( 191) | How to get: Fuse Kinstones with Melari at the Minish Mines in Mt. Crenel, and a beanstalk will g
-#0466 art                 L5   | ----------------------------
-#0467 block   f=0  p=1  L4   ( 258) | How to get: Climb to the top of Mt. Crenel by going up Crenel Wall. Once there, find a ladder an
-#0468 art                 L5   | ----------------------------
-#0469 block   f=0  p=1  L4   ( 258) | How to get: On the northeast corner of Castor Wilds, reachable by dashing then swimming, enter t
-#0470 art                 L5   | ----------------------------
-#0471 block   f=0  p=1  L3   ( 175) | How to get: Enter Veil Falls through the northeast exit from North Hyrule Field, and you will im
-#0472 art                 L5   | ----------------------------
-#0473 block   f=0  p=1  L4   ( 292) | How to get: After getting the Big Key and fighting against the Red Dark Nut, continue through th
-#0474 art                 L5   | ----------------------------
-#0475 block   f=0  p=1  L4   ( 267) | How to get: In the Minish-sized fountain cavern where you get the Power Bracelets (as a hint, st
-#0476 art                 L5   | ----------------------------
-#0477 block   f=0  p=1  L2   ( 119) | How to get: Jump into the bell hanging from the archway that's just north of the centre to knock
-#0478 art                 L5   | ----------------------------
-#0479 block   f=0  p=1  L3   ( 233) | How to get: Enter the town's school, and shrink using the pot in the classroom. Exit out the rig
-#0480 art                 L5   | ----------------------------
-#0481 block   f=0  p=1  L3   ( 191) | How to get: Just east of David Jr., on the north side of the lake, is a series of small islands.
-#0482 art                 L5   | ----------------------------
-#0483 block   f=0  p=1  L4   ( 290) | How to get: First, do a certain Kinstone Fusion at Lake Hylia to make a beanstalk grow here at t
-#0484 art                 L5   | ----------------------------
-#0485 block   f=0  p=1  L5   ( 381) | How to get: This Piece is at Lon Lon Ranch, but all the work is pretty much done at Lake Hylia. 
-#0486 art                 L5   | ----------------------------
-#0487 block   f=0  p=1  L2   ( 126) | How to get: After a certain Kinstone Fusion, the topmost waterfall at Veil Falls will open up. H
-#0488 art                 L5   | ----------------------------
-#0489 block   f=0  p=1  L7   ( 497) | How to get: After fusing Kinstone pieces with three people to make Minish-sized lilypads appear 
-#0490 art                 L5   | ----------------------------
-#0491 block   f=0  p=1  L3   ( 167) | How to get: After a certain Shared Kinstone Fusion, the northeast fountain of Hyrule Castle Gard
-#0492 art                 L5   | ----------------------------
-#0493 block   f=0  p=1  L3   ( 212) | How to get: After a certain Kinstone Fusion, a platform will appear at Veil Falls, letting you g
-#0494 art                 L5   | ----------------------------
-#0495 block   f=0  p=1  L4   ( 263) | How to get: After getting 130 Figurines, talk to the guy sitting outside the cafe in Hyrule Town
-#0496 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
-#0497 block   f=0  p=0  L12  ( 867) | Kinstones are special items that can help make the world a better place. If you happen to find a
-#0498 block   f=0  p=0  L12  ( 922) | I will show a list of Kinstone Fusions, including ones relating to the plot that you HAVE to do,
-#0499 art                 L4   | ----------------------------
-#0500 art                 L2   | ---------
-#0501 art                 L1   | Location - High cave at Mt. Crenel, on Crenel Wall. *HAS FIVE SHARED FUSIONS*
-#0502 art                 L2   | ---------
-#0503 art                 L1   | Location - Cave in Mt. Crenel's Base.
-#0504 art                 L2   | ---------
-#0505 art                 L1   | Location - Pink Ghini in Royal Valley.
-#0506 art                 L2   | ---------
-#0507 art                 L1   | Location - By his house in Western Wood.
-#0508 art                 L2   | ---------
-#0509 art                 L1   | Location - With the King at (Dark) Hyrule Castle.
-#0510 art                 L2   | ---------
-#0511 art                 L1   | Location - At carpenters' house in Hyrule Town. *FICKLE*
-#0512 art                 L2   | ---------
-#0513 art                 L1   | Location - Carpenter boss at Hyrule Town. *FICKLE*
-#0514 art                 L2   | ---------
-#0515 art                 L1   | Location - Carpenter with afro haircut at Hyrule Town. *FICKLE*
-#0516 art                 L2   | ---------
-#0517 art                 L1   | Location - Carpenter with flat-top haircut at Hyrule Town. *FICKLE*
-#0518 art                 L2   | ---------
-#0519 art                 L1   | Location - Carpenter holding lumber at Hyrule Town. *FICKLE*
-#0520 art                 L2   | ---------
-#0521 art                 L1   | Location - Ranch girl at Hyrule Town. *FICKLE*
-#0522 art                 L2   | ---------
-#0523 art                 L1   | Location: Malon's horse at Hyrule Town.
-#0524 art                 L2   | ---------
-#0525 art                 L1   | Location: Girl in Simon's Simulations building at Hyrule Town. *FICKLE*
-#0526 art                 L2   | ---------
-#0527 art                 L1   | Location: Rich man outside of Hyrule Town cafe. *FICKLE*
-#0528 art                 L2   | ---------
-#0529 art                 L1   | Location: Hungry Minish in cafe's rafters. *FICKLE*
-#0530 art                 L2   | ---------
-#0531 art                 L1   | Location: Minish who wants a red cap in cafe's rafters. *FICKLE*
-#0532 art                 L2   | ---------
-#0533 art                 L1   | Location: Refined Minish in cafe's rafters. *FICKLE*
-#0534 art                 L2   | ---------
-#0535 art                 L1   | Location: Inside cafe.
-#0536 art                 L2   | ---------
-#0537 art                 L1   | Location: Sitting man in cafe. *FICKLE*
-#0538 art                 L2   | ---------
-#0539 art                 L1   | Location: Sitting woman in cafe. *FICKLE*
-#0540 art                 L2   | ---------
-#0541 art                 L1   | Location: Old woman in cafe. *FICKLE*
-#0542 art                 L2   | ---------
-#0543 art                 L1   | Location: Kid in Hyrule Town's school, doesn't want to go home. *FICKLE*
-#0544 art                 L2   | ---------
-#0545 art                 L1   | Location: Kid in school who loves school. *FICKLE*
-#0546 art                 L2   | ---------
-#0547 art                 L1   | Location: Kid in blue shirt at Hyrule Town's inn, upstairs. *FICKLE*
-#0548 art                 L2   | ---------
-#0549 art                 L1   | Location: Sitting man at inn, upstairs. *FICKLE*
-#0550 art                 L2   | ---------
-#0551 art                 L1   | Location: Brown-haired kid, at inn downstairs.
-#0552 art                 L2   | ---------
-#0553 art                 L1   | Location: Man at inn, downstairs. *FICKLE*
-#0554 art                 L2   | ---------
-#0555 art                 L1   | Location: One of the lovers at Hyrule Town. *FICKLE*
-#0556 art                 L2   | ---------
-#0557 art                 L1   | Location: Romio's sister at Hyrule Town. *FICKLE*
-#0558 art                 L2   | ---------
-#0559 art                 L1   | Location: Romio's dog at Hyrule Town.
-#0560 art                 L2   | ---------
-#0561 art                 L1   | Location: One of the lovers at Hyrule Town. *FICKLE*
-#0562 art                 L2   | ---------
-#0563 art                 L1   | Location: Julietta's mother at Hyrule Town. *FICKLE*
-#0564 art                 L2   | ---------
-#0565 art                 L1   | Location: Julietta's brother at Hyrule Town. *FICKLE*
-#0566 art                 L2   | ---------
-#0567 art                 L1   | Location: Julietta's cat at Hyrule Town.
-#0568 art                 L2   | ---------
-#0569 art                 L1   | Location: Cucco lady at Hyrule Town. *FICKLE*
-#0570 art                 L2   | ---------
-#0571 art                 L1   | Location: Ranch owner at Lon Lon Ranch. *FICKLE*
-#0572 art                 L2   | ---------
-#0573 art                 L1   | Location: Cow inside the ranch.
-#0574 art                 L2   | ---------
-#0575 art                 L1   | Location: Inside green mushroom house in Minish Woods' village. *FICKLE*
-#0576 art                 L2   | ---------
-#0577 art                 L1   | Location: Minish priest at Minish Village.
-#0578 art                 L2   | ---------
-#0579 art                 L1   | Location: Researcher in Minish Village's barrel house. *FICKLE*
-#0580 art                 L2   | ---------
-#0581 art                 L1   | Location: Inside barrel house. *FICKLE*
-#0582 art                 L2   | ---------
-#0583 art                 L1   | Location: Inside village's lakeside mushroom house.
-#0584 art                 L2   | ---------
-#0585 block   f=0  p=1  L2   ( 133) | Location: The elderly man at the Wind Tribe home. *NOTE: Is only available if you saved him earl
-#0586 art                 L6   | ----------------------------
-#0587 block   f=0  p=1  L6   ( 442) | Details: This is necessary to advance through the game. Just enter Hyrule Town from South Hyrule
-#0588 art                 L6   | ----------------------------
-#0589 block   f=0  p=1  L6   ( 406) | Details: Southwest of Castor Wilds are three Mysterious Statues. They each want to fuse gold Kin
-#0590 art                 L6   | ----------------------------
-#0591 block   f=0  p=1  L6   ( 438) | Details: After clearing the Temple of Droplets, the ghost of Gustaf, a previous king of Hyrule, 
-#0592 art                 L6   | ----------------------------
-#0593 block   f=0  p=1  L8   ( 580) | Details: Throughout the lower section of Cloud Tops are certain clouds that hold golden Kinstone
-#0594 art                 L6   | ----------------------------
-#0595 block   f=0  p=1  L3   ( 155) | Details: The Minish blacksmith at the mines nearby Cave of Flames. Do a Kinstone Fusion with him
-#0596 art                 L6   | ----------------------------
-#0597 block   f=0  p=1  L3   ( 158) | Details: This Minish can be found at Melari's Mines. West side in front of the exit toward Cave 
-#0598 art                 L6   | ----------------------------
-#0599 block   f=0  p=1  L3   ( 166) | Details: This Minish can be found at Melari's Mines, in the kitchen...which is the southeast roo
-#0600 art                 L6   | ----------------------------
-#0601 block   f=0  p=1  L3   ( 225) | Details: This Minish can be found at Melari's Mines, in front of the eastern room...the bedroom.
-#0602 art                 L6   | ----------------------------
-#0603 block   f=0  p=1  L3   ( 216) | Details: This Minish can be found at Melari's Mines, and is the left-most miner on the north sid
-#0604 art                 L6   | ----------------------------
-#0605 block   f=0  p=1  L4   ( 233) | Details: On the east side of Mt. Crenel, climb up to him and do a Kinstone Fusion! This is an im
-#0606 art                 L6   | ----------------------------
-#0607 block   f=0  p=1  L5   ( 335) | Details: After fusing with Eenie, go to Mt. Crenel and climb to the top via the large west-side 
-#0608 art                 L6   | ----------------------------
-#0609 block   f=0  p=1  L4   ( 292) | Details: On the west side of Mt. Crenel's Base, where you found a green Crenel Bean, is a small 
-#0610 art                 L6   | ----------------------------
-#0611 block   f=0  p=1  L4   ( 263) | Details: On the north side of Castor Wilds are two cave entrances. Taking the left one, you'll f
-#0612 art                 L6   | ----------------------------
-#0613 block   f=0  p=1  L5   ( 314) | Details: A Minish can be found in his home under a small hole pretty close to the Castor Wilds e
-#0614 art                 L6   | ----------------------------
-#0615 block   f=0  p=1  L3   ( 193) | Details: At the graveyard in Royal Valley, you'll find a pink-ish ghost there. Fuse with him and
-#0616 art                 L6   | ----------------------------
-#0617 block   f=0  p=1  L3   ( 193) | Details: You can do another fusion with the same Spookter at Royal Valley. Do this fusion and th
-#0618 art                 L6   | ----------------------------
-#0619 block   f=0  p=1  L2   ( 152) | Details: Dampé, the gravekeeper at Royal Valley, will want to fuse. Do the fusion and the grave 
-#0620 art                 L6   | ----------------------------
-#0621 block   f=0  p=1  L2   ( 125) | Details: Dampé will want to do another Kinstone Fusion. This one makes a hole form up in the Win
-#0622 art                 L6   | ----------------------------
-#0623 block   f=0  p=1  L4   ( 290) | Details: After doing Fusion #17 above, enter the tomb under that gravestone that moved to find G
-#0624 art                 L6   | ----------------------------
-#0625 block   f=0  p=1  L2   ( 133) | Details: Gina will want to do a second Kinstone Fusion unique to her. Doing this Fusion makes a 
-#0626 art                 L6   | ----------------------------
-#0627 block   f=0  p=1  L5   ( 367) | Details: Knuckle, Tingle's brother who's dressed in blue, can be found at Trilby Highlands. To r
-#0628 art                 L6   | ----------------------------
-#0629 block   f=0  p=1  L4   ( 276) | Details: After fusing with Eenie, go to Trilby Highlands. Right before walking to Mt. Crenel's B
-#0630 art                 L6   | ----------------------------
-#0631 block   f=0  p=1  L5   ( 343) | Details: To reach this Minish in his mushroom house, dig through the northwest dig spot in the w
-#0632 art                 L6   | ----------------------------
-#0633 block   f=0  p=1  L3   ( 219) | Details: Percy is the poet who is inside a tree by the grassy enclosed field of Trilby Highlands
-#0634 art                 L6   | ----------------------------
-#0635 art                 L2   | Details: On the southwest corner of Western Wood is a small area with a Minish
-#0636 art                 L6   | ----------------------------
-#0637 block   f=0  p=1  L5   ( 374) | Details: At the garden, head to the east side to find a tree that sparkles when you're near it. 
-#0638 art                 L6   | ----------------------------
-#0639 block   f=0  p=1  L4   ( 311) | Details: Grimblade, the swordsman trainer, can be found at the southeast corner of Hyrule Castle
-#0640 art                 L6   | ----------------------------
-#0641 block   f=0  p=1  L6   ( 389) | Details: On the east side of the area, you'll find a small vine connecting a lower part of groun
-#0642 art                 L6   | ----------------------------
-#0643 block   f=0  p=1  L3   ( 221) | Details: Stranger, the guy in Hyrule Town that lives in the yellow-roofed house south of the Pos
-#0644 art                 L6   | ----------------------------
-#0645 block   f=0  p=1  L4   ( 295) | Details: The three Oracles, hailing from distant lands, have come to Hyrule to find a place to l
-#0646 art                 L6   | ----------------------------
-#0647 block   f=0  p=1  L9   ( 633) | Details: After fusing with either of the three Oracles at the inn to make the first house availa
-#0648 art                 L6   | ----------------------------
-#0649 block   f=0  p=1  L3   ( 189) | Details: Fuse Kinstones with Farore after giving two of the Oracles homes, and this will make a 
-#0650 art                 L6   | ----------------------------
-#0651 block   f=0  p=1  L3   ( 184) | Details: Fuse Kinstones with Din after giving two of the Oracles homes, and this will make a Joy
-#0652 art                 L6   | ----------------------------
-#0653 block   f=0  p=1  L3   ( 188) | Details: Fuse Kinstones with Nayru after giving two of the Oracles homes, and this will make a J
-#0654 art                 L6   | ----------------------------
-#0655 block   f=0  p=1  L8   ( 548) | Details: The Postman moves around Hyrule Town constantly, so in order to catch him, you'll have 
-#0656 art                 L6   | ----------------------------
-#0657 block   f=0  p=1  L5   ( 336) | Details: Fuse with Candy, the little blonde girl at Hyrule Town. She usually seems to be found w
-#0658 art                 L6   | ----------------------------
-#0659 block   f=0  p=1  L3   ( 198) | Details: Hagen is the mayor of Hyrule Town, usually found at his own home just next to the inn a
-#0660 art                 L6   | ----------------------------
-#0661 block   f=0  p=1  L3   ( 230) | Details: Mama, the blonde-haired woman who loves to stay at the cafe, will want to do a Kinstone
-#0662 art                 L6   | ----------------------------
-#0663 block   f=0  p=1  L4   ( 239) | Details: Tina, the purple-dressed schoolteacher of Hyrule Town's school, has a Kinstone Fusion, 
-#0664 art                 L6   | ----------------------------
-#0665 block   f=0  p=1  L3   ( 230) | Details: Fuse with Librari (first found at Hyrule Town's library, but later moves to a mushroom 
-#0666 art                 L6   | ----------------------------
-#0667 block   f=0  p=1  L2   ( 142) | Details: Link's grandfather Smith will eventually want to fuse Kinstones. By doing so, a chest a
-#0668 art                 L6   | ----------------------------
-#0669 block   f=0  p=1  L2   ( 145) | Details: Smith will want to do another Kinstone Fusion sometime after the first one. Do this fus
-#0670 art                 L6   | ----------------------------
-#0671 block   f=0  p=1  L5   ( 369) | Details: To reach this Forest Minish's home, you need the Pegasus Boots. Once you have those, he
-#0672 art                 L6   | ----------------------------
-#0673 block   f=0  p=1  L4   ( 257) | Details: After a while, Tingle waits at a ledge in South Hyrule Field, reachable by using the Ca
-#0674 art                 L6   | ----------------------------
-#0675 block   f=0  p=1  L2   ( 145) | Details: After doing the first fusion with him, he'll want to do another Kinstone Fusion! This o
-#0676 art                 L6   | ----------------------------
-#0677 block   f=0  p=1  L5   ( 308) | Details: Ankle, Tingle's brother, can be found on top of a ledge in Lon Lon Ranch. To reach it, 
-#0678 art                 L6   | ----------------------------
-#0679 block   f=0  p=1  L6   ( 409) | Details: There's a Goron punching a wall in a secluded alcove of Lon Lon Ranch. To get there, cu
-#0680 art                 L6   | ----------------------------
-#0681 block   f=0  p=1  L3   ( 200) | Details: After fusing with Eenie and all the Mysterious Walls around Hyrule, enter the Goron cav
-#0682 art                 L6   | ----------------------------
-#0683 block   f=0  p=1  L4   ( 274) | Details: The farmer with the tan-colored hat over at the farm in Eastern Hills wants to fuse Kin
-#0684 block   f=0  p=0  L4   ( 266) | *NOTE: Due to a glitch which I'm unsure has been fixed in subsequent releases or not, I advise y
+#0237 art                 L17  |   _____________________________
+#0238 art                 L7   | ----------------------------
+#0239 art                 L17  | ----------------------------
+#0240 block   f=0  p=0  L3   ( 218) | Once you exit, you'll find that something looks different...walk south and you will see a couple
+#0241 art                 L13  | ============================
+#0242 block   f=0  p=0  L12  ( 803) | Step on the switch to open both prison cells, then go over to Daltus' cell and cure his curse wi
+#0243 block   f=0  p=0  L10  ( 721) | So head north here, then go west when you can. Follow the hall there until you get to some canno
+#0244 block   f=0  p=0  L14  (1066) | Here, split yourself on the tiles, and move south while dodging the Trap, and step on the switch
+#0245 art                 L19  |                               __________  ________
+#0246 block   f=0  p=0  L9   ( 674) | Here, split yourself so that two are on both of the bottom corners, and two are between the midd
+#0247 block   f=0  p=0  L11  ( 808) | Go east to find a line of Sparks. Goody! Free Fairies! Head north to fight a Black Knight, which
+#0248 block   f=0  p=0  L10  ( 773) | In here, kill all the Stalfos and the two Wall Masters, then shoot the eyes on the north wall to
+#0249 block   f=0  p=0  L11  ( 866) | Fight off the Ghinis (one of them, when defeated, will get rid of all of them) and head east. Go
+#0250 block   f=0  p=0  L11  ( 838) | Head back west, then north. Go west twice, and fight off the two Dark Nuts to open all the doors
+#0251 art                 L20  |                               __________  ________
+#0252 art                 L17  | ~~~~~~~~~~~~~~~~~~~~~~~
+#0253 block   f=0  p=0  L2   ( 100) | After having dealt enough damage, you're teleported to a strange area. Vaati transforms yet agai
+#0254 art                 L15  | ~~~~~~~~~~~~~~~~~~~~~~~
+#0255 block   f=0  p=0  L8   ( 618) | After enough damage is dealt, Vaati seems to be defeated. Head up to Zelda, and use your Four Sw
+#0256 art                 L13  | ~~~~~~~~~~~~~~~~~~~~~~~
+#0257 block   f=0  p=0  L6   ( 394) | Now to do that to the other arm. Wait for him to get his other arm to attack, swing the Cane of 
+#0258 block   f=0  p=0  L8   ( 597) | Now that both arms are gone, the four small eyes in front of Vaati will open up. Split yourself 
+#0259 art                 L1   | ~~~~~~~~~~~~~~~~~~~~~~~
+#0260 block   f=0  p=0  L6   ( 446) | Once enough damage is dealt, Vaati will finally be defeated. The magical cap will disperse from 
+#0261 art                 L17  | +++++++++++++++++++
+#0262 art                 L18  | Quest Status:
+#0263 art                 L13  |   _____________________________
+#0264 art                 L49  | ----------------------------
+#0265 art                 L9   | ----------------------------
+#0266 art                 L26  | ----------------------------
+#0267 block   f=0  p=0  L7   ( 477) | Return back and take a complete left this time, digging through the thin passage. You'll come to
+#0268 art                 L43  |                               __________  ________
+#0269 art                 L9   | ----------------------------
+#0270 block   f=0  p=1  L6   ( 452) | - The Town Minish in the mushroom house at Hyrule Town on the west side. Or, in the new house th
+#0271 art                 L3   |                        +-------------------------------+
+#0272 block   f=0  p=1  L2   ( 137) | - Zill. This kid is in Hyrule Town, and he's the one with snot dripping from his nose. At this p
+#0273 art                 L3   |                        +-------------------------------+
+#0274 block   f=0  p=1  L2   ( 127) | - The Forest Minish who lives in a vase house. He's actually at the village in Minish Woods, wes
+#0275 art                 L3   |                        +-------------------------------+
+#0276 art                 L1   | With those Fusions taken care of, warp to Veil Falls.
+#0277 art                 L14  | ----------------------------
+#0278 art                 L7   | ----------------------------
+#0279 art                 L5   | ----------------------------
+#0280 art                 L7   | ----------------------------
+#0281 art                 L12  | ----------------------------
+#0282 block   f=0  p=0  L12  ( 863) | Head north a bit until you see a small hollow log leading east. Head through it and walk through
+#0283 art                 L14  |                               __________  ________
+#0284 art                 L31  | ----------------------------
+#0285 art                 L5   | /¯¯¯¯
+#0286 block   f=0  p=1  L2   ( 109) | [ ] - Business Scrub: This one is in a cave at the bottom west side of Mt. Crenel's Base. He sel
+#0287 block   f=0  p=1  L2   ( 146) | [ ] - Gina: This is the pink ghost inside the northeast grave in Royal Valley. You've done two u
+#0288 block   f=0  p=1  L2   ( 142) | [ ] - Percy: The poet who lives in his home at Western Wood. You've done a unique Kinstone Fusio
+#0289 block   f=0  p=1  L3   ( 166) | [ ] - Minister Potho: The minister whom you rescued from his stoned curse at Dark Hyrule Castle.
+#0290 block   f=0  p=1  L3   ( 202) | [ ] - Town Minish: He's living in the carpenters' house in Hyrule Town, west side. Just enter th
+#0291 block   f=0  p=1  L3   ( 229) | [ ] - Mutoh: He's the boss of the carpenters in their house at Hyrule Town. He stands there with
+#0292 block   f=0  p=1  L2   ( 126) | [ ] - Mack: The sawing carpenter at their house. He has an afro. He's a bit fickle with his Fusi
+#0293 block   f=0  p=1  L2   ( 112) | [ ] - Doyle: The sawing carpenter at their house. He has a flat-top haircut. Again, he's fickle,
+#0294 block   f=0  p=1  L2   ( 114) | [ ] - Brent: The carpenter at their house who holds a piece of lumber. He's fickle, so try buggi
+#0295 block   f=0  p=1  L3   ( 193) | [ ] - Malon: She's the ranch girl selling milk over by the north entrance to Hyrule Town. Due to
+#0296 block   f=0  p=1  L4   ( 251) | [ ] Epona: Oddly enough, the horse for Malon's milk carriage wants to fuse at any time. You'll n
+#0297 block   f=0  p=1  L2   ( 131) | [ ] - Leila: She's the girl in the Simon's Simulations building in Hyrule Town. She's a bit fick
+#0298 art                 L2   | [ ] - Herb: He's the man sitting outside the cafe at Hyrule Town. He's a bit
+#0299 art                 L2   | [ ] - Town Minish: He's sitting up in the rafters of the cafe, and is hungry.
+#0300 block   f=0  p=1  L2   ( 115) | [ ] - Town Minish: He's sitting up in the cafe's rafters, wanting a red hat like the Forest Mini
+#0301 block   f=0  p=1  L2   ( 117) | [ ] - Forest Minish: He's sitting up in the cafe's rafters, feeling more refined. Like the other
+#0302 block   f=0  p=1  L3   ( 177) | [ ] - Hurdy-Gurdy Man: The goofy-looking guy at the beginning of the game who taught you about K
+#0303 art                 L2   | [ ] - Baris: He's the man sitting at the cafe, enjoying himself. He's kinda
+#0304 art                 L1   | [ ] - Chai: She's the lady drinking something at the cafe. She's kinda fickle.
+#0305 art                 L1   | [ ] - Breve: The old woman wandering about in the cafe. Kinda fickle.
+#0306 block   f=0  p=1  L2   ( 110) | [ ] - Harrison: One of the two identical-looking kids in school. He doesn't want to go home...an
+#0307 art                 L2   | [ ] - Erik: The other of the identical kids in school. He LOVES school! Though
+#0308 art                 L2   | [ ] - Joel: He's the kid in the blue shirt in the second floor of the inn. He's
+#0309 art                 L2   | [ ] - Satchel: He's the man sitting by a table in the second floor of the inn.
+#0310 block   f=0  p=1  L2   ( 100) | [ ] - Lolly: He's the kid wandering around the first floor of the inn. He's looking forward to f
+#0311 art                 L1   | [ ] - Bindle: He's the guy on the first floor of the inn. A bit fickle though.
+#0312 art                 L2   | [ ] - Romio: He's the man in the house just above the rented house in the
+#0313 art                 L2   | [ ] - Berry: She's Romio's little sister, living in the same house with him.
+#0314 block   f=0  p=1  L2   ( 113) | [ ] - Rolf: Romio's dog. In order to fuse with him, you'll have to be Minish- sized. He's willin
+#0315 art                 L1   | [ ] - Julietta: The girl living in the house next door to Romio. She's fickle.
+#0316 art                 L2   | [ ] - Verona: She's the mother of Julietta, in the same house as her. Her
+#0317 art                 L2   | [ ] - Jim: He's Julietta's little brother, living in the same house. He's
+#0318 block   f=0  p=1  L5   ( 328) | [ ] - Scratcher: Julietta's cat. You'll have to be Minish-sized, but be careful. Cats like to sw
+#0319 block   f=0  p=1  L2   ( 138) | [ ] - Anju: She's the Cucco lady at the southeast corner of town, always gets you to catch her C
+#0320 block   f=0  p=1  L2   ( 119) | [ ] - Talon: Malon's dad, he stays to work at the ranch in Lon Lon Ranch east of Hyrule Town. He
+#0321 block   f=0  p=1  L3   ( 168) | [ ] - Elsie: The cow inside the ranch. To reach her, shrink on the tree outside and follow the w
+#0322 block   f=0  p=1  L2   ( 114) | [ ] - Forest Minish: He's inside the green mushroom house in Minish Village. He's a bit fickle w
+#0323 block   f=0  p=1  L2   ( 101) | [ ] - Festari: He's the Minish Village priest, living in that (what appears to be) crystalline h
+#0324 block   f=0  p=1  L2   ( 109) | [ ] - Forest Minish: He's the researcher for Pico Blooms in the barrel house in Minish Village. 
+#0325 art                 L1   | [ ] - Forest Minish: He's the other Minish in the barrel house, fickle as well.
+#0326 block   f=0  p=1  L2   ( 116) | [ ] - Forest Minish: He's in the house in Minish Village, within the lake in the north-east corn
+#0327 block   f=0  p=1  L2   ( 115) | [ ] - Gregal: The guy you saved from certain death up at Cloud Tops. He's up for a Shared Fusion
+#0328 art                 L1   | \_____________________________________________________________________________/
+#0329 art                 L2   | So with those done, time to cover the Fusions. These are by no means in
+#0330 art                 L8   | /¯¯¯¯
+#0331 block   f=0  p=1  L4   ( 250) | [ ] - This Shared Kinstone Fusion makes the fountain in the northwest area of Hyrule Castle Gard
+#0332 art                 L3   |                        +-------------------------------+
+#0333 block   f=0  p=1  L3   ( 200) | [ ] - This Shared Kinstone Fusion makes the fountain in the northeast area of Hyrule Castle Gard
+#0334 art                 L6   |                                                 __________  ________
+#0335 block   f=0  p=1  L4   ( 302) | [ ] - This Shared Kinstone Fusion makes a chest appear at North Hyrule Field. To reach it, go do
+#0336 art                 L3   |                        +-------------------------------+
+#0337 block   f=0  p=1  L3   ( 209) | [ ] - This Shared Kinstone Fusion makes a tree open up around the east side of North Hyrule Fiel
+#0338 art                 L3   |                        +-------------------------------+
+#0339 block   f=0  p=1  L4   ( 251) | [ ] - This Shared Kinstone Fusion makes a chest appear at the Minish road of the playground in H
+#0340 art                 L3   |                        +-------------------------------+
+#0341 block   f=0  p=1  L2   ( 139) | [ ] - This Shared Kinstone Fusion makes a chest appear just east of Smith's house in South Hyrul
+#0342 art                 L3   |                        +-------------------------------+
+#0343 block   f=0  p=1  L3   ( 203) | [ ] - This Shared Kinstone Fusion makes a puddle of water dry up in South Hyrule Field, revealin
+#0344 art                 L3   |                        +-------------------------------+
+#0345 block   f=0  p=1  L4   ( 297) | [ ] - This Shared Kinstone Fusion makes a chest appear at Lon Lon Ranch. To reach it, go to the 
+#0346 art                 L3   |                        +-------------------------------+
+#0347 block   f=0  p=1  L3   ( 204) | [ ] - This Shared Kinstone Fusion makes a chest appear at the Minish road of Lon Lon Ranch. Shri
+#0348 art                 L3   |                        +-------------------------------+
+#0349 block   f=0  p=1  L2   ( 102) | [ ] - This Shared Kinstone Fusion makes a Golden Rope appear at Eastern Hills. Slay it for 100 R
+#0350 art                 L3   |                        +-------------------------------+
+#0351 block   f=0  p=1  L3   ( 192) | [ ] - This Shared Kinstone Fusion makes a chest appear on the east side of Minish Woods. Just he
+#0352 art                 L3   |                        +-------------------------------+
+#0353 block   f=0  p=1  L3   ( 202) | [ ] - This Shared Kinstone Fusion makes a chest appear on the west side of Minish Woods, by the 
+#0354 art                 L3   |                        +-------------------------------+
+#0355 block   f=0  p=1  L3   ( 226) | [ ] - This Shared Kinstone Fusion makes a Golden Octorok appear at the north side of Minish Wood
+#0356 art                 L3   |                        +-------------------------------+
+#0357 block   f=0  p=1  L3   ( 199) | [ ] - This Shared Kinstone Fusion makes a chest appear at the north side of Minish Woods. Get th
+#0358 art                 L3   |                        +-------------------------------+
+#0359 block   f=0  p=1  L3   ( 208) | [ ] - This Shared Kinstone Fusion makes a Minish-sized hole appear at the very south of Minish W
+#0360 art                 L3   |                        +-------------------------------+
+#0361 block   f=0  p=1  L3   ( 169) | [ ] - This Shared Kinstone Fusion makes a chest appear on the Minish road leading to Minish Vill
+#0362 art                 L3   |                        +-------------------------------+
+#0363 block   f=0  p=1  L2   ( 143) | [ ] - This Shared Kinstone Fusion makes a chest appear a bit east of Deepwood Shrine in Minish W
+#0364 art                 L4   |                        +-------------------------------+
+#0365 block   f=0  p=0  L5   ( 331) | And that's all the Shared Kinstone Fusions! Go and grab the results from them. The rest of the p
+#0366 art                 L11  | ----------------------------
+#0367 art                 L51  | ----------------------------
+#0368 art                 L17  | +++++++++++++++++++
+#0369 art                 L21  | Quest Status: *ALL*
+#0370 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
+#0371 block   f=0  p=0  L5   ( 340) | Want to go through the game while only being given general hints on where to go? Want to know wh
+#0372 art                 L5   |  _____________________________
+#0373 hanging f=0  p=4  L2   (  80) | [ ] - After the cutscenes from arriving at the castle, head out to Minish Woods.
+#0374 hanging f=0  p=4  L2   ( 107) | [ ] - Wander through Minish Woods until you a cutscene occurs. Grab Heart Piece #1 nearby and go
+#0375 hanging f=0  p=4  L2   (  80) | [ ] - Enter Minish Village, collect Heart Piece #2, make way to Deepwood Shrine.
+#0376 art                 L9   | [ ] - Clear Deepwood Shrine while also getting Heart Pieces #3 and #4.
+#0377 hanging f=0  p=4  L2   ( 104) | [ ] - Enter Hyrule Town and do Kinstone Fusion #01. Also purchase wallet & Boomerang through cuc
+#0378 art                 L1   | [ ] - Learn new technique, go get Heart Piece #5 at South Hyrule Field.
+#0379 art                 L1   | [ ] - Get Empty Bottle #1 at Trilby Highlands, enter Mt. Crenel.
+#0380 art                 L1   | [ ] - Work on climbing up while getting Heart Piece #6 and #7.
+#0381 hanging f=0  p=4  L2   (  81) | [ ] - Grab Grip Ring and climb up Crenel Wall. Get Big Bomb Bag #1 along the way.
+#0382 art                 L1   | [ ] - Make way to Melari's Mines from the tops, and drop off Picori Blade.
+#0383 art                 L9   | [ ] - Clear Cave of Flames, getting Heart Piece #8 in the process.
+#0384 art                 L1   | [ ] - Head to town.
+#0385 art                 L1   | [ ] - Get Minish-sized self to west side of town to move the dog.
+#0386 art                 L1   | [ ] - Learn new technique in town, get Heart Piece #9 from inn as Minish-size.
+#0387 art                 L1   | [ ] - Get Big Wallet #2 from Minish Woods through Eastern Hills.
+#0388 art                 L1   | [ ] - Get Heart Piece #10 from Veil Falls through Lon Lon Ranch.
+#0389 art                 L1   | [ ] - Get Heart Piece #11 from North Hyrule Field.
+#0390 art                 L1   | [ ] - Get Heart Piece #12 and new technique at right side of Mt. Crenel.
+#0391 hanging f=0  p=4  L2   ( 119) | [ ] - Make way to Castor Wilds, find out you need Pegasus Boots, return to Hyrule Town and visit
+#0392 hanging f=0  p=4  L3   ( 165) | [ ] - On second visit, shrink and have Minish tell you where to go. Head to Lon Lon Ranch, get t
+#0393 hanging f=0  p=4  L2   ( 129) | [ ] - Get Mushroom and wake up Rem to get Pegasus Boots. Along the way, get to Goron in Lon Lon 
+#0394 hanging f=0  p=4  L2   ( 144) | [ ] - Return to Castor Wilds, explore it for three Golden Kinstone Pieces with which to fuse to 
+#0395 art                 L1   | [ ] - Get through Wind Ruins, get Heart Piece #15.
+#0396 art                 L9   | [ ] - Clear the Fortress of Winds, getting Heart Piece #16 in the process.
+#0397 art                 L1   | [ ] - Get bottle from Stockwell's storage.
+#0398 hanging f=0  p=4  L2   (  84) | [ ] - Perform Kinstone Fusions #35, #36, and #37 with Candy, Hagen, and the Postman.
+#0399 art                 L1   | [ ] - Get Heart Piece #17 from Simon's Simulations.
+#0400 hanging f=0  p=4  L2   (  95) | [ ] - Perform Kinstone Fusions #29, #30, and #31 from Stranger, one of the Oracles, and Bremor.
+#0401 art                 L1   | [ ] - Take portal from Stranger's Fusion, cure Gregal from his ghost.
+#0402 hanging f=0  p=4  L2   ( 106) | [ ] - Do Kinstone Fusions #41, #43, and #44 with Smith, Forest Minish, and Tingle from South Hyr
+#0403 art                 L1   | [ ] - Do Kinstone Fusion #25 with Forest Minish at Western Wood.
+#0404 art                 L1   | [ ] - Do Kinstone Fusion #13 with Business Scrub at Castor Wilds.
+#0405 hanging f=0  p=4  L2   (  85) | [ ] - Do Kinstone Fusion #14 with Forest Minish at Wind Ruins to get Large Quiver #1.
+#0406 art                 L1   | [ ] - Get Big Wallet #3 from Lon Lon Ranch.
+#0407 hanging f=0  p=4  L2   ( 103) | [ ] - Perform Kinstone Fusions #49 and #50 with Eenie and Meenie, get Empty Bottle #2 at Eastern
+#0408 art                 L1   | [ ] - Perform Kinstone Fusion #68 with Business Scrub at Minish Woods.
+#0409 art                 L1   | [ ] - Get Heart Piece #18 from Lon Lon Ranch.
+#0410 hanging f=0  p=4  L3   ( 163) | [ ] - Make Empty Bottle #3 out of the dog food bottle at Lake Hylia, and perform Kinstone Fusion
+#0411 hanging f=0  p=4  L4   ( 250) | [ ] - Visit the Hyrule Town library and return all three books to meet Librari, getting the Powe
+#0412 art                 L1   | [ ] - Grab three Heart Pieces at Lake Hylia as well as a new Tiger Scroll.
+#0413 art                 L9   | [ ] - Clear Temple of Droplets.
+#0414 hanging f=0  p=4  L2   ( 139) | [ ] - Reach Royal Valley through North Hyrule Field, and get Big Quiver #2, Heart Piece #23, and
+#0415 art                 L1   | [ ] - Make way through the Royal Crypt.
+#0416 hanging f=0  p=4  L2   (  80) | [ ] - Perform Kinstone Fusions #16, #17, and #19 from Spookter, Dampé, and Gina.
+#0417 art                 L1   | [ ] - Get Heart Piece #24, Big Quiver #3, and Big Bomb Bag #2 from Hyrule Town.
+#0418 hanging f=0  p=4  L2   ( 109) | [ ] - Perform Kinstone Fusions #32, #33, and #34 with the Oracles, grab the Joy Butterflies from
+#0419 hanging f=0  p=4  L2   (  99) | [ ] - Perform Kinstone Fusion #38 with Mama at Hyrule Town, explore the underground of Hyrule To
+#0420 hanging f=0  p=4  L2   (  92) | [ ] - Perform Kinstone Fusion #42 with Smith, and get Heart Piece #25 at South Hyrule Field.
+#0421 hanging f=0  p=4  L2   ( 132) | [ ] - Perform Kinstone Fusions #51 and #52 from Mysterious Wall and Forest Minish at Eastern Hil
+#0422 hanging f=0  p=4  L2   ( 133) | [ ] - At Minish Woods, perform Kinstone Fusions #69, #70, and #71 with Business Scrub, Gentari, 
+#0423 hanging f=0  p=4  L3   ( 185) | [ ] - Use Lake Hylia to reach northeast corner of Minish Woods as Lake Hylia. At Lake Hylia, per
+#0424 hanging f=0  p=4  L2   ( 128) | [ ] - Perform Kinstone Fusion #46 with Ankle at Lon Lon Ranch, and Kinstone Fusion #28 with Fore
+#0425 art                 L1   | [ ] - Perform Kinstone Fusions #18 and #20 with Dampé and Gina at Royal Valley.
+#0426 hanging f=0  p=4  L2   ( 130) | [ ] - Perform Kinstone Fusions #21, #22, #23, and #24 with Knuckle, Forest Minish, Mysterious Wa
+#0427 art                 L1   | [ ] - Get Heart Piece #28 and help Percy back into his house at Western Wood.
+#0428 art                 L1   | [ ] - Perform Kinstone Fusion #12 with Minish at Mt. Crenel's Base.
+#0429 hanging f=0  p=4  L3   ( 173) | [ ] - Perform Kinstone Fusions #05-#09 at Melari's Mines in Mt. Crenel. Do Kinstone Fusions #10 
+#0430 art                 L1   | [ ] - Get Heart Piece #31 and decreased charge time at Castor Wilds.
+#0431 art                 L1   | [ ] - Clean up at Wind Ruins and end up getting Big Bomb Bag #3.
+#0432 hanging f=0  p=4  L2   ( 117) | [ ] - Get Magical Boomerang at North Hyrule Field, and do Kinstone Fusion #27 with Grimblade at 
+#0433 hanging f=0  p=4  L2   ( 100) | [ ] - Get Heart Piece #32 at Veil Falls, perform Kinstone Fusion #03. Climb up the Falls to the 
+#0434 hanging f=0  p=4  L2   ( 148) | [ ] - Perform Kinstone Fusions #53 and #54 at Cloud Tops with the Wind Tribe, and explore around
+#0435 hanging f=0  p=4  L2   ( 106) | [ ] - At Wind Tribe home, get Light Arrows and perform Kinstone Fusions #55, #56, and #58, get u
+#0436 art                 L8   | [ ] - Clear Palace of Winds, get Heart Piece #33 in the process.
+#0437 art                 L1   | [ ] - Head to Elemental Sanctuary to forge the Four Sword.
+#0438 art                 L9   | [ ] - Clear Dark Hyrule Castle and defeat the final boss.
+#0439 art                 L1   | [ ] - Perform Kinstone Fusion #45 with Tingle at South Hyrule Field.
+#0440 block   f=0  p=1  L2   ( 128) | [ ] - Perform Kinstone Fusions #61 and #62 with David Jr. and Mysterious Wall at Lake Hylia, get
+#0441 art                 L2   | [ ] - Perform Kinstone Fusion #48 with Goron and get Empty Bottle #4 at Lon
+#0442 art                 L1   | [ ] - Get Tiger Scroll #8 at Castor Wilds.
+#0443 block   f=0  p=1  L2   ( 127) | [ ] - Perform Kinstone Fusions #74, #75, and #76 with Town Minish at west Hyrule Town, Zill, and
+#0444 art                 L1   | [ ] - Get Heart Piece #40 at Veil Falls.
+#0445 art                 L1   | [ ] - Get Heart Piece #41 at Castor Wilds using the new lilypads.
+#0446 art                 L1   | [ ] - Obtain the Mirror Shield from Biggoron.
+#0447 block   f=0  p=1  L2   ( 102) | [ ] - Perform (Shared) Kinstone Fusions #77 through #94, grab Heart Piece #42 from one of the re
+#0448 art                 L1   | [ ] - Perform Kinstone Fusions #72 and #73 with Forest Minish at Minish Woods.
+#0449 art                 L1   | [ ] - Get Heart Piece #43 at Veil Falls.
+#0450 art                 L1   | [ ] - Get Heart Container at Lake Hylia.
+#0451 art                 L2   | [ ] - Clean up all the results from the Kinstone Fusions, and pick up the
+#0452 art                 L4   | [ ] - Gather up all 136 Figurines for Heart Piece #44 and the Carlov Medal.
+#0453 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
+#0454 block   f=0  p=0  L8   ( 556) | This is a list of Heart Pieces, listed in chronological order that I get them in the walkthrough
+#0455 art                 L5   | ----------------------------
+#0456 block   f=0  p=1  L6   ( 416) | How to get: After a certain Kinstone Fusion, a Minish-sized hole will appear at Lake Hylia, near
+#0457 art                 L5   | ----------------------------
+#0458 block   f=0  p=1  L4   ( 245) | How to get: Found in plain sight in front of Deepwood Shrine. From the entrance to Minish Woods 
+#0459 art                 L5   | ----------------------------
+#0460 block   f=0  p=1  L4   ( 299) | How to get: To enter Minish Village, shrink yourself on the stump in the southeast corner of Min
+#0461 art                 L5   | ----------------------------
+#0462 block   f=0  p=1  L3   ( 182) | How to get: After defeating the Madderpillar mini-boss on the first floor, get the Gust Jar and 
+#0463 art                 L5   | ----------------------------
+#0464 block   f=0  p=1  L5   ( 331) | How to get: First, at the north room of the dungeon where the great majority of dust is, get rid
+#0465 art                 L5   | ----------------------------
+#0466 block   f=0  p=1  L3   ( 193) | How to get: Fuse Kinstones with Hurdy-Gurdy Man at Hyrule Town (required to advance), and a tree
+#0467 art                 L5   | ----------------------------
+#0468 block   f=0  p=1  L5   ( 318) | How to get: At Mt. Crenel's Base, make your way to the west side, at one point having to glide a
+#0469 art                 L5   | ----------------------------
+#0470 block   f=0  p=1  L4   ( 242) | How to get: After climbing up a vine created from a green Crenel Bean at the mountain's base, go
+#0471 art                 L5   | ----------------------------
+#0472 block   f=0  p=1  L4   ( 241) | How to get: After changing the tracks in floor B1 and taking the minecart, head west and north t
+#0473 art                 L5   | ----------------------------
+#0474 block   f=0  p=1  L6   ( 449) | How to get: Enter the home to the right of Stockwell's shop. Inside is a large blue pot. Flip it
+#0475 art                 L5   | ----------------------------
+#0476 block   f=0  p=1  L4   ( 306) | How to get: To enter Veil Falls, go to the northwest side of the Lon Lon Ranch area, where you'l
+#0477 art                 L5   | ----------------------------
+#0478 block   f=0  p=1  L4   ( 276) | How to get: On the northwest side of North Hyrule Field, there's a sign that tells you that this
+#0479 art                 L5   | ----------------------------
+#0480 block   f=0  p=1  L7   ( 507) | How to get: Grip Ring should be needed, and you need the White Sword infused with the Earth and 
+#0481 art                 L5   | ----------------------------
+#0482 block   f=0  p=1  L3   ( 220) | How to get: Enter Lake Hylia from Lon Lon Ranch, using the whirlwinds. Enter Minish Woods from t
+#0483 art                 L5   | ----------------------------
+#0484 block   f=0  p=1  L3   ( 218) | How to get: On the southwest corner of Castor Wilds, there is a giant gravestone. Push the stone
+#0485 art                 L5   | ----------------------------
+#0486 block   f=0  p=1  L4   ( 288) | How to get: At the second stump you can shrink from, backtrack after shrinking. Climb down the s
+#0487 art                 L5   | ----------------------------
+#0488 block   f=0  p=1  L6   ( 461) | How to get: From the entrance, enter the door second from the right and climb all the way to the
+#0489 art                 L5   | ----------------------------
+#0490 block   f=0  p=1  L5   ( 325) | How to get: As the requirements say, beat the third dungeon, which is the Fortress of Winds. Aft
+#0491 art                 L5   | ----------------------------
+#0492 block   f=0  p=1  L4   ( 304) | How to get: Once in the garden of the ranch, you will see a tree on the north side that sparkles
+#0493 art                 L5   | ----------------------------
+#0494 block   f=0  p=1  L2   ( 155) | How to get: Over at the north side of Lake Hylia is Stockwell's house, and a pool next to it. Di
+#0495 art                 L5   | ----------------------------
+#0496 block   f=0  p=1  L3   ( 175) | How to get: This is simple to find. Just use the Flippers to swim to the south edge of Lake Hyli
+#0497 art                 L5   | ----------------------------
+#0498 block   f=0  p=1  L3   ( 182) | How to get: Using the Flippers, swim to the southwest side of Lake Hylia and climb the steps to 
+#0499 art                 L5   | ----------------------------
+#0500 block   f=0  p=1  L3   ( 229) | How to get: Once you can do so (once the guards aren't blocking the way), head to the southeast 
+#0501 art                 L5   | ----------------------------
+#0502 block   f=0  p=1  L4   ( 260) | How to get: Once you enter the graveyard on the north side of the valley (after going through th
+#0503 art                 L5   | ----------------------------
+#0504 block   f=0  p=1  L3   ( 218) | How to get: Anju, the Cucco lady at the southeast corner of town, constantly has her Cuccos miss
+#0505 art                 L5   | ----------------------------
+#0506 block   f=0  p=1  L5   ( 312) | How to get: Head over to the southwest corner of South Hyrule Field to find a tree that sparkles
+#0507 art                 L5   | ----------------------------
+#0508 block   f=0  p=1  L3   ( 187) | How to get: Do a Kinstone Fusion with the Minish inside his house on the south part of Eastern H
+#0509 art                 L5   | ----------------------------
+#0510 block   f=0  p=1  L3   ( 226) | How to get: Shrink using the stump just on the west side of Minish Village, and swim north acros
+#0511 art                 L5   | ----------------------------
+#0512 block   f=0  p=1  L2   ( 144) | How to get: Do a Kinstone Fusion with a Forest Minish at Lake Hylia, and a tree in Western Woods
+#0513 art                 L5   | ----------------------------
+#0514 block   f=0  p=1  L3   ( 191) | How to get: Fuse Kinstones with Melari at the Minish Mines in Mt. Crenel, and a beanstalk will g
+#0515 art                 L5   | ----------------------------
+#0516 block   f=0  p=1  L4   ( 258) | How to get: Climb to the top of Mt. Crenel by going up Crenel Wall. Once there, find a ladder an
+#0517 art                 L5   | ----------------------------
+#0518 block   f=0  p=1  L4   ( 258) | How to get: On the northeast corner of Castor Wilds, reachable by dashing then swimming, enter t
+#0519 art                 L5   | ----------------------------
+#0520 block   f=0  p=1  L3   ( 175) | How to get: Enter Veil Falls through the northeast exit from North Hyrule Field, and you will im
+#0521 art                 L5   | ----------------------------
+#0522 block   f=0  p=1  L4   ( 292) | How to get: After getting the Big Key and fighting against the Red Dark Nut, continue through th
+#0523 art                 L5   | ----------------------------
+#0524 block   f=0  p=1  L4   ( 267) | How to get: In the Minish-sized fountain cavern where you get the Power Bracelets (as a hint, st
+#0525 art                 L5   | ----------------------------
+#0526 block   f=0  p=1  L2   ( 119) | How to get: Jump into the bell hanging from the archway that's just north of the centre to knock
+#0527 art                 L5   | ----------------------------
+#0528 block   f=0  p=1  L3   ( 233) | How to get: Enter the town's school, and shrink using the pot in the classroom. Exit out the rig
+#0529 art                 L5   | ----------------------------
+#0530 block   f=0  p=1  L3   ( 191) | How to get: Just east of David Jr., on the north side of the lake, is a series of small islands.
+#0531 art                 L5   | ----------------------------
+#0532 block   f=0  p=1  L4   ( 290) | How to get: First, do a certain Kinstone Fusion at Lake Hylia to make a beanstalk grow here at t
+#0533 art                 L5   | ----------------------------
+#0534 block   f=0  p=1  L5   ( 381) | How to get: This Piece is at Lon Lon Ranch, but all the work is pretty much done at Lake Hylia. 
+#0535 art                 L5   | ----------------------------
+#0536 block   f=0  p=1  L2   ( 126) | How to get: After a certain Kinstone Fusion, the topmost waterfall at Veil Falls will open up. H
+#0537 art                 L5   | ----------------------------
+#0538 block   f=0  p=1  L7   ( 497) | How to get: After fusing Kinstone pieces with three people to make Minish-sized lilypads appear 
+#0539 art                 L5   | ----------------------------
+#0540 block   f=0  p=1  L3   ( 167) | How to get: After a certain Shared Kinstone Fusion, the northeast fountain of Hyrule Castle Gard
+#0541 art                 L5   | ----------------------------
+#0542 block   f=0  p=1  L3   ( 212) | How to get: After a certain Kinstone Fusion, a platform will appear at Veil Falls, letting you g
+#0543 art                 L5   | ----------------------------
+#0544 block   f=0  p=1  L4   ( 263) | How to get: After getting 130 Figurines, talk to the guy sitting outside the cafe in Hyrule Town
+#0545 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
+#0546 block   f=0  p=0  L12  ( 867) | Kinstones are special items that can help make the world a better place. If you happen to find a
+#0547 block   f=0  p=0  L12  ( 922) | I will show a list of Kinstone Fusions, including ones relating to the plot that you HAVE to do,
+#0548 art                 L4   | ----------------------------
+#0549 art                 L2   | ---------
+#0550 art                 L1   | Location - High cave at Mt. Crenel, on Crenel Wall. *HAS FIVE SHARED FUSIONS*
+#0551 art                 L2   | ---------
+#0552 art                 L1   | Location - Cave in Mt. Crenel's Base.
+#0553 art                 L2   | ---------
+#0554 art                 L1   | Location - Pink Ghini in Royal Valley.
+#0555 art                 L2   | ---------
+#0556 art                 L1   | Location - By his house in Western Wood.
+#0557 art                 L2   | ---------
+#0558 art                 L1   | Location - With the King at (Dark) Hyrule Castle.
+#0559 art                 L2   | ---------
+#0560 art                 L1   | Location - At carpenters' house in Hyrule Town. *FICKLE*
+#0561 art                 L2   | ---------
+#0562 art                 L1   | Location - Carpenter boss at Hyrule Town. *FICKLE*
+#0563 art                 L2   | ---------
+#0564 art                 L1   | Location - Carpenter with afro haircut at Hyrule Town. *FICKLE*
+#0565 art                 L2   | ---------
+#0566 art                 L1   | Location - Carpenter with flat-top haircut at Hyrule Town. *FICKLE*
+#0567 art                 L2   | ---------
+#0568 art                 L1   | Location - Carpenter holding lumber at Hyrule Town. *FICKLE*
+#0569 art                 L2   | ---------
+#0570 art                 L1   | Location - Ranch girl at Hyrule Town. *FICKLE*
+#0571 art                 L2   | ---------
+#0572 art                 L1   | Location: Malon's horse at Hyrule Town.
+#0573 art                 L2   | ---------
+#0574 art                 L1   | Location: Girl in Simon's Simulations building at Hyrule Town. *FICKLE*
+#0575 art                 L2   | ---------
+#0576 art                 L1   | Location: Rich man outside of Hyrule Town cafe. *FICKLE*
+#0577 art                 L2   | ---------
+#0578 art                 L1   | Location: Hungry Minish in cafe's rafters. *FICKLE*
+#0579 art                 L2   | ---------
+#0580 art                 L1   | Location: Minish who wants a red cap in cafe's rafters. *FICKLE*
+#0581 art                 L2   | ---------
+#0582 art                 L1   | Location: Refined Minish in cafe's rafters. *FICKLE*
+#0583 art                 L2   | ---------
+#0584 art                 L1   | Location: Inside cafe.
+#0585 art                 L2   | ---------
+#0586 art                 L1   | Location: Sitting man in cafe. *FICKLE*
+#0587 art                 L2   | ---------
+#0588 art                 L1   | Location: Sitting woman in cafe. *FICKLE*
+#0589 art                 L2   | ---------
+#0590 art                 L1   | Location: Old woman in cafe. *FICKLE*
+#0591 art                 L2   | ---------
+#0592 art                 L1   | Location: Kid in Hyrule Town's school, doesn't want to go home. *FICKLE*
+#0593 art                 L2   | ---------
+#0594 art                 L1   | Location: Kid in school who loves school. *FICKLE*
+#0595 art                 L2   | ---------
+#0596 art                 L1   | Location: Kid in blue shirt at Hyrule Town's inn, upstairs. *FICKLE*
+#0597 art                 L2   | ---------
+#0598 art                 L1   | Location: Sitting man at inn, upstairs. *FICKLE*
+#0599 art                 L2   | ---------
+#0600 art                 L1   | Location: Brown-haired kid, at inn downstairs.
+#0601 art                 L2   | ---------
+#0602 art                 L1   | Location: Man at inn, downstairs. *FICKLE*
+#0603 art                 L2   | ---------
+#0604 art                 L1   | Location: One of the lovers at Hyrule Town. *FICKLE*
+#0605 art                 L2   | ---------
+#0606 art                 L1   | Location: Romio's sister at Hyrule Town. *FICKLE*
+#0607 art                 L2   | ---------
+#0608 art                 L1   | Location: Romio's dog at Hyrule Town.
+#0609 art                 L2   | ---------
+#0610 art                 L1   | Location: One of the lovers at Hyrule Town. *FICKLE*
+#0611 art                 L2   | ---------
+#0612 art                 L1   | Location: Julietta's mother at Hyrule Town. *FICKLE*
+#0613 art                 L2   | ---------
+#0614 art                 L1   | Location: Julietta's brother at Hyrule Town. *FICKLE*
+#0615 art                 L2   | ---------
+#0616 art                 L1   | Location: Julietta's cat at Hyrule Town.
+#0617 art                 L2   | ---------
+#0618 art                 L1   | Location: Cucco lady at Hyrule Town. *FICKLE*
+#0619 art                 L2   | ---------
+#0620 art                 L1   | Location: Ranch owner at Lon Lon Ranch. *FICKLE*
+#0621 art                 L2   | ---------
+#0622 art                 L1   | Location: Cow inside the ranch.
+#0623 art                 L2   | ---------
+#0624 art                 L1   | Location: Inside green mushroom house in Minish Woods' village. *FICKLE*
+#0625 art                 L2   | ---------
+#0626 art                 L1   | Location: Minish priest at Minish Village.
+#0627 art                 L2   | ---------
+#0628 art                 L1   | Location: Researcher in Minish Village's barrel house. *FICKLE*
+#0629 art                 L2   | ---------
+#0630 art                 L1   | Location: Inside barrel house. *FICKLE*
+#0631 art                 L2   | ---------
+#0632 art                 L1   | Location: Inside village's lakeside mushroom house.
+#0633 art                 L2   | ---------
+#0634 block   f=0  p=1  L2   ( 133) | Location: The elderly man at the Wind Tribe home. *NOTE: Is only available if you saved him earl
+#0635 art                 L6   | ----------------------------
+#0636 block   f=0  p=1  L6   ( 442) | Details: This is necessary to advance through the game. Just enter Hyrule Town from South Hyrule
+#0637 art                 L6   | ----------------------------
+#0638 block   f=0  p=1  L6   ( 406) | Details: Southwest of Castor Wilds are three Mysterious Statues. They each want to fuse gold Kin
+#0639 art                 L6   | ----------------------------
+#0640 block   f=0  p=1  L6   ( 438) | Details: After clearing the Temple of Droplets, the ghost of Gustaf, a previous king of Hyrule, 
+#0641 art                 L6   | ----------------------------
+#0642 block   f=0  p=1  L8   ( 580) | Details: Throughout the lower section of Cloud Tops are certain clouds that hold golden Kinstone
+#0643 art                 L6   | ----------------------------
+#0644 block   f=0  p=1  L3   ( 155) | Details: The Minish blacksmith at the mines nearby Cave of Flames. Do a Kinstone Fusion with him
+#0645 art                 L6   | ----------------------------
+#0646 block   f=0  p=1  L3   ( 158) | Details: This Minish can be found at Melari's Mines. West side in front of the exit toward Cave 
+#0647 art                 L6   | ----------------------------
+#0648 block   f=0  p=1  L3   ( 166) | Details: This Minish can be found at Melari's Mines, in the kitchen...which is the southeast roo
+#0649 art                 L6   | ----------------------------
+#0650 block   f=0  p=1  L3   ( 225) | Details: This Minish can be found at Melari's Mines, in front of the eastern room...the bedroom.
+#0651 art                 L6   | ----------------------------
+#0652 block   f=0  p=1  L3   ( 216) | Details: This Minish can be found at Melari's Mines, and is the left-most miner on the north sid
+#0653 art                 L6   | ----------------------------
+#0654 block   f=0  p=1  L4   ( 233) | Details: On the east side of Mt. Crenel, climb up to him and do a Kinstone Fusion! This is an im
+#0655 art                 L6   | ----------------------------
+#0656 block   f=0  p=1  L5   ( 335) | Details: After fusing with Eenie, go to Mt. Crenel and climb to the top via the large west-side 
+#0657 art                 L6   | ----------------------------
+#0658 block   f=0  p=1  L4   ( 292) | Details: On the west side of Mt. Crenel's Base, where you found a green Crenel Bean, is a small 
+#0659 art                 L6   | ----------------------------
+#0660 block   f=0  p=1  L4   ( 263) | Details: On the north side of Castor Wilds are two cave entrances. Taking the left one, you'll f
+#0661 art                 L6   | ----------------------------
+#0662 block   f=0  p=1  L5   ( 314) | Details: A Minish can be found in his home under a small hole pretty close to the Castor Wilds e
+#0663 art                 L6   | ----------------------------
+#0664 block   f=0  p=1  L3   ( 193) | Details: At the graveyard in Royal Valley, you'll find a pink-ish ghost there. Fuse with him and
+#0665 art                 L6   | ----------------------------
+#0666 block   f=0  p=1  L3   ( 193) | Details: You can do another fusion with the same Spookter at Royal Valley. Do this fusion and th
+#0667 art                 L6   | ----------------------------
+#0668 block   f=0  p=1  L2   ( 152) | Details: Dampé, the gravekeeper at Royal Valley, will want to fuse. Do the fusion and the grave 
+#0669 art                 L6   | ----------------------------
+#0670 block   f=0  p=1  L2   ( 125) | Details: Dampé will want to do another Kinstone Fusion. This one makes a hole form up in the Win
+#0671 art                 L6   | ----------------------------
+#0672 block   f=0  p=1  L4   ( 290) | Details: After doing Fusion #17 above, enter the tomb under that gravestone that moved to find G
+#0673 art                 L6   | ----------------------------
+#0674 block   f=0  p=1  L2   ( 133) | Details: Gina will want to do a second Kinstone Fusion unique to her. Doing this Fusion makes a 
+#0675 art                 L6   | ----------------------------
+#0676 block   f=0  p=1  L5   ( 367) | Details: Knuckle, Tingle's brother who's dressed in blue, can be found at Trilby Highlands. To r
+#0677 art                 L6   | ----------------------------
+#0678 block   f=0  p=1  L4   ( 276) | Details: After fusing with Eenie, go to Trilby Highlands. Right before walking to Mt. Crenel's B
+#0679 art                 L6   | ----------------------------
+#0680 block   f=0  p=1  L5   ( 343) | Details: To reach this Minish in his mushroom house, dig through the northwest dig spot in the w
+#0681 art                 L6   | ----------------------------
+#0682 block   f=0  p=1  L3   ( 219) | Details: Percy is the poet who is inside a tree by the grassy enclosed field of Trilby Highlands
+#0683 art                 L6   | ----------------------------
+#0684 art                 L2   | Details: On the southwest corner of Western Wood is a small area with a Minish
 #0685 art                 L6   | ----------------------------
-#0686 block   f=0  p=1  L3   ( 195) | Details: The farmer with the brown-colored hat over at the farm in Eastern Hills wants to fuse K
+#0686 block   f=0  p=1  L5   ( 374) | Details: At the garden, head to the east side to find a tree that sparkles when you're near it. 
 #0687 art                 L6   | ----------------------------
-#0688 block   f=0  p=1  L3   ( 217) | Details: After fusing with Eenie, dig through the spot in the wall right near him and uncover th
+#0688 block   f=0  p=1  L4   ( 311) | Details: Grimblade, the swordsman trainer, can be found at the southeast corner of Hyrule Castle
 #0689 art                 L6   | ----------------------------
-#0690 block   f=0  p=1  L3   ( 225) | Details: Head to the southwest corner of Eastern Hills. Over there, shrink using the stump and e
+#0690 block   f=0  p=1  L6   ( 389) | Details: On the east side of the area, you'll find a small vine connecting a lower part of groun
 #0691 art                 L6   | ----------------------------
-#0692 block   f=0  p=1  L4   ( 232) | Details: Up at Cloud Tops, the Wind Tribe girl named Hailey (is right by the entrance from Veil 
+#0692 block   f=0  p=1  L3   ( 221) | Details: Stranger, the guy in Hyrule Town that lives in the yellow-roofed house south of the Pos
 #0693 art                 L6   | ----------------------------
-#0694 block   f=0  p=1  L2   ( 149) | Details: The Wind Tribe woman named Gale, who lives up in the clouds, wants to fuse Kinstones. T
+#0694 block   f=0  p=1  L4   ( 295) | Details: The three Oracles, hailing from distant lands, have come to Hyrule to find a place to l
 #0695 art                 L6   | ----------------------------
-#0696 block   f=0  p=1  L2   ( 143) | Details: The Wind Tribe woman who is in the same room with Gregal wants to do a Kinstone Fusion.
+#0696 block   f=0  p=1  L9   ( 633) | Details: After fusing with either of the three Oracles at the inn to make the first house availa
 #0697 art                 L6   | ----------------------------
-#0698 block   f=0  p=1  L2   ( 150) | Details: Flurris, the rather plump-looking Wind Tribe woman, wants to do a Kinstone Fusion. This
+#0698 block   f=0  p=1  L3   ( 189) | Details: Fuse Kinstones with Farore after giving two of the Oracles homes, and this will make a 
 #0699 art                 L6   | ----------------------------
-#0700 block   f=0  p=1  L2   ( 102) | Details: Flurris has a second Kinstone Fusion. This one makes a tree restore itself in Western W
+#0700 block   f=0  p=1  L3   ( 184) | Details: Fuse Kinstones with Din after giving two of the Oracles homes, and this will make a Joy
 #0701 art                 L6   | ----------------------------
-#0702 block   f=0  p=1  L2   ( 156) | Details: Siroc, the elder who is at the top floor of the Wind Tribe home, has a Kinstone Fusion 
+#0702 block   f=0  p=1  L3   ( 188) | Details: Fuse Kinstones with Nayru after giving two of the Oracles homes, and this will make a J
 #0703 art                 L6   | ----------------------------
-#0704 block   f=0  p=1  L2   ( 105) | Details: Siroc has another Kinstone Fusion, and this one makes another chest available at Royal 
+#0704 block   f=0  p=1  L8   ( 548) | Details: The Postman moves around Hyrule Town constantly, so in order to catch him, you'll have 
 #0705 art                 L6   | ----------------------------
-#0706 block   f=0  p=1  L4   ( 291) | Details: David Jr., a supposed brother to Tingle, can be found up at Lake Hylia on the north sid
+#0706 block   f=0  p=1  L5   ( 336) | Details: Fuse with Candy, the little blonde girl at Hyrule Town. She usually seems to be found w
 #0707 art                 L6   | ----------------------------
-#0708 block   f=0  p=1  L3   ( 187) | Details: After his first Fusion, he will be available for this other Kinstone Fusion! This one, 
+#0708 block   f=0  p=1  L3   ( 198) | Details: Hagen is the mayor of Hyrule Town, usually found at his own home just next to the inn a
 #0709 art                 L6   | ----------------------------
-#0710 block   f=0  p=1  L5   ( 333) | Details: After fusing with Eenie, go to Lake Hylia and use the Roc's Cape to jump across islands
+#0710 block   f=0  p=1  L3   ( 230) | Details: Mama, the blonde-haired woman who loves to stay at the cafe, will want to do a Kinstone
 #0711 art                 L6   | ----------------------------
-#0712 block   f=0  p=1  L4   ( 257) | Details: This Forest Minish is found on a ledge in Lake Hylia. Only way to access it is to warp 
+#0712 block   f=0  p=1  L4   ( 239) | Details: Tina, the purple-dressed schoolteacher of Hyrule Town's school, has a Kinstone Fusion, 
 #0713 art                 L6   | ----------------------------
-#0714 block   f=0  p=1  L5   ( 357) | Details: On the southeast corner of Lake Hylia is a tree that you can ram into and reveal a stum
+#0714 block   f=0  p=1  L3   ( 230) | Details: Fuse with Librari (first found at Hyrule Town's library, but later moves to a mushroom 
 #0715 art                 L6   | ----------------------------
-#0716 block   f=0  p=1  L3   ( 211) | Details: Waveblade at his under-tree dojo on the southwest corner of Lake Hylia wants to fuse. D
+#0716 block   f=0  p=1  L2   ( 142) | Details: Link's grandfather Smith will eventually want to fuse Kinstones. By doing so, a chest a
 #0717 art                 L6   | ----------------------------
-#0718 block   f=0  p=1  L4   ( 262) | Details: Stockwell has his own home on the north side of Lake Hylia. Inside is his dog. To fuse,
+#0718 block   f=0  p=1  L2   ( 145) | Details: Smith will want to do another Kinstone Fusion sometime after the first one. Do this fus
 #0719 art                 L6   | ----------------------------
-#0720 block   f=0  p=1  L6   ( 398) | Details: After fusing with Eenie, enter Lake Hylia through the southeastern exit from Lon Lon Ra
+#0720 block   f=0  p=1  L5   ( 369) | Details: To reach this Forest Minish's home, you need the Pegasus Boots. Once you have those, he
 #0721 art                 L6   | ----------------------------
-#0722 block   f=0  p=1  L4   ( 259) | Details: This Business Scrub is inside a tree in Minish Woods, but in order to open that tree, y
+#0722 block   f=0  p=1  L4   ( 257) | Details: After a while, Tingle waits at a ledge in South Hyrule Field, reachable by using the Ca
 #0723 art                 L6   | ----------------------------
-#0724 block   f=0  p=1  L3   ( 234) | Details: After doing Fusion #13, a tree will open up in Minish Woods. Enter it to find a Busines
+#0724 block   f=0  p=1  L2   ( 145) | Details: After doing the first fusion with him, he'll want to do another Kinstone Fusion! This o
 #0725 art                 L6   | ----------------------------
-#0726 block   f=0  p=1  L3   ( 184) | Details: Belari, the Minish who gave you bombs, living in the mushroom house just outside Minish
+#0726 block   f=0  p=1  L5   ( 308) | Details: Ankle, Tingle's brother, can be found on top of a ledge in Lon Lon Ranch. To reach it, 
 #0727 art                 L6   | ----------------------------
-#0728 block   f=0  p=1  L3   ( 178) | Details: Gentari, the elder of Minish Woods, will eventually want to fuse Kinstones. Do so, and 
+#0728 block   f=0  p=1  L6   ( 409) | Details: There's a Goron punching a wall in a secluded alcove of Lon Lon Ranch. To get there, cu
 #0729 art                 L6   | ----------------------------
-#0730 block   f=0  p=1  L4   ( 253) | Details: This Forest Minish lives in the northeastern house in Minish Village, in the middle of 
-#0731 art                 L1   | *NOTE: He may want to do a Shared Kinstone Fusion first before doing this one.
-#0732 art                 L6   | ----------------------------
-#0733 block   f=0  p=1  L3   ( 206) | Details: The same Forest Minish for the Fusion above wants to do another Kinstone Fusion. This o
-#0734 art                 L1   | *NOTE: He may want to do a Shared Kinstone Fusion first before doing this one.
-#0735 art                 L7   | ----------------------------
-#0736 block   f=0  p=1  L7   ( 495) | Details: This is a shared fusion between three people. They can be fused with in any order. The 
-#0737 art                 L7   | ----------------------------
-#0738 block   f=0  p=1  L7   ( 499) | Details: This is a shared fusion between three people. They can be fused with in any order. The 
-#0739 art                 L7   | ----------------------------
-#0740 block   f=0  p=1  L7   ( 502) | Details: This is a shared fusion between three people. They can be fused with in any order. The 
-#0741 art                 L6   | ----------------------------
-#0742 block   f=0  p=1  L2   ( 116) | Details: After doing this Shared Fusion with someone, this will make a Golden Rope appear at Hyr
-#0743 art                 L6   | ----------------------------
-#0744 block   f=0  p=1  L2   ( 119) | Details: After doing this Shared Fusion with someone, a pond dries up in Hyrule Castle Garden, r
-#0745 art                 L6   | ----------------------------
-#0746 block   f=0  p=1  L2   ( 118) | Details: After doing this Shared Fusion with someone, a pond dries up in Hyrule Castle Garden, r
-#0747 art                 L6   | ----------------------------
-#0748 block   f=0  p=1  L2   (  94) | Details: After doing this Shared Fusion with someone, a chest appears in North Hyrule Field...
-#0749 art                 L6   | ----------------------------
-#0750 art                 L2   | Details: After doing this Shared Fusion with someone, a tree opens up at North
-#0751 art                 L6   | ----------------------------
-#0752 block   f=0  p=1  L2   ( 124) | Details: After doing this Shared Fusion with someone, a chest appears on the Minish road of the 
-#0753 art                 L6   | ----------------------------
-#0754 block   f=0  p=1  L2   (  94) | Details: After doing this Shared Fusion with someone, a chest appears at South Hyrule Field...
-#0755 art                 L6   | ----------------------------
-#0756 block   f=0  p=1  L2   ( 116) | Details: After doing this Shared Fusion with someone, a pond dries up at South Hyrule Field, rev
-#0757 art                 L6   | ----------------------------
-#0758 block   f=0  p=1  L3   ( 158) | Details: After doing this Shared Fusion with someone, a chest will appear at Lon Lon Ranch. In o
-#0759 art                 L6   | ----------------------------
-#0760 block   f=0  p=1  L2   ( 108) | Details: After doing this Shared Fusion with someone, a chest appears at the Minish road in Lon 
-#0761 art                 L6   | ----------------------------
-#0762 block   f=0  p=1  L2   (  99) | Details: After doing this Shared Fusion with someone, a Golden Rope will appear at Eastern Hills
-#0763 art                 L6   | ----------------------------
-#0764 block   f=0  p=1  L2   ( 102) | Details: After doing this Shared Fusion with someone, this will make a chest appear in Minish Wo
-#0765 art                 L6   | ----------------------------
-#0766 block   f=0  p=1  L2   ( 102) | Details: After doing this Shared Fusion with someone, this will make a chest appear in Minish Wo
-#0767 art                 L6   | ----------------------------
-#0768 block   f=0  p=1  L2   ( 101) | Details: After doing this Shared Fusion with someone, a Golden Octorok will appear in Minish Woo
-#0769 art                 L6   | ----------------------------
-#0770 art                 L2   | Details: After doing this Shared Fusion with someone, a chest appears in Minish
-#0771 art                 L6   | ----------------------------
-#0772 block   f=0  p=1  L2   ( 100) | Details: After doing this Shared Fusion with someone, a Minish-sized hole appears in Minish Wood
-#0773 art                 L6   | ----------------------------
-#0774 block   f=0  p=1  L2   ( 109) | Details: After doing this Shared Fusion with someone, a chest appears at the Minish road to Mini
-#0775 art                 L6   | ----------------------------
-#0776 art                 L2   | Details: After doing this Shared Fusion with someone, a chest appears in Minish
-#0777 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
-#0778 block   f=0  p=0  L2   ( 129) | This section details all sorts of items you can get in the game, from usable items, to equipment
-#0779 art                 L7   |   _____________________________
-#0780 art                 L5   | ----------------------------
-#0781 art                 L8   | ----------------------------
-#0782 art                 L6   | ----------------------------
-#0783 art                 L7   | ----------------------------
-#0784 art                 L11  | ----------------------------
-#0785 art                 L8   | ----------------------------
-#0786 art                 L8   | ----------------------------
-#0787 art                 L7   | ----------------------------
-#0788 art                 L6   | ----------------------------
-#0789 art                 L8   | ----------------------------
-#0790 art                 L7   | ----------------------------
-#0791 art                 L7   | ----------------------------
+#0730 block   f=0  p=1  L3   ( 200) | Details: After fusing with Eenie and all the Mysterious Walls around Hyrule, enter the Goron cav
+#0731 art                 L6   | ----------------------------
+#0732 block   f=0  p=1  L4   ( 274) | Details: The farmer with the tan-colored hat over at the farm in Eastern Hills wants to fuse Kin
+#0733 block   f=0  p=0  L4   ( 266) | *NOTE: Due to a glitch which I'm unsure has been fixed in subsequent releases or not, I advise y
+#0734 art                 L6   | ----------------------------
+#0735 block   f=0  p=1  L3   ( 195) | Details: The farmer with the brown-colored hat over at the farm in Eastern Hills wants to fuse K
+#0736 art                 L6   | ----------------------------
+#0737 block   f=0  p=1  L3   ( 217) | Details: After fusing with Eenie, dig through the spot in the wall right near him and uncover th
+#0738 art                 L6   | ----------------------------
+#0739 block   f=0  p=1  L3   ( 225) | Details: Head to the southwest corner of Eastern Hills. Over there, shrink using the stump and e
+#0740 art                 L6   | ----------------------------
+#0741 block   f=0  p=1  L4   ( 232) | Details: Up at Cloud Tops, the Wind Tribe girl named Hailey (is right by the entrance from Veil 
+#0742 art                 L6   | ----------------------------
+#0743 block   f=0  p=1  L2   ( 149) | Details: The Wind Tribe woman named Gale, who lives up in the clouds, wants to fuse Kinstones. T
+#0744 art                 L6   | ----------------------------
+#0745 block   f=0  p=1  L2   ( 143) | Details: The Wind Tribe woman who is in the same room with Gregal wants to do a Kinstone Fusion.
+#0746 art                 L6   | ----------------------------
+#0747 block   f=0  p=1  L2   ( 150) | Details: Flurris, the rather plump-looking Wind Tribe woman, wants to do a Kinstone Fusion. This
+#0748 art                 L6   | ----------------------------
+#0749 block   f=0  p=1  L2   ( 102) | Details: Flurris has a second Kinstone Fusion. This one makes a tree restore itself in Western W
+#0750 art                 L6   | ----------------------------
+#0751 block   f=0  p=1  L2   ( 156) | Details: Siroc, the elder who is at the top floor of the Wind Tribe home, has a Kinstone Fusion 
+#0752 art                 L6   | ----------------------------
+#0753 block   f=0  p=1  L2   ( 105) | Details: Siroc has another Kinstone Fusion, and this one makes another chest available at Royal 
+#0754 art                 L6   | ----------------------------
+#0755 block   f=0  p=1  L4   ( 291) | Details: David Jr., a supposed brother to Tingle, can be found up at Lake Hylia on the north sid
+#0756 art                 L6   | ----------------------------
+#0757 block   f=0  p=1  L3   ( 187) | Details: After his first Fusion, he will be available for this other Kinstone Fusion! This one, 
+#0758 art                 L6   | ----------------------------
+#0759 block   f=0  p=1  L5   ( 333) | Details: After fusing with Eenie, go to Lake Hylia and use the Roc's Cape to jump across islands
+#0760 art                 L6   | ----------------------------
+#0761 block   f=0  p=1  L4   ( 257) | Details: This Forest Minish is found on a ledge in Lake Hylia. Only way to access it is to warp 
+#0762 art                 L6   | ----------------------------
+#0763 block   f=0  p=1  L5   ( 357) | Details: On the southeast corner of Lake Hylia is a tree that you can ram into and reveal a stum
+#0764 art                 L6   | ----------------------------
+#0765 block   f=0  p=1  L3   ( 211) | Details: Waveblade at his under-tree dojo on the southwest corner of Lake Hylia wants to fuse. D
+#0766 art                 L6   | ----------------------------
+#0767 block   f=0  p=1  L4   ( 262) | Details: Stockwell has his own home on the north side of Lake Hylia. Inside is his dog. To fuse,
+#0768 art                 L6   | ----------------------------
+#0769 block   f=0  p=1  L6   ( 398) | Details: After fusing with Eenie, enter Lake Hylia through the southeastern exit from Lon Lon Ra
+#0770 art                 L6   | ----------------------------
+#0771 block   f=0  p=1  L4   ( 259) | Details: This Business Scrub is inside a tree in Minish Woods, but in order to open that tree, y
+#0772 art                 L6   | ----------------------------
+#0773 block   f=0  p=1  L3   ( 234) | Details: After doing Fusion #13, a tree will open up in Minish Woods. Enter it to find a Busines
+#0774 art                 L6   | ----------------------------
+#0775 block   f=0  p=1  L3   ( 184) | Details: Belari, the Minish who gave you bombs, living in the mushroom house just outside Minish
+#0776 art                 L6   | ----------------------------
+#0777 block   f=0  p=1  L3   ( 178) | Details: Gentari, the elder of Minish Woods, will eventually want to fuse Kinstones. Do so, and 
+#0778 art                 L6   | ----------------------------
+#0779 block   f=0  p=1  L4   ( 253) | Details: This Forest Minish lives in the northeastern house in Minish Village, in the middle of 
+#0780 art                 L1   | *NOTE: He may want to do a Shared Kinstone Fusion first before doing this one.
+#0781 art                 L6   | ----------------------------
+#0782 block   f=0  p=1  L3   ( 206) | Details: The same Forest Minish for the Fusion above wants to do another Kinstone Fusion. This o
+#0783 art                 L1   | *NOTE: He may want to do a Shared Kinstone Fusion first before doing this one.
+#0784 art                 L7   | ----------------------------
+#0785 block   f=0  p=1  L7   ( 495) | Details: This is a shared fusion between three people. They can be fused with in any order. The 
+#0786 art                 L7   | ----------------------------
+#0787 block   f=0  p=1  L7   ( 499) | Details: This is a shared fusion between three people. They can be fused with in any order. The 
+#0788 art                 L7   | ----------------------------
+#0789 block   f=0  p=1  L7   ( 502) | Details: This is a shared fusion between three people. They can be fused with in any order. The 
+#0790 art                 L6   | ----------------------------
+#0791 block   f=0  p=1  L2   ( 116) | Details: After doing this Shared Fusion with someone, this will make a Golden Rope appear at Hyr
 #0792 art                 L6   | ----------------------------
-#0793 art                 L10  | ----------------------------
-#0794 art                 L7   | ----------------------------
-#0795 art                 L10  | ----------------------------
+#0793 block   f=0  p=1  L2   ( 119) | Details: After doing this Shared Fusion with someone, a pond dries up in Hyrule Castle Garden, r
+#0794 art                 L6   | ----------------------------
+#0795 block   f=0  p=1  L2   ( 118) | Details: After doing this Shared Fusion with someone, a pond dries up in Hyrule Castle Garden, r
 #0796 art                 L6   | ----------------------------
-#0797 art                 L14  | ----------------------------
-#0798 art                 L8   | ----------------------------
-#0799 art                 L7   | ----------------------------
-#0800 art                 L11  | ----------------------------
-#0801 art                 L10  | ----------------------------
-#0802 art                 L7   |   _____________________________
-#0803 art                 L5   | ----------------------------
-#0804 art                 L5   | ----------------------------
-#0805 art                 L6   | ----------------------------
+#0797 block   f=0  p=1  L2   (  94) | Details: After doing this Shared Fusion with someone, a chest appears in North Hyrule Field...
+#0798 art                 L6   | ----------------------------
+#0799 art                 L2   | Details: After doing this Shared Fusion with someone, a tree opens up at North
+#0800 art                 L6   | ----------------------------
+#0801 block   f=0  p=1  L2   ( 124) | Details: After doing this Shared Fusion with someone, a chest appears on the Minish road of the 
+#0802 art                 L6   | ----------------------------
+#0803 block   f=0  p=1  L2   (  94) | Details: After doing this Shared Fusion with someone, a chest appears at South Hyrule Field...
+#0804 art                 L6   | ----------------------------
+#0805 block   f=0  p=1  L2   ( 116) | Details: After doing this Shared Fusion with someone, a pond dries up at South Hyrule Field, rev
 #0806 art                 L6   | ----------------------------
-#0807 art                 L7   | ----------------------------
-#0808 art                 L9   | ----------------------------
-#0809 art                 L9   | ----------------------------
-#0810 art                 L7   | ----------------------------
-#0811 art                 L6   | ----------------------------
-#0812 art                 L5   | ----------------------------
-#0813 art                 L5   | ----------------------------
-#0814 art                 L5   | ----------------------------
-#0815 art                 L6   | ----------------------------
-#0816 block   f=0  p=1  L2   ( 113) | - Tiger Scroll #1 is obtained from Swiftblade in Hyrule Town. Just visit his home after clearing
-#0817 block   f=0  p=1  L4   ( 259) | - Tiger Scroll #2 is obtained from Grimblade at Hyrule Castle Garden. After getting the Flame La
-#0818 block   f=0  p=1  L2   ( 103) | - Tiger Scroll #3 is obtained from Swiftblade in Hyrule Town. Visit him when you get the Pegasus
-#0819 block   f=0  p=1  L2   ( 143) | - Tiger Scroll #4 is obtained from Waveblade in Lake Hylia. Use the Flippers to swim over to the
-#0820 block   f=0  p=1  L2   ( 107) | - Tiger Scroll #5 is obtained from Swiftblade in Hyrule Town. Visit his home when you have the W
-#0821 block   f=0  p=1  L4   ( 273) | - Tiger Scroll #6 is obtained from Grayblade in Mt. Crenel. To open it, first get the White Swor
-#0822 block   f=0  p=1  L2   ( 106) | - Tiger Scroll #7 is obtained from Swiftblade in Hyrule Town. Visit his home when you have the R
-#0823 block   f=0  p=1  L4   ( 277) | - Tiger Scroll #8 is obtained from Swiftblade the First at Castor Wilds. On the west side of the
-#0824 art                 L5   | ----------------------------
-#0825 art                 L5   | ----------------------------
-#0826 art                 L9   | ----------------------------
-#0827 art                 L6   | ----------------------------
-#0828 art                 L6   | ----------------------------
-#0829 art                 L6   | ----------------------------
-#0830 art                 L9   | ----------------------------
-#0831 art                 L8   | ----------------------------
-#0832 art                 L8   | ----------------------------
-#0833 art                 L8   | ----------------------------
-#0834 art                 L6   | ----------------------------
-#0835 art                 L6   | ----------------------------
-#0836 art                 L6   | ----------------------------
+#0807 block   f=0  p=1  L3   ( 158) | Details: After doing this Shared Fusion with someone, a chest will appear at Lon Lon Ranch. In o
+#0808 art                 L6   | ----------------------------
+#0809 block   f=0  p=1  L2   ( 108) | Details: After doing this Shared Fusion with someone, a chest appears at the Minish road in Lon 
+#0810 art                 L6   | ----------------------------
+#0811 block   f=0  p=1  L2   (  99) | Details: After doing this Shared Fusion with someone, a Golden Rope will appear at Eastern Hills
+#0812 art                 L6   | ----------------------------
+#0813 block   f=0  p=1  L2   ( 102) | Details: After doing this Shared Fusion with someone, this will make a chest appear in Minish Wo
+#0814 art                 L6   | ----------------------------
+#0815 block   f=0  p=1  L2   ( 102) | Details: After doing this Shared Fusion with someone, this will make a chest appear in Minish Wo
+#0816 art                 L6   | ----------------------------
+#0817 block   f=0  p=1  L2   ( 101) | Details: After doing this Shared Fusion with someone, a Golden Octorok will appear in Minish Woo
+#0818 art                 L6   | ----------------------------
+#0819 art                 L2   | Details: After doing this Shared Fusion with someone, a chest appears in Minish
+#0820 art                 L6   | ----------------------------
+#0821 block   f=0  p=1  L2   ( 100) | Details: After doing this Shared Fusion with someone, a Minish-sized hole appears in Minish Wood
+#0822 art                 L6   | ----------------------------
+#0823 block   f=0  p=1  L2   ( 109) | Details: After doing this Shared Fusion with someone, a chest appears at the Minish road to Mini
+#0824 art                 L6   | ----------------------------
+#0825 art                 L2   | Details: After doing this Shared Fusion with someone, a chest appears in Minish
+#0826 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
+#0827 block   f=0  p=0  L2   ( 129) | This section details all sorts of items you can get in the game, from usable items, to equipment
+#0828 art                 L7   |   _____________________________
+#0829 art                 L5   | ----------------------------
+#0830 art                 L8   | ----------------------------
+#0831 art                 L6   | ----------------------------
+#0832 art                 L7   | ----------------------------
+#0833 art                 L11  | ----------------------------
+#0834 art                 L8   | ----------------------------
+#0835 art                 L8   | ----------------------------
+#0836 art                 L7   | ----------------------------
 #0837 art                 L6   | ----------------------------
-#0838 art                 L6   | ----------------------------
-#0839 art                 L6   | ----------------------------
+#0838 art                 L8   | ----------------------------
+#0839 art                 L7   | ----------------------------
 #0840 art                 L7   | ----------------------------
-#0841 art                 L7   | ----------------------------
-#0842 art                 L5   |   _____________________________
-#0843 art                 L10  | ----------------------------
-#0844 art                 L5   | ----------------------------
-#0845 art                 L7   | ----------------------------
-#0846 art                 L5   | ----------------------------
-#0847 art                 L7   | ----------------------------
-#0848 art                 L8   | ----------------------------
-#0849 art                 L5   | ----------------------------
-#0850 art                 L5   | ----------------------------
-#0851 art                 L7   | ----------------------------
-#0852 art                 L9   | ----------------------------
-#0853 art                 L7   | ----------------------------
+#0841 art                 L6   | ----------------------------
+#0842 art                 L10  | ----------------------------
+#0843 art                 L7   | ----------------------------
+#0844 art                 L10  | ----------------------------
+#0845 art                 L6   | ----------------------------
+#0846 art                 L14  | ----------------------------
+#0847 art                 L8   | ----------------------------
+#0848 art                 L7   | ----------------------------
+#0849 art                 L11  | ----------------------------
+#0850 art                 L10  | ----------------------------
+#0851 art                 L7   |   _____________________________
+#0852 art                 L5   | ----------------------------
+#0853 art                 L5   | ----------------------------
 #0854 art                 L6   | ----------------------------
-#0855 art                 L5   | ----------------------------
-#0856 art                 L8   | ----------------------------
+#0855 art                 L6   | ----------------------------
+#0856 art                 L7   | ----------------------------
 #0857 art                 L9   | ----------------------------
-#0858 art                 L8   |   _____________________________
-#0859 art                 L5   | ----------------------------
-#0860 art                 L4   | ----------------------------
-#0861 art                 L6   | ----------------------------
-#0862 art                 L4   | ----------------------------
-#0863 art                 L7   |   _____________________________
-#0864 art                 L5   | ----------------------------
-#0865 art                 L5   | ----------------------------
-#0866 art                 L5   | ----------------------------
-#0867 art                 L7   | ----------------------------
-#0868 art                 L5   | ----------------------------
-#0869 art                 L7   | ----------------------------
-#0870 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
-#0871 block   f=0  p=0  L11  ( 832) | In the southwest corner of Hyrule Town is a tree. Inside is Carlov, the figurine maker. He makes
-#0872 block   f=0  p=0  L8   ( 545) | Note that some figurines will not show up unless you've seen the person or killed the enemy, or 
+#0858 art                 L9   | ----------------------------
+#0859 art                 L7   | ----------------------------
+#0860 art                 L6   | ----------------------------
+#0861 art                 L5   | ----------------------------
+#0862 art                 L5   | ----------------------------
+#0863 art                 L5   | ----------------------------
+#0864 art                 L6   | ----------------------------
+#0865 block   f=0  p=1  L2   ( 113) | - Tiger Scroll #1 is obtained from Swiftblade in Hyrule Town. Just visit his home after clearing
+#0866 block   f=0  p=1  L4   ( 259) | - Tiger Scroll #2 is obtained from Grimblade at Hyrule Castle Garden. After getting the Flame La
+#0867 block   f=0  p=1  L2   ( 103) | - Tiger Scroll #3 is obtained from Swiftblade in Hyrule Town. Visit him when you get the Pegasus
+#0868 block   f=0  p=1  L2   ( 143) | - Tiger Scroll #4 is obtained from Waveblade in Lake Hylia. Use the Flippers to swim over to the
+#0869 block   f=0  p=1  L2   ( 107) | - Tiger Scroll #5 is obtained from Swiftblade in Hyrule Town. Visit his home when you have the W
+#0870 block   f=0  p=1  L4   ( 273) | - Tiger Scroll #6 is obtained from Grayblade in Mt. Crenel. To open it, first get the White Swor
+#0871 block   f=0  p=1  L2   ( 106) | - Tiger Scroll #7 is obtained from Swiftblade in Hyrule Town. Visit his home when you have the R
+#0872 block   f=0  p=1  L4   ( 277) | - Tiger Scroll #8 is obtained from Swiftblade the First at Castor Wilds. On the west side of the
 #0873 art                 L5   | ----------------------------
 #0874 art                 L5   | ----------------------------
-#0875 art                 L5   | ----------------------------
-#0876 art                 L5   | ----------------------------
+#0875 art                 L9   | ----------------------------
+#0876 art                 L6   | ----------------------------
 #0877 art                 L6   | ----------------------------
 #0878 art                 L6   | ----------------------------
-#0879 art                 L5   | ----------------------------
-#0880 art                 L6   | ----------------------------
-#0881 art                 L6   | ----------------------------
-#0882 art                 L5   | ----------------------------
+#0879 art                 L9   | ----------------------------
+#0880 art                 L8   | ----------------------------
+#0881 art                 L8   | ----------------------------
+#0882 art                 L8   | ----------------------------
 #0883 art                 L6   | ----------------------------
 #0884 art                 L6   | ----------------------------
 #0885 art                 L6   | ----------------------------
-#0886 art                 L5   | ----------------------------
-#0887 art                 L5   | ----------------------------
+#0886 art                 L6   | ----------------------------
+#0887 art                 L6   | ----------------------------
 #0888 art                 L6   | ----------------------------
-#0889 art                 L5   | ----------------------------
-#0890 art                 L5   | ----------------------------
-#0891 art                 L5   | ----------------------------
-#0892 art                 L6   | ----------------------------
+#0889 art                 L7   | ----------------------------
+#0890 art                 L7   | ----------------------------
+#0891 art                 L5   |   _____________________________
+#0892 art                 L10  | ----------------------------
 #0893 art                 L5   | ----------------------------
-#0894 art                 L5   | ----------------------------
+#0894 art                 L7   | ----------------------------
 #0895 art                 L5   | ----------------------------
-#0896 art                 L5   | ----------------------------
-#0897 art                 L5   | ----------------------------
+#0896 art                 L7   | ----------------------------
+#0897 art                 L8   | ----------------------------
 #0898 art                 L5   | ----------------------------
-#0899 art                 L6   | ----------------------------
-#0900 art                 L6   | ----------------------------
-#0901 art                 L5   | ----------------------------
-#0902 art                 L5   | ----------------------------
-#0903 art                 L5   | ----------------------------
+#0899 art                 L5   | ----------------------------
+#0900 art                 L7   | ----------------------------
+#0901 art                 L9   | ----------------------------
+#0902 art                 L7   | ----------------------------
+#0903 art                 L6   | ----------------------------
 #0904 art                 L5   | ----------------------------
-#0905 art                 L5   | ----------------------------
-#0906 art                 L6   | ----------------------------
-#0907 art                 L5   | ----------------------------
+#0905 art                 L8   | ----------------------------
+#0906 art                 L9   | ----------------------------
+#0907 art                 L8   |   _____________________________
 #0908 art                 L5   | ----------------------------
-#0909 art                 L5   | ----------------------------
-#0910 art                 L5   | ----------------------------
-#0911 art                 L6   | ----------------------------
-#0912 art                 L6   | ----------------------------
-#0913 art                 L6   | ----------------------------
-#0914 art                 L6   | ----------------------------
-#0915 art                 L6   | ----------------------------
-#0916 art                 L6   | ----------------------------
+#0909 art                 L4   | ----------------------------
+#0910 art                 L6   | ----------------------------
+#0911 art                 L4   | ----------------------------
+#0912 art                 L7   |   _____________________________
+#0913 art                 L5   | ----------------------------
+#0914 art                 L5   | ----------------------------
+#0915 art                 L5   | ----------------------------
+#0916 art                 L7   | ----------------------------
 #0917 art                 L5   | ----------------------------
-#0918 art                 L5   | ----------------------------
-#0919 art                 L5   | ----------------------------
-#0920 art                 L5   | ----------------------------
-#0921 art                 L5   | ----------------------------
+#0918 art                 L7   | ----------------------------
+#0919 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
+#0920 block   f=0  p=0  L11  ( 832) | In the southwest corner of Hyrule Town is a tree. Inside is Carlov, the figurine maker. He makes
+#0921 block   f=0  p=0  L8   ( 545) | Note that some figurines will not show up unless you've seen the person or killed the enemy, or 
 #0922 art                 L5   | ----------------------------
 #0923 art                 L5   | ----------------------------
 #0924 art                 L5   | ----------------------------
 #0925 art                 L5   | ----------------------------
 #0926 art                 L6   | ----------------------------
-#0927 art                 L5   | ----------------------------
+#0927 art                 L6   | ----------------------------
 #0928 art                 L5   | ----------------------------
-#0929 art                 L5   | ----------------------------
-#0930 art                 L5   | ----------------------------
+#0929 art                 L6   | ----------------------------
+#0930 art                 L6   | ----------------------------
 #0931 art                 L5   | ----------------------------
-#0932 art                 L5   | ----------------------------
-#0933 art                 L5   | ----------------------------
-#0934 art                 L5   | ----------------------------
+#0932 art                 L6   | ----------------------------
+#0933 art                 L6   | ----------------------------
+#0934 art                 L6   | ----------------------------
 #0935 art                 L5   | ----------------------------
-#0936 art                 L7   | ----------------------------
-#0937 art                 L5   | ----------------------------
+#0936 art                 L5   | ----------------------------
+#0937 art                 L6   | ----------------------------
 #0938 art                 L5   | ----------------------------
-#0939 art                 L6   | ----------------------------
+#0939 art                 L5   | ----------------------------
 #0940 art                 L5   | ----------------------------
 #0941 art                 L6   | ----------------------------
-#0942 art                 L6   | ----------------------------
+#0942 art                 L5   | ----------------------------
 #0943 art                 L5   | ----------------------------
 #0944 art                 L5   | ----------------------------
 #0945 art                 L5   | ----------------------------
 #0946 art                 L5   | ----------------------------
 #0947 art                 L5   | ----------------------------
 #0948 art                 L6   | ----------------------------
-#0949 art                 L5   | ----------------------------
-#0950 art                 L6   | ----------------------------
+#0949 art                 L6   | ----------------------------
+#0950 art                 L5   | ----------------------------
 #0951 art                 L5   | ----------------------------
 #0952 art                 L5   | ----------------------------
 #0953 art                 L5   | ----------------------------
 #0954 art                 L5   | ----------------------------
-#0955 art                 L5   | ----------------------------
-#0956 art                 L6   | ----------------------------
+#0955 art                 L6   | ----------------------------
+#0956 art                 L5   | ----------------------------
 #0957 art                 L5   | ----------------------------
 #0958 art                 L5   | ----------------------------
 #0959 art                 L5   | ----------------------------
-#0960 art                 L5   | ----------------------------
-#0961 art                 L5   | ----------------------------
-#0962 art                 L5   | ----------------------------
-#0963 art                 L5   | ----------------------------
-#0964 art                 L5   | ----------------------------
-#0965 art                 L5   | ----------------------------
+#0960 art                 L6   | ----------------------------
+#0961 art                 L6   | ----------------------------
+#0962 art                 L6   | ----------------------------
+#0963 art                 L6   | ----------------------------
+#0964 art                 L6   | ----------------------------
+#0965 art                 L6   | ----------------------------
 #0966 art                 L5   | ----------------------------
-#0967 art                 L6   | ----------------------------
+#0967 art                 L5   | ----------------------------
 #0968 art                 L5   | ----------------------------
 #0969 art                 L5   | ----------------------------
 #0970 art                 L5   | ----------------------------
@@ -985,105 +985,154 @@ blocks: 1087  art: 784  prose-block: 272  prose-hanging: 31
 #0982 art                 L5   | ----------------------------
 #0983 art                 L5   | ----------------------------
 #0984 art                 L5   | ----------------------------
-#0985 art                 L5   | ----------------------------
+#0985 art                 L7   | ----------------------------
 #0986 art                 L5   | ----------------------------
 #0987 art                 L5   | ----------------------------
-#0988 art                 L5   | ----------------------------
+#0988 art                 L6   | ----------------------------
 #0989 art                 L5   | ----------------------------
-#0990 art                 L5   | ----------------------------
-#0991 art                 L5   | ----------------------------
+#0990 art                 L6   | ----------------------------
+#0991 art                 L6   | ----------------------------
 #0992 art                 L5   | ----------------------------
-#0993 art                 L6   | ----------------------------
-#0994 art                 L6   | ----------------------------
+#0993 art                 L5   | ----------------------------
+#0994 art                 L5   | ----------------------------
 #0995 art                 L5   | ----------------------------
 #0996 art                 L5   | ----------------------------
-#0997 art                 L5   | ----------------------------
+#0997 art                 L6   | ----------------------------
 #0998 art                 L5   | ----------------------------
-#0999 art                 L5   | ----------------------------
-#1000 art                 L6   | ----------------------------
+#0999 art                 L6   | ----------------------------
+#1000 art                 L5   | ----------------------------
 #1001 art                 L5   | ----------------------------
-#1002 art                 L6   | ----------------------------
-#1003 art                 L6   | ----------------------------
-#1004 art                 L6   | ----------------------------
-#1005 art                 L5   | ----------------------------
+#1002 art                 L5   | ----------------------------
+#1003 art                 L5   | ----------------------------
+#1004 art                 L5   | ----------------------------
+#1005 art                 L6   | ----------------------------
 #1006 art                 L5   | ----------------------------
 #1007 art                 L5   | ----------------------------
-#1008 art                 L6   | ----------------------------
-#1009 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
-#1010 block   f=0  p=0  L2   ( 154) | This is a list of enemies in the game. Pretty basic. Seems kinda redundant having this when ther
-#1011 art                 L7   | ----------------------------
-#1012 art                 L8   | ----------------------------
-#1013 art                 L7   | ----------------------------
-#1014 art                 L7   | ----------------------------
-#1015 art                 L8   | ----------------------------
-#1016 art                 L7   | ----------------------------
-#1017 art                 L6   | ----------------------------
-#1018 art                 L6   | ----------------------------
-#1019 art                 L6   | ----------------------------
-#1020 art                 L12  | ----------------------------
-#1021 art                 L7   | ----------------------------
-#1022 art                 L6   | ----------------------------
-#1023 art                 L10  | ----------------------------
-#1024 art                 L7   | ----------------------------
-#1025 art                 L6   | ----------------------------
-#1026 art                 L6   | ----------------------------
-#1027 art                 L7   | ----------------------------
-#1028 art                 L7   | ----------------------------
-#1029 art                 L6   | ----------------------------
-#1030 art                 L6   | ----------------------------
+#1008 art                 L5   | ----------------------------
+#1009 art                 L5   | ----------------------------
+#1010 art                 L5   | ----------------------------
+#1011 art                 L5   | ----------------------------
+#1012 art                 L5   | ----------------------------
+#1013 art                 L5   | ----------------------------
+#1014 art                 L5   | ----------------------------
+#1015 art                 L5   | ----------------------------
+#1016 art                 L6   | ----------------------------
+#1017 art                 L5   | ----------------------------
+#1018 art                 L5   | ----------------------------
+#1019 art                 L5   | ----------------------------
+#1020 art                 L5   | ----------------------------
+#1021 art                 L5   | ----------------------------
+#1022 art                 L5   | ----------------------------
+#1023 art                 L5   | ----------------------------
+#1024 art                 L6   | ----------------------------
+#1025 art                 L5   | ----------------------------
+#1026 art                 L5   | ----------------------------
+#1027 art                 L5   | ----------------------------
+#1028 art                 L5   | ----------------------------
+#1029 art                 L5   | ----------------------------
+#1030 art                 L5   | ----------------------------
 #1031 art                 L5   | ----------------------------
-#1032 art                 L6   | ----------------------------
-#1033 art                 L6   | ----------------------------
-#1034 art                 L8   | ----------------------------
-#1035 art                 L7   | ----------------------------
-#1036 art                 L8   | ----------------------------
-#1037 art                 L6   | ----------------------------
-#1038 art                 L7   | ----------------------------
-#1039 art                 L6   | ----------------------------
-#1040 art                 L8   | ----------------------------
-#1041 art                 L7   | ----------------------------
-#1042 art                 L7   | ----------------------------
+#1032 art                 L5   | ----------------------------
+#1033 art                 L5   | ----------------------------
+#1034 art                 L5   | ----------------------------
+#1035 art                 L5   | ----------------------------
+#1036 art                 L5   | ----------------------------
+#1037 art                 L5   | ----------------------------
+#1038 art                 L5   | ----------------------------
+#1039 art                 L5   | ----------------------------
+#1040 art                 L5   | ----------------------------
+#1041 art                 L5   | ----------------------------
+#1042 art                 L6   | ----------------------------
 #1043 art                 L6   | ----------------------------
-#1044 art                 L6   | ----------------------------
-#1045 art                 L7   | ----------------------------
-#1046 art                 L8   | ----------------------------
-#1047 art                 L7   | ----------------------------
-#1048 art                 L7   | ----------------------------
-#1049 art                 L7   | ----------------------------
-#1050 art                 L8   | ----------------------------
-#1051 art                 L7   | ----------------------------
-#1052 art                 L9   | ----------------------------
-#1053 art                 L8   | ----------------------------
-#1054 art                 L6   | ----------------------------
-#1055 art                 L9   | ----------------------------
-#1056 art                 L7   | ----------------------------
-#1057 art                 L8   | ----------------------------
-#1058 art                 L10  | ----------------------------
-#1059 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
-#1060 block   f=0  p=0  L2   ( 117) | This lists bosses in chronological order, found at the end of dungeons, and details which dungeo
-#1061 art                 L4   | ----------------------------
-#1062 block   f=0  p=0  L7   ( 528) | To fight this normal-sized ChuChu turned giant because of your size, you have to suck away the g
-#1063 art                 L4   | ----------------------------
-#1064 block   f=0  p=0  L13  ( 993) | The boss will come up from the lava and start spitting fireballs at you, which leave fires out t
-#1065 art                 L4   | ----------------------------
-#1066 block   f=0  p=0  L9   ( 660) | A head boss with hands. Certainly seen a lot of those in Nintendo games. Anyway, this guardian b
-#1067 block   f=0  p=0  L6   ( 390) | It will get faster and harder to hit the eye-palms the more damage is done, and it can also poun
-#1068 art                 L4   | ----------------------------
-#1069 block   f=0  p=0  L10  ( 751) | A normal Octorok, but turned deadly when Minish-sized. This Octorok starts attacking by spitting
-#1070 block   f=0  p=0  L7   ( 513) | Repeat the process with deflecting its rocks then dashing behind it to light its flower a few mo
-#1071 art                 L4   | ----------------------------
-#1072 block   f=0  p=0  L10  ( 727) | You'll get dropped onto a male (blue) Gyorg, and the female (red) will come up. Jump on her. Som
-#1073 block   f=0  p=0  L5   ( 351) | You'll get back on the female, so attack her eyes while dodging the shots from the male, then ho
-#1074 art                 L4   | ----------------------------
-#1075 block   f=0  p=0  L13  ( 956) | Vaati transforms into a tall, demonic sorceror, with mini eyes circling around him, similar to a
-#1076 art                 L4   | ----------------------------
-#1077 block   f=0  p=0  L11  ( 843) | Vaati is no longer recognizable...he's now a giant, dark, demonic eye. Vaati's attacks at this p
-#1078 art                 L4   | ----------------------------
-#1079 block   f=0  p=0  L10  ( 712) | A giant demonic eye with arms...he attacks by moving around and swiping his arms, shooting elect
-#1080 block   f=0  p=0  L6   ( 394) | Now to do that to the other arm. Wait for him to get his other arm to attack, swing the Cane of 
-#1081 block   f=0  p=0  L8   ( 597) | Now that both arms are gone, the four small eyes in front of Vaati will open up. Split yourself 
-#1082 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
-#1083 block   f=0  p=1  L2   ( 152) | Nintendo - For creating a wonderful series and making this nice addition to the series. This may
-#1084 art                 L1   | Zelda Wiki - For helping me with various info on enemies and bosses.
-#1085 art                 L2   | You - For reading these and sending your support. It encourages me to make
-#1086 block   f=0  p=0  L3   ( 225) | Short credits, but eh. I will put people in the credits as time goes on. Hope you enjoyed this g
+#1044 art                 L5   | ----------------------------
+#1045 art                 L5   | ----------------------------
+#1046 art                 L5   | ----------------------------
+#1047 art                 L5   | ----------------------------
+#1048 art                 L5   | ----------------------------
+#1049 art                 L6   | ----------------------------
+#1050 art                 L5   | ----------------------------
+#1051 art                 L6   | ----------------------------
+#1052 art                 L6   | ----------------------------
+#1053 art                 L6   | ----------------------------
+#1054 art                 L5   | ----------------------------
+#1055 art                 L5   | ----------------------------
+#1056 art                 L5   | ----------------------------
+#1057 art                 L6   | ----------------------------
+#1058 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
+#1059 block   f=0  p=0  L2   ( 154) | This is a list of enemies in the game. Pretty basic. Seems kinda redundant having this when ther
+#1060 art                 L7   | ----------------------------
+#1061 art                 L8   | ----------------------------
+#1062 art                 L7   | ----------------------------
+#1063 art                 L7   | ----------------------------
+#1064 art                 L8   | ----------------------------
+#1065 art                 L7   | ----------------------------
+#1066 art                 L6   | ----------------------------
+#1067 art                 L6   | ----------------------------
+#1068 art                 L6   | ----------------------------
+#1069 art                 L12  | ----------------------------
+#1070 art                 L7   | ----------------------------
+#1071 art                 L6   | ----------------------------
+#1072 art                 L10  | ----------------------------
+#1073 art                 L7   | ----------------------------
+#1074 art                 L6   | ----------------------------
+#1075 art                 L6   | ----------------------------
+#1076 art                 L7   | ----------------------------
+#1077 art                 L7   | ----------------------------
+#1078 art                 L6   | ----------------------------
+#1079 art                 L6   | ----------------------------
+#1080 art                 L5   | ----------------------------
+#1081 art                 L6   | ----------------------------
+#1082 art                 L6   | ----------------------------
+#1083 art                 L8   | ----------------------------
+#1084 art                 L7   | ----------------------------
+#1085 art                 L8   | ----------------------------
+#1086 art                 L6   | ----------------------------
+#1087 art                 L7   | ----------------------------
+#1088 art                 L6   | ----------------------------
+#1089 art                 L8   | ----------------------------
+#1090 art                 L7   | ----------------------------
+#1091 art                 L7   | ----------------------------
+#1092 art                 L6   | ----------------------------
+#1093 art                 L6   | ----------------------------
+#1094 art                 L7   | ----------------------------
+#1095 art                 L8   | ----------------------------
+#1096 art                 L7   | ----------------------------
+#1097 art                 L7   | ----------------------------
+#1098 art                 L7   | ----------------------------
+#1099 art                 L8   | ----------------------------
+#1100 art                 L7   | ----------------------------
+#1101 art                 L9   | ----------------------------
+#1102 art                 L8   | ----------------------------
+#1103 art                 L6   | ----------------------------
+#1104 art                 L9   | ----------------------------
+#1105 art                 L7   | ----------------------------
+#1106 art                 L8   | ----------------------------
+#1107 art                 L10  | ----------------------------
+#1108 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
+#1109 block   f=0  p=0  L2   ( 117) | This lists bosses in chronological order, found at the end of dungeons, and details which dungeo
+#1110 art                 L4   | ----------------------------
+#1111 block   f=0  p=0  L7   ( 528) | To fight this normal-sized ChuChu turned giant because of your size, you have to suck away the g
+#1112 art                 L4   | ----------------------------
+#1113 block   f=0  p=0  L13  ( 993) | The boss will come up from the lava and start spitting fireballs at you, which leave fires out t
+#1114 art                 L4   | ----------------------------
+#1115 block   f=0  p=0  L9   ( 660) | A head boss with hands. Certainly seen a lot of those in Nintendo games. Anyway, this guardian b
+#1116 block   f=0  p=0  L6   ( 390) | It will get faster and harder to hit the eye-palms the more damage is done, and it can also poun
+#1117 art                 L4   | ----------------------------
+#1118 block   f=0  p=0  L10  ( 751) | A normal Octorok, but turned deadly when Minish-sized. This Octorok starts attacking by spitting
+#1119 block   f=0  p=0  L7   ( 513) | Repeat the process with deflecting its rocks then dashing behind it to light its flower a few mo
+#1120 art                 L4   | ----------------------------
+#1121 block   f=0  p=0  L10  ( 727) | You'll get dropped onto a male (blue) Gyorg, and the female (red) will come up. Jump on her. Som
+#1122 block   f=0  p=0  L5   ( 351) | You'll get back on the female, so attack her eyes while dodging the shots from the male, then ho
+#1123 art                 L4   | ----------------------------
+#1124 block   f=0  p=0  L13  ( 956) | Vaati transforms into a tall, demonic sorceror, with mini eyes circling around him, similar to a
+#1125 art                 L4   | ----------------------------
+#1126 block   f=0  p=0  L11  ( 843) | Vaati is no longer recognizable...he's now a giant, dark, demonic eye. Vaati's attacks at this p
+#1127 art                 L4   | ----------------------------
+#1128 block   f=0  p=0  L10  ( 712) | A giant demonic eye with arms...he attacks by moving around and swiping his arms, shooting elect
+#1129 block   f=0  p=0  L6   ( 394) | Now to do that to the other arm. Wait for him to get his other arm to attack, swing the Cane of 
+#1130 block   f=0  p=0  L8   ( 597) | Now that both arms are gone, the four small eyes in front of Vaati will open up. Split yourself 
+#1131 art                 L7   |                    |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
+#1132 block   f=0  p=1  L2   ( 152) | Nintendo - For creating a wonderful series and making this nice addition to the series. This may
+#1133 art                 L1   | Zelda Wiki - For helping me with various info on enemies and bosses.
+#1134 art                 L2   | You - For reading these and sending your support. It encourages me to make
+#1135 block   f=0  p=0  L3   ( 225) | Short credits, but eh. I will put people in the credits as time goes on. Hope you enjoyed this g

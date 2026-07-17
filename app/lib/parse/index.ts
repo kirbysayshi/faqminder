@@ -116,6 +116,28 @@ function detectHanging(lines: string[], firstIndent: number): number | null {
   return hang;
 }
 
+/**
+ * FAQs often run a paragraph straight into a diagram with no blank line between:
+ *
+ *     2 menus will appear: one in the upper left-hand corner and one at the...
+ *      _____       ______
+ *     |-----COMMAND------|
+ *
+ * Blank lines alone would make that one block, and the box's borders would drag
+ * the paragraph down with them into `art`. So a run is cut at its FIRST decorative
+ * line. Only the first — everything from there on stays a single block, so a box's
+ * interior can never be split apart or mistaken for prose.
+ */
+function splitAtArt(lines: string[]): string[][] {
+  const first = lines.findIndex(isDecorative);
+  if (first <= 0) return [lines]; // all art, or no decoration at all
+  const head = lines.slice(0, first);
+  // Only split when it buys something: if the head isn't reflowable prose the run
+  // is art either way, and cutting it would just fragment a banner for nothing.
+  if (classify(head).kind !== "prose") return [lines];
+  return [head, lines.slice(first)];
+}
+
 function classify(lines: string[]): { kind: "art" } | { kind: "prose"; reflow: ReflowSpec } {
   const ART = { kind: "art" } as const;
   if (lines.length < 2) return ART;
@@ -196,16 +218,23 @@ export function parseDocument(text: string): ParsedDoc {
       buf.push(lines[i]!);
       i++;
     }
-    const c = classify(buf);
-    blocks.push({
-      id: id++,
-      kind: c.kind,
-      lines: buf,
-      startLine,
-      gapBefore: blank,
-      indent: commonIndent(buf),
-      ...(c.kind === "prose" ? { reflow: c.reflow } : {}),
-    });
+
+    let offset = 0;
+    for (const segment of splitAtArt(buf)) {
+      const c = classify(segment);
+      blocks.push({
+        id: id++,
+        kind: c.kind,
+        lines: segment,
+        startLine: startLine + offset,
+        // Only the run's first segment gets the blank-line gap; a segment that
+        // continues the same run must butt right up against the previous one.
+        gapBefore: offset === 0 ? blank : 0,
+        indent: commonIndent(segment),
+        ...(c.kind === "prose" ? { reflow: c.reflow } : {}),
+      });
+      offset += segment.length;
+    }
   }
 
   return { blocks, lineCount: lines.length };

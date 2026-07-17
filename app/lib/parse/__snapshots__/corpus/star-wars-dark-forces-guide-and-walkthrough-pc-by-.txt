@@ -1,4 +1,4 @@
-blocks: 492  art: 282  prose-block: 207  prose-hanging: 3
+blocks: 493  art: 282  prose-block: 208  prose-hanging: 3
 --------------------------------------------------------------------------------
 #0000 art                 L23  |    ___STAR______________________________________________________________
 #0001 art                 L4   |                          STAR WARS: DARK FORCES
@@ -409,86 +409,87 @@ blocks: 492  art: 282  prose-block: 207  prose-hanging: 3
 #0406 block   f=0  p=0  L3   ( 167) | SECRET 5: In the alcove, open a secret door at (-442/64.0/0422). Follow the passageway, then run
 #0407 block   f=0  p=0  L3   ( 165) | Jump down; take elevator at (-507/33.0/0490) up. At (-483/64.0/0557) point yourself northeast; r
 #0408 block   f=0  p=0  L13  ( 916) | Run and jump across to the east side. Ride along the conveyor. Run and jump across to the west s
-#0409 art                 L5   | Jump down. Head east and south. You'll see a row at five red switches at
-#0410 block   f=0  p=0  L2   ( 138) | This should work: hit the leftmost switch 4 times, the next one once, the next four times, the n
-#0411 block   f=0  p=0  L3   ( 211) | Go up elevator at (-552/16.0/-048) and thru newly opened doorway at (-534/64.0/-078); head south
-#0412 block   f=0  p=0  L6   ( 404) | Get into elevator and hit switch at (-529/64.0/-271) to go down. Go to the southwest hangar bay 
-#0413 art                 L3   | If you survive, go into the northeast hangar bay and open door at
-#0414 art                 L7   | ===========================
-#0415 art                 L8   | 8.1.1 Does DF induce motion sickness?
-#0416 art                 L8   | 8.2 Who are the people behind DF?
-#0417 art                 L6   | 8.3 Has George Lucas provided any input to DF?
-#0418 block   f=0  p=0  L6   ( 396) | In fact, Lucas appeared on CNN's _Future Watch_ show on the weekend of March 18/19 talking about
-#0419 art                 L7   | 8.4 What is the name of Kyle's dropship?
-#0420 art                 L11  | 8.5 What happened to the Imperial-class Star Destroyer Mission?
-#0421 art                 L6   | 8.6 Is there a strategy guide?
-#0422 art                 L11  | Should you buy this book?  Here's a checklist.  If you've:
-#0423 block   f=0  p=0  L2   ( 111) | (Sorry, it's just that no one asked me if *I* wanted to rake in gobs of money, writing a book ab
-#0424 block   f=0  p=0  L3   ( 175) | _Computer Gaming World_ #131 (June, 1995) also had a brief article giving tips on some missions.
-#0425 block   f=0  p=0  L7   ( 449) | _Computer Game Review_ Vol. 4, No. 11 (June, 1995) included a 32-page special "CGR's Guide to Da
-#0426 block   f=0  p=0  L2   ( 131) | Keep your eyes open for a forthcoming book on 3-D gaming by Robert E. Waring, which will include
-#0427 art                 L6   | 8.7 Is there a DF fan club?
-#0428 block   f=0  p=5  L2   ( 340) | An excellent WinHelp/ASCII-based publication was the "Katarn's Saber Newsletter" (formerly calle
-#0429 block   f=0  p=5  L2   ( 146) | For exhaustive listings of DF-related stuff, contact the Invisible Knights <ikteam@ibm.net>, or 
-#0430 art                 L8   | 8.8 Is there any DF merchandise available?
-#0431 art                 L5   | You can also contact Zanart via phone or snail-mail. Ask for item SW-C14, for US$11.99+shipping.
-#0432 art                 L10  | DF T-shirt:
-#0433 art                 L5   | DF mousepad:
-#0434 art                 L9   | ====================
-#0435 art                 L3   | 9.1 How do I remap the keys?
-#0436 block   f=0  p=0  L6   ( 399) | DF allows you to customize all controls in the game, except "view center." The default for "view
-#0437 art                 L21  |    Control         Hex offset(s)
-#0438 art                 L1   | Here are some scan codes for keyboard keys in hexadecimal:
-#0439 art                 L2   | Q   W   E   R   T   Y   U   I   O   P   [   ]   [Enter]   left[Ctrl]
-#0440 art                 L2   | A   S   D   F   G   H   J   K   L   ;   '   `   left[Shift]
-#0441 art                 L2   | \   Z   X   C   V   B   N   M   ,   .   /   right[Shift]   keypad *
-#0442 art                 L2   | left[Alt]   [space]   [caps]
-#0443 block   f=0  p=0  L2   (  99) | To customize the controls, replace the data at the proper offset with the key code indicated abo
-#0444 art                 L6   | 9.2 What are .GOB files?
-#0445 art                 L13  | From Daron Stinnett (speaking about the demo level):
-#0446 art                 L9   | 9.2.1 What software was used to create the .GOB files?
-#0447 art                 L6   | 9.2.2 How should a custom .GOB file be loaded?
-#0448 art                 L7   | 9.3 How are the different floors separated?
-#0449 art                 L7   | 9.4 How are textures assigned?
-#0450 art                 L9   | 9.5 How are dynamic properties assigned?
-#0451 art                 L4   | 9.6 How do you place objects in a mission?
-#0452 art                 L4   | 9.7 Can you create floor panels that can be blown up?
-#0453 art                 L12  | 9.8 Can you create sloped floors?
-#0454 art                 L7   | 9.9 How are sounds associated with actions?
-#0455 art                 L8   | 9.10 Is there a limit to the size and complexity of the missions?
-#0456 art                 L9   | 9.11 Day of the Tentacle?
-#0457 art                 L1   |    Go to the end of the file and add the lines:
-#0458 art                 L6   |    CLASS: SPRITE  DATA: 11 X:183.00 Y: -42.00 Z:332.00 PCH: 0.00 YAW: 0.00
-#0459 block   f=3  p=3  L2   ( 102) | Save the file and put it in the DARK dir and start the game. The Tentacle will be waiting on the
-#0460 art                 L7   | ========================================
-#0461 art                 L5   | Dark Forces Editor Version v2.00 (dfed2.zip - 138,509 bytes)
-#0462 art                 L6   | Dark Forces UtilitieS and Editor v1.00 (dfuse100.exe - 1,072,330 bytes)
-#0463 art                 L1   |  - written by Yves Borckmans <Yves.Borckmans@ping.be>
-#0464 art                 L7   | Windows Dark Forces UtilitieS and Editor
-#0465 block   f=0  p=0  L5   ( 319) | Contrary to DFUSE/DOS, WDFUSE is SHAREWARE. Its registration fee is a $25 ALL CHARGES PAID Inter
-#0466 block   f=0  p=0  L3   ( 202) | Minimum requirements: a computer able to run Windows 3.1 or Windows 95, 8 Mb of RAM, a mouse, 64
-#0467 art                 L1   | As of this writing, the current version is 2.10beta1, in 16- and 32-bit flavours.
-#0468 art                 L2   | See Yves' Website at:
-#0469 art                 L1   |  - written by Yves Borckmans <Yves.Borckmans@ping.be>
-#0470 art                 L5   | WEdit: The New Dark Forces Editor for Win95
-#0471 art                 L6   | WEdit is shareware; for the full version that has the limitations removed and
-#0472 art                 L2   | WEdit v2.33 is available at the Wedit homepage:
-#0473 art                 L1   |  - written by Ole Thomasen <obt@interserv.com>,<102245.1610@compuserve.com>
-#0474 art                 L5   | 10.2 MacDF mission editors
-#0475 art                 L7   | 10.3 Custom missions
-#0476 art                 L6   | Fortunately for DF fans, a couple of people have come to my rescue!  Aris
-#0477 art                 L3   | Also, an extensive list of custom missions is available as part of the
-#0478 art                 L8   | ====================
-#0479 art                 L5   | 11.1 Help installing
-#0480 art                 L7   | LA has provided a fix for a "divide overflow error".  The following changes
-#0481 art                 L10  | 11.2 Help with sound cards
-#0482 art                 L12  | 11.3 Misc help
-#0483 art                 L6   | 11.4 How do I contact LA technical support?
-#0484 art                 L3   | America Online:
-#0485 art                 L4   | GEnie:
-#0486 art                 L3   | Internet Email:
-#0487 art                 L2   | WWW site:
-#0488 art                 L2   | Technical Support BBS:
-#0489 art                 L8   | =====================
-#0490 art                 L46  |  - Tim Smulders <smulders@iconn.net> sent me a bunch of custom Missions I was
-#0491 art                 L9   | ===============
+#0409 block   f=0  p=0  L2   ( 151) | Jump down. Head east and south. You'll see a row at five red switches at (-489/16.0/-139). Your 
+#0410 art                 L3   |             _____
+#0411 block   f=0  p=0  L2   ( 138) | This should work: hit the leftmost switch 4 times, the next one once, the next four times, the n
+#0412 block   f=0  p=0  L3   ( 211) | Go up elevator at (-552/16.0/-048) and thru newly opened doorway at (-534/64.0/-078); head south
+#0413 block   f=0  p=0  L6   ( 404) | Get into elevator and hit switch at (-529/64.0/-271) to go down. Go to the southwest hangar bay 
+#0414 art                 L3   | If you survive, go into the northeast hangar bay and open door at
+#0415 art                 L7   | ===========================
+#0416 art                 L8   | 8.1.1 Does DF induce motion sickness?
+#0417 art                 L8   | 8.2 Who are the people behind DF?
+#0418 art                 L6   | 8.3 Has George Lucas provided any input to DF?
+#0419 block   f=0  p=0  L6   ( 396) | In fact, Lucas appeared on CNN's _Future Watch_ show on the weekend of March 18/19 talking about
+#0420 art                 L7   | 8.4 What is the name of Kyle's dropship?
+#0421 art                 L11  | 8.5 What happened to the Imperial-class Star Destroyer Mission?
+#0422 art                 L6   | 8.6 Is there a strategy guide?
+#0423 art                 L11  | Should you buy this book?  Here's a checklist.  If you've:
+#0424 block   f=0  p=0  L2   ( 111) | (Sorry, it's just that no one asked me if *I* wanted to rake in gobs of money, writing a book ab
+#0425 block   f=0  p=0  L3   ( 175) | _Computer Gaming World_ #131 (June, 1995) also had a brief article giving tips on some missions.
+#0426 block   f=0  p=0  L7   ( 449) | _Computer Game Review_ Vol. 4, No. 11 (June, 1995) included a 32-page special "CGR's Guide to Da
+#0427 block   f=0  p=0  L2   ( 131) | Keep your eyes open for a forthcoming book on 3-D gaming by Robert E. Waring, which will include
+#0428 art                 L6   | 8.7 Is there a DF fan club?
+#0429 block   f=0  p=5  L2   ( 340) | An excellent WinHelp/ASCII-based publication was the "Katarn's Saber Newsletter" (formerly calle
+#0430 block   f=0  p=5  L2   ( 146) | For exhaustive listings of DF-related stuff, contact the Invisible Knights <ikteam@ibm.net>, or 
+#0431 art                 L8   | 8.8 Is there any DF merchandise available?
+#0432 art                 L5   | You can also contact Zanart via phone or snail-mail. Ask for item SW-C14, for US$11.99+shipping.
+#0433 art                 L10  | DF T-shirt:
+#0434 art                 L5   | DF mousepad:
+#0435 art                 L9   | ====================
+#0436 art                 L3   | 9.1 How do I remap the keys?
+#0437 block   f=0  p=0  L6   ( 399) | DF allows you to customize all controls in the game, except "view center." The default for "view
+#0438 art                 L21  |    Control         Hex offset(s)
+#0439 art                 L1   | Here are some scan codes for keyboard keys in hexadecimal:
+#0440 art                 L2   | Q   W   E   R   T   Y   U   I   O   P   [   ]   [Enter]   left[Ctrl]
+#0441 art                 L2   | A   S   D   F   G   H   J   K   L   ;   '   `   left[Shift]
+#0442 art                 L2   | \   Z   X   C   V   B   N   M   ,   .   /   right[Shift]   keypad *
+#0443 art                 L2   | left[Alt]   [space]   [caps]
+#0444 block   f=0  p=0  L2   (  99) | To customize the controls, replace the data at the proper offset with the key code indicated abo
+#0445 art                 L6   | 9.2 What are .GOB files?
+#0446 art                 L13  | From Daron Stinnett (speaking about the demo level):
+#0447 art                 L9   | 9.2.1 What software was used to create the .GOB files?
+#0448 art                 L6   | 9.2.2 How should a custom .GOB file be loaded?
+#0449 art                 L7   | 9.3 How are the different floors separated?
+#0450 art                 L7   | 9.4 How are textures assigned?
+#0451 art                 L9   | 9.5 How are dynamic properties assigned?
+#0452 art                 L4   | 9.6 How do you place objects in a mission?
+#0453 art                 L4   | 9.7 Can you create floor panels that can be blown up?
+#0454 art                 L12  | 9.8 Can you create sloped floors?
+#0455 art                 L7   | 9.9 How are sounds associated with actions?
+#0456 art                 L8   | 9.10 Is there a limit to the size and complexity of the missions?
+#0457 art                 L9   | 9.11 Day of the Tentacle?
+#0458 art                 L1   |    Go to the end of the file and add the lines:
+#0459 art                 L6   |    CLASS: SPRITE  DATA: 11 X:183.00 Y: -42.00 Z:332.00 PCH: 0.00 YAW: 0.00
+#0460 block   f=3  p=3  L2   ( 102) | Save the file and put it in the DARK dir and start the game. The Tentacle will be waiting on the
+#0461 art                 L7   | ========================================
+#0462 art                 L5   | Dark Forces Editor Version v2.00 (dfed2.zip - 138,509 bytes)
+#0463 art                 L6   | Dark Forces UtilitieS and Editor v1.00 (dfuse100.exe - 1,072,330 bytes)
+#0464 art                 L1   |  - written by Yves Borckmans <Yves.Borckmans@ping.be>
+#0465 art                 L7   | Windows Dark Forces UtilitieS and Editor
+#0466 block   f=0  p=0  L5   ( 319) | Contrary to DFUSE/DOS, WDFUSE is SHAREWARE. Its registration fee is a $25 ALL CHARGES PAID Inter
+#0467 block   f=0  p=0  L3   ( 202) | Minimum requirements: a computer able to run Windows 3.1 or Windows 95, 8 Mb of RAM, a mouse, 64
+#0468 art                 L1   | As of this writing, the current version is 2.10beta1, in 16- and 32-bit flavours.
+#0469 art                 L2   | See Yves' Website at:
+#0470 art                 L1   |  - written by Yves Borckmans <Yves.Borckmans@ping.be>
+#0471 art                 L5   | WEdit: The New Dark Forces Editor for Win95
+#0472 art                 L6   | WEdit is shareware; for the full version that has the limitations removed and
+#0473 art                 L2   | WEdit v2.33 is available at the Wedit homepage:
+#0474 art                 L1   |  - written by Ole Thomasen <obt@interserv.com>,<102245.1610@compuserve.com>
+#0475 art                 L5   | 10.2 MacDF mission editors
+#0476 art                 L7   | 10.3 Custom missions
+#0477 art                 L6   | Fortunately for DF fans, a couple of people have come to my rescue!  Aris
+#0478 art                 L3   | Also, an extensive list of custom missions is available as part of the
+#0479 art                 L8   | ====================
+#0480 art                 L5   | 11.1 Help installing
+#0481 art                 L7   | LA has provided a fix for a "divide overflow error".  The following changes
+#0482 art                 L10  | 11.2 Help with sound cards
+#0483 art                 L12  | 11.3 Misc help
+#0484 art                 L6   | 11.4 How do I contact LA technical support?
+#0485 art                 L3   | America Online:
+#0486 art                 L4   | GEnie:
+#0487 art                 L3   | Internet Email:
+#0488 art                 L2   | WWW site:
+#0489 art                 L2   | Technical Support BBS:
+#0490 art                 L8   | =====================
+#0491 art                 L46  |  - Tim Smulders <smulders@iconn.net> sent me a bunch of custom Missions I was
+#0492 art                 L9   | ===============
