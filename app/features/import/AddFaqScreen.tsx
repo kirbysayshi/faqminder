@@ -157,32 +157,29 @@ export function AddFaqScreen() {
         >
           <span aria-hidden>↗</span> FAQMinder: Save FAQ
         </a>
-        <p className="text-xs text-neutral-500">
-          Desktop: drag the above link to your bookmarks bar (or right click it -&gt; Save Bookmark). Mobile: tap to copy the URL below and
-          paste it as a new/edited bookmark's address.
-        </p>
-        <button
-          type="button"
-          onClick={copyBookmarklet}
-          className="self-start rounded-md bg-neutral-100 px-3 py-1.5 text-sm font-medium text-neutral-900 active:bg-neutral-300"
-        >
-          {copied ? "Copied ✓" : "Copy bookmarklet URL"}
-        </button>
+        
         <details className="text-sm text-neutral-400">
           <summary className="cursor-pointer text-neutral-300">
             How do I install it?
           </summary>
           <div className="mt-2 flex flex-col gap-2">
             <p>
-              <span className="text-neutral-200">Easiest (desktop):</span> in Safari,
-              Firefox, or Chrome on a Mac/PC, save it as a bookmark, then let
+              <span className="text-neutral-200">Easiest (desktop):</span> save the above button/link as a bookmark, then let
               iCloud / Firefox Sync / Chrome Sync carry it to your phone.
             </p>
             <p>
               <span className="text-neutral-200">On iOS:</span> bookmark any page,
               then edit that bookmark and replace its address with the copied URL.
             </p>
+            <button
+          type="button"
+          onClick={copyBookmarklet}
+          className="self-start rounded-md bg-neutral-100 px-3 py-1.5 text-sm font-medium text-neutral-900 active:bg-neutral-300"
+        >
+          {copied ? "Copied ✓" : "Copy bookmarklet URL"}
+        </button>
           </div>
+          
         </details>
       </section>
 

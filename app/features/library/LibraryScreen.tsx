@@ -37,9 +37,9 @@ export function LibraryScreen({ importSlot }: { importSlot?: ReactNode }) {
       </header>
 
       {faqs === undefined ? null : faqs.length === 0 ? (
-        <div className="mt-16 flex flex-col items-center gap-3 text-center text-neutral-400">
-          <p>No FAQs yet.</p>
-          <p>
+        <div className="mt-16 flex flex-col items-center gap-3 text-neutral-400">
+          <p className="text-center ">No FAQs yet.</p>
+          <p className="">
             This app is offline-first and stores data locally. It's best experienced if you
             Add to Home Screen via the Share button <ShareIcon />.
           </p>
@@ -47,7 +47,7 @@ export function LibraryScreen({ importSlot }: { importSlot?: ReactNode }) {
             href="https://support.apple.com/guide/iphone/open-as-web-app-iphea86e5236/ios"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm underline underline-offset-2 hover:text-neutral-200 active:text-neutral-200"
+            className="w-full flex-1 text-sm underline underline-offset-2 hover:text-neutral-200 active:text-neutral-200"
           >
             Turn a website into an app in Safari on iPhone
             <span aria-hidden="true">{" ↗"}</span>
