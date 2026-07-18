@@ -50,6 +50,7 @@ export function LibraryScreen({ importSlot }: { importSlot?: ReactNode }) {
             className="text-sm underline underline-offset-2 hover:text-neutral-200 active:text-neutral-200"
           >
             Turn a website into an app in Safari on iPhone
+            <span aria-hidden="true">{" ↗"}</span>
           </a>
         </div>
       ) : (
