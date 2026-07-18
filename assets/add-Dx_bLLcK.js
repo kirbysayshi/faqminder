@@ -1,0 +1,1 @@
+import{S as e,t}from"./jsx-runtime-C0yiz_Z4.js";import{t as n}from"./import-zNDzALlk.js";var r=t();function i(e){return[{title:`Add FAQ — FAQMinder`}]}var a=e(function(){return(0,r.jsx)(n,{})});export{a as default,i as meta};
