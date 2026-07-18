@@ -39,12 +39,19 @@ export function grabAndCopy(marker: string): void {
   }
   const payload = marker + "\t" + document.title + "\n" + body;
 
-  const bar =
-    "position:fixed;left:0;right:0;top:0;z-index:2147483647;box-sizing:border-box;margin:0;border:0;padding:14px 16px;background:rgb(10,10,10);color:rgb(255,255,255);font:600 16px -apple-system,system-ui,sans-serif;text-align:center;transition:opacity .5s ease";
-  const fadeAway = (el: HTMLElement): void => {
+  const overlayStyle =
+    "position:fixed;top:0;right:0;bottom:0;left:0;z-index:2147483647;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.55);transition:opacity .4s ease";
+  const cardStyle =
+    "max-width:80vw;box-sizing:border-box;margin:0;border:0;border-radius:14px;padding:20px 24px;background:rgb(10,10,10);color:rgb(255,255,255);font:600 17px -apple-system,system-ui,sans-serif;text-align:center;box-shadow:0 12px 40px rgba(0,0,0,0.6)";
+  const overlay = document.createElement("div");
+  overlay.style.cssText = overlayStyle;
+  overlay.onclick = function () {
+    overlay.remove();
+  };
+  const fadeAway = (): void => {
     setTimeout(() => {
-      el.style.opacity = "0";
-      setTimeout(() => el.remove(), 600);
+      overlay.style.opacity = "0";
+      setTimeout(() => overlay.remove(), 500);
     }, 2200);
   };
 
@@ -75,27 +82,30 @@ export function grabAndCopy(marker: string): void {
   const done = "FAQ copied. Open FAQMinder, then Paste.";
 
   if (copyNow()) {
-    const banner = document.createElement("div");
-    banner.textContent = done;
-    banner.style.cssText = bar;
-    document.documentElement.appendChild(banner);
-    fadeAway(banner);
+    const card = document.createElement("div");
+    card.textContent = done;
+    card.style.cssText = cardStyle;
+    overlay.appendChild(card);
+    document.body.appendChild(overlay);
+    fadeAway();
     return;
   }
 
   const btn = document.createElement("button");
   btn.textContent = "Copy FAQ for FAQMinder";
-  btn.style.cssText = bar + ";cursor:pointer";
-  btn.onclick = function () {
+  btn.style.cssText = cardStyle + ";cursor:pointer";
+  btn.onclick = function (e) {
+    e.stopPropagation();
     if (copyNow()) {
       btn.textContent = done;
       btn.disabled = true;
-      fadeAway(btn);
+      fadeAway();
     } else {
       btn.textContent = "Couldn't copy — tap to try again";
     }
   };
-  document.body.appendChild(btn);
+  overlay.appendChild(btn);
+  document.body.appendChild(overlay);
 }
 
 // Installable `javascript:` URL. The IIFE source is percent-encoded: a browser decodes a
