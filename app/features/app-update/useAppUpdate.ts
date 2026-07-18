@@ -2,7 +2,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { APP_VERSION, applyUpdate, fetchRemoteVersion } from "~/domains/version";
 
 // Don't hammer the server when a phone rapidly blurs/focuses.
-const MIN_INTERVAL_MS = 30_000;
+const MIN_INTERVAL_MS = 10_000;
 
 /**
  * Watches for the deployed app moving on underneath us. Re-checks whenever the app
