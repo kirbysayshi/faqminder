@@ -4,6 +4,7 @@ import { BOOKMARKLET, grabAndCopy } from "./bookmarklet";
 
 const title = "Zelda - Guide and Walkthrough - SNES - By Bar - GameFAQs";
 const expected = `${FAQ_CLIP_MARKER}\t${title}\nA\nB`;
+const done = "FAQ copied. Open FAQMinder, then Paste.";
 
 // jsdom has no `execCommand` at all (calling it throws), so we ASSIGN a fake rather than
 // spy on a missing property. It reads the copied text off the textarea at copy time; the
@@ -44,6 +45,7 @@ describe("grabAndCopy", () => {
 
     expect(copied()).toBe(expected);
     expect(document.querySelector("button")).toBeNull(); // no fallback needed
+    expect(document.querySelector("div")?.textContent).toBe(done); // banner instead
   });
 
   it("copies from the injected button's tap — the activation iOS Firefox needs", () => {
@@ -52,23 +54,25 @@ describe("grabAndCopy", () => {
     const copied = mockExec((call) => call > 1); // auto-try refused, button tap succeeds
 
     grabAndCopy(FAQ_CLIP_MARKER);
-    const btn = document.querySelector("button");
-    expect(btn?.textContent).toBe("Copy FAQ for FAQMinder");
+    const btn = document.querySelector("button")!;
+    expect(btn.textContent).toBe("Copy FAQ for FAQMinder");
 
-    btn!.click();
+    btn.click();
     expect(copied()).toBe(expected);
-    expect(document.querySelector("button")).toBeNull(); // removed after the tap
+    // The button becomes the confirmation (then fades) rather than being replaced.
+    expect(btn.textContent).toBe(done);
+    expect(btn.disabled).toBe(true);
   });
 
-  it("reports failure if even the button tap can't copy", () => {
+  it("shows a retry prompt on the button if even its tap can't copy", () => {
     document.body.innerHTML = '<div class="faqtext">x</div>';
     mockExec(() => false); // never succeeds
-    const alertSpy = vi.spyOn(window, "alert").mockImplementation(() => {});
 
     grabAndCopy(FAQ_CLIP_MARKER);
-    document.querySelector("button")!.click();
+    const btn = document.querySelector("button")!;
+    btn.click();
 
-    expect(alertSpy).toHaveBeenCalledOnce();
+    expect(btn.textContent).toBe("Couldn't copy — tap to try again");
   });
 
   it("alerts and copies nothing when the page has no .faqtext", () => {

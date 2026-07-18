@@ -39,13 +39,13 @@ export function grabAndCopy(marker: string): void {
   }
   const payload = marker + "\t" + document.title + "\n" + body;
 
-  const flash = (msg: string): void => {
-    const d = document.createElement("div");
-    d.textContent = msg;
-    d.style.cssText =
-      "position:fixed;left:0;right:0;top:0;z-index:2147483647;background:rgb(10,10,10);color:rgb(255,255,255);font:14px -apple-system,system-ui,sans-serif;padding:12px 16px;text-align:center";
-    document.documentElement.appendChild(d);
-    setTimeout(() => d.remove(), 2600);
+  const bar =
+    "position:fixed;left:0;right:0;top:0;z-index:2147483647;box-sizing:border-box;margin:0;border:0;padding:14px 16px;background:rgb(10,10,10);color:rgb(255,255,255);font:600 16px -apple-system,system-ui,sans-serif;text-align:center;transition:opacity .5s ease";
+  const fadeAway = (el: HTMLElement): void => {
+    setTimeout(() => {
+      el.style.opacity = "0";
+      setTimeout(() => el.remove(), 600);
+    }, 2200);
   };
 
   const copyNow = (): boolean => {
@@ -75,21 +75,24 @@ export function grabAndCopy(marker: string): void {
   const done = "FAQ copied. Open FAQMinder, then Paste.";
 
   if (copyNow()) {
-    flash(done);
+    const banner = document.createElement("div");
+    banner.textContent = done;
+    banner.style.cssText = bar;
+    document.documentElement.appendChild(banner);
+    fadeAway(banner);
     return;
   }
 
   const btn = document.createElement("button");
   btn.textContent = "Copy FAQ for FAQMinder";
-  btn.style.cssText =
-    "position:fixed;left:0;right:0;top:0;z-index:2147483647;border:0;padding:16px;background:rgb(10,10,10);color:rgb(255,255,255);font:600 16px -apple-system,system-ui,sans-serif;text-align:center";
+  btn.style.cssText = bar + ";cursor:pointer";
   btn.onclick = function () {
-    const ok = copyNow();
-    btn.remove();
-    if (ok) {
-      flash(done);
+    if (copyNow()) {
+      btn.textContent = done;
+      btn.disabled = true;
+      fadeAway(btn);
     } else {
-      alert("FAQMinder: couldn't copy on this browser.");
+      btn.textContent = "Couldn't copy — tap to try again";
     }
   };
   document.body.appendChild(btn);
