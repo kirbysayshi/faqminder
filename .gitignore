@@ -5,3 +5,5 @@ build
 .react-router
 scratch-shots
 .vitest-attachments
+
+.claude/worktrees/
